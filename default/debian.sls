@@ -48,6 +48,7 @@ pkgs:
     socat: true
 
     dnsutils: true
+    ipmitool: true
 
     screen: true
     tmux: true
@@ -56,6 +57,7 @@ pkgs:
     vim: true
     rsync: true
     git: true
+    pdsh: true
 
 boot:
   grub:
