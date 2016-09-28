@@ -14,6 +14,9 @@ base:
     - hosts.synth
   'canal.internal.sifive.com':
     - hosts.canal
+  'algol.internal.sifive.com':
+    - compute
+    - hosts.algol
 
   'combine.sifive.com':
     - xen.dom0
@@ -27,9 +30,6 @@ base:
   'b0.internal.sifive.com':
     - compute
     - hosts.b0
-  'b1.internal.sifive.com':
-    - compute
-    - hosts.b1
 
   'jenkins.internal.sifive.com':
     - hosts.jenkins
