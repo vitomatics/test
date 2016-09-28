@@ -49,6 +49,7 @@ pkgs:
 
     dnsutils: true
     ipmitool: true
+    traceroute: true
 
     screen: true
     tmux: true
