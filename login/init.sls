@@ -12,3 +12,4 @@ pkgs:
   list:
     sshguard: true
     mosh: true
+    xubuntu-desktop: true
