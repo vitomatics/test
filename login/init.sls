@@ -11,3 +11,4 @@ sshd:
 pkgs:
   list:
     sshguard: true
+    mosh: true
