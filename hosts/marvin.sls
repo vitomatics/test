@@ -12,4 +12,5 @@ network:
       type: bridge
       require: eno1
       bridge: br0
-      ports: eno1
+      ports:
+        - eno1
