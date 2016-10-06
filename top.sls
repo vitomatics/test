@@ -1,6 +1,7 @@
 base:
   '*':
     - default
+
   'citadel.internal.sifive.com':
     - hosts.citadel
 
@@ -23,6 +24,20 @@ base:
     - sf
     - login
     - hosts.algol
+
+  'eddie.internal.sifive.com':
+    - he
+    - vmhost
+    - hosts.eddie
+
+  'marvin.internal.sifive.com':
+    - he
+    - vmhost
+    - hosts.marvin
+
+  'heartofgold.internal.sifive.com':
+    - he
+    - hosts.heartofgold
 
   'combine.sifive.com':
     - xen.dom0
