@@ -37,6 +37,7 @@ base:
 
   'heartofgold.internal.sifive.com':
     - he
+    - backuphost
     - hosts.heartofgold
 
   'combine.sifive.com':

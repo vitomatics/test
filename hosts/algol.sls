@@ -1,3 +1,5 @@
+## pillar file for algol
+
 # network:
 #   interfaces:
 #     eth2:

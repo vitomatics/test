@@ -1,3 +1,5 @@
+## Pillar file for vmhost machines
+
 sudo:
   userspec:
     - root:
