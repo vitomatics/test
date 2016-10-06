@@ -7,7 +7,7 @@ network:
       ip: 10.14.16.33
     eno1:
       type: eth
-      bridge: br0
+      # bridge: br0
       proto: none
       netmask: 
       gateway:
