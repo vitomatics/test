@@ -51,6 +51,7 @@ pkgs:
     ipmitool: true
     traceroute: true
     lsscsi: true
+    bridge-utils: true
 
     screen: true
     tmux: true
