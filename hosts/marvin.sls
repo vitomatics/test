@@ -16,7 +16,7 @@ network:
       type: bridge
       proto: none
       require: eno1
-      bridge: br0
+      # bridge: br0
       netmask:
       gateway:
       nameservers: [ ]
