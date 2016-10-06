@@ -14,7 +14,7 @@ network:
       nameservers: [ ]
     br0:
       type: bridge
-      proto: manual
+      proto: dhcp
       require: eno1
       netmask:
       gateway:
