@@ -1,7 +1,7 @@
 network:
   interfaces:
-    eth2:
-     ip: 10.14.1.6
+    enp4s0:
+      ip: 10.14.1.6
 
 boot:
   grub:

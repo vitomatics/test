@@ -2,5 +2,5 @@
 
 network:
   interfaces:
-    eth0:
+    eno3:
       ip: 10.14.16.32
