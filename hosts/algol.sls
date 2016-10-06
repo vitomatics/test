@@ -1,9 +1,6 @@
 ## pillar file for algol
 
-# network:
-#   interfaces:
-#     eth2:
-#       ip: 10.14.1.7
+# network - dhcp
 
 # boot:
 #   grub:
