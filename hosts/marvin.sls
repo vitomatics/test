@@ -8,13 +8,13 @@ network:
     eno1:
       type: eth
       # bridge: br0
-      proto: none
+      proto: manual
       netmask: 
       gateway:
       nameservers: [ ]
     br0:
       type: bridge
-      proto: none
+      proto: manual
       require: eno1
       # bridge: br0
       netmask:
