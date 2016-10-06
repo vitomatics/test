@@ -10,13 +10,13 @@ network:
       bridge: br0
       netmask: 
       gateway:
-      dns-nameservers:
+      dns-nameservers: [ ]
     br0:
       type: bridge
       require: eno1
       bridge: br0
       netmask:
       gateway:
-      dns-nameservers:
+      dns-nameservers: [ ]
       ports:
         - eno1
