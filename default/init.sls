@@ -117,3 +117,6 @@ firewall:
   ports:
     tcp:
       - 22
+
+managedby:
+  sh: # Managed by SiFive salt
