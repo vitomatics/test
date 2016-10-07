@@ -119,4 +119,4 @@ firewall:
       - 22
 
 managedby:
-  sh: "\#\# Managed by SiFive salt"
+  sh: "## Managed by SiFive salt"
