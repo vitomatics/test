@@ -1,5 +1,8 @@
 ## Pillar file for vmhost machines
 
+states:
+  libvirt: true
+
 sudo:
   userspec:
     - root:
