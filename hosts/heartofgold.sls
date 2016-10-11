@@ -2,7 +2,8 @@
 ## ZFS-based backup server
 
 pkgs:
-  zfsutils-linux: true
+  list:
+    zfsutils-linux: true
 
 network:
   interfaces:
