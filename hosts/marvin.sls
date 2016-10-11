@@ -1,5 +1,8 @@
 ## Pillar file for marvin
 
+states:
+  vmdisk_altair: True
+
 network:
   interfaces:
     ## Regular management interface
