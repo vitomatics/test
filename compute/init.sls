@@ -48,6 +48,7 @@ pkgs:
     xterm: true
     chromium-browser: true
     emacs: true
+    git-el: true
     nedit: true
     vim-gtk: true
     joe: true
