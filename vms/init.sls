@@ -7,6 +7,10 @@ vms:
         size: 80G
         vdtype: lvm
         vdvg: vm1
+      data:
+        size: 20G
+        vdtype: lvm
+        vdvg: vm1
     type: libvirt
     vcpu: 2
     mem: 4G
