@@ -28,14 +28,14 @@ base:
   'eddie.internal.sifive.com':
     - he
     - vmhost
-    - vms
     - hosts.eddie
+    - vms
 
   'marvin.internal.sifive.com':
     - he
     - vmhost
-    - vms
     - hosts.marvin
+    - vms
 
   'heartofgold.internal.sifive.com':
     - he
