@@ -56,6 +56,7 @@ pkgs:
     evince: true
     dbus-x11: true
     gitk: true
+    rcs: true
 
     # riscv-tools
     build-essential: true
@@ -69,6 +70,8 @@ pkgs:
     libmpc-dev: true
     libmpfr-dev: true
     libgmp-dev: true
+
+    libncurses5-dev: true
 
     sbt: true
     # Modules
