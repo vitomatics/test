@@ -4,11 +4,7 @@ vms:
   altair:
     disks:
       root:
-        size: 80G
-        vdtype: lvm
-        vdvg: vm1
-      data:
-        size: 20G
+        size: 30G
         vdtype: lvm
         vdvg: vm1
     type: libvirt
