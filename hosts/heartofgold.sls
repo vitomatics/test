@@ -1,4 +1,8 @@
 ## Pillar file for heartofgold
+## ZFS-based backup server
+
+pkgs:
+  zfsutils-linux: true
 
 network:
   interfaces:
