@@ -1,7 +1,7 @@
 ## Pillar file for marvin
 
 states:
-  vmdisk_altair: True
+  vmdisk: True
 
 network:
   interfaces:
