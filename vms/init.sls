@@ -3,7 +3,6 @@
 vms:
   altair:
     type: libvirt
-    vcpus: 2
     memory: 4096   # In GB
     vmhost: marvin
     macs:
