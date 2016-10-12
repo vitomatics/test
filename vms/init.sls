@@ -12,6 +12,7 @@ vms:
         vdtype: lvm
         size: 20G
         vg: vmpool02
+	lv: altair_data1
     type: libvirt
     vcpus: 2
     memory: 4096   # In GB
