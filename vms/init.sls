@@ -8,6 +8,10 @@ vms:
         size: 30G
         vdtype: lvm
         vdvg: vm1
+      data:
+        size: 20G
+	vdvg: vm1
+	vdtype: lvm
     type: libvirt
     vcpus: 2
     memory: 4096   # In GB
