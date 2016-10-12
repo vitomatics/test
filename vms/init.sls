@@ -19,7 +19,7 @@ vms:
         vdtype: lvm
         size: 20G
         vg: vmpool02
-	lv: altair_data1
+        lv: altair_data1
     preseed: altair
     os: xenial        
    
