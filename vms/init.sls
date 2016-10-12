@@ -5,13 +5,13 @@ vms:
     preseed: altair
     disks:
       root:
+        vdtype: lvm
         size: 30G
-        vdtype: lvm
-        vg: vm1
+        vg: vmpool02
       data:
-        size: 20G
-        vg: vm1
         vdtype: lvm
+        size: 20G
+        vg: vmpool02
     type: libvirt
     vcpus: 2
     memory: 4096   # In GB
