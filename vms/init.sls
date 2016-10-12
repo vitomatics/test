@@ -8,7 +8,6 @@ vms:
     memory: 4096   # In GB
     ifs:
       eth0:
-        mac: 00:16:3e:01:23:73
         bridge: br0
     disks:
       root:
@@ -24,3 +23,4 @@ vms:
     os: xenial
    
 vm2:
+        mac: 00:16:3e:01:23:73
