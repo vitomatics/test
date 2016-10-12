@@ -3,7 +3,6 @@
 vms:
   altair:
     type: libvirt
-    memory: 4096   # In GB
     vmhost: marvin
     macs:
       eth0:
@@ -19,6 +18,9 @@ vms:
         size: 20G
         vg: vmpool02
         lv: altair_data1
-    preseed: altair
-    os: xenial        
    
+vm2:
+    memory: 4096   # In GB
+    preseed: altair
+    os: xenial
+    vcpus: 2
