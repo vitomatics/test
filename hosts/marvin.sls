@@ -1,7 +1,7 @@
 ## Pillar file for marvin
 
 states:
-  vmdisk: True
+  sfvirt: true
 
 network:
   interfaces:

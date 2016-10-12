@@ -2,6 +2,7 @@
 
 vms:
   altair:
+    preseed: altair
     disks:
       root:
         size: 30G
@@ -15,4 +16,6 @@ vms:
     macs:
       eth0:
         mac: 00:16:3e:01:23:73
+        bridge: br0
+        
    
