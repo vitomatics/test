@@ -5,6 +5,7 @@ vms:
     type: libvirt
     vmhost: marvin
     vcpus: 2
+    memory: 4096   # In GB
     ifs:
       eth0:
         bridge: br0
@@ -20,7 +21,6 @@ vms:
         vg: vmpool02
         lv: altair_data1
     preseed: altair
-    os: xenial
+    os: ubuntu16.04
    
 vm2:
-    memory: 4096   # In GB
