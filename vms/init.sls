@@ -6,7 +6,7 @@ vms:
     vmhost: marvin
     vcpus: 2
     memory: 4096   # In GB
-    macs:
+    ifs:
       eth0:
         mac: 00:16:3e:01:23:73
         bridge: br0
