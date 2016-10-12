@@ -9,8 +9,8 @@ vms:
         vdtype: lvm
         vdvg: vm1
     type: libvirt
-    vcpu: 2
-    mem: 4G
+    vcpus: 2
+    memory: 4096   # In GB
     bridge: br0
     vmhost: marvin
     macs:
