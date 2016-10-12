@@ -15,7 +15,7 @@ vms:
     type: libvirt
     vcpus: 2
     memory: 4096   # In GB
-    vmhost: marvina
+    vmhost: marvin
     macs:
       eth0:
         mac: 00:16:3e:01:23:73
