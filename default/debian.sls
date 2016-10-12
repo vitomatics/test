@@ -62,6 +62,9 @@ pkgs:
     git: true
     pdsh: true
 
+    wcalc: true
+    calc: true
+
 boot:
   grub:
     serial:
