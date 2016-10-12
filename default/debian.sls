@@ -63,7 +63,7 @@ pkgs:
     pdsh: true
 
     wcalc: true
-    calc: true
+    apcalc: true
 
 boot:
   grub:
