@@ -5,10 +5,10 @@ vms:
     type: libvirt
     vmhost: marvin
     vcpus: 2
-    memory: 4096   # In GB
     ifs:
       eth0:
         bridge: br0
+        mac: 00:16:3e:01:23:73
     disks:
       root:
         vdtype: lvm
@@ -23,4 +23,4 @@ vms:
     os: xenial
    
 vm2:
-        mac: 00:16:3e:01:23:73
+    memory: 4096   # In GB
