@@ -22,5 +22,3 @@ vms:
         lv: altair_data1
     preseed: altair
     os: ubuntu16.04
-   
-vm2:
