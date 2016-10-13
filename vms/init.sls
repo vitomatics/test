@@ -6,7 +6,6 @@ vms:
     vmhost: marvin
     vcpus: 2
     memory: 4096   # In GB
-    autostart: on
     ifs:
       eth0:
         bridge: br0
@@ -18,3 +17,6 @@ vms:
         vg: vmpool02
     preseed: altair
     os: ubuntu16.04
+
+test:
+    autostart: on
