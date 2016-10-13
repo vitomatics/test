@@ -48,9 +48,6 @@ base:
   'gamma*.internal.sifive.com':
     - compute
 
-  'gamma07.internal.sifive.com':
-    - hosts.gamma07
-
   'i*.internal.sifive.com':
     - compute
 
