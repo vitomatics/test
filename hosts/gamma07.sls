@@ -1,4 +1,0 @@
-pam:
-  access:
-    compute: ~
-    jenkins: ~
