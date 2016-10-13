@@ -90,7 +90,7 @@ pkgs:
     {% endif %}
     
     # Python
-    virtualenv
+    virtualenv: true
 
     # general development
     libncurses5-dev: true
