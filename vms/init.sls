@@ -6,7 +6,7 @@ vms:
     vmhost: marvin
     vcpus: 2
     memory: 4096   # In GB
-    autostart: false
+    autostart: on
     ifs:
       eth0:
         bridge: br0
