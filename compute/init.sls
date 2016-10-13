@@ -71,7 +71,6 @@ pkgs:
     libmpfr-dev: true
     libgmp-dev: true
 
-    libncurses5-dev: true
 
     sbt: true
     # Modules
@@ -89,7 +88,12 @@ pkgs:
     {% elif grains.os == 'Ubuntu' %}
     libmng2: true
     {% endif %}
+    
+    # Python
+    virtualenv
 
+    # general development
+    libncurses5-dev: true
     libglib2.0-dev: true
 
     # IVy
