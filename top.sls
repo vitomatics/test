@@ -53,6 +53,7 @@ base:
 
   'b0.internal.sifive.com':
     - compute
+    - compute.lab
     - hosts.b0
 
   'jenkins.internal.sifive.com':
