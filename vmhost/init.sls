@@ -9,3 +9,8 @@ sudo:
       - ALL: '(ALL:ALL) ALL'
     - '%sysadmin':
       - ALL: '(ALL:ALL) ALL'
+
+
+libvirt:
+  bridges:
+    - br1
