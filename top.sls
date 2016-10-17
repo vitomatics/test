@@ -25,6 +25,11 @@ base:
     - login
     - hosts.algol
 
+  'altair.internal.sifive.com':
+    - he
+    - login
+    - hosts.altair
+
   'eddie.internal.sifive.com':
     - he
     - vmhost
