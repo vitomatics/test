@@ -17,6 +17,9 @@ base:
   'synth.internal.sifive.com':
     - hosts.synth
 
+  'gonarch.internal.sifive.com':
+    - hosts.gonarch
+
   'canal.internal.sifive.com':
     - hosts.canal
 
@@ -53,7 +56,11 @@ base:
   'gamma*.internal.sifive.com':
     - compute
 
-  'i*.internal.sifive.com':
+  'i0.internal.sifive.com':
+    - compute
+    - hosts.i0
+
+  'i1.internal.sifive.com':
     - compute
 
   'b0.internal.sifive.com':
