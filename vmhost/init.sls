@@ -11,6 +11,3 @@ sudo:
       - ALL: '(ALL:ALL) ALL'
 
 
-libvirt:
-  bridges:
-    - br1

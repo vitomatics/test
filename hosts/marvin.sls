@@ -26,3 +26,7 @@ network:
       nameservers: [ ]
       ports:
         - eno1
+
+libvirt:
+  bridges:
+    - br0
