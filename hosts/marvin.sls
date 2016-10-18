@@ -29,4 +29,4 @@ network:
 
 libvirt:
   bridges:
-    - br0
+    - br1
