@@ -23,6 +23,10 @@ base:
   'canal.internal.sifive.com':
     - hosts.canal
 
+  'dalek.internal.sifive.com':
+    - he
+    - hosts.dalek
+
   'algol.internal.sifive.com':
     - sf
     - login
