@@ -118,5 +118,11 @@ firewall:
     tcp:
       - 22
 
+sfinstall:
+  ubuntu:
+    distbase: http://mirrors.kernel.org/ubuntu
+    preseedbase: http://pxe.internal.sifive.com/preseed
+    
+
 managedby:
   sh: "## Managed by SiFive salt"
