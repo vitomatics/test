@@ -29,47 +29,47 @@ base:
 
   'algol.internal.sifive.com':
     - static-subnet.sf-unix
-    - login
+    - profile.login
     - hosts.algol
 
   'altair.internal.sifive.com':
     - static-subnet.he-unix
-    - login
+    - profile.login
     - hosts.altair
 
   'eddie.internal.sifive.com':
     - static-subnet.he-unix
-    - vmhost
+    - profile.vmhost
     - vms
     - hosts.eddie
 
   'marvin.internal.sifive.com':
     - static-subnet.he-unix
-    - vmhost
+    - profile.vmhost
     - vms
     - hosts.marvin
 
   'heartofgold.internal.sifive.com':
     - static-subnet.he-unix
-    - backuphost
+    - profile.backuphost
     - hosts.heartofgold
 
   'combine.sifive.com':
     - xen.dom0
 
   'gamma*.internal.sifive.com':
-    - compute
+    - profile.compute
 
   'i0.internal.sifive.com':
-    - compute
+    - profile.compute
     - hosts.i0
 
   'i1.internal.sifive.com':
-    - compute
+    - profile.compute
 
   'b0.internal.sifive.com':
-    - compute
-    - compute.lab
+    - profile.compute
+    - profile.labhost
     - hosts.b0
 
   'jenkins.internal.sifive.com':
