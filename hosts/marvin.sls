@@ -32,7 +32,8 @@ libvirt:
     - br0
 
 disksetup:
-  vgs: vmpool02:
-    disks:
-      - /dev/sdb
+  vgs:
+    vmpool02:
+      disks:
+        - /dev/sdb
   
