@@ -1,7 +1,7 @@
 # Pillar config for generic login server
 
 include:
-  - compute
+  - profile.compute
 
 sshd:
   options:
