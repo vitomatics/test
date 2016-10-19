@@ -20,6 +20,6 @@ disksetup:
   mounts:
     /srv:
       fstype: ext4
-      opts:
+      opts: ro
       lv: dalek00/srv
 
