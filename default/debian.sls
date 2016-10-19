@@ -7,6 +7,7 @@ states:
   sysctl: true
   pkgs.apt: true
   boot.grub: true
+  icsisnap: true
 
 nss:
   group:
