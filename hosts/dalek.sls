@@ -21,5 +21,5 @@ disksetup:
     /srv:
       fstype: ext4
       opts:
-      lv: srv
+      lv: dalek00/srv
 
