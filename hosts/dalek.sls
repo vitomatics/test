@@ -15,7 +15,7 @@ disksetup:
   lvs:
     srv:
       size: 200G
-      vg:dalek00
+      vg: dalek00
 
   mounts:
     /srv:
