@@ -14,7 +14,7 @@ disksetup:
         - /dev/vdb
   lvs:
     srv:
-      size: 200G
+      size: 100G
       vg: dalek00
 
   mounts:
