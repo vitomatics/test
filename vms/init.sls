@@ -18,6 +18,8 @@ vms:
         vg: vmpool02
     preseed: altair
     os: ubuntu16.04
+
+vms:
   dalek:
     type: libvirt
     vmhost: marvin
