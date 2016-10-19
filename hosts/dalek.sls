@@ -6,3 +6,9 @@ network:
   interfaces:
     ens2:
       ip: 10.14.16.35
+
+disksetup:
+  vgs:
+    dalek00:
+      disks:
+        - /dev/vdb
