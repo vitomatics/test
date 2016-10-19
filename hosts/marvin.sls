@@ -30,3 +30,9 @@ network:
 libvirt:
   bridges:
     - br0
+
+disksetup:
+  vgs: vmpool02:
+    disks:
+      - /dev/sdb
+  
