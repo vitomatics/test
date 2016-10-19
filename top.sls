@@ -24,33 +24,33 @@ base:
     - hosts.canal
 
   'dalek.internal.sifive.com':
-    - he
+    - static-subnet.he-unix
     - hosts.dalek
 
   'algol.internal.sifive.com':
-    - sf
+    - static-subnet.sf-unix
     - login
     - hosts.algol
 
   'altair.internal.sifive.com':
-    - he
+    - static-subnet.he-unix
     - login
     - hosts.altair
 
   'eddie.internal.sifive.com':
-    - he
+    - static-subnet.he-unix
     - vmhost
-    - hosts.eddie
     - vms
+    - hosts.eddie
 
   'marvin.internal.sifive.com':
-    - he
+    - static-subnet.he-unix
     - vmhost
-    - hosts.marvin
     - vms
+    - hosts.marvin
 
   'heartofgold.internal.sifive.com':
-    - he
+    - static-subnet.he-unix
     - backuphost
     - hosts.heartofgold
 
