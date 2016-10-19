@@ -12,3 +12,14 @@ disksetup:
     dalek00:
       disks:
         - /dev/vdb
+  lvs:
+    srv:
+      size: 200G
+      vg: vmpool02
+
+  mounts:
+    /srv:
+      fstype: ext4
+      opts:
+      lv: srv
+
