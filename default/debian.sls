@@ -52,6 +52,7 @@ pkgs:
     ipmitool: true
     traceroute: true
     lsscsi: true
+    gdisk: true
     bridge-utils: true
 
     screen: true
