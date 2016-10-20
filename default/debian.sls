@@ -65,6 +65,7 @@ pkgs:
 
     wcalc: true
     apcalc: true
+    emacs-nox: true
 
 boot:
   grub:
