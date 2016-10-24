@@ -47,6 +47,7 @@ pkgs:
     mtr-tiny: true
     tcpdump: true
     socat: true
+    tftp-hpa: true
 
     dnsutils: true
     ipmitool: true
