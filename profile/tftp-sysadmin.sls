@@ -2,3 +2,7 @@
 
 states:
   tftpd: true
+
+tftpd:
+  lookup:
+    directory: /srv/tftpboot
