@@ -9,7 +9,7 @@ apache:
     
   name_virtual_hosts:
     - interface: '*'
-        port: 80
+      port: 80
 
   sites:
     sfrepo:
