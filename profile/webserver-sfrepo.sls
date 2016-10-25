@@ -20,7 +20,7 @@ apache:
 
       Directory:
         /srv/www/sfrepo:
-	  Order: Deny,Allow
-	  Deny: from all
-	  Allow: from 10.14
-	  AllowOverride: None
+          Order: Deny,Allow
+          Deny: from all
+          Allow: from 10.14
+          AllowOverride: None
