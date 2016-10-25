@@ -1,12 +1,16 @@
 ## pillar file for dalek
 
-# network - static - serveral services
+# Apache
+states:
+  apache-formula/apache: true
 
+# network - static - serveral services
 network:
   interfaces:
     ens2:
       ip: 10.14.16.35
 
+# A VG for the srv directory
 disksetup:
   vgs:
     dalek00:
