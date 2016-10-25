@@ -2,7 +2,7 @@
 
 # Apache
 states:
-  apache-formula/apache: true
+  apache: true
 
 # network - static - serveral services
 network:
