@@ -13,7 +13,7 @@ apache:
 
   sites:
     sfrepo:
-      enable: True
+      enabled: True
       ServerName: sfrepo.internal.sifive.com
       ServerAdmin: help@sifive.com
       DocumentRoot: /srv/www/sfrepo
