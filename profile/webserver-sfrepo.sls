@@ -2,6 +2,8 @@
 
 states:
   apache: true
+  apache.no_default_vhost: true
+  apache.vhosts.standard: true
 
 apache:
   lookup:
