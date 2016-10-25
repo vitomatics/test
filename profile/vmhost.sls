@@ -2,6 +2,7 @@
 
 states:
   libvirt: true
+  sfvirt: true
 
 sudo:
   userspec:

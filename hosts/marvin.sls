@@ -1,8 +1,5 @@
 ## Pillar file for marvin
 
-states:
-  sfvirt: true
-
 network:
   interfaces:
     ## Regular management interface
