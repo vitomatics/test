@@ -55,6 +55,8 @@ pkgs:
     lsscsi: true
     gdisk: true
     bridge-utils: true
+    smartmontools: true
+    mcelog: true
 
     screen: true
     tmux: true
