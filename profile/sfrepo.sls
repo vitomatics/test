@@ -1,7 +1,7 @@
 # Pillar config for the SiFive local repo
 
 {% set sfrepo = { } %}
-{% do sfrepo['dir'] = '/srv/www/sfrepo' %}
+{% do sfrepo.update({'dir' : '/srv/www/sfrepo'} %}
 
 include:
   - profile.webserver
