@@ -4,6 +4,10 @@ states:
   libvirt: true
   sfvirt: true
 
+kmods:
+  list:
+    8021q: true
+
 sudo:
   userspec:
     - root:
