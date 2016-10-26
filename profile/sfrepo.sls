@@ -8,6 +8,7 @@ include:
   
 states:
   apache.vhosts.standard: true
+  reprepro: true
 
 apache:
   sites:
