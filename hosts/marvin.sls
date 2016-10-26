@@ -7,7 +7,7 @@ network:
       ip: 10.14.16.33
 
     ## Dedicated (VLAN?) trunk interface for VMs
-    eno1:
+    eno1.101:
       type: eth
       proto: manual
       netmask: 
@@ -17,12 +17,12 @@ network:
     br0:
       type: bridge
       proto: dhcp
-      require: eno1
+      require: eno1.101
       netmask:
       gateway:
       nameservers: [ ]
       ports:
-        - eno1
+        - eno1.101
 
 libvirt:
   bridges:
