@@ -22,7 +22,5 @@ apache:
 
       Directory:
         /srv/www/sfrepo:
-          Order: Deny,Allow
-          Deny: from all
-          Allow: from 10.14
+	  Require: ip 10.14.0.0/16
           AllowOverride: None
