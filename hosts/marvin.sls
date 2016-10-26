@@ -23,7 +23,7 @@ network:
     ## Bridge for unix-net
     br0:
       type: bridge
-      proto: dhcp
+      proto: manual
       require: eno1.101
       netmask:
       gateway:
