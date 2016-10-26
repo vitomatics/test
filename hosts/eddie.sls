@@ -19,6 +19,16 @@ network:
       gateway:
       nameservers: [ ]
       vlan-raw-device: eno1
+    ## Bridge for unix-net
+    br0:
+      type: bridge
+      proto: manual
+      require: eno1.101
+      netmask:
+      gateway:
+      nameservers: [ ]
+      ports:
+        - eno1.101
 
 disksetup:
   vgs:
