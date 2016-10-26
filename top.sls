@@ -26,7 +26,7 @@ base:
   'dalek.internal.sifive.com':
     - static-subnet.he-unix
     - profile.tftp-sysadmin
-    - profile.webserver-sfrepo
+    - profile.webserver.sfrepo
     - hosts.dalek
 
   'algol.internal.sifive.com':

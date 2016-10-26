@@ -1,18 +1,12 @@
-# Pillar config for tftp server hosting sysadmin files.
+# Pillar config for web server holding the SiFive repo.
 
+include:
+  - profile.webserver
+  
 states:
-  apache: true
-  apache.no_default_vhost: true
   apache.vhosts.standard: true
 
 apache:
-  lookup:
-    version: '2.4'
-    
-  name_virtual_hosts:
-    - interface: '*'
-      port: 80
-
   sites:
     sfrepo:
       enabled: True
