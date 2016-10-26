@@ -1,4 +1,6 @@
-# Pillar config for web server holding the SiFive repo.
+# Pillar config for the SiFive local repo
+
+{% set sfrepo['dir'] = '/srv/www/sfrepo' %}
 
 include:
   - profile.webserver
@@ -12,9 +14,11 @@ apache:
       enabled: True
       ServerName: sfrepo.internal.sifive.com
       ServerAdmin: help@sifive.com
-      DocumentRoot: /srv/www/sfrepo
+      DocumentRoot: {{ sfrepo.dir }}
 
       Directory:
-        /srv/www/sfrepo:
+        {{ sfrepo.dir }}:
           Require: ip 10.14.0.0/16
           AllowOverride: None
+
+
