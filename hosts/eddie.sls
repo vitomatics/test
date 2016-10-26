@@ -2,7 +2,7 @@
 
 network:
   interfaces:
-    eno3:
+    em3:
       ip: 10.14.16.32
 
 disksetup:
