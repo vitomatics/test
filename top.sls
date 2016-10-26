@@ -76,3 +76,6 @@ base:
 
   'jenkins.internal.sifive.com':
     - hosts.jenkins
+
+  'sandbox.internal.sifive.com':
+    - hosts.sandbox
