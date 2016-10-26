@@ -22,5 +22,5 @@ apache:
 
       Directory:
         /srv/www/sfrepo:
-	  Require: ip 10.14.0.0/16
+          Require: ip 10.14.0.0/16
           AllowOverride: None
