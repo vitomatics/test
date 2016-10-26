@@ -5,7 +5,7 @@ vms:
     type: libvirt
     vmhost: marvin
     vcpus: 2
-    memory: 4096   # In GB
+    memory: 4096   # In MB
     autostart: on
     ifs:
       eth0:
