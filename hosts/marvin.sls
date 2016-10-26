@@ -3,23 +3,23 @@
 network:
   interfaces:
     ## Regular management interface
-    ens3:
+    eno3:
       ip: 10.14.16.33
 
     ## Dedicated (VLAN?) trunk interface for VMs
-    ens1:
+    eno1:
       type: eth
       proto: manual
       netmask: 
       gateway:
       nameservers: [ ]
-    ens1.101:
+    eno1.101:
       type: eth
       proto: manual
       netmask: 
       gateway:
       nameservers: [ ]
-      vlan-raw-device: ens1
+      vlan-raw-device: eno1
     ## Bridge for unix-net
     br0:
       type: bridge
@@ -29,7 +29,7 @@ network:
       gateway:
       nameservers: [ ]
       ports:
-        - ens1.101
+        - eno1.101
 
 libvirt:
   bridges:
