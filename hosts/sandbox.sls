@@ -2,5 +2,8 @@
 
 # network - dhcp
 
+include:
+  - homedirs
+
 states:
   homedirs: true
