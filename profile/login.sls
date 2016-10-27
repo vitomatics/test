@@ -6,6 +6,7 @@ include:
 sshd:
   options:
     PasswordAuthentication: no
+    X11Forwarding: yes
 
 
 pkgs:
