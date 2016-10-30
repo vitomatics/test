@@ -58,6 +58,8 @@ pkgs:
     dbus-x11: true
     gitk: true
     rcs: true
+    # Used by emacs
+    gnome-icon-theme: true
 
     # riscv-tools
     build-essential: true
