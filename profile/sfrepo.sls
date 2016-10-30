@@ -24,4 +24,12 @@ apache:
           AllowOverride: None
 
 reprepro:
-  dir: /srv/packages
+  dir: {{ sfrepo.dir }}
+  repos:
+    sifive-local-xenial:
+      subdir: sifive-local/xenial
+      origin: SiFive
+      label: sifive_local
+      codename: xenial
+      architectures: i386 amd64 source
+      description: SiFive xenial local repository
