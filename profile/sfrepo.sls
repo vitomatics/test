@@ -2,7 +2,7 @@
 
 {% set sfrepo = { } %}
 {% do sfrepo.update({'dir' : '/srv/www/sfrepo'}) %}
-{% do sfrepo.update({'gpghome' : '/srv/keys'}) %}
+{% do sfrepo.update({'gnupghome' : '/srv/keys'}) %}
 
 include:
   - profile.webserver
@@ -26,7 +26,7 @@ apache:
 
 reprepro:
   dir: {{ sfrepo.dir }}
-  gpghome: {{ sfrepo.gpghome }}
+  gnupghome: {{ sfrepo.gnupghome }}
   repos:
     sifive-local-xenial:
       subdir: sifive-local/xenial
