@@ -2,6 +2,7 @@
 
 {% set sfrepo = { } %}
 {% do sfrepo.update({'dir' : '/srv/www/sfrepo'}) %}
+{% do sfrepo.update({'gpghome' : '/srv/keys'}) %}
 
 include:
   - profile.webserver
@@ -25,6 +26,7 @@ apache:
 
 reprepro:
   dir: {{ sfrepo.dir }}
+  gpghome: {{ sfrepo.gpghome }}
   repos:
     sifive-local-xenial:
       subdir: sifive-local/xenial
@@ -33,3 +35,4 @@ reprepro:
       codename: xenial
       architectures: i386 amd64 source
       description: SiFive xenial local repository
+      signwith: pkgsigner
