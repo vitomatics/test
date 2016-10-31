@@ -39,3 +39,5 @@ reprepro:
       components: main
       description: SiFive Xenial local repository
       signwith: pkgsigner
+      packages:
+        /srv/images/nomachine/nomachine-terminal-server-evaluation_5.1.54_2_amd64.deb
