@@ -28,12 +28,12 @@ reprepro:
   dir: {{ sfrepo.dir }}
   gnupghome: {{ sfrepo.gnupghome }}
   repos:
-    xenial:
-      subdir: xenial
+    sifive-xenial:
+      subdir: sifive-xenial
       origin: SiFive
       label: SiFive Xenial
-      codename: xenial
+      codename: sifive-xenial
       architectures: i386 amd64 source
-      components: main local
+      components: main
       description: SiFive Xenial local repository
       signwith: pkgsigner
