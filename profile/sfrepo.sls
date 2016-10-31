@@ -1,7 +1,8 @@
 # Pillar config for the SiFive local repo
 
 {% set sfrepo = { } %}
-{% do sfrepo.update({'dir' : '/srv/www/sfrepo'}) %}
+{% do sfrepo.update({'wwwdir' : '/srv/www/sfrepo'}) %}
+{% do sfrepo.update({'repodir' : '/srv/repos/sfrepo'}) %}
 {% do sfrepo.update({'gnupghome' : '/srv/keys'}) %}
 
 include:
@@ -17,15 +18,16 @@ apache:
       enabled: True
       ServerName: sfrepo.internal.sifive.com
       ServerAdmin: help@sifive.com
-      DocumentRoot: {{ sfrepo.dir }}
+      DocumentRoot: {{ sfrepo.wwwdir }}
 
       Directory:
-        {{ sfrepo.dir }}:
+        {{ sfrepo.wwwdir }}:
           Require: ip 10.14.0.0/16
           AllowOverride: None
 
 reprepro:
-  dir: {{ sfrepo.dir }}
+  dir: {{ sfrepo.repodir }}
+  wwwdir: {{ sfrepo.wwwdir }}
   gnupghome: {{ sfrepo.gnupghome }}
   repos:
     sifive-xenial:
