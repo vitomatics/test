@@ -66,6 +66,7 @@ pkgs:
     rsync: true
     git: true
     pdsh: true
+    make: true
 
     wcalc: true
     apcalc: true
