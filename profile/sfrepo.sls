@@ -30,7 +30,6 @@ apache:
 reprepro:
   dir: {{ sfrepo.repodir }}
   wwwdir: {{ sfrepo.wwwdir }}
-  gnupghome: {{ sfrepo.gnupghome }}
   keys:
     pkgsigner:
       keyname: keys:pkgsigner
