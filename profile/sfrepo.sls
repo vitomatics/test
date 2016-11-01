@@ -2,8 +2,10 @@
 
 {% set sfrepo = { } %}
 {% do sfrepo.update({'wwwdir' : '/srv/www/sfrepo'}) %}
-{% do sfrepo.update({'repodir' : '/srv/repos/sfrepo'}) %}
+{% do sfrepo.update({'repodir' : '/srv/reprepro/sfrepo'}) %}
 {% do sfrepo.update({'gnupghome' : '/srv/keys'}) %}
+
+
 
 include:
   - profile.webserver
@@ -29,6 +31,10 @@ reprepro:
   dir: {{ sfrepo.repodir }}
   wwwdir: {{ sfrepo.wwwdir }}
   gnupghome: {{ sfrepo.gnupghome }}
+  keys:
+    pkgsigner:
+      keyname: pkgsigner
+      keyfile: SIFIVE-GPG-KEY.pub
   repos:
     sifive-xenial:
       subdir: sifive-xenial
