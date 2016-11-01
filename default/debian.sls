@@ -37,7 +37,7 @@ pkgs:
       sifive:
         {% set sfrepo='http://sfrepo.internal.sifive.com' %}
         uri: {{sfrepo}}/dists/sifive-{{suite}}
-	key_url: {{sfrepo}}/SIFIVE-GPG-KEY.pub
+        key_url: {{sfrepo}}/SIFIVE-GPG-KEY.pub
 
   list:
     htop: true
