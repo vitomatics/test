@@ -14,3 +14,4 @@ pkgs:
     sshguard: true
     mosh: true
     xubuntu-desktop: true
+    nomachine-terminal-sever: true
