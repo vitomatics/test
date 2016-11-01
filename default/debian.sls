@@ -37,7 +37,7 @@ pkgs:
 
       sifive:
         uri: http://sfrepo.internal.sifive.com/dists/sifive-xenial
-	suite: {{ suite }}
+        suite: {{ suite }}
         key_url: http://sfrepo.internal.sifive.com/SIFIVE-GPG-KEY.pub
 
   list:
