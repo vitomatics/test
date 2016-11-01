@@ -33,7 +33,7 @@ reprepro:
   gnupghome: {{ sfrepo.gnupghome }}
   keys:
     pkgsigner:
-      keyname: pkgsigner
+      keyname: keys:test
       keyfile: SIFIVE-GPG-KEY.pub
   repos:
     sifive-xenial:
