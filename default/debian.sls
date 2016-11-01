@@ -36,9 +36,10 @@ pkgs:
         key_url: https://{{saltsite}}/SALTSTACK-GPG-KEY.pub
 
       sifive:
-        uri: http://sfrepo.internal.sifive.com/dists/sifive-xenial
+        {% set sfrepo = 'http://sfrepo.internal.sifive.com' %}
+        uri: {{sfrepo}}/dists/sifive-xenial
         suite: {{ suite }}
-        key_url: http://sfrepo.internal.sifive.com/SIFIVE-GPG-KEY.pub
+        key_url: {{sfrepo}}/SIFIVE-GPG-KEY.pub
 
   list:
     htop: true
