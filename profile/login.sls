@@ -15,4 +15,6 @@ pkgs:
     sshguard: true
     mosh: true
     xubuntu-desktop: true
+    ubuntu-desktop: true
     gnome-shell: true
+    
