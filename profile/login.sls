@@ -2,6 +2,7 @@
 
 include:
   - profile.compute
+  - profile.nomachine
 
 sshd:
   options:
