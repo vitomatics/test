@@ -38,6 +38,7 @@ base:
   'altair.internal.sifive.com':
     - static-subnet.he-unix
     - profile.login
+    - homedirs
     - hosts.altair
 
   'eddie.internal.sifive.com':
