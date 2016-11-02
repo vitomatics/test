@@ -3,14 +3,12 @@
 {% set sfimagedir = '/srv/images' %}
 {% set sfgroup = 'sysadmin' %}
 
-{% set sysadmin = salt['group.info'](sfgroup) %}
-{% set sysadmin = sysadmin.gid|default(sfgroup) %}
 
 file:
   mkdir:
     {{ sfimagedir }}:
       user: root
-      group: {{ sysadmin }}
+      group: {{ sfgroup }}
       mode: '02770'     # setuid group
 
 apache:
