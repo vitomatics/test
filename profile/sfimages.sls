@@ -1,6 +1,17 @@
 # A website for serving the sifive image files
 
 {% set sfimagedir = '/srv/images' %}
+{% set sfgroup = 'sysadmin' %}
+
+{% set sysadmin = salt['group.info']( {{ sfgroup}} ) %}
+{% set sysadmin = sysadmin.gid|default( {{sfgroup}} ) %}
+
+file:
+  mkdir:
+    {{ sfimagedir }}:
+      user: root
+      group: {{ sysadmin }}
+      mode: '02770'     # setuid group
 
 apache:
   sites:
