@@ -27,6 +27,7 @@ base:
     - static-subnet.he-unix
     - profile.tftp-sysadmin
     - profile.sfrepo
+    - profile.sfimages
     - hosts.dalek
 
   'algol.internal.sifive.com':
