@@ -3,8 +3,8 @@
 {% set sfimagedir = '/srv/images' %}
 {% set sfgroup = 'sysadmin' %}
 
-{% set sysadmin = salt['group.info']( {{ sfgroup}} ) %}
-{% set sysadmin = sysadmin.gid|default( {{sfgroup}} ) %}
+{% set sysadmin = salt['group.info'](sfgroup) %}
+{% set sysadmin = sysadmin.gid|default(sfgroup) %}
 
 file:
   mkdir:
