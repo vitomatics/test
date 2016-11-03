@@ -9,7 +9,6 @@ sshd:
     PasswordAuthentication: no
     X11Forwarding: yes
 
-
 pkgs:
   list:
     mosh: true
@@ -17,3 +16,10 @@ pkgs:
     ubuntu-desktop: true
     gnome-shell: true
     
+firewall:
+  sshguard: true
+  ports:
+    tcp:
+      22: any
+    udp:
+      60000:61000: any
