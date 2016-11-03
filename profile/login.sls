@@ -25,4 +25,4 @@ firewall:
     tcp:
       22: any
     udp:
-      60000:61000: any
+      60000:61001: any
