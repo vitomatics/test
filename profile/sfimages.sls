@@ -9,7 +9,7 @@ file:
     {{ sfimagedir }}:
       user: root
       group: {{ sfgroup }}
-      mode: '02770'     # setuid group
+      mode: '02775'     # setuid group
 
 apache:
   sites:
