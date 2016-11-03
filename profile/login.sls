@@ -23,6 +23,6 @@ firewall:
   sshguard: true
   ports:
     tcp:
-      22: any
+      22: 0.0.0.0/0
     udp:
-      60000:61001: any
+      60000:61001: 0.0.0.0/0
