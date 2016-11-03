@@ -7,7 +7,7 @@ firewall:
   sshguard: true
   ports:
     tcp:
-      22: true
+      22: 0.0.0.0/0
 
 # boot:
 #   grub:
