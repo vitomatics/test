@@ -15,7 +15,10 @@ pkgs:
     xubuntu-desktop: true
     ubuntu-desktop: true
     gnome-shell: true
-    
+
+services:
+  firewall.iptables: true
+  
 firewall:
   sshguard: true
   ports:
