@@ -2,6 +2,13 @@
 
 # network - dhcp
 
+## test firewall stuff for altair
+firewall:
+  sshguard: true
+  ports:
+    tcp:
+      22: true
+
 # boot:
 #   grub:
 #     serial:
