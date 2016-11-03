@@ -16,7 +16,7 @@ pkgs:
     ubuntu-desktop: true
     gnome-shell: true
 
-services:
+states:
   firewall.iptables: true
   
 firewall:
