@@ -28,5 +28,7 @@ firewall:
   ports:
     tcp:
       22: {{ sshclientnets }}
+{#
     udp:
       60000:61000: {{ sshclientnets }}
+#}
