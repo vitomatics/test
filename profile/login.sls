@@ -6,6 +6,7 @@
 include:
   - profile.compute
   - profile.nomachine
+  - homedirs
 
 sshd:
   options:
