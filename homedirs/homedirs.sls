@@ -1,4 +1,5 @@
-homedirs:
+
+ homedirs:
   users:
     terpstra:
       uid: 1106
