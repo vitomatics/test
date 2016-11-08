@@ -25,7 +25,7 @@ states:
   sshguard: true
   
 firewall:
-  sshguard: true
+  usesshguard: true
   ports:
     tcp:
       22: {{ sshclientnets }}
