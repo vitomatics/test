@@ -22,6 +22,7 @@ pkgs:
 
 states:
   firewall.iptables: true
+  sshguard: true
   
 firewall:
   sshguard: true
