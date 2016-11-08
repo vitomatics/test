@@ -1,7 +1,7 @@
 # Pillar config for generic login server
 
 {# Note outside addresses are NATed #}
-{% set sshclientnets = "10.14.0.0/16 10.17.0.0/16 10.100.0.0/16 10.101.0.0/16" %}
+{% set sshclientnets = "any" %}
 
 include:
   - profile.compute
