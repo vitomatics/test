@@ -5,6 +5,6 @@
 include:
   - homedirs.homedirs
 
-latesstates:
+latestates:
   homedirs: true
 
