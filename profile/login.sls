@@ -15,9 +15,9 @@ sshd:
 pkgs:
   list:
     mosh: true
-    {# xubuntu-desktop: true #}
-    {# ubuntu-desktop: true #}
-    {# gnome-shell: true #}
+    xubuntu-desktop: true
+    ubuntu-desktop: true
+    gnome-shell: true
 
 states:
   firewall.iptables: true
