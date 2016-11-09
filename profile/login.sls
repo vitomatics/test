@@ -1,11 +1,10 @@
 # Pillar config for generic login server
 
-{# Note outside addresses are NATed #}
-{% set sshclientnets = "any" %}
 
 include:
   - profile.compute
   - profile.nomachine
+  - site.sshguard-whitelist
 {#  - homedirs #}
 
 sshd:
@@ -28,6 +27,6 @@ firewall:
   usesshguard: true
   ports:
     tcp:
-      22: {{ sshclientnets }}
+      22: any
     udp:
-      60000:61000: {{ sshclientnets }}
+      60000:61000: any
