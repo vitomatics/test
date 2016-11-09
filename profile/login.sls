@@ -3,7 +3,7 @@
 
 include:
   - profile.compute
-{#  - profile.nomachine #}
+  - profile.nomachine
   - site.sshguard-whitelist
   - homedirs
 
