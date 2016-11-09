@@ -81,6 +81,8 @@ nss:
       - sss
     group:
       - sss
+    shadow:
+      - sss
 
 pam:
   access:
