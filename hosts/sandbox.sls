@@ -5,5 +5,3 @@
 include:
   - homedirs
 
-states:
-  homedirs: true

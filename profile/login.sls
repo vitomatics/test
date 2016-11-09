@@ -5,7 +5,7 @@ include:
   - profile.compute
 {#  - profile.nomachine #}
   - site.sshguard-whitelist
-{#  - homedirs #}
+  - homedirs
 
 sshd:
   options:
@@ -22,7 +22,7 @@ pkgs:
 states:
   firewall.iptables: true
   sshguard: true
-  
+
 firewall:
   usesshguard: true
   ports:
