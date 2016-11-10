@@ -1,5 +1,4 @@
-
- homedirs:
+homedirs:
   users:
     terpstra:
       uid: 1106
@@ -95,3 +94,13 @@
       gid: 1110
       authorized_keys:
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8cXbMkdiJW0Cj6NiAT2dmu7d4rxLFGxmVXNav4GUJjSENFn8/dZ42EJ/MYxJ6cyQsagBDYi8SXtMhbSxu5TdxxrW3Ixadn//cSDO7LJv0YJnm1oA24RnvvmZUVN1yR2OfVagB3vC5Cd7NlBKz9CHwgHH0Mwdd+FRbqjWwYxplEcPL2L+d/HQ9FhKMg6nV3BXkzZXm/Gs0cYkQQaaz1vEHCrZFgBE16YS5uK4vbVVOxlAf+CnVra3JEz1gKb3Vv5DvhpHtNHjPPkKhhy4PdDca3nGd5QHfUN9T4g6vdf5COEh61BzSUEj6KDzJDLMZffBameapu78MwbbJ08VNGrhf zhehao-ssh-key
+    dbuyze:
+      uid: 1120
+      gid: 1120
+      authorized_keys:
+        - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjY98byi0cMXp/+pJi7RdobE1/OnR9A/esSYA21GHP0tlHeW6r58yUQCGgQB0WmXc821Yh7CXhuVYsiHAosReAF4b+MwvDn3Hm+bYE3RPpWVaH0+cO1P8uwmPx1t64LPNH+Wtta5IP7xHwV2HHHhN/f+Kv5W5/I0ZnzBLFlv07bZjt4Yk823lgoUz538svHGM5PXuKhhsGYqCrEURqBLPBo7ZuGBH5II7cGQI4oqfiDI6zyRg+A3wjQ76uWnBOUuCglY6RxWlEONszUQjlqJvGc5BzNfE4Y+IwtcynzQHml5WOtdSvTVWVkVle+RCiRgy3k8DF0fJWkau1IBGQl3lYQ== SiFive
+    mreddy:
+      uid: 1121
+      gid: 1121
+      authorized_keys:
+        - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAs33bFqxHd1gfNb2eBw4BeC1JEQ02Av4V+0GcnZ7emW82qqy1VWR8wH6cFb7gyCdT0nZuK7ea8IPXTB3hqXoUi1+dL9nX3u4llCmQmRZ6B5W57AhlfCIaKqeCZof6qJ7s8d1FUattAL/aQ3gA/bx0DG+BiUtJk+7vMTiWGJ8JLJQVDRKB/ZZIwCmbIoqPgAT0x8tKrlCjUx5j8E+EvSP7I9TzV24UW45RhS/mGU2qaKKjT3iosLYqPY38qvdwKHwbdATMWDRItd7l7CeHJOQgRyQ4P3orTNejF4ah2XIeHmg7CNHNIrUJ6RQr8wimxnn7vhN2UD/XhzgXa2TDMb90cw==
