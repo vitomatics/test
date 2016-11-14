@@ -18,7 +18,9 @@ pkgs:
     xubuntu-desktop: true
     ubuntu-desktop: true
     gnome-shell: true
-
+    gnome-terminal: true
+    lxterminal: true
+    
 states:
   firewall.iptables: true
   sshguard: true
