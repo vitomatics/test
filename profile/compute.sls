@@ -73,7 +73,7 @@ pkgs:
     libmpc-dev: true
     libmpfr-dev: true
     libgmp-dev: true
-
+    dejagnu: true
 
     sbt: true
     # Modules
@@ -94,6 +94,7 @@ pkgs:
     
     # Python
     virtualenv: true
+    python-pip: true
 
     # general development
     libncurses5-dev: true
