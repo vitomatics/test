@@ -10,28 +10,21 @@ sfsalt:
     sfsalt.lookup.formulardir: /srv/formulas
 
   formulas:
-    apache-formula: true
+    - apache-formula
 
   nodegroups:
     login:
-      algol.internal.sifive.com: true
-      altair.internal.sifive.com: true
+      - algol.internal.sifive.com
+      - altair.internal.sifive.com
     compute:
-      algol.internal.sifive.com: true
-      altair.internal.sifive.com: true
-      gamma00.internal.sifive.com: true
-      gamma01.internal.sifive.com: true
-      gamma02.internal.sifive.com: true
-      gamma03.internal.sifive.com: true
-      gamma04.internal.sifive.com: true
-      gamma05.internal.sifive.com: true
-      gamma06.internal.sifive.com: true
-      gamma07.internal.sifive.com: true
-      i0.internal.sifive.com: true
-      i1.internal.sifive.com: true
-      b0.internal.sifive.com: true
+      - algol.internal.sifive.com
+      - altair.internal.sifive.com
+      - gamma*.internal.sifive.com
+      - i0.internal.sifive.com
+      - i1.internal.sifive.com
+      - b0.internal.sifive.com
     vmhost:
-      eddie: true
-      marvin: true
+      - eddie.internal.sifive.com
+      - marvin.internal.sifive.com
 
 
