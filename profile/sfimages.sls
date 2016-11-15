@@ -23,5 +23,5 @@ apache:
         {{ sfimagedir }}:
           Require: ip 10.14.0.0/16
           AllowOverride: None
-	  Options: '+Indexes'
+          Options: +Indexes
 
