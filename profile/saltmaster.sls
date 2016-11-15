@@ -6,13 +6,13 @@ sfsalt:
     sfsalt.lookup.pillardir: /srv/pillar
     sfsalt.lookup.formulardir: /srv/formulas
 
-formulas:
-  apache-formula: true
+  formulas:
+    apache-formula: true
 
-nodegroups:
-  login:
-    algol: true
-    altair: true
+  nodegroups:
+    login:
+      algol: true
+      altair: true
 
 #   formulas:
 #     formulaname: true
