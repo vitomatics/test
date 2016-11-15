@@ -100,6 +100,7 @@ pkgs:
     # Python
     virtualenv: true
     python-pip: true
+    python-pexpect: true
 
     # general development
     libncurses5-dev: true
