@@ -62,6 +62,7 @@ base:
 
   'gamma*.internal.sifive.com':
     - profile.compute
+    - hosts.gamma
 
   'i0.internal.sifive.com':
     - profile.compute

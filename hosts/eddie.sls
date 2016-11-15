@@ -1,5 +1,9 @@
 ## Pillar file for eddie
 
+boot:
+  grub:
+    serial:
+
 network:
   interfaces:
     ## Regular management interface

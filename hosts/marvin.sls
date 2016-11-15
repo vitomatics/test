@@ -1,5 +1,9 @@
 ## Pillar file for marvin
 
+boot:
+  grub:
+    serial:
+
 network:
   interfaces:
     ## Regular management interface
