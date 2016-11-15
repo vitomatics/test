@@ -27,3 +27,14 @@ disksetup:
       opts: noatime
       lv: dalek00/srv
 
+
+states:
+  firewall.iptables: true
+
+firewall:
+  ports:
+    tcp:
+      80: 10.0.0.0/8           {# HTTP #}
+      443: 10.0.0.0/8          {# HTTPS #} 
+    udp:
+      69: 10.0.0.0/8           {# TFTP #}
