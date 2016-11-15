@@ -46,7 +46,12 @@ pkgs:
     texlive-full: true
 
     xterm: true
+    {% if grains.os == 'Debian' %}
+    chromium: true
+    {% elif grains.os == 'Ubuntu' %}
     chromium-browser: true
+    {% endif %}
+
     emacs-nox: false
     emacs: true
     git-el: true
