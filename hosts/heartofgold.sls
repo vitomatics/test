@@ -1,6 +1,10 @@
 ## Pillar file for heartofgold
 ## ZFS-based backup server
 
+boot:
+  grub:
+    serial:
+
 states:
   zfs: true
 
