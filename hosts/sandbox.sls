@@ -4,5 +4,5 @@
 
 include:
   - homedirs
-  - profile.sfsalt
+  - profile.saltmaster
 
