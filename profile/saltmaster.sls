@@ -1,5 +1,8 @@
 # SiFive Pillar setup for the salt master.
 
+states:
+  sfsalt: true
+
 sfsalt:
   lookup:
     sfsalt.lookup.saltdir: /srv/salt

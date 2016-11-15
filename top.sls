@@ -18,6 +18,7 @@ base:
     - hosts.synth
 
   'gonarch.internal.sifive.com':
+    - profile.saltmaster
     - hosts.gonarch
 
   'canal.internal.sifive.com':
