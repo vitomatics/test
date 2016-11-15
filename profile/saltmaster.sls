@@ -14,22 +14,22 @@ sfsalt:
 
   nodegroups:
     login:
-      algol: true
-      altair: true
+      algol.internal.sifive.com: true
+      altair.internal.sifive.com: true
     compute:
-      algol: true
-      altair: true
-      gamma00: true
-      gamma01: true
-      gamma02: true
-      gamma03: true
-      gamma04: true
-      gamma05: true
-      gamma06: true
-      gamma07: true
-      i0: true
-      i1: true
-      b0: true
+      algol.internal.sifive.com: true
+      altair.internal.sifive.com: true
+      gamma00.internal.sifive.com: true
+      gamma01.internal.sifive.com: true
+      gamma02.internal.sifive.com: true
+      gamma03.internal.sifive.com: true
+      gamma04.internal.sifive.com: true
+      gamma05.internal.sifive.com: true
+      gamma06.internal.sifive.com: true
+      gamma07.internal.sifive.com: true
+      i0.internal.sifive.com: true
+      i1.internal.sifive.com: true
+      b0.internal.sifive.com: true
     vmhost:
       eddie: true
       marvin: true

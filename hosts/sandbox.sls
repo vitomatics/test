@@ -4,5 +4,4 @@
 
 include:
   - homedirs
-  - profile.saltmaster
 
