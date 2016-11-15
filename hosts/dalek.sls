@@ -1,8 +1,8 @@
 ## pillar file for dalek
 
-# Apache
 states:
   apache: true
+  firewall.iptables: true
 
 # network - static - serveral services
 network:
@@ -27,9 +27,6 @@ disksetup:
       opts: noatime
       lv: dalek00/srv
 
-
-states:
-  firewall.iptables: true
 
 firewall:
   ports:
