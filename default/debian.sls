@@ -30,7 +30,7 @@ pkgs:
 
       saltstack:
         {% set saltsite = [ 'repo.saltstack.com/apt', (grains.os|lower),
-          grains.osrelease, grains.osarch, 'latest']|join('/') %}
+          grains.osmajorrelease, grains.osarch, 'latest']|join('/') %}
         uri: http://{{saltsite}}
         suite: {{ suite }}
         key_url: https://{{saltsite}}/SALTSTACK-GPG-KEY.pub
