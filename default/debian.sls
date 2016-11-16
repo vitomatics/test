@@ -73,9 +73,13 @@ pkgs:
     zsh: true
     vim: true
     rsync: true
-    git: true
     pdsh: true
+    rpm: true
+    alien: true
+
+    build-essential: true
     make: true
+    git: true
 
     wcalc: true
     apcalc: true
