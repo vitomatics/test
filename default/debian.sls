@@ -69,6 +69,7 @@ pkgs:
 
     screen: true
     tmux: true
+    mailutils: true
 
     zsh: true
     vim: true
