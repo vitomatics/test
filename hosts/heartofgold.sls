@@ -13,8 +13,6 @@ network:
     eno1:
       ip: 10.14.16.48
 
-{#
-
 disksetup:
   zpools:
     bkpool01:
@@ -52,5 +50,3 @@ disksetup:
           - mirror
           - /dev/disk/by-id/wwn-0x5000cca0491f4508
           - /dev/disk/by-id/wwn-0x5000cca0491f424c
-
-#}
