@@ -18,7 +18,7 @@ disksetup:
     bkpool01:
       properties:
         ashift: '12'
-	mountpoint: /pools
+        mountpoint: /pools
       filesystem_properties:
         compression: 'lz4'
         atime: 'off'
