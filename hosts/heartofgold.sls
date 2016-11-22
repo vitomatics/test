@@ -21,7 +21,7 @@ disksetup:
       filesystem_properties:
         compression: 'lz4'
         atime: 'off'
-        mountpoint: /pool
+        mountpoint: /pool/mkpool01
       layout:
         mirror-0:
           - /dev/disk/by-id/wwn-0x5000cca2543ecd38
