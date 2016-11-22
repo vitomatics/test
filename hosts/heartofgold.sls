@@ -48,7 +48,7 @@ disksetup:
           - /dev/disk/by-id/wwn-0x5000cca2543f8f28
           - /dev/disk/by-id/wwn-0x5000cca2542fc368
         log-0:
-	  - mirror
+          - mirror
           - /dev/disk/by-id/wwn-0x5000cca0491f4508
           - /dev/disk/by-id/wwn-0x5000cca0491f424c
 	  
