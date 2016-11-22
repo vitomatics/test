@@ -30,13 +30,13 @@ disksetup:
           - /dev/disk/by-id/wwn-0x5000cca2543f8f88
         mirror-2:
           - /dev/disk/by-id/wwn-0x5000cca2543e3110
-	  - /dev/disk/by-id/wwn-0x5000cca2543f9200
+          - /dev/disk/by-id/wwn-0x5000cca2543f9200
         mirror-3: 
           - /dev/disk/by-id/wwn-0x5000cca2543c5bbc
-	  - /dev/disk/by-id/wwn-0x5000cca2543e6d94
+          - /dev/disk/by-id/wwn-0x5000cca2543e6d94
         mirror-4:
-	  - /dev/disk/by-id/wwn-0x5000cca25436e238
-	  - /dev/disk/by-id/wwn-0x5000cca254364754
+          - /dev/disk/by-id/wwn-0x5000cca25436e238
+          - /dev/disk/by-id/wwn-0x5000cca254364754
         mirror-5:
           - /dev/disk/by-id/wwn-0x5000cca2543d1b3c
           - /dev/disk/by-id/wwn-0x5000cca2543dc184
