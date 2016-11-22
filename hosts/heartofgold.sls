@@ -44,6 +44,7 @@ disksetup:
         mirror-6:
           - /dev/disk/by-id/wwn-0x5000cca2543d9e60
           - /dev/disk/by-id/wwn-0x5000cca254262f18
+{#
         spare-0:
           - /dev/disk/by-id/wwn-0x5000cca2543f8f28
           - /dev/disk/by-id/wwn-0x5000cca2542fc368
@@ -52,3 +53,4 @@ disksetup:
           - /dev/disk/by-id/wwn-0x5000cca0491f4508
           - /dev/disk/by-id/wwn-0x5000cca0491f424c
 
+#}
