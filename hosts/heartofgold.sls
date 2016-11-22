@@ -16,12 +16,12 @@ network:
 disksetup:
   zpools:
     bkpool01:
-      mountpoint: /pools
       properties:
         ashift: '12'
       filesystem_properties:
         compression: 'lz4'
         atime: 'off'
+        mountpoint: /pool
       layout:
         mirror-0:
           - /dev/disk/by-id/wwn-0x5000cca2543ecd38
