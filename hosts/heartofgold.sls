@@ -17,7 +17,7 @@ disksetup:
   zpools:
     bkpool01:
       properties:
-        ashift: 12
+        ashift: '12'
       filesystem_properties:
         compression: lz4
         atime: off
