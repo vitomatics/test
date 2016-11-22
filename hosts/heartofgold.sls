@@ -19,8 +19,8 @@ disksetup:
       properties:
         ashift: '12'
       filesystem_properties:
-        compression: lz4
-        atime: off
+        compression: 'lz4'
+        atime: 'off'
       layout:
         mirror-0: /dev/disk/by-id/wwn-0x5000cca2543ecd38 /dev/disk/by-id/wwn-0x5000cca2543e7cc8
 
