@@ -23,8 +23,8 @@ disksetup:
         atime: 'off'
       layout:
         mirror-0:
-	  /dev/disk/by-id/wwn-0x5000cca2543ecd38
-	  /dev/disk/by-id/wwn-0x5000cca2543e7cc8
+	  - /dev/disk/by-id/wwn-0x5000cca2543ecd38
+	  - /dev/disk/by-id/wwn-0x5000cca2543e7cc8
 
 {#
         mirror-1:
