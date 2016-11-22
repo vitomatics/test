@@ -27,7 +27,7 @@ disksetup:
           - /dev/disk/by-id/wwn-0x5000cca2543e7cc8
         mirror-1:
           - /dev/disk/by-id/wwn-0x5000cca2543e9a80
-	  - /dev/disk/by-id/wwn-0x5000cca2543f8f88
+          - /dev/disk/by-id/wwn-0x5000cca2543f8f88
         mirror-2:
           - /dev/disk/by-id/wwn-0x5000cca2543e3110
 	  - /dev/disk/by-id/wwn-0x5000cca2543f9200
