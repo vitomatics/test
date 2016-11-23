@@ -57,8 +57,8 @@ disksetup:
     bkpool01/backup:
       - properties:
           mountpoint: /sfbackup
-	  atime: off
-	  compression: lz4
+          atime: off
+          compression: lz4
     bkpool01/backup/work:
     bkpool01/backup/sifive:
     
