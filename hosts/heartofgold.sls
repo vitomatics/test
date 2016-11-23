@@ -59,7 +59,8 @@ disksetup:
         mountpoint: /sfbackup
         atime: off
     bkpool01/sfbackup/work:
-          compression: lzjb
+      properties:
+        compression: lzjb
     bkpool01/sfbackup/sifive:
     
 
