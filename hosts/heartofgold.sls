@@ -13,15 +13,17 @@ network:
     eno1:
       ip: 10.14.16.48
 
+
+
 disksetup:
   zpools:
     bkpool01:
       properties:
         ashift: '12'
       filesystem_properties:
-        compression: 'lz4'
-        atime: 'off'
         mountpoint: /pool/bkpool01
+        atime: 'off'
+        compression: 'lz4'
       layout:
         mirror-0:
           - /dev/disk/by-id/wwn-0x5000cca2543ecd38
@@ -51,4 +53,13 @@ disksetup:
           - mirror
           - /dev/disk/by-id/wwn-0x5000cca0491f4508
           - /dev/disk/by-id/wwn-0x5000cca0491f424c
+  zfss:
+    bkpool01/backup:
+      - properties:
+          mountpoint: /sfbackup
+	  atime: off
+	  compression: lz4
+    bkpool01/backup/work:
+    bkpool01/backup/sifive:
+    
 
