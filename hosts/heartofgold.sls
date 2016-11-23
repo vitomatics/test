@@ -58,6 +58,7 @@ disksetup:
       properties:
         mountpoint: /sfbackup
         atime: off
+      create_parent: true
     bkpool01/sfbackup/work:
       properties:
         compression: lzjb
