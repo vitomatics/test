@@ -1,6 +1,6 @@
 ## Pillar file for backuphost machines
 
-{% if grains.osfamily == 'Debian' %}
+{% if grains.os_family == 'Debian' %}
 pkgs:
   list:
     nfs-common: true
