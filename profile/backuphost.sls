@@ -1,5 +1,11 @@
 ## Pillar file for backuphost machines
 
+{% if grains.osfamily == 'Debian' %}
+pkgs:
+  list:
+    nfs-common: true
+{% endif %}
+
 sudo:
   userspec:
     - root:
