@@ -54,12 +54,12 @@ disksetup:
           - /dev/disk/by-id/wwn-0x5000cca0491f4508
           - /dev/disk/by-id/wwn-0x5000cca0491f424c
   zfss:
-    bkpool01/backup:
-      - properties:
-          mountpoint: /sfbackup
-          atime: off
-          compression: lz4
+    bkpool01/sfbackup:
+      properties:
+        mountpoint: /sfbackup
+        atime: off
     bkpool01/backup/work:
+          compression: lzjb
     bkpool01/backup/sifive:
     
 
