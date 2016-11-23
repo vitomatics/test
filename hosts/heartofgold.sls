@@ -13,6 +13,9 @@ network:
     eno1:
       ip: 10.14.16.48
 
+zfs:
+  # heartofgold has 64GB - keep a quarter of it free for non-ZFS stuff
+  arc_max: {{ 48*1024*1024*1024 }}
 
 
 disksetup:
