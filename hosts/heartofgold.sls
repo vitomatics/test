@@ -65,4 +65,15 @@ disksetup:
     bkpool01/sfbackup/sifive:
 
     
-
+sfdump:
+  nfs:
+    sifive:
+      host: netapp1-nfs1.internal.sifive.com
+      export: /sifive
+      mountoptions: /ro
+      startime: 02:00
+    work:
+      host: netapp1-nfs1.internal.sifive.com
+      export: /work
+      mountoptions: /ro
+      startime: 05:00
