@@ -5,3 +5,5 @@
 include:
   - homedirs
 
+states:
+  sfdump.rsync: true
