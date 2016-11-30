@@ -63,22 +63,24 @@ zfs:
         atime: off
     bkpool01/sfbackup/work:
     bkpool01/sfbackup/sifive:
-    bkpool01/sfbackup/test:
 
+# Need dummy entries for the default stuff
+autofs:
+  direct:
+    /var/lib/sfdump/mnt/sifive: -fstype=nfs,ro,soft,intr,nosuid,nodev,noatime netapp1-nfs1:/sifive
+    /var/lib/sfdump/mnt/work: -fstype=nfs,ro,soft,intr,nosuid,nodev,noatime netapp1-nfs1:/work
+    /sifive: localhost:/
+    /work: localhost:/
+    
     
 sfdump:
   nfs:
     sifive:
-      host: netapp1-nfs1.internal.sifive.com
-      export: /sifive
-      snapshot: netapp
-      mountoptions: /ro
+      src: /var/lib/sfdump/mnt/sifive
       dest: /sfbackup/sifive
+      snapshottype: netapp
       startime: 02:00
     work:
-      host: netapp1-nfs1.internal.sifive.com
-      export: /work
-      snapshot: netapp
-      mountoptions: /ro
+      src: /var/lib/sfdump/mnt/work
       dest: /sfbackup/work
       startime: 05:00
