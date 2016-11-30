@@ -86,6 +86,11 @@ pkgs:
     apcalc: true
     emacs-nox: true
 
+    # This is a dependency on some Ubuntu hosts - this makes it consistent
+    {% if grains.os == 'Ubuntu' %}
+    s-nail: true
+    {% endif %}
+
 boot:
   grub:
     serial:
