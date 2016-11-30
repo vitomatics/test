@@ -1,7 +1,7 @@
 network:
   interfaces:
     eth2:
-      ip: 10.14.0.4
+      ip: 10.14.1.4
 
 autofs:
   direct:
