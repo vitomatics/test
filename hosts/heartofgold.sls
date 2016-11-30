@@ -63,6 +63,7 @@ zfs:
         atime: off
     bkpool01/sfbackup/work:
     bkpool01/sfbackup/sifive:
+    bkpool01/sfbackup/test:
 
     
 sfdump:
