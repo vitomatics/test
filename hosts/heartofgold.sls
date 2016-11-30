@@ -7,6 +7,7 @@ boot:
 
 states:
   zfs: true
+  autofs: true
 
 network:
   interfaces:
