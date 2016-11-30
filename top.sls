@@ -72,6 +72,7 @@ base:
 
   'i1.internal.sifive.com':
     - profile.compute
+    - hosts.i1
 
   'b0.internal.sifive.com':
     - profile.compute
