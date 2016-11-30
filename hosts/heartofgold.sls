@@ -70,8 +70,8 @@ autofs:
   direct:
     /var/lib/sfdump/mnt/sifive: -fstype=nfs,ro,soft,intr,nosuid,nodev,noatime netapp1-nfs1:/sifive
     /var/lib/sfdump/mnt/work: -fstype=nfs,ro,soft,intr,nosuid,nodev,noatime netapp1-nfs1:/work
-    /sifive: localhost:/
-    /work: localhost:/
+    /sifive: localhost:/nonexistent/just/to/override/ldap
+    /work: localhost:/nonexistent/just/to/override/ldap
     
     
 sfdump:
