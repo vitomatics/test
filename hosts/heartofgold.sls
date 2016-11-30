@@ -13,11 +13,7 @@ network:
     eno1:
       ip: 10.14.16.48
 
-zfs:
-  # heartofgold has 64GB - keep a quarter of it free for non-ZFS stuff
-  zfs_arc_max: {{ 48*1024*1024*1024 }}
-
-
+# Initial disk setup
 disksetup:
   zpools:
     bkpool01:
@@ -56,7 +52,11 @@ disksetup:
           - mirror
           - /dev/disk/by-id/wwn-0x5000cca0491f4508
           - /dev/disk/by-id/wwn-0x5000cca0491f424c
-  zfss:
+
+zfs:
+  # heartofgold has 64GB - keep a quarter of it free for non-ZFS stuff
+  zfs_arc_max: {{ 48*1024*1024*1024 }}
+  filesystems:
     bkpool01/sfbackup:
       properties:
         mountpoint: /sfbackup
@@ -70,10 +70,14 @@ sfdump:
     sifive:
       host: netapp1-nfs1.internal.sifive.com
       export: /sifive
+      snapshot: netapp
       mountoptions: /ro
+      dest: /sfbackup/sifive
       startime: 02:00
     work:
       host: netapp1-nfs1.internal.sifive.com
       export: /work
+      snapshot: netapp
       mountoptions: /ro
+      dest: /sfbackup/work
       startime: 05:00
