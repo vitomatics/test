@@ -4,3 +4,4 @@ include:
   - vms.altair
   - vms.dalek
   - vms.sandbox
+  - vms.vulcan
