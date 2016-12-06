@@ -31,7 +31,7 @@ base:
     - profile.sfimages
     - hosts.dalek
 
-  'dalek.internal.sifive.com':
+  'vulcan.internal.sifive.com':
     - static-subnet.he-unix
     - hosts.vulcan
 
