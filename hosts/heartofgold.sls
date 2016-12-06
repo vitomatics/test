@@ -66,13 +66,14 @@ zfs:
     bkpool01/sfbackup/sifive:
 
 # Need dummy entries for the default stuff
+
+
 autofs:
   direct:
     /var/lib/sfdump/mnt/sifive: -fstype=nfs,ro,soft,intr,nosuid,nodev,noatime netapp1-nfs1:/sifive
     /var/lib/sfdump/mnt/work: -fstype=nfs,ro,soft,intr,nosuid,nodev,noatime netapp1-nfs1:/work
     /sifive: localhost:/nonexistent/just/to/override/ldap
     /work: localhost:/nonexistent/just/to/override/ldap
-    
     
 sfdump:
   nfs:
@@ -84,4 +85,5 @@ sfdump:
     work:
       src: /var/lib/sfdump/mnt/work
       dest: /sfbackup/work
+      snapshottype: netapp
       startime: 05:00
