@@ -33,6 +33,7 @@ base:
 
   'vulcan.internal.sifive.com':
     - static-subnet.he-unix
+    - profile.gocd-server
     - hosts.vulcan
 
   'algol.internal.sifive.com':
