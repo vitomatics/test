@@ -17,7 +17,7 @@ disksetup:
         - /dev/vdb
   lvs:
     srv:
-      size: 40G
+      size: 39.9G
       vg: vulcan00
   mounts:
     /srv:
