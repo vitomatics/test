@@ -11,7 +11,7 @@ gocd:
     serverurl: http://sfimages.internal.sifive.com/ThoughtWorks/GoCD/deb/go-server_16.11.0-4185_all.deb
     workdir: /srv/go-server
   port: {{ port }}
-  sslport {{ sslport }}
+  sslport: {{ sslport }}
 
 
 ## firewall:
