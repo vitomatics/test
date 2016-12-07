@@ -75,7 +75,8 @@ sfdump:
       snapshottype: netapp
       startime: 02:00
     work:
-      src: /var/lib/sfdump/mnt/work
+      client: netapp1-nfs1
+      export: /work
       dest: /sfbackup/work
       snapshottype: netapp
       startime: 05:00
