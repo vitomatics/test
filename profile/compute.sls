@@ -126,9 +126,11 @@ file:
       mode: 1770
   ln:
      # Needed by Synopsis core consultant
-     /bin/awk: /usr/bin/awk
+     /bin/awk:
+       target: /usr/bin/awk
      # Copied from i0 - history unknown
-     /bin/arch: /usr/bin/arch
+     /bin/arch:
+       target: /usr/bin/arch
      # galaxy_icc_exec
     /usr/lib/x86_64-linux-gnu/libtiff.so.3: libtiff.so.5
     {% if grains.os == 'Ubuntu' %}
