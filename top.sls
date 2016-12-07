@@ -88,4 +88,5 @@ base:
     - hosts.jenkins
 
   'sandbox.internal.sifive.com':
+    - profile.gocd-agent
     - hosts.sandbox
