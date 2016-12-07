@@ -2,8 +2,8 @@ states:
   postfix.gateway: true
   opensmtpd: false
 
-apt:
-  pkgs:
+pkgs:
+  list:
     postfix-doc: true
 
 postfix:
