@@ -2,6 +2,10 @@ states:
   postfix.gateway: true
   opensmtpd: false
 
+apt:
+  pkgs:
+    postfix-doc: true
+
 postfix:
   networks:
     - 127.0.0.0/8
