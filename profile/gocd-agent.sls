@@ -4,6 +4,6 @@ states:
   gocd.agent: true
 
 gocd:
-  lookup:
-    agenturl: http://sfimages.internal.sifive.com/ThoughtWorks/GoCD/deb/go-agent_16.11.0-4185_all.deb
-
+  agent:
+    lookup:
+      pkgurl: http://sfimages.internal.sifive.com/ThoughtWorks/GoCD/deb/go-agent_16.11.0-4185_all.deb
