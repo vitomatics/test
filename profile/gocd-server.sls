@@ -8,10 +8,12 @@ states:
 
 gocd:
   lookup:
-    serverurl: http://sfimages.internal.sifive.com/ThoughtWorks/GoCD/deb/go-server_16.11.0-4185_all.deb
-    workdir: /srv/go-server
-  port: {{ port }}
-  sslport: {{ sslport }}
+    server:
+      pkgurl: http://sfimages.internal.sifive.com/ThoughtWorks/GoCD/deb/go-server_16.11.0-4185_all.deb
+      workdir: /srv/go-server
+  server:
+    port: {{ port }}
+    sslport: {{ sslport }}
 
 
 ## firewall:
