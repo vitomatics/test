@@ -1,6 +1,12 @@
 states:
   autofs: true
 
+autofs:
+  direct:
+    /sifive: -fstype=nfs,rw,hard,intr,acl,noatime,nodev,nosuid i0.internal.sifive.com:/export/sifive
+    /work: -fstype=nfs,rw,hard,intr,noatime,nodev,nosuid i1.internal.sifive.com:/export/work
+
+
 pam:
   access:
     compute: ALL
