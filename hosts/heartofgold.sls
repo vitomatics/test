@@ -70,7 +70,7 @@ sfdump:
   nfs:
     sifive:
       client: netapp1-nfs1
-      export: /work
+      export: /sfive
       dest: /sfbackup/sifive
       snapshottype: netapp
       startime: 02:00
