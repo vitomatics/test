@@ -131,7 +131,7 @@ file:
      # Copied from i0 - history unknown
      /bin/arch:
        target: /usr/bin/arch
-     # galaxy_icc_exec
+    # galaxy_icc_exec
     /usr/lib/x86_64-linux-gnu/libtiff.so.3: libtiff.so.5
     {% if grains.os == 'Ubuntu' %}
     /usr/lib/x86_64-linux-gnu/libmng.so.1: libmng.so.2
