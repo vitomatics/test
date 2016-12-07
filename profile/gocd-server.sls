@@ -1,7 +1,7 @@
 ## pillar file for default GoCD server setup
 
-{% set port = 98153 %}
-{% set sslport = 98154 %}
+{% set port = 8153 %}
+{% set sslport = 8154 %}
 
 states:
   gocd.server: true
