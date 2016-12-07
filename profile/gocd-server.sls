@@ -13,10 +13,10 @@ gocd:
   port: {{ port }}
   sslport {{ sslport }}
 
-{#
-firewall:
-  ports:
-    tcp:
-      {{ port }}: 10.0.0.0/8
-      {{ sslport }}: 10.0.0.0/8
-#}
+
+## firewall:
+##  ports:
+##    tcp:
+##       {{ port }}: 10.0.0.0/8
+##       {{ sslport }}: 10.0.0.0/8
+
