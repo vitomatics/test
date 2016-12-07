@@ -69,7 +69,8 @@ zfs:
 sfdump:
   nfs:
     sifive:
-      src: /var/lib/sfdump/mnt/sifive
+      client: netapp1-nfs1
+      export: /work
       dest: /sfbackup/sifive
       snapshottype: netapp
       startime: 02:00
