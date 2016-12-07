@@ -89,4 +89,5 @@ base:
 
   'sandbox.internal.sifive.com':
     - profile.gocd-agent
+    - profile.compute
     - hosts.sandbox
