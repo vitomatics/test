@@ -72,11 +72,11 @@ sfdump:
       client: netapp1-nfs1
       export: /sifive
       dest: /sfbackup/sifive
-      snapshottype: netapp
+      snaptype: netapp_hourly
       startime: 02:00
     work:
       client: netapp1-nfs1
       export: /work
       dest: /sfbackup/work
-      snapshottype: netapp
+      snaptype: netapp_hourly
       startime: 05:00
