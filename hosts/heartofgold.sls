@@ -68,15 +68,15 @@ zfs:
     
 sfdump:
   nfs:
-    sifive:
-      client: netapp1-nfs1
-      export: /sifive
-      dest: /sfbackup/sifive
-      snaptype: netapp_hourly
-      startime: 02:00
     work:
       client: netapp1-nfs1
       export: /work
       dest: /sfbackup/work
       snaptype: netapp_hourly
-      startime: 05:00
+      startime: 02:00
+    sifive:
+      client: netapp1-nfs1
+      export: /sifive
+      dest: /sfbackup/sifive
+      snaptype: netapp_hourly
+      startime: 04:00
