@@ -5,3 +5,4 @@ include:
   - vms.dalek
   - vms.sandbox
   - vms.vulcan
+  - vms.algol
