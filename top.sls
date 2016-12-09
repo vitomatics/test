@@ -58,6 +58,12 @@ base:
     - vms
     - hosts.marvin
 
+  'bender.internal.sifive.com':
+    - static-subnet.sf-unix
+    - profile.vmhost
+    - vms
+    - hosts.bender
+
   'heartofgold.internal.sifive.com':
     - static-subnet.he-unix
     - profile.backuphost
