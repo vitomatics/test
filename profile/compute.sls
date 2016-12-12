@@ -118,6 +118,9 @@ pkgs:
     python-tk: true
     tix: true
 
+    # Synopsys Hector
+    libncurses5:i386: true
+
 file:
   mkdir:
     /scratch:
