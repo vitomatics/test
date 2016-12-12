@@ -70,7 +70,7 @@ zfs:
     
 sfdump:
   lookup:
-    logdir: /sfbackup/sfdump/logs
+    logdir: /sfbackup/logs
   nfs:
     work:
       client: netapp1-nfs1
