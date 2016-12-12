@@ -62,21 +62,25 @@ zfs:
       properties:
         mountpoint: /sfbackup
         atime: off
-    bkpool01/sfbackup/work:
-    bkpool01/sfbackup/sifive:
+    bkpool01/sfbackup/dumps:
+    bkpool01/sfbackup/dumps/work:
+    bkpool01/sfbackup/dumps/sifive:
+    bkpool01/sfbackup/logs:
 
     
 sfdump:
+  lookup:
+    logdir: /sfbackup/sfdump/logs
   nfs:
     work:
       client: netapp1-nfs1
       export: /work
-      dest: /sfbackup/work
+      dest: /sfbackup/dumps/work
       snaptype: netapp_hourly
       startime: 02:00
     sifive:
       client: netapp1-nfs1
       export: /sifive
-      dest: /sfbackup/sifive
+      dest: /sfbackup/dumps/sifive
       snaptype: netapp_hourly
       startime: 04:00
