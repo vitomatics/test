@@ -1,7 +1,7 @@
 ## Pillar file for backup client machines
 
 include:
-  - backups
+  - backups.rsync
 
 states:
   sfdump.slave: true
