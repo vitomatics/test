@@ -71,6 +71,7 @@ zfs:
 sfdump:
   lookup:
     logdir: /sfbackup/logs
+  logttl: 14
   nfs:
     work:
       client: netapp1-nfs1
