@@ -35,7 +35,7 @@ sfdump:
         -----END RSA PRIVATE KEY-----
   rsync:
     vulcan-srv:
-      client: vulcan.sifive.com
+      client: vulcan.internal.sifive.com
       server: heartofgold.internal.sifive.com
       src: /srv
       dest: /sfbackup/dumps/vulcan-srv
