@@ -66,7 +66,7 @@ base:
 
   'heartofgold.internal.sifive.com':
     - static-subnet.he-unix
-    - profile.backuphost
+    - profile.backupserver
     - hosts.heartofgold
 
   'combine.sifive.com':

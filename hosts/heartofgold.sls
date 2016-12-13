@@ -7,7 +7,6 @@ boot:
 
 states:
   zfs: true
-  autofs: true
 
 network:
   interfaces:
@@ -74,13 +73,13 @@ sfdump:
   logttl: 3
   nfs:
     work:
-      client: netapp1-nfs1
+      client: netapp1-nfs1.internal.sfive.com
       export: /work
       dest: /sfbackup/dumps/work
       snaptype: netapp_hourly
       startime: 02:00
     sifive:
-      client: netapp1-nfs1
+      client: netapp1-nfs1.internal.sifive.com
       export: /sifive
       dest: /sfbackup/dumps/sifive
       snaptype: netapp_hourly
