@@ -3,5 +3,3 @@
 include:
   - backups.rsync
 
-states:
-  sfdump.slave: true

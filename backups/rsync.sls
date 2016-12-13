@@ -1,5 +1,8 @@
 # Pillar file for rsync-based backups
 
+states:
+  sfdump.slave: true
+
 sfdump:
   # Keys for rsync dumps
   keys:
