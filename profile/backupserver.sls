@@ -1,7 +1,7 @@
 ## Pillar file for backup server machines
 
 include:
-  - backups
+  - backups.rsync
   
 states:
   zfs: true
