@@ -62,9 +62,10 @@ zfs:
         mountpoint: /sfbackup
         atime: off
     bkpool01/sfbackup/dumps:
+    bkpool01/sfbackup/logs:
     bkpool01/sfbackup/dumps/work:
     bkpool01/sfbackup/dumps/sifive:
-    bkpool01/sfbackup/logs:
+    bkpool01/sfbackup/dumps/vulcan-srv:
 
     
 sfdump:
