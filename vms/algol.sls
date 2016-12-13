@@ -3,7 +3,7 @@
 vms:
   algol:
     type: libvirt
-    vmhost: bender
+    vmhost: bender.internal.sifive.com
     vcpus: 2
     memory: 8192   # In MB
     autostart: on

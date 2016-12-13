@@ -3,7 +3,7 @@
 vms:
   vulcan:
     type: libvirt
-    vmhost: marvin
+    vmhost: marvin.internal.sifive.com
     vcpus: 2
     memory: 4096   # In MB
     autostart: off

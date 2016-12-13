@@ -3,7 +3,7 @@
 vms:
   sandbox:
     type: libvirt
-    vmhost: marvin
+    vmhost: marvin.internal.sifive.com
     vcpus: 1
     memory: 2048   # In MB
     autostart: off
