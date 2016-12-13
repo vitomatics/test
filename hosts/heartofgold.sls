@@ -73,7 +73,7 @@ sfdump:
   logttl: 3
   nfs:
     work:
-      client: netapp1-nfs1.internal.sfive.com
+      client: netapp1-nfs1.internal.sifive.com
       export: /work
       dest: /sfbackup/dumps/work
       snaptype: netapp_hourly
