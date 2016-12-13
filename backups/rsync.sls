@@ -39,5 +39,6 @@ sfdump:
       server: heartofgold.internal.sifive.com
       src: /srv
       dest: /sfbackup/dumps/vulcan-srv
+      bwlimit: 15000
       startime: 03:00
       key: key1
