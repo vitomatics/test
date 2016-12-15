@@ -49,6 +49,7 @@ pkgs:
     iftop: true
     sysstat: true
 
+    gdb: true
     strace: true
     lsof: true
 
