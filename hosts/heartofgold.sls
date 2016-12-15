@@ -67,6 +67,13 @@ zfs:
     bkpool01/sfbackup/dumps/sifive:
     bkpool01/sfbackup/dumps/vulcan-srv:
 
+autofs:
+  direct:
+    /mnt/homes: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/homes
+
+homedirs:
+  lookup:
+    home: /mnt/homes
     
 sfdump:
   lookup:
