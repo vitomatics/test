@@ -2,9 +2,6 @@
 
 # network - dhcp
 
-{% }}
-
-
 include:
   - homedirs
 

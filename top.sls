@@ -95,4 +95,5 @@ base:
     - hosts.jenkins
 
   'sandbox.internal.sifive.com':
+    - profile.compute
     - hosts.sandbox
