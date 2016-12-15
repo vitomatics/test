@@ -20,3 +20,6 @@ pam:
   access:
     compute: ALL EXCEPT LOCAL
     consult: ALL EXCEPT LOCAL
+
+states:
+  homedirs.extractor: true

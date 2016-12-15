@@ -7,3 +7,6 @@
 #   grub:
 #     serial:
 #       port: 1
+
+states:
+  homedirs.extractor: true
