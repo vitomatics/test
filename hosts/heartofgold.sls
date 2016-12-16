@@ -1,6 +1,9 @@
 ## Pillar file for heartofgold
 ## ZFS-based backup server
 
+include:
+ - homedirs
+
 boot:
   grub:
     serial:
