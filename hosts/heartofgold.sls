@@ -66,6 +66,7 @@ zfs:
         atime: off
     bkpool01/sfbackup/dumps:
     bkpool01/sfbackup/logs:
+    bkpool01/sfbackup/dumps/homes:
     bkpool01/sfbackup/dumps/work:
     bkpool01/sfbackup/dumps/sifive:
     bkpool01/sfbackup/dumps/vulcan-srv:
@@ -83,6 +84,12 @@ sfdump:
     logdir: /sfbackup/logs
   logttl: 3
   nfs:
+    homes:
+      client: netapp1-nfs1.internal.sifive.com
+      export: /homes
+      dest: /sfbackup/dumps/homes
+      snaptype: netapp_hourly
+      startime: 01:00
     work:
       client: netapp1-nfs1.internal.sifive.com
       export: /work
