@@ -18,5 +18,5 @@ autofs:
     nettmp:
       mountpoint: /nettmp
       map:
-        netapp1a: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/nettmp
+        netapp1a: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid,browse netapp1-nfs1.internal.sifive.com:/nettmp
 
