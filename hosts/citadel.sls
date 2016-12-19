@@ -23,11 +23,10 @@ pam:
 
 states:
   homedirs.extractor: true
+  autofs: true
 
 
 # Copied from compute.sls - a hack until retirement
-states:
-  autofs: true
 
 autofs:
   lookup:
