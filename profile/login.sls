@@ -5,7 +5,6 @@ include:
   - profile.compute
   - profile.nomachine
   - site.sshguard-whitelist
-  - homedirs
 
 sshd:
   options:

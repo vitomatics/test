@@ -2,9 +2,18 @@ states:
   autofs: true
 
 autofs:
+  lookup:
+    browse_mode: yes
   direct:
-    /sifive: -fstype=nfs,rw,hard,intr,acl,noatime,nodev,nosuid i0.internal.sifive.com:/export/sifive
-    /work: -fstype=nfs,rw,hard,intr,noatime,nodev,nosuid i1.internal.sifive.com:/export/work
+    /sifive: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/sifive
+    /work: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/work
+  home:
+    '*': -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid,nobrowse netapp1-nfs1.internal.sifive.com:/homes/&
+  maps:
+    nettmp:
+      mountpoint: /nettmp
+      map:
+        netapp1a: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/nettmp
 
 
 pam:
