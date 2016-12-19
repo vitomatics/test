@@ -10,6 +10,7 @@ boot:
 
 states:
   zfs: true
+  nfs4: true
 
 network:
   interfaces:
@@ -70,6 +71,10 @@ zfs:
     bkpool01/sfbackup/dumps/work:
     bkpool01/sfbackup/dumps/sifive:
     bkpool01/sfbackup/dumps/vulcan-srv:
+
+nfs4:
+  domain:
+    internal.sifive.com
 
 autofs:
   direct:
