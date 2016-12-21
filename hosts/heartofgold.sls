@@ -87,7 +87,7 @@ homedirs:
 sfdump:
   lookup:
     logdir: /sfbackup/logs
-  logttl: 3
+  logttl: 14
   nfs:
     homes:
       client: netapp1-nfs1.internal.sifive.com
