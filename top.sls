@@ -65,6 +65,10 @@ base:
     - vms
     - hosts.bender
 
+  'omega1.internal.sifive.com':
+    - static-subnet.sf-unix
+    - hosts.omega1
+
   'heartofgold.internal.sifive.com':
     - static-subnet.he-unix
     - profile.backupserver
@@ -81,10 +85,6 @@ base:
     - profile.compute
     - profile.labhost
     - hosts.i0
-
-  'i1.internal.sifive.com':
-    - profile.compute
-    - hosts.i1
 
   'b0.internal.sifive.com':
     - profile.compute
