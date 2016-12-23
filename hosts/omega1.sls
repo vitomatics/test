@@ -20,3 +20,28 @@ disksetup:
       disk: /dev/sdb
     crypt-sdc:
       disk: /dev/sdc
+  zpools:
+    bkpool02:
+      properties:
+        ashift: '12'
+      filesystem_properties:
+        mountpoint: /pool/bkpool02
+        atime: 'off'
+        compression: 'lz4'
+      layout:
+        mirror-0:
+          - /dev/mapper/crypt-sdb
+          - /dev/mapper/crypt-sdc
+	  
+zfs:
+  # omega1 has 128GB - keep half of it free for non-ZFS stuff
+  zfs_arc_max: {{ 64*1024*1024*1024 }}
+  filesystems:
+    bkpool02/sfbackup:
+      properties:
+        mountpoint: /sfbackup
+        atime: off
+    bkpool01/sfbackup/logs:
+    bkpool01/sfbackup/dumps:
+    bkpool01/sfbackup/dumps/work:
+
