@@ -12,5 +12,5 @@ nfs4:
 
 perccli:
   lookup:
-    pkgurl: http://sfimages.internal.sifive.com/Dell/PERC/rpms/perccli-1.11.03-1.noarch.rpm
+    pkgurl: http://sfimages.internal.sifive.com/Dell/PERC/deb/perccli_1.11.03-2_all.deb
 
