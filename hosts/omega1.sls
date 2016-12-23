@@ -55,5 +55,6 @@ sfdump:
       client: netapp1-nfs1.internal.sifive.com
       export: /work
       dest: /sfbackup/dumps/work
+      bwlimit: 10000
       snaptype: netapp_hourly
       startime: 02:00
