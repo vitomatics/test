@@ -32,7 +32,7 @@ disksetup:
         mirror-0:
           - /dev/mapper/crypt-sdb
           - /dev/mapper/crypt-sdc
-	  
+
 zfs:
   # omega1 has 128GB - keep half of it free for non-ZFS stuff
   zfs_arc_max: {{ 64*1024*1024*1024 }}
