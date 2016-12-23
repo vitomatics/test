@@ -41,7 +41,7 @@ zfs:
       properties:
         mountpoint: /sfbackup
         atime: off
-    bkpool01/sfbackup/logs:
-    bkpool01/sfbackup/dumps:
-    bkpool01/sfbackup/dumps/work:
+    bkpool02/sfbackup/logs:
+    bkpool02/sfbackup/dumps:
+    bkpool02/sfbackup/dumps/work:
 
