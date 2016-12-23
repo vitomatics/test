@@ -14,3 +14,9 @@ perccli:
   lookup:
     pkgurl: http://sfimages.internal.sifive.com/Dell/PERC/deb/perccli_1.11.03-2_all.deb
 
+disksetup:
+  cryptdevs:
+    crypt-sdb:
+      disk: /dev/sdb
+    crypt-sdc:
+      disk: /dev/sdc
