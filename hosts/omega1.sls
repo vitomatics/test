@@ -56,5 +56,5 @@ sfdump:
       export: /work
       dest: /sfbackup/dumps/work
       bwlimit: 10000
-      snaptype: netapp_hourly
+      snaptype: netapp_daily
       startime: 02:00
