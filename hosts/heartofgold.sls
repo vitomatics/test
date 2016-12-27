@@ -93,17 +93,17 @@ sfdump:
       client: netapp1-nfs1.internal.sifive.com
       export: /homes
       dest: /sfbackup/dumps/homes
-      snaptype: netapp_hourly
+      snaptype: netapp_daily
       startime: 01:00
     work:
       client: netapp1-nfs1.internal.sifive.com
       export: /work
       dest: /sfbackup/dumps/work
-      snaptype: netapp_hourly
+      snaptype: netapp_daily
       startime: 02:00
     sifive:
       client: netapp1-nfs1.internal.sifive.com
       export: /sifive
       dest: /sfbackup/dumps/sifive
-      snaptype: netapp_hourly
+      snaptype: netapp_daily
       startime: 04:00
