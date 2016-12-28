@@ -71,7 +71,6 @@ sfdump:
       dest: /sfbackup/dumps/vulcan-srv
       startime: 03:00
       key: sfdump_hog_key1
-  rsync:
     i0-sifive:
       client: i0.internal.sifive.com
       server: omega1.internal.sifive.com
