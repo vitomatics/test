@@ -76,6 +76,7 @@ sfdump:
       server: omega1.internal.sifive.com
       src: /export/sifive
       dest: /sfbackup/dumps/sifive
+      acls: true
       startime: 03:00
       key: sfdump_omega1_key1
 
