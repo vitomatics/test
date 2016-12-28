@@ -44,6 +44,7 @@ zfs:
     bkpool02/sfbackup/logs:
     bkpool02/sfbackup/dumps:
     bkpool02/sfbackup/dumps/work:
+    bkpool02/sfbackup/dumps/sifive:
 
 
 sfdump:
