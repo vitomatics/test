@@ -77,7 +77,7 @@ sfdump:
       src: /export/sifive
       dest: /sfbackup/dumps/sifive
       acls: false
-      compression: true
+      compression: false
       startime: 03:00
       key: sfdump_omega1_key1
 
