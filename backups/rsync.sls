@@ -1,8 +1,5 @@
 # Pillar file for rsync-based backups
 
-states:
-  sfdump.slave: true
-
 sfdump:
   # Keys for rsync dumps
   keys:
@@ -44,3 +41,4 @@ sfdump:
       dest: /sfbackup/dumps/vulcan-srv
       startime: 03:00
       key: sfdump_hog_key1
+
