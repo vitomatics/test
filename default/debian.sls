@@ -48,6 +48,7 @@ pkgs:
     htop: true
     iftop: true
     sysstat: true
+    dstat: true
 
     gdb: true
     strace: true
