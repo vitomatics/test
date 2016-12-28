@@ -95,6 +95,8 @@ sfdump:
       dest: /sfbackup/dumps/homes
       snaptype: netapp_daily
       startime: 01:00
+      acls: true
+      xattrs: true
     work:
       client: netapp1-nfs1.internal.sifive.com
       export: /work
