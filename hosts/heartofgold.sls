@@ -94,18 +94,22 @@ sfdump:
       export: /homes
       dest: /sfbackup/dumps/homes
       snaptype: netapp_daily
+      acls: false
+      xattrs: false
       startime: 01:00
-      acls: true
-      xattrs: true
     work:
       client: netapp1-nfs1.internal.sifive.com
       export: /work
       dest: /sfbackup/dumps/work
       snaptype: netapp_daily
+      acls: false
+      xattrs: false
       startime: 02:00
     sifive:
       client: netapp1-nfs1.internal.sifive.com
       export: /sifive
       dest: /sfbackup/dumps/sifive
       snaptype: netapp_daily
+      acls: false
+      xattrs: false
       startime: 04:00
