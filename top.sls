@@ -67,6 +67,7 @@ base:
 
   'omega1.internal.sifive.com':
     - static-subnet.sf-unix
+    - profile.backupserver
     - hosts.omega1
 
   'heartofgold.internal.sifive.com':
@@ -84,6 +85,7 @@ base:
   'i0.internal.sifive.com':
     - profile.compute
     - profile.labhost
+    - profile.backupclient
     - hosts.i0
 
   'b0.internal.sifive.com':

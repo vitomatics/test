@@ -33,6 +33,36 @@ sfdump:
         P43zpdDs8X2vbPRDEZom6BV8slPI7oPI/6WczDQKvI8Ur5v6EFbChmi+c191+U0y
         lNoAd73zzkzskJk1qwdgYSOKydzWrfDnIY6r1ddFGGutPISk/7YS
         -----END RSA PRIVATE KEY-----
+    sfdump_omega1_key1:
+      public: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIrT2qKW6RZuC2Xo/myOw9FMCECBm4OkndcwmAokqQ5XMt0gaJDMHRDD608kkQRx1ibxv9VEUIM4eaX2rG2T0gaqmG/ecy5knmVA8I4/Pd6cig4i2vrDYDDH8xDiOIiVgYZPJ8FblIOw5mZXTiDhFFOGkye4rE1QzAqcGLqBLnBomw5QrSm7c0D1iJk+mJCSzJ4bI7swJFzMF24XURnMtO/BlALmZhd8hNoPLe4PxV6I+aBRyxchCHDWCPHHcq23Co5fnGwD9z2ZNZ2HZ2OZpZVFL5xDsaQJBHDAK06inrHwQQ+HnRAQmUo91Wqi7r0wzMHlfffsflkghvND+Rp1LN davidj@heartofgold.internal.sifive.com
+      private: |
+        -----BEGIN RSA PRIVATE KEY-----
+	MIIEpQIBAAKCAQEAyK09qilukWbgtl6P5sjsPRTAhAgZuDpJ3XMJgKJKkOVzLdIG
+	iQzB0Qw+tPJJEEcdYm8b/VRFCDOHml9qxtk9IGqphv3nMuZJ5lQPCOPz3enIoOIt
+	r6w2Awx/MQ4jiIlYGGTyfBW5SDsOZmV04g4RRThpMnuKxNUMwKnBi6gS5waJsOUK
+	0pu3NA9YiZPpiQksyeGyO7MCRczBduF1EZzLTvwZQC5mYXfITaDy3uD8VeiPmgUc
+	sXIQhw1gjxx3KttwqOX5xsA/c9mTWdh2djmaWVRS+cQ7GkCQRwwCtOop6x8EEPh5
+	0QEJlKPdVqou69MMzB5X337H5ZIIbzQ/kadSzQIDAQABAoIBAC94g8DQAj7VFk0t
+	u169otykHxJclDD3YOfIwbOzMG5sSL3LFA6xfNvFyMOnGM+H8xSI8hcQKzBQeEB1
+	V93oH8SeVrH/OATbYxngQpo4ykRxfCtKtcH7u98mwqPJE3DGBJfosU/XF7hVeAeS
+	8n5TE5TLTl9JyD7doyGkRouR277YatPxsgmsS4ZkTnx7gqfBAhJHItRiK/cL/88a
+	f/eRbl8+byt+TEu62ACov66b7jaXOf5YRbJ7KNZb3UYAO785KEHNlEWn20MSkhwo
+	Jbwpuxhmm9uZzyc4yGWxHH6NUgpx+MbcFnJnOCMJOIkUNGqSnKXCh7v2xIlfzH/k
+	n7KpwQECgYEA5o5wyvMsgm3ziy66+A6V7Trn3+q1Q9+Rapyga6dtPzCUi3S8i2sD
+	Ry+VEo0Xah2VuIk3HfaiPqPFTYninh0kWDfFZ8vqwBX3rqJqGpRVQWA2d44y0Flp
+	VvqFEFeQBQdvAcXN8+69XnmBSRni132dkMSo98hpGwER0nYtYytDYUECgYEA3tKn
+	q8uUkldgKu/o5Hpwcadtl4nLr/JpIct4SbLRze2cq030isq+OPbMnAySUmOQTt/B
+	wh1leKjuBNJO5/DRtNYn80UoFH8G0DZDPtS9cFY0dYPyVeFjhiRs4uGOxwze3nad
+	JpRg2rVkmtZvkS4OQzwqM0hNKsSw/fuEqch4Qo0CgYEAgAS7sJVSM6IlxzTNcIt4
+	yF8a/YRv3h43uoD5uo0e5iVtdfn971QeX9qV5dUeGTgQOIVIa4TVFf8NwT487Rq1
+	YZ6mKDpcQQhxnTBlxhhzNnfcBoqYwIPFMByu4iIcwA4en1dcQoRf9iN1nEeZY5pG
+	cWohgGRxqCLx6HDiRtxw74ECgYEAhyGX3/8BplJpFwER62Y5xSN1uh4uMhFAIuej
+	loZk6I8+oUEQmg9kl2VNJyIUpvSMstjOR+vN+wPv/WqRweXxN8tcxRLewLdcqW8P
+	Dw6zqGoPPGl90Ql0cwiqJFoIXbz3eFDU822u41R4o9KCLLiSm8HkEd+6NMK+V/lu
+	Ng1GqY0CgYEAxKKz1OIvRjIiADCdAZMUDzHeGHy/lC9H8u8JWG2UGkdxC/Omv5o8
+	h5uZsCnXLCsqksnebzklqbItDt6F4vDSUzZZO25RA/g1gATdT8U9ufGxMdTxytpe
+	SYDmKIA/7RlfXJgXosQV/IPS/DUy6BLfYF4Cpo3kVzPrJami2A274ds=
+	-----END RSA PRIVATE KEY-----
   rsync:
     vulcan-srv:
       client: vulcan.internal.sifive.com
@@ -41,4 +71,12 @@ sfdump:
       dest: /sfbackup/dumps/vulcan-srv
       startime: 03:00
       key: sfdump_hog_key1
+  rsync:
+    i0-sifive:
+      client: i0.internal.sifive.com
+      server: omega1.internal.sifive.com
+      src: /export/sifive
+      dest: /sfbackup/dumps/sifive
+      startime: 03:00
+      key: sfdump_omega1_key1
 
