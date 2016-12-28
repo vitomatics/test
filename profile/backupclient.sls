@@ -10,6 +10,6 @@ states:
 # to just the backup server
 pam:
   access:
-    sfdump: 10.14.0.0/24
+    sfdump: 10.14.0.0/16
 
 
