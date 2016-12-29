@@ -44,13 +44,19 @@ zfs:
     bkpool02/sfbackup/logs:
     bkpool02/sfbackup/dumps:
     bkpool02/sfbackup/dumps/work:
+    bkpool02/sfbackup/dumps/homes:
     bkpool02/sfbackup/dumps/sifive:
+    bkpool02/sfbackup/dumps/vulcan-srv:
 
 
 sfdump:
   lookup:
     logdir: /sfbackup/logs
+  defaultjob: omega1
   logttl: 14
+  jobs:
+    omega1:
+      starttime: 01:00
   nfs:
     work:
       client: netapp1-nfs1.internal.sifive.com
@@ -58,5 +64,15 @@ sfdump:
       dest: /sfbackup/dumps/work
       bwlimit: 10000
       snaptype: netapp_daily
-      startime: 02:00
-      timeout: 4h
+      acls: false
+      xattrs: false
+      timeout: 2h
+    homes:
+      client: netapp1-nfs1.internal.sifive.com
+      export: /homes
+      dest: /sfbackup/dumps/homes
+      bwlimit: 10000
+      snaptype: netapp_daily
+      acls: false
+      xattrs: false
+      timeout: 2h

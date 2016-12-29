@@ -72,7 +72,6 @@ sfdump:
       compression: false
       acls: true
       xattrs: true
-      startime: 03:00
       key: sfdump_hog_key1
     i0-sifive:
       client: i0.internal.sifive.com
