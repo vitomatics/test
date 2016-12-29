@@ -88,7 +88,6 @@ sfdump:
   lookup:
     logdir: /sfbackup/logs
   logttl: 14
-  defaultjob: default1
   jobs:
     heartofgold1:
       starttime: 00:30
