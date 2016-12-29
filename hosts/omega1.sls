@@ -69,6 +69,7 @@ sfdump:
       acls: false
       xattrs: false
       timeout: 2h
+{#
     sifive:
       client: netapp1-nfs1.internal.sifive.com
       export: /sifive
@@ -89,6 +90,7 @@ sfdump:
       xattrs: false
       timeout: 100h
       job: sifive-setup
+#}
 {#
     homes:
       client: netapp1-nfs1.internal.sifive.com
