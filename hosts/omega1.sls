@@ -59,3 +59,4 @@ sfdump:
       bwlimit: 10000
       snaptype: netapp_daily
       startime: 02:00
+      timeout: 30s
