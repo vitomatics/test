@@ -91,7 +91,7 @@ sfdump:
   jobs:
     heartofgold1:
       starttime: 00:30
-    default1:
+    default:
       starttime: 04:00
   nfs:
     homes:
