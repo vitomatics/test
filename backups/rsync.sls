@@ -83,4 +83,5 @@ sfdump:
       startime: 03:00
       timeout: 23h
       key: sfdump_omega1_key1
+      job: sifive_setup
 

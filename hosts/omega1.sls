@@ -57,6 +57,8 @@ sfdump:
   jobs:
     default:
       starttime: 05:00
+    sifive-setup:
+      disabled: true
   nfs:
     work:
       client: netapp1-nfs1.internal.sifive.com
