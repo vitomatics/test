@@ -69,21 +69,21 @@ sfdump:
       acls: false
       xattrs: false
       timeout: 2h
-{#
-    sifive:
+    homes:
       client: netapp1-nfs1.internal.sifive.com
-      export: /sifive
-      dest: /sfbackup/dumps/sifive
+      export: /homes
+      dest: /sfbackup/dumps/homes
       bwlimit: 10000
       snaptype: netapp_daily
       acls: false
       xattrs: false
       timeout: 100h
       job: sifive-setup
-    homes:
+{#
+    sifive:
       client: netapp1-nfs1.internal.sifive.com
-      export: /homes
-      dest: /sfbackup/dumps/homes
+      export: /sifive
+      dest: /sfbackup/dumps/sifive
       bwlimit: 10000
       snaptype: netapp_daily
       acls: false
