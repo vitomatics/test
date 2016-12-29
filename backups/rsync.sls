@@ -73,15 +73,3 @@ sfdump:
       acls: true
       xattrs: true
       key: sfdump_hog_key1
-    i0-sifive:
-      client: i0.internal.sifive.com
-      server: omega1.internal.sifive.com
-      src: /export/sifive
-      dest: /sfbackup/dumps/sifive
-      acls: false
-      compression: false
-      startime: 03:00
-      timeout: 23h
-      key: sfdump_omega1_key1
-      job: sifive-setup
-
