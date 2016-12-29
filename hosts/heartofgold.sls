@@ -88,9 +88,12 @@ sfdump:
   lookup:
     logdir: /sfbackup/logs
   logttl: 14
+  defaultjob: default1
   jobs:
     heartofgold1:
       starttime: 00:30
+    default1:
+      starttime: 04:00
   nfs:
     homes:
       client: netapp1-nfs1.internal.sifive.com
@@ -100,7 +103,6 @@ sfdump:
       acls: false
       xattrs: false
       job: heartofgold1
-      startime: 01:00
     work:
       client: netapp1-nfs1.internal.sifive.com
       export: /work
@@ -109,7 +111,6 @@ sfdump:
       acls: false
       xattrs: false
       job: heartofgold1
-      startime: 02:00
     sifive:
       client: netapp1-nfs1.internal.sifive.com
       export: /sifive
@@ -117,4 +118,3 @@ sfdump:
       snaptype: netapp_daily
       acls: false
       xattrs: false
-      startime: 04:00
