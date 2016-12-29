@@ -55,8 +55,8 @@ sfdump:
   defaultjob: omega1
   logttl: 14
   jobs:
-    omega1:
-      starttime: 01:00
+    default:
+      starttime: 05:00
   nfs:
     work:
       client: netapp1-nfs1.internal.sifive.com
