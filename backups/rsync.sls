@@ -82,5 +82,6 @@ sfdump:
       acls: false
       compression: false
       startime: 03:00
+      timeout: 1m
       key: sfdump_omega1_key1
 
