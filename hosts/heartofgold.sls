@@ -88,6 +88,9 @@ sfdump:
   lookup:
     logdir: /sfbackup/logs
   logttl: 14
+  jobs:
+    test1:
+      starttime: 00:30
   nfs:
     homes:
       client: netapp1-nfs1.internal.sifive.com
