@@ -55,7 +55,7 @@ sfdump:
   defaultjob: omega1
   logttl: 14
   jobs:
-    default:
+    omega1:
       starttime: 05:00
     sifive-setup:
       disabled: true
