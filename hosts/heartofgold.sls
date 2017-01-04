@@ -90,7 +90,7 @@ sfdump:
   logttl: 14
   jobs:
     default:
-      absent: true
+      absent: false
       starttime: 01:00
   nfs:
     homes:
