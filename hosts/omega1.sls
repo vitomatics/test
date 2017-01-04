@@ -85,4 +85,4 @@ sfdump:
       acls: false
       xattrs: false
       timeout: 5h
-      absent: true
+      absent: false
