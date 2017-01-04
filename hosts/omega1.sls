@@ -57,8 +57,6 @@ sfdump:
   jobs:
     omega1:
       starttime: 05:00
-    sifive-setup:
-      disabled: true
   nfs:
     work:
       client: netapp1-nfs1.internal.sifive.com
@@ -88,4 +86,3 @@ sfdump:
       acls: false
       xattrs: false
       timeout: 5h
-      job: sifive-setup
