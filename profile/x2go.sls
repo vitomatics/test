@@ -12,7 +12,7 @@ pkgs:
         keyid: 7CDE3A860A53F9FD
         keyserver: keyserver.ubuntu.com
 
-    pkgs:
+    list:
       x2goserver: true
       x2goserver-xsession: true
     
