@@ -12,8 +12,8 @@ pkgs:
         keyid: 7CDE3A860A53F9FD
         keyserver: keyserver.ubuntu.com
 
-    list:
-      x2goserver: true
-      x2goserver-xsession: true
+  list:
+    x2goserver: true
+    x2goserver-xsession: true
     
 {% endif %}
