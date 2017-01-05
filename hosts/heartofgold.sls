@@ -87,6 +87,9 @@ homedirs:
 sfdump:
   lookup:
     logdir: /sfbackup/logs
+    days: 3
+    weeks: 3
+    weekly_day: 3
   logttl: 14
   jobs:
     default:
