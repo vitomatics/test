@@ -45,7 +45,14 @@ base:
   'altair.internal.sifive.com':
     - static-subnet.he-unix
     - profile.login
+    - profile.nomachine
     - hosts.altair
+
+  'betel.internal.sifive.com':
+    - static-subnet.he-unix
+    - profile.login
+    - profile.x2go
+    - hosts.betel
 
   'eddie.internal.sifive.com':
     - static-subnet.he-unix
