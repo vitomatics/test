@@ -18,6 +18,14 @@ nss:
     automount:
       - ldap
 
+{% if grains.os == 'Ubuntu' %}
+file:
+  ln:
+    /bin/sh:
+      target: bash
+      force: true
+{% endif %}
+
 pkgs:
   apt:
     repos:
@@ -97,3 +105,4 @@ boot:
   grub:
     serial:
       port: 0
+
