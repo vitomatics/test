@@ -21,9 +21,7 @@ nss:
 {% if grains.os == 'Ubuntu' %}
 file:
   ln:
-    /bin/sh:
-      target: bash
-      force: true
+    /bin/sh: bash
 {% endif %}
 
 pkgs:
