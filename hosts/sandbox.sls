@@ -4,8 +4,3 @@
 
 states:
   sfdump.rsync: true
-
-network:
-  resolver:
-    search:
-      - icir.org
