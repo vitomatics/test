@@ -8,4 +8,4 @@ states:
 network:
   resolver:
     search:
-      - aciri.org
+      - icir.org
