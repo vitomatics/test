@@ -4,3 +4,8 @@
 
 states:
   sfdump.rsync: true
+
+network:
+  resolver:
+    search:
+      - aciri.org
