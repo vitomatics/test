@@ -25,6 +25,15 @@ pkgs:
     lxsession: true
     lxterminal: true
     mate-core: true
+    mate-applets: true
+    mate-system-monitor: true
+    mate-themes: true
+    mate-tweak: true
+    mate-utils: true
+    mate-dock-applet: true
+    mate-indicator-applet: true
+    mate-gnome-main-menu-applet: true
+    x2gomatebindings: true
     gnome-shell: true
     gnome-terminal: true
     gnome-calculator: true
