@@ -40,6 +40,7 @@ base:
   'algol.internal.sifive.com':
     - static-subnet.sf-unix
     - profile.login
+    - profile.nomachine
     - hosts.algol
 
   'altair.internal.sifive.com':
