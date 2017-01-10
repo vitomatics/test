@@ -8,6 +8,18 @@ base:
   'nihilanth.internal.sifive.com':
     - hosts.nihilanth
 
+  'leia.internal.sifive.com':
+    - static-subnet.he-unix
+    - hosts.leia
+
+  'luke.internal.sifive.com':
+    - static-subnet.he-unix
+    - hosts.luke
+
+  'hansolo.internal.sifive.com':
+    - static-subnet.sf-unix
+    - hosts.hansolo
+
   'breencast.internal.sifive.com':
     - hosts.breencast
 
