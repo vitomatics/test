@@ -11,6 +11,7 @@ sfsalt:
 
   formulas:
     - apache-formula
+    - bind-formula
 
   nodegroups:
     login:
@@ -26,5 +27,6 @@ sfsalt:
     vmhost:
       - eddie.internal.sifive.com
       - marvin.internal.sifive.com
+      - bender.internal.sifive.com
 
 
