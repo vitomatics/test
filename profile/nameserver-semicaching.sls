@@ -15,8 +15,10 @@ bind:
       allow-query:
         - sifive-clients
 	- localhost
-      allow-transfer: none
-      allow-update: none
+      allow-transfer:
+        - none
+      allow-update:
+        - none
   configured_acls:
     sifive-clients:
       - sifive-compute
