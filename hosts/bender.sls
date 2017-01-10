@@ -1,5 +1,11 @@
 ## Pillar file for bender
 
+boot:
+  grub:
+    serial:
+      port: 1
+
+
 # This is what the network should be if the whole thing was not buggy
 # and had to be setup by hand
 # network:
