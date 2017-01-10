@@ -27,7 +27,7 @@ bind:
       - 10.101.0.0/16
       - localhost
 
-configured_zones:
+  configured_zones:
     internal.sifive.com:
       type: slave
     14.10.in-addr.arpa:
