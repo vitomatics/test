@@ -25,7 +25,7 @@ bind:
       - 10.100.0.0/16
       - 10.101.0.0/16
       - localhost
-  available_zones:
+  configured_zones:
     15.10.in-addr.arpa:
       type: slave
       file: db.15.10
