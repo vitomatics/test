@@ -11,10 +11,8 @@ bind:
     options:
       allow-recursion:
         - sifive-clients
-	- localhost
       allow-query:
         - sifive-clients
-	- localhost
       allow-transfer:
         - none
       allow-update:
@@ -24,6 +22,7 @@ bind:
       - 10.14.0.0/16
       - 10.15.0.0/16
       - 10.17.0.0/16
+      - localhost
 
 firewall:
   ports:
