@@ -11,10 +11,12 @@ bind:
     options:
       allow-recursion:
         - sifive-clients
+	- localhost
       allow-query:
         - sifive-clients
-      allow-transfer: '{ }'
-      allow-update: '{ }'
+	- localhost
+      allow-transfer: none
+      allow-update: none
   configured_acls:
     sifive-clients:
       - sifive-compute
@@ -27,8 +29,6 @@ bind:
       - 10.15.0.0/16
     sifive-laptop:
       - 10.17.0.0/16
-    localhost:
-      - 127.0.0.1
 
 firewall:
   ports:
