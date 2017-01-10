@@ -29,7 +29,7 @@ bind:
     15.10.in-addr.arpa:
       type: slave
       file: db.15.10
-      masters: 10.14.0.4
+      masters: "10.14.0.4;"
 
 firewall:
   ports:
