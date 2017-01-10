@@ -21,15 +21,8 @@ bind:
         - none
   configured_acls:
     sifive-clients:
-      - sifive-compute
-      - sifive-admin
-      - sifive-laptop
-      - localhost
-    sifive-compute:
       - 10.14.0.0/16
-    sifive-admin:
       - 10.15.0.0/16
-    sifive-laptop:
       - 10.17.0.0/16
 
 firewall:
