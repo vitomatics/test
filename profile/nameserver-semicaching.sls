@@ -5,6 +5,10 @@ states:
   bind: true
   bind.config: true
 
+bind:
+  config:
+    default_zones: true
+
 firewall:
   ports:
     tcp:
