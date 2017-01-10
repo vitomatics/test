@@ -9,6 +9,7 @@ bind:
   config:
     default_zones: true
     options:
+      masterfile-format: text
       allow-recursion:
         - sifive-clients
       allow-query:
