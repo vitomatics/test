@@ -3,6 +3,7 @@
 
 states:
   bind: true
+  bind.config: true
 
 firewall:
   ports:
