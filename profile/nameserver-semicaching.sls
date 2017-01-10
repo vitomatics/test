@@ -40,7 +40,7 @@ bind:
       file: db.internal.sifive.com
       masters: "10.14.0.4;"
     14.10.in-addr.arpa:
-      file: db.15.10
+      file: db.14.10
       masters: "10.14.0.4;"
     15.10.in-addr.arpa:
       file: db.15.10
