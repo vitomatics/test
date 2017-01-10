@@ -14,6 +14,7 @@ base:
 
   'luke.internal.sifive.com':
     - static-subnet.he-unix
+    - profile.caching-nameserver
     - hosts.luke
 
   'hansolo.internal.sifive.com':
