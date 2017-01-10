@@ -8,6 +8,19 @@ states:
 bind:
   config:
     default_zones: true
+    options:
+      allow-recursion:
+        - clients
+      allow-query:
+        - clients
+      allow-transfer: '{ }'
+      allow-update: '{ }'
+  configured_acls:
+    sifive-clients:
+      - 10.14.0.0/16
+      - 10.15.0.0/16
+      - 10.17.0.0/16
+      - 127.0.0.1
 
 firewall:
   ports:
