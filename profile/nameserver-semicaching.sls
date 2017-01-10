@@ -26,10 +26,22 @@ bind:
       - 10.100.0.0/16
       - 10.101.0.0/16
       - localhost
-  configured_zones:
+
+configured_zones:
+    internal.sifive.com:
+      type: slave
+    14.10.in-addr.arpa:
+      type: slave
     15.10.in-addr.arpa:
       type: slave
+
   available_zones:
+    internal.sifive.com:
+      file: db.internal.sifive.com
+      masters: "10.14.0.4;"
+    14.10.in-addr.arpa:
+      file: db.15.10
+      masters: "10.14.0.4;"
     15.10.in-addr.arpa:
       file: db.15.10
       masters: "10.14.0.4;"
