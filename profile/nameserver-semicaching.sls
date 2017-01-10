@@ -10,16 +10,24 @@ bind:
     default_zones: true
     options:
       allow-recursion:
-        - clients
+        - sifive-clients
       allow-query:
-        - clients
+        - sifive-clients
       allow-transfer: '{ }'
       allow-update: '{ }'
   configured_acls:
     sifive-clients:
+      - sifive-compute
+      - sifive-admin
+      - sifive-laptop
+      - localhost
+    sifive-compute:
       - 10.14.0.0/16
+    sifive-admin:
       - 10.15.0.0/16
+    sifive-laptop:
       - 10.17.0.0/16
+    localhost:
       - 127.0.0.1
 
 firewall:
