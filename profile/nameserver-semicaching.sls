@@ -18,6 +18,8 @@ bind:
         - none
       allow-update:
         - none
+      response-policy:
+        - zone "rpz"
   configured_acls:
     sifive-clients:
       - 10.14.0.0/16
