@@ -34,6 +34,10 @@ bind:
       type: slave
     15.10.in-addr.arpa:
       type: slave
+    rpz:
+      type: slave
+      allow-query:
+        - localhost
 
   available_zones:
     internal.sifive.com:
@@ -44,6 +48,9 @@ bind:
       masters: "10.14.0.4;"
     15.10.in-addr.arpa:
       file: db.15.10
+      masters: "10.14.0.4;"
+    rpz:
+      file: db.rpz
       masters: "10.14.0.4;"
 
 firewall:
