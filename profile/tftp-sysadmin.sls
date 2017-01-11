@@ -6,3 +6,8 @@ states:
 tftpd:
   lookup:
     directory: /srv/tftpboot
+
+firewall:
+  ports:
+    udp:
+      69: 10.0.0.0/8

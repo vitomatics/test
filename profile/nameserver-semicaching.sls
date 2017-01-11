@@ -5,7 +5,6 @@
 states:
   bind: true
   bind.config: true
-  firewall.iptables: true
 
 file:
   mkdir:
