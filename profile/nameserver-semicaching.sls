@@ -17,6 +17,8 @@ bind:
   config:
     default_zones: true
     options:
+      dnssec-enable: yes
+      dnssec-validation: auto
       masterfile-format: text
       allow-recursion:
         - sifive-clients
