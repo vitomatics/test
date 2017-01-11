@@ -5,6 +5,7 @@
 states:
   bind: true
   bind.config: true
+  firewall.iptables: true
 
 file:
   mkdir:
@@ -68,6 +69,6 @@ bind:
 firewall:
   ports:
     tcp:
-      53: any
+      53: 10.0.0.0/8
     udp:
-      53: any
+      53: 10.0.0.0/8
