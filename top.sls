@@ -10,6 +10,7 @@ base:
 
   'leia.internal.sifive.com':
     - static-subnet.he-unix
+    - profile.nameserver-semicaching
     - hosts.leia
 
   'luke.internal.sifive.com':
