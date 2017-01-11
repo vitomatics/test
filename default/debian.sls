@@ -99,6 +99,12 @@ pkgs:
     s-nail: true
     {% endif %}
 
+# If there is a firewall then leave ssh open
+firewall:
+  ports:
+    tcp:
+      22: 10.0.0.0/8
+
 boot:
   grub:
     serial:
