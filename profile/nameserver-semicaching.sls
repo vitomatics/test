@@ -8,7 +8,10 @@ states:
 
 file:
   mkdir:
-    /etc/bind/DIR_MANAGED_BY_SIFIVE_SALT
+    /etc/bind/DIR_MANAGED_BY_SIFIVE_SALT:
+      user: root
+      group: root
+      mode: '0444'
 
 bind:
   config:
