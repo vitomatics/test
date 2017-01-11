@@ -1,9 +1,14 @@
 # Pillar config for caching name server with copies of local zones.
-
+# Also uses an rpz zone for stuff that is behind the SiFive NAT that
+# we also access from outside the NAT.
 
 states:
   bind: true
   bind.config: true
+
+file:
+  mkdir:
+    /etc/bind/DIR_MANAGED_BY_SIFIVE_SALT
 
 bind:
   config:
