@@ -5,6 +5,7 @@ states:
   firewall.iptables: true
   autofs: true
   nfs4: true
+  homedirs: true
 
 # network - static - serveral services
 network:
@@ -39,7 +40,10 @@ autofs:
   direct:
     /mnt/homes: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/homes
 
-
+homedirs:
+  lookup:
+    home: /mnt/homes
+    
 firewall:
   ports:
     tcp:
