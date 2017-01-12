@@ -8,7 +8,6 @@ states:
   firewall.iptables: true
   autofs: true
   nfs4: true
-  homedirs: true
 
 # network - static - serveral services
 network:

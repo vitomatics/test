@@ -1,6 +1,6 @@
 homedirs:
-{#
   users:
+{#
     terpstra:
       uid: 1106
       gid: 1106
