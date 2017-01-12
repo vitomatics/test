@@ -1,4 +1,5 @@
 homedirs:
+{#
   users:
     terpstra:
       uid: 1106
@@ -109,3 +110,9 @@ homedirs:
       gid: 1122
       authorized_keys:
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6OpGzpq1RQNq2kEUGBplIVGx27bWZ/Ug5yBSWHSDxmZ8Rv++07zQ+B663OnBJKPeSLCOlPGmX9mir7XXOwPT1qTElSMN/mMgrH9MG/oHIh+yxaUuqQPVyUw0MpbElcAKvl1pQWjWfUBW956Z+fngcKagtF0wChn0JC0uCHffBEEPAE9nOi3u72q2NQhJsSkraJ2frqROccBBeVSh7NEXdN1LIc3oFDowDy/kp49yJTDYCbzAnXfNk/bDKBdn6cOimm6iZbDGG5f7oJMLVwK4yBIkOOC6AnaGRY6DZDu+D37N8KxAbcqjDXhW0ZYJoevRDzgbJRiGQ4oFCtWOMeunV
+#}
+    sols:
+      uid: 1123
+      gid: 1123
+      authorized_keys:
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKBLKDbzNqmBsbGCq/40/RKwDqsAiL6X/hQPpViYyMAPXg1793cjMFxEhsVD/2xKV19KBBU8ysv+Tx0xXDNHzplQd3+m8rR6sV3PZBRguLIY7I9c3MItXIRkNY3Ek2WUNsNxAt1h4ihyEB/c7Z+4PaWUAgf3kPgkZW/6v6mNFbv3v+MTpx++Vm37/JpLpKNitP8em36uug3+rdWbfMS3b43cuwla4VOehi0hy3SyGH5iMNv3slHdNdnCh1OHrAhPyDKgu98j5k8ew3IVBzoYTEf0/TgeXnuWjiaMCPGhJR5IjFFJO6MNNwJbg43ZI7pGbHvp/QCVhieUqj1jBk1wxz sols@sifive.com
