@@ -4,3 +4,7 @@
 
 states:
   sfdump.rsync: true
+
+states:
+  openntpd: false
+  chrony: true
