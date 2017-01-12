@@ -12,7 +12,6 @@ states:
   pam.sss: true
   pam.mkhomedir: true
   nsswitch: true
-  openntpd: true
   ssh.server: true
   ssh.client: true
   sudo: true

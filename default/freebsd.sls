@@ -1,5 +1,6 @@
 states:
   sendmail.absent: True
+  openntpd: true
 
 nss:
   shells:
