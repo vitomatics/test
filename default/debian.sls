@@ -51,6 +51,8 @@ pkgs:
 #}
 
   list:
+    krb5-user: true
+    
     htop: true
     iftop: true
     sysstat: true
