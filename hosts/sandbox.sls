@@ -4,6 +4,4 @@
 
 states:
   sfdump.rsync: true
-
-states:
   chrony: true
