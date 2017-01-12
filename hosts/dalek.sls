@@ -1,5 +1,8 @@
 ## pillar file for dalek
 
+include:
+  - homedirs
+
 states:
   apache: true
   firewall.iptables: true
