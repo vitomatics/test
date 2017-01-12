@@ -11,11 +11,13 @@ base:
   'leia.internal.sifive.com':
     - static-subnet.he-unix
     - profile.nameserver-semicaching
+    - profile.timeserver
     - hosts.leia
 
   'luke.internal.sifive.com':
     - static-subnet.he-unix
     - profile.nameserver-semicaching
+    - profile.timeserver
     - hosts.luke
 
   'hansolo.internal.sifive.com':
