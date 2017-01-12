@@ -1,6 +1,5 @@
 homedirs:
   users:
-{#
     terpstra:
       uid: 1106
       gid: 1106
@@ -110,7 +109,6 @@ homedirs:
       gid: 1122
       authorized_keys:
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6OpGzpq1RQNq2kEUGBplIVGx27bWZ/Ug5yBSWHSDxmZ8Rv++07zQ+B663OnBJKPeSLCOlPGmX9mir7XXOwPT1qTElSMN/mMgrH9MG/oHIh+yxaUuqQPVyUw0MpbElcAKvl1pQWjWfUBW956Z+fngcKagtF0wChn0JC0uCHffBEEPAE9nOi3u72q2NQhJsSkraJ2frqROccBBeVSh7NEXdN1LIc3oFDowDy/kp49yJTDYCbzAnXfNk/bDKBdn6cOimm6iZbDGG5f7oJMLVwK4yBIkOOC6AnaGRY6DZDu+D37N8KxAbcqjDXhW0ZYJoevRDzgbJRiGQ4oFCtWOMeunV
-#}
     sols:
       uid: 1123
       gid: 1123
