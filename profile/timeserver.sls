@@ -21,4 +21,4 @@ chrony:
 firewall:
   ports:
     udp:
-      123: 11.0.0.0/8
+      123: 10.0.0.0/8
