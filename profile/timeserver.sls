@@ -4,6 +4,8 @@ states:
   chrony: true
 
 chrony:
+  lookup:
+    rtcsync: true
   allow:
     - 10.0.0.0/16
   server:
