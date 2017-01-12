@@ -1,9 +1,6 @@
 ## Pillar file for heartofgold
 ## ZFS-based backup server
 
-include:
- - homedirs
-
 boot:
   grub:
     serial:
@@ -76,14 +73,6 @@ nfs4:
   domain:
     internal.sifive.com
 
-autofs:
-  direct:
-    /mnt/homes: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/homes
-
-homedirs:
-  lookup:
-    home: /mnt/homes
-    
 sfdump:
   lookup:
     logdir: /sfbackup/logs
