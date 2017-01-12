@@ -1,10 +1,8 @@
-# Pillar config to create home dirs for sifive with authorized keys
-# Needs to be run after first reboot due to dependce on users (and,
-# on the way, nsswitch)
+# Pillar config to speciey home dirs for sifive with authorized keys.
+# This lists all users but typically only one homedir is created with
+# username passed as pillar 'homedirs.user' variable.
 
 include:
   - homedirs.homedirs
 
-latestates:
-  homedirs: true
 
