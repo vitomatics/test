@@ -37,7 +37,7 @@ autofs:
   lookup:
     browse_mode: yes
   direct:
-    /mnt/home: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/home
+    /mnt/homes: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/homes
 
 
 firewall:
