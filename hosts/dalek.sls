@@ -45,6 +45,8 @@ autofs:
 homedirs:
   lookup:
     home: /mnt/homes
+  servers:
+    {{grains.id}}: true
     
 firewall:
   ports:
