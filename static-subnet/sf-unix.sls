@@ -7,3 +7,8 @@ network:
   resolver:
     nameservers:
       - 10.14.0.3
+
+chrony:
+  server:
+    - he-ntp0.internal.sifive.com
+    - he-ntp1.internal.sifive.com
