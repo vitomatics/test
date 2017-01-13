@@ -33,9 +33,6 @@ timezone: PST8PDT
 chrony:
   lookup:
     rtcsync: true
-  server:
-    - he-ntp0.internal.sifive.com
-    - he-ntp1.internal.sifive.com
 
 openntpd:
   servers:

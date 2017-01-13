@@ -121,5 +121,6 @@ base:
     - hosts.jenkins
 
   'sandbox.internal.sifive.com':
+    - location.he
     - profile.compute
     - hosts.sandbox
