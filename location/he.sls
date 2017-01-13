@@ -9,6 +9,7 @@ chrony:
     - he-ntp1.internal.sifive.com
 
 network:
-  nameservers:
-    - 10.14.16.38
-    - 10.14.16.39
+  resolver:
+    nameservers:
+      - 10.14.16.38
+      - 10.14.16.39
