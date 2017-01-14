@@ -57,6 +57,7 @@ pkgs:
     tcsh: true
     finger: true
     unzip: true
+    tree: true
 
     libtool: true
     libusb-1.0-0-dev: true
