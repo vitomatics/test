@@ -53,6 +53,10 @@ base:
     - profile.backupclient
     - hosts.vulcan
 
+  'klingon.internal.sifive.com':
+    - static-subnet.he-unix
+    - hosts.klingon
+
   'algol.internal.sifive.com':
     - static-subnet.sf-unix
     - profile.login
