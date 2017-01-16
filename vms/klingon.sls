@@ -1,7 +1,7 @@
 ## VM definition for host klingon
 
 vms:
-  klingon
+  klingon:
     type: libvirt
     vmhost: marvin.internal.sifive.com
     vcpus: 2
