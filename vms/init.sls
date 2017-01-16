@@ -5,6 +5,7 @@ include:
   - vms.altair
   - vms.betel
   - vms.dalek
+  - vms.klingon
   - vms.leia
   - vms.luke
   - vms.hansolo
