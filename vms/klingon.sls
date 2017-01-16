@@ -15,6 +15,6 @@ vms:
       root:
         vdtype: lvm
         size: 30G
-        vg: vmpool01
+        vg: vmpool02
     preseed: klingon
     os: ubuntu16.04
