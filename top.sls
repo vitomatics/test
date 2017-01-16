@@ -55,6 +55,7 @@ base:
 
   'klingon.internal.sifive.com':
     - static-subnet.he-unix
+    - profile.http-coverage
     - hosts.klingon
 
   'algol.internal.sifive.com':
