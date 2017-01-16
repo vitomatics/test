@@ -33,7 +33,6 @@ pkgs:
     mate-dock-applet: true
     mate-indicator-applet: true
     mate-gnome-main-menu-applet: true
-    x2gomatebindings: true
     gnome-shell: true
     gnome-terminal: true
     gnome-calculator: true
