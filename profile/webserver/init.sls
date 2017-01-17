@@ -16,10 +16,3 @@ apache:
     - interface: '*'
       port: 443
   ServerAdmin: help@sifive.com
-
-
-  # Override the default config for /usr/share/, leave the default
-  # for /var/www/
-  Directory:
-    "/usr/share/*":
-      Require: all denied
