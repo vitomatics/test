@@ -4,7 +4,7 @@
 
 states:
   apache.vhosts.standard: true
-  apach.mod_vhost_alias: true
+  apache.mod_vhost_alias: true
 
 apache:
   sites:
