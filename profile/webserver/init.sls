@@ -13,3 +13,10 @@ apache:
   name_virtual_hosts:
     - interface: '*'
       port: 80
+
+
+  # Override the default config for /usr/share/, leave the default
+  # for /var/www/
+  Directory:
+    /usr/share/*:
+      Require: all denied
