@@ -19,8 +19,12 @@ chrony:
     - he-ntp1.internal.sifive.com
 
 sfcert:
+  country: US
+  state: California
+  city: San Francisco
+  organization: SiFive Inc
+  certs:
+    coverage:
+      cn: coverage.internal.sifive.com:
   ca:
-    CN: ca.internal.sifive.com
-    C: US
-    ST: California
-    L: San Francisco
+    cn: ca.internal.sifive.com
