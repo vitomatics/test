@@ -7,6 +7,8 @@ states:
   apache.mod_vhost_alias: true
 
 apache:
+  user: jenkins
+  group: www-data
   sites:
     coverage:
       enabled: True
