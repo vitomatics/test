@@ -96,6 +96,8 @@ pkgs:
     apcalc: true
     emacs-nox: true
 
+    python-m2crypto: true
+    
     # This is a dependency on some Ubuntu hosts - this makes it consistent
     {% if grains.os == 'Ubuntu' %}
     s-nail: true
