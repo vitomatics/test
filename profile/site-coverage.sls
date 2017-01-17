@@ -13,6 +13,7 @@ apache:
     coverage:
       enabled: True
       ServerName: coverage.internal.sifive.com
+      ServerAdmin: help@sifive.com
       # Kind-of a hack so it does not try and create DocumentRoot
       VirtualDocumentRoot: {{ covdir }}
       DocumentRoot: false
