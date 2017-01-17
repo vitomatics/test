@@ -25,6 +25,6 @@ sfcert:
   organization: SiFive Inc
   certs:
     coverage:
-      cn: coverage.internal.sifive.com:
+      cn: coverage.internal.sifive.com
   ca:
     cn: ca.internal.sifive.com
