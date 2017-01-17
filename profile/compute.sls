@@ -99,7 +99,9 @@ pkgs:
     libmpfr-dev: true
     libgmp-dev: true
     dejagnu: true
+    {% if grains.os == 'Ubuntu' %}
     gnat-5: true
+    {% endif %}
 
     sbt: true
     # Modules
