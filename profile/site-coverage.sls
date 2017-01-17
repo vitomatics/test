@@ -12,6 +12,7 @@ apache:
       ServerName: coverage.internal.sifive.com
       ServerAdmin: help@sifive.com
       VirtualDocumentRoot: {{ covdir }}
+      DocumentRoot: false
 
       Directory:
         {{ covdir }}:
