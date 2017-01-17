@@ -99,6 +99,7 @@ pkgs:
     libmpfr-dev: true
     libgmp-dev: true
     dejagnu: true
+    gnat-5: true
 
     sbt: true
     # Modules
