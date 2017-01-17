@@ -3,6 +3,8 @@
 {% set sfimagedir = '/srv/images' %}
 {% set sfgroup = 'sysadmin' %}
 
+states:
+  apache.vhosts.standard: true
 
 file:
   mkdir:

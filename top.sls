@@ -43,8 +43,9 @@ base:
   'dalek.internal.sifive.com':
     - static-subnet.he-unix
     - profile.tftp-sysadmin
-    - profile.sfrepo
-    - profile.sfimages
+    - profile.webserver
+    - profile.site-sfrepo
+    - profile.site-sfimages
     - hosts.dalek
 
   'vulcan.internal.sifive.com':
@@ -55,7 +56,8 @@ base:
 
   'klingon.internal.sifive.com':
     - static-subnet.he-unix
-    - profile.http-coverage
+    - profile.webserver
+    - profile.site-coverage
     - hosts.klingon
 
   'algol.internal.sifive.com':

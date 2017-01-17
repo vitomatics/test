@@ -2,6 +2,8 @@
 
 {% set covdir = '/work/jenkins/coverage' %}
 
+states:
+  apache.vhosts.standard: true
 
 apache:
   sites:

@@ -7,9 +7,6 @@
 
 
 
-include:
-  - profile.webserver
-  
 states:
   apache.vhosts.standard: true
   reprepro: true
