@@ -22,8 +22,3 @@ autofs:
   direct:
     /work: -fstype=nfs4,ro,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/work
 
-firewall:
-  ports:
-    tcp:
-      80: 10.14.0.0/16 10.17.0.0/16
-      443: 10.14.0.0/16 10.17.0.0/16

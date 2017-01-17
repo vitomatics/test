@@ -16,3 +16,9 @@ apache:
     - interface: '*'
       port: 443
   ServerAdmin: help@sifive.com
+
+firewall:
+  ports:
+    tcp:
+      80: 10.14.0.0/16 10.17.0.0/16
+      443: 10.14.0.0/16 10.17.0.0/16
