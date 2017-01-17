@@ -5,6 +5,7 @@
 states:
   apache.vhosts.standard: true
   apache.mod_vhost_alias: true
+  apache.mod_ssl: true
 
 apache:
   user: jenkins
