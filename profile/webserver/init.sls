@@ -13,10 +13,13 @@ apache:
   name_virtual_hosts:
     - interface: '*'
       port: 80
+    - interface: '*'
+      port: 443
+  ServerAdmin: help@sifive.com
 
 
   # Override the default config for /usr/share/, leave the default
   # for /var/www/
   Directory:
-    /usr/share/*:
+    "/usr/share/*":
       Require: all denied
