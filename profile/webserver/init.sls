@@ -3,6 +3,7 @@
 
 states:
   apache: true
+  apache.config: true
   apache.no_default_vhost: true
 
 apache:
