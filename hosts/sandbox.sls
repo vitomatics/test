@@ -23,10 +23,11 @@ sfcert:
   state: California
   city: San Francisco
   organization: SiFive Inc
+  ca:
+    cn: ca.internal.sifive.com
   certs:
     coverage:
       cn: coverage.internal.sifive.com
-      user: jenkins
-      mode: '0600'
-  ca:
-    cn: ca.internal.sifive.com
+      file:
+        user: jenkins
+	mode: '0600'
