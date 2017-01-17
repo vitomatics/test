@@ -30,4 +30,4 @@ sfcert:
       cn: coverage.internal.sifive.com
       file:
         user: jenkins
-	mode: '0600'
+        mode: '0600'
