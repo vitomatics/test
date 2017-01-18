@@ -4,7 +4,7 @@
 {% set certdir = '/etc/pki' %}
 {% set cert = 'coverage' %}
 {% set keysuffix = '.key' %}
-{% set certfsuffix = '.crt' %}
+{% set certsuffix = '.crt' %}
 {% set caroot = 'ca' %}
 {% set keyfile = certdir + '/' + cert + keysuffix %}
 {% set certfile = certdir + '/' + cert + certsuffix %}
