@@ -65,7 +65,7 @@ apache:
             AuthName "Coverage"
             AuthBasicProvider external
             AuthExternal pwauth
-            Require: unix-group compute
+            Require unix-group compute
 
     coverage-redirect:
       ServerName: coverage.internal.sifive.com
