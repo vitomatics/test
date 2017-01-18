@@ -14,7 +14,6 @@ states:
   apache.vhosts.standard: true
   apache.mod_vhost_alias: true
   apache.mod_ssl: true
-  apache.config: true
   sfcert.certs: true
 
 sfcert:
