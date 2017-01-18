@@ -73,7 +73,6 @@ sfdump:
       acls: true
       xattrs: true
       key: sfdump_hog_key1
-{#
     nihilanth-etc:
       client: nihilanth.internal.sifive.com
       server: heartofgold.internal.sifive.com
@@ -83,5 +82,3 @@ sfdump:
       acls: false
       xattrs: false
       key: sfdump_hog_key1
-
-#}
