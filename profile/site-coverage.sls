@@ -45,7 +45,7 @@ apache:
       DocumentRoot: false
       SSLCertificateFile: {{ certfile }}
       SSLCertificateKeyFile: {{ keyfile }}
-      SSLCertificateCAFile: {{ cafile }}
+      SSLCertificateChainFile: {{ cafile }}
 
       Directory:
         {{ covdir }}:
