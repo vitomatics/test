@@ -62,7 +62,7 @@ apache:
           Require: false
           Formula_Append: |
             AuthType Basic
-            AuthName "Coverage"
+            AuthName "SiFive Coverage"
             AuthBasicProvider external
             AuthExternal pwauth
             <RequireAll>
