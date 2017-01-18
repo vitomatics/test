@@ -40,7 +40,6 @@ apache:
     coverage:
       interface: '*'
       port: '443'
-      enabled: true
       ServerName: coverage.internal.sifive.com
       ServerAdmin: help@sifive.com
       # Kind-of a hack so it does not try and create DocumentRoot
@@ -58,6 +57,4 @@ apache:
       ServerName: coverage.internal.sifive.com
       interface: '*'
       port: '80'
-      enabled: true
       template_file: salt://apache/vhosts/redirect.tmpl
-
