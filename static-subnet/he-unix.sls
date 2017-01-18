@@ -6,8 +6,7 @@ network:
 
   resolver:
     nameservers:
-      - 10.14.16.38
-      - 10.14.16.39
+      - 10.14.0.3
 
 chrony:
   server:
