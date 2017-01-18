@@ -61,7 +61,7 @@ apache:
           AllowOverride: None
           Options: +Indexes +SymLinksIfOwnerMatch
           Formula_Append: |
-	    AuthType Basic
+            AuthType Basic
             AuthName "Coverage"
             AuthBasicProvider external
             AuthExternal pwauth
