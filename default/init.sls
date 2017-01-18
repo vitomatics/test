@@ -23,7 +23,7 @@ network:
 
   resolver:
     search:
-      - {{ grains.domain }}
+      - internal.sifive.com
       - sifive.com
     nameservers:
       - 10.14.0.3
