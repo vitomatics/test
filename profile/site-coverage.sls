@@ -57,7 +57,6 @@ apache:
 
       Directory:
         {{ covdir }}:
-          Require: ip 10.14.0.0/16 10.17.0.0/16
           AllowOverride: None
           Options: +Indexes +SymLinksIfOwnerMatch
           Formula_Append: |
@@ -65,7 +64,10 @@ apache:
             AuthName "Coverage"
             AuthBasicProvider external
             AuthExternal pwauth
-            Require unix-group compute
+	    <RequireAll>
+              Require unix-group compute
+              Require: ip 10.14.0.0/16 10.17.0.0/16
+	    </RequireAll>
 
     coverage-redirect:
       ServerName: coverage.internal.sifive.com
