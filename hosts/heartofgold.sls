@@ -68,6 +68,7 @@ zfs:
     bkpool01/sfbackup/dumps/work:
     bkpool01/sfbackup/dumps/sifive:
     bkpool01/sfbackup/dumps/vulcan-srv:
+    bkpool01/sfbackup/dumps/nihilanth-etc:
 
 nfs4:
   domain:
