@@ -6,6 +6,7 @@ base:
     - hosts.citadel
 
   'nihilanth.internal.sifive.com':
+    - profile.backupclient
     - hosts.nihilanth
 
   'leia.internal.sifive.com':
