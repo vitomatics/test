@@ -1,5 +1,9 @@
 # A website for serving static production testing coverage reports
 
+include:
+  - profile.webserver.system_auth
+
+
 {% set covdir = '/work/jenkins/coverage' %}
 {% set certdir = '/etc/pki' %}
 {% set cert = 'coverage' %}
