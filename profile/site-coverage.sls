@@ -35,7 +35,8 @@ sfcert:
 apache:
   user: jenkins
   group: www-data
-  port: 443
+  interface: '*'
+  port: '443'
   sites:
     coverage:
       enabled: True
