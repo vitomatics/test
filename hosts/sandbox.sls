@@ -28,6 +28,5 @@ sfcert:
   certs:
     coverage:
       cn: coverage.internal.sifive.com
-      file:
-        user: jenkins
-        mode: '0600'
+      user: jenkins
+      mode: '0600'
