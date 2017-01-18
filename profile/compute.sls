@@ -70,7 +70,7 @@ pkgs:
     chromium: true
     {% elif grains.os == 'Ubuntu' %}
     chromium-browser: true
-    firefox: : true
+    firefox: true
     {% endif %}
 
     emacs-nox: false
