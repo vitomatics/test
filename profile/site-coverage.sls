@@ -59,6 +59,7 @@ apache:
         {{ covdir }}:
           AllowOverride: None
           Options: +Indexes +SymLinksIfOwnerMatch
+	  Require: false
           Formula_Append: |
             AuthType Basic
             AuthName "Coverage"
