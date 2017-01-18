@@ -6,5 +6,4 @@ pkgs:
     pwauth: true
     libapache2-mod-authnz-external: true
     libapache2-mod-authz-unixgroup: true
-    pwauth: true
 
