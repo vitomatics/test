@@ -51,11 +51,20 @@ apache:
       SSLCertificateFile: {{ certfile }}
       SSLCertificateKeyFile: {{ keyfile }}
       SSLCertificateChainFile: {{ cafile }}
+      Formula_Append: |
+        AddExternalAuth pwauth /usr/sbin/pwauth
+        SetExternalAuthMethod pwauth pipe
       Directory:
         {{ covdir }}:
           Require: ip 10.14.0.0/16 10.17.0.0/16
           AllowOverride: None
           Options: +Indexes +SymLinksIfOwnerMatch
+	  Formula_Append: |
+	    AuthType Basic
+	    AuthName "Coverage"
+            AuthBasicProvider external
+            AuthExternal pwauth
+            Require: unix-group compute
     coverage-redirect:
       ServerName: coverage.internal.sifive.com
       interface: '*'
