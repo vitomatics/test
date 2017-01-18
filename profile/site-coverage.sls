@@ -36,10 +36,10 @@ sfcert:
 apache:
   user: jenkins
   group: www-data
-  interface: '*'
-  port: '443'
   sites:
     coverage:
+      interface: '*'
+      port: '443'
       enabled: True
       ServerName: coverage.internal.sifive.com
       ServerAdmin: help@sifive.com
