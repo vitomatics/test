@@ -7,3 +7,8 @@ pkgs:
     libapache2-mod-authnz-external: true
     libapache2-mod-authz-unixgroup: true
 
+apache:
+  modules:
+    enabled:
+      - authnz_external
+      - authz_unixgroup
