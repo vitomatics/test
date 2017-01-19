@@ -41,16 +41,16 @@ sfcert:
 
 file:
   mkdir:
-    name: {{ sitedir }}
-    user: root
-    group: root
-    mode: '0755'
+    {{ sitedir }}
+      user: root
+      group: root
+      mode: '0755'
   file:
-    name: {{ passwdfile }}
-    user: {{ user }}
-    mode: '0400'
-    contents:
-      - sifive:$apr1$XAJYmbSG$.2ZJfST1UYK3K6b9ehAdr0
+    {{ passwdfile }}:
+      user: {{ user }}
+      mode: '0400'
+      contents:
+        - sifive:$apr1$XAJYmbSG$.2ZJfST1UYK3K6b9ehAdr0
 
 apache:
   user: {{ user }}
