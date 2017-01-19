@@ -16,7 +16,7 @@ include:
 {% set certfile = certdir + '/' + cert + certsuffix %}
 {% set cafile = certdir + '/' + caroot + certsuffix %}
 {% set sitedir = '/srv/' + site %}
-{% set passwdfile = sitedir + '/' + site + '.htpasswd %}
+{% set passwdfile = sitedir + '/' + site + '.htpasswd' %}
 
 states:
   apache.vhosts.standard: true
@@ -53,7 +53,7 @@ file:
       - sifive:$apr1$XAJYmbSG$.2ZJfST1UYK3K6b9ehAdr0
 
 apache:
-  user: {{user}}
+  user: {{ user }}
   group: www-data
   sites:
     coverage:
