@@ -3,9 +3,11 @@ base:
     - default
 
   'citadel.internal.sifive.com':
+    - static-subnet.sf-unix
     - hosts.citadel
 
   'nihilanth.internal.sifive.com':
+    - static-subnet.sf-unix
     - profile.backupclient
     - hosts.nihilanth
 
@@ -26,21 +28,26 @@ base:
     - hosts.hansolo
 
   'breencast.internal.sifive.com':
+    - static-subnet.sf-unix
     - profile.backupclient
     - hosts.breencast
 
   'metrocop.internal.sifive.com':
+    - static-subnet.sf-unix
     - hosts.metrocop
 
   'synth.internal.sifive.com':
+    - static-subnet.sf-unix
     - hosts.synth
 
   'gonarch.internal.sifive.com':
+    - static-subnet.sf-unix
     - profile.saltmaster
     - profile.backupclient
     - hosts.gonarch
 
   'canal.internal.sifive.com':
+    - static-subnet.sf-unix
     - hosts.canal
 
   'dalek.internal.sifive.com':
@@ -110,26 +117,32 @@ base:
     - hosts.heartofgold
 
   'combine.sifive.com':
+    - static-subnet.sf-unix
     - xen.dom0
 
   'gamma*.internal.sifive.com':
+    - static-subnet.dhcp
     - profile.compute
     - hosts.gamma
 
   'i0.internal.sifive.com':
+    - static-subnet.sf-unix
     - profile.compute
     - profile.labhost
     - profile.backupclient
     - hosts.i0
 
   'b0.internal.sifive.com':
+    - static-subnet.sf-unix
     - profile.compute
     - profile.labhost
     - hosts.b0
 
   'jenkins.internal.sifive.com':
+    - static-subnet.sf-unix
     - hosts.jenkins
 
   'sandbox.internal.sifive.com':
+    - static-subnet.dhcp
     - profile.compute
     - hosts.sandbox

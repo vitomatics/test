@@ -18,15 +18,10 @@ states:
   opensmtpd: true
 
 network:
-  gateway: 10.14.0.1
-  netmask: 255.255.240.0
-
   resolver:
     search:
       - internal.sifive.com
       - sifive.com
-    nameservers:
-      - 10.14.0.3
 
 timezone: PST8PDT
 
