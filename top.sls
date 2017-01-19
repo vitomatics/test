@@ -26,6 +26,7 @@ base:
     - hosts.hansolo
 
   'breencast.internal.sifive.com':
+    - profile.backupclient
     - hosts.breencast
 
   'metrocop.internal.sifive.com':
