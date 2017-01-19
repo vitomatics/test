@@ -81,7 +81,6 @@ sfdump:
     logdir: /sfbackup/logs
     days: 10
     weeks: 4
-    weekly_day: 6
   logttl: 14
   jobs:
     default:
