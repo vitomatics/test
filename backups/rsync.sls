@@ -4,7 +4,7 @@ sfdump:
   # Keys for rsync dumps
   keys:
     sfdump_hog_key1:
-      public: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCjNdQu54ge0ZUkXZIL29ljagxF2JdzOQLqJsDr4TcjbzRRP2e4LSmqPG/TbN1FLJWD0S0NfcF6qKwPkbXtoDSKhLMmSQDGA17Vh6DLY9cKymxBI6uVQ0+QSXht1opGwN+kzx4w+wK+i3ncxDB4xve0LKT8nlm264UltkfPthDEIzWxE1mffs6AnNDM9VopkaVzveFzfq6+pWmXxAqQlas4gto2paCaWMe4uync6UwKbCfTWd+lB/Fc1pQaMMw5gRhDhT8u6E7r7rYXom3obcJkhLtzefnfWMKQlfBkLisVZnlsJZpcZG+fNtnZwtFgSLI6r6F2gpWk5LtNL4S9GOZ5 davidj@resilinix1.local
+      public: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCjNdQu54ge0ZUkXZIL29ljagxF2JdzOQLqJsDr4TcjbzRRP2e4LSmqPG/TbN1FLJWD0S0NfcF6qKwPkbXtoDSKhLMmSQDGA17Vh6DLY9cKymxBI6uVQ0+QSXht1opGwN+kzx4w+wK+i3ncxDB4xve0LKT8nlm264UltkfPthDEIzWxE1mffs6AnNDM9VopkaVzveFzfq6+pWmXxAqQlas4gto2paCaWMe4uync6UwKbCfTWd+lB/Fc1pQaMMw5gRhDhT8u6E7r7rYXom3obcJkhLtzefnfWMKQlfBkLisVZnlsJZpcZG+fNtnZwtFgSLI6r6F2gpWk5LtNL4S9GOZ5 sfdump_hog_key1
       private: |
         -----BEGIN RSA PRIVATE KEY-----
         MIIEowIBAAKCAQEAozXULueIHtGVJF2SC9vZY2oMRdiXczkC6ibA6+E3I280UT9n
@@ -32,6 +32,36 @@ sfdump:
         SAN9AoGBAMxH0eOqaehw9UNWW6SV6wDpYsJWPePNP8jWsE7KvOc5udJOvVkvmJvE
         P43zpdDs8X2vbPRDEZom6BV8slPI7oPI/6WczDQKvI8Ur5v6EFbChmi+c191+U0y
         lNoAd73zzkzskJk1qwdgYSOKydzWrfDnIY6r1ddFGGutPISk/7YS
+        -----END RSA PRIVATE KEY-----
+    sfdump_hog_key2:
+      public: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJmtAaqg2GsKxh9YFQ/tXVtdffiOe8WpYuUUuPndQ3YcKLgmMG079LQvzo1RZtSrAzZO/ack6Vjo1cp36Yg0wuUlUoEg+SRfy2al9QJYFOVyEe2lL9b3hKG628CZjcboDC2eQ62kg5Zfa0MHKAut1U3quWKOQjNzN3Y7EhQmSu33Ew9GBBFxDcI1uWrYgaQpOglYYszBgyhuxBnRUAcEr6QlTGiVSEcMjovqtM3vjm6wRKwBV52ugQbK8qExgLLNEKALSu5UBrAqnd5f3libc/oBS/trBnxB96M5W0sw9Y5HGrJ8P0jDW41Dph5x4bH86OlfFmJM3RnpNvvCL9JrpD sfdump_hog_key2
+      private: |
+        -----BEGIN RSA PRIVATE KEY-----
+        MIIEowIBAAKCAQEAyZrQGqoNhrCsYfWBUP7V1bXX34jnvFqWLlFLj53UN2HCi4Jj
+        BtO/S0L86NUWbUqwM2Tv2nJOlY6NXKd+mINMLlJVKBIPkkX8tmpfUCWBTlchHtpS
+        /W94ShutvAmY3G6AwtnkOtpIOWX2tDBygLrdVN6rlijkIzczd2OxIUJkrt9xMPRg
+        QRcQ3CNblq2IGkKToJWGLMwYMobsQZ0VAHBK+kJUxolUhHDI6L6rTN745usESsAV
+        edroEGyvKhMYCyzRCgC0ruVAawKp3eX95Ym3P6AUv7awZ8QfejOVtLMPWORxqyfD
+        9Iw1uNQ6YeceGx/OjpXxZiTN0Z6Tb7wi/Sa6QwIDAQABAoIBADpAORD7QZ1BPw2u
+        2gaFG1P8jrtP22VY5zvK0YJVoBPAc23L5sD6PbOJT3oW17wMcIzpBUSg8oPUBJRY
+        8QMwLLrVnzVMwqMJBdPPOGr36zyvgCph+sivhJolFTXXsAtBAoNKYd9/Yo7zHy1B
+        MlRvqbP0ArAIcKKcOIqui2eIv36nHc0HC+SGAqjJ53lfupBEiGTE7ga6mlD6447r
+        gm/7O1pdDwQSc8oxcStl6JGde85W2Iv1m3EpimnluEdBJ2eE1E57Z2hlbhnotFts
+        s+YSlV+0JnlTVKyrZlzMhVBVhaYn6rOXXVHKdlmEQxJEYMwgbpn6b8R+vU5+BzeX
+        x5W4bkECgYEA41hG8i1KfeeoRyvo8ZwCtyr5DeyUzwUtvCjbKjKr0WtZY8nk/x9S
+        gL8OXw55bH+3hiQJkgG1U7xtGTtZwYPnunjQN0QPBvureXvrveZUpcqGeMNp6If0
+        y6d7pYGjzRuY8FO1LDf4GP7DA74m+4cgG5IS+kseS76t86nV/NAMoXcCgYEA4wP7
+        Scws8zplA0jRg1mY+I/SE4KdJw9tdZ15i0G9ZlbhdcjRAMGE39ZQhzGpLe7l9in7
+        hhTnBKdGZaDxKdoO9aTE58oODVEui+7jOO3sV55JOLwIPQE6d4Lcrpe2YjQG0OU1
+        lOi1UEMrwdp72T43XIn2cywiR333k7ElpYHJQJUCgYAT7PjK4Q1WW6d0FXUlN/dE
+        9o89mS6xtlJ721jaKfbFNBNxm5Bmi+g/QH+R9ULPL6J2L1JnaZ7q5+jn/Tuwqk71
+        GQGm1mA6zHQLAcF3s2hX35hJnVb6+m+KKfO8XdBtea294phOd9lW131gJppkEUPP
+        Js5jAZJ2MRAt+wS2U8XHoQKBgC8ZW2BjQQwxmFWHHRjQVQF07VPo7Gv3MnGNe3Md
+        74q1Cc/jGyG6BLRgBZMXBY+nGgTpjuqxmYCIp/1b180kFah3R/cDH8k5h5u2s2PT
+        UQ6Yo35m3Jqzj4rOFrUOeuODAcsDUwuTAFMnrINqrflThC7p3LzmcjI8+0mkHjhp
+        ZfTFAoGBAKba9aA885gFptrEi+eXnyGri5KUbMyJIdFno6rz54NTxW4WWnhtb795
+        BdxgC+/MJFdPutSZko1A1qp0ffrQLbJoZ75ZJ7iFx5aEe+TZwETfYa/jn54U7uBk
+        ofSfhpRLCbMcvEgPE1jJXu4my3DuMUlaK1qSqZwZKuU3ZTfiBciz
         -----END RSA PRIVATE KEY-----
     sfdump_omega1_key1:
       public: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIrT2qKW6RZuC2Xo/myOw9FMCECBm4OkndcwmAokqQ5XMt0gaJDMHRDD608kkQRx1ibxv9VEUIM4eaX2rG2T0gaqmG/ecy5knmVA8I4/Pd6cig4i2vrDYDDH8xDiOIiVgYZPJ8FblIOw5mZXTiDhFFOGkye4rE1QzAqcGLqBLnBomw5QrSm7c0D1iJk+mJCSzJ4bI7swJFzMF24XURnMtO/BlALmZhd8hNoPLe4PxV6I+aBRyxchCHDWCPHHcq23Co5fnGwD9z2ZNZ2HZ2OZpZVFL5xDsaQJBHDAK06inrHwQQ+HnRAQmUo91Wqi7r0wzMHlfffsflkghvND+Rp1LN davidj@heartofgold.internal.sifive.com
@@ -86,4 +116,26 @@ sfdump:
       key: sfdump_hog_key1
       days: 3
       weeks: 4
+    breencast-ldap-db:
+      client: breencast.internal.sifive.com
+      server: heartofgold.internal.sifive.com
+      src: /var/db/openldap-data
+      dest: /sfbackup/dumps/breencast-ldap-db
+      compression: false
+      acls: false
+      xattrs: false
+      key: sfdump_hog_key1
+      days: 4
+      weeks: 2
+    breencast-ldap-config:
+      client: breencast.internal.sifive.com
+      server: heartofgold.internal.sifive.com
+      src: /usr/local/etc/openldap
+      dest: /sfbackup/dumps/breencast-ldap-config
+      compression: false
+      acls: false
+      xattrs: false
+      key: sfdump_hog_key2
+      days: 4
+      weeks: 2
       

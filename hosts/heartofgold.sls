@@ -69,6 +69,8 @@ zfs:
     bkpool01/sfbackup/dumps/sifive:
     bkpool01/sfbackup/dumps/vulcan-srv:
     bkpool01/sfbackup/dumps/nihilanth-etc:
+    bkpool01/sfbackup/dumps/breencast-ldap-db:
+    bkpool01/sfbackup/dumps/breencast-ldap-config:
 
 nfs4:
   domain:
@@ -77,9 +79,9 @@ nfs4:
 sfdump:
   lookup:
     logdir: /sfbackup/logs
-    days: 3
-    weeks: 2
-    weekly_day: 3
+    days: 10
+    weeks: 4
+    weekly_day: 6
   logttl: 14
   jobs:
     default:
