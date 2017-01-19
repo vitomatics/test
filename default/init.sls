@@ -16,6 +16,7 @@ states:
   ssh.client: true
   sudo: true
   opensmtpd: true
+  chrony: true
 
 network:
   resolver:
@@ -28,6 +29,7 @@ timezone: PST8PDT
 chrony:
   lookup:
     rtcsync: true
+  {# Servers for client machines are defined in the static-subnet files #}
 
 openntpd:
   servers:

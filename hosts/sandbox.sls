@@ -4,14 +4,8 @@
 
 states:
   sfdump.rsync: true
-  chrony: true
   firewall.iptables: true
 
-
-chrony:
-  server:
-    - he-ntp0.internal.sifive.com
-    - he-ntp1.internal.sifive.com
 
 sfcert:
   country: US
