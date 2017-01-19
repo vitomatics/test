@@ -1,5 +1,10 @@
 # DHCP - only set time servers for now
 
+# Pull DNS from DHCP
+network:
+  resolver:
+    nameservers:
+
 
 chrony:
   server:
