@@ -49,6 +49,7 @@ file:
     {{ passwdfile }}:
       user: {{ user }}
       mode: '0400'
+      makedirs: true
       contents:
         - sifive:$apr1$XAJYmbSG$.2ZJfST1UYK3K6b9ehAdr0
 
