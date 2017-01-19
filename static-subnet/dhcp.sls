@@ -3,7 +3,7 @@
 # Pull DNS from DHCP
 network:
   resolver:
-    nameservers:
+    nameservers: []
 
 
 chrony:
