@@ -31,7 +31,7 @@ sfcert:
     certsuffix: {{ certsuffix }}
     caroot: {{ caroot }}
   ca:
-    user: {{user}}
+    user: {{ user }}
     mode: '0600'
   certs:
     {{cert}}:
