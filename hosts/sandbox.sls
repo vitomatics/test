@@ -5,6 +5,7 @@
 states:
   sfdump.rsync: true
   chrony: true
+  firewall.iptables: true
 
 
 chrony:
