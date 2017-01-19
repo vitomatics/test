@@ -41,7 +41,7 @@ sfcert:
 
 file:
   mkdir:
-    {{ sitedir }}
+    {{ sitedir }}:
       user: root
       group: root
       mode: '0755'
