@@ -68,9 +68,6 @@ apache:
       SSLCertificateFile: {{ certfile }}
       SSLCertificateKeyFile: {{ keyfile }}
       SSLCertificateChainFile: {{ cafile }}
-      Formula_Append: |
-        AddExternalAuth pwauth /usr/sbin/pwauth
-        SetExternalAuthMethod pwauth pipe
 
       Directory:
         {{ covdir }}:
@@ -80,10 +77,10 @@ apache:
           Formula_Append: |
             AuthType Basic
             AuthName "SiFive Coverage"
-            AuthBasicProvider external
-            AuthExternal pwauth
+            AuthBasicProvider file
+            AuthUserFile "{{passwdfile}}"
             <RequireAll>
-              Require unix-group compute
+              Require valid-user
               Require ip 10.14.0.0/16 10.17.0.0/16
             </RequireAll>
 
