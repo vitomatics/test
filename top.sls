@@ -25,6 +25,8 @@ base:
 
   'hansolo.internal.sifive.com':
     - static-subnet.sf-unix
+    - profile.nameserver-semicaching
+    - profile.timeserver
     - hosts.hansolo
 
   'breencast.internal.sifive.com':
