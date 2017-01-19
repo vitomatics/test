@@ -40,7 +40,7 @@ sfcert:
       mode: '0600'
 
 file:
-  directory:
+  mkdir:
     name: {{ sitedir }}
     user: root
     group: root
