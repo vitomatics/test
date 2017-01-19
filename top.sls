@@ -37,6 +37,7 @@ base:
 
   'gonarch.internal.sifive.com':
     - profile.saltmaster
+    - profile.backupclient
     - hosts.gonarch
 
   'canal.internal.sifive.com':

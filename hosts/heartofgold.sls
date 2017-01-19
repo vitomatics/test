@@ -69,6 +69,7 @@ zfs:
     bkpool01/sfbackup/dumps/sifive:
     bkpool01/sfbackup/dumps/vulcan-srv:
     bkpool01/sfbackup/dumps/nihilanth-etc:
+    bkpool01/sfbackup/dumps/gonarch-srv:
     bkpool01/sfbackup/dumps/breencast-ldap-db:
     bkpool01/sfbackup/dumps/breencast-ldap-config:
 
