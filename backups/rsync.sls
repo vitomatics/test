@@ -73,6 +73,8 @@ sfdump:
       acls: true
       xattrs: true
       key: sfdump_hog_key1
+      days: 3
+      weeks: 4
     nihilanth-etc:
       client: nihilanth.internal.sifive.com
       server: heartofgold.internal.sifive.com
@@ -82,3 +84,6 @@ sfdump:
       acls: false
       xattrs: false
       key: sfdump_hog_key1
+      days: 3
+      weeks: 4
+      
