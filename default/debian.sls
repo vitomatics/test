@@ -76,6 +76,7 @@ pkgs:
     bridge-utils: true
     smartmontools: true
     mcelog: true
+    sssd-tools: true
 
     screen: true
     tmux: true
