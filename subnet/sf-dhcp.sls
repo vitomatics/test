@@ -11,5 +11,5 @@ network:
 
 chrony:
   server:
+    - sf-ntp0.internal.sifive.com
     - he-ntp0.internal.sifive.com
-    - he-ntp1.internal.sifive.com
