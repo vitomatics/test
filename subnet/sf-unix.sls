@@ -1,4 +1,7 @@
-# San Francisco location values
+# San Francisco unix subnet
+
+include:
+  - location/sf
 
 network:
   gateway: 10.14.0.1

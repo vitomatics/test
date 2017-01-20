@@ -1,4 +1,7 @@
-# Hurricane Electric location values.
+# Hurricane Electric unix01 subnet
+
+include:
+  - location.he
 
 network:
   gateway: 10.14.16.1

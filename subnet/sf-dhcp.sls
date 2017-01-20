@@ -1,4 +1,7 @@
-# DHCP - only set time servers for now
+# SF DHCP config
+
+include:
+  - location.sf
 
 # Pull DNS from DHCP
 network:
