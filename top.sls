@@ -145,6 +145,6 @@ base:
     - hosts.jenkins
 
   'sandbox.internal.sifive.com':
-    - subnet.he-dhcp
+    - subnet.he-unix01
     - profile.compute
     - hosts.sandbox
