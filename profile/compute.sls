@@ -140,6 +140,9 @@ pkgs:
     # Synopsys Hector
     libncurses5:i386: true
 
+    # Synopsys "mw"
+    libxext6:i386: true
+
 file:
   mkdir:
     /scratch:
