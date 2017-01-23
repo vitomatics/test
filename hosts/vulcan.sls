@@ -3,11 +3,6 @@
 states:
   firewall.iptables: true
 
-# network - static - serveral services
-network:
-  interfaces:
-    ens2:
-      ip: 10.14.16.37
 
 # A VG for data
 disksetup:
