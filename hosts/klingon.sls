@@ -6,12 +6,6 @@ states:
   autofs: true
   nfs4: true
 
-# network - static - serveral services
-network:
-  interfaces:
-    ens2:
-      ip: 10.14.16.74
-
 
 nfs4:
   domain: internal.sifive.com
