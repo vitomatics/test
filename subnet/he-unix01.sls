@@ -4,7 +4,8 @@ include:
   - location.he
 
 network:
-  nameservers: [ ]
+  gateway: 10.14.16.1
+  netmask: 255.255.255.0
   
 
   # Use resolvconf for nameservers
