@@ -58,6 +58,7 @@ base:
     - profile.webserver
     - profile.site-sfrepo
     - profile.site-sfimages
+    - profile.backupclient
     - hosts.dalek
 
   'vulcan.internal.sifive.com':
