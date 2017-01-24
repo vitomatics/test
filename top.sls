@@ -58,6 +58,7 @@ base:
     - profile.webserver
     - profile.site-sfrepo
     - profile.site-sfimages
+    - profile.site-pxe
     - profile.backupclient
     - hosts.dalek
 
