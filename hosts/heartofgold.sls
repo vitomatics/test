@@ -68,7 +68,7 @@ zfs:
     bkpool01/sfbackup/dumps/gonarch-srv:
     bkpool01/sfbackup/dumps/breencast-ldap-db:
     bkpool01/sfbackup/dumps/breencast-ldap-config:
-    bkpool01/sfbackup/dumps/dalek-srv
+    bkpool01/sfbackup/dumps/dalek-srv:
 
 nfs4:
   domain:
