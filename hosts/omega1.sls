@@ -47,6 +47,7 @@ zfs:
     bkpool02/sfbackup/dumps/homes:
     bkpool02/sfbackup/dumps/sifive:
     bkpool02/sfbackup/dumps/vulcan-srv:
+    bkpool02/sfbackup/dumps/dalek-srv:
 
 
 sfdump:
