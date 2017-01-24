@@ -29,4 +29,4 @@ apache:
         {{ sitedir }}:
           AllowOverride: None
           Require: ip {{ ips }}
-	  Options: +Indexes
+          Options: +Indexes
