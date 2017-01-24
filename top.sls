@@ -59,6 +59,7 @@ base:
     - profile.site-sfrepo
     - profile.site-sfimages
     - profile.site-pxe
+    - profile.site-install
     - profile.backupclient
     - hosts.dalek
 
