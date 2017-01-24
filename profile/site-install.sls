@@ -5,6 +5,7 @@
 {% set servername = site + '.' + domain %}
 {% set sitedir = '/srv/www/' + site %}
 {% set ips = '10.14.0.0/16' %}
+{% set group = 'sysadmin' %}
 
 states:
   apache.vhosts.standard: true
@@ -13,8 +14,20 @@ file:
   mkdir:
     {{ sitedir }}:
       user: root
-      group: root
-      mode: '0755'
+      group: {{ group }}
+      mode: '0775'
+    {{ sitedir }}/preseed:
+      user: root
+      group: {{ group }}
+      mode: '0775'
+    {{ sitedir }}/sysresccd:
+      user: root
+      group: {{ group }}
+      mode: '0775'
+    {{ sitedir }}/memtest86:
+      user: root
+      group: {{ group }}
+      mode: '0775'
 
 apache:
   sites:
