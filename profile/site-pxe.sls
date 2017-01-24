@@ -21,7 +21,7 @@ apache:
     {{ site }}:
       interface: '*'
       port: '80'
-      ServerName: {{ severname }}
+      ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: {{ sitedir }}
 
