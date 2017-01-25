@@ -17,12 +17,13 @@ sfsalt:
     login:
       - algol.internal.sifive.com
       - altair.internal.sifive.com
+      - betel.internal.sifive.com
     compute:
       - algol.internal.sifive.com
       - altair.internal.sifive.com
+      - betel.internal.sifive.com
       - gamma*.internal.sifive.com
       - i0.internal.sifive.com
-      - i1.internal.sifive.com
       - b0.internal.sifive.com
     vmhost:
       - eddie.internal.sifive.com
