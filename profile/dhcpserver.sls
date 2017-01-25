@@ -1,8 +1,8 @@
 # Pillar config for SiFive DHCPD server
 
 states:
-  dhcpd: true
+  sfdhcpd: true
 
-dhcpd:
-  config_pillar: dhcpd:conf_data
+sfdhcpd:
+  config_pillar: sfdhcpd:conf_data
   
