@@ -1,9 +1,9 @@
 # SiFive Pillar setup for the salt master.
 
-{{ set saltdir = '/srv/salt' }}
-{{ set pillardir = '/srv/pillar' }}
-{{ set formuladir = '/srv/formulas' }}
-{{ set filetreedir = pillardir + '/' + 'file_tree' }}
+{% set saltdir = '/srv/salt' %}
+{% set pillardir = '/srv/pillar' %}
+{% set formuladir = '/srv/formulas' %}
+{% set filetreedir = pillardir + '/' + 'file_tree' %}
 
 states:
   sfsalt: true
