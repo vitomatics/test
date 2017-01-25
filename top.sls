@@ -149,5 +149,5 @@ base:
 
   'sandbox.internal.sifive.com':
     - subnet.he-unix01
-    - profile.dhcpd
+    - profile.dhcpserver
     - hosts.sandbox
