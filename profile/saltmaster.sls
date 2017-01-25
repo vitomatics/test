@@ -17,6 +17,7 @@ sfsalt:
   formulas:
     - apache-formula
     - bind-formula
+    - dhcpd-formula
 
   nodegroups:
     login:
@@ -24,6 +25,10 @@ sfsalt:
       - altair.internal.sifive.com
       - betel.internal.sifive.com
     compute:
+      - gamma*.internal.sifive.com
+      - i0.internal.sifive.com
+      - b0.internal.sifive.com
+    user:
       - algol.internal.sifive.com
       - altair.internal.sifive.com
       - betel.internal.sifive.com
