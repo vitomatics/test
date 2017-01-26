@@ -30,6 +30,6 @@ dhcpd:
       pools:
         allow: asdf
         deny: zxcv
-	range:
-	  - 1.2.3.4
-	  - 1.2.3.5
+        range:
+          - 1.2.3.4
+          - 1.2.3.5
