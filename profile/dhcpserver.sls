@@ -25,6 +25,7 @@ dhcpd:
 
   hosts:
     test.internal.sifive.com:
+{#
   shared_networks:
     test:
       pools:
@@ -34,3 +35,4 @@ dhcpd:
           range:
             - 1.2.3.4
             - 1.2.3.5
+#}
