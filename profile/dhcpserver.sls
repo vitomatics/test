@@ -11,7 +11,7 @@ dhcpd:
   include_pillars:
     - site/dhcpd/options_ipxe
     - site/dhcpd/options_pxelinux
-  include_text: |
+  include_text:
     - class "pxeclient" {
     -   match if whatever;
     - }
