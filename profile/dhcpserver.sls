@@ -8,11 +8,13 @@ dhcpd:
   listen_interfaces:
     - lo
 
+  authoritative: true
   log_facility: daemon
   ddns_update_style: none
-  allow: booting
-  deny: bootp duplicates
   one_lease_per_client: on
+  
+  # allow: booting
+  deny: bootp duplicates
   
 
   default_lease_time: 600
