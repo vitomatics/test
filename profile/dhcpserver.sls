@@ -24,6 +24,7 @@ dhcpd:
   domain_name: internal.sifive.com
   subnets:
     1.2.3.4:
+      deny: bootp
       netmask: 255.255.255.0
       domain_name: test.sifive.com
       routers: 1.2.3.4
