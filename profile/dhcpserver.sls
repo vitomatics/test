@@ -8,7 +8,13 @@ dhcpd:
   listen_interfaces:
     - lo
 
-  domain_name: internal.sifive.com
+  log_facility: daemon
+  ddns_update_style: none
+  allow: booting
+  deny: bootp
+  deny: duplicates
+  
+
   default_lease_time: 600
   max_lease_time: 7200
-  
+  domain_name: internal.sifive.com
