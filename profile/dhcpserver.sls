@@ -39,7 +39,7 @@ dhcpd:
     - bootp
     - duplicates
   one_lease_per_client: true
-  authoritative: true
+  {# authoritative: true #}
 
   domain_name: internal.sifive.com
   domain_name_servers:
@@ -49,35 +49,6 @@ dhcpd:
     - internal.sifive.com
     - sifive.com
   
-  subnets:
-    # sf-unix
-    10.14.0.0:
-      netmask: 255.255.240.0
-      routers: 10.14.0.1
-      domain_name_servers: 
-        - 10.14.0.14
-        - 10.14.16.39
-      ntp_servers:
-        - 10.14.0.14
-        - 10.14.16.39
-      pools:
-        regular_pool:
-          range:
-            - 10.14.3.10
-            - 10.14.3.224
-          deny:
-            - members of "pxeclient"
-            - members of "debinstall"
-        install_pool:
-          default_lease_time: 180
-          max_lease_time: 360
-          next_server: tftpboot.internal.sifive.com
-          range:
-            - 10.14.3.10
-            - 10.14.3.224
-          allow:
-            - members of "pxeclient"
-            - members of "debinstall"     
   hosts:
     nuc1:
       hardware: ethernet f4:4d:30:61:c2:49
@@ -88,4 +59,3 @@ dhcpd:
     promptuary:
       hardware: ethernet d0:50:99:01:3a:55
       fixed_address: promptuary.internal.sifive.com
-
