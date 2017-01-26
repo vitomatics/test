@@ -25,9 +25,3 @@ dhcpd:
 
   hosts:
     test.internal.sifive.com:
-      allow:
-        - booting2
-        - bootp2
-      deny:
-        - bootp
-        - booting
