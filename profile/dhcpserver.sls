@@ -35,4 +35,5 @@ dhcpd:
             - 1.2.3.4
   subnets:
     1.2.3.4:
+      allow: whatever
       
