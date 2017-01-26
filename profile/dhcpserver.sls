@@ -9,8 +9,9 @@ dhcpd:
     - lo
   log_facility: daemon
   include_text: |
-    # one line of comment
-    # another line of comment
+    class "pxeclient" {
+      match if whatever;
+    }
   authoritative: true
   one_lease_per_client: true
   local_address: 1.2.3.4
