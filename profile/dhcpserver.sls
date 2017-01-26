@@ -7,7 +7,7 @@ states:
 dhcpd:
   listen_interfaces:
     - lo
-  ddns_update_style: 'none'
+  ddns_update_style: 'asdf'
 
 {#
 dhcpd:
