@@ -1,6 +1,6 @@
 # SiFive HE primary DHCP server
 
-{% extends profile/dhcpserver-he-secondary.sls %}
+{% extends "profile/dhcpserver-he-secondary.sls" %}
 
 {% block he_unix01_extra %}
       pools:
