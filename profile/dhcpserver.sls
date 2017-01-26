@@ -8,7 +8,7 @@ dhcpd:
   listen_interfaces:
     - lo
   log_facility: daemon
-  include_pillar:
+  include_pillars:
     - site/dhcpd/options-ipxe
     - site/dhcpd/options-pxelinux
   include_text: |
