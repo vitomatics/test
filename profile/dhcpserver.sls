@@ -8,6 +8,9 @@ dhcpd:
   listen_interfaces:
     - lo
   log_facility: daemon
+  include_pillar:
+    - site/dhcpd/options-ipxe
+    - site/dhcpd/options-pxelinux
   include_text: |
     class "pxeclient" {
       match if whatever;
