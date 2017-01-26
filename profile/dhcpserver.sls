@@ -12,6 +12,7 @@ dhcpd:
   ddns_update_style: none
   allow: booting
   deny: bootp duplicates
+  one_lease_per_client: on
   
 
   default_lease_time: 600
