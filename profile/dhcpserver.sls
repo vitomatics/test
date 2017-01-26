@@ -42,5 +42,3 @@ dhcpd:
       deny:
         - whatever3
         - whatever4
-	
-      
