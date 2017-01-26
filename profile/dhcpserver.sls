@@ -25,3 +25,9 @@ dhcpd:
 
   hosts:
     test.internal.sifive.com:
+  shared_networks:
+    test:
+      pools:
+        pool1:
+	  allow: asdf
+	  deny: zxcv
