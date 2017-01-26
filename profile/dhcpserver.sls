@@ -39,7 +39,7 @@ dhcpd:
           range:
             - 10.11.12.1
             - 10.11.12.2
-         failover_peer: otherhost
+          failover_peer: otherhost
   hosts:
     gamma01:
       fixed_address: gamma01.internal.sifive.com
