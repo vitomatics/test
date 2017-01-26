@@ -23,9 +23,6 @@ dhcpd:
   max_lease_time: 7200
   domain_name: internal.sifive.com
 
-{#
-  hosts:
-    test.internal.sifive.com:
   shared_networks:
     test:
       pools:
