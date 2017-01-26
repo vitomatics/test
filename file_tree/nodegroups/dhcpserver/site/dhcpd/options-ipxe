@@ -1,3 +1,5 @@
+## pillar options-ipxe
+
 option space ipxe;
 option ipxe-encap-opts code 175 = encapsulate ipxe;
 option ipxe.priority code 1 = signed integer 8;
