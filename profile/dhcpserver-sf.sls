@@ -1,7 +1,7 @@
 # SiFive SF DHCP server
 
 include:
-  - profile/dhcpserver.sls
+  - profile.dhcpserver
 
 dhcpd:
   listen-interfaces:
