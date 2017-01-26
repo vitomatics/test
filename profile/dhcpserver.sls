@@ -1,9 +1,15 @@
 # Pillar config for SiFive DHCPD server
 
 states:
-  dhcpd: true
-  dhcpd.config: true
+  sfdhcpd: true
+  sfdhcpd.config: true
 
+dhcpd:
+  listen_interfaces:
+    - lo
+  ddns_update_style: 'none'
+
+{#
 dhcpd:
   listen_interfaces:
     - lo
@@ -42,3 +48,5 @@ dhcpd:
       deny:
         - whatever3
         - whatever4
+
+#}
