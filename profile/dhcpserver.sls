@@ -12,6 +12,8 @@ dhcpd:
   one_lease_per_client: true
   local_address: 1.2.3.4
 
+  domain_name: internal.sifive.com
+
 {#
 dhcpd:
   listen_interfaces:
