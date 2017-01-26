@@ -7,9 +7,9 @@ states:
 dhcpd:
   listen_interfaces:
     - lo
-  log-facility: daemon
+  log_facility: daemon
   authoritative: true
-  one-lease-per-client: true
+  one_lease_per_client: true
 
 {#
 dhcpd:
