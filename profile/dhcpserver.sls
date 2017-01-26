@@ -11,7 +11,7 @@ dhcpd:
   authoritative: true
   log_facility: daemon
   ddns_update_style: none
-  one_lease_per_client: on
+  one_lease_per_client: 'on'
   
   allow: booting
   deny:
