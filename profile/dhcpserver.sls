@@ -29,5 +29,5 @@ dhcpd:
     test:
       pools:
         pool1:
-	  allow: asdf
-	  deny: zxcv
+          allow: asdf
+          deny: zxcv
