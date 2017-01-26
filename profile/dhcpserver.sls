@@ -28,6 +28,7 @@ dhcpd:
       netmask: 255.255.255.0
       domain_name: test.sifive.com
       routers: 1.2.3.4
+      smtp_server: mailhost.example.com
       domain_search: sifive.com
       next_server: pxe.internal.sifive.com
       hosts:
