@@ -25,6 +25,7 @@ dhcpd:
       domain_name: test.sifive.com
       routers: 1.2.3.4
       domain_search: sifive.com
+      next_server: pxe.internal.sifive.com
 
 {#
 dhcpd:
