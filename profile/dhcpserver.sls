@@ -11,6 +11,12 @@ dhcpd:
   authoritative: true
   one_lease_per_client: true
   local_address: 1.2.3.4
+  domain_name_servers:
+    - 10.14.16.38
+    - 10.14.16.38
+  domain_search:
+    - internal.sifive.com
+    - sifive.com
 
   domain_name: internal.sifive.com
   subnets:
@@ -18,6 +24,7 @@ dhcpd:
       netmask: 255.255.255.0
       domain_name: test.sifive.com
       routers: 1.2.3.4
+      domain_search: sifive.com
 
 {#
 dhcpd:
