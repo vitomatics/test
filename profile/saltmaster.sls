@@ -17,7 +17,6 @@ sfsalt:
   formulas:
     - apache-formula
     - bind-formula
-    - dhcpd-formula
 
   nodegroups:
     login:
