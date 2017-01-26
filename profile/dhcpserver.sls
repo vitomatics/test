@@ -27,8 +27,8 @@ dhcpd:
     test:
       pools:
         - allow:
-	   - asdf
-	   - xsxxx
+           - asdf
+           - xsxxx
           deny: zxcv
           range:
             - 1.2.3.4
