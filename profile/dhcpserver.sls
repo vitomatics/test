@@ -8,8 +8,8 @@ dhcpd:
   listen-interfaces:
     - lo
   include-pillars:
-    - site.dhcpd.options_ipxe
-    - site.dhcpd.options_pxelinux
+    - site.dhcpd.options-ipxe
+    - site.dhcpd.options-pxelinux
   include-text: |
     class "pxeclient" {
       match if substring (option vendor-class-identifier, 0, 9) = "PXEClient";
