@@ -28,11 +28,11 @@ dhcpd:
       next_server: pxe.internal.sifive.com
       hosts:
         gamma00:
-          fixed-address: gamma00.internal.sifive.com
+          fixed_address: gamma00.internal.sifive.com
           hardware: ethernet 00:11:22:33:44:55
   hosts:
     gamma01:
-      fixed-address: gamma01.internal.sifive.com
+      fixed_address: gamma01.internal.sifive.com
       hardware: ethernet 00:11:22:33:44:66
 
 {#
