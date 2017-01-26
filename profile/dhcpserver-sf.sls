@@ -1,4 +1,4 @@
-n# SiFive SF DHCP server
+# SiFive SF DHCP server
 
 include:
   - profile/dhcpserver.sls
