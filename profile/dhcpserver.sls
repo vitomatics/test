@@ -35,5 +35,6 @@ dhcpd:
             - 1.2.3.4
   subnets:
     1.2.3.4:
+      netmask: 255.255.255.0
       allow: whatever
       
