@@ -11,8 +11,7 @@ dhcpd:
   log_facility: daemon
   ddns_update_style: none
   allow: booting
-  deny: bootp
-  deny: duplicates
+  deny: bootp, duplicates
   
 
   default_lease_time: 600
