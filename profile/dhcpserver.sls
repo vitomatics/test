@@ -17,6 +17,9 @@ dhcpd:
   domain_search:
     - internal.sifive.com
     - sifive.com
+  allow:
+    - booting
+    - bootp
 
   domain_name: internal.sifive.com
   subnets:
