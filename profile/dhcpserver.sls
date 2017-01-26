@@ -28,8 +28,9 @@ dhcpd:
   shared_networks:
     test:
       pools:
-        allow: asdf
-        deny: zxcv
-        range:
-          - 1.2.3.4
-          - 1.2.3.5
+        testpool:
+          allow: asdf
+          deny: zxcv
+          range:
+            - 1.2.3.4
+            - 1.2.3.5
