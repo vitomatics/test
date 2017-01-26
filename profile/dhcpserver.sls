@@ -7,11 +7,10 @@ states:
 dhcpd:
   listen_interfaces:
     - lo
-{#
   log_facility: daemon
   authoritative: true
   one_lease_per_client: true
-#}
+  local_addres: 1.2.3.4
 
 {#
 dhcpd:
