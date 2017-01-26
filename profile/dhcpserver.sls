@@ -33,6 +33,6 @@ dhcpd:
           range:
             - 1.2.3.4
             - 1.2.3.4
-  subnet:
+  subnets:
     1.2.3.4:
       
