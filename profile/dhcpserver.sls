@@ -8,6 +8,9 @@ dhcpd:
   listen_interfaces:
     - lo
   log_facility: daemon
+  include_text: |
+    # one line of comment
+    # another line of comment
   authoritative: true
   one_lease_per_client: true
   local_address: 1.2.3.4
@@ -22,6 +25,7 @@ dhcpd:
     - bootp
 
   domain_name: internal.sifive.com
+  
   subnets:
     1.2.3.4:
       deny: bootp
