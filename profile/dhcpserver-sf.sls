@@ -12,7 +12,7 @@ dhcpd:
       netmask: 255.255.240.0
       allow: unknown-clients
       routers: 10.14.0.1
-      domain-name-servers: 
+      domain-name-servers:
         - 10.14.0.14
         - 10.14.16.39
       ntp-servers:
