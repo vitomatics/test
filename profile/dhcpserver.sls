@@ -22,3 +22,9 @@ dhcpd:
   default_lease_time: 600
   max_lease_time: 7200
   domain_name: internal.sifive.com
+
+  hosts:
+    test.internal.sifive.com:
+      allow: booting
+      deny: bootp
+	
