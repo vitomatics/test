@@ -1,7 +1,7 @@
 # SiFive HE primary DHCP server
 
 include:
-  profile/dhcpserver.sls
+  - profile/dhcpserver.sls
 
 dhcpd:
   listen-interfaces:
