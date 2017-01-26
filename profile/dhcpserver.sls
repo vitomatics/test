@@ -19,7 +19,7 @@ dhcpd:
       domain_name: test.sifive.com
       routers:
         - 1.2.3.4
-	- 3.4.5.6
+        - 3.4.5.6
 
 {#
 dhcpd:
