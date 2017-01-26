@@ -34,6 +34,12 @@ dhcpd:
         gamma00:
           fixed_address: gamma00.internal.sifive.com
           hardware: ethernet 00:11:22:33:44:55
+      pools:
+        pool1:
+          range:
+	    - 10.11.12.1
+	    - 10.11.12.2
+	  failover_peer: otherhost
   hosts:
     gamma01:
       fixed_address: gamma01.internal.sifive.com
