@@ -5,12 +5,12 @@ states:
   sfdhcpd.config: true
 
 dhcpd:
-  listen_interfaces:
+  listen-interfaces:
     - lo
-  include_pillars:
+  include-pillars:
     - site.dhcpd.options_ipxe
     - site.dhcpd.options_pxelinux
-  include_text: |
+  include-text: |
     class "pxeclient" {
       match if substring (option vendor-class-identifier, 0, 9) = "PXEClient";
       set vendor-string = option vendor-class-identifier;
@@ -33,29 +33,29 @@ dhcpd:
     class "debinstall" {
       match if substring (option vendor-class-identifier, 0, 3) = "d-i";
     }
-  log_facility: daemon
+  log-facility: daemon
   allow: booting
   deny:
     - bootp
     - duplicates
-  one_lease_per_client: true
+  one-lease-per-client: true
   {# authoritative: true #}
 
-  domain_name: internal.sifive.com
-  domain_name_servers:
+  domain-name: internal.sifive.com
+  domain-name-servers:
     - 10.14.0.14
     - 10.14.16.39
-  domain_search:
+  domain-search:
     - internal.sifive.com
     - sifive.com
   
   hosts:
     nuc1:
       hardware: ethernet f4:4d:30:61:c2:49
-      fixed_address: nuc1.internal.sifive.com
+      fixed-address: nuc1.internal.sifive.com
     printer01:
       hardware: ethernet b0:5a:da:c7:d0:99
-      fixed_address: printer01.internal.sifive.com
+      fixed-address: printer01.internal.sifive.com
     promptuary:
       hardware: ethernet d0:50:99:01:3a:55
-      fixed_address: promptuary.internal.sifive.com
+      fixed-address: promptuary.internal.sifive.com
