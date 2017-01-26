@@ -17,9 +17,7 @@ dhcpd:
     1.2.3.4:
       netmask: 255.255.255.0
       domain_name: test.sifive.com
-      routers:
-        - 1.2.3.4
-        - 3.4.5.6
+      routers: 1.2.3.4
 
 {#
 dhcpd:
