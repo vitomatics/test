@@ -7,7 +7,9 @@ states:
 dhcpd:
   listen_interfaces:
     - lo
-  ddns_update_style: 'asdf'
+  log-facility: daemon
+  authoritative: true
+  one-lease-per-client: true
 
 {#
 dhcpd:
