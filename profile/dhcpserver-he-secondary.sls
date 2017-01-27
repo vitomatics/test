@@ -11,8 +11,8 @@ dhcpd:
     # he-unix01-net
     10.14.16.0:
       option:
-        - cookie-servers: 1.2.3.4
-        - finger-server: 3.4.5.6
+        - cookie-servers 1.2.3.4
+        - finger-server 3.4.5.6
       netmask: 255.255.255.0
       routers: 10.14.16.1
       default-lease-time: 12960
