@@ -40,7 +40,6 @@ dhcpd:
 {% endblock %}
 
   hosts:
-    ## unix-net hosts
     gamma00:
       hardware: ethernet e4:1d:2d:47:d3:20
       fixed-address: gamma00.internal.sifive.com
@@ -69,7 +68,6 @@ dhcpd:
       hardware: ethernet 52:54:00:ff:00:03
       fixed-address: sandbox.internal.sifive.com
 
-    ## dev-net hosts
     heartofgold-admin:
       hardware: ethernet f4:8e:38:cd:ec:d4
       fixed-address: heartofgold-admin.internal.sifive.com
