@@ -77,7 +77,7 @@ dhcpd:
     marvin-admin:
       hardware: ethernet f4:8e:38:cd:da:e4
       fixed-address: marvin-admin.internal.sifive.com
-     gamma00-admin:
+    gamma00-admin:
       hardware: ethernet 0c:c4:7a:c4:5d:af
       fixed-address: gamma00-admin.internal.sifive.com
     gamma01-admin:
