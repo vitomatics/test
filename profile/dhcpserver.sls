@@ -44,9 +44,6 @@ dhcpd:
   {# authoritative: true #}
 
   domain-name: internal.sifive.com
-  domain-name-servers:
-    - 10.14.0.14
-    - 10.14.16.39
   domain-search:
     - internal.sifive.com
     - sifive.com
