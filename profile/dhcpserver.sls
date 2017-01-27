@@ -11,6 +11,7 @@ dhcpd:
     - site.dhcpd.options-ipxe
     - site.dhcpd.options-pxelinux
   include-text: |
+    option architecture-type code 93 = unsigned integer 16;
     class "pxeclient" {
       match if substring (option vendor-class-identifier, 0, 9) = "PXEClient";
       set vendor-string = option vendor-class-identifier;
