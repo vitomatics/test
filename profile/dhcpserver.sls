@@ -48,13 +48,3 @@ dhcpd:
     - internal.sifive.com
     - sifive.com
   
-  hosts:
-    nuc1:
-      hardware: ethernet f4:4d:30:61:c2:49
-      fixed-address: nuc1.internal.sifive.com
-    printer01:
-      hardware: ethernet b0:5a:da:c7:d0:99
-      fixed-address: printer01.internal.sifive.com
-    promptuary:
-      hardware: ethernet d0:50:99:01:3a:55
-      fixed-address: promptuary.internal.sifive.com
