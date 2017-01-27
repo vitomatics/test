@@ -15,3 +15,17 @@
             - members of "pxeclient"
             - members of "debinstall"
 {% endblock %}
+
+{% block he_unix02_extra %}
+      pools:
+        install_pool:
+          default-lease-time: 600
+          max-lease-time: 600
+          next-server: tftpboot.internal.sifive.com
+          range:
+            - 10.14.17.224
+            - 10.14.17.254
+          allow:
+            - members of "pxeclient"
+            - members of "debinstall"
+{% endblock %}

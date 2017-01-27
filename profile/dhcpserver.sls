@@ -35,11 +35,12 @@ dhcpd:
       match if substring (option vendor-class-identifier, 0, 3) = "d-i";
     }
   log-facility: daemon
-  allow: booting
+  allow:
+    - booting
   deny:
     - bootp
     - duplicates
-  one-lease-per-client: true
+  ## one-lease-per-client: true
   {# authoritative: true #}
 
   domain-name: internal.sifive.com
