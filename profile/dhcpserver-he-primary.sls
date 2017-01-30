@@ -2,30 +2,11 @@
 
 {% extends "profile/dhcpserver-he-secondary.sls" %}
 
-{% block he_unix01_extra %}
-      pools:
-        install_pool:
-          default-lease-time: 600
-          max-lease-time: 600
-          next-server: tftpboot.internal.sifive.com
-          range:
-            - 10.14.16.224
-            - 10.14.16.254
-          allow:
-            - members of "pxeclient"
-            - members of "debinstall"
+{% block he_unix01_dynamic %}
 {% endblock %}
 
-{% block he_unix02_extra %}
-      pools:
-        install_pool:
-          default-lease-time: 600
-          max-lease-time: 600
-          next-server: tftpboot.internal.sifive.com
-          range:
-            - 10.14.17.224
-            - 10.14.17.254
-          allow:
-            - members of "pxeclient"
-            - members of "debinstall"
+{% block he_unix02_dynamic %}
+{% endblock %}
+
+{% block subnet_extra %}
 {% endblock %}

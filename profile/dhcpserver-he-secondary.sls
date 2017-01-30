@@ -18,14 +18,36 @@ dhcpd:
       netmask: 255.255.255.0
       routers: 10.14.16.1
       ## Note - pool added on primary server
-{% block he_unix01_extra %}
+{% block he_unix01_dynamic %}
+      pools:
+        install_pool:
+          default-lease-time: 600
+          max-lease-time: 600
+          next-server: tftpboot.internal.sifive.com
+          range:
+            - 10.14.16.224
+            - 10.14.16.254
+          allow:
+            - members of "pxeclient"
+            - members of "debinstall"
 {% endblock %}
 
     # he-unix02-net
     10.14.17.0:
       netmask: 255.255.255.0
       routers: 10.14.17.1
-{% block he_unix02_extra %}
+{% block he_unix02_dynamic %}
+      pools:
+        install_pool:
+          default-lease-time: 600
+          max-lease-time: 600
+          next-server: tftpboot.internal.sifive.com
+          range:
+            - 10.14.17.224
+            - 10.14.17.254
+          allow:
+            - members of "pxeclient"
+            - members of "debinstall"
 {% endblock %}
 
     # he-dev01-net
@@ -33,11 +55,6 @@ dhcpd:
       netmask: 255.255.255.0
       routers: 10.15.16.1
       ## Note - pool added on primary server
-{% block he_dev01_extra %}
-{% endblock %}
-
-{% block subnet_extra %}
-{% endblock %}
 
   hosts:
     gamma00:
