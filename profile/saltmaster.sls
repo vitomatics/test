@@ -43,6 +43,8 @@ sfsalt:
       - hansolo.internal.sifive.com
       - leia.internal.sifive.com
       - luke.internal.sifive.com
+    pxeserver:
+      - dalek.internal.sifive.com
 
   ext_pillars:
     file_tree:
