@@ -151,3 +151,7 @@ base:
     - subnet.he-unix01
     - profile.dhcpserver-he-primary
     - hosts.sandbox
+
+  'nuc1.internal.sifive.com':
+    - subnet.sf-dhcp
+    - hosts.nuc1
