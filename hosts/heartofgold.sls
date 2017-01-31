@@ -77,8 +77,8 @@ nfs4:
 sfdump:
   lookup:
     logdir: /sfbackup/logs
-    days: 10
-    weeks: 4
+    days: 8
+    weeks: 12
   logttl: 14
   jobs:
     default:
