@@ -17,8 +17,11 @@ file:
       group: root
       mode: '0755'
   file:
-    name: {{ pxemenu }}
-    contents_pillar: site.pxeserver.menu
+    {{ pxemenu }}:
+      user: root
+      group: root
+      mode: '0644'
+      contents_pillar: site.pxeserver.menu
 
 apache:
   sites:
