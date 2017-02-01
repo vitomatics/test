@@ -1,4 +1,4 @@
-# Pillar config for SiFive DHCPD server
+# Pillar config for SiFive generic dhcpd DHCP server
 
 states:
   dhcpd: true
