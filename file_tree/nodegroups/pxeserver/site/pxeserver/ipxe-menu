@@ -4,11 +4,7 @@ set prefix http://synth.internal.sifive.com
 set prefix/sysresccd:string http://install.internal.sifive.com
 set prefix/memtest:string http://install.internal.sifive.com
 set prefix/linux:string http://synth.internal.sifive.com
-set prefix/freebsd:string prefix http://synth.internal.sifive.com
-
-#set prefix http://${net0/next-server:ipv4}
-
-set freebsd/version:string 10.2
+set prefix/freebsd:string set freebsd/version:string 10.2
 set memtest/version:string 5.01
 
 set memdisk:string ${prefix/freebsd}/memdisk
