@@ -15,8 +15,6 @@ file:
       user: root
       group: root
       mode: '0755'
-
-file:
   file:
     contents_pillar: site.pxeserver.menu
 
