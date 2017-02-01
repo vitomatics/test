@@ -1,11 +1,11 @@
 #!ipxe
 
-set prefix http://synth.internal.sifive.com
-set prefix/sysresccd:string http://install.internal.sifive.com
-set prefix/memtest:string http://install.internal.sifive.com
+set prefix/sysresccd:string http://install.internal.sifive.com/sysresccd
+set prefix/memtest:string http://install.internal.sifive.com/memtest86
 set prefix/linux:string http://synth.internal.sifive.com
-set prefix/freebsd:string set freebsd/version:string 10.2
-set memtest/version:string 5.01
+set prefix/freebsd:string
+
+set freebsd/version:string 10.2
 
 set memdisk:string ${prefix/freebsd}/memdisk
 
@@ -20,7 +20,7 @@ item --key d debian Debian
 item --key f freebsd FreeBSD
 item --gap Diagnostics
 item --key s sysresccd SystemRescueCD
-item --key m memtest   Memtest86+ ${memtest/version}
+item --key m memtest   Memtest86+
 choose --timeout 10000 --default localboot target && goto ${target} || goto fail
 
 :localboot
@@ -150,12 +150,11 @@ chain ${memdisk} raw
 
 :sysresccd
 echo -n Kernel parameters: ${} && read sysreccd/cmdline:string
-set site:string ${prefix/sysresccd}/sysresccd
+set site:string ${prefix/sysresccd}
 imgfree
 initrd ${site}/initram.igz
 chain ${site}/rescue64 netboot=${site}/sysrcd.dat ${sysreccd/cmdline}
 
 
 :memtest
-imgfree
-chain http://www.memtest.org/download/5.01/memtest86+-${memtest/version:uristring}.bin || goto fail
+chain ${prefix/memtest}/memtest.0 || goto fail
