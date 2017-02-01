@@ -18,6 +18,16 @@ sfpreseed:
           subnet: static-he1
           console: tty0
 	  disk-name: /dev/sda
+	  disk-method: lvm   # defaults to lvm
+          libs:
+            - base
+            - disk-big
+            - subnet-he1
+        sandbox:
+          ipaddress: 10.11.12.13
+          subnet: static-he1
+          console: tty0
+	  disk-name: /dev/xvda
 	  disk-method: crypto   # defaults to lvm
           libs:
             - base
