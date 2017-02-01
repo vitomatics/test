@@ -157,5 +157,4 @@ chain ${site}/rescue64 netboot=${site}/sysrcd.dat ${sysreccd/cmdline}
 
 
 :memtest
-chain ${prefix/memtest}/memtest.0
-goto start
+chain ${prefix/memtest}/memtest.0 || goto fail
