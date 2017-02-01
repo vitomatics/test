@@ -17,7 +17,8 @@ sfpreseed:
           ipaddress: 10.11.12.13
           subnet: static-he1
           console: tty0
-          disk: /dev/xvda
+	  disk-name: /dev/sda
+	  disk-method: crypto   # defaults to lvm
           libs:
             - base
             - disk-big
