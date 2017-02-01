@@ -1,17 +1,17 @@
 #!ipxe
 
 set prefix http://synth.internal.sifive.com
-set sysresccd/prefix:string http://install.internal.sifive.com
-set memtest/prefix:string http://install.internal.sifive.com
-set linux/prefix:string http://synth.internal.sifive.com
-set freebsd/prefix:string prefix http://synth.internal.sifive.com
+set prefix/sysresccd:string http://install.internal.sifive.com
+set prefix/memtest:string http://install.internal.sifive.com
+set prefix/linux:string http://synth.internal.sifive.com
+set prefix/freebsd:string prefix http://synth.internal.sifive.com
 
 #set prefix http://${net0/next-server:ipv4}
 
 set freebsd/version:string 10.2
 set memtest/version:string 5.01
 
-set memdisk:string ${freebsd/prefix}/memdisk
+set memdisk:string ${prefix/freebsd}/memdisk
 
 :start
 menu CWAL
@@ -57,7 +57,7 @@ item --key m ubuntu-mirror  Mirror [${ubuntu/mirror}]
 choose target && goto ${target} || goto start
 
 :ubuntu-boot
-isset ${ubuntu/preseed} && set ubuntu/cmdline-preseed auto-install/enable=true preseed/url=${linux/prefix}/preseed/ubuntu/${ubuntu/preseed:uristring}.cfg debconf/priority=critical netcfg/choose_interface=${net0/mac} || clear ubuntu/cmdline-preseed
+isset ${ubuntu/preseed} && set ubuntu/cmdline-preseed auto-install/enable=true preseed/url=${prefix/linux}/preseed/ubuntu/${ubuntu/preseed:uristring}.cfg debconf/priority=critical netcfg/choose_interface=${net0/mac} || clear ubuntu/cmdline-preseed
 set site http://${ubuntu/mirror}/dists/${ubuntu/release}-updates/main/installer-${ubuntu/arch}/current/images/netboot/ubuntu-installer/${ubuntu/arch}
 imgfree
 initrd ${site}/initrd.gz
@@ -111,7 +111,7 @@ item --key m debian-mirror  Mirror [${debian/mirror}]
 choose target && goto ${target} || goto start
 
 :debian-boot
-isset ${debian/preseed} && set debian/cmdline-preseed auto-install/enable=true preseed/url=${linux/prefix}/preseed/debian/${debian/preseed:uristring}.cfg debconf/priority=critical netcfg/choose_interface=${net0/mac} || clear debian/cmdline-preseed
+isset ${debian/preseed} && set debian/cmdline-preseed auto-install/enable=true preseed/url=${prefix/linux}/preseed/debian/${debian/preseed:uristring}.cfg debconf/priority=critical netcfg/choose_interface=${net0/mac} || clear debian/cmdline-preseed
 set site http://${debian/mirror}/dists/${debian/release}/main/installer-${debian/arch}/current/images/netboot/debian-installer/${debian/arch}
 imgfree
 initrd ${site}/initrd.gz
@@ -148,13 +148,13 @@ goto debian-menu
 
 :freebsd
 imgfree
-initrd ${freebsd/prefix}/freebsd/mfsbsd.img
+initrd ${prefix/freebsd}/freebsd/mfsbsd.img
 chain ${memdisk} raw
 
 
 :sysresccd
 echo -n Kernel parameters: ${} && read sysreccd/cmdline:string
-set site:string ${sysresccd/prefix}/sysresccd
+set site:string ${prefix/sysresccd}/sysresccd
 imgfree
 initrd ${site}/initram.igz
 chain ${site}/rescue64 netboot=${site}/sysrcd.dat ${sysreccd/cmdline}
