@@ -4,6 +4,7 @@
 {% set domain = 'internal.sifive.com' %}
 {% set servername = site + '.' + domain %}
 {% set sitedir = '/srv/www/' + site %}
+{% set pxemenu = sitedir + '/menu.ipxe' %}
 {% set ips = '10.14.0.0/16' %}
 
 states:
@@ -16,6 +17,7 @@ file:
       group: root
       mode: '0755'
   file:
+    name: {{ pxemenu }}
     contents_pillar: site.pxeserver.menu
 
 apache:
