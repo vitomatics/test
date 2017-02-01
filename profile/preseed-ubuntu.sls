@@ -5,9 +5,9 @@ sfpreseed:
     ubuntu:
       dir: /srv/www/install/preseed/ubuntu
       mirror:
-        hostname:
-        directory:
-        suite:
+        hostname: mirrors.kernel.org
+        directory: /ubuntu
+        suite: xenial
       subnets:
         static-he1:
           ntp-server: ntp1.example.com ntp2.example.com
