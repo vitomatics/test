@@ -21,7 +21,7 @@ file:
       user: root
       group: root
       mode: '0644'
-      contents_pillar: site.pxeserver.menu
+      contents_pillar: site:pxeserver:menu
 
 apache:
   sites:
