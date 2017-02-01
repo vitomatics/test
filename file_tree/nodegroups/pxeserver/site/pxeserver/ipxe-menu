@@ -3,7 +3,7 @@
 set prefix/sysresccd:string http://install.internal.sifive.com/sysresccd
 set prefix/memtest:string http://install.internal.sifive.com/memtest86
 set prefix/linux:string http://synth.internal.sifive.com
-set prefix/freebsd:string
+set prefix/freebsd:string http://synth.internal.sifive.com
 
 set freebsd/version:string 10.2
 
