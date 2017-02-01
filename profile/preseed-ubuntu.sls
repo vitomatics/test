@@ -7,7 +7,7 @@ sfpreseed:
       mirror:
         hostname:
         directory:
-	suite:
+        suite:
       subnets:
         static-he1:
           ntp-server: ntp1.example.com ntp2.example.com
