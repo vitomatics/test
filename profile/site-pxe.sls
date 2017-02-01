@@ -16,6 +16,10 @@ file:
       group: root
       mode: '0755'
 
+file:
+  file:
+    contents_pillar: site.pxeserver.menu
+
 apache:
   sites:
     {{ site }}:

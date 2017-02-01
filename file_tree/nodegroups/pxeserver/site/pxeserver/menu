@@ -1,0 +1,160 @@
+#!ipxe
+
+set prefix http://synth.internal.sifive.com
+#set prefix http://${net0/next-server:ipv4}
+
+set freebsd/version:string 10.2
+set memtest/version:string 5.01
+
+set memdisk:string ${prefix}/memdisk
+
+:start
+menu CWAL
+item --gap System
+item --key l localboot Boot local media
+item --key r reboot    Reboot
+item --gap Installers
+item --key u ubuntu Ubuntu
+item --key d debian Debian
+item --key f freebsd FreeBSD
+item --gap Diagnostics
+item --key s sysresccd SystemRescueCD
+item --key m memtest   Memtest86+ ${memtest/version}
+choose --timeout 10000 --default localboot target && goto ${target} || goto fail
+
+:localboot
+sanboot --no-describe --drive 0x80 || goto fail
+
+:reboot
+reboot || exit 1
+
+:fail
+shell
+goto start
+
+:ubuntu
+isset ${ubuntu/release} || set ubuntu/release:string xenial
+isset ${ubuntu/mirror} || set ubuntu/mirror:string mirrors.kernel.org/ubuntu
+cpuid --ext 29 && set ubuntu/arch:string amd64 || set ubuntu/arch:string i386
+
+:ubuntu-menu
+menu Ubuntu
+item --key 0x08 start Return
+item --gap
+item --key b ubuntu-boot Boot Ubuntu
+item --gap
+item --key c ubuntu-cmdline Kernel parameters [${ubuntu/cmdline}]
+item --key p ubuntu-preseed Preseed [${ubuntu/preseed}]
+item --key r ubuntu-release Release [${ubuntu/release}]
+item --key a ubuntu-arch    Architecture [${ubuntu/arch}]
+item --key m ubuntu-mirror  Mirror [${ubuntu/mirror}]
+
+choose target && goto ${target} || goto start
+
+:ubuntu-boot
+isset ${ubuntu/preseed} && set ubuntu/cmdline-preseed auto-install/enable=true preseed/url=${prefix}/preseed/ubuntu/${ubuntu/preseed:uristring}.cfg debconf/priority=critical netcfg/choose_interface=${net0/mac} || clear ubuntu/cmdline-preseed
+set site http://${ubuntu/mirror}/dists/${ubuntu/release}-updates/main/installer-${ubuntu/arch}/current/images/netboot/ubuntu-installer/${ubuntu/arch}
+imgfree
+initrd ${site}/initrd.gz
+chain ${site}/linux ${ubuntu/cmdline-preseed} ${ubuntu/cmdline} || goto fail
+
+:ubuntu-release
+menu ubuntu: Release
+item xenial 16.04.1 LTS (Xenial Xerus)
+item trusty 14.04.5 LTS (Trusty Tahr)
+item precise 12.04.5 LTS (Precise Pangolin)
+choose ubuntu/release:string
+goto ubuntu-menu
+
+:ubuntu-arch
+menu Ubuntu: Architecture
+item amd64 amd64
+item i386  i386
+choose ubuntu/arch
+goto ubuntu-menu
+
+:ubuntu-mirror
+echo -n Mirror: ${} && read ubuntu/mirror:string
+goto ubuntu-menu
+
+:ubuntu-preseed
+echo Omit for interactive install
+echo -n Preseed: ${} && read ubuntu/preseed:string
+goto ubuntu-menu
+
+:ubuntu-cmdline
+echo -n Extra kernel parameters: ${} && read ubuntu/cmdline:string
+goto ubuntu-menu
+
+
+:debian
+isset ${debian/release} || set debian/release:string stable
+isset ${debian/mirror} || set debian/mirror:string mirrors.kernel.org/debian
+cpuid --ext 29 && set debian/arch:string amd64 || set debian/arch:string i386
+
+:debian-menu
+menu Debian
+item --key 0x08 start Return
+item --gap
+item --key b debian-boot Boot Debian
+item --gap Options
+item --key c debian-cmdline Kernel parameters [${debian/cmdline}]
+item --key p debian-preseed Preseed [${debian/preseed}]
+item --key r debian-release Release [${debian/release}]
+item --key a debian-arch    Architecture [${debian/arch}]
+item --key m debian-mirror  Mirror [${debian/mirror}]
+choose target && goto ${target} || goto start
+
+:debian-boot
+isset ${debian/preseed} && set debian/cmdline-preseed auto-install/enable=true preseed/url=${prefix}/preseed/debian/${debian/preseed:uristring}.cfg debconf/priority=critical netcfg/choose_interface=${net0/mac} || clear debian/cmdline-preseed
+set site http://${debian/mirror}/dists/${debian/release}/main/installer-${debian/arch}/current/images/netboot/debian-installer/${debian/arch}
+imgfree
+initrd ${site}/initrd.gz
+chain ${site}/linux ${debian/cmdline-preseed} ${debian/cmdline} DEBCONF_DEBUG=5 || goto fail
+
+:debian-release
+menu Debian: Release
+item stable Stable
+item testing Testing
+item unstable Unstable
+choose debian/release:string
+goto debian-menu
+
+:debian-arch
+menu Debian: Architecture
+item amd64 amd64
+item i386  i386
+choose debian/arch
+goto debian-menu
+
+:debian-mirror
+echo -n Mirror: ${} && read debian/mirror:string
+goto debian-menu
+
+:debian-preseed
+echo Omit for interactive install
+echo -n Preseed: ${} && read debian/preseed:string
+goto debian-menu
+
+:debian-cmdline
+echo -n Extra kernel parameters: ${} && read debian/cmdline:string
+goto debian-menu
+
+
+:freebsd
+imgfree
+initrd ${prefix}/freebsd/mfsbsd.img
+chain ${memdisk} raw
+
+
+:sysresccd
+echo -n Kernel parameters: ${} && read sysreccd/cmdline:string
+set site:string ${prefix}/sysresccd
+imgfree
+initrd ${site}/initram.igz
+chain ${site}/rescue64 netboot=${site}/sysrcd.dat ${sysreccd/cmdline}
+
+
+:memtest
+imgfree
+chain http://www.memtest.org/download/5.01/memtest86+-${memtest/version:uristring}.bin || goto fail
