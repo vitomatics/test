@@ -13,7 +13,7 @@ sfpreseed:
           ntp-server: ntp1.example.com ntp2.example.com
           domain: internal.sifive.com
       hosts:
-        server1:
+        nuc1:
           ipaddress: 10.11.12.13
           subnet: static-he1
           console: tty0
