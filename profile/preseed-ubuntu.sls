@@ -15,7 +15,7 @@ sfpreseed:
           nameservers: 10.14.16.38 10.14.16.39
           ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
           domain: internal.sifive.com
-	he1-dynamic:
+        he1-dynamic:
           static: false
           ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
           domain: internal.sifive.com
