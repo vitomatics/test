@@ -117,7 +117,7 @@ ssh:
 sfinstall:
   ubuntu:
     distbase: http://mirrors.kernel.org/ubuntu
-    preseedbase: http://pxe.internal.sifive.com/preseed
+    preseedbase: http://preseed.internal.sifive.com/preseed
     
 
 managedby:
