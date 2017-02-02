@@ -29,7 +29,7 @@ sfpreseed:
         nuc1:
           ipaddress: 10.11.12.13
           subnet: sf-static
-          serial: 0
+          serial: '0'
           baudrate: 115200
           disk-name: /dev/sda
           disk-method: crypto
