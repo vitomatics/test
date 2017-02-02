@@ -10,13 +10,13 @@ sfpreseed:
         suite: xenial
       subnets:
         he1-static:
-	  static: true
-	  gateway: 10.14.16.1
-	  nameservers: 10.14.16.38 10.14.16.39
+          static: true
+          gateway: 10.14.16.1
+          nameservers: 10.14.16.38 10.14.16.39
           ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
           domain: internal.sifive.com
 	he1-dynamic:
-	  static: false
+          static: false
           ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
           domain: internal.sifive.com
       hosts:
