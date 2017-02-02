@@ -22,6 +22,7 @@ sfpreseed:
       hosts:
         nuc1:
           ipaddress: 10.11.12.13
+	  static: true
           subnet: he1-static
           console: tty0
           disk-name: /dev/sda
