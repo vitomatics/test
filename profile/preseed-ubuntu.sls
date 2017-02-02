@@ -17,14 +17,14 @@ sfpreseed:
       subnets:
         sf-static:
           static: true
-	  netmask: 255.255.240.0
+          netmask: 255.255.240.0
           gateway: 10.14.0.1
           nameservers: 10.14.0.14 10.14.16.39
           ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
           domain: internal.sifive.com
         he1-static:
           static: true
-	  netmask: 255.255.255.0
+          netmask: 255.255.255.0
           gateway: 10.14.16.1
           nameservers: 10.14.16.38 10.14.16.39
           ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
