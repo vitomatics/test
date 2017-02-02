@@ -1,5 +1,8 @@
 ## SiFive preseed tree - Ubuntu
 
+states:
+  sfpreseed: true
+
 sfpreseed:
   trees:
     ubuntu:
