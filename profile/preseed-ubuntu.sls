@@ -8,10 +8,9 @@ sfpreseed:
       saltrepo: repo.saltstack.com/apt/ubuntu/16.04/amd64/2016.11
       saltmaster: salt.internal.sifive.com
       salthash: sha256
-      mirror:
-        hostname: mirrors.kernel.org
-        directory: /ubuntu
-        suite: xenial
+      disthost: mirrors.kernel.org
+      distdir: /ubuntu
+      distsuite: xenial
       subnets:
         sf-static:
           static: true
@@ -33,15 +32,11 @@ sfpreseed:
         nuc1:
           ipaddress: 10.11.12.13
           subnet: sf-static
-          disk-name: /dev/sda
-          disk-method: crypto
+          diskname: /dev/sda
+          diskmethod: crypto
         sandbox:
           subnet: he1-dynamic
           serial: '0'
           baudrate: '115200'
-          disk-name: /dev/xvda
-          disk-method: lvm
-          libs:
-            - base
-            - disk-big
-            - subnet-he1
+          diskname: /dev/xvda
+          diskmethod: lvm
