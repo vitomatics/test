@@ -36,6 +36,9 @@ pkgs:
     gnome-shell: true
     gnome-terminal: true
     gnome-calculator: true
+    # These next two needed by nedit
+    xfonts-100dpi: true
+    xfonts-75dpi: true
     
 states:
   firewall.iptables: true
