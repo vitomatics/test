@@ -9,13 +9,20 @@ sfpreseed:
         directory: /ubuntu
         suite: xenial
       subnets:
-        static-he1:
-          ntp-server: ntp1.example.com ntp2.example.com
+        he1-static:
+	  static: true
+	  gateway: 10.14.16.1
+	  nameservers: 10.14.16.38 10.14.16.39
+          ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
+          domain: internal.sifive.com
+	he1-dynamic:
+	  static: false
+          ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
           domain: internal.sifive.com
       hosts:
         nuc1:
           ipaddress: 10.11.12.13
-          subnet: static-he1
+          subnet: he1-static
           console: tty0
           disk-name: /dev/sda
           disk-method: crypto
@@ -24,7 +31,7 @@ sfpreseed:
             - disk-big
             - subnet-he1
         sandbox:
-          subnet: static-he1
+          subnet: he1-dynamic
           console: tty0
           disk-name: /dev/xvda
           disk-method: lvm
