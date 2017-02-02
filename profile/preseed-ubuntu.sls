@@ -41,5 +41,5 @@ sfpreseed:
           subnet: he1-dynamic
           serial: '0'
           baudrate: '115200'
-          diskname: /dev/xvda
+          diskname: /dev/vda
           diskmethod: lvm
