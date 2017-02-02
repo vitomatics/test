@@ -6,7 +6,7 @@ sfpreseed:
       dir: /srv/www/install/preseed/ubuntu
       url: http://pxe.internal.sifive.com/preseed/ubuntu
       saltrepo: repo.saltstack.com/apt/ubuntu/16.04/amd64/2016.11
-      saltserver: salt.internal.sifive.com
+      saltmaster: salt.internal.sifive.com
       salthash: sha256
       mirror:
         hostname: mirrors.kernel.org
