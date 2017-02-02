@@ -60,6 +60,7 @@ base:
     - profile.site-sfimages
     - profile.site-pxe
     - profile.site-install
+    - profile.preseed-ubuntu
     - profile.backupclient
     - hosts.dalek
 
