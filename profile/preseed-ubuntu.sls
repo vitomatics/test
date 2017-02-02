@@ -4,6 +4,7 @@ sfpreseed:
   trees:
     ubuntu:
       dir: /srv/www/install/preseed/ubuntu
+      url: http://pxe.internal.sifive.com/preseed/ubuntu
       mirror:
         hostname: mirrors.kernel.org
         directory: /ubuntu
@@ -29,12 +30,12 @@ sfpreseed:
         nuc1:
           ipaddress: 10.11.12.13
           subnet: sf-static
-          serial: '0'
-          baudrate: '115200'
           disk-name: /dev/sda
           disk-method: crypto
         sandbox:
           subnet: he1-dynamic
+          serial: '0'
+          baudrate: '115200'
           disk-name: /dev/xvda
           disk-method: lvm
           libs:
