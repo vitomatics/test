@@ -38,7 +38,8 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: crypto
         sandbox:
-          subnet: he1-dynamic
+	  ipaddress: 10.14.16.36
+          subnet: he1-static
           serial: '0'
           baudrate: '115200'
           diskname: /dev/vda
