@@ -16,40 +16,40 @@ sfpreseed:
       distsuite: xenial
       disklayouts:
         compute-bighd:
-	  swap:
-	    size: 16384
-	  boot:
-	    size: 268
-	    filesystem: ext4
-	  freespace:
-	    filesystem: blank
-	  parts:
-	    root:
-	      mountpoint: /
-	      filesystem: ext4
-	      size: 68719
-	      options:
-	        - noatime
-	    var:
-	      mountpoint: /var
-	      size: 17179
-	      filesystem: ext4
-	      options:
-	        - nodev
-		- relatime
+          swap:
+            size: 16384
+          boot:
+            size: 268
+            filesystem: ext4
+          freespace:
+            filesystem: blank
+          parts:
+           root:
+             mountpoint: /
+              filesystem: ext4
+              size: 68719
+              options:
+                - noatime
+            var:
+              mountpoint: /var
+              size: 17179
+              filesystem: ext4
+              options:
+                - nodev
+                - relatime
         vm-small:
-	  swap:
-	    size: 2048
-	  boot:
-	    size: 1024
-	    filesystem: ext4
-	  parts:
-	    root:
-	      mountpoint: /
-	      filesystem: ext4
-	      size: unlimited
-	      options:
-	        - noatime
+          swap:
+            size: 2048
+          boot:
+            size: 1024
+            filesystem: ext4
+          parts:
+            root:
+              mountpoint: /
+              filesystem: ext4
+              size: unlimited
+              options:
+                - noatime
       subnets:
         sf-static:
           static: true
@@ -75,7 +75,7 @@ sfpreseed:
           subnet: sf-static
           diskname: /dev/sda
           diskmethod: crypto
-	  disklayout: compute-bighd
+          disklayout: compute-bighd
         sandbox:
           ipaddress: 10.14.16.36
           subnet: he1-static
