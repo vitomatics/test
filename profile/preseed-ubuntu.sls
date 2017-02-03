@@ -46,11 +46,13 @@ sfpreseed:
           boot:
             size: 1024
             filesystem: ext4
+	  blank:
+	    size: unlimited
           parts:
             root:
               mountpoint: /
               filesystem: ext4
-              size: 6
+              size: 65536
               options:
                 - noatime
       subnets:
