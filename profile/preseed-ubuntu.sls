@@ -24,8 +24,8 @@ sfpreseed:
           freespace:
             filesystem: blank
           parts:
-           root:
-             mountpoint: /
+            root:
+              mountpoint: /
               filesystem: ext4
               size: 68719
               options:
