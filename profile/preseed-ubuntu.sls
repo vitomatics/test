@@ -83,4 +83,4 @@ sfpreseed:
           baudrate: '115200'
           diskname: /dev/vda
           diskmethod: lvm
-	  disklayout: vm-small
+          disklayout: vm-small
