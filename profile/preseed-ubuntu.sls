@@ -21,8 +21,6 @@ sfpreseed:
           boot:
             size: 268
             filesystem: ext4
-          freespace:
-            filesystem: blank
           parts:
             root:
               mountpoint: /
@@ -40,8 +38,8 @@ sfpreseed:
               size: unlimited
               options:
                 - nodev
+                - nosuid
                 - noatime
-		- nosuid
         vm-small:
           swap:
             size: 2048
