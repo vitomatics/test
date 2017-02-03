@@ -26,17 +26,22 @@ sfpreseed:
           parts:
             root:
               mountpoint: /
-              filesystem: ext4
-              size: 68719
+              size: 65536
               options:
                 - noatime
             var:
               mountpoint: /var
-              size: 17179
-              filesystem: ext4
+              size: 16384
               options:
                 - nodev
                 - relatime
+            scratch:
+              mountpoint: /scratch
+              size: unlimited
+              options:
+                - nodev
+                - noatime
+		- nosuid
         vm-small:
           swap:
             size: 2048
@@ -47,7 +52,7 @@ sfpreseed:
             root:
               mountpoint: /
               filesystem: ext4
-              size: unlimited
+              size: 6
               options:
                 - noatime
       subnets:
