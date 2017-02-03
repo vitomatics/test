@@ -14,6 +14,30 @@ sfpreseed:
       disthost: mirrors.kernel.org
       distdir: /ubuntu
       distsuite: xenial
+      disks:
+        compute-bighd:
+	  swap:
+	    size:
+	    filesystem:
+	  boot:
+	    size:
+	    filesystem:
+	  rest:
+	    filesystem: blank
+	  parts:
+	    root:
+	      mountpoint: /
+	      filesystem: ext4
+	      size: 68719
+	      options:
+	        - noatime
+	    var:
+	      mountpoint: /var
+	      size: 17179
+	      filesystem: ext4
+	      options:
+	        - nodev
+		- relatime
       subnets:
         sf-static:
           static: true
