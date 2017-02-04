@@ -1,7 +1,7 @@
-## pillar file for default nomachine setup
+## pillar file for evaluation nomachine setup
 
 states:
-  nomachine.terminal-server: true
+  nomachine.terminalserver: true
 
 nomachine:
   lookup:

@@ -17,19 +17,19 @@ sfpreseed:
       disklayouts:
         compute_bighd:
           swap:
-            size: 16384
+            size: 17176
           boot:
-            size: 268
+            size: 1074
             filesystem: ext4
           parts:
             root:
               mountpoint: /
-              size: 65536
+              size: 34352
               options:
                 - noatime
             var:
               mountpoint: /var
-              size: 16384
+              size: 17176
               options:
                 - nodev
                 - relatime
