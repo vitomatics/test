@@ -46,8 +46,6 @@ sfpreseed:
           boot:
             size: 1074
             filesystem: ext4
-          blank:
-            size: unlimited
           parts:
             root:
               mountpoint: /
