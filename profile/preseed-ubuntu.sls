@@ -15,7 +15,7 @@ sfpreseed:
       distdir: /ubuntu
       distsuite: xenial
       disklayouts:
-        compute-bighd:
+        compute_bighd:
           swap:
             size: 16384
           boot:
@@ -40,7 +40,7 @@ sfpreseed:
                 - nodev
                 - nosuid
                 - noatime
-        vm-small:
+        vm_small:
           swap:
             size: 4294
           boot:
