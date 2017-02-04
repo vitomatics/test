@@ -15,6 +15,7 @@ base:
     - subnet.he-unix01
     - profile.nameserver-semicaching
     - profile.timeserver
+    - profile.dhcpserver-he-primary
     - hosts.leia
 
   'luke.internal.sifive.com':
