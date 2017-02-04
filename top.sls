@@ -150,7 +150,6 @@ base:
 
   'sandbox.internal.sifive.com':
     - subnet.he-unix01
-    - profile.preseed-ubuntu
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
