@@ -22,6 +22,7 @@ base:
     - subnet.he-unix01
     - profile.nameserver-semicaching
     - profile.timeserver
+    - profile.dhcpserver-he-secondary
     - hosts.luke
 
   'hansolo.internal.sifive.com':
