@@ -85,7 +85,7 @@ base:
   'altair.internal.sifive.com':
     - subnet.he-unix01
     - profile.login
-    - profile.nomachine
+    - profile.nomachine-licensed
     - hosts.altair
 
   'betel.internal.sifive.com':
