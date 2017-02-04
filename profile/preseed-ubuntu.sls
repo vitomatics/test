@@ -41,8 +41,6 @@ sfpreseed:
                 - nosuid
                 - noatime
         vm-small:
-          blank:
-            size: 1234
           swap:
             size: 4294
           boot:
@@ -55,13 +53,6 @@ sfpreseed:
               size: unlimited
               options:
                 - noatime
-            var:
-              mountpoint: /var
-              filesystem: ext4
-              size: 1234
-              options:
-                - noatime
-                - nosuid
       subnets:
         sf-static:
           static: true
