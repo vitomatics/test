@@ -42,9 +42,9 @@ sfpreseed:
                 - noatime
         vm-small:
           swap:
-            size: 2048
+            size: 4294
           boot:
-            size: 1024
+            size: 1074
             filesystem: ext4
           blank:
             size: unlimited
@@ -52,7 +52,7 @@ sfpreseed:
             root:
               mountpoint: /
               filesystem: ext4
-              size: 65536
+              size: unlimited
               options:
                 - noatime
       subnets:
