@@ -11,4 +11,5 @@ include:
   - vms.hansolo
   - vms.sandbox
   - vms.vulcan
+  - vms.gravelpit
   

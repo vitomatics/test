@@ -61,6 +61,10 @@ sfpreseed:
           nameservers: 10.14.0.14 10.14.16.39
           ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
           domain: internal.sifive.com
+        sf-dynamic:
+          static: false
+          ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
+          domain: internal.sifive.com
         he1-static:
           static: true
           netmask: 255.255.255.0
@@ -82,6 +86,14 @@ sfpreseed:
         sandbox:
           ipaddress: 10.14.16.36
           subnet: he1-static
+          serial: '0'
+          baudrate: '115200'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_small
+        gravelpit:
+          ipaddress: 10.14.3.6
+          subnet: sf-dynamic
           serial: '0'
           baudrate: '115200'
           diskname: /dev/vda

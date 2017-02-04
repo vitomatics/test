@@ -156,3 +156,7 @@ base:
   'nuc1.internal.sifive.com':
     - subnet.sf-dhcp
     - hosts.nuc1
+
+  'gravelpit.internal.sifive.com':
+    - subnet.sf-dhcp
+    - hosts.gravelpit
