@@ -92,7 +92,6 @@ sfpreseed:
           diskmethod: lvm
           disklayout: vm_small
         gravelpit:
-          ipaddress: 10.14.3.6
           subnet: sf-dynamic
           serial: '0'
           baudrate: '115200'
