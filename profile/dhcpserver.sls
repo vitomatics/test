@@ -43,7 +43,8 @@ dhcpd:
     - bootp
     - duplicates
   ## one-lease-per-client: true
-  {# authoritative: true #}
+
+  authoritative: true
 
   domain-name: "internal.sifive.com"
   domain-search:
