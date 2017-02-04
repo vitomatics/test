@@ -55,6 +55,13 @@ sfpreseed:
               size: unlimited
               options:
                 - noatime
+            var:
+              mountpoint: /var
+              filesystem: ext4
+              size: 1234
+              options:
+                - noatime
+		- nosuid
       subnets:
         sf-static:
           static: true
