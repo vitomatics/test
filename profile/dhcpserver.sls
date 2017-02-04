@@ -43,8 +43,8 @@ dhcpd:
   ## one-lease-per-client: true
   {# authoritative: true #}
 
-  domain-name: internal.sifive.com
+  domain-name: "internal.sifive.com"
   domain-search:
-    - internal.sifive.com
-    - sifive.com
+    - "internal.sifive.com"
+    - "sifive.com"
   
