@@ -1,5 +1,8 @@
 # Pillar config for SiFive generic dhcpd DHCP server
 
+# Note isc-dhcpd uses a raw socket to access the network interfaces
+# so no iptables rules are needed
+
 states:
   dhcpd: true
   dhcpd.config: true
