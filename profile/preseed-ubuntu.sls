@@ -61,7 +61,7 @@ sfpreseed:
               size: 1234
               options:
                 - noatime
-		- nosuid
+                - nosuid
       subnets:
         sf-static:
           static: true
