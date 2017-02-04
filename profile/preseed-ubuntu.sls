@@ -78,7 +78,7 @@ sfpreseed:
           subnet: sf-static
           diskname: /dev/sda
           diskmethod: crypto
-          disklayout: compute-bighd
+          disklayout: compute_bighd
         sandbox:
           ipaddress: 10.14.16.36
           subnet: he1-static
@@ -86,4 +86,4 @@ sfpreseed:
           baudrate: '115200'
           diskname: /dev/vda
           diskmethod: lvm
-          disklayout: vm-small
+          disklayout: vm_small
