@@ -41,8 +41,8 @@ sfpreseed:
                 - nosuid
                 - noatime
         vm-small:
-	  blank:
-	    size: 1234
+          blank:
+            size: 1234
           swap:
             size: 4294
           boot:
