@@ -49,7 +49,7 @@ dhcpd:
       netmask: 255.255.240.0
       routers: 10.17.0.1
       allow:
-        - uknown-clients
+        - unknown-clients
       ntp-servers:
         - 10.14.0.14
         - 10.14.16.39
