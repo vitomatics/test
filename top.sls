@@ -153,6 +153,7 @@ base:
 
   'sandbox.internal.sifive.com':
     - subnet.he-unix01
+    - profile.nomachine-test
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
