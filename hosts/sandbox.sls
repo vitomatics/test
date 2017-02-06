@@ -16,7 +16,6 @@ sshd:
     X11Forwarding: yes
 
 pkgs:
-pkgs:
   apt:
     repos:
       sbt:
