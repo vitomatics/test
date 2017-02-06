@@ -76,6 +76,7 @@ pkgs:
 
     emacs-nox: false
     emacs: true
+    yaml-mode: true
     git-el: true
     nedit: true
     vim-gtk: true
