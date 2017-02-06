@@ -25,6 +25,8 @@ pkgs:
     lxsession: true
     lxterminal: true
     lxde-common: true
+    lxtask: true
+    lxlauncher: true
     mate-core: true
     mate-applets: true
     mate-system-monitor: true
