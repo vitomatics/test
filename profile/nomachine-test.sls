@@ -6,9 +6,10 @@ states:
 
 nomachine:
   lookup:
-    eval: true
     tsurl: http://sfimages.internal.sifive.com/NoMachine/Terminal_Server/deb/nomachine-terminal-server-evaluation_5.2.11_2_amd64.deb
   terminal-server:
+    eval: true
+
     server-license-pillar: site:nomachine:server-license
     node-license-pillar: site:nomachine:node-license
     
