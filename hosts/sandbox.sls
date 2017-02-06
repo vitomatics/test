@@ -16,6 +16,16 @@ sshd:
     X11Forwarding: yes
 
 pkgs:
+pkgs:
+  apt:
+    repos:
+      sbt:
+        uri: https://dl.bintray.com/sbt/debian
+        suite: /
+        comps:
+        keyid: 642AC823
+        keyserver: keyserver.ubuntu.com
+
   list:
     xubuntu-desktop: true
     xfce4-terminal: true
@@ -43,7 +53,53 @@ pkgs:
     # These next two needed by nedit
     xfonts-100dpi: true
     xfonts-75dpi: true
+
+#### From compute
+
+    lsb-core: true
+    libgcc1:i386: true
+
+    # Miscellaneous
+    unzip: true
+    libtool: true
+
+    xterm: true
+    firefox: true
+
+    emacs-nox: false
+    emacs: true
+    git-el: true
+    vim-gtk: true
+    dbus-x11: true
+    gitk: true
+    # Used by emacs
+    gnome-icon-theme: true
+
+    gawk: true
+    texinfo: true
+    libmpc-dev: true
+    libmpfr-dev: true
+    libgmp-dev: true
+
+    sbt: true
+    # Modules
+    tcl8.5-dev: true
+    tk8.5-dev: true
+    # Ruby
+    libyaml-dev: true
+    # galaxy_icc_exec
+    libjpeg62: true
+    {% if grains.os == 'Debian' %}
+    libmng1: true
+    {% elif grains.os == 'Ubuntu' %}
+    libmng2: true
+    {% endif %}
     
+    # Python
+    virtualenv: true
+    python-pip: true
+    python-pexpect: true
+
 
 firewall:
   usesshguard: true
@@ -88,60 +144,6 @@ pam:
           item: stack
           value: unlimited
 
-pkgs:
-  apt:
-    repos:
-      sbt:
-        uri: https://dl.bintray.com/sbt/debian
-        suite: /
-        comps:
-        keyid: 642AC823
-        keyserver: keyserver.ubuntu.com
-
-  list:
-    lsb-core: true
-    libgcc1:i386: true
-
-    # Miscellaneous
-    unzip: true
-    libtool: true
-
-    xterm: true
-    firefox: true
-
-    emacs-nox: false
-    emacs: true
-    git-el: true
-    vim-gtk: true
-    dbus-x11: true
-    gitk: true
-    # Used by emacs
-    gnome-icon-theme: true
-
-    gawk: true
-    texinfo: true
-    libmpc-dev: true
-    libmpfr-dev: true
-    libgmp-dev: true
-
-    sbt: true
-    # Modules
-    tcl8.5-dev: true
-    tk8.5-dev: true
-    # Ruby
-    libyaml-dev: true
-    # galaxy_icc_exec
-    libjpeg62: true
-    {% if grains.os == 'Debian' %}
-    libmng1: true
-    {% elif grains.os == 'Ubuntu' %}
-    libmng2: true
-    {% endif %}
-    
-    # Python
-    virtualenv: true
-    python-pip: true
-    python-pexpect: true
 
 
 
