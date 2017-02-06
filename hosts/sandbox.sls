@@ -24,8 +24,17 @@ pkgs:
         comps:
         keyid: 642AC823
         keyserver: keyserver.ubuntu.com
+      x2go:
+        types: [ deb ]
+        uri: http://ppa.launchpad.net/x2go/stable/ubuntu
+        suite: xenial
+        keyid: 7CDE3A860A53F9FD
+        keyserver: keyserver.ubuntu.com
 
   list:
+    x2goserver: true
+    x2goserver-xsession: true
+
     xubuntu-desktop: true
     xfce4-terminal: true
     xfce4-screenshooter: true
