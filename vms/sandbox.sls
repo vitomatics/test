@@ -7,6 +7,7 @@ vms:
     vcpus: 1
     memory: 2048   # In MB
     autostart: off
+    vnc: on
     ifs:
       eth0:
         bridge: br0
