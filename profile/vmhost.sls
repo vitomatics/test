@@ -4,6 +4,11 @@ states:
   libvirt: true
   sfvirt: true
 
+pkgs:
+  list:
+    virt-viewer: true
+       
+
 kmods:
   list:
     8021q: true
