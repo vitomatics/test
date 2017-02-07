@@ -19,4 +19,3 @@ vms:
         vg: vmpool02
     preseed: sandbox
     os: ubuntu16.04
-
