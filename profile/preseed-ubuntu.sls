@@ -78,8 +78,7 @@ sfpreseed:
           domain: internal.sifive.com
       hosts:
         nuc1:
-          ipaddress: 10.11.12.13
-          subnet: sf-static
+          subnet: sf-dynamic
           diskname: /dev/sda
           diskmethod: crypto
           disklayout: compute_bighd
@@ -94,7 +93,6 @@ sfpreseed:
         gravelpit:
           subnet: sf-dynamic
           serial: '0'
-          baudrate: '115200'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small
