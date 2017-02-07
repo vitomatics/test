@@ -7,7 +7,14 @@ states:
 pkgs:
   list:
     virt-viewer: true
-       
+    # Some stuff for testing X
+    x11-apps: true
+    xterm: true
+
+sshd:
+  options:
+    X11Forwarding: yes
+
 
 kmods:
   list:
