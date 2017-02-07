@@ -10,6 +10,7 @@ pkgs:
     # Some stuff for testing X
     x11-apps: true
     xterm: true
+    libgl1-mesa-glx: true
 
 sshd:
   options:
@@ -26,5 +27,3 @@ sudo:
       - ALL: '(ALL:ALL) ALL'
     - '%sysadmin':
       - ALL: '(ALL:ALL) ALL'
-
-
