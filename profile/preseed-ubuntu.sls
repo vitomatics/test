@@ -5,7 +5,7 @@ states:
 
 sfpreseed:
   disklayouts:
-    compute_bighd:
+    compute_disk:
       swap:
         size: 17176
       boot:
@@ -30,7 +30,7 @@ sfpreseed:
             - nodev
             - nosuid
             - noatime
-    vm_small:
+    vm_small_disk:
       swap:
         size: 4294
       boot:
@@ -42,6 +42,32 @@ sfpreseed:
           filesystem: ext4
           size: unlimited
           options:
+            - noatime
+    gamma_disk:
+      swap:
+        size: 14173
+      boot:
+        size: 1074
+        filesystem: ext4
+      parts:
+        root:
+          mountpoint: /
+          size: 549756
+          filesystem: ext4
+          options:
+            - noatime
+        var:
+          mountpoint: /var
+          size: 34360
+          options:
+            - nodev
+            - relatime
+        scratch:
+          mountpoint: /scratch
+          size: unlimited
+          options:
+            - nodev
+            - nosuid
             - noatime
   subnets:
     sf-static:
@@ -77,11 +103,73 @@ sfpreseed:
       distdir: /ubuntu
       distsuite: xenial
       hosts:
+        gamma00:
+          subnet: he1-dynamic
+          serial: '0'
+          baudrate: '115200'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: gamma_disk
+        gamma01:
+          subnet: he1-dynamic
+          serial: '0'
+          baudrate: '115200'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: gamma_disk
+        gamma02:
+          subnet: he1-dynamic
+          serial: '0'
+          baudrate: '115200'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: gamma_disk
+        gamma03:
+          subnet: he1-dynamic
+          serial: '0'
+          baudrate: '115200'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: gamma_disk
+        gamma04:
+          subnet: he1-dynamic
+          serial: '0'
+          baudrate: '115200'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: gamma_disk
+        gamma05:
+          subnet: he1-dynamic
+          serial: '0'
+          baudrate: '115200'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: gamma_disk
+        gamma06:
+          subnet: he1-dynamic
+          serial: '0'
+          baudrate: '115200'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: gamma_disk
+        gamma07:
+          subnet: he1-dynamic
+          serial: '0'
+          baudrate: '115200'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: gamma_disk
+        gravelpit:
+          subnet: sf-dynamic
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_small_disk
         nuc1:
           subnet: sf-dynamic
           diskname: /dev/sda
           diskmethod: crypto
-          disklayout: compute_bighd
+          disklayout: compute_disk
         sandbox:
           ipaddress: 10.14.16.36
           subnet: he1-static
@@ -89,10 +177,4 @@ sfpreseed:
           baudrate: '115200'
           diskname: /dev/vda
           diskmethod: lvm
-          disklayout: vm_small
-        gravelpit:
-          subnet: sf-dynamic
-          serial: '0'
-          diskname: /dev/vda
-          diskmethod: lvm
-          disklayout: vm_small
+          disklayout: vm_small_disk
