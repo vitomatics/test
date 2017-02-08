@@ -23,6 +23,7 @@ pkgs:
     ubuntu-desktop: true
     lxde: true
     lxsession: true
+    lxsession-logout: true
     lxterminal: true
     lxde-common: true
     lxtask: true
