@@ -13,3 +13,14 @@ include:
   - vms.vulcan
   - vms.gravelpit
   
+sfvirt:
+  dists:
+    xenial-default:
+      libvirtos: ubuntu16.04
+      type: debian-updates
+      host: mirrors.kernel.org
+      dir: ubuntu
+      release: xenial
+      arch: amd64
+      preseed: http://install.internal.sifive.com/preseed/ubuntu
+  

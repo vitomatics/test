@@ -19,4 +19,4 @@ sfvirt:
           size: 20G
           vg: vmpool02
       preseed: sandbox
-      os: ubuntu16.04
+      dist: xenial-default
