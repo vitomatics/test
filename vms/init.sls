@@ -22,5 +22,5 @@ sfvirt:
       dir: ubuntu
       release: xenial
       arch: amd64
-      preseed: http://install.internal.sifive.com/preseed/ubuntu
+      preseedbase: http://install.internal.sifive.com/preseed/ubuntu
   
