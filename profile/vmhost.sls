@@ -4,6 +4,13 @@ states:
   libvirt: true
   sfvirt: true
 
+sfvirt:
+  os:
+    distbase: http://mirrors.kernel.org/ubuntu
+    preseedbase: http://install.internal.sifive.com/preseed/ubuntu
+    arch: amd64
+    release: xenial
+
 pkgs:
   list:
     virt-viewer: true
