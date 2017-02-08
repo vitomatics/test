@@ -18,5 +18,6 @@ sfvirt:
           size: 20G
           vg: vg_system
       preseed: gravelpit
-      os: ubuntu16.04
+      dist: xenial-default
+
 

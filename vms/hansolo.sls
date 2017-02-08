@@ -18,4 +18,5 @@ sfvirt:
           size: 30G
           vg: vg_system
       preseed: hansolo
-      os: ubuntu16.04
+      dist: xenial-default
+

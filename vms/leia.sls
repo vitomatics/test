@@ -19,3 +19,4 @@ sfvirt:
           vg: vmpool02
       preseed: leia
       os: ubuntu16.04
+      dist: xenial-default

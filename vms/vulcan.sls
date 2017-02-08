@@ -22,5 +22,5 @@ sfvirt:
           size: 40G
           vg: vmpool02
       preseed: vulcan
-      os: ubuntu16.04
+      dist: xenial-default
 

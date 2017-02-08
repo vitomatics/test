@@ -22,5 +22,5 @@ sfvirt:
           size: 200G
           vg: vmpool02
       preseed: dalek
-      os: ubuntu16.04
+      dist: xenial-default
 
