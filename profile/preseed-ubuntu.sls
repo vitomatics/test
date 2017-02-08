@@ -113,7 +113,7 @@ sfpreseed:
       saltmaster: salt.internal.sifive.com
       salthash: sha256
       disthost: mirrors.kernel.org
-      distdir: /ubuntu
+      distdir: ubuntu
       distsuite: xenial
       hosts:
         algol:
