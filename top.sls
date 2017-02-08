@@ -82,7 +82,7 @@ base:
   'algol.internal.sifive.com':
     - subnet.sf-unix
     - profile.login
-    - profile.nomachine
+    - profile.nomachine-eval
     - hosts.algol
 
   'altair.internal.sifive.com':
