@@ -2,7 +2,8 @@
 
 set prefix/sysresccd:string http://install.internal.sifive.com/sysresccd
 set prefix/memtest:string http://install.internal.sifive.com/memtest86
-set prefix/linux:string http://synth.internal.sifive.com
+set prefix/debian:string http://synth.internal.sifive.com/preseed/debian
+set prefix/ubuntu:string http://install.internal.sifive.com/preseed/ubuntu
 set prefix/freebsd:string http://synth.internal.sifive.com
 
 set freebsd/version:string 10.2
@@ -53,7 +54,7 @@ item --key m ubuntu-mirror  Mirror [${ubuntu/mirror}]
 choose target && goto ${target} || goto start
 
 :ubuntu-boot
-isset ${ubuntu/preseed} && set ubuntu/cmdline-preseed auto-install/enable=true preseed/url=${prefix/linux}/preseed/ubuntu/${ubuntu/preseed:uristring}.cfg debconf/priority=critical netcfg/choose_interface=${net0/mac} || clear ubuntu/cmdline-preseed
+isset ${ubuntu/preseed} && set ubuntu/cmdline-preseed auto-install/enable=true preseed/url=${prefix/ubuntu}/${ubuntu/preseed:uristring}.cfg debconf/priority=critical netcfg/choose_interface=${net0/mac} || clear ubuntu/cmdline-preseed
 set site http://${ubuntu/mirror}/dists/${ubuntu/release}-updates/main/installer-${ubuntu/arch}/current/images/netboot/ubuntu-installer/${ubuntu/arch}
 imgfree
 initrd ${site}/initrd.gz
@@ -107,7 +108,7 @@ item --key m debian-mirror  Mirror [${debian/mirror}]
 choose target && goto ${target} || goto start
 
 :debian-boot
-isset ${debian/preseed} && set debian/cmdline-preseed auto-install/enable=true preseed/url=${prefix/linux}/preseed/debian/${debian/preseed:uristring}.cfg debconf/priority=critical netcfg/choose_interface=${net0/mac} || clear debian/cmdline-preseed
+isset ${debian/preseed} && set debian/cmdline-preseed auto-install/enable=true preseed/url=${prefix/debian}/${debian/preseed:uristring}.cfg debconf/priority=critical netcfg/choose_interface=${net0/mac} || clear debian/cmdline-preseed
 set site http://${debian/mirror}/dists/${debian/release}/main/installer-${debian/arch}/current/images/netboot/debian-installer/${debian/arch}
 imgfree
 initrd ${site}/initrd.gz
