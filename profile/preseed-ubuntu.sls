@@ -273,7 +273,7 @@ sfpreseed:
           diskmethod: lvm
           disklayout: vm_small_disk
         hal:
-          ipaddress: 10.14.0.40
+          ipaddress: 10.14.16.40
           subnet: he1-static
           serial: '0'
           diskname: /dev/vda
@@ -348,7 +348,7 @@ sfpreseed:
           diskmethod: lvm
           disklayout: vm_small_disk
         viki:
-          ipaddress: 10.14.0.41
+          ipaddress: 10.14.16.41
           subnet: he1-static
           serial: '0'
           diskname: /dev/vda
