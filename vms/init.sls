@@ -5,11 +5,13 @@ include:
   - vms.altair
   - vms.betel
   - vms.dalek
+  - vms.hal
   - vms.klingon
   - vms.leia
   - vms.luke
   - vms.hansolo
   - vms.sandbox
+  - vms.viki
   - vms.vulcan
   - vms.gravelpit
   

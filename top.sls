@@ -162,3 +162,11 @@ base:
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
     - hosts.gravelpit
+
+  'hal.internal.sifive.com':
+    - subnet.he-unix01
+    - hosts.hal
+
+  'viki.internal.sifive.com':
+    - subnet.he-unix01
+    - hosts.viki
