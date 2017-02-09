@@ -48,6 +48,9 @@ sfsalt:
       - dalek.internal.sifive.com
     installserver:
       - dalek.internal.sifive.com
+    salthost:
+      - hal.internal.sifive.com
+      - viki.internal.sifive.com
 
   ext_pillars:
     file_tree:
