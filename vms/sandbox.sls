@@ -4,7 +4,8 @@ sfvirt:
   vms:
     sandbox:
       type: libvirt
-      dist: xenial-pxe
+      dist: xenial-default
+      preseed: sandbox
       vmhost: marvin.internal.sifive.com
       vcpus: 1
       memory: 2048   # In MB
