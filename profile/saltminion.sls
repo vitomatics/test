@@ -4,6 +4,6 @@ states:
   salt.minion: true
 
 salt:
-  minon:
+  minion:
     master:
       - salt.internal.sifive.com
