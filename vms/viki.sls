@@ -4,7 +4,7 @@ sfvirt:
   vms:
     viki:
       type: libvirt
-      vmhost: viki.internal.sifive.com
+      vmhost: eddie.internal.sifive.com
       vcpus: 2
       memory: 4096   # In MB
       autostart: on
