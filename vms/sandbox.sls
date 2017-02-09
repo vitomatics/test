@@ -18,5 +18,3 @@ sfvirt:
           vdtype: lvm
           size: 20G
           vg: vmpool02
-      preseed: sandbox
-      dist: xenial-default
