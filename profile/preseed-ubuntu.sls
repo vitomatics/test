@@ -30,31 +30,30 @@ sfpreseed:
             - nodev
             - nosuid
             - noatime
-    vm_small_disk:
+    compute_ssd:
       swap:
-        size: 4294
+        size: 17176
       boot:
         size: 1074
         filesystem: ext4
       parts:
         root:
           mountpoint: /
-          filesystem: ext4
-          size: unlimited
+          size: 34352
           options:
             - noatime
-    vm_med_disk:
-      swap:
-        size: 12882
-      boot:
-        size: 1074
-        filesystem: ext4
-      parts:
-        root:
-          mountpoint: /
-          filesystem: ext4
+        var:
+          mountpoint: /var
+          size: 17176
+          options:
+            - nodev
+            - relatime
+        scratch:
+          mountpoint: /scratch
           size: unlimited
           options:
+            - nodev
+            - nosuid
             - noatime
     gamma_disk:
       swap:
@@ -82,6 +81,53 @@ sfpreseed:
             - nodev
             - nosuid
             - noatime
+    vm_small_disk:
+      swap:
+        size: 4294
+      boot:
+        size: 1074
+        filesystem: ext4
+      parts:
+        root:
+          mountpoint: /
+          filesystem: ext4
+          size: unlimited
+          options:
+            - noatime
+    vm_med_disk:
+      swap:
+        size: 12882
+      boot:
+        size: 1074
+        filesystem: ext4
+      parts:
+        root:
+          mountpoint: /
+          filesystem: ext4
+          size: unlimited
+          options:
+            - noatime
+    server_ssd_disk:
+      swap:
+        size: 14173
+      boot:
+        size: 1074
+        filesystem: ext4
+      parts:
+        root:
+          mountpoint: /
+          size: 68719
+          filesystem: ext4
+          options:
+            - noatime
+        scratch:
+          mountpoint: /scratch
+          size: unlimited
+          options:
+            - nodev
+            - nosuid
+            - noatime
+            
   subnets:
     sf-static:
       static: true
@@ -130,6 +176,20 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
+        b0:
+          ipaddress: 10.14.1.6
+          subnet: sf-static
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: crypt
+          disklayout: compute_ssd_disk
+        bender:
+          ipaddress: 10.14.0.13
+          subnet: sf-static
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: crypto
+          disklayout: server_ssd_disk
         betel:
           ipaddress: 10.14.16.73
           subnet: he1-static
@@ -144,6 +204,20 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
+        dalek:
+          ipaddress: 10.14.0.11
+          subnet: he1-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_small_disk
+        eddie:
+          ipaddress: 10.14.16.32
+          subnet: he1-static
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: server_ssd_disk
         gamma00:
           subnet: he1-dynamic
           serial: '0'
@@ -205,6 +279,20 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
+        heartofgold:
+          ipaddress: 10.14.16.48
+          subnet: he1-static
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: server_ssd_disk
+        jenkins:
+          ipaddress: 10.14.0.10
+          subnet: he1-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk
         klingon:
           ipaddress: 10.14.16.74
           subnet: he1-static
@@ -226,11 +314,25 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
+        marvin:
+          ipaddress: 10.14.16.32
+          subnet: he1-static
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: server_ssd_disk
         nuc1:
           subnet: sf-dynamic
           diskname: /dev/sda
           diskmethod: crypto
           disklayout: compute_disk
+        omega1:
+          ipaddress: 10.14.1.5
+          subnet: sf-static
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: crypto
+          disklayout: server_ssd_disk
         sandbox:
           ipaddress: 10.14.16.36
           subnet: he1-static
@@ -238,3 +340,10 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
+        vulcan:
+          ipaddress: 10.14.16.37
+          subnet: he1-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk
