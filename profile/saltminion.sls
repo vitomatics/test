@@ -6,4 +6,4 @@ states:
 salt:
   minon:
     master:
-      salt.internal.sifive.com
+      - salt.internal.sifive.com
