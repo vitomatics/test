@@ -23,4 +23,6 @@ sfvirt:
       release: xenial
       arch: amd64
       preseedbase: http://install.internal.sifive.com/preseed/ubuntu
+    xenial-pxe:
+      libvirtos: ubuntu16.04
   
