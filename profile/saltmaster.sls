@@ -17,6 +17,7 @@ sfsalt:
   formulas:
     - apache-formula
     - bind-formula
+    - salt-formula
 
   nodegroups:
     login:
