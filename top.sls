@@ -169,4 +169,5 @@ base:
 
   'viki.internal.sifive.com':
     - subnet.he-unix01
+    - profile.saltminion
     - hosts.viki
