@@ -171,3 +171,7 @@ base:
     - subnet.he-unix01
     - profile.saltminion
     - hosts.viki
+
+  'tardis.internal.sifive.com':
+    - subnet.he-unix01
+    - hosts.tardis
