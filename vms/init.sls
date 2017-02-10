@@ -11,6 +11,7 @@ include:
   - vms.luke
   - vms.hansolo
   - vms.sandbox
+  - vms.tardis
   - vms.viki
   - vms.vulcan
   - vms.gravelpit
