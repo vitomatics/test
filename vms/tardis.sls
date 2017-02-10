@@ -15,7 +15,7 @@ sfvirt:
       disks:
         root:
           vdtype: lvm
-          size: 20G
+          size: 30G
           vg: vmpool01
       preseed: tardis
       dist: xenial-default
