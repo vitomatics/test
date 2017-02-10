@@ -29,7 +29,6 @@ pam:
     compute: ALL
     rxia: ALL
     han: ALL
-    yunsup: ALL
 
 sudo:
   userspec:
@@ -40,8 +39,6 @@ sudo:
     - rxia:
       - ALL: '(ALL:ALL) ALL'
     - han:
-      - ALL: '(ALL:ALL) ALL'
-    - yunsup:
       - ALL: '(ALL:ALL) ALL'
   
 
