@@ -353,7 +353,7 @@ sfpreseed:
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
-          disklayout: vm_med_disk
+          disklayout: vm_small_disk
         viki:
           ipaddress: 10.14.16.41
           subnet: he1-static
