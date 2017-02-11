@@ -1,3 +1,6 @@
+# "compute" is a profile designed for engineers to do real work but
+# without direct NX-based login
+
 states:
   autofs: true
   nfs4: true
