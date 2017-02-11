@@ -174,4 +174,5 @@ base:
 
   'tardis.internal.sifive.com':
     - subnet.he-unix01
+    - profile.work
     - hosts.tardis
