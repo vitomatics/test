@@ -125,6 +125,10 @@ pkgs:
     {% elif grains.os == 'Ubuntu' %}
     libmng2: true
     {% endif %}
+
+    # gtkwave
+    gtkwave: true
+    libjudydebian1: true
     
     # Python
     virtualenv: true
@@ -134,6 +138,18 @@ pkgs:
     # general development
     libncurses5-dev: true
     libglib2.0-dev: true
+    libgtk2.0-dev: true
+    libbz2-dev: true
+    libglib2.0-dev: true
+    libpango1.0-dev: true
+    liblzma5: true
+    tk8.5-dev: true
+    tk8.6-dev: true
+    tcl8.5-dev: true
+    tcl8.6-dev: true
+    zlib1g-dev: true
+
+    # General cpu tools
     qemu: true
 
     # IVy
