@@ -126,9 +126,14 @@ pkgs:
     libmng2: true
     {% endif %}
 
-    # gtkwave
+    # gtkwave, both src and pkg
     gtkwave: true
     libjudydebian1: true
+    tk8.6-dev: true
+    tcl8.6-dev: true
+    libbz2-dev: true
+    liblzma5: true
+    zlib1g-dev: true
     
     # Python
     virtualenv: true
@@ -139,14 +144,7 @@ pkgs:
     libncurses5-dev: true
     libglib2.0-dev: true
     libgtk2.0-dev: true
-    libbz2-dev: true
     libpango1.0-dev: true
-    liblzma5: true
-    tk8.5-dev: true
-    tk8.6-dev: true
-    tcl8.5-dev: true
-    tcl8.6-dev: true
-    zlib1g-dev: true
 
     # General cpu tools
     qemu: true
