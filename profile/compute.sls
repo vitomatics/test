@@ -140,7 +140,6 @@ pkgs:
     libglib2.0-dev: true
     libgtk2.0-dev: true
     libbz2-dev: true
-    libglib2.0-dev: true
     libpango1.0-dev: true
     liblzma5: true
     tk8.5-dev: true
