@@ -2,10 +2,6 @@ base:
   '*':
     - default
 
-  'citadel.internal.sifive.com':
-    - subnet.sf-unix
-    - hosts.citadel
-
   'nihilanth.internal.sifive.com':
     - subnet.sf-unix
     - profile.backupclient
