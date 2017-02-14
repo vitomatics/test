@@ -84,6 +84,7 @@ pkgs:
     mailutils: true
 
     zsh: true
+    tcsh: true
     vim: true
     rsync: true
     pdsh: true
