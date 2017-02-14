@@ -1,6 +1,5 @@
-# "work" is a cut-down version of compute for machines that are not
-# running the full set of development tools
-# In particular some document-management tools are missing.
+# "devel" is a profile that sets up packages needed for hardware
+# and software development
 
 pkgs:
   apt:
@@ -16,7 +15,7 @@ pkgs:
     lsb-core: true
     libgcc1:i386: true
 
-    openjdk-8-jre: true
+    openjdk-8-jdk: true
     environment-modules: true
     tcl-tclreadline: true
 
@@ -28,6 +27,18 @@ pkgs:
     parallel: true
 
     libtool: true
+    libusb-1.0-0-dev: true
+
+    # Interactive
+    texlive-full: true
+
+    xterm: true
+    {% if grains.os == 'Debian' %}
+    chromium: true
+    {% elif grains.os == 'Ubuntu' %}
+    chromium-browser: true
+    firefox: true
+    {% endif %}
 
     emacs-nox: false
     emacs: true
@@ -51,6 +62,15 @@ pkgs:
     autotools-dev: true
     gawk: true
     texinfo: true
+    flex: true
+    bison: true
+    libmpc-dev: true
+    libmpfr-dev: true
+    libgmp-dev: true
+    dejagnu: true
+    {% if grains.os == 'Ubuntu' %}
+    gnat-5: true
+    {% endif %}
 
     sbt: true
     # Modules
@@ -58,6 +78,9 @@ pkgs:
     tk8.5-dev: true
     # Ruby
     libyaml-dev: true
+    # Prometheus
+    graphviz: true
+    ghostscript: true
     # galaxy_icc_exec
     libjpeg62: true
     {% if grains.os == 'Debian' %}
@@ -65,6 +88,15 @@ pkgs:
     {% elif grains.os == 'Ubuntu' %}
     libmng2: true
     {% endif %}
+
+    # gtkwave, both src and pkg
+    gtkwave: true
+    libjudydebian1: true
+    tk8.6-dev: true
+    tcl8.6-dev: true
+    libbz2-dev: true
+    liblzma5: true
+    zlib1g-dev: true
     
     # Python
     virtualenv: true
@@ -74,9 +106,32 @@ pkgs:
     # general development
     libncurses5-dev: true
     libglib2.0-dev: true
+    libgtk2.0-dev: true
+    libpango1.0-dev: true
+
+    # General cpu tools
+    qemu: true
 
     # IVy
     libgraphviz-dev: true
     python-dev: true
     python-tk: true
     tix: true
+
+    # Synopsys Hector
+    libncurses5:i386: true
+
+    # Synopsys "mw"
+    libxext6:i386: true
+
+file:
+  ln:
+    # Needed by Synopsis core consultant
+    /bin/awk: /usr/bin/awk
+    # Copied from i0 - history unknown
+    /bin/arch: /usr/bin/arch
+    # galaxy_icc_exec
+    /usr/lib/x86_64-linux-gnu/libtiff.so.3: libtiff.so.5
+    {% if grains.os == 'Ubuntu' %}
+    /usr/lib/x86_64-linux-gnu/libmng.so.1: libmng.so.2
+    {% endif %}
