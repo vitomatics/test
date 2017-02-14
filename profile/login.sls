@@ -2,7 +2,6 @@
 
 
 include:
-  - profile.compute
   - site.sshguard-whitelist
 
 sshd:
