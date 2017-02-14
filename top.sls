@@ -82,7 +82,7 @@ base:
   'algol.internal.sifive.com':
     - subnet.sf-unix
     - profile.devel
-    - profile.compute
+    - profile.clusterclient
     - profile.login
     - profile.nomachine-eval
     - hosts.algol
@@ -90,7 +90,7 @@ base:
   'altair.internal.sifive.com':
     - subnet.he-unix01
     - profile.devel
-    - profile.compute
+    - profile.clusterclient
     - profile.login
     - profile.nomachine-licensed
     - hosts.altair
@@ -98,7 +98,7 @@ base:
   'betel.internal.sifive.com':
     - subnet.he-unix01
     - profile.devel
-    - profile.compute
+    - profile.clusterclient
     - profile.login
     - profile.x2go
     - hosts.betel
@@ -138,13 +138,13 @@ base:
   'gamma*.internal.sifive.com':
     - subnet.he-dhcp
     - profile.devel
-    - profile.compute
+    - profile.clusterclient
     - hosts.gamma
 
   'i0.internal.sifive.com':
     - subnet.sf-unix
     - profile.devel
-    - profile.compute
+    - profile.clusterclient
     - profile.labhost
     - profile.backupclient
     - hosts.i0
@@ -152,7 +152,7 @@ base:
   'b0.internal.sifive.com':
     - subnet.sf-unix
     - profile.devel
-    - profile.compute
+    - profile.clusterclient
     - profile.labhost
     - hosts.b0
 
