@@ -162,6 +162,8 @@ base:
 
   'sandbox.internal.sifive.com':
     - subnet.he-unix01
+    - profile.devle
+    - profile.clusterclient
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
