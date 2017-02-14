@@ -6,8 +6,6 @@ include:
 states:
   apache: true
   firewall.iptables: true
-  autofs: true
-  nfs4: true
 
 # network - static - serveral services
 network:
@@ -33,21 +31,6 @@ disksetup:
       lv: dalek00/srv
 
 
-nfs4:
-  domain: internal.sifive.com
-
-autofs:
-  lookup:
-    browse_mode: yes
-  direct:
-    /mnt/homes: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/homes
-
-homedirs:
-  lookup:
-    home: /mnt/homes
-  servers:
-    {{grains.id}}: true
-    
 firewall:
   ports:
     tcp:
