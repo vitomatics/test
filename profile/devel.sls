@@ -19,8 +19,10 @@ pkgs:
     environment-modules: true
     tcl-tclreadline: true
 
-    # Miscellaneous
+    ## Miscellaneous
     tcsh: true
+    # needed by Cadence PVS
+    ksh: true
     finger: true
     unzip: true
     tree: true
@@ -29,7 +31,7 @@ pkgs:
     libtool: true
     libusb-1.0-0-dev: true
 
-    # Interactive
+    ## Interactive
     texlive-full: true
 
     xterm: true
@@ -52,10 +54,10 @@ pkgs:
     dbus-x11: true
     gitk: true
     rcs: true
-    # Used by emacs
+    # Used by emacs but not a dependency
     gnome-icon-theme: true
 
-    # riscv-tools
+    ## Building riscv-tools
     build-essential: true
     autoconf: true
     automake: true
@@ -89,7 +91,7 @@ pkgs:
     libmng2: true
     {% endif %}
 
-    # gtkwave, both src and pkg
+    ## gtkwave, both src and pkg
     gtkwave: true
     libjudydebian1: true
     tk8.6-dev: true
@@ -98,18 +100,18 @@ pkgs:
     liblzma5: true
     zlib1g-dev: true
     
-    # Python
+    ## Python
     virtualenv: true
     python-pip: true
     python-pexpect: true
 
-    # general development
+    ## general development
     libncurses5-dev: true
     libglib2.0-dev: true
     libgtk2.0-dev: true
     libpango1.0-dev: true
 
-    # General cpu tools
+    ## General cpu tools
     qemu: true
 
     # IVy
