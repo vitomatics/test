@@ -16,10 +16,17 @@ perccli:
 
 disksetup:
   cryptdevs:
+{#
     crypt-sdb:
       disk: /dev/sdb
     crypt-sdc:
       disk: /dev/sdc
+#}
+    crypt-sdd:
+      disk: /dev/sdd
+    crypt-sde:
+      disk: /dev/sde
+{#
   zpools:
     bkpool02:
       properties:
@@ -32,6 +39,7 @@ disksetup:
         mirror-0:
           - /dev/mapper/crypt-sdb
           - /dev/mapper/crypt-sdc
+#}
 
 zfs:
   # omega1 has 128GB - keep half of it free for non-ZFS stuff
