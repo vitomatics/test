@@ -158,6 +158,7 @@ sfpreseed:
       saltrepo: repo.saltstack.com/apt/ubuntu/16.04/amd64/2016.11
       saltmaster: salt.internal.sifive.com
       salthash: sha256
+      saltconffile: 99-sfpreseed.conf
       disthost: mirrors.kernel.org
       distdir: ubuntu
       distsuite: xenial
