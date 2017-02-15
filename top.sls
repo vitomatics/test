@@ -168,6 +168,7 @@ base:
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
+    - profile.saltminion
     - hosts.gravelpit
 
   'hal.internal.sifive.com':
