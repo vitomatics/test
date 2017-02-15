@@ -26,19 +26,13 @@ autofs:
 
 pam:
   access:
-    compute: ALL
-    rxia: ALL
-    han: ALL
+    nfsroot: ALL
 
 sudo:
   userspec:
     - root:
       - ALL: '(ALL:ALL) ALL'
-    - '%sysadmin':
-      - ALL: '(ALL:ALL) ALL'
-    - rxia:
-      - ALL: '(ALL:ALL) ALL'
-    - han:
+    - '%nfsroot':
       - ALL: '(ALL:ALL) ALL'
   
 
