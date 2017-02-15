@@ -27,12 +27,15 @@ autofs:
 pam:
   access:
     nfsroot: ALL
+    sysadmin: ALL
 
 sudo:
   userspec:
     - root:
       - ALL: '(ALL:ALL) ALL'
     - '%nfsroot':
+      - ALL: '(ALL:ALL) ALL'
+    - '%sysadmin':
       - ALL: '(ALL:ALL) ALL'
   
 
