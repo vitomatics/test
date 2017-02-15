@@ -7,3 +7,4 @@ salt:
   minion:
     master:
       - salt.internal.sifive.com
+    hash_type: sha256
