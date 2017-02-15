@@ -1,3 +1,6 @@
+states:
+  sflxc: true
+
 network:
   interfaces:
     eth2:
