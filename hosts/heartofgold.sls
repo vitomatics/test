@@ -69,6 +69,7 @@ zfs:
     bkpool01/sfbackup/dumps/breencast-ldap-db:
     bkpool01/sfbackup/dumps/breencast-ldap-config:
     bkpool01/sfbackup/dumps/dalek-srv:
+    bkpool01/sfbackup/dumps/i0-license:
 
 nfs4:
   domain:
