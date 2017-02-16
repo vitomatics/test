@@ -181,4 +181,5 @@ base:
   'tardis.internal.sifive.com':
     - subnet.he-unix01
     - profile.devel
+    - profile.clustermaster
     - hosts.tardis
