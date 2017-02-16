@@ -3,7 +3,7 @@
 {% set saltroot = '/srv/salt' %}
 
 include:
-  secret.saltmaster
+  - secret.saltmaster
 
 states:
   sfsalt.master: true
