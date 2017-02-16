@@ -1,10 +1,11 @@
-# SiFive Pillar setup for the salt master.
+## SiFive Pillar setup for the salt master.
 
 {% set saltroot = '/srv/salt' %}
 
 states:
   sfsalt.master: true
 
+## Salt
 sfsalt:
   lookup:
     saltdir: {{saltroot}}/salt
@@ -56,7 +57,40 @@ sfsalt:
     ext_pillars:
       file_tree:
         root_dir: {{saltroot}}/pillar/file_tree
-      
+
+## Salt master deploy keys
+ssh:
+  userconfig:
+    root:
+      github.com:
+        User: git
+        IdentitiesOnly: yes
+      github-salt-states:
+        HostName: github.com
+        IdentityFile: ~/.ssh/id_rsa.salt-states
+      github-salt-pillar:
+        HostName: github.com
+        IdentityFile: ~/.ssh/id_rsa.salt-pillar
+
+file:
+  file:
+    /root/.ssh/id_rsa.salt-states:
+      content_pillar: 'a:b:c'
+      user: root
+      group: root
+      mode: '0600'
+
+file:
+  file:
+    /root/.ssh/id_rsa.salt-pillar:
+      content_pillar: 'a:b:c'
+      user: root
+      group: root
+      mode: '0600'
+
+
+## Firewalling
+
 firewall:
   ports:
     tcp:
