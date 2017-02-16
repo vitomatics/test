@@ -156,6 +156,9 @@ sfpreseed:
       dir: /srv/www/install/preseed/ubuntu
       url: http://install.internal.sifive.com/preseed/ubuntu
       saltrepo: repo.saltstack.com/apt/ubuntu/16.04/amd64/2016.11
+      saltmaster:
+        - salt.internal.sifive.com
+        - salt2.internal.sifive.com
       salthash: sha256
       saltconffile: 99-sfpreseed.conf
       disthost: mirrors.kernel.org
