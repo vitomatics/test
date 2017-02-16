@@ -79,7 +79,6 @@ file:
       user: root
       group: root
       mode: '0600'
-  file:
     /root/.ssh/id_rsa.salt-pillar:
       content_pillar: 'a:b:c'
       user: root
