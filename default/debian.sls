@@ -37,7 +37,7 @@ pkgs:
       saltstack:
         {% set saltsite = [ 'repo.saltstack.com/apt', (grains.os|lower),
           grains.osmajorrelease if (grains.os == 'Debian') else grains.osrelease,
-          grains.osarch, 'latest']|join('/') %}
+          grains.osarch, '2016.11']|join('/') %}
         uri: http://{{saltsite}}
         suite: {{ suite }}
         key_url: https://{{saltsite}}/SALTSTACK-GPG-KEY.pub
