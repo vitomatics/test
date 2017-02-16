@@ -66,7 +66,7 @@ sfdump:
   logttl: 14
   jobs:
     omega1:
-      starttime: 05:00
+      starttime: 00:30
   nfs:
     work:
       client: netapp1-nfs1.internal.sifive.com
@@ -76,7 +76,7 @@ sfdump:
       snaptype: netapp_daily
       acls: false
       xattrs: false
-      timeout: 2h
+      timeout: 4h
     homes:
       client: netapp1-nfs1.internal.sifive.com
       export: /homes

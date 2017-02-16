@@ -84,7 +84,7 @@ sfdump:
   jobs:
     default:
       absent: false
-      starttime: 01:00
+      starttime: 19:00
   nfs:
     homes:
       client: netapp1-nfs1.internal.sifive.com
@@ -93,6 +93,7 @@ sfdump:
       snaptype: netapp_daily
       acls: false
       xattrs: false
+      timeout: 2h
     work:
       client: netapp1-nfs1.internal.sifive.com
       export: /work
@@ -100,6 +101,7 @@ sfdump:
       snaptype: netapp_daily
       acls: false
       xattrs: false
+      timeout: 4h
     sifive:
       client: netapp1-nfs1.internal.sifive.com
       export: /sifive
@@ -107,3 +109,4 @@ sfdump:
       snaptype: netapp_daily
       acls: false
       xattrs: false
+      timeout: 5h
