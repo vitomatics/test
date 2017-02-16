@@ -6,7 +6,7 @@ states:
 sfsalt:
   minion:
     master: salt.internal.sifive.com
-    hash_type: sha256
+{#    hash_type: sha256 #}
     confname: 99-sfsalt.conf
 {#
     clearconf:
