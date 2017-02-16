@@ -3,7 +3,7 @@
 states:
   sfsalt.minion: true
 
-salt:
+sfsalt:
   minion:
     master:
       - salt.internal.sifive.com
