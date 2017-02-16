@@ -124,10 +124,7 @@ sfsalt:
       - minion.d/99-master-host.conf
       - minion.d/99-hash-type.conf
 
-{#
-## Now we handle grub config in preseed
 boot:
   grub:
     serial:
       port: 0
-#}
