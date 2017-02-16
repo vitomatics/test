@@ -7,9 +7,9 @@ states:
 
 sfsalt:
   lookup:
-    sfsalt.lookup.saltdir: {{saltroot}}/salt
-    sfsalt.lookup.pillardir: {{saltroot}}/pillar
-    sfsalt.lookup.formuladir: {{saltroot}}/formulas
+    saltdir: {{saltroot}}/salt
+    pillardir: {{saltroot}}/pillar
+    formuladir: {{saltroot}}/formulas
 
   master:
     formulas:
