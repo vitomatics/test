@@ -12,6 +12,8 @@ sfsalt:
     formuladir: {{saltroot}}/formulas
 
   master:
+    timeout: 15
+    
     formulas:
       - apache-formula
       - bind-formula
