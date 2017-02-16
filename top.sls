@@ -176,6 +176,7 @@ base:
 
   'viki.internal.sifive.com':
     - subnet.he-unix01
+    - profile.saltmaster2
     - hosts.viki
 
   'tardis.internal.sifive.com':
