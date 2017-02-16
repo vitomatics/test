@@ -2,6 +2,9 @@
 
 {% set saltroot = '/srv/salt' %}
 
+include:
+  secret.saltmaster
+
 states:
   sfsalt.master: true
 
@@ -50,7 +53,7 @@ sfsalt:
         - dalek.internal.sifive.com
       installserver:
         - dalek.internal.sifive.com
-      salthost:
+      saltmaster:
         - hal.internal.sifive.com
         - viki.internal.sifive.com
 
@@ -75,12 +78,12 @@ ssh:
 file:
   file:
     /root/.ssh/id_rsa.salt-states:
-      content_pillar: 'a:b:c'
+      content_pillar: 'site:key:github:salt-states'
       user: root
       group: root
       mode: '0600'
     /root/.ssh/id_rsa.salt-pillar:
-      content_pillar: 'a:b:c'
+      content_pillar: 'site:key:github:salt-pillar'
       user: root
       group: root
       mode: '0600'
