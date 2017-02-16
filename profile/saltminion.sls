@@ -8,8 +8,7 @@ sfsalt:
     master:
       - salt.internal.sifive.com
     hash_type: sha256
-    confname:
-      - 99-sfsalt.conf
+    confname: 99-sfsalt.conf
 {#
     clearconf:
       - minion.d/99-sfpreseed.conf
