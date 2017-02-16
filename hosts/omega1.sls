@@ -66,7 +66,7 @@ sfdump:
   logttl: 14
   jobs:
     omega1:
-      starttime: 00:30
+      starttime: '00:30'
   nfs:
     work:
       client: netapp1-nfs1.internal.sifive.com

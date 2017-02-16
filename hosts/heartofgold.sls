@@ -84,7 +84,7 @@ sfdump:
   jobs:
     default:
       absent: false
-      starttime: 19:00
+      starttime: '19:00'
   nfs:
     homes:
       client: netapp1-nfs1.internal.sifive.com
