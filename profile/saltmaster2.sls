@@ -53,7 +53,7 @@ sfsalt:
 
     ext_pillars:
       file_tree:
-        root_dir: {{ filetreedir}}
+        root_dir: {{saltroot}}/pillar/file_tree
       
 firewall:
   ports:
