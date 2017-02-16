@@ -70,10 +70,10 @@ ssh:
         IdentitiesOnly: yes
       github-salt-states:
         HostName: github.com
-        IdentityFile: ~/.ssh/id_rsa.salt-states
+        IdentityFile: /root/.ssh/id_rsa.salt-states
       github-salt-pillar:
         HostName: github.com
-        IdentityFile: ~/.ssh/id_rsa.salt-pillar
+        IdentityFile: /root/.ssh/id_rsa.salt-pillar
 
 file:
   file:
