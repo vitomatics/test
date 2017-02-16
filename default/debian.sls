@@ -8,7 +8,6 @@ states:
   pkgs.apt: true
   boot.grub: true
   icsisnap: true
-  sfsalt.minion: true
 
 nss:
   group:

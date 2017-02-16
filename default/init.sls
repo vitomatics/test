@@ -17,6 +17,7 @@ states:
   sudo: true
   opensmtpd: true
   chrony: true
+  sfsalt.minion: true
 
 network:
   resolver:
