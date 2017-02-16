@@ -1,4 +1,4 @@
-# test salt minion profile
+# salt minion stuff
 
 states:
   sfsalt.minion: true
