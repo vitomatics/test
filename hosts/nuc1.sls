@@ -2,3 +2,7 @@
 
 # network - dhcp
 
+
+boot:
+  grub:
+    serial: ~
