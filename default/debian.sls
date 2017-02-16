@@ -8,6 +8,7 @@ states:
   pkgs.apt: true
   boot.grub: true
   icsisnap: true
+  sfsalt.minion: true
 
 nss:
   group:
@@ -112,8 +113,21 @@ firewall:
     tcp:
       22: 10.0.0.0/8
 
+      
+sfsalt:
+  minion:
+    master: salt.internal.sifive.com
+    hash_type: sha256
+    confname: 99-sfsalt.conf
+    clearconf:
+      - minion.d/99-sfpreseed.conf
+      - minion.d/99-master-host.conf
+      - minion.d/99-hash-type.conf
+
+{#
+## Now we handle grub config in preseed
 boot:
   grub:
     serial:
       port: 0
-
+#}
