@@ -78,12 +78,12 @@ ssh:
 file:
   file:
     /root/.ssh/id_rsa.salt-states:
-      content_pillar: 'site:key:github:salt-states'
+      content_pillar: 'keys:github:salt-states:private'
       user: root
       group: root
       mode: '0600'
     /root/.ssh/id_rsa.salt-pillar:
-      content_pillar: 'site:key:github:salt-pillar'
+      content_pillar: 'keys:github:salt-pillar:private'
       user: root
       group: root
       mode: '0600'
