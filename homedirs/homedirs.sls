@@ -1,5 +1,6 @@
 homedirs:
   users:
+{#
     terpstra:
       uid: 1106
       gid: 1106
@@ -114,3 +115,17 @@ homedirs:
       gid: 1123
       authorized_keys:
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKBLKDbzNqmBsbGCq/40/RKwDqsAiL6X/hQPpViYyMAPXg1793cjMFxEhsVD/2xKV19KBBU8ysv+Tx0xXDNHzplQd3+m8rR6sV3PZBRguLIY7I9c3MItXIRkNY3Ek2WUNsNxAt1h4ihyEB/c7Z+4PaWUAgf3kPgkZW/6v6mNFbv3v+MTpx++Vm37/JpLpKNitP8em36uug3+rdWbfMS3b43cuwla4VOehi0hy3SyGH5iMNv3slHdNdnCh1OHrAhPyDKgu98j5k8ew3IVBzoYTEf0/TgeXnuWjiaMCPGhJR5IjFFJO6MNNwJbg43ZI7pGbHvp/QCVhieUqj1jBk1wxz sols@sifive.com
+#}
+    johnd:
+      uid: 1124
+      gid: 1124
+    palmer:
+      uid: 1125
+      gid: 1125
+    renxin:
+      uid: 1126
+      gid: 1126
+    davidj2:
+      uid: 1127
+      gid: 1127
+    
