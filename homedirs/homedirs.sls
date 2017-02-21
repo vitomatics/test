@@ -117,6 +117,8 @@ homedirs:
     johnd:
       uid: 1124
       gid: 1124
+      authorized_keys:
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDNt7D5/isFRTngqgEiVaTkXVN+ZRYUsn7QdY7vLVjh/B2kDFfrxEGblhbL5OmdYPcnKxahfm77LCyyCpNCk0K9LcWJ6OyIzARyrPx+Ww+bnsFs9o/JGaTQdraK92Vx30MTccTDSY1QdJW2/B567M6aFWwl9wPwUwiAz2+ac/eyWyNkYrSdwSEAIBgf5r+LgYwJrlnLf1Hz5NWJs2CjKLKeZTrCJxvUthsqVShryC3M41IpFI9ef42LCA4rG1X/s3KqhW5Vp8WrzM2j8eecQLud72sDwVe+sHoKM7nZDPIg/ceo/UBbRLGo/WJD+KTLIZWYCKeA0OqGidigaftHtJ5Agta+8a/7YpAKF/ignHrp6wfj9u+7guSb0eu+MQ0+rO12MxcgAKSZQwk5TH+WKBkDhnx6VL1Of3iOl4T/5Fun0UTjWZ8x6456/qWxbHZ4sTPVdrZs3NHrscMKxY89ohPW+M/gDlPshk5cV6mvyC44PfNZ0vSymefI8b+6+7xtl8TI/VIUR+QAG4yuJi1BrQ63w4LQWJyXTsupwsayrNzJWAV0W/AZzA8mzM62kic8met6sPrn0zn6Z3P7WSwMObAZRwAihaKAuQx/2kOkqTMIcbNr1LUfgG+Mvn27TqS2e/a+aVu2GpE3ubZzyvmJubucw0691YEJlblUYvM+TtvPyQ== john@muopia.com
     palmer:
       uid: 1125
       gid: 1125
