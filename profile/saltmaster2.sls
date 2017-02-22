@@ -26,10 +26,10 @@ sfsalt:
     formula:
       apache-formula:
         origin: https://github.com/saltstack-formulas/apache-formula.git
-        hash: bf66e74
+        rev: bf66e74
       bind-formula:
         origin: https://github.com/saltstack-formulas/bind-formula.git
-        hash: 275140e
+        rev: 275140e
 
     nodegroups:
       login:
