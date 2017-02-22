@@ -11,17 +11,25 @@ states:
 ## Salt
 sfsalt:
   lookup:
-    saltdir: {{saltroot}}/salt
+    statedir: {{saltroot}}/state
     pillardir: {{saltroot}}/pillar
-    formuladir: {{saltroot}}/formulas
+    formuladir: {{saltroot}}/formula
 
   master:
     timeout: 15
     
-    formulas:
-      - apache-formula
-      - bind-formula
-      - salt-formula
+    state:
+      origin: git@github-salt-states:sifive/salt-states.git
+    pillar:
+      origin: git@github-salt-pillar:sifive/salt-pillar.git
+
+    formula:
+      apache-formula:
+        origin: https://github.com/saltstack-formulas/apache-formula.git
+        hash: bf66e74
+      bind-formula:
+        origin: https://github.com/saltstack-formulas/bind-formula.git
+        hash: 275140e
 
     nodegroups:
       login:
