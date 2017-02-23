@@ -17,7 +17,7 @@ sfsalt:
 
   master:
     timeout: 15
-    
+
     state:
       origin: git@github-salt-states:sifive/salt-states.git
     pillar:
@@ -68,6 +68,8 @@ sfsalt:
     ext_pillars:
       file_tree:
         root_dir: {{saltroot}}/pillar/file_tree
+      cmd_yaml: /usr/lib/sfsalt/pillar-pki
+      
 
 ## Salt master deploy keys
 ssh:
