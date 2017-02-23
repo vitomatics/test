@@ -15,6 +15,10 @@ sfsalt:
     pillardir: {{saltroot}}/pillar
     formuladir: {{saltroot}}/formula
 
+  peers:
+    - hal.internal.sifive.com
+    - viki.internal.sifive.com
+
   master:
     timeout: 15
 
@@ -68,7 +72,7 @@ sfsalt:
     ext_pillars:
       file_tree:
         root_dir: {{saltroot}}/pillar/file_tree
-      cmd_yaml: /usr/lib/sfsalt/pillar-pki
+      cmd_yaml: /usr/lib/sfsalt/pillar-pki %s
       
 
 ## Salt master deploy keys
