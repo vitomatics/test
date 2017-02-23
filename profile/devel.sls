@@ -126,6 +126,9 @@ pkgs:
     # Synopsys "mw"
     libxext6:i386: true
 
+    # Mentor calibredrv
+    libgstreamer0.10-0: true
+
 file:
   ln:
     # Needed by Synopsis core consultant
