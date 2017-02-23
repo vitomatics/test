@@ -1,6 +1,13 @@
 # "devel" is a profile that sets up packages needed for hardware
 # and software development
 
+states:
+  modules: true
+
+modules:
+  paths:
+    - /sifive/tools/Modules/default/sifive
+
 pkgs:
   apt:
     repos:
@@ -16,7 +23,6 @@ pkgs:
     libgcc1:i386: true
 
     openjdk-8-jdk: true
-    environment-modules: true
     tcl-tclreadline: true
 
     ## Miscellaneous
@@ -75,9 +81,6 @@ pkgs:
     {% endif %}
 
     sbt: true
-    # Modules
-    tcl8.5-dev: true
-    tk8.5-dev: true
     # Ruby
     libyaml-dev: true
     # Prometheus
