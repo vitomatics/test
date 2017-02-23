@@ -56,6 +56,7 @@ sfsalt:
   ext_pillars:
     file_tree:
       root_dir: {{ filetreedir}}
+    cmd_yaml: /usr/lib/sfsalt/pillar-pki
       
 
 
