@@ -50,6 +50,7 @@ base:
 
   'canal.internal.sifive.com':
     - subnet.sf-unix
+    - profile.mailserver
     - hosts.canal
 
   'dalek.internal.sifive.com':
