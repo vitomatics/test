@@ -1,5 +1,4 @@
-states:
-  openldap.master: true
+# Host pillar file for breencast
 
 network:
   interfaces:
