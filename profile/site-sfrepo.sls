@@ -1,5 +1,8 @@
 # Pillar config for the SiFive local repo
 
+include:
+  - secret.sfrepo
+
 {% set sfrepo = { } %}
 {% do sfrepo.update({'wwwdir' : '/srv/www/sfrepo'}) %}
 {% do sfrepo.update({'repodir' : '/srv/reprepro/sfrepo'}) %}

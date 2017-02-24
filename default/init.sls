@@ -1,6 +1,6 @@
 include:
   - default.{{ grains.os_family|lower }}
-  - default.secret
+  - secret.default
 
 states:
   file: true
