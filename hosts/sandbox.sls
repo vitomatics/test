@@ -13,6 +13,7 @@ sfsalt:
       - salt1.internal.sifive.com
     master_type: failover
     master_shuffle: false
+    retry_dns: 0
     hash_type: sha256
     confname: 99-sfsalt.conf
     clearconf:
