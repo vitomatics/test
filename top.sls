@@ -174,6 +174,7 @@ base:
 
   'hal.internal.sifive.com':
     - subnet.he-unix01
+    - profile.saltmaster2
     - hosts.hal
 
   'viki.internal.sifive.com':
