@@ -128,9 +128,15 @@ sfcert:
   ca:
     cn: ca.internal.sifive.com
 
+
 sfsalt:
   minion:
-    master: salt.internal.sifive.com
+    master:
+      - salt0.internal.sifive.com
+      - salt1.internal.sifive.com
+    master_type: failover
+    master_shuffle: false
+    retry_dns: 0
     hash_type: sha256
     confname: 99-sfsalt.conf
     clearconf:
