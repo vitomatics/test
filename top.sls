@@ -44,7 +44,6 @@ base:
 
   'gonarch.internal.sifive.com':
     - subnet.sf-unix
-    - profile.saltmaster
     - profile.backupclient
     - hosts.gonarch
 
@@ -174,12 +173,12 @@ base:
 
   'hal.internal.sifive.com':
     - subnet.he-unix01
-    - profile.saltmaster2
+    - profile.saltmaster
     - hosts.hal
 
   'viki.internal.sifive.com':
     - subnet.he-unix01
-    - profile.saltmaster2
+    - profile.saltmaster
     - hosts.viki
 
   'tardis.internal.sifive.com':
