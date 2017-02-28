@@ -143,4 +143,8 @@ sfsalt:
       - minion.d/99-sfpreseed.conf
       - minion.d/99-master-host.conf
       - minion.d/99-hash-type.conf
+      - minion.d/beacons.conf
+      - minion.d/engine.conf
+      - minion.d/reactor.conf
+      - minond.d/f_defaults.conf
 
