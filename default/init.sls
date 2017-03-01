@@ -16,7 +16,6 @@ states:
   ssh.client: true
   sudo: true
   opensmtpd: true
-  chrony: true
   sfsalt.minion: true
 
 network:

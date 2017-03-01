@@ -8,6 +8,7 @@ states:
   pkgs.apt: true
   boot.grub: true
   icsisnap: true
+  chrony: true
 
 nss:
   group:
