@@ -20,7 +20,7 @@ sfsalt:
     - viki.internal.sifive.com
 
   master:
-    timeout: 15
+    timeout: 30
 
     state:
       origin: git@github-salt-states:sifive/salt-states.git
