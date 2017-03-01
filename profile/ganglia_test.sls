@@ -1,5 +1,8 @@
 ## Test ganglia profile
 
+states:
+  ganglia: true
+
 ganglia:
   debug_level: 0
   cluster_name: sifive
