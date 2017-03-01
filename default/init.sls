@@ -134,10 +134,13 @@ sfsalt:
     master:
       - salt0.internal.sifive.com
       - salt1.internal.sifive.com
-    master_type: failover
-    master_shuffle: false
-    retry_dns: 0
-    hash_type: sha256
+    master_type: 'failover'
+    master_shuffle: 'false'
+    master_alive_interval: '30'
+    master_failback: 'true'
+    master_failback_interval: '86400'
+    retry_dns: '0'
+    hash_type: 'sha256'
     confname: 99-sfsalt.conf
     clearconf:
       - minion.d/99-sfpreseed.conf
