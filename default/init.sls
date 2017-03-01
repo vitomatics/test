@@ -136,9 +136,12 @@ sfsalt:
       - salt1.internal.sifive.com
     master_type: 'failover'
     master_shuffle: 'false'
-    master_alive_interval: '30'
-    master_failback: 'true'
-    master_failback_interval: '86400'
+    # This is longer than a VM reboot
+    master_alive_interval: '60'
+    # Failback might cause issues if we are doing real work on the other
+    # salt master.
+    master_failback: 'false'
+    master_failback_interval: '0'
     retry_dns: '0'
     hash_type: 'sha256'
     confname: 99-sfsalt.conf
