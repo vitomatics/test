@@ -1,7 +1,7 @@
 ## Test ganglia profile
 
 states:
-  ganglia: true
+  ganglia.monitor: true
 
 ganglia:
   debug_level: 0
