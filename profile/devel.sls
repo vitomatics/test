@@ -3,7 +3,6 @@
 
 states:
   modules: true
-  pkgs: true
 
 modules:
   paths:
