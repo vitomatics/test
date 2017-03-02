@@ -161,7 +161,8 @@ base:
     - subnet.he-unix01
     - profile.devel
     - profile.clusterclient
-    - profile.ganglia_test
+    - profile.ganglia_node
+    - profile.ganglia_server
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
