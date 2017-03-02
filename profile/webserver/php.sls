@@ -11,4 +11,4 @@ states:
 apache:
   modules:
     enabled:
-      - php
+      - php7.0
