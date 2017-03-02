@@ -5,7 +5,7 @@ states:
 
 ganglia:
   debug_level: 0
-  cluster_name: sifive_server
+  cluster_name: sifive_compute
   cluster_owner: help@sifive.com
   host_location: HE
 
