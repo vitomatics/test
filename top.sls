@@ -162,7 +162,7 @@ base:
     - subnet.he-unix01
     - profile.devel
     - profile.clusterclient
-    - profile.ganglia-node
+    - profile.ganglia-node-server
     - profile.ganglia-server
     - profile.webserver.php
     - profile.site-gweb

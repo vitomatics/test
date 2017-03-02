@@ -1,11 +1,11 @@
-## Ganglia profile for a monitored node
+## Ganglia profile for a monitored server node
 
 states:
   ganglia.monitor: true
 
 ganglia:
   debug_level: 0
-  cluster_name: sifive
+  cluster_name: sifive_server
   cluster_owner: help@sifive.com
   host_location: HE
 
