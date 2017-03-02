@@ -1,7 +1,10 @@
 # A website for serving ganglia content
 
 {% set site = 'gweb' %}
-{% set sitedir = '/srv/www/' + site %}
+
+{# This is a hack and only works for Debian-ish but no way to get this info #}
+{# from the module #}
+{% set sitedir = '/usr/share/ganglia-webfrontend' %}
 
 states:
   apache.vhosts.standard: true
@@ -9,7 +12,7 @@ states:
 
 apache:
   sites:
-    gweb:
+    {{site}}:
       enabled: True
       ServerName: sandbox.internal.sifive.com
       ServerAdmin: help@sifive.com
@@ -17,5 +20,5 @@ apache:
       Directory:
         {{ sitedir }}:
           Require: ip 10.14.0.0/16
-          AllowOverride: None
+          AllowOverride: All
       
