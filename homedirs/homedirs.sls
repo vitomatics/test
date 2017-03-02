@@ -122,6 +122,8 @@ homedirs:
     palmer:
       uid: 1125
       gid: 1125
+      authorized_keys:
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDHZtDvPOg4MyKNtWWdpkO8vmvHWN7L3UCuAntr02v3WsctuVN8iUBU33cRKWVL0itQoJXSz6cQ18nXzl7FhU0hX85XQSHd1oK9ytkHgxDBZkiLfFItbyC97o7ItT8fxostn9S2u1v0g+BZXNN3LsG2cyvJf29zxB9MFvWKNgwgvOV87O5nWUlGwuOj6NfSR7J7i8nDmXvMqX28RwAMzcLTYoLmpFBhux8uKiXqGrh1oQYAu85Z9VjDKXbGg0SVqhGcrYm8MmPANvvJ5frLejYjwHovWjO9qvjX4pRSfDBPfQuLE5AV+rK5vTG2ySV9flw9o27ijrwIK8+z/3/KmZcx8CWpm6PrZE7rh+6FStEBgO83/uwkg3bc+aaJXsCrWLW6jLDIKaXoIkPjbliz7N60wcyPn5e+DTnEvBavNNWYZdEWQ08xg5G8UldxQgOXPyxL0L7TfHjiLHorboJLF6OmENFD971a6WGDeLtVp9p6YuRIuk/SJHlBqRkir9qLic9YFcZohLu/Au1XzGKLHb8bEbmHPIDb+oxzN8ClM7PLvNyOUUdDHtulY/adDnjWVkzPcyr7lU6n+BMcUzMJwUH+kv/iaPDB94sOY/s0yVC4cVlXDvLc1KEH4L/4CJ5rdSRRLbuPlniBxuuquc1HCJbtTPryO88uAqdKW37xyRww/Q== palmer@palmer-mbp2014
     renxin:
       uid: 1126
       gid: 1126
