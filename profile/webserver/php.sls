@@ -5,8 +5,7 @@ include:
   - profile.webserver
 
 states:
-  php: true
-  apache.modules: true
+  mod_php: true
 
 apache:
   modules:
