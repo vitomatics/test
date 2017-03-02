@@ -24,3 +24,10 @@ ganglia:
         hosts:
           - sandbox.internal.sifive.com:8649
 
+firewall:
+  ports:
+  tcp:
+    8649: 10.0.0.0/8
+  udp:
+    8649: 10.0.0.0/8
+
