@@ -163,6 +163,7 @@ base:
     - profile.clusterclient
     - profile.ganglia_node
     - profile.ganglia_server
+    - profile.webserver.php
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
