@@ -14,6 +14,11 @@ ganglia:
       mcast_join: 239.2.11.71
       port: 8649
       ttl: 1
+  udp_recv_channels:
+    receiving_channel:
+      mcast_join: 239.2.11.71
+      bind: 239.2.11.71
+      port: 8649
   tcp_accept_channels:
     data_channel:
       port: 8649
