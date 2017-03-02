@@ -164,6 +164,7 @@ base:
     - profile.ganglia_node
     - profile.ganglia_server
     - profile.webserver.php
+    - profule.site-gweb.sls
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
