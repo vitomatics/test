@@ -6,6 +6,7 @@ include:
 
 states:
   php: true
+  apache.modules: true
 
 apache:
   modules:
