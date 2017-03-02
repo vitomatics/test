@@ -161,8 +161,8 @@ base:
     - subnet.he-unix01
     - profile.devel
     - profile.clusterclient
-    - profile.ganglia_node
-    - profile.ganglia_server
+    - profile.ganglia-node
+    - profile.ganglia-server
     - profile.webserver.php
     - profile.site-gweb
     - hosts.sandbox
