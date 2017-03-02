@@ -136,6 +136,7 @@ base:
     - subnet.he-dhcp
     - profile.devel
     - profile.clusterclient
+    - profile.ganglia-node-compute
     - hosts.gamma
 
   'i0.internal.sifive.com':
