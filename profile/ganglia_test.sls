@@ -40,7 +40,7 @@ ganglia:
     carbon_protocol: udp
     graphite_path: '"datacenter1.gmetad.%s.%h.%m"'
     data_sources:
-      cluster1:
+      "sifive cluster":
         interval: 10
         hosts:
           - logger.example.com:8649
