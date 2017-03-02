@@ -9,6 +9,11 @@ ganglia:
   cluster_owner: help@sifive.com
   host_location: HE
 
+  udp_send_channels:
+    sending_channel:
+      mcast_join: 239.2.11.71
+      port: 8649
+      ttl: 1
   udp_recv_channels:
     receiving_channel:
       mcast_join: 239.2.11.71
