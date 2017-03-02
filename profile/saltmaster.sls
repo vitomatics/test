@@ -34,7 +34,11 @@ sfsalt:
       bind-formula:
         origin: https://github.com/saltstack-formulas/bind-formula.git
         rev: 275140e
+      php-formula:
+        origin: https://github.com/saltstack-formulas/php-formula.git
+        rev: ee6ae4f
 
+        
     nodegroups:
       login:
         - algol.internal.sifive.com
