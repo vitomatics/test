@@ -10,13 +10,17 @@ ganglia:
 
   host_location: HE
 
-  udp_channels:
+  udp_send_channels:
     chan1:
-      address: 239.2.11.71
+      mcast_join: 239.2.11.71
       port: 8649
       ttl: 1
-      receive: true
-  tcp_channels:
+  udp_recv_channels:
     chan1:
+      mcast_join: 239.2.11.71
+      bind: 239.2.11.71
+      port: 8649
+  tcp_accept_channels:
+    chan2:
       port: 8649
   
