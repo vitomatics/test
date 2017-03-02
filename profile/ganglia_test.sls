@@ -31,6 +31,7 @@ ganglia:
     authority: http://grid.example.com
     trusted_hosts:
       - 1.2.3.4
+      - 5.6.7.8
     umask: '022'
     xml_port: 8651
     interactive_port: 8652
@@ -38,7 +39,7 @@ ganglia:
     carbon_server: carbon.example.com
     carbon_port: 2003
     carbon_protocol: udp
-    graphite_path: '"datacenter1.gmetad.%s.%h.%m"'
+    graphite_path: 'datacenter1.gmetad.%s.%h.%m'
     data_sources:
       "sifive cluster":
         interval: 10
