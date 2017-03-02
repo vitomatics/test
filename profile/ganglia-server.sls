@@ -6,7 +6,7 @@ states:
 ganglia:
   gmetad:
     debug_level: 0
-    gridname: SiFive Grid
+    gridname: SiFive
     authority: http://ganglia.internal.sifive.com
     trusted_hosts:
       - 127.0.0.1
