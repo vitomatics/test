@@ -117,6 +117,7 @@ ssh:
 
 managedby:
   sh: "#               *** Managed by SiFive salt ***"
+  c: "              /*** Managed by SiFive salt ***/"
 
 # Stuff for certificates
 sfcert:
