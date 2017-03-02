@@ -22,7 +22,7 @@ ganglia:
       "SiFive Cluster":
         interval: 10
         hosts:
-          - gamma07.internal.sifive.com:8649
+          - sandbox.internal.sifive.com:8649
 
 firewall:
   ports:
