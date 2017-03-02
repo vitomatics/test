@@ -27,12 +27,12 @@ pkgs:
 
     ## Miscellaneous
     tcsh: true
-    # needed by Cadence PVS
-    ksh: true
     finger: true
     unzip: true
     tree: true
     parallel: true
+    # needed by Cadence PVS
+    ksh: true
 
     libtool: true
     libusb-1.0-0-dev: true
@@ -62,6 +62,7 @@ pkgs:
     rcs: true
     # Used by emacs but not a dependency
     gnome-icon-theme: true
+    xsltproc: true
 
     ## Building riscv-tools
     build-essential: true
