@@ -6,3 +6,8 @@ include:
 
 states:
   php: true
+
+apache:
+  modules:
+    enabled:
+      - php
