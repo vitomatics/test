@@ -133,6 +133,9 @@ pkgs:
     # Mentor calibredrv
     libgstreamer0.10-0: true
 
+    # Linux kernel development
+    device-tree-compiler: true
+
   listurl:
     libxp6: http://sfimages.internal.sifive.com/Ubuntu/trusty/amd64/libxp6_1.0.2-1ubuntu1_amd64.deb
 
