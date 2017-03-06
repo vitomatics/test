@@ -23,8 +23,6 @@ ganglia:
         interval: 10
         hosts:
           - gamma00.internal.sifive.com:8649
-          - gamma03.internal.sifive.com:8649
-          - gamma07.internal.sifive.com:8649
 
 {##############
 firewall:
