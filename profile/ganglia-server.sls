@@ -1,7 +1,10 @@
 ## Ganglia profile for a monitoring server
+## This explicitly monitors the sifive_compute multicast cluster
+## and the sifive_server unicaster cluster
 
 states:
   ganglia.gmetad: true
+  ganglia.monitor: true
 
 ganglia:
   gmetad:

@@ -5,16 +5,14 @@ states:
 
 ganglia:
   debug_level: 0
-  cluster_name: sifive_compute
+  cluster_name: sifive_server
   cluster_owner: help@sifive.com
-  host_location: HE
+  host_location: HE and SF
 
-  udp_recv_channels:
-    receiving_channel:
-      mcast_join: 239.2.11.71
-      bind: 239.2.11.71
-      port: 8649
-  tcp_accept_channels:
-    data_channel:
-      port: 8649
-  
+  udp_send_channesl:
+    server_channel1:
+      host: gmon0.internal.sifive.com
+      port: 8650
+    server_channel2:
+      host: gmon1.internal.sifive.com
+      port: 8650
