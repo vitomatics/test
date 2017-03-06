@@ -7,7 +7,7 @@ ganglia:
   gmetad:
     debug_level: 0
     gridname: SiFive
-    authority: http://ganglia.internal.sifive.com
+    authority: http://gweb.internal.sifive.com
     trusted_hosts:
       - 127.0.0.1
     umask: '022'
@@ -19,11 +19,14 @@ ganglia:
 #    carbon_protocol: udp
 #    graphite_path: 'datacenter1.gmetad.%s.%h.%m'
     data_sources:
-      "SiFive Cluster":
+      sifive_compute:
         interval: 10
         hosts:
-          - sandbox.internal.sifive.com:8649
+          - gamma00.internal.sifive.com:8649
+          - gamma03.internal.sifive.com:8649
+          - gamma07.internal.sifive.com:8649
 
+{##############
 firewall:
   ports:
     tcp:
@@ -31,3 +34,4 @@ firewall:
     udp:
       8649: 10.0.0.0/8
 
+##############}
