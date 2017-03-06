@@ -15,6 +15,8 @@ include:
   - vms.viki
   - vms.vulcan
   - vms.gravelpit
+  - vms.grid
+  - vms.matrix
   
 sfvirt:
   dists:
