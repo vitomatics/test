@@ -35,11 +35,9 @@ network:
       ports:
         - eno1.101
 
-{########
 libvirt:
   bridges:
     - br0
-######}
 
 disksetup:
   vgs:
