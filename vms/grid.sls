@@ -2,7 +2,7 @@
 
 sfvirt:
   vms:
-    altair:
+    grid:
       type: libvirt
       vmhost: marvin.internal.sifive.com
       vcpus: 2

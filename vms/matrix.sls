@@ -2,7 +2,7 @@
 
 sfvirt:
   vms:
-    altair:
+    matrix:
       type: libvirt
       vmhost: eddie.internal.sifive.com
       vcpus: 2
