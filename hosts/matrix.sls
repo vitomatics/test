@@ -1,6 +1,5 @@
 ## pillar file for matrix
 
-states:
 
 # network - static - serveral services
 network:

@@ -1,7 +1,5 @@
 ## pillar file for grid
 
-states:
-
 # network - static - serveral services
 network:
   interfaces:
