@@ -9,7 +9,7 @@ ganglia:
   cluster_owner: help@sifive.com
   host_location: HE and SF
 
-  udp_send_channesl:
+  udp_send_channels:
     server_channel1:
       host: gmon0.internal.sifive.com
       port: 8650
