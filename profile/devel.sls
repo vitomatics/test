@@ -108,6 +108,9 @@ pkgs:
     virtualenv: true
     python-pip: true
     python-pexpect: true
+    python-sympy: true
+    python3-sympy: true
+    python-sympy-doc: true
 
     ## general development
     libncurses5-dev: true
