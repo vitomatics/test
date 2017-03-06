@@ -14,7 +14,7 @@ apache:
   sites:
     {{site}}:
       enabled: True
-      ServerName: sandbox.internal.sifive.com
+      ServerName: gweb.internal.sifive.com
       ServerAdmin: help@sifive.com
       DocumentRoot: {{ sitedir }}
       Directory:
