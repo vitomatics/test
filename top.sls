@@ -163,9 +163,6 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.ganglia-node-server
-    - profile.ganglia-server
-    - profile.webserver.php
-    - profile.site-gweb
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
@@ -194,8 +191,14 @@ base:
 
   'grid.internal.sifive.com':
     - subnet.sf-unix
+    - profile.ganglia-server
+    - profile.webserver.php
+    - profile.site-gweb
     - hosts.grid
 
   'matrix.internal.sifive.com':
     - subnet.sf-unix
+    - profile.ganglia-server
+    - profile.webserver.php
+    - profile.site-gweb
     - hosts.matrix
