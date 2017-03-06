@@ -191,3 +191,11 @@ base:
     - profile.devel
     - profile.clustermaster
     - hosts.tardis
+
+  'grid.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.grid
+
+  'matrix.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.matrix

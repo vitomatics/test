@@ -274,6 +274,13 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
+        grid:
+          ipaddress: 10.14.16.75
+          subnet: he1-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk
         hal:
           ipaddress: 10.14.16.40
           subnet: he1-static
@@ -330,6 +337,13 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: server_ssd_disk
+        matrix:
+          ipaddress: 10.14.16.76
+          subnet: he1-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk
         nuc1:
           subnet: sf-dynamic
           diskname: /dev/sda
