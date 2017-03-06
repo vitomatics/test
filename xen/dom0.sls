@@ -5,17 +5,6 @@ states:
 xen:
   bridge: xenbr0
   domu:
-    borderworld:
-      mem: 2048
-      vcpu: 2
-      disk: /dev/vg_combine/domu-borderworld
-      mac: '00:16:3e:69:77:0b'
-      pci:
-        - '05:00.0'
-    citadel:
-      mem: 16384
-      disk: /dev/vg_combine/domu-citadel
-      mac: '00:16:3e:5c:50:48'
     nihilanth:
       vcpu: 2
       disk: /dev/vg_combine/domu-nihilanth
