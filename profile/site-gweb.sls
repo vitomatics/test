@@ -15,6 +15,7 @@ apache:
     {{site}}:
       enabled: True
       ServerName: gweb.internal.sifive.com
+      ServerAlias: gweb0.internal.sifive.com gweb1.internal.sifive.com
       ServerAdmin: help@sifive.com
       DocumentRoot: {{ sitedir }}
       Directory:
