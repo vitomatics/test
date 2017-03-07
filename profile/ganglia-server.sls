@@ -12,7 +12,7 @@ ganglia:
   debug_level: 0
   cluster_name: sifive_server
   cluster_owner: help@sifive.com
-  host_location: HE
+  host_location: HE and SF
 
   udp_recv_channels:
     receiving_channel:
