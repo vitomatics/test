@@ -1,5 +1,10 @@
 ## pillar file for matrix
 
+# Enabled firewalling.
+
+states:
+  firewall.iptables: true
+
 
 # network - static - serveral services
 network:

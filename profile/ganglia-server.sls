@@ -48,12 +48,9 @@ ganglia:
           - gmon0.internal.sifive.com:8650
           - gmon1.internal.sifive.com:8650
 
-{##############
 firewall:
   ports:
-    tcp:
-      8649: 10.0.0.0/8
     udp:
-      8649: 10.0.0.0/8
-
-##############}
+      8649: 10.14.0.0/16
+    tcp:
+      8649: 10.14.16.75 10.14.16.76
