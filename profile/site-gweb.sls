@@ -23,3 +23,8 @@ apache:
           Require: ip 10.14.0.0/16
           AllowOverride: All
       
+ganglia:
+  webfrontend:
+    rrds: /srv/ganglia/rrds
+    ganglia_ip: 127.0.0.1
+    ganglia_port: 8652
