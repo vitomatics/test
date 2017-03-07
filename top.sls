@@ -104,18 +104,21 @@ base:
     - subnet.he-unix01
     - profile.vmhost
     - vms
+    - profile.ganglia-node-server
     - hosts.eddie
 
   'marvin.internal.sifive.com':
     - subnet.he-unix01
     - profile.vmhost
     - vms
+    - profile.ganglia-node-server
     - hosts.marvin
 
   'bender.internal.sifive.com':
     - subnet.sf-unix
     - profile.vmhost
     - vms
+    - profile.ganglia-node-server
     - hosts.bender
 
   'omega1.internal.sifive.com':
@@ -126,6 +129,7 @@ base:
   'heartofgold.internal.sifive.com':
     - subnet.he-unix01
     - profile.backupserver
+    - profile.ganglia-node-server
     - hosts.heartofgold
 
   'combine.sifive.com':
@@ -176,17 +180,20 @@ base:
   'hal.internal.sifive.com':
     - subnet.he-unix01
     - profile.saltmaster
+    - profile.ganglia-node-server
     - hosts.hal
 
   'viki.internal.sifive.com':
     - subnet.he-unix01
     - profile.saltmaster
+    - profile.ganglia-node-server
     - hosts.viki
 
   'tardis.internal.sifive.com':
     - subnet.he-unix01
     - profile.devel
     - profile.clustermaster
+    - profile.ganglia-node-server
     - hosts.tardis
 
   'grid.internal.sifive.com':
