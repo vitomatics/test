@@ -22,4 +22,10 @@ ganglia:
   tcp_accept_channels:
     data_channel:
       port: 8649
-  
+
+firewall:
+  ports:
+    tcp:
+      8649: 10.14.16.75 10.14.16.76
+    udp:
+      8649: 10.14.16.0/20
