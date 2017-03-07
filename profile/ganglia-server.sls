@@ -7,6 +7,21 @@ states:
   ganglia.monitor: true
 
 ganglia:
+
+  ## First the gmond for the server monitoring
+  debug_level: 0
+  cluster_name: sifive_server
+  cluster_owner: help@sifive.com
+  host_location: HE
+
+  udp_recv_channels:
+    receiving_channel:
+      port: 8650
+  tcp_accept_channels:
+    data_channel:
+      port: 8650
+
+  ## Now the gmetad for both server and compute monitoring
   gmetad:
     debug_level: 0
     gridname: SiFive
@@ -26,6 +41,11 @@ ganglia:
         interval: 10
         hosts:
           - gamma00.internal.sifive.com:8649
+      sifive_server:
+        interval: 10
+        hosts:
+          - gmon0.internal.sifive.com:8650
+          - gmon1.internal.sifive.com:8650
 
 {##############
 firewall:
