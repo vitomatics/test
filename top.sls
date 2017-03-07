@@ -82,6 +82,7 @@ base:
     - profile.clusterclient
     - profile.login
     - profile.nomachine-eval
+    - profile.ganglia-node-server
     - hosts.algol
 
   'altair.internal.sifive.com':
@@ -90,6 +91,7 @@ base:
     - profile.clusterclient
     - profile.login
     - profile.nomachine-licensed
+    - profile.ganglia-node-server
     - hosts.altair
 
   'betel.internal.sifive.com':
@@ -98,6 +100,7 @@ base:
     - profile.clusterclient
     - profile.login
     - profile.x2go
+    - profile.ganglia-node-server
     - hosts.betel
 
   'eddie.internal.sifive.com':
@@ -124,6 +127,7 @@ base:
   'omega1.internal.sifive.com':
     - subnet.sf-unix
     - profile.backupserver
+    - profile.ganglia-node-server
     - hosts.omega1
 
   'heartofgold.internal.sifive.com':
@@ -156,10 +160,12 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.labhost
+    - profile.ganglia-node-server
     - hosts.b0
 
   'jenkins.internal.sifive.com':
     - subnet.sf-unix
+    - profile.ganglia-node-server
     - hosts.jenkins
 
   'sandbox.internal.sifive.com':
