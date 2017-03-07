@@ -6,7 +6,17 @@ states:
   ganglia.gmetad: true
   ganglia.monitor: true
 
+file:
+  mkdir:
+    /srv/ganglia:
+      user: ganglia
+      group: ganglia
+      mode: '0755'
+
 ganglia:
+
+  lookup:
+    user: ganglia
 
   ## First the gmond for the server monitoring
   debug_level: 0
@@ -29,6 +39,7 @@ ganglia:
     trusted_hosts:
       - 127.0.0.1
     umask: '022'
+    rrd_rootdir: /srv/ganglia/rrds
     xml_port: 8651
     interactive_port: 8652
     server_threads: 4
