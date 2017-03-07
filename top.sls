@@ -12,6 +12,7 @@ base:
     - profile.nameserver-semicaching
     - profile.timeserver
     - profile.dhcpserver-he-primary
+    - profile.ganglia-node-server
     - hosts.leia
 
   'luke.internal.sifive.com':
@@ -19,6 +20,7 @@ base:
     - profile.nameserver-semicaching
     - profile.timeserver
     - profile.dhcpserver-he-secondary
+    - profile.ganglia-node-server
     - hosts.luke
 
   'hansolo.internal.sifive.com':
@@ -26,6 +28,7 @@ base:
     - profile.nameserver-semicaching
     - profile.timeserver
     - profile.dhcpserver-sf
+    - profile.ganglia-node-server
     - hosts.hansolo
 
   'breencast.internal.sifive.com':
@@ -62,6 +65,7 @@ base:
     - profile.site-install
     - profile.preseed-ubuntu
     - profile.backupclient
+    - profile.ganglia-node-server
     - hosts.dalek
 
   'vulcan.internal.sifive.com':
@@ -207,6 +211,7 @@ base:
     - profile.ganglia-server
     - profile.webserver.php
     - profile.site-gweb
+    - profile.ganglia-node-server
     - hosts.grid
 
   'matrix.internal.sifive.com':
@@ -214,4 +219,5 @@ base:
     - profile.ganglia-server
     - profile.webserver.php
     - profile.site-gweb
+    - profile.ganglia-node-server
     - hosts.matrix
