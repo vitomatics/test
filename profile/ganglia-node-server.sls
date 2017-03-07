@@ -13,6 +13,8 @@ ganglia:
     server_channel1:
       host: gmon0.internal.sifive.com
       port: 8650
+      ttl: 5
     server_channel2:
       host: gmon1.internal.sifive.com
       port: 8650
+      ttl: 5
