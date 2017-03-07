@@ -53,6 +53,7 @@ base:
   'canal.internal.sifive.com':
     - subnet.sf-unix
     - profile.mailserver
+    - profile.ganglia-node-server
     - hosts.canal
 
   'dalek.internal.sifive.com':
@@ -72,12 +73,14 @@ base:
     - subnet.he-unix01
     - profile.gocd-server
     - profile.backupclient
+    - profile.ganglia-node-server
     - hosts.vulcan
 
   'klingon.internal.sifive.com':
     - subnet.he-unix01
     - profile.webserver
     - profile.site-coverage
+    - profile.ganglia-node-server
     - hosts.klingon
 
   'algol.internal.sifive.com':
