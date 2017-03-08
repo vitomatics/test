@@ -46,6 +46,7 @@ pkgs:
     {% elif grains.os == 'Ubuntu' %}
     chromium-browser: true
     firefox: true
+    icedtea-8-plugin: true
     {% endif %}
 
     emacs-nox: false
