@@ -16,5 +16,6 @@ slurm:
       ThreadsPerCore: 2
   partitions:
     test:
+      Default: yes
       nodes:
         - sandbox
