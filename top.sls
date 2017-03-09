@@ -180,7 +180,9 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.ganglia-node-server
+    - profile.slurm-client
     - profile.slurm-node
+    - profile.slurm-server
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':

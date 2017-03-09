@@ -1,13 +1,11 @@
 ## SLURM resource manager clientmachines
 
 include:
-  - secret.munge
   - profile.slurm-client
 
 states:
   slurm.node: true
 
-# Note slurm:MungeKey64 is in a secret file
 slurm:
   nodes:
     sandbox:
