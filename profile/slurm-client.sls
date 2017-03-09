@@ -4,7 +4,7 @@ include:
   - secret.munge
 
 states:
-  slurm: true
+  slurm.client: true
 
 # Note slurm:MungeKey64 is in a secret file
 slurm:
