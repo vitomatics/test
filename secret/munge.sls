@@ -4,8 +4,8 @@
 ##
 ## *** SOME OF THIS IS GPG ENCRYPTED ***
 
-munge:
-  key64: |
+slurm:
+  MungeKey64: |
     MqHMmV2yuM9OsCBs68jHY67TH+yaRwTTO5XKgWMPfSZY5r8arFw7MLihV8UygWVXUGJITIZZsWtk
     sIrTxbgq/uQMleoUuJe9D2mKhKZdApS5YcnXC9hzrLNmQnHlkIUPQzXSdPABOtuUZmcOyiw4ZAkm
     6/RyW+Awx5z48eo/fn1SVt5FLzzU2s/adP1xabHlW/hn8IEsHONnYRbIbBNPLCzLVZS/sKTw7Uk0
