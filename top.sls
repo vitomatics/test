@@ -183,6 +183,7 @@ base:
     - profile.slurm-client
     - profile.slurm-node
     - profile.slurm-server
+    - profile.slurm-dbd
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
