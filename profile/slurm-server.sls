@@ -7,5 +7,5 @@ states:
   slurm.server: true
 
 slurm:
-  AccountingStorageLoc: /var/log/slurm-llnl/slurm-account.log
+  AccountingStorageLoc: /var/log/slurm-llnl/slurm_accounting.dat
 
