@@ -1,5 +1,8 @@
 ## SLURM resource manager clientmachines
 
+include:
+  - secret.munge
+
 states:
   slurm: true
 
