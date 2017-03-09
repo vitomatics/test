@@ -10,7 +10,7 @@ states:
 slurm:
   ClusterName: sifive_compute
   ControlMachine: grid
-  ControlAddr: grid.internal.sifive.com
-  AccountingStorageHost: grid.internal.sifive.com
+  ControlAddr: sandbox.internal.sifive.com
+  AccountingStorageHost: sandbox.internal.sifive.com
   AccountingStorageUser: slurm
   
