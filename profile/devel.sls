@@ -58,6 +58,7 @@ pkgs:
     joe: true
     gedit: true
     evince: true
+    filezilla: true
     dbus-x11: true
     gitk: true
     rcs: true
