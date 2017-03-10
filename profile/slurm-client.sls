@@ -13,4 +13,9 @@ slurm:
   ControlAddr: sandbox.internal.sifive.com
   AccountingStorageHost: sandbox.internal.sifive.com
   AccountingStorageUser: slurm
-  
+
+pkgs:
+  llist:
+    libslurmdb-dev: true
+    libslurm-dev: true
+    libslrum-perl: true

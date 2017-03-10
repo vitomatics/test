@@ -11,3 +11,7 @@ slurmdbd:
   StorageUser: slurm
   StoragePass: asdf1234
 
+pkgs:
+  list:
+    libslurmdb-perl: true
+    
