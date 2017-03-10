@@ -13,3 +13,10 @@ mysql:
     mysqld:
       datadir: /srv/mysql
       
+
+file:
+  mkdir:
+    /srv/mysql:
+      user: mysql
+      group: mysql
+      mode: '0700'
