@@ -42,6 +42,7 @@ sfsalt:
         rev: 73c43ad
       slurm-formula:
         origin: git@github-salt-pillar:sifive/slurm-formula.git
+        rev: debian-port
 
         
     nodegroups:
