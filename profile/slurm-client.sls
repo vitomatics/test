@@ -5,6 +5,7 @@ include:
 
 states:
   slurm.client: true
+  slurm.devel: true
 
 # Note slurm:MungeKey64 is in a secret file
 slurm:
@@ -18,8 +19,3 @@ slurm:
   CryptoType: munge
   
 
-pkgs:
-  llist:
-    libslurmdb-dev: true
-    libslurm-dev: true
-    libslrum-perl: true
