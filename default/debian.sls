@@ -9,6 +9,7 @@ states:
   boot.grub: true
   icsisnap: true
   chrony: true
+  policyrc: true
 
 nss:
   group:

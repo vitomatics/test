@@ -6,6 +6,9 @@ include:
 states:
   slurm.server: true
 
+policyrc:
+  slurmctld: false
+
 slurm:
   SchedulerType: backfill
   SelectType: cons_res

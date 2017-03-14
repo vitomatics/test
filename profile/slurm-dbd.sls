@@ -6,6 +6,9 @@ include:
 states:
   slurm.slurmdbd: true
 
+policyrc:
+  slurmdbd: false
+
 slurmdbd:
   AuthType: munge
   StorageUser: slurm

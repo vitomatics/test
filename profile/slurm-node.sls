@@ -6,6 +6,9 @@ include:
 states:
   slurm.node: true
 
+policyrc:
+  slurmd: false
+
 slurm:
   nodes:
     sandbox:
