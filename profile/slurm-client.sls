@@ -11,11 +11,12 @@ slurm:
   ClusterName: sifive_compute
   ControlMachine: sandbox
   ControlAddr: sandbox.internal.sifive.com
-  AccountingStorageHost: sandbox.internal.sifive.com
-  AccountingStorageUser: slurm
 
+  SlurmctldPort: '6817'
+  SlurmdPort: '6818'
   AuthType: munge
   CryptoType: munge
+  
 
 pkgs:
   llist:
