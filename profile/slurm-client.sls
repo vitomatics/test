@@ -14,6 +14,9 @@ slurm:
   AccountingStorageHost: sandbox.internal.sifive.com
   AccountingStorageUser: slurm
 
+  AuthType: munge
+  CryptoType: munge
+
 pkgs:
   llist:
     libslurmdb-dev: true
