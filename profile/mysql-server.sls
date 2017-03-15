@@ -5,6 +5,11 @@ states:
   mysql: true
 
 
+apparmor:
+  usr.sbin.mysqld:
+    - '/srv/mysql/ r,'
+    - '/srv/mysql/** rwk,'
+  
 mysql:
   server:
     host: localhost
