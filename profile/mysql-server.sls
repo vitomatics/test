@@ -10,6 +10,7 @@ apparmor:
     - '/srv/mysql/ r,'
     - '/srv/mysql/** rwk,'
     - '@{PROC}/[0-9]*/status r,'
+    - '/sys/devices/system/node/ r,'
     - '/sys/devices/system/node/** r,'
     
 mysql:
