@@ -9,10 +9,15 @@ states:
 policyrc:
   slurmdbd: false
 
-slurmdbd:
-  AuthType: munge
-  StorageUser: slurm
-  StoragePass: asdf1234
+slurm:
+  db:
+    DbdHost: localhost
+    AuthType: munge
+    StorageType: mysql
+    StorageHost: localhost
+    StorageUser: slurm
+    StoragePass: asdf1234
+    StorageLoc: slurm_acct_db
 
 pkgs:
   list:
