@@ -4,7 +4,7 @@ include:
   - profile.slurm-client
 
 states:
-  slurm.slurmdbd: true
+  slurm.db: true
 
 policyrc:
   slurmdbd: false
