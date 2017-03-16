@@ -16,7 +16,7 @@ pkgs:
 {%- for name in repo_names -%}
 {% for suffix in repo_suffices -%}
 {% set suite = name + suffix -%}
-{% set id = suite + '_' + repo_abbrtype %}
+{% set id = suite + '-' + repo_abbrtype %}
       {{ id }}:
         types:
           - {{ repo_type }}
