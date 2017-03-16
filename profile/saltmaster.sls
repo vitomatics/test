@@ -38,8 +38,7 @@ sfsalt:
         origin: https://github.com/saltstack-formulas/php-formula.git
         rev: ee6ae4f
       mysql-formula:
-        origin: https://github.com/saltstack-formulas/mysql-formula.git
-        rev: 7ec43ad
+        origin: git@github-salt-pillar:sifive/mysql-formula.git
       slurm-formula:
         origin: git@github-salt-pillar:sifive/slurm-formula.git
 
