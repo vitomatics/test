@@ -18,6 +18,7 @@ slurm:
     StorageUser: slurm
     StoragePass: asdf1234
     StorageLoc: slurm_acct_db
+    DebugLevel: debug5
 
 pkgs:
   list:
