@@ -1,5 +1,8 @@
 ## Basic MySQL database server
 
+include:
+  - secret.mysql-root
+
 
 states:
   mysql: true
@@ -20,8 +23,6 @@ mysql:
   version: 5.7
   server:
     host: localhost
-    root_user: root
-    root_password: asdf1234
     mysqld:
       datadir: /srv/mysql
       
