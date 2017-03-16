@@ -15,8 +15,3 @@ slurm:
     DbdHost: localhost
     AuthType: munge
     StorageType: mysql
-
-pkgs:
-  list:
-    libslurmdb-perl: true
-    
