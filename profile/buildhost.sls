@@ -18,7 +18,8 @@ pkgs:
 {% set suite = name + suffix -%}
 {% set id = suite + '_' + repo_abbrtype %}
       {{ id }}:
-        type: {{ repo_type }}
+        types:
+          - {{ repo_type }}
         uri: {{ repo_uri }}
         suite: {{ name }}{{suffix}}
         comps: {{ repo_comps }}
