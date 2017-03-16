@@ -21,6 +21,8 @@ mysql:
         - localhost
         - 127.0.0.1
       password: {{ slurm_db_password }}
-      databases: {{ [ slurm_db_name ] }}
+      databases:
+        - database: {{ slurm_db_name }}
+        - grants: ['all privileges']
       grants: ALL
 
