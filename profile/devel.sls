@@ -19,7 +19,7 @@ pkgs:
         keyserver: keyserver.ubuntu.com
 
 # Source repos
-{% if grains.us == "Ubuntu" %}
+{% if grains.os == "Ubuntu" %}
 
 {% set repo_names = [ 'xenial' ]  %}
 {% set repo_uri = 'http://us.archive.ubuntu.com/ubuntu/' %}
