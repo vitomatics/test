@@ -1,4 +1,3 @@
-#!yaml|gpg
 ##
 ## Secret mysql data
 ##
