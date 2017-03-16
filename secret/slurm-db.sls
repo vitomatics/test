@@ -4,7 +4,7 @@
 ## *** SOME OF THIS IS GPG ENCRYPTED ***
 
 {% set slurm_db_user = 'slurm' %}
-{% set slurm_db_password = 'a788d73P' %}
+{% set slurm_db_password = 'padsf888' %}
 {% set slurm_db_name = 'slurm_acct_db' %}
 
 slurm:
