@@ -179,11 +179,10 @@ base:
     - subnet.he-unix01
     - profile.devel
     - profile.clusterclient
-    - profile.ganglia-node-server
     - profile.slurm-client
     - profile.slurm-node
     - profile.slurm-server
-    - profile.slurm-dbd
+    - profile.slurm-db
     - profile.mysql-server
     - hosts.sandbox
 
