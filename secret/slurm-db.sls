@@ -24,5 +24,5 @@ mysql:
       databases:
         - database: {{ slurm_db_name }}
           grants: ['all privileges']
-      grants: ALL
+      grants: ['all']
 

@@ -11,5 +11,3 @@ mysql:
     root_user: {{ mysql_root_user }}
     root_password: {{ mysql_root_password }}
 
-
-
