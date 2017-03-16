@@ -10,6 +10,7 @@ policyrc:
   slurmd: false
 
 slurm:
+  ProctrackType: linuxproc
   nodes:
     sandbox:
       CPUs: 2

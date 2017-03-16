@@ -12,7 +12,7 @@ policyrc:
 slurm:
   SchedulerType: backfill
   SelectType: cons_res
-  SchedulerTypeParameters: CR_CPU_Memory
+  SelectTypeParameters: CR_CPU_Memory
   DefMemPerCPU: 2000
 
   JobCompType: filetxt
