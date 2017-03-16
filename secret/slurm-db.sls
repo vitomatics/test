@@ -23,6 +23,6 @@ mysql:
       password: {{ slurm_db_password }}
       databases:
         - database: {{ slurm_db_name }}
-        - grants: ['all privileges']
+          grants: ['all privileges']
       grants: ALL
 
