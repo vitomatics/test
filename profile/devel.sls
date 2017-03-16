@@ -33,6 +33,8 @@ pkgs:
     parallel: true
     # needed by Cadence PVS
     ksh: true
+    fakeroot: true
+    devscripts: true
 
     libtool: true
     libusb-1.0-0-dev: true
