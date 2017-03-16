@@ -15,3 +15,4 @@ slurm:
     DbdHost: localhost
     AuthType: munge
     StorageType: mysql
+    DebugLevel: debug5
