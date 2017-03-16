@@ -16,7 +16,7 @@ slurm:
   DefMemPerCPU: 2000
 
   JobCompType: filetxt
-  JobCompLog: /var/log/slurm-llnl/jobcomp.log
+  JobCompLoc: /var/log/slurm-llnl/jobcomp.log
 
   JobAcctGatherType: cgroup
   AccountingStorageLoc: /var/log/slurm-llnl/accounting.dat
