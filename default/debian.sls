@@ -10,6 +10,7 @@ states:
   icsisnap: true
   chrony: true
   policyrc: true
+  rsyslog: true
 
 nss:
   group:
