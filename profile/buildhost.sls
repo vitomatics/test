@@ -9,22 +9,18 @@
 {% set repo_type = 'deb-src' %}
 {% set repo_abbrtype = 'src' %}
 
-{% for name in repo_names %}
-{% for suffix in repo_suffices %}
-{% set suite = name + suffix %}
-{% set id = suite + '-' + repo_abbrtype %}
-
-
 pkgs:
   apt:
     repos:
+
+{%- for name in repo_names -%}
+{% for suffix in repo_suffices -%}
+{% set suite = name + suffix -%}
+{% set id = suite + '-' + repo_abbrtype %}
       {{ id }}:
         type: {{ repo_type }}
         uri: {{ repo_uri }}
         suite: {{ name }}{{suffix}}
         comps: {{ repo_comps }}
-        
-
 {% endfor %}    {# iterating over repo suffices #}
-
 {% endfor %}    {# iterating over repo names #}
