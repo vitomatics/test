@@ -1,6 +1,6 @@
 #!yaml|gpg
 ##
-## Secret saltmaster data
+## Secret munge data
 ##
 ## *** SOME OF THIS IS GPG ENCRYPTED ***
 
