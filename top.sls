@@ -219,6 +219,7 @@ base:
     - profile.webserver.php
     - profile.site-gweb
     - profile.ganglia-node-server
+    - profile.backupclient
     - hosts.grid
 
   'matrix.internal.sifive.com':
