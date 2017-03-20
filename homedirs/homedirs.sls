@@ -130,4 +130,7 @@ homedirs:
     davidj2:
       uid: 1127
       gid: 1127
+    drew:
+      uid: 1128
+      gid: 1128
     
