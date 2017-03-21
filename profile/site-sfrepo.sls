@@ -35,13 +35,13 @@ aptly:
     - amd64
     - source
   repos:
-    sfrepo:
+    sifive:
       distributions:
-        - sifive-xenial
+        - xenial
       components:
         - main
       comment: "SiFive Xenila packages"
-      pkgdir: {{ sfrepo.pkgdir }}
+      pkgdir: {{ sfrepo.pkgdir }}/sifive
       remove_files: false
 
 
