@@ -184,6 +184,7 @@ base:
     - profile.slurm-server
     - profile.slurm-db
     - profile.mysql-server
+    - profile.site-sfrepo
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
