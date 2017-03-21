@@ -41,7 +41,7 @@ aptly:
       components:
         - main
       comment: "SiFive Xenila packages"
-      pkgdir: {{ sfrepo.pkgdir }}/sifive-xenial
+      pkgdir: {{ sfrepo.pkgdir }}
       remove_files: false
 
 
