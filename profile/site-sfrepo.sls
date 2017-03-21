@@ -13,6 +13,8 @@ include:
 
 states:
   apache.vhosts.standard: true
+  aptly.create_repos: true
+  aptly.create_mirrors: true
   aptly.publish_repos: true
 
 pkgs:
@@ -50,6 +52,7 @@ aptly:
         - main
       architectures:
         - amd64
+        - source
       prefix: "stanford-backports-main"
   repos:
     sifive:
