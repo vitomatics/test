@@ -55,13 +55,13 @@ aptly:
       prefix: "stanford-backports-main"
   repos:
     sifive:
-      prefix: sifive
+      prefix: ubuntu/sifive
       distributions:
         - xenial
       components:
         - main
       comment: "SiFive Xenila packages"
-      pkgdir: {{ sfrepo.pkgdir }}/sifive
+      pkgdir: {{ sfrepo.pkgdir }}/ubuntu/sifive
       remove_files: false
 
 
