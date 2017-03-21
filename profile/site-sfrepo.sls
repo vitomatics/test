@@ -19,7 +19,7 @@ pkgs:
   apt:
     repos:
       sifive:
-        uri: http://sandbox.internal.sifive.com/sifive
+        uri: http://sandbox.internal.sifive.com/
         suite: {{ suite }}
         comps: [ 'main' ]
 
@@ -27,7 +27,7 @@ apache:
   sites:
     sfrepo:
       enabled: True
-      ServerName: sfrepo.internal.sifive.com
+      ServerName: sandbox.internal.sifive.com
       ServerAdmin: help@sifive.com
       DocumentRoot: {{ sfrepo.repodir }}/public/sifive
 
