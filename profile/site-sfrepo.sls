@@ -1,19 +1,27 @@
 # Pillar config for the SiFive local repo
 
 {% set sfrepo = { } %}
-{% do sfrepo.update({'wwwdir' : '/srv/www/sfrepo'}) %}
 {% do sfrepo.update({'aptlydir' : '/srv/aptly'}) %}
 {% do sfrepo.update({'repodir' : '/srv/aptly/repos'}) %}
 {% do sfrepo.update({'pkgdir' : '/srv/aptly/pkgs'}) %}
 {% do sfrepo.update({'gnupghome' : '/srv/keys'}) %}
 
+{% set suite = 'xenial' %}
 
 include:
   - secret.sfrepo
 
 states:
   apache.vhosts.standard: true
-  aptly.create_repos: true
+  aptly.publish_repos: true
+
+pkgs:
+  apt:
+    repos:
+      sifive:
+        uri: http://sandbox.internal.sifive.com/sifive
+        suite: {{ suite }}
+        comps: [ 'main' ]
 
 apache:
   sites:
@@ -21,10 +29,10 @@ apache:
       enabled: True
       ServerName: sfrepo.internal.sifive.com
       ServerAdmin: help@sifive.com
-      DocumentRoot: {{ sfrepo.repodir }}/sfrepo
+      DocumentRoot: {{ sfrepo.repodir }}/public/sifive
 
       Directory:
-        {{ sfrepo.wwwdir }}:
+        {{ sfrepo.repodir }}/public/sifive:
           Require: ip 10.14.0.0/16
           AllowOverride: None
 
@@ -34,6 +42,15 @@ aptly:
   architectures:
     - amd64
     - source
+  mirrors:
+    stanford-backports:
+      url: http://exodus.stanford.edu/debian-stanford
+      distribution: xenial-backports
+      components:
+        - main
+      architectures:
+        - amd64
+      prefix: "stanford-backports-main"
   repos:
     sifive:
       prefix: sifive
