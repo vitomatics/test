@@ -41,7 +41,9 @@ aptly:
       distributions:
         - xenial
       comment: "SiFive repo"
-    
+      pkgdir: /srv/aptly/pkgs
+
+
 
 
 {#####
