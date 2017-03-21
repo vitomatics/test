@@ -45,13 +45,13 @@ pkgs:
         suite: {{ suite }}
         key_url: https://{{saltsite}}/SALTSTACK-GPG-KEY.pub
 
-{#
+      {% if grains.os == 'Ubuntu' %}
       sifive:
         {% set sfrepo = 'http://sfrepo.internal.sifive.com' %}
-        uri: {{sfrepo}}
-        suite: sifive-{{suite}}
-        key_url: {{sfrepo}}/SIFIVE-GPG-KEY.pub
-#}
+        uri: {{sfrepo}}/ubuntu/sifive
+        suite: {{suite}}
+        {# key_url: {{sfrepo}}/SIFIVE-GPG-KEY.pub #}
+      {% endif %}
 
   list:
     krb5-user: true
