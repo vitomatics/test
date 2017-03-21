@@ -52,7 +52,6 @@ aptly:
         - main
       architectures:
         - amd64
-        - source
       prefix: "stanford-backports-main"
   repos:
     sifive:
