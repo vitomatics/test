@@ -28,8 +28,3 @@ disksetup:
       lv: dalek00/srv
 
 
-firewall:
-  ports:
-    tcp:
-      80: 10.0.0.0/8
-      443: 10.0.0.0/8
