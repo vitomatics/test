@@ -10,5 +10,5 @@ nomachine:
     eval: true
     EnableNetworkBroadcast: true
     PhysicalDesktopSharing: false
-    VirstualDesktopSharing: true
+    VirtualDesktopSharing: true
 

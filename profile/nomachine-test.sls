@@ -15,5 +15,5 @@ nomachine:
     
     EnableNetworkBroadcast: true
     PhysicalDesktopSharing: false
-    VirstualDesktopSharing: true
+    VirtualDesktopSharing: true
 
