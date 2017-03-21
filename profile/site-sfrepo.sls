@@ -3,8 +3,9 @@
 {% set sfrepo = { } %}
 {% do sfrepo.update({'wwwdir' : '/srv/www/sfrepo'}) %}
 {% do sfrepo.update({'aptlydir' : '/srv/aptly'}) %}
-{% do sfrepo.update({'repodir' : '/srv/aptly/sfrepo'}) %}
-{% do sfrepo.update({'publicdir' : '/srv/aptly/sfrepo/public'}) %}
+{% do sfrepo.update({'repodir' : '/srv/aptly/repos/sfrepo'}) %}
+{% do sfrepo.update({'pkgdir' : '/srv/aptly/pkgs/sfrepo'}) %}
+{% do sfrepo.update({'publicdir' : '/srv/aptly/www/sfrepo'}) %}
 {% do sfrepo.update({'gnupghome' : '/srv/keys'}) %}
 
 
@@ -21,7 +22,7 @@ apache:
       enabled: True
       ServerName: sfrepo.internal.sifive.com
       ServerAdmin: help@sifive.com
-      DocumentRoot: {{ sfrepo.wwwdir }}
+      DocumentRoot: {{ sfrepo.publicdir }}
 
       Directory:
         {{ sfrepo.wwwdir }}:
@@ -41,7 +42,7 @@ aptly:
       distributions:
         - xenial
       comment: "SiFive repo"
-      pkgdir: /srv/aptly/pkgs
+      pkgdir: {{ sfrepo.pkgdir }}
 
 
 
@@ -53,6 +54,7 @@ aptly:
 {% set sfrepo = { } %}
 {% do sfrepo.update({'wwwdir' : '/srv/www/sfrepo'}) %}
 {% do sfrepo.update({'repodir' : '/srv/reprepro/sfrepo'}) %}
+{% do sfrepo.update({'pkgdir' : '/srv/reprepro/sfrepo'}) %}
 {% do sfrepo.update({'gnupghome' : '/srv/keys'}) %}
 
 
