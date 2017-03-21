@@ -36,12 +36,12 @@ aptly:
     - source
   repos:
     sfrepo:
+      distributions:
+        - sifive-xenial
       components:
         - main
-      distributions:
-        - xenial
-      comment: "SiFive repo"
-      pkgdir: {{ sfrepo.pkgdir }}/sfrepo
+      comment: "SiFive Xenila packages"
+      pkgdir: {{ sfrepo.pkgdir }}/sifive-xenial
       remove_files: false
 
 
