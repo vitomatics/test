@@ -21,7 +21,7 @@ apache:
       enabled: True
       ServerName: sfrepo.internal.sifive.com
       ServerAdmin: help@sifive.com
-      DocumentRoot: {{ sfrepo.publicdir }}
+      DocumentRoot: {{ sfrepo.repodir }}/sfrepo
 
       Directory:
         {{ sfrepo.wwwdir }}:
