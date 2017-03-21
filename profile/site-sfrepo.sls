@@ -2,7 +2,7 @@
 
 {% set sfrepo = { } %}
 {% do sfrepo.update({'wwwdir' : '/srv/www/sfrepo'}) %}
-{% do sfreap.update({'aptlydir' : '/srv/aptly'}) %}
+{% do sfrepo.update({'aptlydir' : '/srv/aptly'}) %}
 {% do sfrepo.update({'repodir' : '/srv/aptly/sfrepo'}) %}
 {% do sfrepo.update({'publicdir' : '/srv/aptly/sfrepo/public'}) %}
 {% do sfrepo.update({'gnupghome' : '/srv/keys'}) %}
