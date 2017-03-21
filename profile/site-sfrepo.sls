@@ -28,13 +28,13 @@ pkgs:
 apache:
   sites:
     sfrepo:
-      enabled: True
+      enabled: true
       ServerName: sandbox.internal.sifive.com
       ServerAdmin: help@sifive.com
       DocumentRoot: {{ sfrepo.repodir }}/public/sifive
 
       Directory:
-        {{ sfrepo.repodir }}/public/sifive:
+        {{ sfrepo.repodir }}/public
           Require: ip 10.14.0.0/16
           AllowOverride: None
 
