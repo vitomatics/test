@@ -14,7 +14,7 @@ apparmor:
     - '/srv/mysql/** rwk,'
     - '@{PROC}/[0-9]*/status r,'
     - '/sys/devices/system/node/ r,'
-    - '/sys/devices/system/node/** rw,'
+    - '/sys/devices/system/node/** r,'
 
 policyrc:
   mysql: false
