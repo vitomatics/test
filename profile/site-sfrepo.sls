@@ -14,7 +14,7 @@ include:
 
 states:
   apache.vhosts.standard: true
-  reprepro: true
+  aptly.create_repos: true
 
 apache:
   sites:
@@ -43,6 +43,7 @@ aptly:
         - xenial
       comment: "SiFive repo"
       pkgdir: {{ sfrepo.pkgdir }}
+      remove_files: false
 
 
 
