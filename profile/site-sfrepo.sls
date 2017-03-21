@@ -29,8 +29,6 @@ apache:
           AllowOverride: None
 
 aptly:
-  uid: 995
-  gid: 995
   homedir: {{ sfrepo.aptlydir }}
   rootdir: {{ sfrepo.repodir }}
   architectures:
