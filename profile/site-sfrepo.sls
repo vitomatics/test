@@ -3,9 +3,8 @@
 {% set sfrepo = { } %}
 {% do sfrepo.update({'wwwdir' : '/srv/www/sfrepo'}) %}
 {% do sfrepo.update({'aptlydir' : '/srv/aptly'}) %}
-{% do sfrepo.update({'repodir' : '/srv/aptly/repos/sfrepo'}) %}
-{% do sfrepo.update({'pkgdir' : '/srv/aptly/pkgs/sfrepo'}) %}
-{% do sfrepo.update({'publicdir' : '/srv/aptly/www/sfrepo'}) %}
+{% do sfrepo.update({'repodir' : '/srv/aptly/repos'}) %}
+{% do sfrepo.update({'pkgdir' : '/srv/aptly/pkgs'}) %}
 {% do sfrepo.update({'gnupghome' : '/srv/keys'}) %}
 
 
@@ -42,7 +41,7 @@ aptly:
       distributions:
         - xenial
       comment: "SiFive repo"
-      pkgdir: {{ sfrepo.pkgdir }}
+      pkgdir: {{ sfrepo.pkgdir }}/sfrepo
       remove_files: false
 
 
