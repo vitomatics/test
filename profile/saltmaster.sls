@@ -41,6 +41,8 @@ sfsalt:
         origin: git@github-salt-pillar:sifive/mysql-formula.git
       slurm-formula:
         origin: git@github-salt-pillar:sifive/slurm-formula.git
+      aptly-formula:
+        origin: git@github-salt-pillar:sifive/aptly-formula.git
 
         
     nodegroups:
