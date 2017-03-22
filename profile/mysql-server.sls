@@ -25,6 +25,9 @@ mysql:
     host: localhost
     mysqld:
       datadir: /srv/mysql
+  lookup:
+    server: mariadb-server
+    client: mariadb-client
       
 
 file:
