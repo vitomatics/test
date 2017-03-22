@@ -30,10 +30,8 @@ mysql:
   version: 5.7
   server:
     host: localhost
-{#
     mysqld:
       datadir: /srv/mysql
-#}
   lookup:
     server: mariadb-server
     client: mariadb-client
@@ -44,4 +42,4 @@ file:
     /srv/mysql:
       user: mysql
       group: mysql
-      mode: '0700'
+      mode: '0755'
