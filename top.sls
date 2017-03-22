@@ -180,7 +180,6 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.slurm-client
-    - profile.mysql-server
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
