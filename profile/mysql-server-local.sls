@@ -43,3 +43,8 @@ file:
       user: mysql
       group: mysql
       mode: '0755'
+
+firewall:
+  ports:
+    tcp:
+      3306: 127.0.0.1
