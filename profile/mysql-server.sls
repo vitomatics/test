@@ -6,8 +6,11 @@ include:
 
 states:
   mysql: true
+{#
   apparmor: true
+#}
 
+{#
 apparmor:
   usr.sbin.mysqld:
     - '/srv/mysql/ r,'
@@ -16,6 +19,7 @@ apparmor:
     - '@{PROC}/[0-9]*/status r,'
     - '/sys/devices/system/node/ r,'
     - '/sys/devices/system/node/** r,'
+#}
 
 policyrc:
   mysql: false
