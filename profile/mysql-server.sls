@@ -12,6 +12,7 @@ apparmor:
   usr.sbin.mysqld:
     - '/srv/mysql/ r,'
     - '/srv/mysql/** rwk,'
+    - '/var/lib/sss/** r,'
     - '@{PROC}/[0-9]*/status r,'
     - '/sys/devices/system/node/ r,'
     - '/sys/devices/system/node/** r,'
