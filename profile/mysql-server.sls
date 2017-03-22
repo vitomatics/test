@@ -21,8 +21,10 @@ apparmor:
     - '/sys/devices/system/node/** r,'
 #}
 
+{#
 policyrc:
   mysql: false
+#}
 
 mysql:
   version: 5.7
