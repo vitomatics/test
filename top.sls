@@ -177,7 +177,7 @@ base:
 
   'sandbox.internal.sifive.com':
     - subnet.he-unix01
-    - profile.devel
+    - profile.devel-cutdown
     - profile.clusterclient
     - profile.slurm-client
     - hosts.sandbox
