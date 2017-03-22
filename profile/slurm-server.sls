@@ -19,8 +19,8 @@ slurm:
   JobCompLoc: /var/log/slurm-llnl/jobcomp.log
 
   JobAcctGatherType: cgroup
-  AccountingStorageLoc: /var/log/slurm-llnl/accounting.dat
 
+  AccountingStorageType: slurmdbd
   AccountingStorageHost: sandbox.internal.sifive.com
   AccountingStorageUser: slurm
 
