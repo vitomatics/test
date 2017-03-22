@@ -6,7 +6,7 @@ include:
 
 states:
   mysql: true
-
+  apparmor: true
 
 apparmor:
   usr.sbin.mysqld:
