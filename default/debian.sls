@@ -48,7 +48,7 @@ pkgs:
       {% if grains.os == 'Ubuntu' %}
       sifive:
         {% set sfrepo = 'http://sfrepo.internal.sifive.com' %}
-        uri: {{sfrepo}}/ubuntu/sifive/dists
+        uri: {{sfrepo}}/ubuntu/sifive
         suite: {{suite}}
         comps: [ 'main' ]
         {# key_url: {{sfrepo}}/SIFIVE-GPG-KEY.pub #}
