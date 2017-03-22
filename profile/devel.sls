@@ -138,7 +138,7 @@ pkgs:
     python-pip: true
     python-pexpect: true
     python-sympy: true
-    python-pygments: treu
+    python-pygments: true
     {% if grains.os == 'Ubuntu' %}
     python3-sympy: true
     python-sympy-doc: true
