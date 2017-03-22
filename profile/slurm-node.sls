@@ -15,11 +15,15 @@ slurm:
     sandbox:
       CPUs: 2
       RealMemory: 4096
-      Sockets: 1
-      CoresPerSocket: 1
-      ThreadsPerCore: 2
+    gamma[00-07]:
+      CPUs: 32
+      RealMemory: 125000
+      Feature: gamma
   partitions:
-    test:
+    compute1:
       Default: yes
+      nodes:
+        - 'gamma[00-07]'
+    test:
       nodes:
         - sandbox

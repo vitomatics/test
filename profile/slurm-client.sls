@@ -9,7 +9,7 @@ states:
 
 # Note slurm:MungeKey64 is in a secret file
 slurm:
-  ClusterName: sifive_compute
+  ClusterName: cluster1
   ControlMachine: sandbox
   ControlAddr: sandbox.internal.sifive.com
 
