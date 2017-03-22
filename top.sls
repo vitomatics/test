@@ -180,9 +180,6 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.slurm-client
-    - profile.slurm-node
-    - profile.slurm-server
-    - profile.slurm-db
     - profile.mysql-server
     - hosts.sandbox
 
