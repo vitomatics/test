@@ -50,6 +50,7 @@ pkgs:
         {% set sfrepo = 'http://sfrepo.internal.sifive.com' %}
         uri: {{sfrepo}}/ubuntu/sifive/dists
         suite: {{suite}}
+        comps: [ 'main' ]
         {# key_url: {{sfrepo}}/SIFIVE-GPG-KEY.pub #}
       {% endif %}
 
