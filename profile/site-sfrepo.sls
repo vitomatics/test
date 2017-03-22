@@ -22,7 +22,7 @@ apache:
   sites:
     sfrepo:
       enabled: true
-      ServerName: sandbox.internal.sifive.com
+      ServerName: sfrepo.internal.sifive.com
       ServerAdmin: help@sifive.com
       DocumentRoot: {{ sfrepo.repodir }}/public/sifive
 
