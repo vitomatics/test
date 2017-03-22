@@ -5,6 +5,7 @@ include:
 
 states:
   slurm.server: true
+  policyrc: true
 
 policyrc:
   slurmctld: false

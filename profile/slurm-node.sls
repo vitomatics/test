@@ -5,6 +5,7 @@ include:
 
 states:
   slurm.node: true
+  policyrc: true
 
 policyrc:
   slurmd: false

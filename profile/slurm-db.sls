@@ -6,6 +6,7 @@ include:
 
 states:
   slurm.db: true
+  policyrc: true
 
 policyrc:
   slurmdbd: false
