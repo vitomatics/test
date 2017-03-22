@@ -30,8 +30,8 @@ mysql:
   version: 5.7
   server:
     host: localhost
-    mysqld:
-      datadir: /srv/mysql
+##    mysqld:
+##      datadir: /srv/mysql
   lookup:
     server: mariadb-server
     client: mariadb-client
