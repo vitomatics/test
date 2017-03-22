@@ -17,13 +17,6 @@ states:
   aptly.create_mirrors: true
   aptly.publish_repos: true
 
-pkgs:
-  apt:
-    repos:
-      sifive:
-        uri: http://sandbox.internal.sifive.com/
-        suite: {{ suite }}
-        comps: [ 'main' ]
 
 apache:
   sites:
