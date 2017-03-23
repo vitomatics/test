@@ -1,7 +1,5 @@
 ## SLURM config for cluster 1
 
-{% from "site/slurm-cluster1-defs.sls" import * with context %}
-
 # slurm:MungeKey64 is in this secret.munge file
 include:
   - profile.slurm-common
