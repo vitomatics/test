@@ -216,6 +216,7 @@ base:
     - profile.webserver.php
     - profile.site-gweb
     - profile.ganglia-node-server
+    - profile.mysql-server-local
     - profile.slurm-server
     - profile.backupclient
     - hosts.grid
