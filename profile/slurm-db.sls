@@ -1,6 +1,7 @@
-## SLURM resource manager DBD server
+## SLURM resource manager DBD server machines
 
 include:
+  - profile.slurm-cluster1
   - profile.slurm-client
   - secret.slurm-db
 
@@ -16,4 +17,8 @@ slurm:
     DbdHost: localhost
     AuthType: munge
     StorageType: mysql
-    DebugLevel: debug5
+
+firewall:
+  ports:
+    tcp:
+      6819: 10.14.0.0/16

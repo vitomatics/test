@@ -1,6 +1,7 @@
-## SLURM resource manager clientmachines
+## SLURM resource manager execution node machines
 
 include:
+  - profile.slurm-cluster1
   - profile.slurm-client
 
 states:
@@ -10,21 +11,7 @@ states:
 policyrc:
   slurmd: false
 
-slurm:
-  ProctrackType: linuxproc
-  nodes:
-    sandbox:
-      CPUs: 2
-      RealMemory: 4096
-    gamma[00-07]:
-      CPUs: 32
-      RealMemory: 125000
-      Feature: gamma
-  partitions:
-    compute1:
-      Default: yes
-      nodes:
-        - 'gamma[00-07]'
-    test:
-      nodes:
-        - sandbox
+firewall:
+  ports:
+    tcp:
+      6817: 10.14.0.0/16

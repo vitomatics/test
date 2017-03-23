@@ -1,7 +1,10 @@
-## SLURM resource manager clientmachines
+## SLURM resource manager controller machine(s)
+## Note the config file is shared and most of the stuff is in slurm-common
 
 include:
+  - profile.slurm-cluster1
   - profile.slurm-client
+  - secret.slurm-db
 
 states:
   slurm.server: true
@@ -10,19 +13,15 @@ states:
 policyrc:
   slurmctld: false
 
-slurm:
-  SchedulerType: backfill
-  SelectType: cons_res
-  SelectTypeParameters: CR_CPU_Memory
-  DefMemPerCPU: 2000
+firewall:
+  ports:
+    tcp:
+      6818: 10.14.0.0/16
 
-  JobCompType: filetxt
-  JobCompLoc: /var/log/slurm-llnl/jobcomp.log
+firewall:
+  ports:
+    tcp:
+      6818: 10.14.0.0/16
 
-  JobAcctGatherType: cgroup
-
-  AccountingStorageType: slurmdbd
-  AccountingStorageHost: sandbox.internal.sifive.com
-  AccountingStorageUser: slurm
 
 
