@@ -82,7 +82,9 @@ pkgs:
     mcelog: true
     sssd-tools: true
     kpartx: true
+    {% if grains.os == 'Ubuntu' %}
     apparmor-utils: true
+    {% endif %}
 
     screen: true
     tmux: true
