@@ -217,7 +217,7 @@ base:
     - profile.site-gweb
     - profile.ganglia-node-server
     - profile.mysql-server-local
-    - profile.slurm-dbd
+    - profile.slurm-db
     - profile.slurm-server
     - profile.backupclient
     - hosts.grid
