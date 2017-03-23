@@ -82,6 +82,7 @@ pkgs:
     mcelog: true
     sssd-tools: true
     kpartx: true
+    apparmor-utils: true
 
     screen: true
     tmux: true
