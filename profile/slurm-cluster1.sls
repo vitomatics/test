@@ -11,8 +11,8 @@ slurm:
   ClusterName: custer1
   ControlMachine: grid
   ControlAddr: grid.internal.sifive.com
-  SlurmctldPort: '6818'
-  SlurmdPort: '6817'
+  SlurmctldPort: '6817'
+  SlurmdPort: '6818'
   SrunPortRange: '6820-6839'
 
   DefMemPerCPU: '4000'
