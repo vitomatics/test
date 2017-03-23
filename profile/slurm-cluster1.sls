@@ -6,7 +6,7 @@ include:
   - secret.munge
 
 slurm:
-  ClusterName: custer1
+  ClusterName: sifive
   ControlMachine: grid
   ControlAddr: grid.internal.sifive.com
   SlurmctldPort: '6817'
@@ -25,7 +25,7 @@ slurm:
       RealMemory: '125000'
       Feature: gamma
   partitions:
-    compute1:
+    compute:
       Default: yes
       nodes:
         - 'gamma[00-07]'
