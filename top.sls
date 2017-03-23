@@ -88,6 +88,7 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.login
+    - profile.slurm-client
     - profile.nomachine-eval
     - profile.ganglia-node-server
     - hosts.algol
@@ -97,6 +98,7 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.login
+    - profile.slurm-client
     - profile.nomachine-licensed
     - profile.ganglia-node-server
     - hosts.altair
@@ -106,6 +108,7 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.login
+    - profile.slurm-client
     - profile.x2go
     - profile.ganglia-node-server
     - hosts.betel
@@ -151,6 +154,8 @@ base:
     - subnet.he-dhcp
     - profile.devel
     - profile.clusterclient
+    - profile.slurm-client
+    - profile.slurm-node
     - profile.ganglia-node-compute
     - hosts.gamma
 
