@@ -2,10 +2,10 @@
 
 include:
   - profile.slurm-cluster1
-  - profile.slurm-client
 
 states:
   slurm.node: true
+  slurm.client: true
   policyrc: true
 
 policyrc:

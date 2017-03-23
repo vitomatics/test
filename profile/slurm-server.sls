@@ -3,11 +3,11 @@
 
 include:
   - profile.slurm-cluster1
-  - profile.slurm-client
   - secret.slurm-db
 
 states:
   slurm.server: true
+  slurm.client: true
   policyrc: true
 
 policyrc:
