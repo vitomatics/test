@@ -2,7 +2,7 @@
 
 # slurm:MungeKey64 is in this secret.munge file
 include:
-  - profile.slurm-common
+  - profile.slurm-sifive
   - secret.munge
 
 slurm:
