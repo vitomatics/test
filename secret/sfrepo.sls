@@ -4,7 +4,8 @@
 ##
 ## *** SOME OF THIS IS GPG ENCRYPTED ***
 
-
+aptly:
+  gpg_keypair_id: 12341234
 aptly:
   gpg_pub_key: |
       -----BEGIN PGP PUBLIC KEY BLOCK-----
