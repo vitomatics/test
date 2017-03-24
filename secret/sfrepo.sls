@@ -5,7 +5,7 @@
 ## *** SOME OF THIS IS GPG ENCRYPTED ***
 
 aptly:
-  gpg_keypair_id: 12341234
+  gpg_keypair_id: B6A58B92
   gpg_pub_key: |
       -----BEGIN PGP PUBLIC KEY BLOCK-----
       Version: GnuPG v1
