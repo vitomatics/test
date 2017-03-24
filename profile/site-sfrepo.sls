@@ -34,6 +34,11 @@ apache:
 aptly:
   homedir: {{ sfrepo.aptlydir }}
   rootdir: {{ sfrepo.repodir }}
+  secure: true
+  gpg_priv_key: 'keys:pkgsigner:private'
+  gpg_pub_key: 'keys:pkgsigner:public'
+  gpg_keypair_id: 12341234
+  
   architectures:
     - amd64
     - source
