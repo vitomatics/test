@@ -4,12 +4,8 @@
 ##
 ## *** SOME OF THIS IS GPG ENCRYPTED ***
 
-keys:
-  test:
-    public: hello
-    private: goodbye
-  pkgsigner:
-    public: |
+apt:
+  gpg_pub_key: |
       -----BEGIN PGP PUBLIC KEY BLOCK-----
       Version: GnuPG v1
 
@@ -32,7 +28,8 @@ keys:
       sjUcj+NTS9RTvKXE/0Yb2ty1Vru2bEiHejARQjE5RnODDc0=
       =esZQ
       -----END PGP PUBLIC KEY BLOCK-----
-    private: |
+apt:
+  gpg_priv_key: |
       -----BEGIN PGP PRIVATE KEY BLOCK-----
       Version: GnuPG v1
       
