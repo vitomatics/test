@@ -6,7 +6,6 @@
 
 aptly:
   gpg_keypair_id: 12341234
-aptly:
   gpg_pub_key: |
       -----BEGIN PGP PUBLIC KEY BLOCK-----
       Version: GnuPG v1
@@ -30,7 +29,6 @@ aptly:
       sjUcj+NTS9RTvKXE/0Yb2ty1Vru2bEiHejARQjE5RnODDc0=
       =esZQ
       -----END PGP PUBLIC KEY BLOCK-----
-aptly:
   gpg_priv_key: |
       -----BEGIN PGP PRIVATE KEY BLOCK-----
       Version: GnuPG v1
