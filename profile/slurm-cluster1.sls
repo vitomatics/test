@@ -6,6 +6,7 @@ include:
   - secret.munge
 
 slurm:
+  X: true
   ClusterName: sifive
   ControlMachine: grid
   ControlAddr: grid.internal.sifive.com
