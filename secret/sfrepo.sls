@@ -4,7 +4,8 @@
 ##
 ## *** SOME OF THIS IS GPG ENCRYPTED ***
 
-apt:
+
+aptly:
   gpg_pub_key: |
       -----BEGIN PGP PUBLIC KEY BLOCK-----
       Version: GnuPG v1
@@ -28,7 +29,7 @@ apt:
       sjUcj+NTS9RTvKXE/0Yb2ty1Vru2bEiHejARQjE5RnODDc0=
       =esZQ
       -----END PGP PUBLIC KEY BLOCK-----
-apt:
+aptly:
   gpg_priv_key: |
       -----BEGIN PGP PRIVATE KEY BLOCK-----
       Version: GnuPG v1
