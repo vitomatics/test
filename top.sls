@@ -237,5 +237,6 @@ base:
 
   'transporter.internal.sifive.com':
     - subnet.sf-unix
+    - profile.mailserver
     - profile.ganglia-node-server
     - hosts.transporter
