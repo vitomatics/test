@@ -2,7 +2,7 @@
 
 sfvirt:
   vms:
-    luke:
+    transporter:
       type: libvirt
       vmhost: marvin.internal.sifive.com
       vcpus: 2
