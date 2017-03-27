@@ -15,7 +15,7 @@ sfvirt:
       disks:
         root:
           vdtype: lvm
-          size: 30G
+          size: 40G
           vg: vmpool01
       preseed: transporter
       dist: xenial-default
