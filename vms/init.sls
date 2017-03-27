@@ -1,22 +1,23 @@
 ## VM definitions
 
 include:
-  - vms.algol
   - vms.altair
+  - vms.algol
   - vms.betel
   - vms.dalek
+  - vms.grid
+  - vms.gravelpit
   - vms.hal
+  - vms.hansolo
   - vms.klingon
   - vms.leia
   - vms.luke
-  - vms.hansolo
+  - vms.matrix
   - vms.sandbox
   - vms.tardis
+  - vms.transporter
   - vms.viki
   - vms.vulcan
-  - vms.gravelpit
-  - vms.grid
-  - vms.matrix
   
 sfvirt:
   dists:

@@ -234,3 +234,8 @@ base:
     - profile.site-gweb
     - profile.ganglia-node-server
     - hosts.matrix
+
+  'transporter.internal.sifive.com':
+    - subnet.sf-unix
+    - profile.ganglia-node-server
+    - hosts.transporter
