@@ -65,6 +65,7 @@ pkgs:
     gdb: true
     strace: true
     lsof: true
+    iotop: true
 
     telnet: true
     mtr-tiny: true
