@@ -24,3 +24,10 @@ slurm:
   AccountingStorageHost: grid.internal.sifive.com
   AccountingStorageUser: slurm
 
+  # Do not want to restart daemons automatically - this stuff needs
+  # to be scheduled
+  restart:
+    munge: false
+    node: false
+    server: false
+    db: false
