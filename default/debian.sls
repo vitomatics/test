@@ -51,7 +51,7 @@ pkgs:
         uri: {{sfrepo}}/ubuntu/sifive
         suite: {{suite}}
         comps: [ 'main' ]
-        {# key_url: {{sfrepo}}/SIFIVE-GPG-KEY.pub #}
+        key_url: {{sfrepo}}/public.gpg
       {% endif %}
 
   list:
