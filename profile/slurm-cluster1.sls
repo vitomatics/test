@@ -18,7 +18,7 @@ slurm:
 
   nodes:
     sandbox:
-      CPUs: 1
+      CPUs: 2
       RealMemory: '4096'
       Feature: testhost
     'gamma[00-07]':
