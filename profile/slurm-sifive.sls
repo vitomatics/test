@@ -28,6 +28,6 @@ slurm:
   # to be scheduled
   restart:
     munge: false
-    node: true
-    server: false
+    node: false
+    server: true
     db: false
