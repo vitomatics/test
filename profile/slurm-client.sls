@@ -7,6 +7,7 @@ include:
 states:
   slurm.client: true
   slurm.devel: true
+  slurm.openlava: true
 
 firewall:
   ports:
