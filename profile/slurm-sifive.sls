@@ -29,5 +29,5 @@ slurm:
   restart:
     munge: false
     node: false
-    server: true
+    server: false
     db: false
