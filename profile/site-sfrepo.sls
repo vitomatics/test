@@ -37,6 +37,7 @@ aptly:
   secure: true
   
   architectures:
+    - i386
     - amd64
     - source
   mirrors:
