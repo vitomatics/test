@@ -2,7 +2,10 @@
 ##
 ## Secret sfrepo data
 ##
-## *** SOME OF THIS IS GPG ENCRYPTED ***
+## *** SOME OF THIS MAY BE GPG ENCRYPTED ***
+## Note that data that starts with the following strings is _not _encrypted
+##  BEGIN PGP PUBLIC KEY BLOCK
+##  BEGIN PGP PRIVATE KEY BLOCK
 
 aptly:
   gpg_keypair_id: 0ADB256E
