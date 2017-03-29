@@ -92,6 +92,7 @@ pkgs:
     # Used by emacs but not a dependency
     gnome-icon-theme: true
     xsltproc: true
+    gnuplot: true
 
     ## Building riscv-tools
     build-essential: true
