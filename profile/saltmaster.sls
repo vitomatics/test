@@ -78,6 +78,18 @@ sfsalt:
       saltmaster:
         - hal.internal.sifive.com
         - viki.internal.sifive.com
+      slurmclient:
+        - algol.internal.sifive.com
+        - altair.internal.sifive.com
+        - betel.internal.sifive.com
+        - gamma*.internal.sifive.com
+        - sandbox.internal.sifive.com
+        - grid.internal.sifive.com
+      slurmnode:
+        - gamma*.internal.sifive.com
+        - sandbox.internal.sifive.com
+      slurmserver:
+        - grid.internal.sifive.com
 
     ext_pillars:
       file_tree:
