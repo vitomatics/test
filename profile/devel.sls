@@ -88,6 +88,7 @@ pkgs:
     filezilla: true
     dbus-x11: true
     gitk: true
+    git-merge-changelog: true
     rcs: true
     # Used by emacs but not a dependency
     gnome-icon-theme: true
