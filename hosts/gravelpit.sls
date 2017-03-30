@@ -2,3 +2,5 @@
 
 # network - dhcp
 
+opensmtpd:
+  relay: transporter.internal.sifive.com
