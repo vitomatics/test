@@ -17,3 +17,10 @@ postfix:
     - 10.14.0.0/16
     - 10.15.0.0/16
   domain: internal.sifive.com
+
+
+firewall:
+  ports:
+    tcp:
+      25: 10.14.0.0/16 10.15.0.0/16
+
