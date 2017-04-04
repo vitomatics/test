@@ -199,13 +199,6 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
-        canal:
-          ipaddress: 10.14.0.11
-          subnet: sf-static
-          serial: '0'
-          diskname: /dev/vda
-          diskmethod: lvm
-          disklayout: vm_small_disk
         dalek:
           ipaddress: 10.14.0.11
           subnet: he1-static
