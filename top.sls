@@ -50,12 +50,6 @@ base:
     - profile.backupclient
     - hosts.gonarch
 
-  'canal.internal.sifive.com':
-    - subnet.sf-unix
-    - profile.mailserver
-    - profile.ganglia-node-server
-    - hosts.canal
-
   'dalek.internal.sifive.com':
     - subnet.he-unix01
     - profile.tftp-sysadmin
