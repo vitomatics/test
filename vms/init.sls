@@ -18,6 +18,7 @@ include:
   - vms.transporter
   - vms.viki
   - vms.vulcan
+  - vms.yoda
   
 sfvirt:
   dists:

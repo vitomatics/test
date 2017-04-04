@@ -391,3 +391,10 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
+        yoda:
+          ipaddress: 10.14.16.42
+          subnet: he1-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk

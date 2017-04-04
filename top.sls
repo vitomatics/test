@@ -240,3 +240,7 @@ base:
     - profile.mailserver
     - profile.ganglia-node-server
     - hosts.transporter
+
+  'yoda.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.yoda
