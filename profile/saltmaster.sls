@@ -41,7 +41,7 @@ sfsalt:
       aptly-formula:
         origin: git@github-salt-pillar:sifive/aptly-formula.git
       bind-formula:
-        origin: git@github-salt-pillar:sifive/aptly-formula.git
+        origin: git@github-salt-pillar:sifive/bind-formula.git
 
         
     nodegroups:
