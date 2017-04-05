@@ -15,11 +15,7 @@ sfvirt:
       disks:
         root:
           vdtype: lvm
-          size: 30G
-          vg: vmpool02
-        data:
-          vdtype: lvm
-          size: 20G
+          size: 40G
           vg: vmpool02
       preseed: yoda
       dist: xenial-default
