@@ -31,9 +31,6 @@ sfsalt:
       apache-formula:
         origin: https://github.com/saltstack-formulas/apache-formula.git
         rev: bf66e74
-      bind-formula:
-        origin: https://github.com/saltstack-formulas/bind-formula.git
-        rev: 275140e
       php-formula:
         origin: https://github.com/saltstack-formulas/php-formula.git
         rev: ee6ae4f
@@ -42,6 +39,8 @@ sfsalt:
       slurm-formula:
         origin: git@github-salt-pillar:sifive/slurm-formula.git
       aptly-formula:
+        origin: git@github-salt-pillar:sifive/aptly-formula.git
+      bind-formula:
         origin: git@github-salt-pillar:sifive/aptly-formula.git
 
         
