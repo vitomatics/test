@@ -91,7 +91,6 @@ sfsalt:
         - grid.internal.sifive.com
       authnameserver:
         - yoda.internal.sifive.com
-        - sandbox.internal.sifive.com
 
     ext_pillars:
       file_tree:
