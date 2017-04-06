@@ -1,0 +1,218 @@
+;; ** MANAGED BY SALT ***
+;;
+;; zone file for internal.sifive.com
+
+$ORIGIN	internal.sifive.com.
+$TTL	86400
+
+
+@ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
+	2017040402 ; serial number
+	21600      ; refresh
+	900        ; retry
+	604800     ; expiry
+	3600       ; minimum TTL
+	)
+
+		NS		adns0
+		MX		10 mx
+
+router01-ge0-0-1	IN	A	10.14.0.1
+sf-unix-net-gw	IN	CNAME	router01-ge0-0-1
+router01	IN	CNAME	router01-ge0-0-1
+
+combine		IN	A	10.14.0.2
+
+nihilanth	IN	A	10.14.0.3
+nihilanth-adns	IN	A	10.14.0.4
+adns0		IN	A	10.14.0.4
+
+breencast	IN	A	10.14.0.6
+metrocop	IN	A	10.14.0.7
+synth		IN	A	10.14.0.8
+gonarch		IN	A	10.14.0.9
+jenkins		IN	A	10.14.0.10
+canal		IN	A	10.14.0.11
+algol		IN	A	10.14.0.12
+bender		IN	A	10.14.0.13
+hansolo		IN	A	10.14.0.14
+sf-ntp0		IN	CNAME	hansolo
+
+advisor		IN	A	10.14.0.130
+
+dhcp		IN	CNAME	nihilanth
+ns0		IN	CNAME	nihilanth
+ldap		IN	CNAME	breencast
+kdc0		IN	CNAME	metrocop
+pkg		IN	CNAME	synth
+preseed		IN	CNAME	synth
+apt		IN	CNAME	gonarch
+
+router03	IN	A	10.14.0.243
+
+i0-drac		IN	A	10.14.0.249
+i0-admin	IN	CNAME	i0-drac
+omega1-admin	IN	A	10.14.0.250
+b0-ipmi		IN	A	10.14.0.251
+b0-admin	IN	CNAME	b0-ipmi
+bender-admin	IN	A	10.14.0.252
+combine-ipmi	IN	A	10.14.0.253
+combine-admin	IN	CNAME	combine-ipmi
+
+i0		IN	A	10.14.1.4
+omega1		IN	A	10.14.1.5
+b0		IN	A	10.14.1.6
+
+
+license		IN	A	10.14.1.129
+
+gravelpit	IN	A	10.14.3.6
+
+printer01	IN	A	10.14.3.8
+promptuary	IN	A	10.14.3.9
+
+iswitch15-vlan101	IN	A	10.14.16.1
+he-unix01-net-gw	IN	CNAME	iswitch15-vlan101
+
+eddie			IN	A	10.14.16.32
+marvin			IN	A	10.14.16.33
+transporter		IN	A	10.14.16.34
+trans			IN	CNAME	transporter
+smtp			IN	CNAME	transporter
+dalek			IN	A	10.14.16.35
+tftpboot		IN	CNAME	dalek
+sfrepo			IN	CNAME	dalek
+sfimages		IN	CNAME	dalek
+pxe			IN	CNAME	dalek
+install			IN	CNAME	dalek
+sandbox			IN	A	10.14.16.36
+vulcan			IN	A	10.14.16.37
+leia			IN	A	10.14.16.38
+he-ntp0			IN	CNAME	leia
+luke			IN	A	10.14.16.39
+he-ntp1			IN	CNAME	luke
+hal			IN	A	10.14.16.40
+salt0			IN	CNAME	hal
+; "salt.internal.sifive.com" is used during preseed install
+salt			IN	CNAME	hal
+viki			IN	A	10.14.16.41
+salt1			IN	CNAME	viki
+yoda			IN	A	10.14.16.42
+
+heartofgold		IN	A	10.14.16.48
+hog			IN	CNAME	heartofgold
+tardis			IN	A	10.14.16.49
+
+gamma00			IN	A	10.14.16.64
+g00			IN	CNAME	gamma00
+gamma01			IN	A	10.14.16.65
+g01			IN	CNAME	gamma01
+gamma02			IN	A	10.14.16.66
+g02			IN	CNAME	gamma02
+gamma03			IN	A	10.14.16.67
+g03			IN	CNAME	gamma03
+gamma04			IN	A	10.14.16.68
+g04			IN	CNAME	gamma04
+gamma05			IN	A	10.14.16.69
+g05			IN	CNAME	gamma05
+gamma06			IN	A	10.14.16.70
+g06			IN	CNAME	gamma06
+gamma07			IN	A	10.14.16.71
+g07			IN	CNAME	gamma07
+
+altair			IN	A	10.14.16.72
+betel			IN	A	10.14.16.73
+klingon			IN	A	10.14.16.74
+coverage		IN	CNAME	klingon
+grid			IN	A	10.14.16.75
+gweb			IN	CNAME	grid
+gweb0			IN	CNAME	grid
+gmon0			IN	CNAME	grid
+matrix			IN	A	10.14.16.76
+gweb1			IN	CNAME	matrix
+gmon1			IN	CNAME	matrix
+
+netapp1-nfs1		IN	A	10.14.16.92
+netapp1-nfs2		IN	A	10.14.16.93
+
+iswitch25-vlan111	IN	A	10.14.17.1
+he-unix02-net-gw	IN	CNAME	iswitch25-vlan111
+
+
+iswitch11-vlan102	IN	A	10.15.16.1
+he-dev01-net-gw		IN	CNAME	iswitch11-vlan102
+
+pdu11			IN	A	10.15.16.16
+pdu			IN	CNAME	pdu11
+kvm11			IN	A	10.15.16.17
+kvm			IN	CNAME	kvm11
+
+eddie-admin		IN	A	10.15.16.32
+marvin-admin		IN	A	10.15.16.33
+heartofgold-admin	IN	A	10.15.16.48
+hog-admin		IN	CNAME	heartofgold-admin
+
+gamma00-admin		IN	A	10.15.16.64
+gamma01-admin		IN	A	10.15.16.65
+gamma02-admin		IN	A	10.15.16.66
+gamma03-admin		IN	A	10.15.16.67
+gamma04-admin		IN	A	10.15.16.68
+gamma05-admin		IN	A	10.15.16.69
+gamma06-admin		IN	A	10.15.16.70
+gamma07-admin		IN	A	10.15.16.71
+
+netapp1-admin		IN	A	10.15.16.129
+netapp1			IN	CNAME	netapp1-admin
+netapp1-01-admin	IN	A	10.15.16.130
+netapp1-02-admin	IN	A	10.15.16.131
+netapp1-01-sp		IN	A	10.15.16.132
+netapp1-02-sp		IN	A	10.15.16.133
+
+iswitch21-vlan112	IN	A	10.15.17.1
+he-dev02-net-gw		IN	CNAME	iswitch21-vlan112
+
+
+router01-ge0-0-3	IN	A	10.16.0.1
+sf-lab-net-gw	IN	CNAME	router01-ge0-0-3
+nuc1			IN	A	10.16.0.32
+turtle			IN	A	10.16.0.33
+
+
+router01-st0		IN	A	10.100.100.1
+router11-st0		IN	A	10.100.100.2
+router11		IN	CNAME	router11-st0
+
+iswitch11-ge0-2-0	IN	A	10.100.200.2
+iswitch11		IN	CNAME	iswitch11-ge0-2-0
+iswitch15-ge0-0-0	IN	A	10.100.200.6
+iswitch15		IN	CNAME	iswitch15-ge0-0-0
+iswitch21-ge0-2-0	IN	A	10.100.200.10
+iswitch21		IN	CNAME	iswitch21-ge0-2-0
+iswitch25-ge0-0-0	IN	A	10.100.200.14
+iswitch25		IN	CNAME	iswitch25-ge0-0-0
+
+router01-lo0	IN	A	10.101.0.1
+router11-lo0	IN	A	10.101.0.11
+iswitch11-lo0	IN	A	10.101.0.111
+iswitch15-lo0	IN	A	10.101.0.115
+iswitch21-lo0	IN	A	10.101.0.121
+iswitch25-lo0	IN	A	10.101.0.125
+
+iswitch11-lo1	IN	A	10.101.1.111
+iswitch15-lo1	IN	A	10.101.1.115
+iswitch21-lo1	IN	A	10.101.1.121
+iswitch25-lo1	IN	A	10.101.1.125
+
+router11-mgmt	IN	A	192.168.15.2
+iswitch11-mgmt	IN	A	192.168.15.3
+iswitch15-mgmt	IN	A	192.168.15.4
+iswitch21-mgmt	IN	A	192.168.15.5
+iswitch25-mgmt	IN	A	192.168.15.6
+
+
+_kerberos._udp		IN	SRV	10 0 88 kdc0
+_kerberos._tcp		IN	SRV	10 0 88 kdc0
+_kerberos-master._udp   IN	SRV	10 0 88 kdc0
+_kerberos-adm._tcp	IN	SRV	10 0 749 kdc0
+_kpasswd._udp		IN	SRV	10 0 464 kdc0
+_kerberos		IN	TXT	INTERNAL.SIFIVE.COM

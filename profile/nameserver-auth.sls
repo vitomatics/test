@@ -35,22 +35,27 @@ bind:
   configured_zones:
     internal.sifive.com:
       type: master
+{#
     14.10.in-addr.arpa:
       type: master
     15.10.in-addr.arpa:
       type: master
     rpz:
       type: master
+#}
 
   available_zones:
     internal.sifive.com:
       file: internal.sifive.com.zone
+      pillar: site.nameserver.internal_sifive_com
+{#
     14.10.in-addr.arpa:
       file: 14.10.zone
     15.10.in-addr.arpa:
       file: 15.10.zone
     rpz:
       file: rpz.zone
+#}
 
 firewall:
   ports:

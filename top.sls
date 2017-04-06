@@ -180,6 +180,7 @@ base:
     - profile.clusterclient
     - profile.slurm-client
     - profile.slurm-node
+    - profile.nameserver-auth
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
