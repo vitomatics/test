@@ -25,7 +25,6 @@ combine		IN	A	10.14.0.2
 
 nihilanth	IN	A	10.14.0.3
 nihilanth-adns	IN	A	10.14.0.4
-adns0		IN	A	10.14.0.4
 
 breencast	IN	A	10.14.0.6
 metrocop	IN	A	10.14.0.7
@@ -98,6 +97,7 @@ salt			IN	CNAME	hal
 viki			IN	A	10.14.16.41
 salt1			IN	CNAME	viki
 yoda			IN	A	10.14.16.42
+adns0			IN	A	10.14.16.42
 
 heartofgold		IN	A	10.14.16.48
 hog			IN	CNAME	heartofgold
