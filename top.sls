@@ -180,7 +180,6 @@ base:
     - profile.clusterclient
     - profile.slurm-client
     - profile.slurm-node
-    - profile.nameserver-semicaching
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
