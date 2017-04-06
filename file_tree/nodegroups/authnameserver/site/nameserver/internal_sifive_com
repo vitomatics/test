@@ -177,6 +177,7 @@ sf-lab-net-gw	IN	CNAME	router01-ge0-0-3
 nuc1			IN	A	10.16.0.32
 turtle			IN	A	10.16.0.33
 turtle2			IN	A	10.16.0.34
+turtle3			IN	A	10.16.0.35
 
 
 router01-st0		IN	A	10.100.100.1
