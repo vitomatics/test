@@ -35,13 +35,17 @@ bind:
   configured_zones:
     internal.sifive.com:
       type: master
+      notify: true
 {#
     14.10.in-addr.arpa:
       type: master
+      notify: true
     15.10.in-addr.arpa:
       type: master
+      notify: true
     rpz:
       type: master
+      notify: true
 #}
 
   available_zones:
