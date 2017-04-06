@@ -36,11 +36,11 @@ algol		IN	A	10.14.0.12
 bender		IN	A	10.14.0.13
 hansolo		IN	A	10.14.0.14
 sf-ntp0		IN	CNAME	hansolo
+sf-ns0		IN	CNAME	hansolo
+ns2		IN	CNAME	hansolo
 
 advisor		IN	A	10.14.0.130
 
-dhcp		IN	CNAME	nihilanth
-ns0		IN	CNAME	nihilanth
 ldap		IN	CNAME	breencast
 kdc0		IN	CNAME	metrocop
 pkg		IN	CNAME	synth
@@ -78,18 +78,27 @@ marvin			IN	A	10.14.16.33
 transporter		IN	A	10.14.16.34
 trans			IN	CNAME	transporter
 smtp			IN	CNAME	transporter
+
 dalek			IN	A	10.14.16.35
 tftpboot		IN	CNAME	dalek
 sfrepo			IN	CNAME	dalek
 sfimages		IN	CNAME	dalek
 pxe			IN	CNAME	dalek
 install			IN	CNAME	dalek
+
 sandbox			IN	A	10.14.16.36
 vulcan			IN	A	10.14.16.37
+
 leia			IN	A	10.14.16.38
 he-ntp0			IN	CNAME	leia
+ns0			IN	CNAME	leia
+
+he-ns0			IN	CNAME	leia
 luke			IN	A	10.14.16.39
 he-ntp1			IN	CNAME	luke
+he-ns1			IN	CNAME	luke
+ns1			IN	CNAME	luke
+
 hal			IN	A	10.14.16.40
 salt0			IN	CNAME	hal
 ; "salt.internal.sifive.com" is used during preseed install
