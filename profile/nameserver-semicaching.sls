@@ -54,16 +54,16 @@ bind:
   available_zones:
     internal.sifive.com:
       file: db.internal.sifive.com
-      masters: "10.14.0.4;"
+      masters: "10.14.16.42;"
     14.10.in-addr.arpa:
       file: db.14.10
-      masters: "10.14.0.4;"
+      masters: "10.14.16.42;"
     15.10.in-addr.arpa:
       file: db.15.10
-      masters: "10.14.0.4;"
+      masters: "10.14.16.42;"
     rpz:
       file: db.rpz
-      masters: "10.14.0.4;"
+      masters: "10.14.16.42;"
 
 firewall:
   ports:
