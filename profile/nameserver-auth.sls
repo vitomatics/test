@@ -36,7 +36,6 @@ bind:
     internal.sifive.com:
       type: master
       notify: true
-{#
     14.10.in-addr.arpa:
       type: master
       notify: true
@@ -46,20 +45,20 @@ bind:
     rpz:
       type: master
       notify: true
-#}
 
   available_zones:
     internal.sifive.com:
       file: internal.sifive.com.zone
       pillar: 'site:nameserver:internal_sifive_com'
-{#
     14.10.in-addr.arpa:
       file: 14.10.zone
+      pillar: 'site:nameserver:10_14'
     15.10.in-addr.arpa:
       file: 15.10.zone
+      pillar: 'site:nameserver:10_15'
     rpz:
       file: rpz.zone
-#}
+      pillar: 'site:nameserver:rpz'
 
 firewall:
   ports:

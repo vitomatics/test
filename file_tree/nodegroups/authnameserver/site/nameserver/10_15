@@ -1,0 +1,43 @@
+;; ** MANAGED BY SALT ***
+;;
+;; zone 10.15.*.* reverse lookup
+
+$ORIGIN	15.10.in-addr.arpa.
+$TTL	86400
+
+@ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
+	2016080901 ; serial number
+	21600      ; refresh
+	900        ; retry
+	604800     ; expiry
+	3600       ; minimum TTL
+	)
+
+	IN	NS	adns0.internal.sifive.com.
+
+1.16	IN	PTR	iswitch11-vlan102.internal.sifive.com.
+
+16.16	IN	PTR	pdu11.internal.sifive.com.
+17.16	IN	PTR	kvm11.internal.sifive.com.
+
+32.16	IN	PTR	eddie-admin.internal.sifive.com.
+33.16	IN	PTR	marvin-admin.internal.sifive.com.
+
+48.16	IN	PTR	heartofgold-admin.internal.sifive.com.
+
+64.16	IN	PTR	gamma00-admin.internal.sifive.com.
+65.16	IN	PTR	gamma01-admin.internal.sifive.com.
+66.16	IN	PTR	gamma02-admin.internal.sifive.com.
+67.16	IN	PTR	gamma03-admin.internal.sifive.com.
+68.16	IN	PTR	gamma04-admin.internal.sifive.com.
+69.16	IN	PTR	gamma05-admin.internal.sifive.com.
+70.16	IN	PTR	gamma06-admin.internal.sifive.com.
+71.16	IN	PTR	gamma07-admin.internal.sifive.com.
+
+129.16	IN	PTR	netapp1-admin.internal.sifive.com.
+130.16	IN	PTR	netapp1-01-admin.internal.sifive.com.
+131.16	IN	PTR	netapp1-02-admin.internal.sifive.com.
+132.16	IN	PTR	netapp1-01-sp.internal.sifive.com.
+133.16	IN	PTR	netapp1-02-sp.internal.sifive.com.
+
+1.17	IN	PTR	iswitch21-vlan112.internal.sifive.com.

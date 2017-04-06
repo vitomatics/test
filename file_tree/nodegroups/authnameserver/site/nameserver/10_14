@@ -1,0 +1,90 @@
+;; ** MANAGED BY SALT ***
+;;
+;; zone 10.14.*.* reverse lookup
+
+
+$ORIGIN	14.10.in-addr.arpa.
+$TTL	86400
+
+@ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
+	2017040401 ; serial number
+	21600      ; refresh
+	900        ; retry
+	604800     ; expiry
+	3600       ; minimum TTL
+	)
+
+	IN	NS	adns0.internal.sifive.com.
+
+1.0	IN	PTR	router01-ge0-0-1.internal.sifive.com.
+2.0	IN	PTR	combine.internal.sifive.com.
+3.0	IN	PTR	nihilanth.internal.sifive.com.
+4.0	IN	PTR	nihilanth-adns.internal.sifive.com.
+
+6.0	IN	PTR	breencast.internal.sifive.com.
+7.0	IN	PTR	metrocop.internal.sifive.com.
+8.0	IN	PTR	synth.internal.sifive.com.
+9.0	IN	PTR	gonarch.internal.sifive.com.
+10.0	IN	PTR	jenkins.internal.sifive.com.
+11.0	IN	PTR	canal.internal.sifive.com.
+12.0	IN	PTR	algol.internal.sifive.com.
+13.0	IN	PTR	bender.internal.sifive.com.
+14.0	IN	PTR	hansolo.internal.sifive.com.
+
+130.0	IN	PTR	advisor.internal.sifive.com.
+
+242.0	IN	PTR	router11.internal.sifive.com.
+243.0	IN	PTR	router03.internal.sifive.com.
+
+249.0	IN	PTR	i0-drac.internal.sifive.com.
+250.0	IN	PTR	omega1-admin.internal.sifive.com.
+251.0	IN	PTR	b0-ipmi.internal.sifive.com.
+252.0	IN	PTR	bender-admin.internal.sifive.com.
+253.0	IN	PTR	combine-ipmi.internal.sifive.com.
+
+4.1	IN	PTR	i0.internal.sifive.com.
+5.1	IN	PTR	omega1.internal.sifive.com.
+6.1	IN	PTR	b0.internal.sifive.com.
+
+129.1	IN	PTR	license.internal.sifive.com.
+
+6.3	IN	PTR	gravelpit.internal.sifive.com.
+
+8.3	IN	PTR	printer01.internal.sifive.com.
+9.3	IN	PTR	promptuary.internal.sifive.com.
+
+1.16	IN	PTR	iswitch15-vlan101.internal.sifive.com.
+
+32.16	IN	PTR	eddie.internal.sifive.com.
+33.16	IN	PTR	marvin.internal.sifive.com.
+34.16	IN	PTR	transporter.internal.sifive.com.
+35.16	IN	PTR	dalek.internal.sifive.com.
+36.16	IN	PTR	sandbox.internal.sifive.com.
+37.16	IN	PTR	vulcan.internal.sifive.com.
+38.16	IN	PTR	leia.internal.sifive.com.
+39.16	IN	PTR	luke.internal.sifive.com.
+40.16	IN	PTR	hal.internal.sifive.com.
+41.16	IN	PTR	viki.internal.sifive.com.
+42.16	IN	PTR	yoda.internal.sifive.com.
+
+48.16	IN	PTR	heartofgold.internal.sifive.com.
+49.16	IN	PTR	tardis.internal.sifive.com.
+
+64.16	IN	PTR	gamma00.internal.sifive.com.
+65.16	IN	PTR	gamma01.internal.sifive.com.
+66.16	IN	PTR	gamma02.internal.sifive.com.
+67.16	IN	PTR	gamma03.internal.sifive.com.
+68.16	IN	PTR	gamma04.internal.sifive.com.
+69.16	IN	PTR	gamma05.internal.sifive.com.
+70.16	IN	PTR	gamma06.internal.sifive.com.
+71.16	IN	PTR	gamma07.internal.sifive.com.
+72.16	IN	PTR	altair.internal.sifive.com.
+73.16	IN	PTR	betel.internal.sifive.com.
+74.16	IN	PTR	klingon.internal.sifive.com.
+75.16	IN	PTR	grid.internal.sifive.com.
+76.16	IN	PTR	matrix.internal.sifive.com.
+
+92.16	IN	PTR	 netapp1-nfs1.internal.sifive.com.
+93.16	IN	PTR	 netapp1-nfs2.internal.sifive.com.
+
+1.17	IN	PTR	iswitch25-vlan111.internal.sifive.com.
