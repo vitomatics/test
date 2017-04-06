@@ -180,7 +180,7 @@ base:
     - profile.clusterclient
     - profile.slurm-client
     - profile.slurm-node
-    - profile.nameserver-auth
+    - profile.nameserver-semicaching
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
@@ -238,4 +238,5 @@ base:
 
   'yoda.internal.sifive.com':
     - subnet.sf-unix
+    - profile.nameserver-auth
     - hosts.yoda
