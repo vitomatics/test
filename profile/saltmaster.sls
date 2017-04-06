@@ -89,6 +89,8 @@ sfsalt:
         - sandbox.internal.sifive.com
       slurmserver:
         - grid.internal.sifive.com
+      authnameserver:
+        - yoda.internal.sifive.com
 
     ext_pillars:
       file_tree:
