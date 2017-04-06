@@ -51,7 +51,7 @@ bind:
   available_zones:
     internal.sifive.com:
       file: internal.sifive.com.zone
-      pillar: site.nameserver.internal_sifive_com
+      pillar: 'site:nameserver:internal_sifive_com'
 {#
     14.10.in-addr.arpa:
       file: 14.10.zone
