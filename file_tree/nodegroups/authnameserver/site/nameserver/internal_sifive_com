@@ -147,6 +147,9 @@ netapp1-nfs2		IN	A	10.14.16.93
 iswitch25-vlan111	IN	A	10.14.17.1
 he-unix02-net-gw	IN	CNAME	iswitch25-vlan111
 
+router01-ge0-0-2	IN	A	10.15.0.1
+
+i0-admin		IN	A	10.15.0.16
 
 iswitch11-vlan102	IN	A	10.15.16.1
 he-dev01-net-gw		IN	CNAME	iswitch11-vlan102

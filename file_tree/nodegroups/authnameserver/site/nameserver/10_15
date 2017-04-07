@@ -15,6 +15,10 @@ $TTL	86400
 
 	IN	NS	adns0.internal.sifive.com.
 
+1.0	IN	PTR	router01-ge0-0-2.internal.sifive.com.
+
+16.0	IN	PTR	i0-admin.internal.sifive.com.
+
 1.16	IN	PTR	iswitch11-vlan102.internal.sifive.com.
 
 16.16	IN	PTR	pdu11.internal.sifive.com.
