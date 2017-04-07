@@ -49,8 +49,8 @@ apt		IN	CNAME	gonarch
 
 router03	IN	A	10.14.0.243
 
-i0-drac		IN	A	10.14.0.249
-i0-admin	IN	CNAME	i0-drac
+; i0-drac		IN	A	10.14.0.249
+; i0-admin	IN	CNAME	i0-drac
 omega1-admin	IN	A	10.14.0.250
 b0-ipmi		IN	A	10.14.0.251
 b0-admin	IN	CNAME	b0-ipmi
