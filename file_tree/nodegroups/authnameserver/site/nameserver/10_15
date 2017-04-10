@@ -19,6 +19,8 @@ $TTL	86400
 
 16.0	IN	PTR	i0-admin.internal.sifive.com.
 17.0	IN	PTR	omega1-admin.internal.sifive.com.
+18.0	IN	PTR	b0.internal.sifive.com.
+19.0	IN	PTR	bender.internal.sifive.com.
 
 1.16	IN	PTR	iswitch11-vlan102.internal.sifive.com.
 

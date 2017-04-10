@@ -36,12 +36,6 @@ $TTL	86400
 242.0	IN	PTR	router11.internal.sifive.com.
 243.0	IN	PTR	router03.internal.sifive.com.
 
-; 249.0	IN	PTR	i0-drac.internal.sifive.com.
-250.0	IN	PTR	omega1-admin.internal.sifive.com.
-251.0	IN	PTR	b0-ipmi.internal.sifive.com.
-252.0	IN	PTR	bender-admin.internal.sifive.com.
-253.0	IN	PTR	combine-ipmi.internal.sifive.com.
-
 4.1	IN	PTR	i0.internal.sifive.com.
 5.1	IN	PTR	omega1.internal.sifive.com.
 6.1	IN	PTR	b0.internal.sifive.com.
