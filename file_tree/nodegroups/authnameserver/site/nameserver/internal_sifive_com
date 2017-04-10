@@ -51,8 +51,8 @@ router03	IN	A	10.14.0.243
 
 ; i0-drac		IN	A	10.14.0.249
 ; i0-admin	IN	CNAME	i0-drac
-omega1-admin	IN	A	10.14.0.250
-b0-ipmi		IN	A	10.14.0.251
+; omega1-admin	IN	A	10.14.0.250
+; b0-ipmi		IN	A	10.14.0.251
 b0-admin	IN	CNAME	b0-ipmi
 bender-admin	IN	A	10.14.0.252
 combine-ipmi	IN	A	10.14.0.253
@@ -150,6 +150,7 @@ he-unix02-net-gw	IN	CNAME	iswitch25-vlan111
 router01-ge0-0-2	IN	A	10.15.0.1
 
 i0-admin		IN	A	10.15.0.16
+omega1-admin		IN	A	10.15.0.17
 
 iswitch11-vlan102	IN	A	10.15.16.1
 he-dev01-net-gw		IN	CNAME	iswitch11-vlan102

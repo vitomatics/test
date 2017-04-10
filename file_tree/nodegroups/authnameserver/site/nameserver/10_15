@@ -18,6 +18,7 @@ $TTL	86400
 1.0	IN	PTR	router01-ge0-0-2.internal.sifive.com.
 
 16.0	IN	PTR	i0-admin.internal.sifive.com.
+17.0	IN	PTR	omega1-admin.internal.sifive.com.
 
 1.16	IN	PTR	iswitch11-vlan102.internal.sifive.com.
 
