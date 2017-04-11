@@ -171,6 +171,9 @@ pkgs:
     # Mentor calibredrv
     libgstreamer0.10-0: true
 
+    # Cadence layout
+    libglu1-mesa: true
+
     # Linux kernel development
     device-tree-compiler: true
     libfdt-dev: true
