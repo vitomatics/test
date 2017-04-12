@@ -160,7 +160,7 @@ sfpreseed:
         - salt.internal.sifive.com
       salthash: sha256
       saltconffile: 99-sfpreseed.conf
-      disthost: mirrors.kernel.org
+      disthost: mirrors.ocf.berkeley.edu
       distdir: ubuntu
       distsuite: xenial
       hosts:
@@ -213,6 +213,13 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: server_ssd_disk
+        frogstar:
+          ipaddress: 10.14.16.77
+          subnet: he1-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_small_disk
         gamma00:
           subnet: he1-dynamic
           serial: '0'

@@ -5,6 +5,7 @@ include:
   - vms.algol
   - vms.betel
   - vms.dalek
+  - vms.frogstar
   - vms.grid
   - vms.gravelpit
   - vms.hal

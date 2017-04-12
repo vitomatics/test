@@ -107,6 +107,15 @@ base:
     - profile.ganglia-node-server
     - hosts.betel
 
+  'frogstar.internal.sifive.com':
+    - subnet.he-unix01
+    - profile.devel
+    - profile.clusterclient
+    - profile.login
+    - profile.slurm-client
+    - profile.ganglia-node-server
+    - hosts.frogstar
+
   'eddie.internal.sifive.com':
     - subnet.he-unix01
     - profile.vmhost
