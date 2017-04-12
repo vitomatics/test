@@ -3,6 +3,6 @@
 
 # network - dhcp
 
-states:
-  firewall.iptables: true
+# states:
+#   firewall.iptables: true
 
