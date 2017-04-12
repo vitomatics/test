@@ -26,7 +26,7 @@ sfvirt:
     xenial-default:
       libvirtos: ubuntu16.04
       type: debian-updates
-      host: mirrors.kernel.org
+      host: mirrors.ocf.berkeley.edu
       dir: ubuntu
       release: xenial
       arch: amd64
