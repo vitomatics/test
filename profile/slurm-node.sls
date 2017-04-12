@@ -1,4 +1,4 @@
-## SLURM resource manager execution node machines
+## SLURM resource manager execution node machine
 
 include:
   - profile.slurm-cluster1

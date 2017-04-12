@@ -179,7 +179,7 @@ base:
     - profile.devel-cutdown
     - profile.clusterclient
     - profile.slurm-client
-    - profile.slurm-node
+    - profile.slurm-node-slurmonly
     - hosts.sandbox
 
   'nuc1.internal.sifive.com':
