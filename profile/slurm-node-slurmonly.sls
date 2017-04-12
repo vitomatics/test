@@ -6,3 +6,7 @@ include:
 
 states:
   slurm.pam: true
+
+pam:
+  sshd:
+    require_slurm: true
