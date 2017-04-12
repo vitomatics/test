@@ -2,7 +2,7 @@
 ## login to users who are running a SLURM job
 
 include:
-  - profile.slurm-node.sls
+  - profile.slurm-node
 
 states:
   slurm.pam: true
