@@ -83,6 +83,12 @@
 10.14.16.75 grid
 10.14.16.76 matrix
 10.14.16.77 frogstar
+10.14.16.78 gamma08 g08
+10.14.16.79 gamma09 g09
+10.14.16.80 gamma10 g10
+10.14.16.81 gamma11 g11
+10.14.16.82 gamma12 g12
+10.14.16.83 gamma13 g13
 
 10.14.16.92 netapp1-nfs1
 10.14.16.93 netapp1-nfs2
@@ -128,6 +134,12 @@
 10.15.16.69 gamma05-admin
 10.15.16.70 gamma06-admin
 10.15.16.71 gamma07-admin
+10.15.16.72 gamma08-admin
+10.15.16.73 gamma09-admin
+10.15.16.74 gamma10-admin
+10.15.16.75 gamma11-admin
+10.15.16.76 gamma12-admin
+10.15.16.77 gamma13-admin
 
 10.15.16.129 netapp1-admin
 10.15.16.130 netapp1-01-admin

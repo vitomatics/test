@@ -142,6 +142,19 @@ gweb1			IN	CNAME	matrix
 gmon1			IN	CNAME	matrix
 frogstar		IN	A	10.14.16.77
 
+gamma08			IN	A	10.14.16.78
+g08			IN	CNAME	gamma08
+gamma09			IN	A	10.14.16.79
+g09			IN	CNAME	gamma09
+gamma10			IN	A	10.14.16.80
+g10			IN	CNAME	gamma10
+gamma11			IN	A	10.14.16.81
+g11			IN	CNAME	gamma11
+gamma12			IN	A	10.14.16.82
+g12			IN	CNAME	gamma12
+gamma13			IN	A	10.14.16.83
+g13			IN	CNAME	gamma13
+
 netapp1-nfs1		IN	A	10.14.16.92
 netapp1-nfs2		IN	A	10.14.16.93
 
