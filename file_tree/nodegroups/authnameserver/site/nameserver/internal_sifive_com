@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017041302 ; serial number
+	2017041303 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -142,18 +142,18 @@ gweb1			IN	CNAME	matrix
 gmon1			IN	CNAME	matrix
 frogstar		IN	A	10.14.16.77
 
-gamma08			IN	A	10.14.16.78
-g08			IN	CNAME	gamma08
-gamma09			IN	A	10.14.16.79
-g09			IN	CNAME	gamma09
-gamma10			IN	A	10.14.16.80
+gamma10			IN	A	10.14.16.78
 g10			IN	CNAME	gamma10
-gamma11			IN	A	10.14.16.81
+gamma11			IN	A	10.14.16.79
 g11			IN	CNAME	gamma11
-gamma12			IN	A	10.14.16.82
+gamma12			IN	A	10.14.16.80
 g12			IN	CNAME	gamma12
-gamma13			IN	A	10.14.16.83
+gamma13			IN	A	10.14.16.81
 g13			IN	CNAME	gamma13
+gamma14			IN	A	10.14.16.82
+g14			IN	CNAME	gamma14
+gamma15			IN	A	10.14.16.83
+g15			IN	CNAME	gamma15
 
 netapp1-nfs1		IN	A	10.14.16.92
 netapp1-nfs2		IN	A	10.14.16.93
