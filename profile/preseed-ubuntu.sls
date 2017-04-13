@@ -220,6 +220,12 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
+        gamma:
+          subnet: he1-dynamic
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: gamma_disk
         gamma00:
           subnet: he1-dynamic
           serial: '0'
