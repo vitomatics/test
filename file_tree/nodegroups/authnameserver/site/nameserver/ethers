@@ -1,0 +1,119 @@
+## ** Managed by SiFive salt **
+##
+## SiFive ethers file
+##
+## Note this is for documentation purposes only and should not be used
+## as an actual ethers file
+
+
+poly01			00:04:f2:fc:2b:78
+poly02			00:04:f2:fc:4f:c2
+poly03			00:04:f2:07:72:dd
+poly04			64:16:7f:06:24:7a
+
+i0-admin		14:18:77:44:22:7a
+omega1-admin		14:18:77:44:1c:c5
+b0-admin		0c:c4:7a:ad:dd:06 
+bender-admin		0c:c4:7a:ad:e2:b6
+
+bender-mb1		0c:c4:7a:a8:d6:74
+bender-mb2		0c:c4:7a:a8:d6:75
+bender-pci0		00:02:c9:4e:21:28
+bender			0c:c4:7a:a8:d6:74
+
+omega1-mb1		14:18:77:44:1c:c3
+omega1-mb2		14:18:77:44:1c:c4
+omega1-pci2-0		90:e2:ba:c8:c0:8c
+omega1-pci2-1		90:e2:ba:c8:c0:8d
+
+spare0-0		90:e2:ba:c6:b0:a4
+spare0-1		90:e2:ba:c6:b0:a5
+
+printer01	b0:5a:da:c7:d0:99
+
+license		00:02:c9:4e:20:1e
+
+pdu11           00:20:85:f4:c2:d2
+
+heartofgold-admin	f4:8e:38:cd:ec:d4
+heartofgold-mb1		24:6e:96:1c:48:d0
+heartofgold-mb2		24:6e:96:1c:48:d2
+heartofgold-mb3		24:6e:96:1c:48:d4
+heartofgold-mb4		24:6e:96:1c:48:d5
+
+eddie-admin		f4:8e:38:cd:e4:14
+eddie-mb1		24:6e:96:19:d0:d8
+eddie-mb2		24:6e:96:19:d0:da
+eddie-mb3		24:6e:96:19:d0:dc
+eddie-mb4		24:6e:96:19:d0:dd
+eddie			24:6e:96:19:d0:dc
+eddie-vms		24:6e:96:19:d0:d8
+
+marvin-admin		f4:8e:38:cd:da:e4
+marvin-mb1		24:6e:96:19:c7:50
+marvin-mb2		24:6e:96:19:c7:52
+marvin-mb3		24:6e:96:19:c7:54
+marvin-mb4		24:6e:96:19:c7:55
+marvin			24:6e:96:19:c7:54
+marvin-vms		24:6e:96:19:c7:50
+
+gamma00-admin		0c:c4:7a:c4:5d:af
+gamma00-pci0		e4:1d:2d:47:d3:20
+gamma00-mb1		0c:c4:7a:c4:63:54
+gamma01-admin		0c:c4:7a:c4:6f:60
+gamma01-pci0		e4:1d:2d:47:de:10
+gamma01-mb1		0c:c4:7a:c4:72:34
+gamma02-admin		0c:c4:7a:c4:5d:ac
+gamma02-pci0		e4:1d:2d:47:dd:30
+gamma02-mb1		0c:c4:7a:c4:63:4e
+gamma03-admin		0c:c4:7a:c4:6f:56
+gamma03-pci0		e4:1d:2d:47:de:20
+gamma03-mb1		0c:c4:7a:c4:72:20
+gamma04-admin		0c:c4:7a:c4:5e:15
+gamma04-pci0		e4:1d:2d:47:d3:00
+gamma04-mb1		0c:c4:7a:c4:64:20
+gamma05-admin		0c:c4:7a:c4:5e:46
+gamma05-pci0		e4:1d:2d:47:dc:c0
+gamma05-mb1		0c:c4:7a:c4:64:82
+gamma06-admin		0c:c4:7a:c4:5d:f6
+gamma06-pci0		e4:1d:2d:47:dd:50
+gamma06-mb1		0c:c4:7a:c4:63:e2
+gamma07-admin		0c:c4:7a:cf:f0:09
+gamma07-pci0		e4:1d:2d:47:dd:60
+gamma07-mb1		0c:c4:7a:cf:f3:8a
+
+# The Inetl NUC
+nuc1			f4:4d:30:61:c2:49
+# A network card that is often used on the VC707 FPGA setup
+turtle			00:0a:cd:29:9e:45
+
+advisor			00:16:3e:fe:fa:3b
+breencast		00:16:3e:e1:83:aa
+# canal				00:16:3e:fe:fa:3b
+# citadel			00:16:3e:5c:50:48
+example			00:16:3e:e4:74:70
+gonarch			00:16:3e:95:9b:ee
+jenkins			00:16:3e:8e:49:00
+metrocop		00:16:3e:3e:c0:0c
+nihilanth		00:16:3e:0a:74:64
+synth			00:16:3e:88:55:b7
+
+altair			52:54:00:ff:00:01
+dalek			52:54:00:ff:00:02
+sandbox			52:54:00:ff:00:03
+vulcan			52:54:00:ff:00:04
+algol			52:54:00:ff:00:05
+betel			52:54:00:ff:00:06
+hansolo			52:54:00:ff:00:07
+leia			52:54:00:ff:00:08
+luke			52:54:00:ff:00:09
+klingon			52:54:00:ff:00:0a
+gravelpit		52:54:00:ff:00:0b
+hal			52:54:00:ff:00:0c
+viki			52:54:00:ff:00:0d
+tardis			52:54:00:ff:00:0e
+grid			52:54:00:ff:00:10
+matrix			52:54:00:ff:00:11
+transporter		52:54:00:ff:00:12
+yoda			52:54:00:ff:00:13
+frogstar		52:54:00:ff:00:14

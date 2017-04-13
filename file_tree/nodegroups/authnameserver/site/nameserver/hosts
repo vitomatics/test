@@ -1,0 +1,289 @@
+## ** managed by SiFive salt **
+##
+## SiFive hosts file
+##
+## Note this is for documentation purposes only and should not be used
+## as an actual hosts file
+
+## 10.14.0.0-> 10.14.15.255 sf-unix-net
+# 10.14.0.0 RESERVED - do not use
+10.14.0.1 router01-ge0-0-1 sf-unix-net-gw router01
+10.14.0.2 combine               # static
+10.14.0.3 nihilanth 		# static
+10.14.0.4 nihilanth-adns	# static
+# 10.14.0.5 was citadel		# static
+10.14.0.6 breencast		# static
+10.14.0.7 metrocop		# static
+10.14.0.8 synth			# static
+10.14.0.9 gonarch		# static
+10.14.0.10 jenkins		# static
+# 10.14.0.11 was canal
+10.14.0.12 algol		# static
+10.14.0.13 bender		# static
+10.14.0.14 hansolo		# static
+
+10.14.0.130 example		# static
+
+# 10.14.0.249 i0-drac i0-admin	# static
+# 10.14.0.250 omega1-admin	# static
+# 10.14.0.251 b0-ipmi b0-admin	# static
+# 10.14.0.252 bender-admin		# static
+# 10.14.0.253 combine-ipmi combine-admin	# static
+
+10.14.1.4 i0			# static
+10.14.1.5 omega1		# static
+10.14.1.6 b0			# static
+
+10.14.1.129 license		# static
+
+10.14.3.6 gravelpit		# assigned by DHCP, test VM
+# 10.14.3.7 was nuc1
+10.14.3.8 printer01 hp-m553	# assigned by DHCP on nihilanth
+10.14.3.9 promptuary 		# assigned by DHCP on nihilanth, aou's host
+10.14.3.10 oldlaptop010
+...
+10.14.3.224 oldlaptop224
+10.14.3.225 pxeclient225
+...
+10.14.3.254 pxeclient254
+
+# 10.14.15.255 RESERVED - do not use
+
+
+## 10.14.16.0->10.14.31.255 he-unix-net
+# 10.14.16.0 RESERVED - do not use
+10.14.16.1 iswitch15-vlan101 he-unix01-net-gw
+
+10.14.16.32 eddie
+10.14.16.33 marvin
+10.14.16.34 transporter trans
+10.14.16.35 dalek
+10.14.16.36 sandbox
+10.14.16.37 vulcan
+10.14.16.38 leia ntp0
+10.14.16.39 luke ntp1
+10.14.16.40 hal
+10.14.16.41 viki
+10.14.16.42 yoda			# static
+
+10.14.16.48 heartofgold hog
+10.14.16.49 tardis
+
+10.14.16.64 gamma00 g00
+10.14.16.65 gamma01 g01
+10.14.16.66 gamma02 g02
+10.14.16.67 gamma03 g03
+10.14.16.68 gamma04 g04
+10.14.16.69 gamma05 g05
+10.14.16.70 gamma06 g06
+10.14.16.71 gamma07 g07
+10.14.16.72 altair he.sifive.com
+10.14.16.73 betel he2.sifive.com
+10.14.16.74 klingon
+10.14.16.75 grid
+10.14.16.76 matrix
+10.14.16.77 frogstar
+
+10.14.16.92 netapp1-nfs1
+10.14.16.93 netapp1-nfs2
+
+10.14.16.128 he-unix01-net-dhcp128
+...
+10.14.16.223 he-unix01-net-dhcp223
+10.14.16.224 he-unix01-net-pxe224
+...
+10.14.16.254 he-unix01-net-pxe254
+# 10.14.16.255 RESERVED - do not use
+
+# 10.14.17.0 RESERVED - do not use
+10.14.17.1 iswitch25-vlan111 he-unix02-net-gw 
+# 10.14.17.255 RESERVED - do not use
+
+# 10.14.31.255 RESERVED - do not use
+
+## 10.15.0.0-> 10.15.15.255 sf-dev-net
+# 10.15.0.0 RESERVED - do not use
+10.15.0.1 router01-ge0-0-2
+
+10.15.0.16 i0-admin			# static
+10.15.0.17 omega1-admin			# static
+10.15.0.18 b0-admin			# static
+10.15.0.19 bender-admin			# static
+
+# 10.15.15.255 RESERVED - do not use
+
+## 10.15.16.0->10.15.31.255 he-dev-net
+# 10.15.16.0 RESERVED - do not use
+10.15.16.1 iswitch11-vlan102 he-dev01-net-gw 
+10.15.16.16 pdu11
+10.15.16.17 kvm11
+10.15.16.32 eddie-admin
+10.15.16.33 marvin-admin
+10.15.16.48 heartofgold-admin hog-admin
+10.15.16.64 gamma00-admin
+10.15.16.65 gamma01-admin
+10.15.16.66 gamma02-admin
+10.15.16.67 gamma03-admin
+10.15.16.68 gamma04-admin
+10.15.16.69 gamma05-admin
+10.15.16.70 gamma06-admin
+10.15.16.71 gamma07-admin
+
+10.15.16.129 netapp1-admin
+10.15.16.130 netapp1-01-admin
+10.15.16.131 netapp1-02-admin
+10.15.16.132 netapp1-01-sp
+10.15.16.133 netapp1-02-sp
+
+# 10.15.17.0 RESERVED - do not use
+10.15.17.1 iswitch21-vlan112 he-dev02-net-gw
+# 10.15.17.255 RESERVED - do not use
+
+# 10.15.31.255 RESERVED - do not use
+
+## 10.16.0.0->10.16.15.255 sf-lab-net
+# 10.16.0.0 RESERVED - do not use
+10.16.0.1 sf-lab-net-gw router01-ge0-0-3
+10.16.0.32 nuc1
+10.16.0.33 turtle
+10.16.0.128 sf-lab-net-dhcp128
+...
+10.16.0.191 sf-lab-net-dhcp191
+# 10.16.15.255 RESERVED - do not use
+
+## 10.17.0.0->10.17.15.255 sf-laptop-net
+# 10.17.0.0 RESERVED - do not use
+10.17.0.1 sf-laptop-net-gw
+10.17.0.16 laptop016
+...
+10.17.0.254 laptop254
+# 10.17.0.255 RESERVED - do not use
+
+# 10.17.15.255 RESERVED - do not use
+## 10.17.16.0->10.17.31.255 he-laptop-net
+# 10.17.16.0 RESERVED - do not use
+10.17.16.1 router11-ge0-0-5 he-laptop-net-gw
+10.17.16.2 he-laptop-net-dhcp002
+10.17.16.3 he-laptop-net-dhcp003
+# 10.17.31.255 RESERVED - do not use
+
+
+## 10.100.0.0->10.100.255.255 - transit subnets
+##    10.100.100.0->10.100.100.3 - tran-vpn1-net
+# 10.100.100.0 RESERVED
+10.100.100.1 router01-st0
+10.100.100.2 router11-st0
+# 10.100.100.3 RESERVED
+##    10.100.100.4->10.100.100.7 -  UNUSED
+# 10.100.100.4 RESERVED
+# 10.100.100.5 AVAILABLE
+# 10.100.100.6 AVAILABLE
+# 10.100.100.7 RESERVED
+
+##    10.100.200.0->10.100.200.3 - tran-iswitch11a-net
+# 10.100.200.0 RESERVED
+10.100.200.1 router11-ge0-0-8
+10.100.200.2 iswitch11-ge0-2-0 iswitch11
+# 10.100.200.3 RESERVED
+
+##    10.100.200.4->10.100.200.7 - tran-iswitch15a-net
+# 10.100.200.4 RESERVED
+10.100.200.5 router11-ge0-0-9
+10.100.200.6 iswitch15-ge0-0-0 iswitch15
+# 10.100.200.7 RESERVED
+
+##    10.100.200.8->10.100.200.11 - tran-iswitch21a-net
+# 10.100.200.8 RESERVED
+10.100.200.9 router11-ge0-0-10
+10.100.200.10 iswitch21-ge0-2-0 iswitch21
+# 10.100.200.11 RESERVED
+
+##    10.100.200.12->10.100.200.15 - tran-iswitch25a-net
+# 10.100.200.12 RESERVED
+10.100.200.13 router11-ge0-0-11
+10.100.200.14 iswitch25-ge0-0-0 iswitch25
+# 10.100.200.15 RESERVED
+
+## 10.101.0.0->10.101.0.255 - router-net
+10.101.0.1 router01-lo0
+10.101.0.3 router03-lo0
+10.101.0.11 router11-lo0 router11
+10.101.0.111 iswitch11-lo0
+10.101.0.115 iswitch15-lo0
+10.101.0.121 iswitch21-lo0
+10.101.0.125 iswitch25-lo0
+
+10.101.1.111 iswitch11-lo1
+10.101.1.115 iswitch15-lo1
+10.101.1.121 iswitch21-lo1
+10.101.1.125 iswitch25-lo1
+
+## 64.62.193.192->64.62.193.255 he-sifive-net
+# 64.62.193.192 RESERVED - do not use
+64.62.193.193 he-laptop-nat-net
+64.62.193.194 he-unix-nat-net
+64.62.193.195 he-login1.sifive.com he.sifive.com he1.sifive.com nm.sifive.com
+64.62.193.196 he-smtpout.sifive.com
+64.62.193.197 he-login2.sifive.com he2.sifive.com x2.sifive.com
+64.62.193.198 gitkick1.sifive.com
+# 64.62.193.255 RESERVED - do not use
+
+## 169.254.0.0->169.254.255.255 he-netapp-net
+## RESERVED for use by netapp internal networks
+
+## 172.16.1.0->172.16.1.255 sf-oldguest-net
+# 172.16.1.0 RESERVED - do not use
+172.16.1.1 oldguest-net-gw
+172.16.1.2 guest002   # assigned by DHCP
+...
+172.16.1.254 guest254
+# 172.16.1.255 RESERVED - do not use
+
+## 172.16.123.0->172.16.123.255 sf-voip-net
+# 172.16.123.0 RESERVED - do not use
+# 172.16.123.1 voip-net-gateway  # Fastmetric VOIP PBX
+
+# 172.16.123.101 poly01         # window-side conference room polycom
+# 172.16.123.103 poly02         # door-side conference room polycom
+
+# 172.16.123.255 RESERVED - do not use
+
+## 192.168.14.0->192.168.14.255 sf-guest-net
+# 192.168.14.0 RESERVED - do not use
+192.168.14.1 sf-guest-net-gw
+...
+192.168.14.128 sf-guest-dhcp128
+...
+192.168.14.191 sf-guest-dhcp191
+...
+# 192.168.14.255 RESERVED - do not use
+
+## 192.168.15.0->192.168.15.255 he-console-net
+# 192.168.15.0 RESERVED - do not use
+192.168.15.2 he-console-router11 router11-mgmt
+192.168.15.3 he-console-iswitch11 iswitch11-mgmt
+192.168.15.4 he-console-iswitch15 iswitch15-mgmt
+192.168.15.5 he-console-iswitch21 iswitch21-mgmt
+192.168.15.6 he-console-iswitch25 iswitch25-mgmt
+# 192.168.15.255 RESERVED - do not use
+
+## 216.38.154.16->216.38.154.23 sf-fast-net
+# 216.38.154.16 RESERVED - do not use
+216.38.154.17 sf-fast-net-gw
+216.38.154.18 router01-ge0-0-0-guest-nat sf-guest-nat-net
+216.38.154.19 router01-ge0-0-0
+#216.38.154.20 AVAILABLE
+216.38.154.21 router01-ge0-0-0b sf-sifive-nat-net login.sifive.com sf.sifive.com gitkick1.sifive.com
+216.38.154.22 airport01-wan
+# 216.38.154.23 RESERVED - do not use
+
+# Fastmetrics addresses
+216.38.158.4 ns3.fastmetrics.net
+216.38.158.5 ns4.fastmetrics.net
+
+# HE border subnet
+## 216.218.158.84->216.218.158.87 he-border-net
+# 216.218.158.84 RESERVED - do not use
+216.218.158.85 he-border-net-gw
+216.218.158.86 router11-ge0-0-0
+# 216.218.158.87 RESERVED - do not use
