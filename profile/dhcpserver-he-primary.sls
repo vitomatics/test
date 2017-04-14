@@ -81,6 +81,25 @@ dhcpd:
     gamma07:
       hardware: ethernet e4:1d:2d:47:dd:60
       fixed-address: gamma07.internal.sifive.com
+    gamma10:
+      hardware: 24:8a:07:f8:b3:60
+      fixed-address: gamma10.internal.sifive.com
+    gamma11:
+      hardware: 24:8a:07:
+      fixed-address: gamma11.internal.sifive.com
+    gamma12:
+      hardware: 24:8a:07:
+      fixed-address: gamma12.internal.sifive.com
+    gamma13:
+      hardware: 24:8a:07:
+      fixed-address: gamma13.internal.sifive.com
+    gamma14:
+      hardware: 24:8a:07:
+      fixed-address: gamma14.internal.sifive.com
+    gamma15:
+      hardware: 24:8a:07:
+      fixed-address: gamma15.internal.sifive.com
+
     sandbox:
       hardware: ethernet 52:54:00:ff:00:03
       fixed-address: sandbox.internal.sifive.com

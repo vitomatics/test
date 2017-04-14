@@ -83,6 +83,9 @@ gamma07-pci0		e4:1d:2d:47:dd:60
 gamma07-mb1		0c:c4:7a:cf:f3:8a
 
 gamma10-admin		0c:c4:7a:9a:7f:8a
+gamma10-mb1		0c:c4:7a:9a:84:30
+gamma10-mb2		0c:c4:7a:9a:84:31
+gamma10-pci0		24:8a:07:f8:b3:60
 gamma11-admin		0c:c4:7a:9a:7f:8b
 gamma12-admin		0c:c4:7a:9a:81:6a
 gamma13-admin		0c:c4:7a:9a:81:23
