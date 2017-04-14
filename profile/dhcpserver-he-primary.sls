@@ -60,27 +60,35 @@ dhcpd:
     gamma00:
       hardware: ethernet e4:1d:2d:47:d3:20
       fixed-address: gamma00.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
     gamma01:
       hardware: ethernet e4:1d:2d:47:de:10
       fixed-address: gamma01.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
     gamma02:
       hardware: ethernet e4:1d:2d:47:dd:30
       fixed-address: gamma02.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
     gamma03:
       hardware: ethernet e4:1d:2d:47:de:20
       fixed-address: gamma03.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
     gamma04:
       hardware: ethernet e4:1d:2d:47:d3:00
       fixed-address: gamma04.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
     gamma05:
       hardware: ethernet e4:1d:2d:47:dc:c0
       fixed-address: gamma05.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
     gamma06:
       hardware: ethernet e4:1d:2d:47:dd:50
       fixed-address: gamma06.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
     gamma07:
       hardware: ethernet e4:1d:2d:47:dd:60
       fixed-address: gamma07.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
     gamma10:
       hardware: ethernet 24:8a:07:f8:b3:60
       fixed-address: gamma10.internal.sifive.com
