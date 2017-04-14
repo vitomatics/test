@@ -82,7 +82,12 @@ gamma07-admin		0c:c4:7a:cf:f0:09
 gamma07-pci0		e4:1d:2d:47:dd:60
 gamma07-mb1		0c:c4:7a:cf:f3:8a
 
-gamma10-admin		0c:c4:7a:9a:80:5a
+gamma10-admin		0c:c4:7a:9a:7f:8a
+gamma11-admin		0c:c4:7a:9a:7f:8b
+gamma12-admin		0c:c4:7a:9a:81:6a
+gamma13-admin		0c:c4:7a:9a:81:23
+gamma14-admin		0c:c4:7a:9a:7f:88
+gamma15-admin		0c:c4:7a:9a:80:5a
 
 # The Inetl NUC
 nuc1			f4:4d:30:61:c2:49
