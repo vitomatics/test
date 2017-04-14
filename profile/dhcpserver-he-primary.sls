@@ -106,7 +106,7 @@ dhcpd:
       fixed-address: gamma13.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     gamma14:
-      hardware: ethernet 24:8a:07:00:00:03
+      hardware: ethernet 24:8a:07:f8:aa:80
       fixed-address: gamma14.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     gamma15:
