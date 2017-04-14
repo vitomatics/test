@@ -118,6 +118,9 @@ dhcpd:
     gamma07-admin:
       hardware: ethernet 0c:c4:7a:cf:f0:09
       fixed-address: gamma07-admin.internal.sifive.com
+    gamma10-admin:
+      hardware: ethernet 0c:c4:7a:9a:80:5a
+      fixed-address: gamma10-admin.internal.sifive.com
 
 {% block hosts_extra %}
 {% endblock %}
