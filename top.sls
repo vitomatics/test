@@ -162,8 +162,10 @@ base:
     - profile.ganglia-node-compute
     - hosts.gamma
 
+{#
   'gamma1*.internal.sifive.com':
     - profile.slurm-node-slurmonly
+#}
 
   'i0.internal.sifive.com':
     - subnet.sf-unix
