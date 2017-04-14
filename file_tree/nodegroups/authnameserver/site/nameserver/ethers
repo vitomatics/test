@@ -87,10 +87,15 @@ gamma10-mb1		0c:c4:7a:9a:84:30
 gamma10-mb2		0c:c4:7a:9a:84:31
 gamma10-pci0		24:8a:07:f8:b3:60
 gamma11-admin		0c:c4:7a:9a:7f:8b
+gamma11-pci0		24:8a:07:f8:b3:50
 gamma12-admin		0c:c4:7a:9a:81:6a
+gamma12-pci0		24:8a:07:f8:b2:80
 gamma13-admin		0c:c4:7a:9a:81:23
+gamma13-pci0		24:8a:07:f8:aa:a0
 gamma14-admin		0c:c4:7a:9a:7f:88
+gamma14-pci0		24:8a:07:f8:aa:80
 gamma15-admin		0c:c4:7a:9a:80:5a
+gamma15-pci0		24:8a:07:f8:b2:60
 
 # The Inetl NUC
 nuc1			f4:4d:30:61:c2:49
