@@ -31,7 +31,7 @@ slurm:
       RealMemory: '125000'
       Feature: gamma
   partitions:
-    default:
+    standard:
       Default: yes
       nodes:
         - 'gamma[00-07]'
