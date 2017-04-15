@@ -1,4 +1,6 @@
 ## SLURM config for cluster 1
+##
+## WARNING - be sure to use single quotes around SLURM-style times
 
 # slurm:MungeKey64 is in this secret.munge file
 include:
@@ -39,7 +41,7 @@ slurm:
     quick:
       DefMemPerCPU: 4000
       MaxMemPerCPU: 16000
-      MaxTime: 4:00:00
+      MaxTime: '4:00:00'
       MaxNodes: 1
       nodes:
         - 'gamma[14-15]'
