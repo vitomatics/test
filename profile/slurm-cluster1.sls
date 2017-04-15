@@ -17,7 +17,7 @@ slurm:
   PriorityType: multifactor
   PriorityWeightQOS: 1000
   PriorityWeightAge: 1000
-  PriorityMaxAge: 24:00:00
+  PriorityMaxAge: '24:00:00'
 
   DefMemPerCPU: '4000'
 
