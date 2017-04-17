@@ -14,7 +14,7 @@ slurm:
   ControlAddr: grid.internal.sifive.com
   SlurmctldPort: '6817'
   SlurmdPort: '6818'
-  SrunPortRange: '6820-6839'
+  SrunPortRange: '6820-9819'
 
   PriorityType: multifactor
   PriorityWeightQOS: 1000
