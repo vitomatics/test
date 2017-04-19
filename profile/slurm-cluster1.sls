@@ -23,7 +23,7 @@ slurm:
   PriorityMaxAge: '24:00:00'
 
   TaskPlugin: affinity
-#   TaskPluginParam: Threads
+  TaskPluginParam: Threads
 
   DefMemPerCPU: '4000'
 
