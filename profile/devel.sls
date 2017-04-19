@@ -57,6 +57,7 @@ pkgs:
     ## Miscellaneous
     tcsh: true
     finger: true
+    zip: true
     unzip: true
     tree: true
     parallel: true
