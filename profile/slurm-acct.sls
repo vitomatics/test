@@ -3,6 +3,10 @@ include:
 
 slurm:
   acct:
+    clusters:
+      test1: true
+      test2: true
+      test3: false
     qos:
       dead:
         absent: true
