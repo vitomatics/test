@@ -4,8 +4,8 @@ include:
 slurm:
   acct:
     clusters:
-      test1: true
-      test2: true
+      test1: false
+      test2: false
       test3: false
     qos:
       dead:
