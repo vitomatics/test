@@ -49,6 +49,7 @@ sfsalt:
         - algol.internal.sifive.com
         - altair.internal.sifive.com
         - betel.internal.sifive.com
+        - frogstar.internal.sifive.com
       compute:
         - gamma*.internal.sifive.com
         - i0.internal.sifive.com
@@ -57,6 +58,7 @@ sfsalt:
         - algol.internal.sifive.com
         - altair.internal.sifive.com
         - betel.internal.sifive.com
+        - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
         - i0.internal.sifive.com
         - b0.internal.sifive.com
@@ -81,6 +83,7 @@ sfsalt:
         - algol.internal.sifive.com
         - altair.internal.sifive.com
         - betel.internal.sifive.com
+        - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
         - sandbox.internal.sifive.com
         - grid.internal.sifive.com
