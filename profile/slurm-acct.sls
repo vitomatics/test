@@ -4,9 +4,11 @@ include:
 slurm:
   acct:
     clusters:
-      test1: false
-      test2: false
-      test3: false
+      test1:
+        MaxWall: '4:0:0'
+      test2: {}
+      test3:
+        absent: true
     qos:
       dead:
         absent: true
