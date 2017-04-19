@@ -50,6 +50,10 @@ pkgs:
     openjdk-8-jdk: true
     tcl-tclreadline: true
 
+    ## For Drew
+    maven: true
+    ant: true
+
     ## Miscellaneous
     tcsh: true
     finger: true
