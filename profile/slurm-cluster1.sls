@@ -16,10 +16,14 @@ slurm:
   SlurmdPort: '6818'
   SrunPortRange: '6820-9819'
 
+  FastSchedule: 2
   PriorityType: multifactor
   PriorityWeightQOS: 1000
   PriorityWeightAge: 1000
   PriorityMaxAge: '24:00:00'
+
+  TaskPlugin: affinity
+  TaskPluginParam: Threads
 
   DefMemPerCPU: '4000'
 
@@ -43,6 +47,7 @@ slurm:
       MaxMemPerCPU: 16000
       MaxTime: '4:00:00'
       MaxNodes: 1
+      AllowQos: interactive,m2m,nightly,pr,weekly,tapeout
       nodes:
         - 'gamma[14-15]'
     test:
