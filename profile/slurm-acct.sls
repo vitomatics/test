@@ -4,9 +4,12 @@ include:
 slurm:
   acct:
     clusters:
+      sifive: {}
       test1:
         MaxWall: '4:0:0'
-      test2: {}
+        absent: true
+      test2:
+        absent: true
       test3:
         absent: true
     qos:
