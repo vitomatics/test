@@ -138,4 +138,6 @@ homedirs:
       gid: 1129
       authorized_keys:
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDcR86jsjw8F2kIwDOsmElVHe6BBPwJsAJncSdKIuYB8jUgrFmvh6QdJ4ip6UffFPBSIx55Ffr7TABGx0PfguH3TcFJoGTGZZXe3hjUQz5d+RPwVGO8AaHkNq/QUqf+hmw07fflptM0rINiujgedm2ekIE1CPfIxntIUB8dNUXXEUkljKp5X3LX3mfP/2ePGuihAUPB5ge11SUdoDnMwf3qzxjFKYWEDPUphHHsj20pdbzz6R5qXlNIxkyAGc+y7fNRRt1/g52aVG1YuMFdy2wmem419xIuQMKtoG6YgDoEQZDrYyKg8N7SOnVJmBajsMAnby3wD6MNAtYVLZhd+sPB ahuntington@sifive
-    
+    fferhani:
+      uid: 130
+      gid: 130
