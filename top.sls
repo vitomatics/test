@@ -231,6 +231,7 @@ base:
     - profile.mysql-server-local
     - profile.slurm-db
     - profile.slurm-server
+    - profile.slurm-acct
     - profile.backupclient
     - hosts.grid
 
