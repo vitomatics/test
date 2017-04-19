@@ -168,6 +168,7 @@ pkgs:
     # Synopsys Hector
     libncurses5:i386: true
     libelf1:i386: true
+    libc6-dev:i386: true
 
     # Synopsys "mw"
     libxext6:i386: true
@@ -178,8 +179,6 @@ pkgs:
     # Cadence layout
     libglu1-mesa: true
 
-    # For Ali
-    libc6-dev.i386: true
 
     # Linux kernel development
     device-tree-compiler: true
