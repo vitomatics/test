@@ -46,7 +46,6 @@ slurm:
       DefMemPerCPU: 4000
       MaxMemPerCPU: 16000
       MaxTime: '4:00:00'
-      MaxNodes: 1
       AllowQos: interactive,m2m,nightly,pr,weekly,tapeout
       nodes:
         - 'gamma[14-15]'
