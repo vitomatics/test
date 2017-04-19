@@ -25,7 +25,6 @@ slurm:
         priority: 200
         GrpTRES: cpu=32
       tapeout:
-        absent: true
         priority: 1000
         GrpTRES: cpu=256
     
