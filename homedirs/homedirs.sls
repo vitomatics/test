@@ -139,5 +139,7 @@ homedirs:
       authorized_keys:
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDcR86jsjw8F2kIwDOsmElVHe6BBPwJsAJncSdKIuYB8jUgrFmvh6QdJ4ip6UffFPBSIx55Ffr7TABGx0PfguH3TcFJoGTGZZXe3hjUQz5d+RPwVGO8AaHkNq/QUqf+hmw07fflptM0rINiujgedm2ekIE1CPfIxntIUB8dNUXXEUkljKp5X3LX3mfP/2ePGuihAUPB5ge11SUdoDnMwf3qzxjFKYWEDPUphHHsj20pdbzz6R5qXlNIxkyAGc+y7fNRRt1/g52aVG1YuMFdy2wmem419xIuQMKtoG6YgDoEQZDrYyKg8N7SOnVJmBajsMAnby3wD6MNAtYVLZhd+sPB ahuntington@sifive
     fferhani:
-      uid: 130
-      gid: 130
+      uid: 1130
+      gid: 1130
+      authorized_keys:
+        - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3vO7hp1OkXyyXJ5V0JEFZBKfDMmS3WuQ0OO9mG6nZhEGCD6Ej1btnNEscxpPRLbtfYpa8NN6CQY3w2dkJCTIayFhnqJVW+9MJwe8F7HEv1NpciLgde57LMQgikZoAvZBWZpjD/fFXJMl9A53KW//5ouCEQIQpsiSKwKd1NYDQWkS3fe8/AXqNxYSX8bNtenqY9Eywl/yESx1Q9vKRlrVsMVwoWIIwP04bFpKaw+YU8EOmR6pfydrOz3fkFWPyhfiheB+ycCeKnlyNAZK77pmJ29beuRvAqsHAKb+Jcpmt+QcBGzzhtRuZHxm/4pgG/qibXKnsrOSm+RtpjS+nMETt fferhani@Francoiss-MacBook-Pro.local
