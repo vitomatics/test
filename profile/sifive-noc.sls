@@ -5,7 +5,7 @@
 
 file:
   mkdir:
-    {{ nocddir }}:
+    {{ nocdir }}:
       user: root
       group: root
       mode: '0755'
