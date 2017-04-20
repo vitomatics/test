@@ -234,10 +234,11 @@
 # 64.62.193.192 RESERVED - do not use
 64.62.193.193 he-laptop-nat-net
 64.62.193.194 he-unix-nat-net
-64.62.193.195 he-login1.sifive.com he.sifive.com he1.sifive.com nm.sifive.com
+64.62.193.195 he-login1.sifive.com he.sifive.com he1.sifive.com nm1.sifive.com nomachine.sifive.com
 64.62.193.196 he-smtpout.sifive.com
-64.62.193.197 he-login2.sifive.com he2.sifive.com x2.sifive.com
+64.62.193.197 he-login2.sifive.com login2.sifive.com he2.sifive.com x2go.sifive.com
 64.62.193.198 gitkick1.sifive.com
+64.62.193.199 he-login3.sifive.com login3.sifive.com he3.sifive.com nm2.sifive.com
 # 64.62.193.255 RESERVED - do not use
 
 ## 169.254.0.0->169.254.255.255 he-netapp-net
