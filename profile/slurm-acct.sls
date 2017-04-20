@@ -12,6 +12,14 @@ slurm:
         absent: true
       test3:
         absent: true
+    licenses:
+      dongle:
+        cluster: sifive
+        server: license
+        servertype: flexlm
+        count: 10
+      oldlicense:
+        absent: true
     qos:
       dead:
         absent: true
