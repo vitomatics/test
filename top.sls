@@ -254,4 +254,5 @@ base:
     - subnet.sf-unix
     - profile.nameserver-auth
     - profile.sifive-noc
+    - profile.backupclient
     - hosts.yoda

@@ -106,6 +106,7 @@ sfdump:
       days: 3
       weeks: 4
     nihilanth-etc:
+      absent: true      ###################
       client: nihilanth.internal.sifive.com
       server: heartofgold.internal.sifive.com
       src: /usr/local/etc
@@ -193,3 +194,25 @@ sfdump:
       key: sfdump_hog_key1
       days: 4
       weeks: 2
+    yoda-srv-onsite:
+      client: yoda.internal.sifive.com
+      server: heartofgold.internal.sifive.com
+      src: /srv
+      dest: /sfbackup/dumps/yoda-srv
+      compression: false
+      acls: false
+      xattrs: false
+      key: sfdump_hog_key1
+      days: 2
+      weeks: 8
+    yoda-srv-offsite:
+      client: yoda.internal.sifive.com
+      server: omega1.internal.sifive.com
+      src: /srv
+      dest: /sfbackup/dumps/yoda-srv
+      compression: false
+      acls: false
+      xattrs: false
+      key: sfdump_omega1_key1
+      days: 2
+      weeks: 8
