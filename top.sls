@@ -113,6 +113,7 @@ base:
     - profile.clusterclient
     - profile.login
     - profile.slurm-client
+    - profile.nomachine-eval
     - profile.ganglia-node-server
     - hosts.frogstar
 
