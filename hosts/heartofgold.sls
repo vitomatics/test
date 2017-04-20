@@ -71,6 +71,7 @@ zfs:
     bkpool01/sfbackup/dumps/dalek-srv:
     bkpool01/sfbackup/dumps/i0-license:
     bkpool01/sfbackup/dumps/grid-srv:
+    bkpool01/sfbackup/dumps/yoda-srv:
 
 nfs4:
   domain:
