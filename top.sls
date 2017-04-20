@@ -253,4 +253,5 @@ base:
   'yoda.internal.sifive.com':
     - subnet.sf-unix
     - profile.nameserver-auth
+    - profile.sifive-noc
     - hosts.yoda
