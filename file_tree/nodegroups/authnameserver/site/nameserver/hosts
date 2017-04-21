@@ -230,6 +230,11 @@
 10.101.1.121 iswitch21-lo1
 10.101.1.125 iswitch25-lo1
 
+## 10.134.16.0->10.134.31.255 he-iso-net
+# 10.134.16.0 RESERVED - do not use
+10.134.16.1 iswitch11-vlan102 he-iso01-net-gw
+# 10.134.16.255 RESERVED - do not use
+
 ## 64.62.193.192->64.62.193.255 he-sifive-net
 # 64.62.193.192 RESERVED - do not use
 64.62.193.193 he-laptop-nat-net
