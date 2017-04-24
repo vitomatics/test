@@ -8,5 +8,5 @@ file:
     {{ nocdir }}:
       user: root
       group: root
-      mode: '0755'
+      mode: '0700'
 
