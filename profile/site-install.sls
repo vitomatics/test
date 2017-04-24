@@ -4,7 +4,7 @@
 {% set domain = 'internal.sifive.com' %}
 {% set servername = site + '.' + domain %}
 {% set sitedir = '/srv/www/' + site %}
-{% set ips = '10.14.0.0/16' %}
+{% set ips = '10.14.0.0/16 10.134.0.0/16' %}
 {% set group = 'sysadmin' %}
 
 states:

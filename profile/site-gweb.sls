@@ -20,7 +20,7 @@ apache:
       DocumentRoot: {{ sitedir }}
       Directory:
         {{ sitedir }}:
-          Require: ip 10.14.0.0/16
+          Require: ip 10.14.0.0/16 10.17.0.0/16
           AllowOverride: All
       
 ganglia:

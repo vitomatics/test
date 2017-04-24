@@ -1,6 +1,7 @@
 # Pillar config for the SiFive local repo
 
 {% set sfrepo = { } %}
+{% set ips = '10.14.0.0/16 10.134.0.0/16' %}
 {% do sfrepo.update({'aptlydir' : '/srv/aptly'}) %}
 {% do sfrepo.update({'repodir' : '/srv/aptly/repos'}) %}
 {% do sfrepo.update({'pkgdir' : '/srv/aptly/pkgs'}) %}
@@ -28,7 +29,7 @@ apache:
 
       Directory:
         {{ sfrepo.repodir }}/public:
-          Require: ip 10.14.0.0/16
+          Require: ip {{ ips }}
           AllowOverride: None
 
 aptly:
