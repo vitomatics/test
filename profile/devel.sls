@@ -80,6 +80,7 @@ pkgs:
     firefox: true
     icedtea-8-plugin: true
     {% endif %}
+    thunar: true
 
     emacs-nox: false
     emacs: true
