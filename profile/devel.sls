@@ -190,6 +190,9 @@ pkgs:
     meld: true
     diffuse: true
 
+    # Needed by ipxe
+    liblzma-dev: true
+
   listurl:
     libxp6: http://sfimages.internal.sifive.com/Ubuntu/trusty/amd64/libxp6_1.0.2-1ubuntu1_amd64.deb
 
