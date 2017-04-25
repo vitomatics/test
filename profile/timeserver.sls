@@ -12,6 +12,7 @@ chrony:
     - 10.17.0.0/16
     - 10.100.0.0/16
     - 10.101.0.0/16
+    - 10.134.0.0/16
   server:
     - clock.fmt.he.net  # Fremont
     - clock.sjc.he.net  # San Jose
