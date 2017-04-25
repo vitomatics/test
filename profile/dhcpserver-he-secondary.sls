@@ -9,6 +9,9 @@
 {% block he_unix02_dynamic %}
 {% endblock %}
 
+{% block he_iso01_dynamic %}
+{% endblock %}
+
 {% block subnet_extra %}
 {% endblock %}
 

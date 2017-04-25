@@ -56,6 +56,24 @@ dhcpd:
       routers: 10.15.16.1
       ## Note - pool added on primary server
 
+    # he-iso01-net
+    10.134.16.0:
+      netmask: 255.255.255.0
+      routers: 10.134.16.1
+{% block he_iso01_dynamic %}
+      pools:
+        install_pool:
+          default-lease-time: 600
+          max-lease-time: 600
+          next-server: tftpboot.internal.sifive.com
+          range:
+            - 10.134.16.224
+            - 10.134.16.254
+          allow:
+            - members of "pxeclient"
+            - members of "debinstall"
+{% endblock %}
+      
   hosts:
     gamma00:
       hardware: ethernet e4:1d:2d:47:d3:20
