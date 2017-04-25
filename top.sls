@@ -53,7 +53,7 @@ base:
   'dalek.internal.sifive.com':
     - subnet.he-unix01
     - profile.tftp-sysadmin
-    - profile.webserver
+    - profile.webserver.sysadmin
     - profile.site-sfrepo
     - profile.site-sfimages
     - profile.site-pxe
