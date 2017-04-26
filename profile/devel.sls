@@ -160,6 +160,7 @@ pkgs:
 
     ## General cpu tools
     qemu: true
+    openbios-sparc: true
 
     # IVy
     libgraphviz-dev: true
