@@ -51,6 +51,20 @@ aptly:
       architectures:
         - amd64
       prefix: "stanford-backports-main"
+  mirrors:
+    xenial:
+      url: http://mirrors.ocf.berkeley.edu/ubuntu
+      key_url: http://mirrors.ocf.berkeley.edu/project/ubuntu-archive-keyring.gpg
+      distribution: xenial
+      components:
+        - main
+        - multiverse
+        - restricted
+        - universe
+      architectures:
+        - amd64
+        - i386
+      prefix: "xenial"
   repos:
     ubuntu-sifive:
       prefix: ubuntu/sifive
