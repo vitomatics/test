@@ -63,7 +63,6 @@ aptly:
       architectures:
         - amd64
         - i386
-      prefix: "xenial"
     xenial-updates:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
       key_url: http://sfimages.internal.sifive.com/Ubuntu/keys/trusted.gpg
@@ -76,7 +75,18 @@ aptly:
       architectures:
         - amd64
         - i386
-      prefix: "xenial-updates"
+    xenial-backports:
+      url: http://mirrors.ocf.berkeley.edu/ubuntu
+      key_url: http://sfimages.internal.sifive.com/Ubuntu/keys/trusted.gpg
+      distribution: xenial-backports
+      components:
+        - main
+        - multiverse
+        - restricted
+        - universe
+      architectures:
+        - amd64
+        - i386
     xenial-security:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
       key_url: http://sfimages.internal.sifive.com/Ubuntu/keys/trusted.gpg
@@ -89,7 +99,6 @@ aptly:
       architectures:
         - amd64
         - i386
-      prefix: "xenial-security"
   repos:
     ubuntu-sifive:
       prefix: ubuntu/sifive
