@@ -44,6 +44,7 @@ aptly:
   mirrors:
     stanford-backports:
       url: http://exodus.stanford.edu/debian-stanford
+      key_url: http://sfimages.internal.sifive.com/Stanford/keys/stanford-keyring.gpg
       distribution: xenial-backports
       components:
         - main
