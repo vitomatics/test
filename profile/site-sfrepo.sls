@@ -66,7 +66,7 @@ aptly:
       prefix: "xenial"
     xenial-updates:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
-      key_url: htp://sfimages.internal.sifive.com/Ubuntu/keys/trusted.gpg
+      key_url: http://sfimages.internal.sifive.com/Ubuntu/keys/trusted.gpg
       distribution: xenial-updates
       components:
         - main
