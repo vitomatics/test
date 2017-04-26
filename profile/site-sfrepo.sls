@@ -64,6 +64,19 @@ aptly:
         - amd64
         - i386
       prefix: "xenial"
+    xenial-updates:
+      url: http://mirrors.ocf.berkeley.edu/ubuntu
+      key_url: file://etc/apt/trusted.gpg
+      distribution: xenial-updates
+      components:
+        - main
+        - multiverse
+        - restricted
+        - universe
+      architectures:
+        - amd64
+        - i386
+      prefix: "xenial-updates"
   repos:
     ubuntu-sifive:
       prefix: ubuntu/sifive
