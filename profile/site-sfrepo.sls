@@ -53,7 +53,7 @@ aptly:
       prefix: "stanford-backports-main"
     xenial:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
-      key_url: http://mirrors.ocf.berkeley.edu/project/ubuntu-archive-keyring.gpg
+      key_url: http://mirrors.ocf.berkeley.edu/ubuntu/project/ubuntu-archive-keyring.gpg
       distribution: xenial
       components:
         - main
