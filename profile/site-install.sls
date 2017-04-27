@@ -16,7 +16,7 @@ file:
     {{ bindir }}:
       user: root
       group: root
-      mode: '0775'
+      mode: '0755'
     {{ sitedir }}:
       user: root
       group: {{ group }}
