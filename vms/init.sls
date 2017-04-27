@@ -25,11 +25,10 @@ sfvirt:
   dists:
     xenial-default:
       libvirtos: ubuntu16.04
-      type: debian-updates
-      host: mirrors.ocf.berkeley.edu
-      dir: ubuntu
+      os: ubuntu
       release: xenial
       arch: amd64
+      installbase: http://install.internal.sifive.com/install/installboot
       preseedbase: http://install.internal.sifive.com/preseed/ubuntu
     xenial-pxe:
       libvirtos: ubuntu16.04
