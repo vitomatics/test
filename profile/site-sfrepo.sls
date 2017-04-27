@@ -41,6 +41,18 @@ aptly:
     - i386
     - amd64
     - source
+
+  repos:
+    ubuntu-sifive:
+      prefix: ubuntu/sifive
+      distributions:
+        - xenial-sifive
+      components:
+        - main
+      comment: "SiFive Ubuntu Xenial packages"
+      pkgdir: {{ sfrepo.pkgdir }}/ubuntu/sifive
+      remove_files: false
+
   mirrors:
     stanford-backports:
       url: http://exodus.stanford.edu/debian-stanford
@@ -50,7 +62,6 @@ aptly:
         - main
       architectures:
         - amd64
-      prefix: "stanford-backports-main"
     xenial:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
       key_url: http://mirrors.ocf.berkeley.edu/ubuntu/project/ubuntu-archive-keyring.gpg
@@ -99,13 +110,3 @@ aptly:
       architectures:
         - amd64
         - i386
-  repos:
-    ubuntu-sifive:
-      prefix: ubuntu/sifive
-      distributions:
-        - xenial
-      components:
-        - main
-      comment: "SiFive Ubuntu Xenial packages"
-      pkgdir: {{ sfrepo.pkgdir }}/ubuntu/sifive
-      remove_files: false
