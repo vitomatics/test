@@ -43,6 +43,7 @@ rsyncdirs:
     group: {{ group }}
     mode: '0775'
     script: {{ bindir }}/update-installboot-xenial
+    verbose: true
     
 
 apache:
