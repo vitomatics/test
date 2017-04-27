@@ -12,6 +12,9 @@ modules:
 # Source repos
 {% if grains.os == "Ubuntu" %}
 
+pkgs:
+  apt:
+    repos:
 {% set repo_names = [ 'xenial' ]  %}
 {% set repo_uri = 'http://us.archive.ubuntu.com/ubuntu/' %}
 {% set repo_suffices = ['', '-updates', '-security' ] %}
