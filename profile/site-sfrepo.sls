@@ -62,9 +62,11 @@ aptly:
         - main
       architectures:
         - amd64
+{#
     bintray-sbt:
       url: https://dl.bintray.com/sbt/debian
       distribution: /
+#}
     canonical-xenial:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
       key_url: http://mirrors.ocf.berkeley.edu/ubuntu/project/ubuntu-archive-keyring.gpg
