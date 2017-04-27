@@ -62,6 +62,15 @@ aptly:
         - main
       architectures:
         - amd64
+
+    saltstack-salt:
+      url: http://repo.saltstack.com/apt/ubuntu/16.04/amd64/2016.11
+      key_url: http://repo.saltstack.com/apt/ubuntu/16.04/amd64/2016.11/SALTSTACK-GPG-KEY.pub
+      distribution: xenial
+      components:
+        - main
+      architectures:
+        - amd64
 {#
     bintray-sbt:
       url: https://dl.bintray.com/sbt/debian
@@ -69,7 +78,7 @@ aptly:
 #}
     canonical-xenial:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
-      key_url: http://mirrors.ocf.berkeley.edu/ubuntu/project/ubuntu-archive-keyring.gpg
+      key_url: http://sfimages.internal.sifive.com/Ubuntu/keys/trusted.gpg
       distribution: xenial
       components:
         - main
