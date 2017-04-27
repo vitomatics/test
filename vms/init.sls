@@ -28,7 +28,7 @@ sfvirt:
       os: ubuntu
       release: xenial
       arch: amd64
-      installbase: http://install.internal.sifive.com/install/installboot/ubuntu/xenial
+      installbase: http://install.internal.sifive.com/install/installboot/ubuntu/xenial/installer-amd64
       preseedbase: http://install.internal.sifive.com/preseed/ubuntu
     xenial-pxe:
       libvirtos: ubuntu16.04
