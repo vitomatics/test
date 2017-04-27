@@ -62,7 +62,10 @@ aptly:
         - main
       architectures:
         - amd64
-    xenial:
+    bintray-sbt:
+      url: https://dl.bintray.com/debian
+      distribution: /
+    canonical-xenial:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
       key_url: http://mirrors.ocf.berkeley.edu/ubuntu/project/ubuntu-archive-keyring.gpg
       distribution: xenial
@@ -74,7 +77,7 @@ aptly:
       architectures:
         - amd64
         - i386
-    xenial-updates:
+    canonical-xenial-updates:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
       key_url: http://sfimages.internal.sifive.com/Ubuntu/keys/trusted.gpg
       distribution: xenial-updates
@@ -86,7 +89,7 @@ aptly:
       architectures:
         - amd64
         - i386
-    xenial-backports:
+    canconical-xenial-backports:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
       key_url: http://sfimages.internal.sifive.com/Ubuntu/keys/trusted.gpg
       distribution: xenial-backports
@@ -98,7 +101,7 @@ aptly:
       architectures:
         - amd64
         - i386
-    xenial-security:
+    canonical-xenial-security:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
       key_url: http://sfimages.internal.sifive.com/Ubuntu/keys/trusted.gpg
       distribution: xenial-security
