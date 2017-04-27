@@ -63,7 +63,7 @@ aptly:
       architectures:
         - amd64
     bintray-sbt:
-      url: https://dl.bintray.com/debian
+      url: https://dl.bintray.com/sbt/debian
       distribution: /
     canonical-xenial:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
