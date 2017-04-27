@@ -49,7 +49,7 @@ pkgs:
       sifive:
         {% set sfrepo = 'http://sfrepo.internal.sifive.com' %}
         uri: {{sfrepo}}/ubuntu/sifive
-        suite: {{suite}}
+        suite: {{suite}}-sifive
         comps: [ 'main' ]
         key_url: {{sfrepo}}/public.gpg
       {% endif %}
