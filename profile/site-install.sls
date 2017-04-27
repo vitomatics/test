@@ -10,6 +10,7 @@
 
 states:
   apache.vhosts.standard: true
+  rsyncdirs: true
 
 file:
   mkdir:
