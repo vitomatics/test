@@ -140,14 +140,21 @@ sfpreseed:
       static: false
       ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
       domain: internal.sifive.com
-    he1-static:
+    he-unix1-static:
       static: true
       netmask: 255.255.255.0
       gateway: 10.14.16.1
       nameservers: 10.14.16.38 10.14.16.39
       ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
       domain: internal.sifive.com
-    he1-dynamic:
+    he-iso1-static:
+      static: true
+      netmask: 255.255.255.0
+      gateway: 10.134.16.1
+      nameservers: 10.14.16.38 10.14.16.39
+      ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
+      domain: internal.sifive.com
+    he-unix1-dynamic:
       static: false
       ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
       domain: internal.sifive.com
@@ -173,7 +180,7 @@ sfpreseed:
           disklayout: vm_small_disk
         altair:
           ipaddress: 10.14.16.72
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
@@ -194,112 +201,112 @@ sfpreseed:
           disklayout: server_ssd_disk
         betel:
           ipaddress: 10.14.16.73
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
         dalek:
           ipaddress: 10.14.0.11
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
         eddie:
           ipaddress: 10.14.16.32
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: server_ssd_disk
         frogstar:
           ipaddress: 10.14.16.77
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
         gamma00:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma01:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma02:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma03:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma04:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma05:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma06:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma07:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma10:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma11:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma12:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma13:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma14:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
         gamma15:
-          subnet: he1-dynamic
+          subnet: he-unix1-dynamic
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
@@ -312,14 +319,14 @@ sfpreseed:
           disklayout: vm_small_disk
         grid:
           ipaddress: 10.14.16.75
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
         hal:
           ipaddress: 10.14.16.40
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
@@ -333,55 +340,61 @@ sfpreseed:
           disklayout: vm_small_disk
         heartofgold:
           ipaddress: 10.14.16.48
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: server_ssd_disk
         jenkins:
           ipaddress: 10.14.0.10
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
         klingon:
           ipaddress: 10.14.16.74
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
         leia:
           ipaddress: 10.14.16.38
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
         luke:
           ipaddress: 10.14.16.39
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
         marvin:
           ipaddress: 10.14.16.32
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: server_ssd_disk
         matrix:
           ipaddress: 10.14.16.76
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
         nuc1:
           subnet: sf-dynamic
+          diskname: /dev/sda
+          diskmethod: crypto
+          disklayout: compute_disk
+        nuc2:
+          ipaddress: 10.134.16.32
+          subnet: he-iso1-static
           diskname: /dev/sda
           diskmethod: crypto
           disklayout: compute_disk
@@ -394,42 +407,42 @@ sfpreseed:
           disklayout: server_ssd_disk
         sandbox:
           ipaddress: 10.14.16.36
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
         tardis:
           ipaddress: 10.14.16.49
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
         transporter:
           ipaddress: 10.14.16.34
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
         viki:
           ipaddress: 10.14.16.41
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
         vulcan:
           ipaddress: 10.14.16.37
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
         yoda:
           ipaddress: 10.14.16.42
-          subnet: he1-static
+          subnet: he-unix1-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
