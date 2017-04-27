@@ -55,7 +55,7 @@ choose target && goto ${target} || goto start
 
 :ubuntu-boot
 isset ${ubuntu/preseed} && set ubuntu/cmdline-preseed auto-install/enable=true preseed/url=${prefix/ubuntu}/${ubuntu/preseed:uristring}.cfg debconf/priority=critical netcfg/choose_interface=${net0/mac} || clear ubuntu/cmdline-preseed
-set site http://${ubuntu/mirror}/dists/${ubuntu/release}-updates/main/installer-${ubuntu/arch}/current/images/netboot/ubuntu-installer/${ubuntu/arch}
+set site http://install.internal.sifive.com/${ubuntu/release}-installboot/installer-${ubuntu/arch}/current/images/netboot/ubuntu-installer/${ubuntu/arch}
 imgfree
 initrd ${site}/initrd.gz
 chain ${site}/linux ${ubuntu/cmdline-preseed} ${ubuntu/cmdline} || goto fail
