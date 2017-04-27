@@ -100,7 +100,7 @@ aptly:
       architectures:
         - amd64
         - i386
-    canconical-xenial-backports:
+    canonical-xenial-backports:
       url: http://mirrors.ocf.berkeley.edu/ubuntu
       key_url: http://sfimages.internal.sifive.com/Ubuntu/keys/trusted.gpg
       distribution: xenial-backports
