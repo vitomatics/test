@@ -37,11 +37,11 @@ file:
 rsyncdirs:
   xenial-installer-amd64:
     src: rsync://mirrors.ocf.berkeley.edu/ubuntu/dists/xenial-updates/main/installer-amd64/
-    dest: {{ sitedir }}/xenial-installboot/installer-amd64
+    dest: {{ sitedir }}/installboot/ubuntu/xenial/installer-amd64
     user: root
     group: {{ group }}
     mode: '0775'
-    script: {{ bindir }}/update-xenial-installboot
+    script: {{ bindir }}/update-installboot-xenial
     
 
 apache:
