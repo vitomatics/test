@@ -8,6 +8,7 @@ modules:
   paths:
     - /sifive/tools/Modules/default/sifive
 
+{#
 pkgs:
   apt:
     repos:
@@ -17,7 +18,7 @@ pkgs:
         comps:
         keyid: 642AC823
         keyserver: keyserver.ubuntu.com
-
+#}
 # Source repos
 {% if grains.os == "Ubuntu" %}
 
