@@ -169,6 +169,7 @@ sfpreseed:
       salthash: sha256
       saltconffile: 99-sfpreseed.conf
       disthost: sfrepo.internal.sifive.com
+      distunauth: true
       distdir: ubuntu/canonical
       distsuite: xenial
       hosts:
