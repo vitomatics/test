@@ -19,6 +19,10 @@ pkgs:
         keyid: 642AC823
         keyserver: keyserver.ubuntu.com
 #}
+
+pkgs:
+  apt:
+    repos:
 # Source repos
 {% if grains.os == "Ubuntu" %}
 
