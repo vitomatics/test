@@ -168,8 +168,8 @@ sfpreseed:
         - salt.internal.sifive.com
       salthash: sha256
       saltconffile: 99-sfpreseed.conf
-      disthost: mirrors.ocf.berkeley.edu
-      distdir: ubuntu
+      disthost: sfrepo.internal.sifive.com
+      distdir: ubuntu/canonical
       distsuite: xenial
       hosts:
         algol:
