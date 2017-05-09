@@ -39,6 +39,7 @@ pkgs:
 
   list:
     lsb-core: true
+    gcc-multilib: true
     libgcc1:i386: true
 
     openjdk-8-jdk: true
