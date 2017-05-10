@@ -68,7 +68,6 @@ sfsalt:
         - marvin.internal.sifive.com
         - bender.internal.sifive.com
       dhcpserver:
-        - sandbox.internal.sifive.com
         - hansolo.internal.sifive.com
         - leia.internal.sifive.com
         - luke.internal.sifive.com
