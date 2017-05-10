@@ -37,9 +37,9 @@
 10.14.1.129 license		# static
 
 10.14.3.6 gravelpit		# assigned by DHCP, test VM
-# 10.14.3.7 was nuc1
-10.14.3.8 printer01 hp-m553	# assigned by DHCP on nihilanth
-10.14.3.9 promptuary 		# assigned by DHCP on nihilanth, aou's host
+10.14.3.7 nuc3			# assigned by DHCP, test host
+10.14.3.8 printer01 hp-m553	# assigned by DHCP
+10.14.3.9 promptuary 		# assigned by DHCP
 10.14.3.10 oldlaptop010
 ...
 10.14.3.224 oldlaptop224

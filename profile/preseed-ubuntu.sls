@@ -389,14 +389,14 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
-        nuc1:
-          subnet: sf-dynamic
-          diskname: /dev/sda
-          diskmethod: crypto
-          disklayout: compute_disk
         nuc2:
           ipaddress: 10.134.16.32
           subnet: he-iso1-static
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: compute_disk
+        nuc3:
+          subnet: sf-dynamic
           diskname: /dev/sda
           diskmethod: crypto
           disklayout: compute_disk

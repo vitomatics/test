@@ -43,7 +43,7 @@ $TTL	86400
 129.1	IN	PTR	license.internal.sifive.com.
 
 6.3	IN	PTR	gravelpit.internal.sifive.com.
-
+7.3	IN	PTR	nuc3.internal.sifive.com.
 8.3	IN	PTR	printer01.internal.sifive.com.
 9.3	IN	PTR	promptuary.internal.sifive.com.
 

@@ -97,8 +97,10 @@ gamma14-pci0		24:8a:07:f8:aa:80
 gamma15-admin		0c:c4:7a:9a:80:5a
 gamma15-pci0		24:8a:07:f8:b2:60
 
-# The Inetl NUC
+# The Intel NUCs
 nuc1			f4:4d:30:61:c2:49
+nuc2			f4:4d:30:6a:94:8f
+nuc3			f4:4d:30:6c:dd:00
 # A network card that is often used on the VC707 FPGA setup
 turtle			00:0a:cd:29:9e:45
 

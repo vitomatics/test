@@ -66,7 +66,7 @@ b0		IN	A	10.14.1.6
 license		IN	A	10.14.1.129
 
 gravelpit	IN	A	10.14.3.6
-
+nuc3		IN	A	10.14.3.7
 printer01	IN	A	10.14.3.8
 promptuary	IN	A	10.14.3.9
 
@@ -237,6 +237,8 @@ iswitch11-lo1	IN	A	10.101.1.111
 iswitch15-lo1	IN	A	10.101.1.115
 iswitch21-lo1	IN	A	10.101.1.121
 iswitch25-lo1	IN	A	10.101.1.125
+
+nuc2		IN	A	10.134.16.32
 
 router11-mgmt	IN	A	192.168.15.2
 iswitch11-mgmt	IN	A	192.168.15.3
