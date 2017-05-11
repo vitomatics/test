@@ -196,9 +196,13 @@ base:
     - profile.slurm-node
     - hosts.sandbox
 
-  'nuc1.internal.sifive.com':
-    - subnet.sf-dhcp
-    - hosts.nuc1
+  'nuc2.internal.sifive.com':
+    - subnet.he-iso01
+    - hosts.nuc2
+
+  'nuc3.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.nuc3
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
