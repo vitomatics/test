@@ -38,12 +38,15 @@ pkgs:
       {% endif %}
 
       saltstack:
-        {% set saltsite = [ 'repo.saltstack.com/apt', (grains.os|lower),
-          grains.osmajorrelease if (grains.os == 'Debian') else grains.osrelease,
-          grains.osarch, '2016.11']|join('/') %}
-        uri: http://{{saltsite}}
+        {% if grains.os == 'Debian' -%}
+          {% set saltsite = [ 'repo.saltstack.com/apt', (grains.os|lower),
+            grains.osmajorrelease, grains.osarch, '2016.11']|join('/') -%}
+        {% else -%}
+          {% set saltsite = 'sfrepo.internal.sifive.com/ubuntu/saltstack' -%}
+        {% endif -%}
         suite: {{ suite }}
-        key_url: https://{{saltsite}}/SALTSTACK-GPG-KEY.pub
+        key_url: http://sfimages.internal.sifive.com/Saltstack/keys/SALTSTACK-GPG-KEY.pub
+        uri: http://{{saltsite}}
 
       {% if grains.os == 'Ubuntu' %}
       sifive:
