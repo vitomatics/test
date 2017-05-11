@@ -162,8 +162,8 @@ sfpreseed:
     ubuntu:
       dir: /srv/www/install/preseed/ubuntu
       url: http://install.internal.sifive.com/preseed/ubuntu
-      saltrepo: http://repo.saltstack.com/apt/ubuntu/16.04/amd64/2016.11
-      saltkey: https://repo.saltstack.com/apt/ubuntu/16.04/amd64/2016.11/SALTSTACK-GPG-KEY.pub
+      saltrepo: http://sfrepo.internal.sifive.com/ubuntu/saltstack
+      saltkey: http://sfimages.internal.sifive.com/Saltstack/keys/SALTSTACK-GPG-KEY.pub
       saltmaster:
         - salt.internal.sifive.com
       salthash: sha256
