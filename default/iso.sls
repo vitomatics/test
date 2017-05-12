@@ -24,7 +24,10 @@ nss:
 
 pkgs:
   list:
+    # snapd contacts the outside world - really do not want it
     snapd: false
+    # unattended upgrades hang shutdowns
+    unattended-upgrades: false
 
 # nsswitch
 #   nsswitch.group
