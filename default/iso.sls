@@ -22,6 +22,10 @@ nss:
     shadow:
     automount:
 
+pkgs:
+  apt:
+    list:
+      snapd: false
 
 # nsswitch
 #   nsswitch.group
