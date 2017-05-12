@@ -14,6 +14,9 @@ states:
   nsswitch.hosts: true
   nsswitch.shells: true
 
+nss:
+  use_sssd: false
+
 
 # nsswitch
 #   nsswitch.group

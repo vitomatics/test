@@ -70,6 +70,7 @@ krb:
     - kdc0.internal.sifive.com
 
 nss:
+  use_sssd: true
   passwd:
     sfadmin:
       uid: 999
