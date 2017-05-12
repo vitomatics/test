@@ -20,6 +20,7 @@ nss:
     passwd:
     group:
     shadow:
+    automount:
 
 
 # nsswitch
