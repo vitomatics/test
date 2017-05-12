@@ -198,6 +198,7 @@ base:
 
   'nuc2.internal.sifive.com':
     - subnet.he-iso01
+    - default.iso
     - hosts.nuc2
 
   'nuc3.internal.sifive.com':

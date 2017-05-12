@@ -1,3 +1,7 @@
+# Default pillar values for all hosts, Ubuntu, Debian and FreeBSD
+# Note that some of these are overridden for "isolated" hosts -
+# check with iso.sls before making substantial changes.
+
 include:
   - default.{{ grains.os_family|lower }}
   - secret.default
