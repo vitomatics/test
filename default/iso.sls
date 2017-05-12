@@ -23,9 +23,8 @@ nss:
     automount:
 
 pkgs:
-  apt:
-    list:
-      snapd: false
+  list:
+    snapd: false
 
 # nsswitch
 #   nsswitch.group
