@@ -16,6 +16,10 @@ states:
 
 nss:
   use_sssd: false
+  sources:
+    passwd:
+    group:
+    shadow:
 
 
 # nsswitch
