@@ -13,6 +13,7 @@ states:
   nsswitch.passwd: true
   nsswitch.hosts: true
   nsswitch.shells: true
+  firewall.iptables: true
 
 nss:
   use_sssd: false
