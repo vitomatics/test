@@ -143,3 +143,6 @@ homedirs:
       gid: 1130
       authorized_keys:
         - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3vO7hp1OkXyyXJ5V0JEFZBKfDMmS3WuQ0OO9mG6nZhEGCD6Ej1btnNEscxpPRLbtfYpa8NN6CQY3w2dkJCTIayFhnqJVW+9MJwe8F7HEv1NpciLgde57LMQgikZoAvZBWZpjD/fFXJMl9A53KW//5ouCEQIQpsiSKwKd1NYDQWkS3fe8/AXqNxYSX8bNtenqY9Eywl/yESx1Q9vKRlrVsMVwoWIIwP04bFpKaw+YU8EOmR6pfydrOz3fkFWPyhfiheB+ycCeKnlyNAZK77pmJ29beuRvAqsHAKb+Jcpmt+QcBGzzhtRuZHxm/4pgG/qibXKnsrOSm+RtpjS+nMETt fferhani@Francoiss-MacBook-Pro.local
+    shreesha:
+      uid: 1131
+      gid: 1131
