@@ -146,3 +146,6 @@ homedirs:
     shreesha:
       uid: 1131
       gid: 1131
+    colins:
+      uid: 1132
+      gid: 1132
