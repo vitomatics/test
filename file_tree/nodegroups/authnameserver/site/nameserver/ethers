@@ -107,6 +107,11 @@ gamma15-mb1		0c:c4:7a:9a:85:d2
 gamma15-mb2		0c:c4:7a:9a:85:d3
 gamma15-pci0		24:8a:07:f8:b2:60
 
+lambda00-admin		0c:c4:7a:9a:80:5a
+lambda00-mb1		0c:c4:7a:9a:85:d2
+lambda00-mb2		0c:c4:7a:9a:85:d3
+lambda00-pci0		24:8a:07:f8:b2:60
+
 # The Intel NUCs
 nuc1			f4:4d:30:61:c2:49
 nuc2			f4:4d:30:6a:94:8f
