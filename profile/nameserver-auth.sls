@@ -48,6 +48,9 @@ bind:
     15.10.in-addr.arpa:
       type: master
       notify: true
+    134.10.in-addr.arpa:
+      type: master
+      notify: true
     rpz:
       type: master
       notify: true
@@ -62,6 +65,9 @@ bind:
     15.10.in-addr.arpa:
       file: 15.10.zone
       pillar: 'site:nameserver:10_15'
+    134.10.in-addr.arpa:
+      file: 134.10.zone
+      pillar: 'site:nameserver:10_134'
     rpz:
       file: rpz.zone
       pillar: 'site:nameserver:rpz'
