@@ -1,6 +1,9 @@
 # Default setup for an isolated host
 # see init.sls for what we are overriding
 
+include:
+  - homedirs
+
 states:
   pam.sss: false
   openldap.client: false
