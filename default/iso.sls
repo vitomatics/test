@@ -9,6 +9,7 @@ states:
   
   pam: true
   pam.access: true
+  pam.pwquality: true
   nsswitch.group: true
   nsswitch.passwd: true
   nsswitch.hosts: true
