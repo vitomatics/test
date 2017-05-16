@@ -132,6 +132,11 @@ dhcpd:
       fixed-address: gamma15.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
 
+    lambda00:
+      hardware: ethernet 0c:c4:7a:9a:85:d2
+      fixed-address: lambda00.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+
     sandbox:
       hardware: ethernet 52:54:00:ff:00:03
       fixed-address: sandbox.internal.sifive.com
@@ -184,9 +189,10 @@ dhcpd:
     gamma14-admin:
       hardware: ethernet 0c:c4:7a:9a:7f:88
       fixed-address: gamma14-admin.internal.sifive.com
-    gamma15-admin:
+
+    lambda00-admin:
       hardware: ethernet 0c:c4:7a:9a:80:5a
-      fixed-address: gamma15-admin.internal.sifive.com
+      fixed-address: lambda00-admin.internal.sifive.com
 
 {% block hosts_extra %}
 {% endblock %}
