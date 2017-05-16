@@ -15,6 +15,7 @@ states:
   nsswitch.hosts: true
   nsswitch.shells: true
   firewall.iptables: true
+  homedirs: true
 
 nss:
   use_sssd: false
