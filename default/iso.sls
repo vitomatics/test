@@ -31,6 +31,14 @@ pkgs:
     # unattended upgrades hang shutdowns
     unattended-upgrades: false
 
+# Need to put public keys in ssh
+homedirs:
+  lookup:
+    home: /home
+  servers:
+    {{grains.id}}: true
+    
+
 # nsswitch
 #   nsswitch.group
 #   nsswitch.passwd
