@@ -449,3 +449,9 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
+        lambda00:
+          ipaddress: 10.134.16.33
+          subnet: he-iso1-static
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: gamma_disk
