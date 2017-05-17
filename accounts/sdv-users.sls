@@ -8,5 +8,5 @@ sfaccount:
   users:
 {% for user, attrs in allusers.users|dictsort %}
 {{ user|indent(4) }}
-{{ attrs|indent(6) }}
+{{ attrs|yaml|indent(6) }}
 {% endfor %}
