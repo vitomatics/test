@@ -1,5 +1,5 @@
 # Uses on tyhe smartdv (sdv) isolated machine
 
-{% import_yaml as allusers %}
+{% import_yaml "accounts/allusers.yml" as allusers %}
 
-allusers: {{ allusers }}
+{{ allusers|yaml }}
