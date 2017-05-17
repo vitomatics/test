@@ -127,10 +127,12 @@ dhcpd:
       hardware: ethernet 24:8a:07:f8:aa:80
       fixed-address: gamma14.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+{#
     gamma15:
       hardware: ethernet 24:8a:07:f8:b2:60
       fixed-address: gamma15.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+#}
 
     lambda00:
       hardware: ethernet 0c:c4:7a:9a:85:d2

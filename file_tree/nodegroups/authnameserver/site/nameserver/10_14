@@ -83,7 +83,7 @@ $TTL	86400
 80.16	IN	PTR	gamma12.internal.sifive.com.
 81.16	IN	PTR	gamma13.internal.sifive.com.
 82.16	IN	PTR	gamma14.internal.sifive.com.
-83.16	IN	PTR	gamma15.internal.sifive.com.
+; 83.16	IN	PTR	gamma15.internal.sifive.com.
 
 92.16	IN	PTR	 netapp1-nfs1.internal.sifive.com.
 93.16	IN	PTR	 netapp1-nfs2.internal.sifive.com.

@@ -152,8 +152,8 @@ gamma13			IN	A	10.14.16.81
 g13			IN	CNAME	gamma13
 gamma14			IN	A	10.14.16.82
 g14			IN	CNAME	gamma14
-gamma15			IN	A	10.14.16.83
-g15			IN	CNAME	gamma15
+; gamma15			IN	A	10.14.16.83
+; g15			IN	CNAME	gamma15
 
 netapp1-nfs1		IN	A	10.14.16.92
 netapp1-nfs2		IN	A	10.14.16.93
@@ -194,7 +194,7 @@ gamma11-admin		IN	A	10.15.16.73
 gamma12-admin		IN	A	10.15.16.74
 gamma13-admin		IN	A	10.15.16.75
 gamma14-admin		IN	A	10.15.16.76
-gamma15-admin		IN	A	10.15.16.77
+; gamma15-admin		IN	A	10.15.16.77
 
 lambda00-admin		IN	A	10.15.16.77
 

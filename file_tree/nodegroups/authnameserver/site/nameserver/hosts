@@ -88,7 +88,7 @@
 10.14.16.80 gamma12 g12
 10.14.16.81 gamma13 g13
 10.14.16.82 gamma14 g14
-10.14.16.83 gamma15 g15
+# 10.14.16.83 gamma15 g15
 
 10.14.16.92 netapp1-nfs1
 10.14.16.93 netapp1-nfs2
@@ -139,7 +139,7 @@
 10.15.16.74 gamma12-admin
 10.15.16.75 gamma13-admin
 10.15.16.76 gamma14-admin
-10.15.16.77 gamma15-admin
+# 10.15.16.77 gamma15-admin
 
 10.15.16.77 lambda00-admin
 

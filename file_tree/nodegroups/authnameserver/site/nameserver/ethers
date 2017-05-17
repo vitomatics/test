@@ -102,10 +102,10 @@ gamma14-admin		0c:c4:7a:9a:7f:88
 gamma14-mb1		0c:c4:7a:9a:84:2e
 gamma14-mb2		0c:c4:7a:9a:84:2f
 gamma14-pci0		24:8a:07:f8:aa:80
-gamma15-admin		0c:c4:7a:9a:80:5a
-gamma15-mb1		0c:c4:7a:9a:85:d2
-gamma15-mb2		0c:c4:7a:9a:85:d3
-gamma15-pci0		24:8a:07:f8:b2:60
+# gamma15-admin		0c:c4:7a:9a:80:5a
+# gamma15-mb1		0c:c4:7a:9a:85:d2
+# gamma15-mb2		0c:c4:7a:9a:85:d3
+# gamma15-pci0		24:8a:07:f8:b2:60
 
 lambda00-admin		0c:c4:7a:9a:80:5a
 lambda00-mb1		0c:c4:7a:9a:85:d2
