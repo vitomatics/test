@@ -1,9 +1,6 @@
 # Default setup for an isolated host
 # see init.sls for what we are overriding
 
-include:
-  - homedirs
-
 states:
   pam.sss: false
   openldap.client: false
@@ -18,7 +15,7 @@ states:
   nsswitch.hosts: true
   nsswitch.shells: true
   firewall.iptables: true
-  homedirs: true
+  sfaccount.accounts: true
 
 nss:
   use_sssd: false
@@ -36,11 +33,9 @@ pkgs:
     unattended-upgrades: false
 
 # Need to put public keys in ssh
-homedirs:
+sfaccount:
   lookup:
     home: /home
-  servers:
-    {{grains.id}}: true
     
 
 # nsswitch
