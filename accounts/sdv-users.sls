@@ -8,7 +8,7 @@
 sfaccount:
   users:
 {%- for user, attrs in allusers.users|dictsort %}
-{%- tags = attrs.tags|default([]) %}
+{%- set tags = attrs.tags|default([]) %}
 {%- if tag in tags %}
     {{ user }}:
       {{ attrs|yaml }}
