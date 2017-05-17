@@ -1,5 +1,11 @@
-# Uses on tyhe smartdv (sdv) isolated machine
+# Users on the smartdv (sdv) isolated machine
+# This filters the main account database and extracts just the information
+# that is needed.
 
 {% import_yaml "accounts/allusers.yml" as allusers %}
 
-{{ allusers|yaml }}
+sfaccount:
+  users:
+{% for user in allusers.users %}
+  {{- user|yaml|indent(4) }}
+{% endfor %}
