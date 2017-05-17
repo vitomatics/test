@@ -3,7 +3,7 @@
 # that is needed.
 
 {% import_yaml "accounts/allusers.yml" as allusers %}
-{% tag = 'sdv' %}
+{% set tag = 'sdv' %}
 
 sfaccount:
   users:
