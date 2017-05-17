@@ -262,3 +262,10 @@ base:
     - profile.sifive-noc
     - profile.backupclient
     - hosts.yoda
+
+  'lambda00.internal.sifive.com':
+    - subnet.he-iso01
+    - default.iso
+    - profile.login
+    - hosts.lamba00
+
