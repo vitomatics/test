@@ -267,5 +267,5 @@ base:
     - subnet.he-iso01
     - default.iso
     - profile.login
-    - hosts.lamba00
+    - hosts.lambda00
 
