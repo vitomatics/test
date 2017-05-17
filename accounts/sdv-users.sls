@@ -6,6 +6,7 @@
 
 sfaccount:
   users:
-{% for user in allusers.users %}
-  {{- user|yaml|indent(4) }}
+{% for user, attrs in allusers.users|dictsort %}
+{{ user|indent(4) }}
+{{ attrs|indent(6) }}
 {% endfor %}
