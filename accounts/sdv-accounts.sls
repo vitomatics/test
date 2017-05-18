@@ -15,13 +15,11 @@ sfaccount:
     {{ user }}:
       {{ attrs|yaml }}
 {% endif -%}     {# Test for our tag #}
-{% endfor -%}
-  whatever:
-    test1
+{% endfor %}
 
   groups:
 {%- for group, attrs in allgroups.groups|dictsort %}
 {%- set tags = attrs.tags|default([]) %}
     {{ group }}:
       {{ attrs|yaml }}
-{% endfor -%}
+{% endfor %}
