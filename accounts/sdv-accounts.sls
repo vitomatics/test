@@ -8,8 +8,6 @@
 {% import_yaml "accounts/allgroups.yml" as allgroups %}
 
 sfaccount:
-  whatever:
-    test1
   users:
 {%- for user, attrs in allusers.users|dictsort %}
 {%- set tags = attrs.tags|default([]) %}
@@ -18,6 +16,8 @@ sfaccount:
       {{ attrs|yaml }}
 {% endif -%}     {# Test for our tag #}
 {% endfor -%}
+  whatever:
+    test1
 
   groups:
 {%- for group, attrs in allgroups.groups|dictsort %}
