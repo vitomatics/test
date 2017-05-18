@@ -8,6 +8,7 @@ modules:
   paths:
     - /sifive/tools/Modules/default/sifive
 
+pkgs:
   list:
     lsb-core: true
     gcc-multilib: true
