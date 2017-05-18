@@ -267,6 +267,6 @@ base:
     - subnet.he-iso01
     - default.iso
     - profile.login
-    - accounts.sdv-users
+    - accounts.sdv-accounts
     - hosts.lambda00
 

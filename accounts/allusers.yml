@@ -1,3 +1,13 @@
+### A list of all users at SiFive, including users who only have accounts
+### on isolated machines.
+###
+### IMPORTANT - this is a yaml file not an SLS file so no jinja
+
+## Note user-changable data like keys, shells and passwords may be out of date
+## - do not blindly apply this data to running machines
+
+## Regular users - also in LDAP
+
 users:
   terpstra:
     tags: [ cluster ]
@@ -213,3 +223,5 @@ users:
     fullname: "Colin Schmidt"
     uid: 1132
     gid: 1132
+
+## Users who are only set up as local users on isolated machines.

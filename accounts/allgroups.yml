@@ -1,0 +1,30 @@
+### A list of all human-focused groups at SiFive, including users
+### who only have accounts on isolated machines.
+###
+### IMPORTANT - this is a yaml file not an SLS file so no jinja
+
+## Note this might not be 100% consistent with LDAP
+## - do not blindly apply this data to running machines
+
+groups:
+  sysadmin:
+    gid: 9001
+    tags: [ cluster, sdv ]
+  compute:
+    gid: 9002
+    tags: [ cluster ]
+  consult:
+    gid: 9003
+    tags: [ cluster ]
+  minimal:
+    gid: 9004
+    tags: [ cluster ]
+  nfsroot:
+    gid: 9005
+    tags: [ cluster ]
+  jenkins:
+    gid: 9997
+    tags: [ cluster ]
+  eda:
+    gid: 9998
+    tags: [ cluster, sdv ]
