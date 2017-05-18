@@ -4,6 +4,10 @@
 
 {% set tag = 'sdv' %}
 
+pam:
+  access:
+    sdv-users: ALL
+
 {% import_yaml "accounts/allusers.yml" as allusers %}
 {% import_yaml "accounts/allgroups.yml" as allgroups %}
 

@@ -7,6 +7,12 @@
 ## - do not blindly apply this data to running machines
 
 groups:
+# Local groups
+  sdv-users:
+    tags: [ sdv ]
+    gid: 8001
+    addusers: [ davidj, aou, hes ]
+# Global groups
   sysadmin:
     tags: [ cluster, sdv ]
     gid: 9001
