@@ -24,6 +24,9 @@ nss:
     group:
     shadow:
     automount:
+  passwd:
+    sfadmin:
+      password: "$6$E0Vn0nac$tGrv1tKOmFZPJQibUqCsCQ92PXTwJmLq3L2zlo/oDtq8/C41LgU.0U68TDN4lfoC8Kat90perMvgOPAf1BtzU"
 
 pkgs:
   list:
