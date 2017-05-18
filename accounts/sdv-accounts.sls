@@ -18,6 +18,7 @@ sfaccount:
 {% endfor -%}
 
   groups:
+    {{ allgroups | yaml }}
 {%- for group, attrs in allgroups.groups|dictsort %}
 {%- set tags = attrs.tags|default([]) %}
 {%- if tag in tags %}
