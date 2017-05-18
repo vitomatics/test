@@ -271,6 +271,7 @@ base:
   'lambda00.internal.sifive.com':
     - subnet.he-iso01
     - default.iso
+    - profile.edadirs
     - profile.devel
     - profile.login
     - profile.nomachine-eval
