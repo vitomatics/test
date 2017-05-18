@@ -8,23 +8,23 @@
 
 groups:
   sysadmin:
+    tags: [ cluster, sdv ]
     gid: 9001
-    tags: [ cluster, sdv ]
   compute:
+    tags: [ cluster ]
     gid: 9002
-    tags: [ cluster ]
   consult:
+    tags: [ cluster ]
     gid: 9003
-    tags: [ cluster ]
   minimal:
+    tags: [ cluster ]
     gid: 9004
-    tags: [ cluster ]
   nfsroot:
+    tags: [ cluster ]
     gid: 9005
-    tags: [ cluster ]
   jenkins:
-    gid: 9997
     tags: [ cluster ]
+    gid: 9997
   eda:
-    gid: 9998
     tags: [ cluster, sdv ]
+    gid: 9998
