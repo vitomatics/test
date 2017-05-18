@@ -273,6 +273,7 @@ base:
     - default.iso
     - profile.devel
     - profile.login
+    - profile.nomachine-eval
     - accounts.sdv-accounts
     - hosts.lambda00
 
