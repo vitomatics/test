@@ -8,6 +8,8 @@
 {% import_yaml "accounts/allgroups.yml" as allgroups %}
 
 sfaccount:
+  whatever:
+    test1
   users:
 {%- for user, attrs in allusers.users|dictsort %}
 {%- set tags = attrs.tags|default([]) %}
