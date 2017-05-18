@@ -10,7 +10,7 @@ groups:
   sysadmin:
     tags: [ cluster, sdv ]
     gid: 9001
-    addmembers: [ davidj, aou ]
+    addusers: [ davidj, aou ]
   compute:
     tags: [ cluster ]
     gid: 9002
