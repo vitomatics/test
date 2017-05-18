@@ -20,6 +20,8 @@ sfaccount:
   groups:
 {%- for group, attrs in allgroups.groups|dictsort %}
 {%- set tags = attrs.tags|default([]) %}
+{%- if tag in tags %}
     {{ group }}:
       {{ attrs|yaml }}
+{% endif -%}     {# Test for our tag #}
 {% endfor %}
