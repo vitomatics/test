@@ -80,6 +80,7 @@ base:
   'algol.internal.sifive.com':
     - subnet.sf-unix
     - profile.devel
+    - profile.repos-src
     - profile.clusterclient
     - profile.login
     - profile.slurm-client
@@ -90,6 +91,7 @@ base:
   'altair.internal.sifive.com':
     - subnet.he-unix01
     - profile.devel
+    - profile.repos-src
     - profile.clusterclient
     - profile.login
     - profile.slurm-client
@@ -100,6 +102,7 @@ base:
   'betel.internal.sifive.com':
     - subnet.he-unix01
     - profile.devel
+    - profile.repos-src
     - profile.clusterclient
     - profile.login
     - profile.slurm-client
@@ -110,6 +113,7 @@ base:
   'frogstar.internal.sifive.com':
     - subnet.he-unix01
     - profile.devel
+    - profile.repos-src
     - profile.clusterclient
     - profile.login
     - profile.slurm-client
@@ -157,6 +161,7 @@ base:
   'gamma*.internal.sifive.com':
     - subnet.he-dhcp
     - profile.devel
+    - profile.repos-src
     - profile.clusterclient
     - profile.slurm-client
     - profile.slurm-node
