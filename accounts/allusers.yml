@@ -9,6 +9,13 @@
 ## Regular users - also in LDAP
 
 users:
+  eda:
+    tags: [ cluster, sdv ]
+    fullname: "Electronic Design Automation"
+    uid: 9998
+    gid: 9998
+    home: /sifive/tools
+    shell: /usr/sbin/nologin
   terpstra:
     tags: [ cluster ]
     fullname: "Wesley Terpstra"
