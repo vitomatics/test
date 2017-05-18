@@ -271,6 +271,7 @@ base:
   'lambda00.internal.sifive.com':
     - subnet.he-iso01
     - default.iso
+    - profile.devel
     - profile.login
     - accounts.sdv-accounts
     - hosts.lambda00
