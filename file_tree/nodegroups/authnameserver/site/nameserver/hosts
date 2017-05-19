@@ -253,6 +253,7 @@
 64.62.193.197 he-login2.sifive.com login2.sifive.com he2.sifive.com x2go.sifive.com
 64.62.193.198 gitkick1.sifive.com
 64.62.193.199 he-login3.sifive.com login3.sifive.com he3.sifive.com nm2.sifive.com
+64.62.193.200 ilogin1.sifive.com
 # 64.62.193.255 RESERVED - do not use
 
 ## 169.254.0.0->169.254.255.255 he-netapp-net
