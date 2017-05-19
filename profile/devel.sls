@@ -161,6 +161,9 @@ pkgs:
     # Needed by ipxe
     liblzma-dev: true
 
+    # FPGA board tests
+    sshpass: true
+
   listurl:
     libxp6: http://sfimages.internal.sifive.com/Ubuntu/trusty/amd64/libxp6_1.0.2-1ubuntu1_amd64.deb
 
