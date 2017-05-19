@@ -26,7 +26,7 @@ nss:
     automount:
   passwd:
     sfadmin:
-      password: "$6$ERslMr57$z2Y/aXEIAq2DZyx7U4eJzWbdJMP6VPXxzyZJkc96geluVNGZfDKiUzuI2yeCrejOKnzNo9UNEzav9/nmlvzW91:17304"
+      password: "$6$ERslMr57$z2Y/aXEIAq2DZyx7U4eJzWbdJMP6VPXxzyZJkc96geluVNGZfDKiUzuI2yeCrejOKnzNo9UNEzav9/nmlvzW91"
 
 pkgs:
   list:
