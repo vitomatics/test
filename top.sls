@@ -117,7 +117,7 @@ base:
     - profile.clusterclient
     - profile.login
     - profile.slurm-client
-    - profile.nomachine-eval
+    - profile.nomachine-licensed
     - profile.ganglia-node-server
     - hosts.frogstar
 
