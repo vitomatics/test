@@ -7,7 +7,7 @@ sfvirt:
       vmhost: marvin.internal.sifive.com
       vcpus: 2
       memory: 4096   # In MB
-      autostart: onx
+      autostart: on
       ifs:
         eth0:
           bridge: br0
