@@ -11,3 +11,7 @@ nss:
     flexlm:
       gid: 998
       system: true
+
+pkgs:
+  list:
+    lsb-core: true
