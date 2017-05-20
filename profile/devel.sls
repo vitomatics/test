@@ -116,6 +116,7 @@ pkgs:
     python-pygments: true
     {% if grains.os == 'Ubuntu' %}
     python3-sympy: true
+    python3-yaml: true
     python-sympy-doc: true
     {% endif %}
 
