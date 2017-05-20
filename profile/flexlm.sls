@@ -15,3 +15,7 @@ nss:
 pkgs:
   list:
     lsb-core: true
+
+file:
+  ln:
+    /usr/tmp: /tmp
