@@ -124,6 +124,8 @@ pkgs:
     libglib2.0-dev: true
     libgtk2.0-dev: true
     libpango1.0-dev: true
+    libssl-dev: true
+    libssl-doc: true
 
     ## General cpu tools
     qemu: true
