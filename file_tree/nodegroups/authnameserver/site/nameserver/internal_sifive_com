@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017051801 ; serial number
+	2017052201 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -108,6 +108,7 @@ salt1			IN	CNAME	viki
 yoda			IN	A	10.14.16.42
 adns0			IN	A	10.14.16.42
 jarjar			IN	A	10.14.16.43
+license0		IN	CNAME	jarjar
 
 heartofgold		IN	A	10.14.16.48
 hog			IN	CNAME	heartofgold
@@ -214,6 +215,7 @@ router01-ge0-0-3	IN	A	10.16.0.1
 sf-lab-net-gw	IN	CNAME	router01-ge0-0-3
 nuc1			IN	A	10.16.0.32
 turtle			IN	A	10.16.0.33
+tortoise		IN	A	10.16.0.34
 
 
 router01-st0		IN	A	10.100.100.1

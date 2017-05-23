@@ -280,5 +280,7 @@ base:
 
   'jarjar.internal.sifive.com':
     - subnet.he-unix01
+    - profile.container
+    - profile.flexlm
     - hosts.jarjar
 

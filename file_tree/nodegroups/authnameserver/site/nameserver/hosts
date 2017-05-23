@@ -161,6 +161,7 @@
 10.16.0.1 sf-lab-net-gw router01-ge0-0-3
 10.16.0.32 nuc1
 10.16.0.33 turtle
+10.16.0.34 tortoise
 10.16.0.128 sf-lab-net-dhcp128
 ...
 10.16.0.191 sf-lab-net-dhcp191
