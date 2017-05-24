@@ -3,7 +3,7 @@
 
 include:
   - profile.edasync-smartdv
-  - secret.edasync-smartdv-key.sls
+  - secret.edasync-smartdv-key
 
 states:
   sfpushdirs.master: true
