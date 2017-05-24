@@ -16,5 +16,7 @@ sfpushdirs:
     dirs:
       - /sifive/tools/Modules 
       - /sifive/tools/synopsys/vcs
+      - /sifive/vip/smartdv
       - /sifive/ip/tsmc/cln28hpc/synopsys/MP-12G-PHY_TSMC_28HPC_x8
+      - /sifive/ip/tsmc/cln28hpc/cadence/ddr-20161110
       - /sifive/ip/tsmc/cln28hpc/cadence/ddr-20161110
