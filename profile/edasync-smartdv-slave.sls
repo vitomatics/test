@@ -1,12 +1,7 @@
 # Profile for the host that is the slave for syncing the eda
 # tools required by SmartDV contractors
 
-include:
-  - profile.edasync-smartdv
-
-states:
-  sfpushdirs.slave: true
-
+# Private key is in secret/edasync-smartdv-key.sls
 sfaccount:
   users:
     eda:

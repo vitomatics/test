@@ -233,6 +233,7 @@ base:
     - profile.devel
     - profile.clustermaster
     - profile.ganglia-node-server
+    - profile.edasync-smartdv-master
     - hosts.tardis
 
   'grid.internal.sifive.com':
@@ -276,6 +277,7 @@ base:
     - profile.devel
     - profile.login
     - profile.nomachine-eval
+    - profile.edasync-smartdv-slave
     - accounts.sdv-accounts
     - hosts.lambda00
 
