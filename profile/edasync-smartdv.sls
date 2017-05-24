@@ -1,6 +1,6 @@
 # Directories to sync for SmartDV contractors
 
-userrsync:
+sfpushdirs:
   eda-smartdv:
     user: eda
     master: tardis.internal.sifive.com

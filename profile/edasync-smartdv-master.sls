@@ -5,4 +5,4 @@ include:
   - profile.edasync-smartdv
 
 states:
-  userrsync.master: true
+  sfpushdirs.master: true
