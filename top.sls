@@ -199,6 +199,7 @@ base:
     - profile.clusterclient
     - profile.slurm-client
     - profile.slurm-node
+    - profile.edasync-smartdv-master
     - hosts.sandbox
 
   'nuc2.internal.sifive.com':
