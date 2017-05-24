@@ -2,8 +2,19 @@
 # tools required by SmartDV contractors
 
 include:
-  - profile.edasync-smartdv
   - secret.edasync-smartdv-key
 
 states:
   sfpushdirs.master: true
+
+# Directories to sync for SmartDV contractors
+
+sfpushdirs:
+  eda-smartdv:
+    user: eda
+    slave: lambda00.internal.sifive.com
+    dirs:
+      - /sifive/tools/Modules 
+      - /sifive/tools/vcs
+      - /sifive/ip/tsmc/cln28hpc/synopsys/MP-12G-PHY_TSMC_28HPC_x8
+      - /sifive/ip/tsmc/cln28hpc/cadence/ddr-20161101

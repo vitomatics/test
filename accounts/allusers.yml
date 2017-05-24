@@ -16,6 +16,7 @@ users:
     gid: 9998
     home: /sifive/tools
     shell: /usr/sbin/nologin
+    # Do not set up authorized_keys here - set by sfpushdirs state
   terpstra:
     tags: [ cluster ]
     fullname: "Wesley Terpstra"
