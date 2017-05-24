@@ -1,7 +1,7 @@
 # Profile for the host that is the slave for syncing the eda
 # tools required by SmartDV contractors
 
-{% set tardisip = salt['dnsutil.A']('tardis.internal.sifive.com') %}
+{% set tardisip = salt['dnsutil.A']('tardis.internal.sifive.com')[0] %}
 
 # Private key is in secret/edasync-smartdv-key.sls
 sfaccount:
