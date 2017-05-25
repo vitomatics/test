@@ -32,10 +32,19 @@ pkgs:
     # unattended upgrades hang shutdowns
     unattended-upgrades: false
 
-# Need to put public keys in ssh
+# Need to put public keys in for ssh
 sfaccount:
   lookup:
     home: /home
+
+
+# Clear out some stuff that is mildly sensitive
+autofs:
+  ldap:
+    bindpw: ~
+ssd:
+  ldap:
+    bindpw: ~
     
 
 # nsswitch
