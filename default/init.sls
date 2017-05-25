@@ -90,7 +90,7 @@ nss:
 pam:
   access:
     root: LOCAL
-    sfadmin: ALL
+    sfadmin: 10.0.0.0/8
     sysadmin: ALL
 
 sudo:
