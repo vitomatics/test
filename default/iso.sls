@@ -39,13 +39,8 @@ sfaccount:
 
 
 # Clear out some stuff that is mildly sensitive
-autofs:
-  ldap:
-    bindpw: ~
-ssd:
-  ldap:
-    bindpw: ~
-    
+autofs: ~
+sssd: ~
 
 # nsswitch
 #   nsswitch.group
