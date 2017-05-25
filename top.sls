@@ -2,11 +2,6 @@ base:
   '*':
     - default
 
-  'nihilanth.internal.sifive.com':
-    - subnet.sf-unix
-    - profile.backupclient
-    - hosts.nihilanth
-
   'leia.internal.sifive.com':
     - subnet.he-unix01
     - profile.nameserver-semicaching

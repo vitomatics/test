@@ -5,10 +5,6 @@ states:
 xen:
   bridge: xenbr0
   domu:
-    nihilanth:
-      vcpu: 2
-      disk: /dev/vg_combine/domu-nihilanth
-      mac: '00:16:3e:0a:74:64'
     breencast:
       disk: /dev/vg_combine/domu-breencast
       mac: '00:16:3e:e1:83:aa'

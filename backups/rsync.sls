@@ -105,18 +105,6 @@ sfdump:
       key: sfdump_hog_key1
       days: 3
       weeks: 4
-    nihilanth-etc:
-      absent: true      ###################
-      client: nihilanth.internal.sifive.com
-      server: heartofgold.internal.sifive.com
-      src: /usr/local/etc
-      dest: /sfbackup/dumps/nihilanth-etc
-      compression: false
-      acls: false
-      xattrs: false
-      key: sfdump_hog_key1
-      days: 3
-      weeks: 4
     breencast-ldap-db:
       client: breencast.internal.sifive.com
       server: heartofgold.internal.sifive.com
