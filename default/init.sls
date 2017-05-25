@@ -90,7 +90,7 @@ nss:
 pam:
   access:
     root: LOCAL
-    'wheel EXCEPT root': ALL
+    sfadmin: ALL
     sysadmin: ALL
 
 sudo:
