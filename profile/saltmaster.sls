@@ -50,6 +50,7 @@ sfsalt:
         - altair.internal.sifive.com
         - betel.internal.sifive.com
         - frogstar.internal.sifive.com
+        - lambda00.internal.sifive.com
       compute:
         - gamma*.internal.sifive.com
         - i0.internal.sifive.com
@@ -63,6 +64,7 @@ sfsalt:
         - i0.internal.sifive.com
         - b0.internal.sifive.com
         - tardis.internal.sifive.com
+        - lambda00.internals.sifive.com
       vmhost:
         - eddie.internal.sifive.com
         - marvin.internal.sifive.com
