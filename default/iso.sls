@@ -41,35 +41,3 @@ sfaccount:
 # Clear out some stuff that is mildly sensitive
 autofs: ~
 sssd: ~
-
-# nsswitch
-#   nsswitch.group
-#   nsswitch.passwd
-#     nsswitch.group
-#   nsswitch.hosts
-#   nsswitch.shells
-#   sssd
-
-# sssd
-#   openldap.client
-#   # references to kerberos
-
-# pam
-
-# pam.access
-#   pam
-#   pam.update
-
-# pam.all
-#   pam
-#   pam.access
-#   pam.sss
-#   pam.mkhome
-
-# pam.sss
-#   pam
-#   sssd
-
-# pam.mkhomedir
-#   pam
-#   pam.update
