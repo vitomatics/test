@@ -24,7 +24,7 @@ $TTL	86400
 6.0	IN	PTR	breencast.internal.sifive.com.
 7.0	IN	PTR	metrocop.internal.sifive.com.
 8.0	IN	PTR	synth.internal.sifive.com.
-9.0	IN	PTR	gonarch.internal.sifive.com.
+
 10.0	IN	PTR	jenkins.internal.sifive.com.
 11.0	IN	PTR	canal.internal.sifive.com.
 12.0	IN	PTR	algol.internal.sifive.com.

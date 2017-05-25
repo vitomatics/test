@@ -20,6 +20,3 @@ xen:
       vcpu: 4
       disk: /dev/vg_combine/domu-synth
       mac: '00:16:3e:88:55:b7'
-    gonarch:
-      disk: /dev/vg_combine/domu-gonarch
-      mac: '00:16:3e:95:9b:ee'

@@ -45,11 +45,6 @@ base:
     - subnet.sf-unix
     - hosts.synth
 
-  'gonarch.internal.sifive.com':
-    - subnet.sf-unix
-    - profile.backupclient
-    - hosts.gonarch
-
   'dalek.internal.sifive.com':
     - subnet.he-unix01
     - profile.tftp-sysadmin

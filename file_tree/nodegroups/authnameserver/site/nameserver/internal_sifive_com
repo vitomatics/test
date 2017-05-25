@@ -29,7 +29,7 @@ nihilanth-adns	IN	A	10.14.0.4
 breencast	IN	A	10.14.0.6
 metrocop	IN	A	10.14.0.7
 synth		IN	A	10.14.0.8
-gonarch		IN	A	10.14.0.9
+
 jenkins		IN	A	10.14.0.10
 canal		IN	A	10.14.0.11
 algol		IN	A	10.14.0.12
@@ -45,7 +45,6 @@ ldap		IN	CNAME	breencast
 kdc0		IN	CNAME	metrocop
 pkg		IN	CNAME	synth
 preseed		IN	CNAME	synth
-apt		IN	CNAME	gonarch
 
 router03	IN	A	10.14.0.243
 

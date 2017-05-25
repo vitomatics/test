@@ -139,17 +139,6 @@ sfdump:
       key: sfdump_hog_key2
       days: 4
       weeks: 2
-    gonarch-srv:
-      client: gonarch.internal.sifive.com
-      server: heartofgold.internal.sifive.com
-      src: /srv
-      dest: /sfbackup/dumps/gonarch-srv
-      compression: false
-      acls: false
-      xattrs: false
-      key: sfdump_hog_key1
-      days: 4
-      weeks: 2
     dalek-srv-onsite:
       client: dalek.internal.sifive.com
       server: heartofgold.internal.sifive.com
