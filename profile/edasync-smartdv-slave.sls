@@ -8,7 +8,7 @@ sfaccount:
   users:
     eda:
       authorized_keys:
-        - from="{{tardisip}}",restrict ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDij5HQx5GxLZbteaI6K+xBZaVf5/l6iDHiOGvhU2dFGArVGDdnNGZQfD/8TPXopKLWZXOuGlyxm5sUd8MVmbUwGccL6Vg0JYd9UnmWpVYvYkaE8rFEKT9dvWXJMb6QZxaPLS7dDdHAh2M+irudq994nrkUrG7DrqJcQ6Gfh3CDubYRqL8eujpagkYRN1Sz0b5nIhaVYilsGwWdw1aj2dQhBlPuKqJ3q9piMxDIx8+oE8NU1H7qYE7q/SIo0bq6tPEWKiWiRJqnKbN1Q5SAfGhX8IcN0/4I9e0kfQ/i6lCTVJP0cTfb5dSm/WKf4gU7TV4wqx6x6Pe9bKtoxKG7NLhd davidj@Davids-MacBook-Pro.local
+        - from="{{tardisip}}",restrict ssh-rsa ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKHNmTlpGGvAXZQCkNsEkPC3rBbzDQOvlnq0Ze7QTprWis1ynVE85h/tTqf4/xl72WnjRm3Batl9i6oHlmgJVrg9c0o35gB1xEN8KrygOZ6hwQPAwQEdv71bIDpQKh1fIKGzTyImteQBVs/6IgYhVQvEprYPzPaYiGEFAP0XHup6NWerBa0ux0I1EGv4dqJRUVczg/X6+XCXRuny8aBcf5ko2jCtR802n2muZgGAKJ0hy6pOZtiQ/fEl1kjUnBuOUYur4iCP6OAH3uuSpa1Xmdcwzjhe+npLKdoydVlUbt32jelOUmeAhorAjnqltvZX+gUqDKsQw2DX6C2Oc71hPp davidj@Davids-MacBook-Pro.local
 
 # Rely on sshd to control access
 pam:

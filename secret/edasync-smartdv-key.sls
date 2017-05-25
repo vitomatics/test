@@ -1,32 +1,47 @@
-# Private key for eda sync for SmartDV contractors
+#!yaml|gpg
+##
+## Keys for syncing eda tools
+##
+## *** SOME OF THIS IS GPG ENCRYPTED ***
 
 sfpushdirs:
   eda-smartdv:
     private_key: |
-      -----BEGIN RSA PRIVATE KEY-----
-      MIIEpAIBAAKCAQEA4o+R0MeRsS2W7XmiOivsQWWlX+f5eogx4jhr4VNnRRgK1Rg3
-      ZzRmUHw//Ez16KSi1mVzrhpcsZubFHfDFZm1MBnHC+lYNCWHfVJ5lqVWL2JGhPKx
-      RCk/Xb1lyTG+kGcWjy0u3Q3RwIdjPoq7navfeJ65FKxuw66iXEOhn4dwg7m2Eai/
-      Hro6WoJGETdUs9G+ZyIWlWIpbBsFncNWo9nUIQZT7iqid6vaYjMQyMfPqBPDVNR+
-      6mBO6v0iKNG6urTxFiolokSapymzdUOUgHxoV/CHDdP+CPXtJH0P4upQk1ST9HE3
-      2+XUpv1in+IFO01eMKsesej3vWyraMShuzS4XQIDAQABAoIBADrnVuLwMBnfn4Do
-      gdwb9VXfZoqz1jIcXNPTFYFE3PGi2ZYjsKvdfMhqNXyUSc8NluSlBdl7MyReL4i3
-      xnnEN85ktVKMfYk5RKu5mLEpFWpGY81HB/2Pt9DYYDFaBJCorL3W4ntIj4M97/if
-      uz24JObIZZhRaI7pxX61erzuSruEPObAWGdoFY88XvtqYsWE9uLijQushVdDlGVP
-      8fwpt4vJmyOfl/9I/zAQ5jZ0xmKHp4YMDRBTVaQjUAiIkfJYc7VNbjYAsZwkzENC
-      q6pnMcTM0zpr3a/xFm7ltWbW+gyUjz+kgOp5HPHRHTyTdlPBPt7Ny6FjaDx4bF/I
-      CU/Xl6UCgYEA9hq9WHDj+hzQt3wqWAZAey/Saej9mfBA2HwqpO9Z89Ly+aHAtJ/k
-      rf6xB2bMuB0k6FHXX8v6878SFWszRM2SiM8IO0zyWfRVv8FGVHdTfAcmcmLu/G1b
-      vFlznhywL4qr1dShubPlFjUQ71EbmAous+mYPkcvfS4W6eo2B045obcCgYEA66uo
-      qRr/HiGCSX0JScjPgJubdVmwtCV+Uo770gVVxG1eecGMNJB49uqD+HmZa8eZzUTU
-      9bS5QK0wO/6ezIsBHNBwH9vKbGB1Uo0MELU8ZGATQ5HkgkOnMjDLcw7k6Z2Z+e7l
-      Gr2ODoagVhMxapq7fril2nbooX1mqRtUfNRdZosCgYEA08oZLlYgayqHF5A8JHpk
-      3V4/NrOyItrWAzd/v2bXw3PDc76WxxpewrnPAS6feMZj76YWsbMp6L+CwXn6qfg7
-      ZY69Z8MFQRJ7BMVAUApMhwzkMkYfoo4+Bu34CJZprNAqpp8Q+m3s9NqAE2N6WrJQ
-      lLWvNdEu9gxG3dCX5FuWTysCgYEAsj4Xhyba81AGuUwvXTXa8vs93cijI+0DmK95
-      +EN+tdy+Sro/L3ZhduayP5jAl8rUIXNA2kEAp9EVHRsbwboUclWXqBDVDZj6wx/Y
-      kz5v2b7scvuB56ABca2EApauPZ6sWWL8tnfNXGEoHVHQ2z8CNfqzvgKXOaSdo6L/
-      CJaZubcCgYBr5J+DQvk8AXB0zAwr8rt4QM8IfSPePFLlEXuFW+beG/SgxmmCHo3j
-      NCwZ7/hhVSktP7OjvZubXLtZVpdsBg/+8Zq9f1uSmtegsr6eapFHFLWqZgl8J8CO
-      TKN+yR3497CrH071Ne0+9hnUHs1n4sg/yiKRZYxm9nXDYW6751FMkg==
-      -----END RSA PRIVATE KEY-----
+      -----BEGIN PGP MESSAGE----- 
+
+      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
+      =YrYp
+      -----END PGP MESSAGE-----
