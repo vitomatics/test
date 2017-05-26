@@ -93,6 +93,12 @@ pam:
     root: LOCAL
     sfadmin: 10.0.0.0/8
     sysadmin: ALL
+  pwquality:
+    difok: 2
+    minclass: 3
+    maxrepeat: 3
+    maxsequence: 3
+    minlen: 11
 
 sudo:
   defaults:
