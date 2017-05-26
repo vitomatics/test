@@ -14,6 +14,7 @@ states:
   network.resolver: true
   pam.access: true
   pam.sss: true
+  pam.pwquality: true
   pam.mkhomedir: true
   nsswitch: true
   ssh.server: true
