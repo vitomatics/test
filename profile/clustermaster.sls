@@ -1,7 +1,7 @@
 ## pillar file for tardis
 
 include:
-  - homedirs
+  - accounts/cluster-accounts
 
 states:
   autofs: true
