@@ -9,6 +9,7 @@
 {% set tag = 'cluster' %}
 
 {% import_yaml "accounts/allusers.yml" as allusers %}
+{% import_yaml "accounts/allgroups.yml" as allgroups %}
 
 sfaccount:
   users:
@@ -21,8 +22,6 @@ sfaccount:
 {% endfor %}
 
 
-{##############
-{% import_yaml "accounts/allgroups.yml" as allgroups %}
 
   groups:
 {%- for group, attrs in allgroups.groups|dictsort %}
@@ -32,4 +31,3 @@ sfaccount:
       {{ attrs|yaml }}
 {% endif -%}     {# Test for our tag #}
 {% endfor %}
-###########}
