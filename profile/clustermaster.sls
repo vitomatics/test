@@ -38,7 +38,7 @@ sudo:
       - ALL: '(ALL:ALL) ALL'
   
 
-homedirs:
+sfaccount:
   lookup:
     home: /home
   servers:

@@ -36,8 +36,11 @@ pkgs:
 sfaccount:
   lookup:
     home: /home
+  # We host our own home directories
+  servers:
+    {{grains.id}}: true
 
 
-# Clear out some stuff that is mildly sensitive
+# Clear out some stuff that is not needed and is mildly sensitive
 autofs: ~
 sssd: ~
