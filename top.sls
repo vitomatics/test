@@ -55,7 +55,6 @@ base:
 
   'vulcan.internal.sifive.com':
     - subnet.he-unix01
-    - profile.gocd-server
     - profile.backupclient
     - profile.ganglia-node-server
     - hosts.vulcan
