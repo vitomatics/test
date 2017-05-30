@@ -20,9 +20,3 @@ disksetup:
       opts: noatime
       lv: vulcan00/srv
 
-
-
-firewall:
-  ports:
-    tcp:
-      22: 10.0.0.0/8

@@ -1,4 +1,4 @@
-## Setup to enable system authentication/authorizatoin
+## Setup to enable system authentication/authorization
 ## ref: http://icephoenix.us/linuxunix/apache-and-http-authentication-with-pam/
 
 pkgs:

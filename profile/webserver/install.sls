@@ -1,4 +1,5 @@
-## Generic setup for a SiFive apache web server for sysadmin work.
+## Generic setup for a SiFive apache web server for machine access
+## for e.g. installs and patching.
 ## Uses the standard salt apache formula.
 ## Slightly different ACLs
 
