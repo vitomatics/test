@@ -31,4 +31,4 @@ groups:
   sdv-users:
     tags: [ sdv ]
     gid: 19001
-    addusers: [ davidj, aou, hes, sdvt01, sdvt02, sdvt03, sdvt04 ]
+    addusers: [ davidj, aou, hes, mikeyang, sdvt01, sdvt02, sdvt03, sdvt04 ]
