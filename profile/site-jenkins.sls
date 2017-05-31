@@ -28,6 +28,7 @@ apache:
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: false
+{#
       Location:
         /:
           AuthType: Basic
@@ -35,6 +36,7 @@ apache:
           AuthBasicProvider: external
           AuthExternal: pwauth
           Require: unix-group compute
+#}
       template_file: salt://apache/vhosts/proxy.tmpl
       AllowEncodedSlashes: NoDecode
       ProxyRequests: 'Off'
