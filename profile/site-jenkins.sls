@@ -28,6 +28,7 @@ apache:
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: false
+      Rewrite: True
       Location:
         'asdf':
           Require: whatever
