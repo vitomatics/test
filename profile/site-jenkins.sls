@@ -29,12 +29,13 @@ apache:
       ServerAdmin: help@sifive.com
       DocumentRoot: false
       Location:
-        /:
-          AuthType: Basic
-          AuthName: sifive_jenkins
-          AuthBasicProvider: external
-          AuthExternal: pwauth
-          Require: unix-group compute
+        '/':
+	  Formula_Append: |
+            AuthType Basic
+            AuthName sifive_jenkins
+            AuthBasicProvider external
+            AuthExternal pwauth
+            Require unix-group compute
       template_file: salt://apache/vhosts/proxy.tmpl
       AllowEncodedSlashes: NoDecode
       ProxyRequests: 'Off'
