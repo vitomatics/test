@@ -30,6 +30,7 @@ apache:
       DocumentRoot: false
       Location:
         'asdf':
+	  Allow: whatever
           Formula_Append: |
             AuthType Basic
             AuthName sifive_jenkins
