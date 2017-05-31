@@ -26,7 +26,7 @@ apache:
       interface: '*'
       port: '443'
       ServerName: {{ servername }}
-      ServerAdmin: help@sifive.com
+      ServerAdmin: help@sifive.comcom
       DocumentRoot: false
       Timeout: 100
       Location:
