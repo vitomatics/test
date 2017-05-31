@@ -28,6 +28,7 @@ apache:
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: false
+      Timeout: 100
       Location:
         'asdf':
           Allow: whatever
