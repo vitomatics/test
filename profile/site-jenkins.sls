@@ -28,7 +28,9 @@ apache:
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: false
-      SSLCertificateFile: /dev/null
+      Directory:
+        '/srv':
+	  Options: stuff
       Location:
         'asdf':
           Require: whatever
