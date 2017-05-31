@@ -29,7 +29,7 @@ apache:
       ServerAdmin: help@sifive.com
       DocumentRoot: false
       Rewrite: True
-      Location:
+      Directory:
         'asdf':
           Require: whatever
           Formula_Append: |
