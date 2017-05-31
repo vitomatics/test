@@ -29,7 +29,7 @@ apache:
       ServerAdmin: help@sifive.com
       DocumentRoot: false
       Location:
-        '/':
+        'asdf':
           Formula_Append: |
             AuthType Basic
             AuthName sifive_jenkins
