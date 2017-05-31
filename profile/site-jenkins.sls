@@ -48,9 +48,11 @@ apache:
           ProxyPassTargetOptions: 'nocanon'
           ProxyPassReverseSource: '/'
           ProxyPassReverseTarget: 'http://localhost:8080'
+{#
       Proxy_control:
         '*':
           AllowAll: True
+#}
       Formula_Append: |
         AddExternalAuth  pwauth /usr/sbin/pwauth
         SetExternalAuthMethod pwauth pipe
