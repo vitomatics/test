@@ -21,7 +21,7 @@ apache:
       template_file: salt://apache/vhosts/redirect.tmpl
     {{ site }}:
       interface: '*'
-      port: '80'
+      port: '443'
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: false
