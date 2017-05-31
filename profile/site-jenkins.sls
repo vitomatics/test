@@ -29,7 +29,7 @@ apache:
       ServerAdmin: help@sifive.com
       DocumentRoot: false
       Location:
-        '/':
+        /:
           AuthType: Basic
           AuthName: sifive_jenkins
           AuthBasicProvider: external
