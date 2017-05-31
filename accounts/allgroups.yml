@@ -7,11 +7,6 @@
 ## - do not blindly apply this data to running machines
 
 groups:
-# Local groups
-  sdv-users:
-    tags: [ sdv ]
-    gid: 8001
-    addusers: [ davidj, aou, hes ]
 # Global groups
   sysadmin:
     tags: [ cluster, sdv ]
@@ -31,3 +26,9 @@ groups:
     gid: 9005
 # jenkins group set by jenkins user
 # eda group set by eda user
+
+# Local groups
+  sdv-users:
+    tags: [ sdv ]
+    gid: 19001
+    addusers: [ davidj, aou, hes, sdvt01, sdvt02, sdvt03, sdvt04 ]
