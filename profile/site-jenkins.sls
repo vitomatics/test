@@ -25,7 +25,7 @@ apache:
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: false
-      VirtualDocumentRoot: {{ sitedir }}
+      # VirtualDocumentRoot: {{ sitedir }}
       Formula_Append: |
         AddExternalAuth  pwauth /usr/sbin/pwauth
         SetExternalAuthMethod pwauth pipe
