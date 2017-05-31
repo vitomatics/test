@@ -28,14 +28,8 @@ apache:
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: false
-      Directory:
-        '/srv':
-          Options: stuff
-          Formula_Append: |
-            AuthType Basic
       Location:
-        'asdf':
-          Require: whatever
+        '/':
           Formula_Append: |
             AuthType Basic
             AuthName sifive_jenkins
