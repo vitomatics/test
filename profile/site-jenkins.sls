@@ -29,7 +29,7 @@ apache:
       DocumentRoot: false
       template_file: salt://apache/vhosts/proxy.tmpl
       AllowEncodedSlashes: NoDecode
-      ProxyRequests: Off
+      ProxyRequests: 'Off'
       ProxyRoute:
         jenkins_proxy:
           ProxyPassSource: '/'
