@@ -30,7 +30,7 @@ apache:
       DocumentRoot: false
       Location:
         '/':
-	  Formula_Append: |
+          Formula_Append: |
             AuthType Basic
             AuthName sifive_jenkins
             AuthBasicProvider external
