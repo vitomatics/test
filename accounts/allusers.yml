@@ -236,6 +236,9 @@ users:
     fullname: "Mike Yang"
     uid: 1133
     gid: 1133
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDFSDaIU/E34gplmnbl60NddjpXURlgEkr40YKINPI7TMLCOOgE4GoeeqdLk1tDaNx8hwTVwTV+vPslHLbIwDPAmKMK03vIRRaMlvwpkMM2kWAj3ojLFWPSESz62oMWvB4mTwrj5bEEpj/gFTNyblMECWRwkrAAdR7rju1zKmBVVw== mikeyang@Michaels-MacBook-Pro.local
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDE2RX2ts/ossNZOxTbYaWXSg1YwIqghoRBYulBOwJo7k3BCz1WO8fbnhKieZ5F6ITmv4JyzjrD1evz82HTHoX0S6Iu0Hnmkvc0Y5SabMhOmeOhu9PYXJJv7ErMPVfXYZAv0YH24RRXEGZqY5Dn5zM7ze98+0gL1MdKXIpnoc2tBQ== mikeyang
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
