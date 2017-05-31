@@ -31,6 +31,8 @@ apache:
       Directory:
         '/srv':
           Options: stuff
+          Formula_Append: |
+            AuthType Basic
       Location:
         'asdf':
           Require: whatever
