@@ -45,7 +45,7 @@ apache:
           ProxyPassTargetOptions: 'nocanon'
           ProxyPassReverseSource: '/'
           ProxyPassReverseTarget: 'http://localhost:8080'
-      Proxy_Control:
+      Proxy_control:
         '*':
           AllowAll: True
       Formula_Append: |
