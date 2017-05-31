@@ -59,6 +59,7 @@ base:
     - profile.ganglia-node-server
     - profile.jenkins-server
     - profile.webserver.system_auth
+    - profile.site-jenkins
     - hosts.vulcan
 
   'klingon.internal.sifive.com':
