@@ -57,6 +57,7 @@ base:
     - subnet.he-unix01
     - profile.backupclient
     - profile.ganglia-node-server
+    - profile.jenkins-server
     - hosts.vulcan
 
   'klingon.internal.sifive.com':
