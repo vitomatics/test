@@ -84,6 +84,7 @@ install			IN	CNAME	dalek
 
 sandbox			IN	A	10.14.16.36
 vulcan			IN	A	10.14.16.37
+jenkins2		IN	CNAME	vulcan
 
 leia			IN	A	10.14.16.38
 he-ntp0			IN	CNAME	leia
