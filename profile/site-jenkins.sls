@@ -28,7 +28,6 @@ apache:
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: false
-{#
       Location:
         /:
           AuthType: Basic
@@ -36,7 +35,6 @@ apache:
           AuthBasicProvider: external
           AuthExternal: pwauth
           Require: unix-group compute
-#}
       template_file: salt://apache/vhosts/proxy.tmpl
       AllowEncodedSlashes: NoDecode
       ProxyRequests: 'Off'
@@ -47,14 +45,12 @@ apache:
           ProxyPassTargetOptions: 'nocanon'
           ProxyPassReverseSource: '/'
           ProxyPassReverseTarget: 'http://localhost:8080'
-{#
       Proxy_Control:
         '*':
           AllowAll: True
-#}
       Formula_Append: |
         AddExternalAuth  pwauth /usr/sbin/pwauth
         SetExternalAuthMethod pwauth pipe
-	RequestHeader set X-Forwarded-Proto "https"
-	RequestHeader set X-Forwarded-Port "443"
+        RequestHeader set X-Forwarded-Proto "https"
+        RequestHeader set X-Forwarded-Port "443"
 
