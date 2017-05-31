@@ -13,11 +13,18 @@ states:
 
 apache:
   sites:
+    {{ site }}-redirect:
+      ServerName: {{ servername }}
+      DocumentRoot: false
+      interface: '*'
+      port: '80'
+      template_file: salt://apache/vhosts/redirect.tmpl
     {{ site }}:
       interface: '*'
       port: '80'
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
+      DocumentRoot: false
       VirtualDocumentRoot: {{ sitedir }}
       Formula_Append: |
         AddExternalAuth  pwauth /usr/sbin/pwauth
