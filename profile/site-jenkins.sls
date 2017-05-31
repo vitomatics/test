@@ -26,12 +26,11 @@ apache:
       interface: '*'
       port: '443'
       ServerName: {{ servername }}
-      ServerAdmin: help@sifive.comcom
+      ServerAdmin: help@sifive.com
       DocumentRoot: false
-      Timeout: 100
       Location:
         'asdf':
-          Allow: whatever
+          Require: whatever
           Formula_Append: |
             AuthType Basic
             AuthName sifive_jenkins
