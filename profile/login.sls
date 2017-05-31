@@ -5,8 +5,8 @@ include:
   - site.sshguard-whitelist
 
 sshd:
-  PasswordAuthentication: no
-  X11Forwarding: yes
+  PasswordAuthentication: false
+  X11Forwarding: true
 
 pkgs:
   list:
