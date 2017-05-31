@@ -28,10 +28,10 @@ apache:
       ServerAdmin: help@sifive.com
       DocumentRoot: false
       Formula_Append: |
-	AllowEncodedSlashes NoDecode
-        ProxyPass / http://localhost:8080/ nocanon
-        ProxyPassReverse / http://localhost:8080/
-        ProxyRequests Off
+	'AllowEncodedSlashes NoDecode'
+        'ProxyPass / http://localhost:8080/ nocanon'
+        'ProxyPassReverse / http://localhost:8080/'
+        'ProxyRequests Off'
 
 # AddExternalAuth  pwauth /usr/sbin/pwauth
 # SetExternalAuthMethod pwauth pipe
