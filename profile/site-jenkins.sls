@@ -30,7 +30,7 @@ apache:
       DocumentRoot: false
       Directory:
         '/srv':
-	  Options: stuff
+        Options: stuff
       Location:
         'asdf':
           Require: whatever
