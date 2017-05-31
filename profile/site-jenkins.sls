@@ -28,8 +28,8 @@ apache:
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: false
-      Rewrite: True
-      Directory:
+      SSLCertificateFile: /dev/null
+      Location:
         'asdf':
           Require: whatever
           Formula_Append: |
