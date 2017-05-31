@@ -1,5 +1,6 @@
 ## Setup to enable system authentication/authorization
 ## ref: http://icephoenix.us/linuxunix/apache-and-http-authentication-with-pam/
+## and https://code.google.com/archive/p/mod-auth-external/wikis/ModAuthzUnixGroup.wiki
 
 include:
   - profile/webserver
