@@ -9,6 +9,8 @@
 states:
   apache.vhosts.standard: true
   apache.no_default_vhost: true
+  apache.mod_proxy: true
+  apache.mod_proxy_http: true
 
 
 apache:
@@ -25,8 +27,11 @@ apache:
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: false
-      # VirtualDocumentRoot: {{ sitedir }}
       Formula_Append: |
         AddExternalAuth  pwauth /usr/sbin/pwauth
         SetExternalAuthMethod pwauth pipe
+	AllowEncodedSlashes NoDecode
+        ProxyPass / http://localhost:8080/ nocanon
+        ProxyPassReverse / http://localhost:8080/
+        ProxyRequests Off
 
