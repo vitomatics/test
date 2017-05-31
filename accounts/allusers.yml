@@ -227,12 +227,12 @@ users:
     uid: 1131
     gid: 1131
   colins:
-    tags: [ cluster, sdv ]
+    tags: [ cluster ]
     fullname: "Colin Schmidt"
     uid: 1132
     gid: 1132
   mikeyang:
-    tags: [ cluster ]
+    tags: [ cluster, sdv ]
     fullname: "Mike Yang"
     uid: 1133
     gid: 1133
