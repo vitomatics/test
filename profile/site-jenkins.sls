@@ -27,16 +27,14 @@ apache:
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: false
+      template_file: salt://apache/vhosts/proxy.tmpl
+      ProxyRequests: Off
+      ProxyPassSource: '/'
+      ProxyPassTarget: 'http://localhost:8080'
+      ProxyPassTargetOptions: 'nocanon'
+      ProxyPassReverseSource: '/'
+      ProxyPassReverseTarget: 'http://localhost:8080'
+      AllowEncodedSlashes: NoDecode
       Formula_Append: |
         AddExternalAuth  pwauth /usr/sbin/pwauth
         SetExternalAuthMethod pwauth pipe
-
-
-
-{#
-        'AllowEncodedSlashes NoDecode'
-        'ProxyPass / http://localhost:8080/ nocanon'
-        'ProxyPassReverse / http://localhost:8080/'
-        'ProxyRequests Off'
-
-#}
