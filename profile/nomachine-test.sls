@@ -17,3 +17,6 @@ nomachine:
     PhysicalDesktopSharing: false
     VirtualDesktopSharing: true
 
+pam:
+  access:
+    nx: 127.0.0.1
