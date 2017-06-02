@@ -128,6 +128,9 @@ pkgs:
     libssl-dev: true
     libssl-doc: true
 
+    ## windows development
+    mingw-w64: true
+
     ## General cpu tools
     qemu: true
     openbios-sparc: true
