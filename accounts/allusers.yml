@@ -206,6 +206,8 @@ users:
     fullname: "Drew Barbier"
     uid: 1128
     gid: 1128
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1eo86bQudRYDZ3GOFIbeQHsJ0ojLJLmH7LstfVVjXTVQYtoNh9d7Hj+LeCOaVLQt+zLdI2gmetqpjU7GGBslwkLjdHK80y1oH1pfeVjKhEpiz4h3rN/KG8eONmr/ynfh5I3rjV5pqU+vvdZESJuHtCL9x2DYswzEd9mk/qKfjdb6Nz5ToFZSCb91SFFQlXwXudQZLwJIa6EqM/GluytJEsEF0xJT7k6l3Ug/MFf2xUy1ic7abJKxvo6wU87asV1h1ahszjIQC31bpzsN4fE6uGZzInHXUaLRkuNwB2YK0AxPRTkcUrHVOulwfMfTvc4MnouMegoDoMzwftG5WobZNUPgV2KJohmNYDSkKD9no9ijjHwe0bS2Z+vBkuniFD9WfNQ2s9TkNBaYL20YTOOuf/hcFJUtVQ9zIrFx9brOjvCZZGlQk6tQr0qL5OoTjbipID0OOP2GdZhlYXJHLNogA12ZdgFUUTcxmVJR/uQ0QWaAwiHSYZAfuWhyb0QBOBgrPo89pA4YKsFwCxJjIjhiLtn+wbxLW8oMvHUBDho9PWCI75H9X8sfCwqVkKi+EmpPjIGe1ypIMlf7aUrh4mR22Zwo0qSiqWZoO40b3kQTz6MhtmHytYBPBzWHJwPjCllEp9YH2Y9uuq/enUROsRHHPyfDJNCPsOTCZx+/Gz1U1Kw== drew@sifive.com
   ahuntington:
     tags: [ cluster ]
     fullname: "Albert Huntington"
