@@ -127,6 +127,7 @@ pkgs:
     libpango1.0-dev: true
     libssl-dev: true
     libssl-doc: true
+    cmake: true
 
     ## windows development
     mingw-w64: true
