@@ -64,7 +64,7 @@ sfsalt:
         - i0.internal.sifive.com
         - b0.internal.sifive.com
         - tardis.internal.sifive.com
-        - lambda00.internals.sifive.com
+        - lambda00.internal.sifive.com
       vmhost:
         - eddie.internal.sifive.com
         - marvin.internal.sifive.com
