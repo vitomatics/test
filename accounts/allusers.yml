@@ -110,6 +110,7 @@ users:
     fullname: "Albert Ou"
     uid: 1100
     gid: 1100
+    shell: /bin/zsh
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDUSlGAATIrWR0H+xaEDOnnHXTuBp/P1cn82l9+gG6tX45sMzZgtnxqSV1S49FVeKla2qCtowOpWjnfZZU8zL9h9/Z48rLNTazUDZg2zjG2RaWZ9yY7FTL2aczyP4KjFBezbpDP5Fx/lTl2cnlxyyb+bBOKjS4Er6jCBVcK5peTd97yyBOXIeG3+6RNrE1ezF3CglmdGLfzerdwZR7tRhhE82BbCCCf4zWrWFv6oZ1d2/XqvGD9g6TF8+E+ypp1PMohUD/lsPAQ7AwuR+IoO7h2fle1vJK41bQjoNranBGC+qqkvYHWUaRT8B8I/sk145sruB6W6sAeg1+w2RdklrBlrB91NRmnfuNBUWr/H21YiDqq6WLE3uSCNB62qbxTz2Y42nbkYxttx9fvgI+fPLMHgQeP9ojXYKKiUFM41SoX14LwSKerg4BTyggFH4ib9UjilMHwedmS9dOoJZ7G7mCcum053DG9Y6cLriq2esXtas9x0mMp6C8zdkvFvO0gpoYwxyW8y8ef+WfzX06ij3njuozOsl36kpny7/tAy4At9IIdQiSiLBybQ2EDug8qTyza6586Ovj9g62cPZntd+n9Aa9VJKZbZvwg/SzRyZ1+9H1nxxlcEQqJf6phwoRsKRum0UpU03lq+oq3mn7DwYqYW3+78/Q0fZc728OB7otHQQ==
   henry:
@@ -147,6 +148,7 @@ users:
     fullname: "Howard Mao"
     uid: 1110
     gid: 1110
+    shell: /bin/zsh
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8cXbMkdiJW0Cj6NiAT2dmu7d4rxLFGxmVXNav4GUJjSENFn8/dZ42EJ/MYxJ6cyQsagBDYi8SXtMhbSxu5TdxxrW3Ixadn//cSDO7LJv0YJnm1oA24RnvvmZUVN1yR2OfVagB3vC5Cd7NlBKz9CHwgHH0Mwdd+FRbqjWwYxplEcPL2L+d/HQ9FhKMg6nV3BXkzZXm/Gs0cYkQQaaz1vEHCrZFgBE16YS5uK4vbVVOxlAf+CnVra3JEz1gKb3Vv5DvhpHtNHjPPkKhhy4PdDca3nGd5QHfUN9T4g6vdf5COEh61BzSUEj6KDzJDLMZffBameapu78MwbbJ08VNGrhf zhehao-ssh-key
   dbuyze:
