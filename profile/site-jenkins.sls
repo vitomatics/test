@@ -71,10 +71,10 @@ apache:
       ProxyRoute:
         jenkins_proxy:
           ProxyPassSource: '/'
-          ProxyPassTarget: 'http://localhost:8080'
+          ProxyPassTarget: 'http://localhost:8080/'
           ProxyPassTargetOptions: 'nocanon'
           ProxyPassReverseSource: '/'
-          ProxyPassReverseTarget: 'http://localhost:8080'
+          ProxyPassReverseTarget: 'http://localhost:8080/'
       Proxy_control:
         '*':
           AllowAll: True
