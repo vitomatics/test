@@ -75,12 +75,13 @@ apache:
           ProxyPassTargetOptions: 'nocanon'
           ProxyPassReverseSource: '/'
           ProxyPassReverseTarget: 'http://localhost:8080/'
+        jenkins_proxy2:
+          ProxyPassReverseSource: '/'
+          ProxyPassReverseTarget: 'http://jenkins2.internal.sifive.com/'
       Proxy_control:
         '*':
           AllowAll: True
       Formula_Append: |
-        AddExternalAuth  pwauth /usr/sbin/pwauth
-        SetExternalAuthMethod pwauth pipe
         RequestHeader set X-Forwarded-Proto "https"
         RequestHeader set X-Forwarded-Port "443"
 
