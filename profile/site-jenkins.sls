@@ -58,7 +58,6 @@ apache:
       SSLCertificateKeyFile: {{ keyfile }}
       SSLCertificateChainFile: {{ cafile }}
       template_file: salt://apache/vhosts/proxy.tmpl
-      AllowEncodedSlashes: NoDecode
       ProxyRequests: 'Off'
       ProxyRoute:
         jenkins_proxy:
@@ -73,4 +72,5 @@ apache:
       Formula_Append: |
         RequestHeader set X-Forwarded-Proto "https"
         RequestHeader set X-Forwarded-Port "443"
+        AllowEncodedSlashes NoDecode
 
