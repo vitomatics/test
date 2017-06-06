@@ -24,6 +24,3 @@ sfpushdirs:
       - /sifive/ip/tsmc/cln28hpc/synopsys/MP-12G-PHY_TSMC_28HPC_x8
       - /sifive/ip/tsmc/cln28hpc/synopsys/Aloe/iip/DWC_pcie_dm
       - /sifive/ip/tsmc/cln28hpc/cadence/ddr-20161110
-      - /work/memory/tsmc/cln28hpc/tsmc
-      - /work/ip/tsmc/cln28hpc/cadence/ddr
-      - /work/ip/tsmc/cln28hpc/synopsys/DWC_pcie_dm/Link0_X8_20170524_DWC_pcie_dm
