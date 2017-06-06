@@ -75,12 +75,6 @@ apache:
           ProxyPassTargetOptions: 'nocanon'
           ProxyPassReverseSource: '/'
           ProxyPassReverseTarget: 'http://localhost:8080/'
-        jenkins_proxy2:
-          ProxyPassSource: '/'
-          ProxyPassTarget: 'http://localhost:8080/'
-          ProxyPassTargetOptions: 'nocanon'
-          ProxyPassReverseSource: '/'
-          ProxyPassReverseTarget: 'http://jenkins2.internal.sifive.com/'
       Proxy_control:
         '*':
           AllowAll: True
