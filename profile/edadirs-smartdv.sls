@@ -1,4 +1,4 @@
-# Create the /sifive and /work dirs on isolated machines
+# Create the /sifive and /work dirs on isolated machines form smartdv
 
 file:
   mkdir:
@@ -9,6 +9,6 @@ file:
       order: first
     /work:
       user: eda
-      group: root
-      mode: '0755'
+      group: smartdv
+      mode: '0775'
       order: first

@@ -266,10 +266,10 @@ base:
     - subnet.he-iso01
     - default.iso
     - profile.psacct
-    - profile.edadirs
     - profile.devel
     - profile.login
     - profile.nomachine-eval
+    - profile.edadirs-smartdv
     - profile.edasync-smartdv-slave
     - accounts.sdv-accounts
     - hosts.lambda00
