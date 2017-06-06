@@ -54,6 +54,9 @@ apache:
       ServerName: {{ servername }}
       ServerAdmin: help@sifive.com
       DocumentRoot: false
+      SSLCertificateFile: {{ certfile }}
+      SSLCertificateKeyFile: {{ keyfile }}
+      SSLCertificateChainFile: {{ cafile }}
       Location:
         '/':
           Formula_Append: |
