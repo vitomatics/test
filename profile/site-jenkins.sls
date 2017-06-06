@@ -31,13 +31,13 @@ sfcert:
     certsuffix: {{ certsuffix }}
     caroot: {{ caroot }}
   ca:
-    user: {{ user }}
+    user: root
     mode: '0600'
   certs:
     {{cert}}:
       cn: {{cert}}.internal.sifive.com
-      user: {{user}}
-      mode: '0600'
+      user: root
+      mode: '0644'
 
 
 apache:
