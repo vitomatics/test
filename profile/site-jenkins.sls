@@ -36,8 +36,8 @@ sfcert:
   certs:
     {{cert}}:
       cn: {{cert}}.internal.sifive.com
-      user: apache2
-      mode: '0400'
+      user: root
+      mode: '0600'
 
 
 apache:
