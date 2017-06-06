@@ -9,6 +9,6 @@ file:
       order: first
     /work:
       user: eda
-      group: smartdv
+      group: sdv-users
       mode: '0775'
       order: first
