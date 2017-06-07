@@ -13,6 +13,8 @@ jenkins:
     headless: true
     user: jenkins
     group: jenkins
+{#
   java_args:
     - '-Dhudson.model.DirectoryBrowserSupport.CSP=\"default-src \'none\'; img-src \'self\'; style-src \'unsafe-inline\'; object-src \'self\';\"'
     - '-Dhudson.slaves.WorkspaceList=-WS'
+#}
