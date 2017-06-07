@@ -131,15 +131,6 @@ managedby:
   sh: "#               *** Managed by SiFive salt ***"
   c: "              /*** Managed by SiFive salt ***/"
 
-# Stuff for certificates
-sfcert:
-  country: US
-  state: California
-  city: San Francisco
-  organization: SiFive Inc
-  ca:
-    cn: ca.internal.sifive.com
-
 
 sfsalt:
   minion:
