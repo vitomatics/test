@@ -67,6 +67,6 @@ apache:
         RequestHeader set X-Forwarded-Port "443"
         AllowEncodedSlashes NoDecode
         ProxyPass         / http://localhost:8080/ nocanon
-	ProxyPassReverse  / http://localhost:8080/
-	ProxyPassReverse  / http://jenkins2.internal.sifive.com
+        ProxyPassReverse  / http://localhost:8080/
+        ProxyPassReverse  / http://jenkins2.internal.sifive.com
 
