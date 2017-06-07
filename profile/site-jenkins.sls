@@ -35,6 +35,8 @@ sfcert:
     user: root
     mode: '0600'
   certs:
+    ca:
+      cn: {{site}}-ca.internal.sfive.com
     {{cert}}:
       cn: {{cert}}.internal.sifive.com
       user: root
