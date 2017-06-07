@@ -59,13 +59,6 @@ apache:
       SSLCertificateChainFile: {{ cafile }}
       template_file: salt://apache/vhosts/proxy.tmpl
       ProxyRequests: 'Off'
-      ProxyRoute:
-        jenkins_proxy:
-          ProxyPassSource: '/'
-          ProxyPassTarget: 'http://localhost:8080/'
-          ProxyPassTargetOptions: 'nocanon'
-          ProxyPassReverseSource: '/'
-          ProxyPassReverseTarget: 'http://localhost:8080/'
       Proxy_control:
         '*':
           AllowAll: True
@@ -73,4 +66,7 @@ apache:
         RequestHeader set X-Forwarded-Proto "https"
         RequestHeader set X-Forwarded-Port "443"
         AllowEncodedSlashes NoDecode
+        ProxyPass         / http://localhost:8080/ nocanon
+	ProxyPassReverse  / http://localhost:8080/
+	ProxyPassReverse  / http://jenkins2.internal.sifive.com
 
