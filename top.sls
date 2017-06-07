@@ -58,6 +58,7 @@ base:
     - profile.backupclient
     - profile.ganglia-node-server
     - profile.jenkins-server
+    - profile.jenkins-webhook-server
     - profile.webserver.system_auth
     - profile.site-jenkins
     - hosts.vulcan
