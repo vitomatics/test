@@ -23,6 +23,7 @@ states:
   apache.mod_proxy: true
   apache.mod_proxy_http: true
   apache.mod_headers: true
+  sfcert.certs: true
 
 sfcert:
   lookup:
