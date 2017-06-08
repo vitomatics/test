@@ -5,13 +5,6 @@
 states:
   jenkins.server: true
 
-file:
-  mkdir:
-    /srv/jenkins:
-      user: jenkins
-      group: jenkins
-      mode: 0755
-      order: first
 
 jenkins:
   lookup:
