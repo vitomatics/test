@@ -52,10 +52,10 @@ apache:
           AllowAll: True
       Location:
         /github-hook:
-        Formula_Append: |
-          RequestHeader set X-Forwarded-Proto "http"
-          RequestHeader set X-Forwarded-Port "80"
-          ProxyPass / http://localhost:8082/
+          Formula_Append: |
+            RequestHeader set X-Forwarded-Proto "http"
+            RequestHeader set X-Forwarded-Port "80"
+            ProxyPass / http://localhost:8082/
 
 firewall:
   ports:
