@@ -39,7 +39,7 @@ jenkins-webhook:
 # An apache proxy sitting in front of the locally-written server for security
 apache:
   sites:
-    {{ site }}
+    {{ site }}:
       ServerName: {{ servername }}
       DocumentRoot: false
       interface: '*'
