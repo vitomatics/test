@@ -5,13 +5,12 @@
 states:
   jenkins.server: true
 
-disksetup:
-  dirs:
+file:
+  mkdir:
     /srv/jenkins:
       user: jenkins
       group: jenkins
       mode: 0755
-      
 
 jenkins:
   lookup:
