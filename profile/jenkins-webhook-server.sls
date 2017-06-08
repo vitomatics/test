@@ -16,6 +16,7 @@
 states:
   jenkins-webhook.server: true
   apache.vhosts.standard: true
+  apache.no_default_vhost: true
   apache.mod_proxy: true
   apache.mod_proxy_http: true
   apache.mod_headers: true
