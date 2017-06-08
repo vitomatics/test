@@ -11,6 +11,7 @@ file:
       user: jenkins
       group: jenkins
       mode: 0755
+      order: first
 
 jenkins:
   lookup:
