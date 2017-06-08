@@ -5,11 +5,19 @@
 states:
   jenkins.server: true
 
+file:
+  dir:
+    /srv/jenkins:
+      user: jenkins
+      group: jenkins
+      mode: 0755
+      order: first
+      
 
 jenkins:
   lookup:
     http_port: 8080
-    home: /var/lib/jenkins
+    home: /srv/jenkins
     headless: true
     user: jenkins
     group: jenkins
