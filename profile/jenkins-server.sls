@@ -5,13 +5,12 @@
 states:
   jenkins.server: true
 
-file:
-  dir:
+disksetup:
+  dirs:
     /srv/jenkins:
       user: jenkins
       group: jenkins
       mode: 0755
-      order: first
       
 
 jenkins:
