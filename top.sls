@@ -57,10 +57,10 @@ base:
     - subnet.he-unix01
     - profile.backupclient
     - profile.ganglia-node-server
-    - profile.jenkins-server
-    - profile.jenkins-webhook-server
     - profile.webserver.system_auth
     - profile.site-jenkins
+    - profile.jenkins-server
+    - profile.jenkins-webhook-server
     - hosts.vulcan
 
   'klingon.internal.sifive.com':
