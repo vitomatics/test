@@ -22,7 +22,7 @@ jenkins:
     headless: true
     user: jenkins
     group: jenkins
-  java_args: >
+  java_args: >-
     -Dhudson.slaves.WorkspaceList=-WS
     -Dhudson.model.DirectoryBrowserSupport.CSP=\"default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; object-src 'self';\"
 
