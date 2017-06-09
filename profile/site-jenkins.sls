@@ -16,7 +16,7 @@
 {% set cafile = certdir + '/' + caroot + certsuffix %}
 
 include:
-  secret.{{site}}
+  - secret.{{site}}
  
 
 states:
