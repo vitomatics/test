@@ -5,8 +5,8 @@ network:
 
 pam:
   access:
-    rxia: 'ALL'
-    jenkins: 'LOCAL'
+    jenkins-admin: ALL
+    jenkins: LOCAL
 
 sudo:
   userspec:

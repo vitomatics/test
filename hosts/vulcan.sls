@@ -5,7 +5,7 @@ states:
 
 pam:
   access:
-    rxia: 'ALL'
+    jenkins-admin: ALL
 
 sudo:
   userspec:
