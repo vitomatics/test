@@ -3,6 +3,15 @@
 states:
   firewall.iptables: true
 
+pam:
+  access:
+    rxia: 'ALL'
+
+sudo:
+  userspec:
+    - rxia:
+      - ALL: '(ALL:ALL) ALL'
+
 
 # A VG for data
 disksetup:

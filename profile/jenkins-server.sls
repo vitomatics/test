@@ -6,6 +6,10 @@ states:
   jenkins.server: true
 
 
+pam:
+  access:
+    jenkins: 'LOCAL'
+
 jenkins:
   lookup:
     http_port: 8080
