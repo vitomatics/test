@@ -6,7 +6,7 @@
 #  - the python proxy sends requests to the jenkins server
 #    on port 8080
 
-{% set github_ips = "192.30.252.0/22 185.199.108.0/22" %}
+{% set github_ips = "192.30.252.0/22 185.199.108.0/22 192.150.186.0/23" %}
 {% set site = 'gitkick2' %}
 {% set domain = 'sifive.com' %}
 {% set servername = site + '.' + domain %}
