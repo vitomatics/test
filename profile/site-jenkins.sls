@@ -25,22 +25,18 @@ states:
   apache.mod_headers: true
   sfcert.certs: true
 
-sfcert:
-  lookup:
-    certdir: {{ certdir }}
-    keysuffix: {{ keysuffix }}
-    certsuffix: {{ certsuffix }}
-    caroot: {{ caroot }}
-  ca:
-    user: root
-    mode: '0600'
-    cn: {{cert}}.internal.sfive.com
-  certs:
-    {{cert}}:
-      cn: {{cert}}.internal.sifive.com
+file:
+  file:
+    {{ keyfile }}:
+      contents_pillar: 'keys:htps:{{site}}:key'
       user: root
+      group: root
       mode: '0600'
-
+    {{ certfile }}:
+      contents_pillar: 'keys:htps:{{site}}:cert'
+      user: root
+      group: root
+      mode: '0600'
 
 apache:
   sites:
