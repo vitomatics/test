@@ -30,11 +30,13 @@ states:
 file:
   file:
     {{ keyfile }}:
+      order: first
       contents_pillar: 'keys:https:{{site}}:key'
       user: root
       group: root
       mode: '0600'
     {{ certfile }}:
+      order: first
       contents_pillar: 'keys:https:{{site}}:cert'
       user: root
       group: root
