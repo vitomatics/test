@@ -181,10 +181,10 @@ base:
     - profile.ganglia-node-server
     - hosts.b0
 
-  'jenkins.internal.sifive.com':
+  'ojenkins.internal.sifive.com':
     - subnet.sf-unix
     - profile.ganglia-node-server
-    - hosts.jenkins
+    - hosts.ojenkins
 
   'sandbox.internal.sifive.com':
     - subnet.he-unix01
