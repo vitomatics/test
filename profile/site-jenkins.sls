@@ -1,6 +1,6 @@
 # A proxy to access the jenkins server on 8080
 
-{% set site = 'jenkins2' %}
+{% set site = 'jenkins' %}
 {% set domain = 'internal.sifive.com' %}
 {% set servername = site + '.' + domain %}
 {% set sitedir = '/srv/www/' + site %}
