@@ -15,6 +15,9 @@
 {% set certfile = certdir + '/' + cert + certsuffix %}
 {% set cafile = certdir + '/' + caroot + certsuffix %}
 
+include:
+  secret.{{site}}
+ 
 
 states:
   apache.vhosts.standard: true
