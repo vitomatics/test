@@ -56,7 +56,7 @@ apache:
           Formula_Append: |
             RequestHeader set X-Forwarded-Proto "http"
             RequestHeader set X-Forwarded-Port "80"
-            ProxyPass http://localhost:8082/
+            ProxyPass http://localhost:8082/github-hook/
 
 firewall:
   ports:
