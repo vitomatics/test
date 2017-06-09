@@ -12,6 +12,10 @@
 {% set servername = site + '.' + domain %}
 {% set sitedir = '/srv/www/' + site %}
 
+{% set jenkins_port = 8080 %}
+{% set webhook_proxy_port = 8081 %}
+{% set webhook_server_port = 8082 %}
+
 
 states:
   jenkins-webhook.server: true
@@ -25,13 +29,13 @@ states:
 jenkins-webhook:
   # The server that interprets the webhook requests
   server:
-    port: 8082
+    port: {{ webhook_server_port }}
     # A key for a hash that is also configured in github
     key: a8531edac58147d5a5fe1eb40ecbcc0d
   # Details on the actual jenkins server
   jenkins:
     host: localhost
-    port: 8080
+    port: {{ jenkins_port }}
     user: rxia
     api_token: 7cbc80a103303232e998882ebb9100ad
     job_token: MyI3d9kLT0SaL1Ay3i96Kg
@@ -44,7 +48,7 @@ apache:
       ServerName: {{ servername }}
       DocumentRoot: false
       interface: '*'
-      port: '8081'
+      port: '{{webhook_proxy_port}}'
       ServerAdmin: help@sifive.com
       template_file: salt://apache/vhosts/proxy.tmpl
       ProxyRequests: 'Off'
@@ -61,4 +65,5 @@ apache:
 firewall:
   ports:
     tcp:
-      8081:  10.0.0.0/9 {{ github_ips }}
+      {{ webhook_proxy_port }}:  10.0.0.0/9 {{ github_ips }}
+      {{ webhook_server_port }}: 127.0.0.1/32
