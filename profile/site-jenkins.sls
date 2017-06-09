@@ -27,12 +27,12 @@ states:
 file:
   file:
     {{ keyfile }}:
-      contents_pillar: 'keys:htps:{{site}}:key'
+      contents_pillar: 'keys:https:{{site}}:key'
       user: root
       group: root
       mode: '0600'
     {{ certfile }}:
-      contents_pillar: 'keys:htps:{{site}}:cert'
+      contents_pillar: 'keys:https:{{site}}:cert'
       user: root
       group: root
       mode: '0600'
