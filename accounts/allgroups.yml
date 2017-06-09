@@ -24,6 +24,9 @@ groups:
   nfsroot:
     tags: [ cluster ]
     gid: 9005
+  jenkins-admin:
+    tags: [ cluster ]
+    gid: 9006
 # jenkins group set by jenkins user
 # eda group set by eda user
 
