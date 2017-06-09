@@ -27,7 +27,7 @@ breencast	IN	A	10.14.0.6
 metrocop	IN	A	10.14.0.7
 synth		IN	A	10.14.0.8
 
-jenkins		IN	A	10.14.0.10
+ojenkins	IN	A	10.14.0.10
 
 algol		IN	A	10.14.0.12
 bender		IN	A	10.14.0.13
@@ -84,7 +84,7 @@ install			IN	CNAME	dalek
 
 sandbox			IN	A	10.14.16.36
 vulcan			IN	A	10.14.16.37
-jenkins2		IN	CNAME	vulcan
+jenkins			IN	CNAME	vulcan
 
 leia			IN	A	10.14.16.38
 he-ntp0			IN	CNAME	leia
