@@ -13,7 +13,7 @@ pam:
 jenkins:
   lookup:
     http_port: 8080
-    home: /srv/jenkins
+    home: /var/lib/jenkins
     headless: true
     user: jenkins
     group: jenkins
