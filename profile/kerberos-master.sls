@@ -5,6 +5,12 @@ states:
   kerberos.kdc: true
   rngd: true
 
+{% set kdc_port = '88' %}
+{% set kpasswd_port = '464' %}
+{% set kadmin_port = '749' %}
+
+{% set kerberos_clients = '10.14.0.0/16' %}
+
 kerberos:
   client:
     # This stuff should really be in kdc.conf but apparently that does not work
@@ -26,4 +32,14 @@ kerberos:
         - strength: pwqual/strength.so
     logging:
       default: 'SYSLOG:INFO:AUTH'
-    
+
+firewall:
+  ports:
+    udp:
+      {{ kdc_port }}: {{ kerberos_clients }}
+      {{ kpasswd_port }}: {{ kerberos_clients }}
+      {{ kadmin_port }}: {{ kerberos_clients }}
+    tcp:
+      {{ kdc_port }}: {{ kerberos_clients }}
+      {{ kpasswd_port }}: {{ kerberos_clients }}
+      {{ kadmin_port }}: {{ kerberos_clients }}

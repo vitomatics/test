@@ -2,3 +2,7 @@
 
 # network - dhcp
 
+states:
+  firewall.iptables: true
+
+
