@@ -208,6 +208,7 @@ base:
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
     - profile.kerberos-master
+    - profile.kerberos-client
     - hosts.gravelpit
 
   'hal.internal.sifive.com':
