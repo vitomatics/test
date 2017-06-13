@@ -347,13 +347,6 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: server_ssd_disk
-        jenkins:
-          ipaddress: 10.14.0.10
-          subnet: he-unix1-static
-          serial: '0'
-          diskname: /dev/vda
-          diskmethod: lvm
-          disklayout: vm_med_disk
         klingon:
           ipaddress: 10.14.16.74
           subnet: he-unix1-static
