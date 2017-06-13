@@ -16,7 +16,7 @@
 10.14.0.7 metrocop		# static
 10.14.0.8 synth			# static
 # 10.14.0.9 was gonarch		# static
-10.14.0.10 ojenkins		# static
+# 10.14.0.10 was jenkins	# static
 # 10.14.0.11 was canal
 10.14.0.12 algol		# static
 10.14.0.13 bender		# static
