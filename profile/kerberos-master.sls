@@ -5,6 +5,12 @@ states:
   kerberos.kdc: true
 
 kerberos:
+  client:
+    # This stuff should really be in kdc.conf but apparently that does not work
+    appdefaults:
+      strength:
+        minimum_length: 7
+	require_ascii_printable: 'true'
   server:
     realms:
       INTERNAL.SIFIVE.COM:
