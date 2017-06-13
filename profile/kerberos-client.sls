@@ -13,4 +13,4 @@ kerberos:
     realms:
       INTERNAL.SIFIVE.COM:
         kdc: [ kdc0.internal.sifive.com ]
-	admin_server: kdc0.internal.sifive.com
+        admin_server: kdc0.internal.sifive.com
