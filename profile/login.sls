@@ -46,6 +46,7 @@ pkgs:
 states:
   firewall.iptables: true
   sshguard: true
+  rngd: true
 
 firewall:
   usesshguard: true

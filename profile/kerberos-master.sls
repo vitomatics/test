@@ -3,6 +3,7 @@
 states:
   kerberos.admin-server: true
   kerberos.kdc: true
+  rngd: true
 
 kerberos:
   client:

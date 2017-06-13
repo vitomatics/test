@@ -7,6 +7,7 @@ include:
 
 states:
   sfsalt.master: true
+  rngd: true
 
 ## Salt
 sfsalt:
