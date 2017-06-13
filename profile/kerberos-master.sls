@@ -10,7 +10,7 @@ kerberos:
     appdefaults:
       strength:
         minimum_length: 7
-	require_ascii_printable: 'true'
+        require_ascii_printable: 'true'
   server:
     realms:
       INTERNAL.SIFIVE.COM:
