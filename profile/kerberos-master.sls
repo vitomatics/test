@@ -9,7 +9,7 @@ kerberos:
     # This stuff should really be in kdc.conf but apparently that does not work
     appdefaults:
       strength:
-        password_dictionary: /usr/share/dict/cracklib-small
+        password_dictionary: /var/cache/cracklib/cracklib_dict
         minimum_length: 7
         require_ascii_printable: 'true'
   server:
