@@ -10,7 +10,9 @@ kerberos:
     appdefaults:
       strength:
         password_dictionary: /var/cache/cracklib/cracklib_dict
-        minimum_length: 7
+        minimum_length: 8
+	minimum_different: 6
+	require_classes: 3
         require_ascii_printable: 'true'
   server:
     realms:
