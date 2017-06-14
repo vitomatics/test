@@ -14,3 +14,10 @@ kerberos:
       INTERNAL.SIFIVE.COM:
         kdc: [ gravelpit.internal.sifive.com ]
         admin_server: gravelpit.internal.sifive.com
+
+
+krb:
+  realm: INTERNAL.SIFIVE.COM
+  kdc:
+    - gravelpit.internal.sifive.com
+
