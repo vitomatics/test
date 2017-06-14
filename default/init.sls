@@ -53,6 +53,10 @@ ldap:
 sssd:
   ldap:
     binddn: cn=sssd,ou=services,dc=sifive,dc=com
+  kerberos:
+    realm: INTERNAL.SIFIVE.COM
+    kdc:
+      - kdc0.internal.sifive.com
 
 autofs:
   ldap:
@@ -64,11 +68,6 @@ postfix:
 
 opensmtpd:
   relay: smtp.internal.sifive.com
-
-krb:
-  realm: INTERNAL.SIFIVE.COM
-  kdc:
-    - kdc0.internal.sifive.com
 
 nss:
   use_sssd: true

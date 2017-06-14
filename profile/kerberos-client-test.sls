@@ -16,8 +16,9 @@ kerberos:
         admin_server: gravelpit.internal.sifive.com
 
 
-krb:
-  realm: INTERNAL.SIFIVE.COM
-  kdc:
-    - gravelpit.internal.sifive.com
+sssd:
+  kerberos:
+    realm: INTERNAL.SIFIVE.COM
+    kdc:
+      - gravelpit.internal.sifive.com
 
