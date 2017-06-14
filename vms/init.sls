@@ -17,6 +17,7 @@ include:
   - vms.sandbox
   - vms.tardis
   - vms.transporter
+  - vms.vader
   - vms.viki
   - vms.vulcan
   - vms.yoda

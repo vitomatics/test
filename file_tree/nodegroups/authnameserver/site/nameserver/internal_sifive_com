@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017061301 ; serial number
+	2017061401 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -104,6 +104,7 @@ yoda			IN	A	10.14.16.42
 adns0			IN	A	10.14.16.42
 jarjar			IN	A	10.14.16.43
 license0		IN	CNAME	jarjar
+vader			IN	A	10.14.16.44
 
 heartofgold		IN	A	10.14.16.48
 hog			IN	CNAME	heartofgold

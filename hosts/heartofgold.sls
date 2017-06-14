@@ -72,6 +72,7 @@ zfs:
     bkpool01/sfbackup/dumps/i0-license:
     bkpool01/sfbackup/dumps/grid-srv:
     bkpool01/sfbackup/dumps/yoda-srv:
+    bkpool01/sfbackup/dumps/vader-srv:
 
 nfs4:
   domain:

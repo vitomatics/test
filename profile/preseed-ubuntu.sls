@@ -421,6 +421,13 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
+        vader:
+          ipaddress: 10.14.16.44
+          subnet: he-unix1-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk
         viki:
           ipaddress: 10.14.16.41
           subnet: he-unix1-static

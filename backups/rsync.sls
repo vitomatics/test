@@ -193,3 +193,25 @@ sfdump:
       key: sfdump_omega1_key1
       days: 2
       weeks: 8
+    vader-srv-onsite:
+      client: vader.internal.sifive.com
+      server: heartofgold.internal.sifive.com
+      src: /srv
+      dest: /sfbackup/dumps/heartofgold-srv
+      compression: false
+      acls: false
+      xattrs: false
+      key: sfdump_hog_key1
+      days: 2
+      weeks: 8
+    vader-srv-offsite:
+      client: vader.internal.sifive.com
+      server: omega1.internal.sifive.com
+      src: /srv
+      dest: /sfbackup/dumps/vader-srv
+      compression: false
+      acls: false
+      xattrs: false
+      key: sfdump_omega1_key1
+      days: 2
+      weeks: 8

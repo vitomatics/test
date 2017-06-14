@@ -56,6 +56,7 @@ zfs:
     bkpool02/sfbackup/dumps/vulcan-srv:
     bkpool02/sfbackup/dumps/dalek-srv:
     bkpool02/sfbackup/dumps/yoda-srv:
+    bkpool02/sfbackup/dumps/vader-srv:
 
 
 sfdump:
