@@ -281,7 +281,6 @@ base:
   'vader.internal.sifive.com':
     - subnet.he-unix01
     - profile.kerberos-master
-    - profile.kerberos-client-test
     - profile.ganglia-node-server
     - profile.backupclient
     - hosts.vader
