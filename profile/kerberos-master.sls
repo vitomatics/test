@@ -11,7 +11,11 @@ states:
 
 {% set kerberos_clients = '10.14.0.0/16' %}
 
+{% set state_dir = '/srv/krb5kdc' %}
+
 kerberos:
+  lookup:
+    state_dir: {{ state_dir }}
   client:
     # This stuff should really be in kdc.conf but apparently that does not work
     appdefaults:
@@ -26,7 +30,7 @@ kerberos:
       INTERNAL.SIFIVE.COM:
         max_life: 12h 0m 0s
         key_stash_file: /etc/krb5kdc/.k5.INTERNAL.SIFIVE.COM
-        databasae_name: /var/lib/krb5kdc/principal
+        databasae_name: {{sate_dir}}/principal
     plugins:
       pwqual:
         - strength: pwqual/strength.so
