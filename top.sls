@@ -269,7 +269,7 @@ base:
     - profile.nomachine-eval
     - profile.edadirs-smartdv
     - profile.edasync-smartdv-slave
-    - accounts.sdv-accounts
+    - accounts.lambda00-accounts
     - hosts.lambda00
 
   'jarjar.internal.sifive.com':

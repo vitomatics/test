@@ -10,7 +10,7 @@
 
 users:
   eda:
-    tags: [ cluster, sdv ]
+    tags: [ cluster, lambda00 ]
     fullname: "Electronic Design Automation"
     uid: 9998
     gid: 9998
@@ -40,14 +40,14 @@ users:
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDfzOB468ib43to1vO3fQ3XiaZRGCkANd3641+64FMLq8mZHATFOO+032oTkFoqHwqy5QzLjQYVzjHT7KvXJMfh9spIuJ8Y7ayyfM/tVtfhvwvAPn2nuWSacYmQ3bQX+VWGcRA9N4gEv8MktX2n6J/b4+7pqm9s0bDEo/RPnoWPTrdOLa1KoH1nm5SUgSvSiBZt5LdkIl6DnNjobfED5RSaS768kGm4ZQNHQggKiFeqS1hLTZbLYHLEC6hOtOQ0+wIKPvJvT8D5WPAEQ69+1TEPmlK7MfdF5EUOSLmfZvcLtR0w3gSB5VEQfJrzo+Sb0vABm+R/iQje8x7OrUMIzjsJ rxia@rxia-sifive
   jchang:
-    tags: [ cluster ]
+    tags: [ cluster, lambda00 ]
     fullname: "Jacob Chang"
     uid: 1114
     gid: 1114
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpzvUSQtIeCMfgoi84sIDcvTa1AkzMQeqL+WFCj7iZBZxuoH05zacpYvc44gvbv6h5v2wpBHwCfMd4v4B6xLD5KBZbk3tgNACgznqzTQ9Mgcwul5eAbPTtPq8uNbi1k9P6x7vo/dUpRNw8MQthFTOeq+Xhqx8liBdWyrK2k4gscKTbK5Et9I4rrEHrr7mTPTAQDjRa5xHW7eAyeY668sGJ8S2ivvCbgYJ2NYq1xbkFjXxyzRYbogjNfk2iN0oXgFFrdQU1prqFk7BV6ADqzwiS1640J0vmxOVVDFvTXVBjms/iZlz/nvTK77P06tZ00fmx3bH11gScDdqkIVdmrYNT jchang@i0.internal.sifive.com
   hes:
-    tags: [ cluster, sdv ]
+    tags: [ cluster, lambda00 ]
     fullname: "Henry Styles"
     uid: 1109
     gid: 1109
@@ -84,14 +84,14 @@ users:
     authorized_keys: [ ]
     #  - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEApkjFaSo+v4tETuiBWCIh+ACvE6KgstUVJfkoek8Nv1oWVEZ10EC6Zq1KWPuL4aVpqOzuMjL1jaly5QGjrohnGQF5XsH13kun25GLbW8F1exw0As3BTjVlQf99SHYvu1OP8Ab4c/LyDqzO9SGOBtl/xkaLbZSU8X3JONeCnTGVvYi++QhKlR1+SWfdn3D3bSxRrVSSXcTmM0o1Rb2cdB5U34P3jg/qFZ5OZAK//yKbdqTPWGMvV/wa0K/wFOoLFac/Q/xVv0ymOxR9HYplhLQURBfidIopv/hg5fehE3RedCOul/Ob9nIXWHY2j6WSKcbhdbxLztivUBY+MCCQx0AZw==
   ali:
-    tags: [ cluster ]
+    tags: [ cluster, lambda00 ]
     fullname: "Ali Habibi"
     uid: 1117
     gid: 1117
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCbp8V8OCIveePy30KUMoQWjT9s448xHgyBuUPV8dC70Z8qsQfzSsiain8moNw5LspqwZ1HCYTGJDbeMcnIS3tD4eDZBbGFXOwjT8y4cF55de5wnWQHqRgKZXimFBHnbJrxAGQTEFhS1hN+EplYwrQ3FEZEbada2wnKqDiefJHTYZ7ikDglDzo8JzvTVKRY4bBw4t5zvRG/fXPpLNdFzXCwprCEeRfexBHJEsaOb+4Ud9qKt+gJI71vJWj80QY7lUoUNC+KYjkiYzxylGVxnNEn0Bp1znZ3Ce0w/99Lsl2RZ+4BfdfmydEsjHcRPm3gtySuuiyXC96482gr4h5XwQU5 ali@Alis-MacBook-Pro.local
   davidj:
-    tags: [ cluster, sdv ]
+    tags: [ cluster, lambda00 ]
     fullname: "David Johnson"
     uid: 1108
     gid: 1108
@@ -106,7 +106,7 @@ users:
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8PbMeQ6iusMrXzr4xTRLMtK9CXcrv+3X49f+vav9qHKVrdM95Om68P9zlgALe/j3621XjWWjtP8Hy37iuMF1d8YQf1eHZMV63hK5xdZYCCzJaDjtI5plMAISu+2cKAVxn4X+rlJWUhfHh4mkBOFijZyI9lai0M57t8KHydF1VdtEikgfV7QcyzWS5hdR7I2Fart36gDuJM/CgGGVcKik6hT9UGMSsdD2UTybOOPyQfvZz+5Aceux+N+p+My75kEphR5zWjxC3CxZCmloeIH0KZoc4YYFP51Gvyzkyrv1oRGlBPvZbjC+zjJHaIBI3kA0OzZoZIm3gs7zDU0O2eQfd Han Chen@DESKTOP-K3AP0PO
   aou:
-    tags: [ cluster, sdv ]
+    tags: [ cluster, lambda00 ]
     fullname: "Albert Ou"
     uid: 1100
     gid: 1100
@@ -236,7 +236,7 @@ users:
     uid: 1132
     gid: 1132
   mikeyang:
-    tags: [ cluster, sdv ]
+    tags: [ cluster, lambda00 ]
     fullname: "Mike Yang"
     uid: 1133
     gid: 1133
@@ -246,28 +246,28 @@ users:
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
-    tags: [ sdv ]
+    tags: [ lambda00 ]
     fullname: "SmartDV User 01"
     uid: 11001
     gid: 11001
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEApVq+0oSJAKqTqS2U2aCTpJajM4Noaus37bdY0jQIPisItn1IKOQJNb0OWh19JbidcGUyoBc7pEUYddR2wkHqy+6+X907cUVEwIYzuW8Q3BkaowE43Ia3Fnz4cjAILcRWO4FaASqfhQm/L6KLtP5XCv0yGKHw9v578FIZ1cpEi3FbclNe0CCTE9iL9+KRTFSf5DEyRdBEaQtUdnvko3Jb44rrE7p7GEtvRduKqa6e27m1mdrbjbnGlLO7k7pIpFIBWfgUSajSkPOlfHQenBFaqIhNwWlCq0N8D+qUil69zLbKpk+DGq0Ds58hmEMD54wzpsTr8Pa6kIxldNsEkML6bw== pranav@sdvt01-100-161
   sdvt02:
-    tags: [ sdv ]
+    tags: [ lambda00 ]
     fullname: "SmartDV User 02"
     uid: 11002
     gid: 11002
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAvqJ8aF4g4o5A8bg+GxihcA4eZBovHnCf+LcJMPbMfmTDUFEgaxOATcRF0Qh7da6vp4nrh2UQitI9SyLYvbMmgFMRBrxFT9vvSBqC8Bh6Xp6DQyZAQgI+brdNL8yUhtgpiboTy/q9ZaOYPpJavZK7bbha5pA6u8O6yn9dZ9ofyITbSoEEcZ9XCntkVgqUUifI0UNJtBam2P2OwncRaWZgOX3KtFzeUj7UfkZJX4X6ZbTBNbSbLFQzwbfNpIX7/UGEQs1XRa3rvPQS6Yb28sRtPkxlHuCE+X2cnXdOvOw0XhR3eBqASLwkSqRNcRsxsqdWzGa8NRBgesT8/a8NvWF77w== pranav@sdvt01-100-161
   sdvt03:
-    tags: [ sdv ]
+    tags: [ lambda00 ]
     fullname: "SmartDV User 03"
     uid: 11003
     gid: 11003
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAudOmu+JpZi2YoSrcBn3+ozZNMEntrGzKkcVjDy6FTrW8/L9j382MNCN4nWR1S5IP7xiXq7T24cDoko/G7yIILuo3nT35WNd3AS759gvzq5DvwdPB9O0Bt91jyyRgoebMX7Pr0YMa8NQBjrclemGzqUMMElcZ6n9z3oyTaroYG6+tiZNbbhf/VQJVzQf5/AR048vltesfstA0STptlgtlrTquMs+9xMTvlUa85QxBHM72ydB+gSaxwKJw4WhqwHm9bwCn5LR5I+VnGFlpngYSmfqdS/sIYZHZMKvp+zL1hV6iXI3uuzLMr00Y8sDVhVhy/a6pAb9AUnvjrovNWrYILQ== pranav@sdvt01-100-161
   sdvt04:
-    tags: [ sdv ]
+    tags: [ lambda00 ]
     fullname: "SmartDV User 04"
     uid: 11004
     gid: 11004

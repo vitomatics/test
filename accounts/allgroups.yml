@@ -9,7 +9,7 @@
 groups:
 # Global groups
   sysadmin:
-    tags: [ cluster, sdv ]
+    tags: [ cluster, lambda00 ]
     gid: 9001
     addusers: [ davidj, aou ]
   compute:
@@ -32,6 +32,10 @@ groups:
 
 # Local groups
   sdv-users:
-    tags: [ sdv ]
+    tags: [ lambda00 ]
     gid: 19001
     addusers: [ davidj, aou, hes, mikeyang, sdvt01, sdvt02, sdvt03, sdvt04 ]
+  alisub-users:
+    tags: [ lambda00 ]
+    gid: 19002
+    addusers: [ aou, hes, mikeyang, jchang, ali ]
