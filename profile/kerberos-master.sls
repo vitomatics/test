@@ -14,8 +14,6 @@ states:
 {% set state_dir = '/srv/krb5kdc' %}
 
 kerberos:
-  lookup:
-    state_dir: {{ state_dir }}
   client:
     # This stuff should really be in kdc.conf but apparently that does not work
     appdefaults:
@@ -26,6 +24,7 @@ kerberos:
         require_classes: upper,lower,digit
         require_ascii_printable: 'true'
   server:
+    state_dir: {{ state_dir }}
     realms:
       INTERNAL.SIFIVE.COM:
         max_life: 12h 0m 0s
