@@ -187,6 +187,7 @@ base:
     - profile.clusterclient
     - profile.slurm-client
     - profile.slurm-node
+    - profile.kerberos-client-test
     - hosts.sandbox
 
   'nuc2.internal.sifive.com':
