@@ -30,7 +30,7 @@ kerberos:
       INTERNAL.SIFIVE.COM:
         max_life: 12h 0m 0s
         key_stash_file: /etc/krb5kdc/.k5.INTERNAL.SIFIVE.COM
-        databasae_name: {{sate_dir}}/principal
+        databasae_name: {{state_dir}}/principal
     plugins:
       pwqual:
         - strength: pwqual/strength.so
