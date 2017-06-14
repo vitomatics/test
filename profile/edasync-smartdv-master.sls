@@ -19,6 +19,7 @@ sfpushdirs:
       - /sifive/tools/synopsys/vcs
       - /sifive/tools/synopsys/verdi
       - /sifive/tools/synopsys/syn/L-2016.03-SP3
+      - /sifive/tools/synopsys/hector
       - /sifive/tools/cadence/xcelium
       - /sifive/vip/smartdv
       - /sifive/ip/tsmc/cln28hpc/synopsys/MP-12G-PHY_TSMC_28HPC_x8
