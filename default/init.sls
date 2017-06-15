@@ -57,7 +57,7 @@ sssd:
   kerberos:
     realm: INTERNAL.SIFIVE.COM
     kdc:
-      - vader.internal.sifive.com
+      - kdc0.internal.sifive.com
 
 kerberos:
   client:
@@ -68,8 +68,8 @@ kerberos:
       proxiable: 'true'
     realms:
       INTERNAL.SIFIVE.COM:
-        kdc: [ vader.internal.sifive.com ]
-        admin_server: vader.internal.sifive.com
+        kdc: [ kdc0.internal.sifive.com ]
+        admin_server: kdc0.internal.sifive.com
 
 autofs:
   ldap:
