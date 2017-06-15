@@ -69,6 +69,12 @@ pkgs:
     xsltproc: true
     gnuplot: true
 
+    ## Some workdlists
+    wbritish
+    wamerican
+    # For Wes
+    wngerman
+
     ## Building riscv-tools
     build-essential: true
     autoconf: true
