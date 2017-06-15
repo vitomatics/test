@@ -197,7 +197,7 @@ sfdump:
       client: vader.internal.sifive.com
       server: heartofgold.internal.sifive.com
       src: /srv
-      dest: /sfbackup/dumps/heartofgold-srv
+      dest: /sfbackup/dumps/vader-srv
       compression: false
       acls: false
       xattrs: false
