@@ -70,10 +70,10 @@ pkgs:
     gnuplot: true
 
     ## Some workdlists
-    wbritish
-    wamerican
+    wbritish: true
+    wamerican: true
     # For Wes
-    wngerman
+    wngerman: true
 
     ## Building riscv-tools
     build-essential: true
