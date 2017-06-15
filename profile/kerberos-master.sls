@@ -30,6 +30,8 @@ kerberos:
         max_life: 12h 0m 0s
         key_stash_file: /etc/krb5kdc/.k5.INTERNAL.SIFIVE.COM
         database_name: {{state_dir}}/principal
+        acls:
+	  - '*/admin@INTERNAL.SIFIVE.COM  *'
     plugins:
       pwqual:
         - strength: pwqual/strength.so
