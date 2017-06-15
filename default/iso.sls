@@ -6,6 +6,7 @@ states:
   openldap.client: false
   sssd: false
   opensmtpd: false
+  kerberos.client: false
   
   pam: true
   pam.access: true
@@ -44,3 +45,4 @@ sfaccount:
 # Clear out some stuff that is not needed and is mildly sensitive
 autofs: ~
 sssd: ~
+kerberos: ~

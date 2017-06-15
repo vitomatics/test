@@ -16,6 +16,7 @@ states:
   pam.sss: true
   pam.pwquality: true
   pam.mkhomedir: true
+  kerberos.client: true
   nsswitch: true
   ssh.server: true
   ssh.client: true
@@ -56,7 +57,19 @@ sssd:
   kerberos:
     realm: INTERNAL.SIFIVE.COM
     kdc:
-      - kdc0.internal.sifive.com
+      - vader.internal.sifive.com
+
+kerberos:
+  client:
+    libdefaults:
+      default_realm: INTERNAL.SIFIVE.COM
+      dns_lookup_kdc: 'false'
+      forwardable: 'true'
+      proxiable: 'true'
+    realms:
+      INTERNAL.SIFIVE.COM:
+        kdc: [ vader.internal.sifive.com ]
+        admin_server: vader.internal.sifive.com
 
 autofs:
   ldap:
