@@ -14,8 +14,6 @@ pkgs:
     gcc-multilib: true
     g++-multilib: true
     libgcc1:i386: true
-    libc-dev-bin:i386: true
-    gcc-5-base:i386: true
 
     openjdk-8-jdk: true
     tcl-tclreadline: true
