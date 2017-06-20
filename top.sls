@@ -32,10 +32,6 @@ base:
     - profile.backupclient
     - hosts.breencast
 
-  'metrocop.internal.sifive.com':
-    - subnet.sf-unix
-    - hosts.metrocop
-
   'synth.internal.sifive.com':
     - subnet.sf-unix
     - hosts.synth
