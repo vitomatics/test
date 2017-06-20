@@ -135,6 +135,8 @@ pkgs:
     libssl-dev: true
     libssl-doc: true
     cmake: true
+    diffstat: true
+    chrpath: true
 
     ## windows development
     mingw-w64: true
