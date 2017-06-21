@@ -27,11 +27,11 @@ ldap:
         - misc
       tlscert:
         cacertfile: {{ certfile }}
-	# Note cacertfile is same file as certfile
+        # Note cacertfile is same file as certfile
         certfile: {{ certfile }}
         # cert in secret file
         keyfile: {{ keyfile }}
-	# key in secret file
+        # key in secret file
       RootDN: cn=root,dc=sifive,dc=com
       # RootPW in secret file
 
