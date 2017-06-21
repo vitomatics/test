@@ -13,6 +13,7 @@ include:
 
 states:
   openldap.master: true
+  apparmor: true
 
 ldap:
   master:
@@ -36,3 +37,9 @@ ldap:
       # RootPW in secret file
 
 
+apparmor:
+  usr.sbin.slapd:
+    - '{{keyfile}} r,'
+    - '{{certfile}} r,'
+    - '/var/lib/sss/mc/initgroups r,'
+    
