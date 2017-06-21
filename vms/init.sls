@@ -10,6 +10,7 @@ include:
   - vms.gravelpit
   - vms.hal
   - vms.hansolo
+  - vms.jabba
   - vms.klingon
   - vms.leia
   - vms.luke
