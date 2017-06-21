@@ -22,10 +22,6 @@ ldap:
         =Y9jH
         -----END PGP MESSAGE-----
 
-
-ldap:
-  master:
-    conf:
       tlscert:
         key: |
           -----BEGIN PRIVATE KEY-----
