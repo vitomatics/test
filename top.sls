@@ -197,9 +197,6 @@ base:
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
-    - profile.ldapmaster
-    - profile.vmhost
-    - vms
     - hosts.gravelpit
 
   'hal.internal.sifive.com':
