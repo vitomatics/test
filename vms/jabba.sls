@@ -4,7 +4,7 @@ sfvirt:
   vms:
     jabba:
       type: lxc
-      vmhost: eddie.internal.sifive.com
+      vmhost: gravelpit.internal.sifive.com
       vcpus: 2
       memory: 4096   # In MB
       autostart: on

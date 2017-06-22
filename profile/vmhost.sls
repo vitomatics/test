@@ -2,6 +2,7 @@
 
 states:
   libvirt: true
+  sflxc: true
   sfvirt: true
 
 sfvirt:
@@ -14,9 +15,6 @@ sfvirt:
 pkgs:
   list:
     virt-viewer: true
-    debootstrap: true
-    lxc: true
-    lxd-tools: true
     # Some stuff for testing X
     x11-apps: true
     xterm: true
