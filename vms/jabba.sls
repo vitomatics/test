@@ -16,7 +16,7 @@ sfvirt:
         root:
           vdtype: lvm
           size: 30G
-          vg: vmpool01
+          vg: vg_system
       preseed: jabba
       dist: xenial-default
 
