@@ -90,6 +90,7 @@ pkgs:
     dejagnu: true
     {% if grains.os == 'Ubuntu' %}
     gnat-5: true
+    sparse: true
     {% endif %}
 
     sbt: true
