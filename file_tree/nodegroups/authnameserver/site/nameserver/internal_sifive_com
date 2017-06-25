@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017061901 ; serial number
+	2017062401 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -34,6 +34,7 @@ hansolo		IN	A	10.14.0.14
 sf-ntp0		IN	CNAME	hansolo
 sf-ns0		IN	CNAME	hansolo
 ns2		IN	CNAME	hansolo
+jabba		IN	A	10.14.0.15
 
 advisor		IN	A	10.14.0.130
 
