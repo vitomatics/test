@@ -278,3 +278,8 @@ base:
     - profile.ganglia-node-server
     - profile.backupclient
     - hosts.vader
+
+  'jabba.internal.sifive.com':
+    - subnet.sf-unix
+    - profile.container
+    - hosts.jabba
