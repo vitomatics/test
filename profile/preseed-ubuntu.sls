@@ -173,6 +173,7 @@ sfpreseed:
       distdir: ubuntu/canonical
       distsuite: xenial
       distkey: http://sfimages.internal.sifive.com/Ubuntu/keys/trusted.gpg
+      rootpw: $6$Fm.qsqQKN$Pw/2FoXx2hBz9ygQmY8xGWfWvjzMkMmwAVtNv1XwEpmq/VDisVbJVuBpr4E6ClHIR4nELDhJ9lnamaBvTp7sr/
       hosts:
         algol:
           ipaddress: 10.14.0.12
