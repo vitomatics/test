@@ -22,7 +22,7 @@ states:
   apache.vhosts.standard: true
   apache.mod_vhost_alias: true
   apache.mod_ssl: true
-  sfcert.certs: true
+#  sfcert.certs: true
 
 # sfcert:
 #   lookup:
