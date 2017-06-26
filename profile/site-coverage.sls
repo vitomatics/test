@@ -24,20 +24,20 @@ states:
   apache.mod_ssl: true
   sfcert.certs: true
 
-sfcert:
-  lookup:
-    certdir: {{ certdir }}
-    keysuffix: {{ keysuffix }}
-    certsuffix: {{ certsuffix }}
-    caroot: {{ caroot }}
-  ca:
-    user: {{ user }}
-    mode: '0600'
-  certs:
-    {{cert}}:
-      cn: {{cert}}.internal.sifive.com
-      user: {{user}}
-      mode: '0600'
+# sfcert:
+#   lookup:
+#     certdir: {{ certdir }}
+#     keysuffix: {{ keysuffix }}
+#     certsuffix: {{ certsuffix }}
+#     caroot: {{ caroot }}
+#   ca:
+#     user: {{ user }}
+#     mode: '0600'
+#   certs:
+#     {{cert}}:
+#       cn: {{cert}}.internal.sifive.com
+#       user: {{user}}
+#       mode: '0600'
 
 file:
   mkdir:
