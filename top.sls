@@ -133,12 +133,14 @@ base:
 
   'omega1.internal.sifive.com':
     - subnet.sf-unix
+    - secret.sfdump-omega1
     - profile.backupserver
     - profile.ganglia-node-server
     - hosts.omega1
 
   'heartofgold.internal.sifive.com':
     - subnet.he-unix01
+    - secret.sfdump-heartofgold
     - profile.backupserver
     - profile.ganglia-node-server
     - hosts.heartofgold
