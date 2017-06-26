@@ -220,7 +220,7 @@ base:
     - hosts.tardis
 
   'grid.internal.sifive.com':
-    - subnet.sf-unix
+    - subnet.he-unix01
     - profile.ganglia-server
     - profile.webserver.php
     - profile.site-gweb
@@ -233,7 +233,7 @@ base:
     - hosts.grid
 
   'matrix.internal.sifive.com':
-    - subnet.sf-unix
+    - subnet.he-unix01
     - profile.ganglia-server
     - profile.webserver.php
     - profile.site-gweb
@@ -241,13 +241,13 @@ base:
     - hosts.matrix
 
   'transporter.internal.sifive.com':
-    - subnet.sf-unix
+    - subnet.he-unix01
     - profile.mailserver
     - profile.ganglia-node-server
     - hosts.transporter
 
   'yoda.internal.sifive.com':
-    - subnet.sf-unix
+    - subnet.he-unix01
     - profile.nameserver-auth
     - profile.sifive-noc
     - profile.backupclient
