@@ -131,3 +131,14 @@ sfdump:
       key: sfdump_omega1_key1
       days: 2
       weeks: 8
+    lambda00-work-onsite:
+      client: lambda00.internal.sifive.com
+      server: heartofgold.internal.sifive.com
+      src: /work
+      dest: /sfbackup/dumps/lambda00-work
+      compression: false
+      acls: true
+      xattrs: true
+      key: sfdump_hog_key1
+      days: 2
+      weeks: 8

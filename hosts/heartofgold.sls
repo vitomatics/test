@@ -73,6 +73,7 @@ zfs:
     bkpool01/sfbackup/dumps/grid-srv:
     bkpool01/sfbackup/dumps/yoda-srv:
     bkpool01/sfbackup/dumps/vader-srv:
+    bkpool01/sfbackup/dumps/lambda00-work:
 
 nfs4:
   domain:

@@ -264,6 +264,7 @@ base:
     - profile.nomachine-eval
     - profile.edadirs-smartdv
     - profile.edasync-smartdv-slave
+    - profile.backupclient
     - accounts.lambda00-accounts
     - hosts.lambda00
 
