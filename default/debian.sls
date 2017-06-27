@@ -66,7 +66,7 @@ pkgs:
       ubuntu-multiverse:
         uri: {{sfrepo}}/ubuntu/canonical
         suite: {{ suite }}
-        comps: [ 'multiverse'']
+        comps: [ 'multiverse']
         key_url: {{sfrepo}}/public.gpg
       ubuntu-updates:
         uri: {{sfrepo}}/ubuntu/canonical
