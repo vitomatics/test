@@ -187,22 +187,22 @@ pkgs:
         comps: [ 'multiverse']
       offsite-security:
         absent: true
-        uri: {{offsiterepo2}}/ubuntu/
+        uri: {{offsiterepo2}}/ubuntu
         suite: {{ suite }}-security
         comps: [ 'main' ]
       offsite-security-restricted:
         absent: true
-        uri: {{offsiterepo2}}/ubuntu/
+        uri: {{offsiterepo2}}/ubuntu
         suite: {{ suite }}-security
         comps: [ 'restricted' ]
       offsite-security-universe:
         absent: true
-        uri: {{offsiterepo2}}/ubuntu/
+        uri: {{offsiterepo2}}/ubuntu
         suite: {{ suite }}-security
         comps: [ 'universe' ]
       offsite-security-multiverse:
         absent: true
-        uri: {{offsiterepo2}}/ubuntu/
+        uri: {{offsiterepo2}}/ubuntu
         suite: {{ suite }}-security
         comps: [ 'multiverse' ]
       offsite-backports:
