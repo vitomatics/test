@@ -29,6 +29,7 @@ file:
 
 {% set sfrepo = 'http://sfrepo.internal.sifive.com' %}
 {% set offsiterepo = 'http://us.archive.ubuntu.com' %}
+{% set offsiterepo2 = 'http://security.ubuntu.com' %}
 pkgs:
   apt:
     repos:
@@ -186,22 +187,22 @@ pkgs:
         comps: [ 'multiverse']
       offsite-security:
         absent: true
-        uri: {{offsiterepo}}/ubuntu/
+        uri: {{offsiterepo2}}/ubuntu/
         suite: {{ suite }}-security
         comps: [ 'main' ]
       offsite-security-restricted:
         absent: true
-        uri: {{offsiterepo}}/ubuntu/
+        uri: {{offsiterepo2}}/ubuntu/
         suite: {{ suite }}-security
         comps: [ 'restricted' ]
       offsite-security-universe:
         absent: true
-        uri: {{offsiterepo}}/ubuntu/
+        uri: {{offsiterepo2}}/ubuntu/
         suite: {{ suite }}-security
         comps: [ 'universe' ]
       offsite-security-multiverse:
         absent: true
-        uri: {{offsiterepo}}/ubuntu/
+        uri: {{offsiterepo2}}/ubuntu/
         suite: {{ suite }}-security
         comps: [ 'multiverse' ]
       offsite-backports:
