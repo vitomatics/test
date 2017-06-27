@@ -101,7 +101,7 @@ pkgs:
       ubuntu-backports:
         uri: {{sfrepo}}/ubuntu/canonical
         suite: {{ suite }}-backports
-        comps: [ 'main', 'restricted', 'universe', 'multiverse' ]
+        comps: [ 'main', 'restricted']
         key_url: {{sfrepo}}/public.gpg
       ubuntu-backports-universe:
         uri: {{sfrepo}}/ubuntu/canonical
