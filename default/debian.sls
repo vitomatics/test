@@ -56,7 +56,12 @@ pkgs:
       ubuntu:
         uri: {{sfrepo}}/ubuntu/canonical
         suite: {{ suite }}
-        comps: [ 'main', 'restricted']
+        comps: [ 'main' ]
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-restricted:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}
+        comps: [ 'restricted']
         key_url: {{sfrepo}}/public.gpg
       ubuntu-universe:
         uri: {{sfrepo}}/ubuntu/canonical
@@ -71,7 +76,12 @@ pkgs:
       ubuntu-updates:
         uri: {{sfrepo}}/ubuntu/canonical
         suite: {{ suite }}-updates
-        comps: [ 'main', 'restricted']
+        comps: [ 'main' ]
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-updates-restricted:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-updates
+        comps: [ 'restricted']
         key_url: {{sfrepo}}/public.gpg
       ubuntu-updates-universe:
         uri: {{sfrepo}}/ubuntu/canonical
@@ -86,7 +96,12 @@ pkgs:
       ubuntu-security:
         uri: {{sfrepo}}/ubuntu/canonical
         suite: {{ suite }}-security
-        comps: [ 'main', 'restricted' ]
+        comps: [ 'main' ]
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-security-restricted:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-security
+        comps: [ 'restricted' ]
         key_url: {{sfrepo}}/public.gpg
       ubuntu-security-universe:
         uri: {{sfrepo}}/ubuntu/canonical
@@ -101,7 +116,12 @@ pkgs:
       ubuntu-backports:
         uri: {{sfrepo}}/ubuntu/canonical
         suite: {{ suite }}-backports
-        comps: [ 'main', 'restricted']
+        comps: [ 'main' ]
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-backports-restricted:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-backports
+        comps: [ 'restricted']
         key_url: {{sfrepo}}/public.gpg
       ubuntu-backports-universe:
         uri: {{sfrepo}}/ubuntu/canonical
