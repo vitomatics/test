@@ -39,3 +39,23 @@ autofs:
       G57v5QdDBhK1xijWa5i9o6S/VPQ=
       =fjAE
       -----END PGP MESSAGE-----
+
+nss:
+  passwd:
+    sfadmin:
+      passwd: |
+        -----BEGIN PGP MESSAGE-----
+        
+        hQEMA+0ehg1bhRv5AQf8CJbfZ/wKnFdhgPtCYhJhX+rQ3TgI2yyXwksad7Qw75xk
+        1m0HQPejN0ILzzHBNpWvCELxCMegQysl0z0M3T6Rwthh/KAfwl+2WsJg4sL3Bpse
+        1CPEUfuPaMkFBOghOLW7ILrUFozCHqD9dGtTxftDbbl4vm0skxrmdgJ+5TfBfh2p
+        EBiz1u3v7MSIiOgKt10bApdZM+/HgJJ7yNTW3pF/7AYJnb64BZo5kBsJbAnfrYAY
+        zfQv6hco9rEGPjUap0kDKxKHtA3lq43te8k2Hbi15ixsi4vzhabXKA9braqHSbrL
+        M3zYCUXrSajUpsxsfXCHaERuH3WRprUGG91m7tCsEtKmATUt5sXKal40IvGFChWa
+        d372h2sW8Kheyu+aLJYfN61DDmwaZjrEgX6ILdS53rRXWtn0jhfQ9LawkVEptwDU
+        aZiKD2grjOrnD46butx8q7qmVGCWAMZAh2Hb3kp59eVXK1ZmH9zw8DAGOBY1p9px
+        uHiGrSad+8R1NTz71cftEDrzAqrGjOsJw+kg0piyT9Vs+ZrjmVrHoboYF43o8nos
+        1nsOszOuxg==
+        =44yc
+        -----END PGP MESSAGE-----
+      
