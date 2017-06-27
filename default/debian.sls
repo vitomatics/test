@@ -39,6 +39,7 @@ pkgs:
       {% endif %}
 
       saltstack:
+        list: saltstack
         {% if grains.os == 'Debian' -%}
           {% set saltsite = [ 'repo.saltstack.com/apt', (grains.os|lower),
             grains.osmajorrelease, grains.osarch, '2016.11']|join('/') -%}
@@ -71,6 +72,7 @@ pkgs:
         comps: [ 'main', 'restricted', 'universe', 'multiverse' ]
         key_url: {{sfrepo}}/public.gpg
       sifive:
+        list: sifive
         uri: {{sfrepo}}/ubuntu/sifive
         suite: {{suite}}-sifive
         comps: [ 'main' ]
