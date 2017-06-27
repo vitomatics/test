@@ -27,6 +27,7 @@ file:
     /bin/sh: bash
 {% endif %}
 
+{% set sfrepo = 'http://sfrepo.internal.sifive.com' %}
 pkgs:
   apt:
     repos:
@@ -49,8 +50,27 @@ pkgs:
         uri: http://{{saltsite}}
 
       {% if grains.os == 'Ubuntu' %}
+      ubuntu:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}
+        comps: [ 'main', 'restricted', 'universe', 'multiverse' ]
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-updates:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-updates
+        comps: [ 'main', 'restricted', 'universe', 'multiverse' ]
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-security:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-security
+        comps: [ 'main', 'restricted', 'universe', 'multiverse' ]
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-backports:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-backports
+        comps: [ 'main', 'restricted', 'universe', 'multiverse' ]
+        key_url: {{sfrepo}}/public.gpg
       sifive:
-        {% set sfrepo = 'http://sfrepo.internal.sifive.com' %}
         uri: {{sfrepo}}/ubuntu/sifive
         suite: {{suite}}-sifive
         comps: [ 'main' ]
