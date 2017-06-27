@@ -224,6 +224,7 @@ pkgs:
         uri: {{offsiterepo}}/ubuntu/
         suite: {{ suite }}-backports
         comps: [ 'multiverse' ]
+      {% endif %}  {# on Ubuntu #}
 
   list:
     krb5-user: true
