@@ -51,25 +51,67 @@ pkgs:
         uri: http://{{saltsite}}
 
       {% if grains.os == 'Ubuntu' %}
+      # The structure of these reflects the way that preseed sets
+      # up the repos in the first place
       ubuntu:
         uri: {{sfrepo}}/ubuntu/canonical
         suite: {{ suite }}
-        comps: [ 'main', 'restricted', 'universe', 'multiverse' ]
+        comps: [ 'main', 'restricted']
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-universe:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}
+        comps: [ 'universe']
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-multiverse:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}
+        comps: [ 'multiverse'']
         key_url: {{sfrepo}}/public.gpg
       ubuntu-updates:
         uri: {{sfrepo}}/ubuntu/canonical
         suite: {{ suite }}-updates
-        comps: [ 'main', 'restricted', 'universe', 'multiverse' ]
+        comps: [ 'main', 'restricted']
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-updates-universe:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-updates
+        comps: [ 'universe']
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-updates-multiverse:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-updates
+        comps: [ 'multiverse']
         key_url: {{sfrepo}}/public.gpg
       ubuntu-security:
         uri: {{sfrepo}}/ubuntu/canonical
         suite: {{ suite }}-security
-        comps: [ 'main', 'restricted', 'universe', 'multiverse' ]
+        comps: [ 'main', 'restricted' ]
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-security-universe:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-security
+        comps: [ 'universe' ]
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-security-multiverse:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-security
+        comps: [ 'multiverse' ]
         key_url: {{sfrepo}}/public.gpg
       ubuntu-backports:
         uri: {{sfrepo}}/ubuntu/canonical
         suite: {{ suite }}-backports
         comps: [ 'main', 'restricted', 'universe', 'multiverse' ]
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-backports-universe:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-backports
+        comps: [ 'universe' ]
+        key_url: {{sfrepo}}/public.gpg
+      ubuntu-backports-multiverse:
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-backports
+        comps: [ 'multiverse' ]
         key_url: {{sfrepo}}/public.gpg
       sifive:
         list: sifive
