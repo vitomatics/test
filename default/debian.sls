@@ -55,11 +55,6 @@ pkgs:
         suite: {{suite}}-sifive
         comps: [ 'main' ]
         key_url: {{sfrepo}}/public.gpg
-      '/etc/apt/sources.list':
-        uri: http://example.com/ubuntu/sifive
-        suite: xenial
-        comps: [ 'main' ]
-        key_url: {{sfrepo}}/public.gpg
       {% endif %}
 
   list:
