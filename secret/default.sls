@@ -43,7 +43,7 @@ autofs:
 nss:
   passwd:
     sfadmin:
-      passwd: |
+      password: |
         -----BEGIN PGP MESSAGE-----
         
         hQEMA+0ehg1bhRv5AQf8CJbfZ/wKnFdhgPtCYhJhX+rQ3TgI2yyXwksad7Qw75xk
