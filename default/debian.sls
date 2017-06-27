@@ -28,6 +28,7 @@ file:
 {% endif %}
 
 {% set sfrepo = 'http://sfrepo.internal.sifive.com' %}
+{% set offsiterepo = 'http://us.archive.ubuntu.com' %}
 pkgs:
   apt:
     repos:
@@ -51,8 +52,9 @@ pkgs:
         uri: http://{{saltsite}}
 
       {% if grains.os == 'Ubuntu' %}
-      # The structure of these reflects the way that preseed sets
-      # up the repos in the first place
+      # Our local ubuntu repos
+      # Need to list components separately otherwise the salt state does
+      # a bad job of reconciling with existing repos
       ubuntu:
         uri: {{sfrepo}}/ubuntu/canonical
         suite: {{ suite }}
@@ -133,13 +135,95 @@ pkgs:
         suite: {{ suite }}-backports
         comps: [ 'multiverse' ]
         key_url: {{sfrepo}}/public.gpg
+
       sifive:
         list: sifive
         uri: {{sfrepo}}/ubuntu/sifive
         suite: {{suite}}-sifive
         comps: [ 'main' ]
         key_url: {{sfrepo}}/public.gpg
-      {% endif %}
+
+      # Repos we do not want
+      offsite:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}
+        comps: [ 'main' ]
+      offsite-restricted:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}
+        comps: [ 'restricted']
+      offsite-universe:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}
+        comps: [ 'universe']
+      offsite-multiverse:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}
+        comps: [ 'multiverse']
+      offsite-updates:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-updates
+        comps: [ 'main' ]
+      offsite-updates-restricted:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-updates
+        comps: [ 'restricted']
+      offsite-updates-universe:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-updates
+        comps: [ 'universe']
+      offsite-updates-multiverse:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-updates
+        comps: [ 'multiverse']
+      offsite-security:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-security
+        comps: [ 'main' ]
+      offsite-security-restricted:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-security
+        comps: [ 'restricted' ]
+      offsite-security-universe:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-security
+        comps: [ 'universe' ]
+      offsite-security-multiverse:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-security
+        comps: [ 'multiverse' ]
+      offsite-backports:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-backports
+        comps: [ 'main' ]
+      offsite-backports-restricted:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-backports
+        comps: [ 'restricted']
+      offsite-backports-universe:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-backports
+        comps: [ 'universe' ]
+      offsite-backports-multiverse:
+        absent: true
+        uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-backports
+        comps: [ 'multiverse' ]
 
   list:
     krb5-user: true
