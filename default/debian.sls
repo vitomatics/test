@@ -21,6 +21,10 @@ nss:
     automount:
       - ldap
 
+pam:
+  su:
+    wheelgroup: wheel
+    
 {% if grains.os == 'Ubuntu' %}
 file:
   ln:
