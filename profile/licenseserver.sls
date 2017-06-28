@@ -15,7 +15,11 @@ flexnet:
     snpslmd:
       bindir: /srv/flexlm/vendor/synopsys/bin
       env: SCL_POOL_VS=1
-      license_pillars:
-        - a:b:c
+      licenses:
+        license1:
+          pillar: site:licenses:synopsys-10
+        license2:
+          pillar: site:licenses:synopsys-0
+          absent: true
       port: 27000
       vport: 27001
