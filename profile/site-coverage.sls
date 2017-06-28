@@ -54,6 +54,9 @@ file:
         - sifive:$apr1$XAJYmbSG$.2ZJfST1UYK3K6b9ehAdr0
 
 apache:
+  lookup:
+    user: {{ user }}
+    group: www-data
   user: {{ user }}
   group: www-data
   sites:
