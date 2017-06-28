@@ -34,8 +34,8 @@
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Synopsys License file created by CVDKIF 4.1 on June 21, 2017 at 14:56:23 for daemon snpslmd
 # Synopsys License file created by CVDKIF 4.1 on June 22, 2017 at 10:06:45 for daemon snpslmd
-SERVER license.internal.sifive.com 0002C94E201E 27000
-VENDOR snpslmd /usr/local/flexlm/vendor/synopsys/bin/snpslmd PORT=27001
+SERVER server.example.com 000000000000 1234
+VENDOR snpslmd /usr/local/flexlm/snpslmd PORT=5678
 USE_SERVER
 INCREMENT SSST snpslmd 1.0 14-Jul-2017 1 7E1A1B9617CD8EF7C108 \
         VENDOR_STRING="e9634 50562 9f617 337da 26a62 41fde 1d37d a26a6 241fd e1d11 \
