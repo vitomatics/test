@@ -6,6 +6,7 @@ include:
 
 {% set site = 'coverage' %}
 {% set user = 'jenkins' %}
+{% set group = 'jenkins' %}
 {% set covdir = '/work/jenkins/coverage' %}
 {% set certdir = '/etc/pki' %}
 {% set cert = site %}
@@ -56,9 +57,7 @@ file:
 apache:
   lookup:
     user: {{ user }}
-    group: www-data
-  user: {{ user }}
-  group: www-data
+    group: {{ group }}
   sites:
     coverage:
       interface: '*'
