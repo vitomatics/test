@@ -17,9 +17,8 @@ flexnet:
       env: SCL_POOL_VS=1
       licenses:
         license1:
-          pillar: site:licenses:synopsys-10
-        license2:
-          pillar: site:licenses:synopsys-0
           absent: true
+        license2:
+          pillar: site:licenses:synopsys-10
       port: 27000
       vport: 27001
