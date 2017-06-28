@@ -32,6 +32,7 @@
 #vendor daemon (cvd) format license files must be verified with the 'sssverify' utility.
 #
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Synopsys License file created by CVDKIF 4.1 on June 21, 2017 at 14:56:23 for daemon snpslmd
 # Synopsys License file created by CVDKIF 4.1 on June 22, 2017 at 10:06:45 for daemon snpslmd
 SERVER server.example.com 000000000000 1234
