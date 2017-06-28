@@ -96,6 +96,9 @@ sfsalt:
         - grid.internal.sifive.com
       authnameserver:
         - yoda.internal.sifive.com
+      licenseserver:
+        - jabba.internal.sifive.com
+        - jarjar.internal.sifive.com
 
     ext_pillars:
       file_tree:
