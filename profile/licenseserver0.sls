@@ -16,7 +16,7 @@ flexnet:
   vendors:
     xilinx:
       disttype: zip
-      disturl: http://sfimages.internal.sifive.com/Xilinx/flexlm_v11.13.1.3.zip
+      disturl: http://sfimages.internal.sifive.com/Xilinx/flexlm/flexlm_v11.13.1.3.zip
   daemons:
     xilinxd:
       vendor: xilinx
