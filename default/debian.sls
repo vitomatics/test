@@ -279,6 +279,7 @@ pkgs:
     build-essential: true
     make: true
     git: true
+    libgcc1:i386: true
 
     wcalc: true
     apcalc: true
