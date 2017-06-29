@@ -12,7 +12,7 @@ flexnet:
     user: flexlm
     group: nogroup
   servername: garbage.internal.sifive.com
-  serverid: 000000000000
+  serverid: '000000000000'
   vendors:
     xilinx:
       disttype: zip
