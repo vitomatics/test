@@ -1,4 +1,4 @@
-## pillar file for main sifive license server
+## pillar file for the secondary license server
 
 states:
   flexnet: true

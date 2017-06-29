@@ -285,5 +285,5 @@ base:
   'jabba.internal.sifive.com':
     - subnet.sf-unix
     - profile.container
-    - profile.licenseserver
+    - profile.licenseserver0
     - hosts.jabba
