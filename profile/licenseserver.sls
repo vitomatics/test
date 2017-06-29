@@ -16,7 +16,7 @@ flexnet:
   vendors:
     synopsys:
       disttype: tgz
-      disturl: http://sfimages/Synopsys/scl/scl-sifive-20170628.tar.gz
+      disturl: http://sfimages.internal.sifive.com/Synopsys/scl/scl-sifive-20170628.tar.gz
   daemons:
     snpslmd:
       vendor: synopsys
