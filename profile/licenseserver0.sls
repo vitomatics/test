@@ -11,7 +11,7 @@ flexnet:
     vendordir: /srv/flexlm/vendor
     user: flexlm
     group: nogroup
-  servername: garbage.internal.sifive.com
+  servername: garbage0.internal.sifive.com
   serverid: '000000000000'
   vendors:
     xilinx:
@@ -20,9 +20,9 @@ flexnet:
   daemons:
     xilinxd:
       vendor: xilinx
-      bindir: linux_flexlm_v11.13.1.3/lnx64.o
-      port: 9998
-      vport: 9999
+      bindir: FIXME-linux_flexlm_v11.13.1.3/lnx64.o
+      port: 2100
+      vport: 2101
       licenses:
         license-01:
-          pillar: site:licenses:xilinx-01
+          absent: true
