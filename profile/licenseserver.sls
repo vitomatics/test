@@ -18,7 +18,7 @@ flexnet:
   vendors:
     synopsys:
       disttype: tgz
-      disturl: http://sfimages.internal.sifive.com/Synopsys/scl/scl-sifive-20170628.tar.gz
+      disturl: http://sfimages.internal.sifive.com/Synopsys/scl/scl-2016.12_SP1.tar.gz
     smartdv:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/SmartDV/flexlm/smartdv-flexlm-20170216.tar.gz
@@ -28,7 +28,7 @@ flexnet:
   daemons:
     snpslmd:
       vendor: synopsys
-      bindir: FIXME-scl/2016.12_SP1/linux/bin
+      bindir: FIXME-scl/2016.12_SP1/linux64/bin
       port: 27000
       vport: 27001
       env: SCL_POOL_VS=1
