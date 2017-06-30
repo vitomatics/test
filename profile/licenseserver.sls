@@ -24,7 +24,7 @@ flexnet:
       disturl: http://sfimages.internal.sifive.com/SmartDV/flexlm/smartdv-flexlm-20170216.tar.gz
     snpslmd:
       vendor: synopsys
-      bindir: FIXME:scl/2016.12_SP1/linux/bin
+      bindir: FIXME-scl/2016.12_SP1/linux/bin
       port: 27000
       vport: 27001
       env: SCL_POOL_VS=1
@@ -35,6 +35,6 @@ flexnet:
           absent: true
     smartdvd:
       vendor: synopsys
-      bindir: FIXME:smartdv-flexlm-20170216/lnx_64
+      bindir: FIXME-smartdv-flexlm-20170216/lnx_64
       port: 5053
       vport: 5054
