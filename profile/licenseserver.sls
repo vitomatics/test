@@ -22,6 +22,9 @@ flexnet:
     smartdv:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/SmartDV/flexlm/smartdv-flexlm-20170216.tar.gz
+    cadence:
+      disttype: tgz
+      disturl: http://sfimages.internal.sifive.com/Cadence/flexlm/cadence-flexlm-v11.13.1.3-sifive.tar.gz
   daemons:
     snpslmd:
       vendor: synopsys
@@ -39,3 +42,8 @@ flexnet:
       bindir: FIXME-smartdv-flexlm-20170216/lnx_64
       port: 5053
       vport: 5054
+    cdslmd:
+      vendor: cadence
+      bindir: FIXME-cadence-flexlm-v11.13.1.3-sifive
+      port: 5280
+      vport: 5281
