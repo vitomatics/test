@@ -35,7 +35,7 @@ flexnet:
         license2:
           absent: true
     smartdvd:
-      vendor: synopsys
+      vendor: smartdv
       bindir: FIXME-smartdv-flexlm-20170216/lnx_64
       port: 5053
       vport: 5054
