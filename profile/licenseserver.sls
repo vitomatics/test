@@ -25,6 +25,9 @@ flexnet:
     cadence:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/Cadence/flexlm/cadence-flexlm-v11.13.1.3-sifive.tar.gz
+    mentor:
+      disttype: tgz
+      disturl: http://sfimages.internal.sifive.com/Mentor/mgls/mgls-v11.13.1.2.tar.gz
   daemons:
     snpslmd:
       vendor: synopsys
@@ -47,3 +50,8 @@ flexnet:
       bindir: FIXME-cadence-flexlm-v11.13.1.3-sifive
       port: 5280
       vport: 5281
+    mgcld:
+      vendor: mentor
+      bindir: FIXME-mgls-v11.13.1.2/bin
+      port: 1717
+      vport: 1718
