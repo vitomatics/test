@@ -22,6 +22,7 @@ flexnet:
     smartdv:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/SmartDV/flexlm/smartdv-flexlm-20170216.tar.gz
+  daemons:
     snpslmd:
       vendor: synopsys
       bindir: FIXME-scl/2016.12_SP1/linux/bin
