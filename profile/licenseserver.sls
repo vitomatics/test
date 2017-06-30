@@ -32,7 +32,7 @@ flexnet:
         license1:
           absent: true
         license2:
-          pillar: site:licenses:synopsys-10
+          absent: true
     smartdvd:
       vendor: synopsys
       bindir: FIXME:smartdv-flexlm-20170216/lnx_64
