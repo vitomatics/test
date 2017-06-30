@@ -16,19 +16,42 @@ flexnet:
   servername: garbage.internal.sifive.com
   serverid: '0123456789ab'
   vendors:
-    synopsys:
-      disttype: tgz
-      disturl: http://sfimages.internal.sifive.com/Synopsys/scl/scl-2016.12_SP1.tar.gz
-    smartdv:
-      disttype: tgz
-      disturl: http://sfimages.internal.sifive.com/SmartDV/flexlm/smartdv-flexlm-20170216.tar.gz
     cadence:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/Cadence/flexlm/cadence-flexlm-v11.13.1.3-sifive.tar.gz
     mentor:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/Mentor/mgls/mgls-v11.13.1.2.tar.gz
+    smartdv:
+      disttype: tgz
+      disturl: http://sfimages.internal.sifive.com/SmartDV/flexlm/smartdv-flexlm-20170216.tar.gz
+    synopsys:
+      disttype: tgz
+      disturl: http://sfimages.internal.sifive.com/Synopsys/scl/scl-2016.12_SP1.tar.gz
+    tsmc:
+      disttype: tgz
+      disturl: http://sfimages.internal.sifive.com/TSMC/flexlm/MC2_2012.02.00.d-flexlm.tar.gz
   daemons:
+    cdslmd:
+      vendor: cadence
+      bindir: FIXME-cadence-flexlm-v11.13.1.3-sifive
+      port: 5280
+      vport: 5281
+    interrad:
+      vendor: tsmc
+      bindir: FIXME-MC2_2012.02.00.d/aux/flexlm/amd64_re3
+      port: 27010
+      vport: 27011
+    mgcld:
+      vendor: mentor
+      bindir: FIXME-mgls-v11.13.1.2/bin
+      port: 1717
+      vport: 1718
+    smartdvd:
+      vendor: smartdv
+      bindir: FIXME-smartdv-flexlm-20170216/lnx_64
+      port: 5053
+      vport: 5054
     snpslmd:
       vendor: synopsys
       bindir: FIXME-scl/2016.12_SP1/linux64/bin
@@ -40,18 +63,3 @@ flexnet:
           absent: true
         license2:
           absent: true
-    smartdvd:
-      vendor: smartdv
-      bindir: FIXME-smartdv-flexlm-20170216/lnx_64
-      port: 5053
-      vport: 5054
-    cdslmd:
-      vendor: cadence
-      bindir: FIXME-cadence-flexlm-v11.13.1.3-sifive
-      port: 5280
-      vport: 5281
-    mgcld:
-      vendor: mentor
-      bindir: FIXME-mgls-v11.13.1.2/bin
-      port: 1717
-      vport: 1718
