@@ -21,7 +21,6 @@
 10.14.0.12 algol		# static
 10.14.0.13 bender		# static
 10.14.0.14 hansolo		# static
-10.14.0.15 jabba		# static
 
 10.14.0.130 example		# static
 
@@ -68,6 +67,7 @@
 10.14.16.42 yoda			# static
 10.14.16.43 jarjar			# static
 10.14.16.44 vader			# static
+10.14.16.45 jabba			# static
 
 10.14.16.48 heartofgold hog
 10.14.16.49 tardis

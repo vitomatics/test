@@ -106,6 +106,7 @@ adns0			IN	A	10.14.16.42
 jarjar			IN	A	10.14.16.43
 license0		IN	CNAME	jarjar
 vader			IN	A	10.14.16.44
+jabba			IN	A	10.14.16.45
 
 heartofgold		IN	A	10.14.16.48
 hog			IN	CNAME	heartofgold
