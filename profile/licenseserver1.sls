@@ -48,6 +48,9 @@ flexnet:
       bindir: FIXME-mgls-v11.13.1.2/bin
       port: 1717
       vport: 1718
+      license:
+        test1:
+          pillar: site:licenses:test1
     smartdvd:
       vendor: smartdv
       bindir: FIXME-smartdv-flexlm-20170216/lnx_64
