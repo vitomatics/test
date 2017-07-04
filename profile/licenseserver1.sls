@@ -1,6 +1,7 @@
 ## pillar file for main sifive license server
 
 states:
+  firewall.iptables: true
   flexnet: true
 
 flexnet:
@@ -63,3 +64,19 @@ flexnet:
           absent: true
         license2:
           absent: true
+
+
+## Firewall holes for flexnet server
+firewall:
+  ports:
+    tcp:
+      1717: 10.14.0.0/16 10.134.0.0/16
+      1718: 10.14.0.0/16 10.134.0.0/16
+      5053: 10.14.0.0/16 10.134.0.0/16
+      5054: 10.14.0.0/16 10.134.0.0/16
+      5280: 10.14.0.0/16 10.134.0.0/16
+      5281: 10.14.0.0/16 10.134.0.0/16
+      27000: 10.14.0.0/16 10.134.0.0/16
+      27001: 10.14.0.0/16 10.134.0.0/16
+      27010: 10.14.0.0/16 10.134.0.0/16
+      27011: 10.14.0.0/16 10.134.0.0/16

@@ -271,7 +271,7 @@ base:
   'jarjar.internal.sifive.com':
     - subnet.he-unix01
     - profile.container
-    - profile.flexlm
+    - profile.licenseserver0
     - hosts.jarjar
 
   'vader.internal.sifive.com':
@@ -285,5 +285,5 @@ base:
   'jabba.internal.sifive.com':
     - subnet.he-unix01
     - profile.container
-    - profile.licenseserver
+    - profile.licenseserver1
     - hosts.jabba
