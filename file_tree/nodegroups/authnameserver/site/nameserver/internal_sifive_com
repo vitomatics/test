@@ -34,7 +34,6 @@ hansolo		IN	A	10.14.0.14
 sf-ntp0		IN	CNAME	hansolo
 sf-ns0		IN	CNAME	hansolo
 ns2		IN	CNAME	hansolo
-jabba		IN	A	10.14.0.15
 
 advisor		IN	A	10.14.0.130
 

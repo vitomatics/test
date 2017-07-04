@@ -27,7 +27,6 @@ $TTL	86400
 12.0	IN	PTR	algol.internal.sifive.com.
 13.0	IN	PTR	bender.internal.sifive.com.
 14.0	IN	PTR	hansolo.internal.sifive.com.
-15.0	IN	PTR	jabba.internal.sifive.com.
 
 130.0	IN	PTR	advisor.internal.sifive.com.
 
