@@ -283,7 +283,7 @@ base:
     - hosts.vader
 
   'jabba.internal.sifive.com':
-    - subnet.sf-unix
+    - subnet.he-unix01
     - profile.container
     - profile.licenseserver
     - hosts.jabba

@@ -1,24 +1,24 @@
-## VM definition for container jabba
+## VM definition for container jarjar
 
 sfvirt:
   vms:
-    jabba:
+    jarjar:
       type: lxc
       vmhost: eddie.internal.sifive.com
       vcpus: 2
       memory: 4096   # In MB
       autostart: on
-      subuidbase: 200000
-      subgidbase: 200000
+      subuidbase: 100000
+      subgidbase: 100000
       ifs:
         eth0:
           bridge: br0
-          mac: 52:54:00:ff:00:17
+          mac: 52:54:00:ff:00:15
       disks:
         root:
           vdtype: lvm
           size: 30G
           vg: vmpool01
-      preseed: jabba
+      preseed: jarjar
       dist: xenial-default
 

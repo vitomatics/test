@@ -11,6 +11,7 @@ include:
   - vms.hal
   - vms.hansolo
   - vms.jabba
+  - vms.jarjar
   - vms.klingon
   - vms.leia
   - vms.luke

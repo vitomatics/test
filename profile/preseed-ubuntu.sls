@@ -457,7 +457,10 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
+        jarjar:
+          ipaddress: 10.14.16.43
+          subnet: he-unix1-static
         jabba:
-          ipaddress: 10.14.0.15
-          subnet: sf-static
+          ipaddress: 10.14.16.45
+          subnet: he-unix1-static
         
