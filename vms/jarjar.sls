@@ -18,7 +18,7 @@ sfvirt:
         root:
           vdtype: lvm
           size: 30G
-          vg: vmpool01
+          vg: vmpool02
       preseed: jarjar
       dist: xenial-default
 
