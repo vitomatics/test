@@ -8,8 +8,8 @@ sfvirt:
       vcpus: 2
       memory: 4096   # In MB
       autostart: on
-      subuidbase: 200000
-      subgidbase: 200000
+      subuidbase: 100000
+      subgidbase: 100000
       ifs:
         eth0:
           bridge: br0
