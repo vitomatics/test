@@ -20,18 +20,23 @@ flexnet:
     cadence:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/Cadence/flexlm/cadence-flexlm-v11.13.1.3-sifive.tar.gz
+      dir: cadence-flexlm-v11.13.1.3-sifive
     mentor:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/Mentor/mgls/mgls-v11.13.1.2.tar.gz
+      dir: mgls-v11.13.1.2
     smartdv:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/SmartDV/flexlm/smartdv-flexlm-20170216.tar.gz
+      dir: smartdv-flexlm-20170216
     synopsys:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/Synopsys/scl/scl-2016.12_SP1.tar.gz
+      dir: scl/2016.12_SP1
     tsmc:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/TSMC/flexlm/MC2_2012.02.00.d-flexlm.tar.gz
+      dir: MC2_2012.02.00.d
   daemons:
     cdslmd:
       vendor: cadence
