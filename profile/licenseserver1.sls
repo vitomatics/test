@@ -72,7 +72,7 @@ flexnet:
           pillar: site:licenses:mgcld:microsemi-01
         microsemi-02:
           pillar: site:licenses:mgcld:microsemi-02
-    smartdvd:
+    smartdv:
       vendor: smartdv
       bindir: smartdv-flexlm-20170216/lnx_64
       port: 5053
