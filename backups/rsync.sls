@@ -131,3 +131,11 @@ sfdump:
       key: sfdump_hog_key1
       days: 2
       weeks: 8
+    ##### old backups
+    i0-license:
+      absent: true
+      client: i0.internal.sifive.com
+      server: heartofgold.internal.sifive.com
+      src: /var/lib/sflxc/rootfs/license/usr/local/flexlm
+      dest: /sfbackup/dumps/i0-license
+      key: sfdump_hog_key1
