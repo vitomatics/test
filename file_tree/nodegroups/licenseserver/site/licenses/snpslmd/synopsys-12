@@ -1,0 +1,60 @@
+#Date: 06/27/2017
+#SNPS ID: PRD
+#                                                                        SYNOPSYS INC. KEY CERTIFICATE
+#                                                                        Site ID: 35908
+#                                                                        SiFive, Inc.
+#                                                                        300 Brannan St., Ste 403
+#                                                                        San Francisco
+#                                                                        CA 94107
+#                                                                        US
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
+#
+#If you feel that keys are missing (or incorrect), please contact your Synopsys account manager.
+#
+#License keys may be generated with durations shorter than the actual license term and therefore may require periodic retrieval from SmartKeys at https://solvnet.synopsys.com/SmartKeys
+#
+#License keys will be transmitted in clear text, over public and private networks. Synopsys does not warrant or guarantee that these networks provide privacy and accepts no liability of
+#any kind if a third party intercepts the transmission.
+#Synopsys products are export controlled. It is the responsibility of the addressee to comply with U.S. Export Regulations where applicable.
+#
+#IMPORTANT NOTICE: Beginning September 2015, WAN usage rights details will be included in the license file summary on a product by product basis (where applicable) for deliveries against
+#new agreements and/or purchases. Please contact your account manager for further information.
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Server Config: 0000269223
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#For counted licenses in the standard combined vendor daemon (cvd) format, make sure you are using the required version of  Synopsys Common Licensing (SCL). For
+#information on the required version of SCL, or for Synopsys licensing setup and  installation help, go to http://www.synopsys.com/licensing
+#
+#IMPORTANT: Follow the license file verification procedure at http://www.synopsys.com/licensing when installing or updating your  Synopsys license file. Combined
+#vendor daemon (cvd) format license files must be verified with the 'sssverify' utility.
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Synopsys License file created by CVDKIF 4.1 on June 26, 2017 at 14:49:29 for daemon snpslmd
+# Synopsys License file created by CVDKIF 4.1 on June 27, 2017 at 15:18:20 for daemon snpslmd
+SERVER license.internal.sifive.com 0002C94E201E 27000
+VENDOR snpslmd /usr/local/flexlm/vendor/synopsys/bin/snpslmd PORT=27001
+USE_SERVER
+INCREMENT SSST snpslmd 1.0 27-Jul-2017 1 AE5A9BCBA81C9CF09D82 \
+        VENDOR_STRING="0f151 3ca66 d0da3 8beef e4a17 0c0b8 b8bee fe4a1 70c0b 8b811 \
+        01020 0aa30 739ca feed5 a0a14 c9574 49190 3f782 79476 22f48 \
+        cd580 d6740 2a41a 8f992 339b2 80f03 0b77a c1ac6 96e89 f9251 \
+        8f8e9 3d82f 0df38 f2e38 52a1b b97a1 9285f 48fb2 406b0 2dd20 \
+        e89a4 03fcf 5e4b4 45c66 f1b69 ea4d2 4ceeb 3a383 bc538 804bb \
+        a68cd 2de51 e5375 d235f ec523 ed487 7b9e2 4ff21 9382e 1b453 \
+        e9ad7 dfe1f c607f c872e 16a81 6972a 431e0 d1f4b 74fdd 0187c \
+        0e38c 59e34 14040 e0d20 bcd7e 44c97 53fc4 5a3fb 9702c 1f55e \
+        3fb59 ba12e 32878 2bd1c 21a23 d887e 7002d 0160c 00fa2 e7bb7 \
+        7f9fd 598c6 59799 c7ea3 084f7 b131c 94c02 1749b 8de54 18e63 \
+        c6cb4 b55ba 676bb 40bd7 09639 8b7ba 1c383 415f0 2ed7e 0b6ab \
+        13093 b9da5 01b70 845" \
+        NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
+        KEYS IN THIS FILE]" \
+        SN=TK:0:0:234811 ISSUER="Synopsys, Inc. [6/27/2017 15:18:20 35908 4.1]" \
+        START=27-Jun-2017
+INCREMENT VIP-SOC-LIBRARY-SVT snpslmd 2017.06 27-jul-2017 28 \
+        ISSUED=27-jun-2017 ck=144 SN=TK:C278-0:468340:234811 \
+        START=27-jun-2017 AUTH={ snpslmd=( LK=CECADBEBEB3AD7C16366) }
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

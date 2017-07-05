@@ -1,0 +1,4 @@
+SERVER license.internal.sifive.com 0002c94e201e 27020
+VENDOR easicd /usr/local/flexlm/vendor/easic/bin/easicd PORT=27021
+FEATURE EDESIGNNAVIGATOR easicd 1.000 30-mar-2017 1 SIGN=A302290E09B8
+FEATURE EPLACER easicd 1.000 30-mar-2017 1 SIGN=1D68DEC8F4C6
