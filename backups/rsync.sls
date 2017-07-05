@@ -131,4 +131,15 @@ sfdump:
       key: sfdump_hog_key1
       days: 2
       weeks: 8
+    jabba-onsite:
+      client: jabba.internal.sifive.com
+      server: heartofgold.internal.sifive.com
+      src: /srv
+      dest: /sfbackup/dumps/jabba-srv
+      compression: false
+      acls: true
+      xattrs: true
+      key: sfdump_hog_key1
+      days: 2
+      weeks: 8
     ##### old backups
