@@ -286,4 +286,5 @@ base:
     - subnet.he-unix01
     - profile.container
     - profile.licenseserver1
+    - profile.backupclient
     - hosts.jabba
