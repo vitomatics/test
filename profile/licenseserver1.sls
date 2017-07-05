@@ -12,10 +12,8 @@ flexnet:
     vendordir: /srv/flexlm/vendor
     user: flexlm
     group: nogroup
-  # servername: license.internal.sifive.com
-  # serverid: 0002c94e201e
-  servername: garbage.internal.sifive.com
-  serverid: '0123456789ab'
+  servername: license1.internal.sifive.com
+  serverid: '0002c94e201e'
   vendors:
     cadence:
       disttype: tgz
