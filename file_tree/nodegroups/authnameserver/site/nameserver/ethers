@@ -31,7 +31,8 @@ spare0-1		90:e2:ba:c6:b0:a5
 
 printer01	b0:5a:da:c7:d0:99
 
-license		00:02:c9:4e:20:1e
+# license		00:02:c9:4e:20:1e
+license			52:54:00:ff:00:17
 
 pdu11           00:20:85:f4:c2:d2
 
@@ -152,5 +153,5 @@ yoda			52:54:00:ff:00:13
 frogstar		52:54:00:ff:00:14
 jarjar			52:54:00:ff:00:15
 vader			52:54:00:ff:00:16
-jabba			52:54:00:ff:00:17
-
+# jabba			52:54:00:ff:00:17
+jabba			00:02:c9:4e:20:1e

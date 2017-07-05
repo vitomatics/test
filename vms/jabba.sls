@@ -13,7 +13,7 @@ sfvirt:
       ifs:
         eth0:
           bridge: br0
-          mac: 52:54:00:ff:00:17
+          mac: 00:02:c9:4e:20:1e
       disks:
         root:
           vdtype: lvm
