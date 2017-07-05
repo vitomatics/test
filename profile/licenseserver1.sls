@@ -38,7 +38,7 @@ flexnet:
   daemons:
     cdslmd:
       vendor: cadence
-      bindir: FIXME-cadence-flexlm-v11.13.1.3-sifive
+      bindir: cadence-flexlm-v11.13.1.3-sifive
       port: 5280
       vport: 5281
       licenses:
@@ -48,7 +48,7 @@ flexnet:
           pillar: site:licenses:cdslmd:cadence-03
     interrad:
       vendor: tsmc
-      bindir: FIXME-MC2_2012.02.00.d/aux/flexlm/amd64_re3
+      bindir: MC2_2012.02.00.d/aux/flexlm/amd64_re3
       port: 27010
       vport: 27011
       licenses:
@@ -60,7 +60,7 @@ flexnet:
           pillar: site:licenses:interrad:tsmc-sram-5056
     mgcld:
       vendor: mentor
-      bindir: FIXME-mgls-v11.13.1.2/bin
+      bindir: mgls-v11.13.1.2/bin
       port: 1717
       vport: 1718
       licenses:
@@ -74,7 +74,7 @@ flexnet:
           pillar: site:licenses:mgcld:microsemi-02
     smartdvd:
       vendor: smartdv
-      bindir: FIXME-smartdv-flexlm-20170216/lnx_64
+      bindir: smartdv-flexlm-20170216/lnx_64
       port: 5053
       vport: 5054
       licenses:
@@ -82,7 +82,7 @@ flexnet:
           pillar: site:licenses:smartdv:smartdv-01
     snpslmd:
       vendor: synopsys
-      bindir: FIXME-scl/2016.12_SP1/linux64/bin
+      bindir: scl/2016.12_SP1/linux64/bin
       port: 27000
       vport: 27001
       env: SCL_POOL_VS=1
