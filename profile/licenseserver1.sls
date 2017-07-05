@@ -38,7 +38,7 @@ flexnet:
   daemons:
     cdslmd:
       vendor: cadence
-      bindir: cadence-flexlm-v11.13.1.3-sifive
+      bindir: cadence-flexlm-v11.13.1.3-sifive/bin
       port: 5280
       vport: 5281
       licenses:
