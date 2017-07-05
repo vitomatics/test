@@ -54,6 +54,7 @@ flexnet:
       licenses:
         tsmc-sram-3864:
           pillar: site:licenses:interrad:tsmc-sram-3864
+          absent: true
         tsmc-sram-4077:
           pillar: site:licenses:interrad:tsmc-sram-4077
         tsmc-sram-5056:
