@@ -58,6 +58,7 @@ flexnet:
           pillar: site:licenses:interrad:tsmc-sram-4077
         tsmc-sram-5056:
           pillar: site:licenses:interrad:tsmc-sram-5056
+          absent: true
     mgcld:
       vendor: mentor
       bindir: mgls-v11.13.1.2/bin
