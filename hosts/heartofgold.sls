@@ -75,6 +75,7 @@ zfs:
     bkpool01/sfbackup/dumps/vader-srv:
     bkpool01/sfbackup/dumps/lambda00-work:
     bkpool01/sfbackup/dumps/jabba-srv:
+    bkpool01/sfbackup/dumps/i0-oldhome:
 
 nfs4:
   domain:
