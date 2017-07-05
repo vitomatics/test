@@ -142,4 +142,15 @@ sfdump:
       key: sfdump_hog_key1
       days: 2
       weeks: 8
+    i0-oldhome:
+      client: i0.internal.sifive.com
+      server: heartofgold.internal.sifive.com
+      src: /oldhome
+      dest: /sfbackup/dumps/i0-oldhome
+      compression: false
+      acls: true
+      xattrs: true
+      key: sfdump_hog_key1
+      days: 1
+      weeks: 1
     ##### old backups
