@@ -65,17 +65,6 @@ sfdump:
       key: sfdump_omega1_key1
       days: 4
       weeks: 2
-    i0-license:
-      client: i0.internal.sifive.com
-      server: heartofgold.internal.sifive.com
-      src: /var/lib/sflxc/rootfs/license/usr/local/flexlm
-      dest: /sfbackup/dumps/i0-license
-      compression: false
-      acls: false
-      xattrs: false
-      key: sfdump_hog_key1
-      days: 10
-      weeks: 10
     grid-srv-onsite:
       client: grid.internal.sifive.com
       server: heartofgold.internal.sifive.com
