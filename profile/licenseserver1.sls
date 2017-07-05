@@ -12,7 +12,7 @@ flexnet:
     vendordir: /srv/flexlm/vendor
     user: flexlm
     group: nogroup
-  servername: license1.internal.sifive.com
+  servername: jabba.internal.sifive.com
   serverid: '0002c94e201e'
   vendors:
     cadence:
