@@ -81,7 +81,6 @@ flexnet:
         smartdv-01:
           absent: true
         smartdv-2017070601:
-          absent: true
           pillar: site:licenses:smartdv:smartdv-2017070601
     snpslmd:
       vendor: synopsys
