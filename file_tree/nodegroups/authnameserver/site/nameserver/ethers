@@ -121,15 +121,15 @@ nuc3			f4:4d:30:6c:dd:00
 turtle			00:0a:cd:29:9e:45
 tortoise		68:05:ca:3d:a7:23
 
-advisor			00:16:3e:fe:fa:3b
+# advisor			00:16:3e:fe:fa:3b
 breencast		00:16:3e:e1:83:aa
 # canal				00:16:3e:fe:fa:3b
 # citadel			00:16:3e:5c:50:48
-example			00:16:3e:e4:74:70
-gonarch			00:16:3e:95:9b:ee
+# example			00:16:3e:e4:74:70
+# gonarch			00:16:3e:95:9b:ee
 # jenkins		00:16:3e:8e:49:00
 # metrocop		00:16:3e:3e:c0:0c
-nihilanth		00:16:3e:0a:74:64
+# nihilanth		00:16:3e:0a:74:64
 synth			00:16:3e:88:55:b7
 
 altair			52:54:00:ff:00:01
