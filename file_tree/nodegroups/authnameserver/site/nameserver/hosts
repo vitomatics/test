@@ -34,7 +34,7 @@
 10.14.1.5 omega1		# static
 10.14.1.6 b0			# static
 
-10.14.1.129 license		# static
+# 10.14.1.129 license		# static
 
 10.14.3.6 gravelpit		# assigned by DHCP, test VM
 10.14.3.7 nuc3			# assigned by DHCP, test host
