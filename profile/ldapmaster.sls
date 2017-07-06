@@ -18,6 +18,7 @@ states:
 ldap:
   master:
     conf:
+      # WARNING - changing base rebuilds database
       base: dc=sifive,dc=com
       ssf: 128
       schemas:
@@ -33,6 +34,7 @@ ldap:
         # cert in secret file
         keyfile: {{ keyfile }}
         # key in secret file
+      # WARNING - changing RootDN rebuilds database
       RootDN: cn=root,dc=sifive,dc=com
       # RootPW in secret file
 
