@@ -9,16 +9,16 @@ states:
 udev:
   rules:
     99-xilinx:
-      'Digilent FT2232C (USB)':
+      'FT2232C/FT2232H (USB)':
         - 'SUBSYSTEM=="usb"'
         - 'ATTR{idVendor}=="0403"'
-        - 'ATTR{manufacturer}=="Digilent"'
+        - 'ATTR{idProduct}=="6010"'
         - 'GROUP="{{ compute }}"'
         - 'MODE="0660"'
-      'Digilent FT2232C (TTY)':
+      'FT2232C/FT2232H (TTY)':
         - 'SUBSYSTEM=="tty"'
         - 'ATTRS{idVendor}=="0403"'
-        - 'ATTRS{manufacturer}=="Digilent"'
+        - 'ATTRS{idProduct}=="6010"'
         - 'GROUP="{{ compute }}"'
         - 'MODE="0660"'
       'Arty':
