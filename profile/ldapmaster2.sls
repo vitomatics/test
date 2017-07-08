@@ -1,10 +1,10 @@
 # Profile for master LDAP server
 
 include:
-  - secret.ldapmaster
+  - secret.ldapmaster2
 
 {% set certdir = '/etc/pki' %}
-{% set cert = 'sifive-ldap' %}
+{% set cert = 'sifive-ldap2' %}
 {% set keysuffix = '.key' %}
 {% set certsuffix = '.crt' %}
 {% set keyfile = certdir + '/' + cert + keysuffix %}

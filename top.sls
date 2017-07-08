@@ -29,7 +29,6 @@ base:
   'breencast.internal.sifive.com':
     - subnet.sf-unix
     {#
-    - secret.ldapmaster    
     - profile.ldapmaster
     #}
     - profile.backupclient
@@ -202,8 +201,7 @@ base:
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
-    - secret.ldapmaster2
-    - profile.ldapmaster
+    - profile.ldapmaster2
     - hosts.gravelpit
 
   'hal.internal.sifive.com':
