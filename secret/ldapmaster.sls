@@ -1,6 +1,6 @@
 #!yaml|gpg
 ##
-## Secret saltmaster data
+## Secret ldapmaster data
 ##
 ## *** SOME OF THIS IS GPG ENCRYPTED ***
 
