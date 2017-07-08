@@ -75,7 +75,6 @@ ldap:
           1QuIyMbKU4Jat3OSkbQwiN9CiRMkVfQgNsQ7rmOIUrnOggtPHOcElXJDravoJPtB
           fy0aIGoiIHKP5cIea+ceSpPYffm4qMTh1N6wSyRRDakSpBesAR4PuNHwx/2Vv5v4
           SkNQWQOuJXiwZT/OPDStw1q6sAK4Mhdg
-
           -----END PRIVATE KEY-----
         cert: |
           -----BEGIN CERTIFICATE-----
