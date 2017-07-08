@@ -16,6 +16,7 @@ include:
 
 states:
   openldap.master: true
+  openldap.master.backup: true
   apparmor: true
   firewall.iptables: true
 

@@ -16,6 +16,7 @@ include:
 
 states:
   openldap.master: true
+  openldap.master.backup: true
   apparmor: true
   firewall.iptables: true
 
@@ -41,6 +42,8 @@ ldap:
       # WARNING - changing RootDN rebuilds database
       RootDN: cn=root,dc=sifive,dc=com
       # RootPW in secret file
+    backup:
+      dir: /srv/ldap_backup
 
 
 apparmor:
