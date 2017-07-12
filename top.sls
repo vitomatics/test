@@ -281,6 +281,7 @@ base:
     - subnet.he-unix01
     - profile.kerberos-master
     - profile.kerberos-client
+    - profile.ldapmaster2
     - profile.ganglia-node-server
     - profile.backupclient
     - hosts.vader
