@@ -42,10 +42,8 @@ flexnet:
       port: 5280
       vport: 5281
       licenses:
-        cadence-02:
-          pillar: site:licenses:cdslmd:cadence-02
-        cadence-03:
-          pillar: site:licenses:cdslmd:cadence-03
+        cadence-20170712:
+          pillar: site:licenses:cdslmd:cadence-20170712
     interrad:
       vendor: tsmc
       bindir: MC2_2012.02.00.d/aux/flexlm/amd64_re3
