@@ -201,7 +201,7 @@ base:
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
-    - profile.ldapmaster2
+    - profile.ldaptest
     - hosts.gravelpit
 
   'hal.internal.sifive.com':
