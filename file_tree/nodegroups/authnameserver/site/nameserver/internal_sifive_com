@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017070601 ; serial number
+	2017071101 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -58,7 +58,7 @@ b0		IN	A	10.14.1.6
 ; license		IN	A	10.14.1.129
 
 gravelpit	IN	A	10.14.3.6
-ldap2		IN	CNAME	gravelpit
+ldaptest	IN	CNAME	gravelpit
 nuc3		IN	A	10.14.3.7
 printer01	IN	A	10.14.3.8
 promptuary	IN	A	10.14.3.9
@@ -104,6 +104,7 @@ adns0			IN	A	10.14.16.42
 jarjar			IN	A	10.14.16.43
 license0		IN	CNAME	jarjar
 vader			IN	A	10.14.16.44
+ldap2			IN	CNAME	vader
 jabba			IN	A	10.14.16.45
 license			IN	CNAME	jabba
 license1		IN	CNAME	jabba
