@@ -20,6 +20,7 @@ sfpushdirs:
       - /sifive/tools/synopsys/verdi
       - /sifive/tools/synopsys/syn/L-2016.03-SP3
       - /sifive/tools/synopsys/hector
+      - /sifive/tools/synopsys/designware
       - /sifive/tools/cadence/xcelium
       - /sifive/tools/cadence/vipcat
       - /sifive/vip/smartdv
