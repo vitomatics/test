@@ -1,0 +1,92 @@
+#Date: 07/17/2017
+#SNPS ID: PRD
+#                                                                        SYNOPSYS INC. KEY CERTIFICATE
+#                                                                        Site ID: 35908
+#                                                                        SiFive, Inc.
+#                                                                        300 Brannan St., Ste 403
+#                                                                        San Francisco
+#                                                                        CA 94107
+#                                                                        US
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
+#
+#If you feel that keys are missing (or incorrect), please contact your Synopsys account manager.
+#
+#License keys may be generated with durations shorter than the actual license term and therefore may require periodic retrieval from SmartKeys at https://solvnet.synopsys.com/SmartKeys
+#
+#License keys will be transmitted in clear text, over public and private networks. Synopsys does not warrant or guarantee that these networks provide privacy and accepts no liability of
+#any kind if a third party intercepts the transmission.
+#Synopsys products are export controlled. It is the responsibility of the addressee to comply with U.S. Export Regulations where applicable.
+#
+#IMPORTANT NOTICE: Beginning September 2015, WAN usage rights details will be included in the license file summary on a product by product basis (where applicable) for deliveries against
+#new agreements and/or purchases. Please contact your account manager for further information.
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Server Config: 0000269223
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#For counted licenses in the standard combined vendor daemon (cvd) format, make sure you are using the required version of  Synopsys Common Licensing (SCL). For
+#information on the required version of SCL, or for Synopsys licensing setup and  installation help, go to http://www.synopsys.com/licensing
+#
+#IMPORTANT: Follow the license file verification procedure at http://www.synopsys.com/licensing when installing or updating your  Synopsys license file. Combined
+#vendor daemon (cvd) format license files must be verified with the 'sssverify' utility.
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Synopsys License file created by CVDKIF 4.1 on July 14, 2017 at 16:03:29 for daemon snpslmd
+# Synopsys License file created by CVDKIF 4.1 on July 17, 2017 at 12:23:03 for daemon snpslmd
+SERVER hostname1 0002C94E201E 27020
+INCREMENT SSS snpslmd 1.0 13-Aug-2017 1 7E3A1C0EC6E9B3FA8637 \
+        VENDOR_STRING="644d0 587c4 fa14a d353f 5e06d 329ce bbc94 20da4 bf97b bf211 \
+        01020 0b576 2156f ed7b3 70f6e 3a20a 593b5 93eaf 74dbe 62667 \
+        1d241 848cb 11ede 1be18 dfd7a 9dc97 5c493 100a2 24d64 4e4c1 \
+        a7b72 a2722 25a13 56ea1 57fc2 ffb71 37a25 e9ae6 c6252 f9abf \
+        47522 9e95c 3f715 5434b c0e66 e296c 78989 e5211 65a5a d8798 \
+        ed021 ffc49 f0ac6 2d304 94136 15249 559ea 2b243 b46a1 136a9 \
+        e9198 63936 9e523 101f0 8191a ee517 5b140 78a55 b97b7 014a5 \
+        3e70f b5d5c 7059d e6d9e 088e4 30f54 7cf38 fb0d8 72b03 1e66c \
+        0bfba d42b2 33a16 a2747 4b838 58e4f 86772 a802a e5d5e 2f4b5 \
+        36f47 0162f fce3b b7834 74471 0ed3e 9f046 eea13 8854c 61004 \
+        047fa 931e2 eb232 5a936 ba94a eba74 190aa 9c274 4302f 9f729 \
+        54f11 e3e68 df93b b67" \
+        NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSS OR ANY OTHER \
+        KEYS IN THIS FILE]" \
+        SN=RK:0:0:208037 ISSUER="Synopsys, Inc. [7/14/2017 16:03:29 35908 4.1]" \
+        START=14-Jul-2017
+VENDOR snpslmd /path/to/snpslmd
+USE_SERVER
+INCREMENT SSST snpslmd 1.0 28-Jul-2017 1 5E7A7DE12CFB408F1DB1 \
+        VENDOR_STRING="5cf00 8383c 81fe6 7f536 af80a 868d2 05f53 6af80 a868d 20511 \
+        01020 0961d a3841 c118e 7c5bf c00a1 ac055 4ef9d e1ef0 49753 \
+        3a6b1 d3d4e 905d8 bb2f5 77dc2 df213 61846 b3345 ca176 4d593 \
+        941ed a1b6e f6d38 7e708 0b9af 495c5 7ba4f daeda 542bb 665a4 \
+        d80a7 9196c 5fbe1 7f93a 55814 ea12f 31816 01997 6aa56 2e4ef \
+        2002c cf016 03fd5 3dbe6 81c0a 630ad e3915 09778 c04d7 ffd78 \
+        01554 ceece 38548 fca01 ad05d 00288 cb05a 5ecc0 58ec1 e2628 \
+        0e630 8d5ba 70023 7dc95 12c5a af4f7 7a6cd 14e75 232b0 fa4a9 \
+        9c724 c8e4e 49ba6 872ae aa408 db2b1 3c48b 207f9 d32e7 f933d \
+        3d0a6 c5e53 b85f7 033db 43e74 c7b1d e5e00 2a66f 7af87 371e8 \
+        602d9 e098a e9e11 d4899 ec2d5 70bae 9221b dff7b 1bfda 0dce6 \
+        8cdd4 3fd9d fd62d 147" \
+        NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
+        KEYS IN THIS FILE]" \
+        SN=TK:0:0:289276 ISSUER="Synopsys, Inc. [7/17/2017 12:23:03 35908 4.1]" \
+        START=17-Jul-2017
+INCREMENT GalaxyConstraint snpslmd 2017.06 28-jul-2017 16 \
+        ISSUED=17-jul-2017 ck=83 SN=TK:4770-0:470052:289276 \
+        START=17-jul-2017 AUTH={ snpslmd=( LK=4E4A1D61B0D39CAD8B2C) }
+INCREMENT Milkyway-Interface snpslmd 2017.06 28-jul-2017 16 \
+        ISSUED=17-jul-2017 ck=100 SN=TK:4770-0:470052:289276 \
+        START=17-jul-2017 AUTH={ snpslmd=( LK=9E8A4DF1D1BC7D041766) }
+INCREMENT PrimeTime snpslmd 2017.06 28-jul-2017 16 ISSUED=17-jul-2017 \
+        ck=135 SN=TK:4770-0:470052:289276 START=17-jul-2017 AUTH={ \
+        snpslmd=( LK=BEFACD6177B149CAC2FD) }
+INCREMENT PrimeTime-ADV snpslmd 2017.06 28-jul-2017 16 \
+        ISSUED=17-jul-2017 ck=31 SN=TK:4770-0:470052:289276 \
+        START=17-jul-2017 AUTH={ snpslmd=( LK=AE7ACDB124A84B211910) }
+INCREMENT PrimeTime-PX snpslmd 2017.06 28-jul-2017 16 \
+        ISSUED=17-jul-2017 ck=60 SN=TK:4463-0:470052:289276 \
+        START=17-jul-2017 AUTH={ snpslmd=( LK=BE0A4D2146275F5C9F62) }
+INCREMENT PrimeTime-SI snpslmd 2017.06 28-jul-2017 16 \
+        ISSUED=17-jul-2017 ck=253 SN=TK:4770-0:470052:289276 \
+        START=17-jul-2017 AUTH={ snpslmd=( LK=8E4A9D119204D4224F08) }
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
