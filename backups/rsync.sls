@@ -132,17 +132,3 @@ sfdump:
       days: 1
       weeks: 1
     ##### old backups #####
-    breencast-ldap-db:
-      absent: true
-      client: breencast.internal.sifive.com
-      server: heartofgold.internal.sifive.com
-      src: /var/db/openldap-data
-      dest: /sfbackup/dumps/breencast-ldap-db
-      key: sfdump_hog_key1
-    breencast-ldap-config:
-      absent: true
-      client: breencast.internal.sifive.com
-      server: heartofgold.internal.sifive.com
-      src: /usr/local/etc/openldap
-      dest: /sfbackup/dumps/breencast-ldap-config
-      key: sfdump_hog_key2
