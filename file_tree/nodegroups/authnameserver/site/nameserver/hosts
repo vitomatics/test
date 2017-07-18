@@ -24,6 +24,8 @@
 
 10.14.0.130 example		# static
 
+10.14.0.243 router03-ge0-0-1	# static
+
 # 10.14.0.249 i0-drac i0-admin	# static
 # 10.14.0.250 omega1-admin	# static
 # 10.14.0.251 b0-ipmi b0-admin	# static
@@ -297,6 +299,17 @@
 192.168.15.5 he-console-iswitch21 iswitch21-mgmt
 192.168.15.6 he-console-iswitch25 iswitch25-mgmt
 # 192.168.15.255 RESERVED - do not use
+
+## 192.168.17.0->192.168.17.255 sf-console-net
+# 192.168.17.0 RESERVED - do not use
+#
+192.168.17.2 sf-console-router03 router03-mgmt
+#
+192.168.17.4 sf-console-iswitch01 iswitch01-mgmt
+192.168.17.5 sf-console-iswitch02 iswitch02-mgmt
+192.168.17.6 sf-console-iswitch03 iswitch03-mgmt
+192.168.17.128 sf-console-host0
+# 192.168.17.255 RESERVED - do not use
 
 ## 216.38.154.16->216.38.154.23 sf-fast-net
 # 216.38.154.16 RESERVED - do not use

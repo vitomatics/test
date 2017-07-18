@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017071101 ; serial number
+	2017071801 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -39,7 +39,8 @@ ldap		IN	CNAME	breencast
 pkg		IN	CNAME	synth
 preseed		IN	CNAME	synth
 
-router03	IN	A	10.14.0.243
+router03-ge0-0-1	IN	A	10.14.0.243
+router03	IN	CNAME	router03-ge-0-1
 
 ; i0-drac		IN	A	10.14.0.249
 ; i0-admin	IN	CNAME	i0-drac
@@ -250,6 +251,13 @@ iswitch11-mgmt	IN	A	192.168.15.3
 iswitch15-mgmt	IN	A	192.168.15.4
 iswitch21-mgmt	IN	A	192.168.15.5
 iswitch25-mgmt	IN	A	192.168.15.6
+
+router03-mgmt	IN	A	192.168.17.2
+
+iswitch01-mgmt	IN	A	192.168.17.4
+iswitch02-mgmt	IN	A	192.168.17.5
+iswitch03-mgmt	IN	A	192.168.17.6
+sf-console-host	IN	A	192.168.17.128
 
 
 ; _kerberos._udp		IN	SRV	10 0 88 metrocop
