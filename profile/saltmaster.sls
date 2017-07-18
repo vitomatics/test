@@ -107,7 +107,6 @@ sfsalt:
         - betel.internal.sifive.com
         - combine.internal.sifive.com
         - dalek.internal.sifive.com
-        - darth.internal.sifive.com
         - eddie.internal.sifive.com
         - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
@@ -129,6 +128,7 @@ sfsalt:
         - sandbox.internal.sifive.com
         - tardis.internal.sifive.com
         - transporter.internal.sifive.com
+        - vader.internal.sifive.com
         - viki.internal.sifive.com
         - vulcan.internal.sifive.com
         - yoda.internal.sifive.com
