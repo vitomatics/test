@@ -99,8 +99,6 @@ sfsalt:
       licenseserver:
         - jabba.internal.sifive.com
         - jarjar.internal.sifive.com
-      pxeserver:
-        - dalek.internal.sifive.com
       unisolated:
         - algol.internal.sifive.com
         - altair.internal.sifive.com
