@@ -36,6 +36,7 @@ pkgs:
 
     libtool: true
     libusb-1.0-0-dev: true
+    xorriso: true
 
     ## Interactive
     texlive-full: true
