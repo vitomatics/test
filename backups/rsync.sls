@@ -21,28 +21,6 @@ sfdump:
       key: sfdump_hog_key1
       days: 3
       weeks: 4
-    breencast-ldap-db:
-      client: breencast.internal.sifive.com
-      server: heartofgold.internal.sifive.com
-      src: /var/db/openldap-data
-      dest: /sfbackup/dumps/breencast-ldap-db
-      compression: false
-      acls: false
-      xattrs: false
-      key: sfdump_hog_key1
-      days: 4
-      weeks: 2
-    breencast-ldap-config:
-      client: breencast.internal.sifive.com
-      server: heartofgold.internal.sifive.com
-      src: /usr/local/etc/openldap
-      dest: /sfbackup/dumps/breencast-ldap-config
-      compression: false
-      acls: false
-      xattrs: false
-      key: sfdump_hog_key2
-      days: 4
-      weeks: 2
     dalek-srv-onsite:
       client: dalek.internal.sifive.com
       server: heartofgold.internal.sifive.com
@@ -153,4 +131,18 @@ sfdump:
       key: sfdump_hog_key1
       days: 1
       weeks: 1
-    ##### old backups
+    ##### old backups #####
+    breencast-ldap-db:
+      absent: true
+      client: breencast.internal.sifive.com
+      server: heartofgold.internal.sifive.com
+      src: /var/db/openldap-data
+      dest: /sfbackup/dumps/breencast-ldap-db
+      key: sfdump_hog_key1
+    breencast-ldap-config:
+      absent: true
+      client: breencast.internal.sifive.com
+      server: heartofgold.internal.sifive.com
+      src: /usr/local/etc/openldap
+      dest: /sfbackup/dumps/breencast-ldap-config
+      key: sfdump_hog_key2
