@@ -28,10 +28,6 @@ base:
 
   'breencast.internal.sifive.com':
     - subnet.sf-unix
-    {#
-    - profile.ldapmaster
-    #}
-    - profile.backupclient
     - hosts.breencast
 
   'synth.internal.sifive.com':
