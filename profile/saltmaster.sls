@@ -99,6 +99,41 @@ sfsalt:
       licenseserver:
         - jabba.internal.sifive.com
         - jarjar.internal.sifive.com
+      pxeserver:
+        - dalek.internal.sifive.com
+      unisolated:
+        - algol.internal.sifive.com
+        - altair.internal.sifive.com
+        - b0.internal.sifive.com
+        - bender.internal.sifive.com
+        - betel.internal.sifive.com
+        - combine.internal.sifive.com
+        - dalek.internal.sifive.com
+        - eddie.internal.sifive.com
+        - frogstar.internal.sifive.com
+        - gamma*.internal.sifive.com
+        - hal.internal.sifive.com
+        - heartofgold.internal.sifive.com
+        - gravelpit.internal.sifive.com
+        - grid.internal.sifive.com
+        - hansolo.internal.sifive.com
+        - i0.internal.sifive.com
+        - jabba.internal.sifive.com
+        - jarjar.internal.sifive.com
+        - klingon.internal.sifive.com
+        - leia.internal.sifive.com
+        - luke.internal.sifive.com
+        - omega1.internal.sifive.com
+        - marvin.internal.sifive.com
+        - matrix.internal.sifive.com
+        - nuc3.internal.sifive.com
+        - sandbox.internal.sifive.com
+        - tardis.internal.sifive.com
+        - transporter.internal.sifive.com
+        - viki.internal.sifive.com
+        - yoda.internal.sifive.com
+      isolated:
+        - lambda00.internal.sifive.com
 
     ext_pillars:
       file_tree:
