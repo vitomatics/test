@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017071801 ; serial number
+	2017071802 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -40,7 +40,7 @@ pkg		IN	CNAME	synth
 preseed		IN	CNAME	synth
 
 router03-ge0-0-1	IN	A	10.14.0.243
-router03	IN	CNAME	router03-ge-0-1
+router03	IN	CNAME	router03-ge0-0-1
 
 ; i0-drac		IN	A	10.14.0.249
 ; i0-admin	IN	CNAME	i0-drac
