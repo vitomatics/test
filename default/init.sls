@@ -44,7 +44,7 @@ openntpd:
 
 ldap:
   uri:
-    - ldap://ldap.internal.sifive.com
+    - ldap://ldap2.internal.sifive.com
   base: dc=sifive,dc=com
   base_user: ou=people,dc=sifive,dc=com
   base_group: ou=groups,dc=sifive,dc=com
