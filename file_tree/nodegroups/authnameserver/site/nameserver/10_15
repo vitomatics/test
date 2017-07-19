@@ -55,3 +55,15 @@ $TTL	86400
 133.16	IN	PTR	netapp1-02-sp.internal.sifive.com.
 
 1.17	IN	PTR	iswitch21-vlan112.internal.sifive.com.
+
+1.240	IN	PTR	router03-ge0-0-7.internal.sifive.com
+128.240	IN	PTR	iswitch01-admin.internal.sifive.com
+129.240	IN	PTR	iswitch02-admin.internal.sifive.com
+130.240	IN	PTR	iswitch03-admin.internal.sifive.com
+160.240	IN	PTR	wap1-admin.internal.sifive.com
+161.240	IN	PTR	wap2-admin.internal.sifive.com
+162.240	IN	PTR	wap3-admin.internal.sifive.com
+163.240	IN	PTR	wap4-admin.internal.sifive.com
+164.240	IN	PTR	wap5-admin.internal.sifive.com
+
+

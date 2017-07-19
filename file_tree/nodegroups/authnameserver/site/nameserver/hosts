@@ -160,6 +160,19 @@
 
 # 10.15.31.255 RESERVED - do not use
 
+## 10.15.240.0->10.15.255.255 sf-net-net
+# 10.15.240.0 RESERVED - do not use
+10.15.240.1 sf-devnet-net-gw router03-ge0-0-7 router03-admin router03
+10.15.240.128 iswitch01-admin iswitch01
+10.15.240.129 iswitch02-admin iswtich02
+10.15.240.130 iswitch03-admin iswtich03
+10.15.240.160 wap1-admin wap1
+10.15.240.161 wap2-admin wap2
+10.15.240.162 wap3-admin wap3
+10.15.240.163 wap4-admin wap4
+10.15.240.164 wap5-admin wap5
+# 10.15.255.255 RESERVED - do not use
+
 ## 10.16.0.0->10.16.15.255 sf-lab-net
 # 10.16.0.0 RESERVED - do not use
 10.16.0.1 sf-lab-net-gw router01-ge0-0-3

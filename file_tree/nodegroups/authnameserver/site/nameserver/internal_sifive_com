@@ -210,6 +210,23 @@ netapp1-02-sp		IN	A	10.15.16.133
 iswitch21-vlan112	IN	A	10.15.17.1
 he-dev02-net-gw		IN	CNAME	iswitch21-vlan112
 
+router03-ge0-0-7	IN	A	10.15.240.1
+iswitch01-admin		IN	A	10.15.240.128
+iswitch01		IN	CNAME	iswitch01-admin
+iswitch02-admin		IN	A	10.15.240.129
+iswtich02		IN	CNAME	iswitch02-admin
+iswitch03-admin		IN	A	10.15.240.130
+iswtich03		IN	CNAME	iswitch03-admin
+wap1-admin 		IN	A	10.15.240.160
+wap1			IN	CNAME	wap1-admin
+wap2-admin 		IN	A	10.15.240.161
+wap2			IN	CNAME	wap2-admin
+wap3-admin 		IN	A	10.15.240.162
+wap3			IN	CNAME	wap3-admin
+wap4-admin 		IN	A	10.15.240.163
+wap4			IN	CNAME	wap4-admin
+wap5-admin 		IN	A	10.15.240.164
+wap5			IN	CNAME	wap5-admin
 
 router01-ge0-0-3	IN	A	10.16.0.1
 sf-lab-net-gw	IN	CNAME	router01-ge0-0-3
