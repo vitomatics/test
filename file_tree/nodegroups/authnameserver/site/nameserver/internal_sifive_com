@@ -216,7 +216,7 @@ iswitch01		IN	CNAME	iswitch01-admin
 iswitch02-admin		IN	A	10.15.240.129
 iswtich02		IN	CNAME	iswitch02-admin
 iswitch03-admin		IN	A	10.15.240.130
-iswtich03		IN	CNAME	iswitch03-admin
+iswitch03		IN	CNAME	iswitch03-admin
 wap1-admin 		IN	A	10.15.240.160
 wap1			IN	CNAME	wap1-admin
 wap2-admin 		IN	A	10.15.240.161
