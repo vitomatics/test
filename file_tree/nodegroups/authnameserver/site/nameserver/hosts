@@ -329,7 +329,7 @@
 216.38.154.17 sf-fast-net-gw
 216.38.154.18 router01-ge0-0-0-guest-nat sf-guest-nat-net
 216.38.154.19 router01-ge0-0-0
-#216.38.154.20 AVAILABLE
+216.38.154.20 router03-ge0-0-0
 216.38.154.21 router01-ge0-0-0b sf-sifive-nat-net login.sifive.com sf.sifive.com gitkick1.sifive.com
 216.38.154.22 airport01-wan
 # 216.38.154.23 RESERVED - do not use
