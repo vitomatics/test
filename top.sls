@@ -26,14 +26,6 @@ base:
     - profile.ganglia-node-server
     - hosts.hansolo
 
-  'breencast.internal.sifive.com':
-    - subnet.sf-unix
-    - hosts.breencast
-
-  'synth.internal.sifive.com':
-    - subnet.sf-unix
-    - hosts.synth
-
   'dalek.internal.sifive.com':
     - subnet.he-unix01
     - profile.tftp-sysadmin

@@ -9,12 +9,12 @@
 # 10.14.0.0 RESERVED - do not use
 10.14.0.1 router01-ge0-0-1 sf-unix-net-gw router01
 10.14.0.2 combine               # static
-# 10.14.0.3 was nihilanth 		# static
+# 10.14.0.3 was nihilanth 	# static
 # 10.14.0.4 was nihilanth-adns	# static
 # 10.14.0.5 was citadel		# static
-10.14.0.6 breencast		# static
+# 10.14.0.6 was breencast	# static
 # 10.14.0.7 was metrocop	# static
-10.14.0.8 synth			# static
+# 10.14.0.8 was synth		# static
 # 10.14.0.9 was gonarch		# static
 # 10.14.0.10 was jenkins	# static
 # 10.14.0.11 was canal

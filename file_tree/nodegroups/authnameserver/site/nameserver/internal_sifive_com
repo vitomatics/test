@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017071903 ; serial number
+	2017072001 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -23,10 +23,10 @@ router01	IN	CNAME	router01-ge0-0-1
 
 combine		IN	A	10.14.0.2
 
-breencast	IN	A	10.14.0.6
+; breencast	IN	A	10.14.0.6
 ; metrocop	IN	A	10.14.0.7
 ; kdc0		IN	CNAME	metrocop
-synth		IN	A	10.14.0.8
+; synth		IN	A	10.14.0.8
 
 algol		IN	A	10.14.0.12
 bender		IN	A	10.14.0.13
@@ -35,9 +35,9 @@ sf-ntp0		IN	CNAME	hansolo
 sf-ns0		IN	CNAME	hansolo
 ns2		IN	CNAME	hansolo
 
-ldap		IN	CNAME	breencast
-pkg		IN	CNAME	synth
-preseed		IN	CNAME	synth
+; ldap		IN	CNAME	breencast
+; pkg		IN	CNAME	synth
+; preseed	IN	CNAME	synth
 
 router03-ge0-0-1	IN	A	10.14.0.243
 router03	IN	CNAME	router03-ge0-0-1
@@ -105,6 +105,7 @@ adns0			IN	A	10.14.16.42
 jarjar			IN	A	10.14.16.43
 license0		IN	CNAME	jarjar
 vader			IN	A	10.14.16.44
+ladp			IN	CNAME	vader
 ldap2			IN	CNAME	vader
 jabba			IN	A	10.14.16.45
 license			IN	CNAME	jabba
