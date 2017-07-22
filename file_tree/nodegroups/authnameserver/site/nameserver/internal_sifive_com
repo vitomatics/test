@@ -215,7 +215,7 @@ router03-ge0-0-7	IN	A	10.15.240.1
 iswitch01-admin		IN	A	10.15.240.128
 iswitch01		IN	CNAME	iswitch01-admin
 iswitch02-admin		IN	A	10.15.240.129
-iswtich02		IN	CNAME	iswitch02-admin
+iswitch02		IN	CNAME	iswitch02-admin
 iswitch03-admin		IN	A	10.15.240.130
 iswitch03		IN	CNAME	iswitch03-admin
 wap1-admin 		IN	A	10.15.240.160
