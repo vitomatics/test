@@ -155,3 +155,15 @@ jarjar			52:54:00:ff:00:15
 vader			52:54:00:ff:00:16
 # jabba			52:54:00:ff:00:17
 jabba			00:02:c9:4e:20:1e
+
+wap01			c8:b5:ad:ca:bb:a8
+wap01-ble		9c:1d:58:0b:36:2b
+wap02			c8:b5:ad:ca:b9:40
+wap02-ble		50:f1:4a:5f:1c:91
+wap03			c8:b5:ad:ca:be:b0
+wap03-ble		50:f1:4a:57:27:6b
+wap04			c8:b5:ad:ca:bd:ae
+wap04-ble		50:f1:4a:5a:ff:fb
+wap05			c8:b5:ad:ca:bd:3a
+wap05-ble		9c:1d:58:0b:3a:51
+

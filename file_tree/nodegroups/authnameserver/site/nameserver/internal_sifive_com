@@ -219,15 +219,15 @@ iswitch02		IN	CNAME	iswitch02-admin
 iswitch03-admin		IN	A	10.15.240.130
 iswitch03		IN	CNAME	iswitch03-admin
 wap1-admin 		IN	A	10.15.240.160
-wap1			IN	CNAME	wap1-admin
-wap2-admin 		IN	A	10.15.240.161
-wap2			IN	CNAME	wap2-admin
-wap3-admin 		IN	A	10.15.240.162
-wap3			IN	CNAME	wap3-admin
-wap4-admin 		IN	A	10.15.240.163
-wap4			IN	CNAME	wap4-admin
-wap5-admin 		IN	A	10.15.240.164
-wap5			IN	CNAME	wap5-admin
+wap01			IN	CNAME	wap01-admin
+wap02-admin 		IN	A	10.15.240.161
+wap02			IN	CNAME	wap02-admin
+wap03-admin 		IN	A	10.15.240.162
+wap03			IN	CNAME	wap03-admin
+wap04-admin 		IN	A	10.15.240.163
+wap04			IN	CNAME	wap04-admin
+wap05-admin 		IN	A	10.15.240.164
+wap05			IN	CNAME	wap05-admin
 
 router01-ge0-0-3	IN	A	10.16.0.1
 sf-lab-net-gw	IN	CNAME	router01-ge0-0-3
