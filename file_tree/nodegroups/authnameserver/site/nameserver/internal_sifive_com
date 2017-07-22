@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017072202 ; serial number
+	2017072203 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -218,7 +218,7 @@ iswitch02-admin		IN	A	10.15.240.129
 iswitch02		IN	CNAME	iswitch02-admin
 iswitch03-admin		IN	A	10.15.240.130
 iswitch03		IN	CNAME	iswitch03-admin
-wap1-admin 		IN	A	10.15.240.160
+wap01-admin 		IN	A	10.15.240.160
 wap01			IN	CNAME	wap01-admin
 wap02-admin 		IN	A	10.15.240.161
 wap02			IN	CNAME	wap02-admin
