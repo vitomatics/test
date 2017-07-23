@@ -219,7 +219,7 @@ iswitch02		IN	CNAME	iswitch02-admin
 iswitch03-admin		IN	A	10.15.240.130
 iswitch03		IN	CNAME	iswitch03-admin
 wap-admin		IN	A	10.15.240.159
-waps			IN	CNAM	wap-admin
+waps			IN	CNAME	wap-admin
 wap01-admin 		IN	A	10.15.240.160
 wap01			IN	CNAME	wap01-admin
 wap02-admin 		IN	A	10.15.240.161
