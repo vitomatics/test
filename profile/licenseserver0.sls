@@ -30,6 +30,8 @@ flexnet:
       port: 1717
       vport: 1718
       licenses:
+        mentor-20170725:
+          pillar: site:licenses:mgcld:mentor-20170725
     xilinxd:
       vendor: xilinx
       bindir: linux_flexlm_v11.13.1.3/lnx64.o
