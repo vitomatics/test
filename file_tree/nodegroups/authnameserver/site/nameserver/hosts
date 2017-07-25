@@ -264,6 +264,23 @@
 10.134.16.254 he-iso01-net-pxe254
 # 10.134.16.255 RESERVED - do not use
 
+
+## 12.206.222.0->12.206.222.7 att-sifive-net
+# 12.206.222.1 RESERVED - do not use
+# 12.206.222.2 unused
+# 12.206.222.3 unused
+# 12.206.222.4 unused
+# 12.206.222.5 unused
+# 12.206.222.6 unused
+# 12.206.222.7 RESERVED - do not used
+
+## 12.246.184.248->12.246.184.251 att-border-net
+# 12.246.184.248 RESERVED - do not use
+12.246.184.249 att-border-net-gw
+12.246.184.250 router03-ge0-0-0
+# 12.246.184.251 RESERVED - do not use
+
+
 ## 64.62.193.192->64.62.193.255 he-sifive-net
 # 64.62.193.192 RESERVED - do not use
 64.62.193.193 he-laptop-nat-net
