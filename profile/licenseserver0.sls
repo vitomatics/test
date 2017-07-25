@@ -32,12 +32,12 @@ flexnet:
       licenses:
     xilinxd:
       vendor: xilinx
-      bindir: FIXME-linux_flexlm_v11.13.1.3/lnx64.o
+      bindir: linux_flexlm_v11.13.1.3/lnx64.o
       port: 2100
       vport: 2101
       licenses:
-        license-01:
-          absent: true
+        xilinx-20170519:
+          pillar: site:licenses:xilinxd:xilinx-20170519
 
 
 ## Firewall holes for flexnet server
