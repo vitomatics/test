@@ -40,6 +40,9 @@ pkgs:
 
     ## Interactive
     texlive-full: true
+    texstudio: true
+    texstudio-doc: true
+    texstudio-l10n: true
 
     xterm: true
     {% if grains.os == 'Debian' %}
@@ -60,6 +63,7 @@ pkgs:
     joe: true
     gedit: true
     evince: true
+    baobab: true
     filezilla: true
     dbus-x11: true
     gitk: true
