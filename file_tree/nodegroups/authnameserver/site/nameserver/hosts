@@ -201,6 +201,13 @@
 10.17.16.3 he-laptop-net-dhcp003
 # 10.17.31.255 RESERVED - do not use
 
+## 10.18.0.0->10.18.15.255 sf-voip-net
+# 10.18.0.0 RESERVED - do not use
+10.18.0.1 sf-voip-net-gw
+10.18.0.16 voip016
+...
+10.18.0.254 voip254
+# 10.18.0.255 RESERVED - do not use
 
 ## 10.100.0.0->10.100.255.255 - transit subnets
 ##    10.100.100.0->10.100.100.3 - tran-vpn1-net
@@ -265,12 +272,12 @@
 # 10.134.16.255 RESERVED - do not use
 
 
-## 12.206.222.0->12.206.222.7 att-sifive-net
+## 12.206.222.0->12.206.222.7 att-sifive0-net
 # 12.206.222.1 RESERVED - do not use
-# 12.206.222.2 unused
-# 12.206.222.3 unused
-# 12.206.222.4 unused
-# 12.206.222.5 unused
+# 12.206.222.2 unused guest-nat
+# 12.206.222.3 unused voip-nat
+# 12.206.222.4 unused unix-nat login
+# 12.206.222.5 unused laptop-nat lab-nat
 # 12.206.222.6 unused
 # 12.206.222.7 RESERVED - do not used
 
