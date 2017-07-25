@@ -262,7 +262,7 @@ base:
   'jarjar.internal.sifive.com':
     - subnet.he-unix01
     - profile.container
-    # - profile.licenseserver0
+    - profile.licenseserver0
     - hosts.jarjar
 
   'vader.internal.sifive.com':
