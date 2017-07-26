@@ -43,7 +43,9 @@ flexnet:
       vport: 5281
       licenses:
         cadence-20170712:
-          pillar: site:licenses:cdslmd:cadence-20170712
+          absent: true
+        cadence-20170726:
+          pillar: site:licenses:cdslmd:cadence-20170726
     interrad:
       vendor: tsmc
       bindir: MC2_2012.02.00.d/aux/flexlm/amd64_re3
