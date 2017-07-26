@@ -24,8 +24,6 @@
 
 10.14.0.130 example		# static
 
-10.14.0.243 router03-ge0-0-1	# static
-
 # 10.14.0.249 i0-drac i0-admin	# static
 # 10.14.0.250 omega1-admin	# static
 # 10.14.0.251 b0-ipmi b0-admin	# static
@@ -162,7 +160,7 @@
 
 ## 10.15.240.0->10.15.255.255 sf-net-net
 # 10.15.240.0 RESERVED - do not use
-10.15.240.1 sf-devnet-net-gw router03-ge0-0-7 router03-admin
+10.15.240.1 sf-devnet-net-gw router03-ge0-0-7 router03-admin router03
 10.15.240.128 iswitch01-admin iswitch01
 10.15.240.129 iswitch02-admin iswtich02
 10.15.240.130 iswitch03-admin iswtich03

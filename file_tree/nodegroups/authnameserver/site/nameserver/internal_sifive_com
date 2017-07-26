@@ -39,8 +39,6 @@ ns2		IN	CNAME	hansolo
 ; pkg		IN	CNAME	synth
 ; preseed	IN	CNAME	synth
 
-router03-ge0-0-1	IN	A	10.14.0.243
-router03	IN	CNAME	router03-ge0-0-1
 
 ; i0-drac		IN	A	10.14.0.249
 ; i0-admin	IN	CNAME	i0-drac
@@ -212,6 +210,7 @@ iswitch21-vlan112	IN	A	10.15.17.1
 he-dev02-net-gw		IN	CNAME	iswitch21-vlan112
 
 router03-ge0-0-7	IN	A	10.15.240.1
+router03		IN	CNAME	router03-ge0-0-7
 iswitch01-admin		IN	A	10.15.240.128
 iswitch01		IN	CNAME	iswitch01-admin
 iswitch02-admin		IN	A	10.15.240.129
