@@ -1,0 +1,157 @@
+#Date: 07/28/2017
+#SNPS ID: PRD
+#                                                                        SYNOPSYS INC. KEY CERTIFICATE
+#                                                                        Site ID: 35908
+#                                                                        SiFive, Inc.
+#                                                                        300 Brannan St., Ste 403
+#                                                                        San Francisco
+#                                                                        CA 94107
+#                                                                        US
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
+#
+#If you feel that keys are missing (or incorrect), please contact your Synopsys account manager.
+#
+#License keys may be generated with durations shorter than the actual license term and therefore may require periodic retrieval from SmartKeys at https://solvnet.synopsys.com/SmartKeys
+#
+#License keys will be transmitted in clear text, over public and private networks. Synopsys does not warrant or guarantee that these networks provide privacy and accepts no liability of
+#any kind if a third party intercepts the transmission.
+#Synopsys products are export controlled. It is the responsibility of the addressee to comply with U.S. Export Regulations where applicable.
+#
+#IMPORTANT NOTICE: Beginning September 2015, WAN usage rights details will be included in the license file summary on a product by product basis (where applicable) for deliveries against
+#new agreements and/or purchases. Please contact your account manager for further information.
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Server Config: 0000269223
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#For counted licenses in the standard combined vendor daemon (cvd) format, make sure you are using the required version of  Synopsys Common Licensing (SCL). For
+#information on the required version of SCL, or for Synopsys licensing setup and  installation help, go to http://www.synopsys.com/licensing
+#
+#IMPORTANT: Follow the license file verification procedure at http://www.synopsys.com/licensing when installing or updating your  Synopsys license file. Combined
+#vendor daemon (cvd) format license files must be verified with the 'sssverify' utility.
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Synopsys License file created by CVDKIF 4.1 on July 28, 2017 at 11:12:54 for daemon snpslmd
+# Synopsys License file created by CVDKIF 4.1 on July 28, 2017 at 11:16:13 for daemon snpslmd
+SERVER hostname1 0002C94E201E 27020
+VENDOR snpslmd /path/to/snpslmd
+USE_SERVER
+INCREMENT SSST snpslmd 1.0 07-Aug-2017 1 AEDA5D0CE3D459BD54EA \
+        VENDOR_STRING="95ae5 7272c 3b606 a7192 90405 71862 6f719 29040 57186 26f11 \
+        01020 0bad0 20a27 bbba1 693fc 65bc2 ad231 08800 5bb35 5c16e \
+        f5bee 9938d f27d7 024b4 421ba 1e01b 0b690 08387 a3e25 eea17 \
+        54527 b7b01 a0ba9 e37b1 ffed2 d9b8b c3768 73364 843a6 6d1c1 \
+        6d8a3 92316 0e327 45d9c f25a3 dc386 ee1a7 5014c a2278 ca38c \
+        d0edd 7fa05 8cbb2 52c43 41030 aef7a ae994 d2efe d5843 b28c7 \
+        26411 d7c84 fd265 bf96a e67bc 0c7b9 97c67 0bce0 1ff24 7534a \
+        b522f cb57c cfdc5 3dfaf f04fb 26767 d956f 9324c 86267 45b03 \
+        bfdb8 cacc4 b38e2 d2f27 e2f43 3b8f8 ee1a2 7aa9a eb6be 141d6 \
+        1b0d9 583ba 8ef5c a4e36 862a8 560c6 e917d 5851b b56e5 4d7c7 \
+        45749 340db fff96 dc8b0 a183b ec44f 6a9de 65006 52c65 0502e \
+        3804d 15423 82e50 6d8" \
+        NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
+        KEYS IN THIS FILE]" \
+        SN=TK:0:0:717078 ISSUER="Synopsys, Inc. [7/28/2017 11:16:13 35908 4.1]" \
+        START=28-Jul-2017
+INCREMENT Advanced_CDC snpslmd 2017.03 07-aug-2017 2 \
+        ISSUED=28-jul-2017 ck=49 SN=TK:B551-0:471272:717078 \
+        START=28-jul-2017 AUTH={ atrenta=( SIGN="0084 566A 28ED 8910 \
+        6EA3 C63A 09A8 9700 838B 5DFF 05FD 3217 9604 165A 8A06") \
+        snpslmd=( LK=EEAA7D6C20D09366DA16) }
+INCREMENT BasePolicySO snpslmd 2017.03 07-aug-2017 2 \
+        ISSUED=28-jul-2017 ck=103 SN=TK:B536-0:471272:717078 \
+        START=28-jul-2017 AUTH={ atrenta=( SIGN="00A6 1B89 66BD 2A92 \
+        9609 E926 6FA8 D000 EA1A 1C0A 1DE3 8CF6 463C 86A3 7B7B") \
+        snpslmd=( LK=5E8AFD0C5E195C54E0FB) }
+INCREMENT SG-Verdi-Plugin snpslmd 2017.03 07-aug-2017 2 \
+        ISSUED=28-jul-2017 ck=34 SN=TK:B536-0:471272:717078 \
+        START=28-jul-2017 AUTH={ atrenta=( SIGN="00E6 E0F5 AFE1 376B \
+        1FEF 89DE F386 7800 6575 EB4D 0BF9 F21B 8198 68F8 35CC") \
+        snpslmd=( LK=2E5A0DBCD0F5E1217063) }
+INCREMENT VC-STATIC-COMPILE snpslmd 2017.03 07-aug-2017 2 \
+        ISSUED=28-jul-2017 ck=103 SN=TK:B536-0:471272:717078 \
+        START=28-jul-2017 AUTH={ atrenta=( SIGN="000D 63F4 DD20 C7C1 \
+        EEB3 B4FC BBEF B900 7D63 A06F 6655 0F09 5136 87AA 2A7A") \
+        snpslmd=( LK=0EFACD6C8792967F4FAA) }
+INCREMENT VC-STATIC-COMPILE snpslmd 2017.03 07-aug-2017 10 \
+        ISSUED=28-jul-2017 ck=120 SN=TK:C016-0:471272:717078 \
+        START=28-jul-2017 AUTH={ snpslmd=( LK=EE2A2D7CD81C47ED5746) }
+INCREMENT VC-STATIC-FV snpslmd 2017.03 07-aug-2017 10 \
+        ISSUED=28-jul-2017 ck=49 SN=TK:C016-0:471272:717078 \
+        START=28-jul-2017 AUTH={ snpslmd=( LK=DE3ACD7C47A5DE4B2E05) }
+INCREMENT VCFV-Verdi-Plugin snpslmd 2017.03 07-aug-2017 10 \
+        ISSUED=28-jul-2017 ck=104 SN=TK:C016-0:471272:717078 \
+        START=28-jul-2017 AUTH={ snpslmd=( LK=1E4AADCCA1E8AD1E3180) }
+INCREMENT VIP-SOC-LIBRARY-SVT snpslmd 2017.06 07-aug-2017 28 \
+        ISSUED=28-jul-2017 ck=99 SN=TK:C278-0:471272:717078 \
+        START=28-jul-2017 AUTH={ snpslmd=( LK=4E3A6D0CE0078ADE0378) }
+INCREMENT Verdi snpslmd 2017.03 07-aug-2017 10 \
+        VENDOR_STRING=ES=GDNKBBNKQKKPPGKJBOME0002C94E201E \
+        ISSUED=28-jul-2017 ck=130 SN=TK:A039-0:471272:717078 \
+        START=28-jul-2017 AUTH={ snpslmd=( LK=7EDA2D1CDAE38B498B6D) \
+        snslmgrd=( LK=8C1F55E9C3ED) }
+INCREMENT VerdiCoverage snpslmd 2017.03 07-aug-2017 10 \
+        VENDOR_STRING=ES=HLFGGEQMEMFQEHOPOJJD0002C94E201E \
+        ISSUED=28-jul-2017 ck=124 SN=TK:A039-0:471272:717078 \
+        START=28-jul-2017 AUTH={ snpslmd=( LK=DEEA0DFC2933CD96D6EB) \
+        snslmgrd=( LK=E9B04674CCD2) }
+INCREMENT VerdiSimDB snpslmd 2017.03 07-aug-2017 10 \
+        VENDOR_STRING=ES=ELHKLBOOFBQHKGHKGOEG0002C94E201E \
+        ISSUED=28-jul-2017 ck=48 SN=TK:A039-0:471272:717078 \
+        START=28-jul-2017 AUTH={ snpslmd=( LK=1EAA5DDCE9423C31E67A) \
+        snslmgrd=( LK=672A0E512208) }
+INCREMENT VerdiTransactionDebugUltra snpslmd 2017.03 07-aug-2017 10 \
+        VENDOR_STRING=ES=QGDOMBEICMHNELDBCQIK0002C94E201E \
+        ISSUED=28-jul-2017 ck=57 SN=TK:A039-0:471272:717078 \
+        START=28-jul-2017 AUTH={ snpslmd=( LK=8E6ABD7CA08A9E084771) \
+        snslmgrd=( LK=B701562A931C) }
+INCREMENT adv_checker snpslmd 2017.03 07-aug-2017 2 \
+        ISSUED=28-jul-2017 ck=82 SN=TK:B551-0:471272:717078 \
+        START=28-jul-2017 AUTH={ atrenta=( SIGN="0088 6928 1896 218B \
+        5D26 500D 6FDD FD00 7177 97CA 95F7 A5C1 33C3 2152 04EC") \
+        snpslmd=( LK=0E8A4D6C77950DA05DD5) }
+INCREMENT cdc_soc_abstraction snpslmd 2017.03 07-aug-2017 2 \
+        ISSUED=28-jul-2017 ck=49 SN=TK:B551-0:471272:717078 \
+        START=28-jul-2017 AUTH={ atrenta=( SIGN="0003 0810 6469 72B4 \
+        B40B E4B2 E4D7 9100 2A0B BDE2 AB30 50E7 92D5 BF5B 42FF") \
+        snpslmd=( LK=1E0A1D6C2DFE6D796B6A) }
+INCREMENT checker snpslmd 2017.03 07-aug-2017 2 ISSUED=28-jul-2017 \
+        ck=85 SN=TK:B536-0:471272:717078 START=28-jul-2017 AUTH={ \
+        atrenta=( SIGN="007F 6A80 C386 DE92 8BF3 D037 693B 3600 2513 \
+        F481 6807 F77E DD68 E991 95B0") snpslmd=( \
+        LK=6E7ACD4C7C11A1D97FFD) }
+INCREMENT gui snpslmd 2017.03 07-aug-2017 2 ISSUED=28-jul-2017 ck=115 \
+        SN=TK:B536-0:471272:717078 START=28-jul-2017 AUTH={ atrenta=( \
+        SIGN="00E1 16A2 DB09 B835 016E 87F0 DA5B F900 E5BA 0399 3736 \
+        0334 0524 6879 DF79") snpslmd=( LK=9ECA5D4C4B1E11B706C6) }
+INCREMENT mixed snpslmd 2017.03 07-aug-2017 2 ISSUED=28-jul-2017 \
+        ck=24 SN=TK:B536-0:471272:717078 START=28-jul-2017 AUTH={ \
+        atrenta=( SIGN="00D7 CEA1 2DD3 BCCA 600B 396F 0646 F400 E7FC \
+        A951 5C84 2519 3EB9 14F0 2F43") snpslmd=( \
+        LK=6E4A5D0C1498D5469746) }
+INCREMENT oemunlock snpslmd 2017.03 07-aug-2017 2 ISSUED=28-jul-2017 \
+        ck=131 SN=TK:B536-0:471272:717078 START=28-jul-2017 AUTH={ \
+        atrenta=( SIGN="00AC 84C2 E6E4 1C35 EEDF 6D9B 4B39 1800 4BAE \
+        4A4E 5D01 403C 6D10 9665 3BAC") snpslmd=( \
+        LK=4E2A3DAC67D798DCE5A0) }
+INCREMENT save_restore snpslmd 2017.03 07-aug-2017 2 \
+        ISSUED=28-jul-2017 ck=18 SN=TK:B536-0:471272:717078 \
+        START=28-jul-2017 AUTH={ atrenta=( SIGN="00A2 74FF A355 CBA9 \
+        EF16 4CBB 742A 9800 FE47 FF0A 80E3 B9B3 DB61 D2E4 AA51") \
+        snpslmd=( LK=6E8A9D8C13801D44087A) }
+INCREMENT system_verilog snpslmd 2017.03 07-aug-2017 2 \
+        ISSUED=28-jul-2017 ck=127 SN=TK:B536-0:471272:717078 \
+        START=28-jul-2017 AUTH={ atrenta=( SIGN="0087 CBFC DF58 4D54 \
+        7569 E4F5 8EF8 2E00 6236 E375 82CB FE1C E0F1 E59C FC66") \
+        snpslmd=( LK=3E6ACD3CE8CC3798AB29) }
+INCREMENT verilog snpslmd 2017.03 07-aug-2017 2 ISSUED=28-jul-2017 \
+        ck=195 SN=TK:B536-0:471272:717078 START=28-jul-2017 AUTH={ \
+        atrenta=( SIGN="003A C03F 1524 224C 3893 CB0F B794 9200 1247 \
+        E6A6 6997 C910 59BF F736 6D90") snpslmd=( \
+        LK=BE5AFD3CBD806A44BB5C) }
+INCREMENT vhdl snpslmd 2017.03 07-aug-2017 2 ISSUED=28-jul-2017 ck=81 \
+        SN=TK:B536-0:471272:717078 START=28-jul-2017 AUTH={ atrenta=( \
+        SIGN="0010 8563 0DDE BE16 9BC0 B0AA ACE2 E500 B2A4 FC3B E171 \
+        F5F0 1457 2D7D 984D") snpslmd=( LK=5E5ACDCCC48D7337A030) }
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
