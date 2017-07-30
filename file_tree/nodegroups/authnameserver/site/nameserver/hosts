@@ -38,7 +38,7 @@
 
 10.14.3.6 gravelpit		# assigned by DHCP, test VM
 10.14.3.7 nuc3			# assigned by DHCP, test host
-10.14.3.8 printer01 hp-m553	# assigned by DHCP
+# 10.14.3.8 printer01 hp-m553	# assigned by DHCP
 10.14.3.9 promptuary 		# assigned by DHCP
 10.14.3.10 oldlaptop010
 ...
@@ -190,8 +190,10 @@
 ...
 10.17.0.254 laptop254
 # 10.17.0.255 RESERVED - do not use
+10.17.15.2 printer01 hp-m553	# static, assigned by DHCP
 
 # 10.17.15.255 RESERVED - do not use
+
 ## 10.17.16.0->10.17.31.255 he-laptop-net
 # 10.17.16.0 RESERVED - do not use
 10.17.16.1 router11-ge0-0-5 he-laptop-net-gw
