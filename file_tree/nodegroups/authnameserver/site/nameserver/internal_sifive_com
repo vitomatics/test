@@ -59,7 +59,7 @@ b0		IN	A	10.14.1.6
 gravelpit	IN	A	10.14.3.6
 ldaptest	IN	CNAME	gravelpit
 nuc3		IN	A	10.14.3.7
-printer01	IN	A	10.14.3.8
+
 promptuary	IN	A	10.14.3.9
 
 iswitch15-vlan101	IN	A	10.14.16.1
