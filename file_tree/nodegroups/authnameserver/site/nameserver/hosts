@@ -219,7 +219,7 @@
 ##    10.100.100.4->10.100.100.7 -  tran-vpn2-net
 # 10.100.100.4 RESERVED
 10.100.100.5 router03-st0-0
-10.100.100.6 router11-st0-1
+10.100.100.6 router11-st0-1 router11
 # 10.100.100.7 RESERVED
 
 ##    10.100.200.0->10.100.200.3 - tran-iswitch11a-net
@@ -249,7 +249,7 @@
 ## 10.101.0.0->10.101.0.255 - router-net
 10.101.0.1 router01-lo0
 10.101.0.3 router03-lo0
-10.101.0.11 router11-lo0 router11
+10.101.0.11 router11-lo0
 10.101.0.111 iswitch11-lo0
 10.101.0.115 iswitch15-lo0
 10.101.0.121 iswitch21-lo0

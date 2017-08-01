@@ -243,10 +243,10 @@ hp-m553			IN	CNAME	printer01
 
 router01-st0-0		IN	A	10.100.100.1
 router11-st0-0		IN	A	10.100.100.2
-router11		IN	CNAME	router11-st0-0
 
 router03-st0-0		IN	A	10.100.100.5
 router11-st0-1		IN	A	10.100.100.6
+router11		IN	CNAME	router11-st0-1
 
 iswitch11-ge0-2-0	IN	A	10.100.200.2
 iswitch11		IN	CNAME	iswitch11-ge0-2-0
