@@ -10,6 +10,11 @@ poly01			00:04:f2:fc:2b:78
 poly02			00:04:f2:fc:4f:c2
 poly03			00:04:f2:07:72:dd
 poly04			64:16:7f:06:24:7a
+poly05			64:16:7f:06:24:7a
+poly06			64:16:7f:06:24:7a
+poly07			64:16:7f:06:24:7a
+phone01			64:16:7f:0c:db:dc
+phone02			64:16:7f:19:a4:0b
 
 i0-admin		14:18:77:44:22:7a
 omega1-admin		14:18:77:44:1c:c5
