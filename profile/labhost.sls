@@ -24,7 +24,7 @@ udev:
       'Arty':
         - 'SUBSYSTEM=="tty"'
         - 'ATTRS{idVendor}=="0403"'
-        - 'ATTRS{serial}=="210319789439"'
+        - 'ATTRS{serial}=="210319789584"
         - 'SYMLINK+="ttyUSB-arty"'
       'VC707':
         - 'SUBSYSTEM=="tty"'
