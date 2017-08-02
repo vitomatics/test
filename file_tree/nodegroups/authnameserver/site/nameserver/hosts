@@ -5,6 +5,8 @@
 ## Note this is for documentation purposes only and should not be used
 ## as an actual hosts file
 
+## 10.1.10.0->10.1.10.255 sf-comcast-net
+
 ## 10.14.0.0-> 10.14.15.255 sf-unix-net
 # 10.14.0.0 RESERVED - do not use
 10.14.0.1 router01-ge0-0-1 sf-unix-net-gw router01
@@ -301,6 +303,25 @@
 64.62.193.200 ilogin1.sifive.com
 # 64.62.193.255 RESERVED - do not use
 
+## Comcast name servers
+75.75.75.75 cdns01.comcast.net
+75.75.76.76 cdns02.comcast.net
+
+
+## 96.72.175.168->96.72.175.175 comcast-net
+# 96.72.175.168 RESERVED - do not use
+# 96.72.175.169 unused
+# 96.72.175.170 unused
+# 96.72.175.171 unused
+# 96.72.175.172 unused
+# 96.72.175.173 unused
+96.72.175.174 comcast-net-gw
+# 96.72.175.175 RESERVED - do not use
+
+Subnet IPv4:  96.72.175.168/29
+Comcast router: 96.72.175.174
+SiFive addresses: 96.72.175.169.173
+
 ## 169.254.0.0->169.254.255.255 he-netapp-net
 ## RESERVED for use by netapp internal networks
 
@@ -371,3 +392,4 @@
 216.218.158.85 he-border-net-gw
 216.218.158.86 router11-ge0-0-0
 # 216.218.158.87 RESERVED - do not use
+
