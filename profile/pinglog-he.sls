@@ -9,7 +9,7 @@ pinglog:
       address: 10.100.100.5
     he-vpn:
       address: 10.100.100.6
-    sm-border-router-3:
+    sm-border-router03:
       address: 12.246.184.250
     sm-border-attgw:
       address: 12.246.184.249
