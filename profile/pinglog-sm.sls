@@ -27,3 +27,7 @@ pinglog:
       address: 10.14.0.14
     yoda:
       address: 10.14.16.42
+    google:
+      address: 8.8.8.8
+    ucb:
+      address: 128.32.203.137
