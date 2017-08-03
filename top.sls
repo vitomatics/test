@@ -245,6 +245,7 @@ base:
     - profile.nameserver-auth
     - profile.sifive-noc
     - profile.backupclient
+    - profile.pinglog-he
     - hosts.yoda
 
   'lambda00.internal.sifive.com':

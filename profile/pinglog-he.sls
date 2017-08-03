@@ -1,14 +1,10 @@
-# pinglog to run at San Mateo
+# pinglog to run at HE
 
 states:
   pinglog: true
 
 pinglog:
   pings:
-    sm-border-sifive:
-      absent: true
-    sm-border-att:
-      absent: true
     sm-vpn:
       address: 10.100.100.5
     he-vpn:
