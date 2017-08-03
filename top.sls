@@ -24,6 +24,7 @@ base:
     - profile.timeserver
     - profile.dhcpserver-sf
     - profile.ganglia-node-server
+    - profile.pinglog-sm
     - hosts.hansolo
 
   'dalek.internal.sifive.com':
