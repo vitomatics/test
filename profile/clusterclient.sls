@@ -64,22 +64,22 @@ sudo:
   aliases:
     hosts:
       JENKINS:
-        - b0
-        - i0
-        - gamma00
-        - gamma01
-        - gamma02
-        - gamma03
-        - gamma04
-        - gamma05
-        - gamma06
-        - gamma07
-        - gamma10
-        - gamma11
-        - gamma12
-        - gamma13
-        - gamma14
-        - gamma15
+        - b0.internal.sifive.com
+        - i0.internal.sifive.com
+        - gamma00.internal.sifive.com
+        - gamma01.internal.sifive.com
+        - gamma02.internal.sifive.com
+        - gamma03.internal.sifive.com
+        - gamma04.internal.sifive.com
+        - gamma05.internal.sifive.com
+        - gamma06.internal.sifive.com
+        - gamma07.internal.sifive.com
+        - gamma10.internal.sifive.com
+        - gamma11.internal.sifive.com
+        - gamma12.internal.sifive.com
+        - gamma13.internal.sifive.com
+        - gamma14.internal.sifive.com
+        - gamma15.internal.sifive.com
   userspec:
     - root:
       - ALL: '(ALL:ALL) ALL'
