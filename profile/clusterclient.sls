@@ -61,7 +61,7 @@ sysctl:
     net.ipv4.tcp_congestion_control: htcp
 
 sudo:
-  alias:
+  aliases:
     hosts:
       JENKINS:
         - b0
