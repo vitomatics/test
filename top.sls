@@ -169,6 +169,7 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.labhost
+    - profile.jenkins-slave
     - profile.ganglia-node-server
     - hosts.b0
 
