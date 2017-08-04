@@ -147,6 +147,7 @@ base:
     - profile.clusterclient
     - profile.slurm-client
     - profile.slurm-node
+    - profile.jenkins-slave
     - profile.ganglia-node-compute
     - hosts.gamma
 
@@ -161,6 +162,7 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.labhost
+    - profile.jenkins-slave
     - profile.backupclient
     - hosts.i0
 

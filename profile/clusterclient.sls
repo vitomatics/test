@@ -61,6 +61,25 @@ sysctl:
     net.ipv4.tcp_congestion_control: htcp
 
 sudo:
+  alias:
+    hosts:
+      JENKINS:
+        - b0
+        - i0
+        - gamma00
+        - gamma01
+        - gamma02
+        - gamma03
+        - gamma04
+        - gamma05
+        - gamma06
+        - gamma07
+        - gamma10
+        - gamma11
+        - gamma12
+        - gamma13
+        - gamma14
+        - gamma15
   userspec:
     - root:
       - ALL: '(ALL:ALL) ALL'
@@ -68,3 +87,6 @@ sudo:
       - ALL: '(ALL:ALL) ALL'
     - '%eda':
       - ALL: '(eda:eda) ALL'
+    - '%jenkins-admin': 
+      - JENKINS: /usr/sbin/iotop
+      - JENKINS: (jenkins) ALL
