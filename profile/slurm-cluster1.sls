@@ -41,7 +41,7 @@ slurm:
       Default: yes
       nodes:
         - 'gamma[00-07]'
-        - 'gamma[10-13]'
+        - 'gamma[10-14]'
     quick:
       DefMemPerCPU: 4000
       MaxMemPerCPU: 16000
