@@ -93,18 +93,10 @@ flexnet:
           pillar: site:licenses:snpslmd:microsemi-01
         microsemi-02:
           pillar: site:licenses:snpslmd:microsemi-02
-        synopsys-20170728-0:
-          absent: true
-        synopsys-20170728-1:
-          absent: true
-        synopsys-20170728-2:
-          absent: true
-        synopsys-20170802:
-          absent: true
-        synopsys-20170804:
-          absent: true
         synopsys-20170807:
           pillar: site:licenses:snpslmd:synopsys-20170807
+        synopsys-20170808:
+          pillar: site:licenses:snpslmd:synopsys-20170808
 
 
 ## Firewall holes for flexnet server
