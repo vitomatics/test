@@ -277,10 +277,10 @@
 ## 12.206.222.0->12.206.222.7 att-sifive0-net
 # 12.206.222.0 RESERVED - do not use
 # 12.206.222.1 unused
-# 12.206.222.2 unused guest-nat
-# 12.206.222.3 unused voip-nat
-# 12.206.222.4 unused unix-nat login
-# 12.206.222.5 unused laptop-nat lab-nat
+12.206.222.2 unused guest-nat lab-nat
+12.206.222.3 unused voip-nat
+12.206.222.4 unused unix-nat sm-login1
+12.206.222.5 unused laptop-nat
 # 12.206.222.6 unused
 # 12.206.222.7 RESERVED - do not used
 
@@ -372,14 +372,14 @@ SiFive addresses: 96.72.175.169.173
 192.168.17.128 sf-console-host0
 # 192.168.17.255 RESERVED - do not use
 
-## 216.38.154.16->216.38.154.23 sf-fast-net
+## 216.38.154.16->216.38.154.23 old sf-fast-net - no long our IPs
 # 216.38.154.16 RESERVED - do not use
-216.38.154.17 sf-fast-net-gw
-216.38.154.18 router01-ge0-0-0-guest-nat sf-guest-nat-net
-216.38.154.19 router01-ge0-0-0
-216.38.154.20 router03-ge0-0-0
-216.38.154.21 router01-ge0-0-0b sf-sifive-nat-net login.sifive.com sf.sifive.com gitkick1.sifive.com
-216.38.154.22 airport01-wan
+# 216.38.154.17 sf-fast-net-gw
+# 216.38.154.18 router01-ge0-0-0-guest-nat sf-guest-nat-net
+# 216.38.154.19 router01-ge0-0-0
+# 216.38.154.20 router03-ge0-0-0
+# 216.38.154.21 router01-ge0-0-0b sf-sifive-nat-net login.sifive.com sf.sifive.com gitkick1.sifive.com
+# 216.38.154.22 airport01-wan
 # 216.38.154.23 RESERVED - do not use
 
 # Fastmetrics addresses

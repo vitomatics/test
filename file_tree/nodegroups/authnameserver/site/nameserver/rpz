@@ -13,9 +13,8 @@ $TTL	3600
 	)
 	IN	NS	adns0.internal.sifive.com.
 
-oldlogin.sifive.com	IN	A	10.14.0.5
-sf-login1.sifive.com	IN	A	10.14.0.12
-sf.sifive.com		IN	A	10.14.0.12
+sm-login1.sifive.com	IN	A	10.14.0.12
+sm.sifive.com		IN	A	10.14.0.12
 
 he-login1.sifive.com	IN	A	10.14.16.72
 he.sifive.com		IN	A	10.14.16.72
