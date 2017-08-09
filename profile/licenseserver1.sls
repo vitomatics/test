@@ -78,10 +78,10 @@ flexnet:
       port: 5053
       vport: 5054
       licenses:
-        smartdv-01:
-          absent: true
         smartdv-2017070601:
-          pillar: site:licenses:smartdv:smartdv-2017070601
+          absent: true
+        smartdv-20170809:
+          pillar: site:licenses:smartdv:smartdv-20170809
     snpslmd:
       vendor: synopsys
       bindir: scl/2016.12_SP1/linux64/bin
