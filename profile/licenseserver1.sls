@@ -78,10 +78,10 @@ flexnet:
       port: 5053
       vport: 5054
       licenses:
-        smartdv-01:
-          absent: true
         smartdv-2017070601:
-          pillar: site:licenses:smartdv:smartdv-2017070601
+          absent: true
+        smartdv-20170809:
+          pillar: site:licenses:smartdv:smartdv-20170809
     snpslmd:
       vendor: synopsys
       bindir: scl/2016.12_SP1/linux64/bin
@@ -93,18 +93,12 @@ flexnet:
           pillar: site:licenses:snpslmd:microsemi-01
         microsemi-02:
           pillar: site:licenses:snpslmd:microsemi-02
-        synopsys-20170728-0:
-          absent: true
-        synopsys-20170728-1:
-          absent: true
-        synopsys-20170728-2:
-          absent: true
-        synopsys-20170802:
-          absent: true
-        synopsys-20170804:
-          absent: true
         synopsys-20170807:
           pillar: site:licenses:snpslmd:synopsys-20170807
+        synopsys-20170808:
+          pillar: site:licenses:snpslmd:synopsys-20170808
+        synopsys-20170809:
+          pillar: site:licenses:snpslmd:synopsys-20170809
 
 
 ## Firewall holes for flexnet server
