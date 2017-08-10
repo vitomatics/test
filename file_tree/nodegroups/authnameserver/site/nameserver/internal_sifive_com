@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017080101 ; serial number
+	2017081001 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -239,6 +239,8 @@ tortoise		IN	A	10.16.0.34
 
 printer01		IN	A	10.17.15.2
 hp-m553			IN	CNAME	printer01
+printer02		IN	A	10.17.15.3
+hp-m577			IN	CNAME	printer02
 
 
 router01-st0-0		IN	A	10.100.100.1

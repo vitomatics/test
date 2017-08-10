@@ -193,6 +193,7 @@
 10.17.0.254 laptop254
 # 10.17.0.255 RESERVED - do not use
 10.17.15.2 printer01 hp-m553	# static, assigned by DHCP
+10.17.15.3 printer02 hp-m577	# static, assigned by DHCP
 
 # 10.17.15.255 RESERVED - do not use
 
