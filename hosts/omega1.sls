@@ -78,7 +78,7 @@ sfdump:
       snaptype: netapp_daily
       acls: false
       xattrs: false
-      timeout: 5h
+      timeout: 7h
     homes:
       client: netapp1-nfs1.internal.sifive.com
       export: /homes
@@ -87,7 +87,7 @@ sfdump:
       snaptype: netapp_daily
       acls: false
       xattrs: false
-      timeout: 2h
+      timeout: 3h
     sifive:
       client: netapp1-nfs1.internal.sifive.com
       export: /sifive
@@ -96,5 +96,5 @@ sfdump:
       snaptype: netapp_daily
       acls: false
       xattrs: false
-      timeout: 4h
+      timeout: 6h
       absent: false
