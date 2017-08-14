@@ -21,17 +21,6 @@ dhcpd:
         - 10.14.16.39
 
       pools:
-      
-        regular_pool:
-          default-lease-time: 7200
-          max-lease-time: 7200
-          range:
-            - 10.14.3.10
-            - 10.14.3.224
-          deny:
-            - members of "pxeclient"
-            - members of "debinstall"
-
         install_pool:
           default-lease-time: 600
           max-lease-time: 600
