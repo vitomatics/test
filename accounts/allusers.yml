@@ -248,6 +248,11 @@ users:
     fullname: "Gleb Gagarin"
     uid: 1134
     gid: 1134
+  bipul:
+    tags: [ cluster ]
+    fullname: "Bipul Talukdar"
+    uid: 1135
+    gid: 1135
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
