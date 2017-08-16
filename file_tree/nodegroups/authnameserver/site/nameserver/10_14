@@ -17,17 +17,14 @@ $TTL	86400
 	IN	NS	adns0.internal.sifive.com.
 
 1.0	IN	PTR	router01-ge0-0-1.internal.sifive.com.
-2.0	IN	PTR	combine.internal.sifive.com.
 
 12.0	IN	PTR	algol.internal.sifive.com.
 13.0	IN	PTR	bender.internal.sifive.com.
 14.0	IN	PTR	hansolo.internal.sifive.com.
 
-4.1	IN	PTR	i0.internal.sifive.com.
+4.1	IN	PTR	alpha.internal.sifive.com.
 5.1	IN	PTR	omega1.internal.sifive.com.
 6.1	IN	PTR	b0.internal.sifive.com.
-
-; 129.1	IN	PTR	license.internal.sifive.com.
 
 6.3	IN	PTR	gravelpit.internal.sifive.com.
 7.3	IN	PTR	nuc3.internal.sifive.com.

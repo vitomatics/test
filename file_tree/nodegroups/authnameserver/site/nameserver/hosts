@@ -10,7 +10,7 @@
 ## 10.14.0.0-> 10.14.15.255 sf-unix-net
 # 10.14.0.0 RESERVED - do not use
 10.14.0.1 router01-ge0-0-1 sf-unix-net-gw router01
-10.14.0.2 combine               # static
+# 10.14.0.2 was combine         # static
 # 10.14.0.3 was nihilanth 	# static
 # 10.14.0.4 was nihilanth-adns	# static
 # 10.14.0.5 was citadel		# static
@@ -24,15 +24,7 @@
 10.14.0.13 bender		# static
 10.14.0.14 hansolo		# static
 
-10.14.0.130 example		# static
-
-# 10.14.0.249 i0-drac i0-admin	# static
-# 10.14.0.250 omega1-admin	# static
-# 10.14.0.251 b0-ipmi b0-admin	# static
-# 10.14.0.252 bender-admin		# static
-# 10.14.0.253 combine-ipmi combine-admin	# static
-
-10.14.1.4 i0			# static
+10.14.1.4 alpha			# static
 10.14.1.5 omega1		# static
 10.14.1.6 b0			# static
 
@@ -41,10 +33,8 @@
 10.14.3.6 gravelpit		# assigned by DHCP, test VM
 10.14.3.7 nuc3			# assigned by DHCP, test host
 # 10.14.3.8 printer01 hp-m553	# assigned by DHCP
-10.14.3.9 promptuary 		# assigned by DHCP
-10.14.3.10 oldlaptop010
-...
-10.14.3.224 oldlaptop224
+# 10.14.3.9 promptuary 		# assigned by DHCP
+
 10.14.3.225 pxeclient225
 ...
 10.14.3.254 pxeclient254
@@ -116,7 +106,7 @@
 # 10.15.0.0 RESERVED - do not use
 10.15.0.1 router01-ge0-0-2
 
-10.15.0.16 i0-admin			# static
+10.15.0.16 alpha-admin			# static
 10.15.0.17 omega1-admin			# static
 10.15.0.18 b0-admin			# static
 10.15.0.19 bender-admin			# static

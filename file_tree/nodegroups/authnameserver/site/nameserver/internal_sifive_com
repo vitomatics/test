@@ -21,12 +21,6 @@ router01-ge0-0-1	IN	A	10.14.0.1
 sf-unix-net-gw	IN	CNAME	router01-ge0-0-1
 router01	IN	CNAME	router01-ge0-0-1
 
-combine		IN	A	10.14.0.2
-
-; breencast	IN	A	10.14.0.6
-; metrocop	IN	A	10.14.0.7
-; kdc0		IN	CNAME	metrocop
-; synth		IN	A	10.14.0.8
 
 algol		IN	A	10.14.0.12
 bender		IN	A	10.14.0.13
@@ -40,27 +34,14 @@ ns2		IN	CNAME	hansolo
 ; preseed	IN	CNAME	synth
 
 
-; i0-drac		IN	A	10.14.0.249
-; i0-admin	IN	CNAME	i0-drac
-; omega1-admin	IN	A	10.14.0.250
-; b0-ipmi		IN	A	10.14.0.251
-; b0-admin	IN	CNAME	b0-ipmi
-; bender-admin	IN	A	10.14.0.252
-; combine-ipmi	IN	A	10.14.0.253
-; combine-admin	IN	CNAME	combine-ipmi
-
-i0		IN	A	10.14.1.4
+alpha		IN	A	10.14.1.4
 omega1		IN	A	10.14.1.5
 b0		IN	A	10.14.1.6
 
 
-; license		IN	A	10.14.1.129
-
 gravelpit	IN	A	10.14.3.6
 ldaptest	IN	CNAME	gravelpit
 nuc3		IN	A	10.14.3.7
-
-promptuary	IN	A	10.14.3.9
 
 iswitch15-vlan101	IN	A	10.14.16.1
 he-unix01-net-gw	IN	CNAME	iswitch15-vlan101
@@ -164,7 +145,7 @@ he-unix02-net-gw	IN	CNAME	iswitch25-vlan111
 
 router01-ge0-0-2	IN	A	10.15.0.1
 
-i0-admin		IN	A	10.15.0.16
+alphpa-admin		IN	A	10.15.0.16
 omega1-admin		IN	A	10.15.0.17
 b0-admin		IN	A	10.15.0.18
 bender-admin		IN	A	10.15.0.19

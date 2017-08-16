@@ -16,7 +16,7 @@ poly07			64:16:7f:06:24:7a
 phone01			64:16:7f:0c:db:dc
 phone02			64:16:7f:19:a4:0b
 
-i0-admin		14:18:77:44:22:7a
+alpha-admin		14:18:77:44:22:7a
 omega1-admin		14:18:77:44:1c:c5
 b0-admin		0c:c4:7a:ad:dd:06 
 bender-admin		0c:c4:7a:ad:e2:b6
@@ -31,8 +31,8 @@ omega1-mb2		14:18:77:44:1c:c4
 omega1-pci2-0		90:e2:ba:c8:c0:8c
 omega1-pci2-1		90:e2:ba:c8:c0:8d
 
-spare0-0		90:e2:ba:c6:b0:a4
-spare0-1		90:e2:ba:c6:b0:a5
+alpha-pci2-0		90:e2:ba:c6:b0:a4
+alpha-pci2-1		90:e2:ba:c6:b0:a5
 
 printer01	b0:5a:da:c7:d0:99
 printer02	3c:52:82:25:b9:11
