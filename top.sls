@@ -136,10 +136,6 @@ base:
     - profile.ganglia-node-server
     - hosts.heartofgold
 
-  'combine.sifive.com':
-    - subnet.sf-unix
-    - xen.dom0
-
   'gamma*.internal.sifive.com':
     - subnet.he-dhcp
     - profile.devel
