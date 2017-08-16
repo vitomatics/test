@@ -157,14 +157,9 @@ base:
     - profile.slurm-node-slurmonly
 #}
 
-  'i0.internal.sifive.com':
+  'alpha.internal.sifive.com':
     - subnet.sf-unix
-    - profile.devel
-    - profile.clusterclient
-    - profile.labhost
-    - profile.jenkins-slave
-    - profile.backupclient
-    - hosts.i0
+    - hosts.alpha
 
   'b0.internal.sifive.com':
     - subnet.sf-unix

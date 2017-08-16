@@ -55,6 +55,24 @@ sfpreseed:
             - nodev
             - nosuid
             - noatime
+    compute_ssd_noscratch:
+      swap:
+        size: 17176
+      boot:
+        size: 1074
+        filesystem: ext4
+      parts:
+        root:
+          mountpoint: /
+          size: 68704
+          options:
+            - noatime
+        var:
+          mountpoint: /var
+          size: unlimited
+          options:
+            - nodev
+            - relatime
     gamma_disk:
       swap:
         size: 14173
@@ -463,4 +481,10 @@ sfpreseed:
         jabba:
           ipaddress: 10.14.16.45
           subnet: he-unix1-static
-        
+        alpha:
+          ipaddress: 10.14.1.4
+          subnet: sf-static
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: crypto
+          disklayout: compute_ssd_noscratch
