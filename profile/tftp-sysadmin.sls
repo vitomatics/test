@@ -6,6 +6,7 @@ states:
 tftpd:
   lookup:
     directory: /srv/tftpboot
+    options: --secure --blocksize 1300
 
 firewall:
   ports:
