@@ -1,10 +1,5 @@
 ## Pillar file for alpha
 
-boot:
-  grub:
-    serial:
-      port: 1
-
 
 # network:
 #   interfaces:
