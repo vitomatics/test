@@ -25,8 +25,7 @@ dhcpd:
           default-lease-time: 600
           max-lease-time: 600
           next-server: tftpboot.internal.sifive.com
-          option:
-            - interface-mtu: 512
+          option: interface-mtu 512
           range:
             - 10.14.3.225
             - 10.14.3.254
