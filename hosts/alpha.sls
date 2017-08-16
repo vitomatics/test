@@ -1,5 +1,7 @@
 ## Pillar file for alpha
 
+states:
+    perccli: true
 
 # network:
 #   interfaces:
