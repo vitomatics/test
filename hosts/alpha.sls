@@ -37,7 +37,7 @@ disksetup:
     /scratch:
       fstype: ext4
       opts: noatime
-      lv: sdb/scratch
+      lv: test/scratch
 
 
 
