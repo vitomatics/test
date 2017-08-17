@@ -23,6 +23,24 @@ network:
     eth0:
       ip: 10.14.1.4
 
+disksetup:
+  vgs:
+    sdb:
+      disks:
+        - /dev/sdb
+  lvs:
+    scratch:
+      size: 100G
+      vg: test
+
+  mounts:
+    /scratch:
+      fstype: ext4
+      opts: noatime
+      lv: sdb/scratch
+
+
+
 # ssh:
 #   userconfig:
 #     eda:
