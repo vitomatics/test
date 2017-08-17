@@ -24,10 +24,13 @@ network:
       ip: 10.14.1.4
 
 disksetup:
+  cryptdevs:
+    sdb:
+      disk: /dev/sdb
   vgs:
     test:
-      disks:
-        - /dev/sdb
+      cryptdevs:
+        - sdb
   lvs:
     scratch:
       size: 100G
