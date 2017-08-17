@@ -25,22 +25,22 @@ network:
 
 disksetup:
   cryptdevs:
-    sdb:
+    sdb_crypt:
       disk: /dev/sdb
   vgs:
-    test:
+    vg_disk2:
       cryptdevs:
-        - sdb
+        - sdb_crypt
   lvs:
     scratch:
       size: 100G
-      vg: test
+      vg: vg_disk2
 
   mounts:
     /scratch:
       fstype: ext4
       opts: noatime
-      lv: test/scratch
+      lv: vg_disk2/scratch
 
 
 
