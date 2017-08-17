@@ -122,7 +122,7 @@ sfdump:
       weeks: 8
     ##### old backups #####
     i0-oldhome:
-      absent: true:
+      absent: true
       client: i0.internal.sifive.com
       server: heartofgold.internal.sifive.com
       src: /oldhome
