@@ -25,12 +25,12 @@ network:
 
 disksetup:
   cryptdevs:
-    sdb_crypt:
+    sdb:
       disk: /dev/sdb
   vgs:
     vg_disk2:
       cryptdevs:
-        - sdb_crypt
+        - sdb
   lvs:
     scratch:
       size: 100G
