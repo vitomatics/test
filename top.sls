@@ -155,6 +155,11 @@ base:
 
   'alpha.internal.sifive.com':
     - subnet.sf-unix
+    - profile.devel
+    - profile.clusterclient
+    - profile.labhost
+    - profile.jenkins-slave
+    - profile.ganglia-node-server
     - hosts.alpha
 
   'b0.internal.sifive.com':
