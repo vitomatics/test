@@ -25,7 +25,7 @@ network:
 
 disksetup:
   vgs:
-    sdb:
+    test:
       disks:
         - /dev/sdb
   lvs:
