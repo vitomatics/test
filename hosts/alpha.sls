@@ -2,6 +2,7 @@
 
 states:
     perccli: true
+    udev: true
 
 perccli:
   lookup:
