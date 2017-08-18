@@ -4,6 +4,8 @@ states:
   pinglog: true
 
 pinglog:
+  lookup:
+    days: 14
   pings:
     sm-border-sifive:
       absent: true
