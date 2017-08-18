@@ -192,6 +192,7 @@ base:
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
     - profile.ldaptest
+    - profile.pinglog-test
     - hosts.gravelpit
 
   'hal.internal.sifive.com':
