@@ -27,7 +27,7 @@ $TTL	86400
 6.1	IN	PTR	b0.internal.sifive.com.
 
 6.3	IN	PTR	gravelpit.internal.sifive.com.
-7.3	IN	PTR	nuc3.internal.sifive.com.
+7.3	IN	PTR	mnuc00.internal.sifive.com.
 
 1.16	IN	PTR	iswitch15-vlan101.internal.sifive.com.
 

@@ -408,7 +408,7 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: compute_disk
-        nuc3:
+        mnuc00:
           subnet: sf-dynamic
           diskname: /dev/sda
           diskmethod: crypto

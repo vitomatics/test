@@ -124,7 +124,7 @@ sfsalt:
         - omega1.internal.sifive.com
         - marvin.internal.sifive.com
         - matrix.internal.sifive.com
-        - nuc3.internal.sifive.com
+        - mnuc00.internal.sifive.com
         - sandbox.internal.sifive.com
         - tardis.internal.sifive.com
         - transporter.internal.sifive.com

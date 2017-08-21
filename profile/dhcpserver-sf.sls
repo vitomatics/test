@@ -38,7 +38,7 @@ dhcpd:
     gravelpit:
       hardware: ethernet 52:54:00:ff:00:0b
       fixed-address: gravelpit.internal.sifive.com
-    nuc3:
-      hardware: ethernet f4:4d:30:6c:dd:00
-      fixed-address: nuc3.internal.sifive.com
+    mnuc00:
+      hardware: ethernet 94:c6:91:11:4b:c6
+      fixed-address: mnuc00.internal.sifive.com
       next-server: tftpboot.internal.sifive.com

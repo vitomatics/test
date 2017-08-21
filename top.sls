@@ -185,9 +185,9 @@ base:
     - profile.login
     - hosts.nuc2
 
-  'nuc3.internal.sifive.com':
+  'mnuc00.internal.sifive.com':
     - subnet.sf-unix
-    - hosts.nuc3
+    - hosts.mnuc00
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
