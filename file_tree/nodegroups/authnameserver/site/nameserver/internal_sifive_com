@@ -41,7 +41,6 @@ b0		IN	A	10.14.1.6
 
 gravelpit	IN	A	10.14.3.6
 ldaptest	IN	CNAME	gravelpit
-nuc3		IN	A	10.14.3.7
 
 iswitch15-vlan101	IN	A	10.14.16.1
 he-unix01-net-gw	IN	CNAME	iswitch15-vlan101
@@ -217,6 +216,7 @@ sf-lab-net-gw	IN	CNAME	router01-ge0-0-3
 nuc1			IN	A	10.16.0.32
 turtle			IN	A	10.16.0.33
 tortoise		IN	A	10.16.0.34
+nuc3			IN	A	10.16.0.35
 
 printer01		IN	A	10.17.15.2
 hp-m553			IN	CNAME	printer01
