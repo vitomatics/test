@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017082102 ; serial number
+	2017082103 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -17,9 +17,9 @@ $TTL	86400
 		NS		adns0
 		MX		10 mx
 
-router01-ge0-0-1	IN	A	10.14.0.1
-sf-unix-net-gw	IN	CNAME	router01-ge0-0-1
-router01	IN	CNAME	router01-ge0-0-1
+router03-ge0-0-1	IN	A	10.14.0.1
+sf-unix-net-gw	IN	CNAME	router03-ge0-0-1
+router03	IN	CNAME	router03-ge0-0-1
 
 
 algol		IN	A	10.14.0.12
@@ -143,7 +143,7 @@ netapp1-nfs2		IN	A	10.14.16.93
 iswitch25-vlan111	IN	A	10.14.17.1
 he-unix02-net-gw	IN	CNAME	iswitch25-vlan111
 
-router01-ge0-0-2	IN	A	10.15.0.1
+router03-ge0-0-2	IN	A	10.15.0.1
 
 alpha-admin		IN	A	10.15.0.16
 omega1-admin		IN	A	10.15.0.17
@@ -212,13 +212,15 @@ wap04			IN	CNAME	wap04-admin
 wap05-admin 		IN	A	10.15.240.164
 wap05			IN	CNAME	wap05-admin
 
-router01-ge0-0-3	IN	A	10.16.0.1
-sf-lab-net-gw	IN	CNAME	router01-ge0-0-3
+router03-ge0-0-3	IN	A	10.16.0.1
+sf-lab-net-gw	IN	CNAME	router03-ge0-0-3
 nuc1			IN	A	10.16.0.32
 turtle			IN	A	10.16.0.33
 tortoise		IN	A	10.16.0.34
 nuc3			IN	A	10.16.0.35
 
+router03-ge0-0-4	IN	A	10.17.0.1
+sf-laptop-net-gw	IN	CNAME	router03-ge0-0-4
 printer01		IN	A	10.17.15.2
 hp-m553			IN	CNAME	printer01
 printer02		IN	A	10.17.15.3

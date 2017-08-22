@@ -9,7 +9,7 @@
 
 ## 10.14.0.0-> 10.14.15.255 sf-unix-net
 # 10.14.0.0 RESERVED - do not use
-10.14.0.1 router01-ge0-0-1 sf-unix-net-gw router01
+10.14.0.1 router03-ge0-0-1 sf-unix-net-gw router03
 # 10.14.0.2 was combine         # static
 # 10.14.0.3 was nihilanth 	# static
 # 10.14.0.4 was nihilanth-adns	# static
@@ -104,7 +104,7 @@
 
 ## 10.15.0.0-> 10.15.15.255 sf-dev-net
 # 10.15.0.0 RESERVED - do not use
-10.15.0.1 router01-ge0-0-2
+10.15.0.1 router03-ge0-0-2
 
 10.15.0.16 alpha-admin			# static
 10.15.0.17 omega1-admin			# static
@@ -166,7 +166,7 @@
 
 ## 10.16.0.0->10.16.15.255 sf-lab-net
 # 10.16.0.0 RESERVED - do not use
-10.16.0.1 sf-lab-net-gw router01-ge0-0-3
+10.16.0.1 sf-lab-net-gw router03-ge0-0-3
 10.16.0.32 nuc1
 10.16.0.33 turtle
 10.16.0.34 tortoise
@@ -178,7 +178,7 @@
 
 ## 10.17.0.0->10.17.15.255 sf-laptop-net
 # 10.17.0.0 RESERVED - do not use
-10.17.0.1 sf-laptop-net-gw
+10.17.0.1 sf-laptop-net-gw router03-ge0-0-4
 10.17.0.16 laptop016
 ...
 10.17.0.254 laptop254
@@ -197,7 +197,7 @@
 
 ## 10.18.0.0->10.18.15.255 sf-voip-net
 # 10.18.0.0 RESERVED - do not use
-10.18.0.1 sf-voip-net-gw
+10.18.0.1 sf-voip-net-gw router03-ge0-0-6
 10.18.0.16 voip016
 ...
 10.18.0.254 voip254
@@ -336,7 +336,7 @@ SiFive addresses: 96.72.175.169.173
 
 ## 192.168.14.0->192.168.14.255 sf-guest-net
 # 192.168.14.0 RESERVED - do not use
-192.168.14.1 sf-guest-net-gw
+192.168.14.1 sf-guest-net-gw router03-ge0-0-5
 ...
 192.168.14.128 sf-guest-dhcp128
 ...
