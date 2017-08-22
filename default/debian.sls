@@ -263,7 +263,9 @@ pkgs:
     {% if grains.os == 'Ubuntu' %}
     apparmor-utils: true
     {% endif %}
-
+    wsmancli: true
+    amtterm: true
+    
     screen: true
     tmux: true
     mailutils: true
