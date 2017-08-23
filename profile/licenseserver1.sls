@@ -65,9 +65,9 @@ flexnet:
       vport: 1718
       licenses:
         mentor-01:
-          pillar: site:licenses:mgcld:mentor-01
+          absent: true
         mentor-02:
-          pillar: site:licenses:mgcld:mentor-02
+          absent: true
         microsemi-01:
           pillar: site:licenses:mgcld:microsemi-01
         microsemi-02:
