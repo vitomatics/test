@@ -34,6 +34,8 @@ flexnet:
           pillar: site:licenses:mgcld:mentor-20170725
         mentor-20170817:
           pillar: site:licenses:mgcld:mentor-20170817
+        mentor-20170823:
+          pillar: site:licenses:mgcld:mentor-20170823
     xilinxd:
       vendor: xilinx
       bindir: linux_flexlm_v11.13.1.3/lnx64.o
