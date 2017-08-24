@@ -73,6 +73,7 @@ pkgs:
     gnome-icon-theme: true
     xsltproc: true
     gnuplot: true
+    xpdf: true
 
     ## Some workdlists
     wbritish: true
