@@ -154,14 +154,16 @@
 # 10.15.240.0 RESERVED - do not use
 10.15.240.1 sf-devnet-net-gw router03-ge0-0-7 router03-admin router03
 10.15.240.128 iswitch01-admin iswitch01
-10.15.240.129 iswitch02-admin iswtich02
-10.15.240.130 iswitch03-admin iswtich03
+10.15.240.129 iswitch02-admin iswitch02
+10.15.240.130 iswitch03-admin iswitch03
 10.15.240.159 wac01-admin wac01 waps
 10.15.240.160 wap01-admin wap01
 10.15.240.161 wap02-admin wap02
 10.15.240.162 wap03-admin wap03
 10.15.240.163 wap04-admin wap04
 10.15.240.164 wap05-admin wap05
+10.15.240.192 router01-admin router01
+10.15.240.194 router03-admin router03
 # 10.15.255.255 RESERVED - do not use
 
 ## 10.16.0.0->10.16.15.255 sf-lab-net
@@ -356,12 +358,6 @@ SiFive addresses: 96.72.175.169.173
 ## 192.168.17.0->192.168.17.255 sf-console-net
 # 192.168.17.0 RESERVED - do not use
 #
-192.168.17.2 sf-console-router03 router03-mgmt
-#
-192.168.17.4 sf-console-iswitch01 iswitch01-mgmt
-192.168.17.5 sf-console-iswitch02 iswitch02-mgmt
-192.168.17.6 sf-console-iswitch03 iswitch03-mgmt
-192.168.17.128 sf-console-host0
 # 192.168.17.255 RESERVED - do not use
 
 ## 216.38.154.16->216.38.154.23 old sf-fast-net - no long our IPs

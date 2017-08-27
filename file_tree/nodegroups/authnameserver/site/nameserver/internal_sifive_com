@@ -190,7 +190,6 @@ iswitch21-vlan112	IN	A	10.15.17.1
 he-dev02-net-gw		IN	CNAME	iswitch21-vlan112
 
 router03-ge0-0-7	IN	A	10.15.240.1
-router03		IN	CNAME	router03-ge0-0-7
 iswitch01-admin		IN	A	10.15.240.128
 iswitch01		IN	CNAME	iswitch01-admin
 iswitch02-admin		IN	A	10.15.240.129
@@ -210,6 +209,12 @@ wap04-admin 		IN	A	10.15.240.163
 wap04			IN	CNAME	wap04-admin
 wap05-admin 		IN	A	10.15.240.164
 wap05			IN	CNAME	wap05-admin
+router01-ge0-0-15	IN	A	10.15.240.192
+router01-admin		IN	A	10.15.240.192
+router01		IN	A	router02-admin
+router03-ge0-0-15	IN	A	10.15.240.194
+router03-admin		IN	A	10.15.240.194
+router03		IN	A	router03-admin
 
 router03-ge0-0-3	IN	A	10.16.0.1
 sf-lab-net-gw	IN	CNAME	router03-ge0-0-3
@@ -263,12 +268,6 @@ iswitch15-mgmt	IN	A	192.168.15.4
 iswitch21-mgmt	IN	A	192.168.15.5
 iswitch25-mgmt	IN	A	192.168.15.6
 
-router03-mgmt	IN	A	192.168.17.2
-
-iswitch01-mgmt	IN	A	192.168.17.4
-iswitch02-mgmt	IN	A	192.168.17.5
-iswitch03-mgmt	IN	A	192.168.17.6
-sf-console-host	IN	A	192.168.17.128
 
 
 ; _kerberos._udp		IN	SRV	10 0 88 metrocop

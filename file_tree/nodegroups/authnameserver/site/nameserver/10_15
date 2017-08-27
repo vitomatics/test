@@ -66,5 +66,7 @@ $TTL	86400
 162.240	IN	PTR	wap03-admin.internal.sifive.com.
 163.240	IN	PTR	wap04-admin.internal.sifive.com.
 164.240	IN	PTR	wap05-admin.internal.sifive.com.
+192.240	IN	PTR	router01-admin.internal.sifive.com.
+194.240	IN	PTR	router03-admin.internal.sifive.com.
 
 
