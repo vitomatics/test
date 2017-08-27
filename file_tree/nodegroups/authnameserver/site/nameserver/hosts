@@ -269,10 +269,10 @@
 ## 12.206.222.0->12.206.222.7 att-sifive0-net
 # 12.206.222.0 RESERVED - do not use
 # 12.206.222.1 unused
-12.206.222.2 unused guest-nat lab-nat
-12.206.222.3 unused voip-nat
-12.206.222.4 unused unix-nat sm-login1
-12.206.222.5 unused laptop-nat
+12.206.222.2 guest-nat lab-nat
+12.206.222.3 voip-nat
+12.206.222.4 unix-nat sm-login1
+12.206.222.5 laptop-nat
 # 12.206.222.6 unused
 # 12.206.222.7 RESERVED - do not used
 
