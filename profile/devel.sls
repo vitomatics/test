@@ -144,6 +144,7 @@ pkgs:
     cmake: true
     diffstat: true
     chrpath: true
+    manpages-dev: true
 
     ## windows development
     mingw-w64: true
