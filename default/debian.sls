@@ -243,6 +243,7 @@ pkgs:
     strace: true
     lsof: true
     iotop: true
+    manpages-dev: true
 
     telnet: true
     mtr-tiny: true
