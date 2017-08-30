@@ -134,7 +134,7 @@ pkgs:
     python3-sympy: true
     python3-yaml: true
     python3-dev: true
-    python3-virtualenv: true
+    python3-venv: true
     python-sympy-doc: true
     {% endif %}
 
