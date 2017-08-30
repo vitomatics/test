@@ -33,6 +33,8 @@ pkgs:
     ksh: true
     fakeroot: true
     devscripts: true
+    # This is for the "banner" command
+    sysvbanner: true
 
     libtool: true
     libusb-1.0-0-dev: true
