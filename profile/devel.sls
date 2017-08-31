@@ -115,6 +115,17 @@ pkgs:
     libmng2: true
     {% endif %}
 
+    ## text processing
+    texlive: true
+    markdown: true
+    asciidoc: true
+    pandoc: true
+    xmlto: true
+    fop: true
+    dblatex: true
+    python3-docutils: true
+    python-docutils: true
+
     ## gtkwave, both src and pkg
     gtkwave: true
     libjudydebian1: true
