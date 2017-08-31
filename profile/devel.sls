@@ -77,7 +77,7 @@ pkgs:
     gnuplot: true
     xpdf: true
 
-    ## Some workdlists
+    ## Some wordlists
     wbritish: true
     wamerican: true
     # For Wes
