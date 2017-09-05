@@ -187,6 +187,7 @@ base:
 
   'mnuc00.internal.sifive.com':
     - subnet.sf-unix
+    - profile.sfamtutil
     - hosts.mnuc00
 
   'gravelpit.internal.sifive.com':
