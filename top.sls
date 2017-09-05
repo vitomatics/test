@@ -192,6 +192,7 @@ base:
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
+    - profile.sfamtutil
     - hosts.gravelpit
 
   'hal.internal.sifive.com':
