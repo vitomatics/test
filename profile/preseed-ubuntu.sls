@@ -411,7 +411,7 @@ sfpreseed:
         mnuc00:
           subnet: sf-dynamic
           diskname: /dev/sda
-          diskmethod: crypto
+          diskmethod: lvm
           disklayout: compute_disk
         omega1:
           ipaddress: 10.14.1.5
