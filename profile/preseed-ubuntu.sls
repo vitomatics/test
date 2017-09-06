@@ -410,6 +410,7 @@ sfpreseed:
           disklayout: compute_disk
         mnuc00:
           subnet: sf-dynamic
+          kargs: text nomodeset xforcevesa
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: compute_disk
