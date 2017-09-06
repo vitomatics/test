@@ -42,10 +42,10 @@ flexnet:
       port: 5280
       vport: 5281
       licenses:
-        cadence-20170830:
-          absent: true
         cadence-20170905:
-          pillar: site:licenses:cdslmd:cadence-20170905
+          absent: true
+        cadence-20170906:
+          pillar: site:licenses:cdslmd:cadence-20170906
     interrad:
       vendor: tsmc
       bindir: MC2_2012.02.00.d/aux/flexlm/amd64_re3
@@ -93,12 +93,12 @@ flexnet:
           pillar: site:licenses:snpslmd:microsemi-01
         microsemi-02:
           pillar: site:licenses:snpslmd:microsemi-02
-        synopsys-20170815-0:
-          absent: true
         synopsys-20170830:
-          pillar: site:licenses:snpslmd:synopsys-20170830
+          absent: true
         synopsys-20170905:
           pillar: site:licenses:snpslmd:synopsys-20170905
+        synopsys-20170906:
+          pillar: site:licenses:snpslmd:synopsys-20170906
 
 
 ## Firewall holes for flexnet server
