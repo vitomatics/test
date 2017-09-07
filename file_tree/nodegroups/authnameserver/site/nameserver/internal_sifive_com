@@ -42,6 +42,11 @@ gravelpit	IN	A	10.14.3.6
 ldaptest	IN	CNAME	gravelpit
 mnuc00		IN	A	10.14.3.7
 
+delta00		IN	A	10.14.4.2
+delta01		IN	A	10.14.4.3
+delta02		IN	A	10.14.4.4
+delta03		IN	A	10.14.4.5
+
 iswitch15-vlan101	IN	A	10.14.16.1
 he-unix01-net-gw	IN	CNAME	iswitch15-vlan101
 
@@ -222,6 +227,7 @@ nuc1			IN	A	10.16.0.32
 turtle			IN	A	10.16.0.33
 tortoise		IN	A	10.16.0.34
 nuc3			IN	A	10.16.0.35
+mnuc00			IN	A	10.16.0.36
 
 router03-ge0-0-4	IN	A	10.17.0.1
 sf-laptop-net-gw	IN	CNAME	router03-ge0-0-4

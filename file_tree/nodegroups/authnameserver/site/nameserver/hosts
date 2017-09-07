@@ -31,9 +31,14 @@
 # 10.14.1.129 license		# static
 
 10.14.3.6 gravelpit		# assigned by DHCP, test VM
-10.14.3.7 mnuc00		# assigned by DHCP, test host
+# 10.14.3.7 mnuc00		# assigned by DHCP, test host
 # 10.14.3.8 printer01 hp-m553	# assigned by DHCP
 # 10.14.3.9 promptuary 		# assigned by DHCP
+
+10.14.4.2 delta00		# assigned by DHCP
+10.14.4.3 delta01		# assigned by DHCP
+10.14.4.4 delta02		# assigned by DHCP
+10.14.4.5 delta03		# assigned by DHCP
 
 10.14.3.225 pxeclient225
 ...
@@ -173,6 +178,7 @@
 10.16.0.33 turtle
 10.16.0.34 tortoise
 10.16.0.35 nuc3
+10.16.0.36 mnuc00
 10.16.0.128 sf-lab-net-dhcp128
 ...
 10.16.0.191 sf-lab-net-dhcp191

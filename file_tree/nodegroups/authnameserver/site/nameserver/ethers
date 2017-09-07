@@ -163,6 +163,11 @@ vader			52:54:00:ff:00:16
 # jabba			52:54:00:ff:00:17
 jabba			00:02:c9:4e:20:1e
 
+delta00			94:c6:91:11:4c:d4
+delta01			94:c6:91:10:6a:04
+delta02			94:c6:91:10:66:6b
+delta03			94:c6:91:10:69:5e
+
 wap01			c8:b5:ad:ca:bb:a8
 wap01-ble		9c:1d:58:0b:36:2b
 wap02			c8:b5:ad:ca:b9:40

@@ -38,7 +38,19 @@ dhcpd:
     gravelpit:
       hardware: ethernet 52:54:00:ff:00:0b
       fixed-address: gravelpit.internal.sifive.com
-    mnuc00:
-      hardware: ethernet 94:c6:91:11:4b:c6
-      fixed-address: mnuc00.internal.sifive.com
+    delta00:
+      hardware: ethernet 94:c6:91:11:4c:d4
+      fixed-address: delta00.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    delta01:
+      hardware: ethernet 94:c6:91:10:6a:04
+      fixed-address: delta01.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    delta02:
+      hardware: ethernet 94:c6:91:10:;66:6b
+      fixed-address: delta02.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    delta03:
+      hardware: ethernet 94:c6:91:10:69:5e
+      fixed-address: delta03.internal.sifive.com
       next-server: tftpboot.internal.sifive.com

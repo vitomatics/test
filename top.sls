@@ -185,11 +185,11 @@ base:
     - profile.login
     - hosts.nuc2
 
-  'mnuc00.internal.sifive.com':
+  'delta*.internal.sifive.com':
     - subnet.sf-unix
     - profile.sfamtutil
     - profile.managed-nuc
-    - hosts.mnuc00
+    - hosts.delta
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
