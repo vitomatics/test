@@ -40,7 +40,6 @@ b0		IN	A	10.14.1.6
 
 gravelpit	IN	A	10.14.3.6
 ldaptest	IN	CNAME	gravelpit
-mnuc00		IN	A	10.14.3.7
 
 delta00		IN	A	10.14.4.2
 delta01		IN	A	10.14.4.3
