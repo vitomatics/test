@@ -47,7 +47,7 @@ dhcpd:
       fixed-address: delta01.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     delta02:
-      hardware: ethernet 94:c6:91:10:;66:6b
+      hardware: ethernet 94:c6:91:10:66:6b
       fixed-address: delta02.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     delta03:
