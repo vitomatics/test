@@ -126,7 +126,10 @@ nuc3			f4:4d:30:6c:dd:00
 mnuc00			94:c6:91:11:4b:c6
 # A network card that is often used on the VC707 FPGA setup
 turtle			00:0a:cd:29:9e:45
+# Another FPGA card
 tortoise		68:05:ca:3d:a7:23
+# A third FPGA card
+terrapin		68:05:ca:2d:95:c3
 
 # advisor			00:16:3e:fe:fa:3b
 # breencast		00:16:3e:e1:83:aa
