@@ -65,6 +65,7 @@ base:
     - profile.login
     - profile.slurm-client
     - profile.nomachine-eval
+    - profile.sfamtutil
     - profile.ganglia-node-server
     - hosts.algol
 
