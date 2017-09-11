@@ -414,6 +414,30 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: compute_disk
+        delta00:
+          subnet: sf-dynamic
+          kargs: text nomodeset xforcevesa
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: compute_disk
+        delta01:
+          subnet: sf-dynamic
+          kargs: text nomodeset xforcevesa
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: compute_disk
+        delta02:
+          subnet: sf-dynamic
+          kargs: text nomodeset xforcevesa
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: compute_disk
+        delta03:
+          subnet: sf-dynamic
+          kargs: text nomodeset xforcevesa
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: compute_disk
         omega1:
           ipaddress: 10.14.1.5
           subnet: sf-static
