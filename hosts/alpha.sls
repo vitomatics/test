@@ -33,7 +33,7 @@ disksetup:
         - sdb
   lvs:
     scratch:
-      size: 100G
+      size: 3500G
       vg: vg_disk2
 
   mounts:
