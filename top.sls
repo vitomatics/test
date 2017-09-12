@@ -24,6 +24,7 @@ base:
     - profile.timeserver
     - profile.dhcpserver-sf
     - profile.ganglia-node-server
+    - profile.sfamtutil
     - profile.pinglog-sm
     - hosts.hansolo
 
