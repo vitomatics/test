@@ -72,20 +72,20 @@ dhcpd:
       next-server: tftpboot.internal.sifive.com
     # Lab machines
     nuc1:
-      hardware: f4:4d:30:61:c2:49
+      hardware: ethernet f4:4d:30:61:c2:49
       fixed-address: nuc1.internal.sifive.com
     nuc2:
-      hardware: f4:4d:30:6c:dd:00
+      hardware: ethernet f4:4d:30:6c:dd:00
       fixed-address: nuc2.internal.sifive.com
     mnuc00:
-      hardware: 94:c6:91:11:4b:c6
+      hardware: ethernet 94:c6:91:11:4b:c6
       fixed-address: mnuc00.internal.sifive.com
     turtle:
-      hardware: 00:0a:cd:29:9e:45
+      hardware: ethernet 00:0a:cd:29:9e:45
       fixed-address: turtle.internal.sifive.com
     tortoise:
-      hardware: 68:05:ca:3d:a7:23
+      hardware: ethernet 68:05:ca:3d:a7:23
       fixed-address: tortoise.internal.sifive.com
     terrapin:
-      hardware: 68:05:ca:2d:95:c3
+      hardware: ethernet 68:05:ca:2d:95:c3
       fixed-address: terrapin.internal.sifive.com
