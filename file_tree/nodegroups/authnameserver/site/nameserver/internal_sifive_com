@@ -227,6 +227,7 @@ turtle			IN	A	10.16.0.33
 tortoise		IN	A	10.16.0.34
 nuc3			IN	A	10.16.0.35
 mnuc00			IN	A	10.16.0.36
+terrapin		IN	A	10.16.0.37
 
 router03-ge0-0-4	IN	A	10.17.0.1
 sf-laptop-net-gw	IN	CNAME	router03-ge0-0-4
