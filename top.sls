@@ -189,6 +189,9 @@ base:
 
   'delta*.internal.sifive.com':
     - subnet.sf-unix
+    - profile.devel
+    - profile.clusterclient
+    - profile.jenkins-slave
     - profile.sfamtutil
     - profile.managed-nuc
     - hosts.delta
