@@ -128,6 +128,9 @@ pkgs:
     dita-ot: true
     dita-ot-doc: true
     xalan: true
+    libxalan-c-doc: true
+    libxalan2-java: true
+    libxalan2-java-doc: true
     
     ## gtkwave, both src and pkg
     gtkwave: true
