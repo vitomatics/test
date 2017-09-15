@@ -125,7 +125,9 @@ pkgs:
     dblatex: true
     python3-docutils: true
     python-docutils: true
-
+    dita-ot: true
+    dita-ot-doc: true
+    
     ## gtkwave, both src and pkg
     gtkwave: true
     libjudydebian1: true
