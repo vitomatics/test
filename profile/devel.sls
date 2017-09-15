@@ -127,6 +127,7 @@ pkgs:
     python-docutils: true
     dita-ot: true
     dita-ot-doc: true
+    xalan: true
     
     ## gtkwave, both src and pkg
     gtkwave: true
