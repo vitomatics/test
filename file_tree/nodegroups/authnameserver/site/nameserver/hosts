@@ -168,6 +168,7 @@
 10.15.240.163 wap04-admin wap04
 10.15.240.164 wap05-admin wap05
 10.15.240.192 router01-admin router01
+..
 10.15.240.194 router03-admin router03
 # 10.15.255.255 RESERVED - do not use
 
@@ -311,17 +312,13 @@
 
 ## 96.72.175.168->96.72.175.175 comcast-net
 # 96.72.175.168 RESERVED - do not use
-# 96.72.175.169 unused
-# 96.72.175.170 unused
+96.72.175.169 router01-ge0-0-0
+96.72.175.170 back-nat
 # 96.72.175.171 unused
 # 96.72.175.172 unused
 # 96.72.175.173 unused
 96.72.175.174 comcast-net-gw
 # 96.72.175.175 RESERVED - do not use
-
-Subnet IPv4:  96.72.175.168/29
-Comcast router: 96.72.175.174
-SiFive addresses: 96.72.175.169.173
 
 ## 169.254.0.0->169.254.255.255 he-netapp-net
 ## RESERVED for use by netapp internal networks
@@ -342,6 +339,17 @@ SiFive addresses: 96.72.175.169.173
 # 172.16.123.103 poly02         # door-side conference room polycom
 
 # 172.16.123.255 RESERVED - do not use
+
+## 192.168.13.0->192.168.13.255 sf-back-net
+# 192.168.13.0 RESERVED - do not use
+192.168.13.1 sf-back-net-gw router01-ge0-0-5
+...
+192.168.13.128 sf-back-dhcp128
+...
+192.168.13.254 sf-back-dhcp254
+...
+# 192.168.13.255 RESERVED - do not use
+
 
 ## 192.168.14.0->192.168.14.255 sf-guest-net
 # 192.168.14.0 RESERVED - do not use
