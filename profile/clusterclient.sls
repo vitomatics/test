@@ -23,6 +23,7 @@ autofs:
       mountpoint: /nettmp
       map:
         netapp1a: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/nettmp
+        aloe: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/aloe
 
 
 pam:
