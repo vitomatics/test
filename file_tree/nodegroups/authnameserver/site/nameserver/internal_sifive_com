@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017091101 ; serial number
+	2017091801 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -228,6 +228,11 @@ tortoise		IN	A	10.16.0.34
 nuc3			IN	A	10.16.0.35
 mnuc00			IN	A	10.16.0.36
 terrapin		IN	A	10.16.0.37
+
+labusb00		IN	A	10.16.0.40
+labusb01		IN	A	10.16.0.41
+labusb02		IN	A	10.16.0.42
+labusb03		IN	A	10.16.0.43
 
 router03-ge0-0-4	IN	A	10.17.0.1
 sf-laptop-net-gw	IN	CNAME	router03-ge0-0-4

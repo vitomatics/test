@@ -131,6 +131,12 @@ tortoise		68:05:ca:3d:a7:23
 # A third FPGA card
 terrapin		68:05:ca:2d:95:c3
 
+## USB NICs on the lab network
+labusb00       	       d4:6e:0e:06:6b:fb
+labusb01       	       d4:6e:0e:0e:f3:a6
+labusb02	       d4:6e:0e:06:6c:23
+labusb03               d4:6e:0e:05:ed:3a
+
 # advisor			00:16:3e:fe:fa:3b
 # breencast		00:16:3e:e1:83:aa
 # canal				00:16:3e:fe:fa:3b
