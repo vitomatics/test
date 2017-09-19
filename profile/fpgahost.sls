@@ -24,14 +24,14 @@ udev:
       'FPGA simulated CPU console (Cygnal)':
         - 'SUBSYSTEM=="tty"'
         - 'ATTRS{idVendor}=="10c4"'
-        - 'ATTRS(idProduct}=="ea60"'
+        - 'ATTRS{idProduct}=="ea60"'
         - 'GROUP="{{ compute }}"'
         - 'MODE="0660"'
         - 'SYMLINK+="ttyTESTCON"'
       'FPGA simulated CPU JTAG (Olimex)':
         - 'SUBSYSTEM=="tty"'
         - 'ATTRS{idVendor}=="15ba"'
-        - 'ATTRS(idProduct}=="002a"'
+        - 'ATTRS{idProduct}=="002a"'
         - 'GROUP="{{ compute }}"'
         - 'MODE="0660"'
         - 'SYMLINK+="ttyTESTJTAG"'
