@@ -54,18 +54,20 @@ sfsalt:
         - lambda00.internal.sifive.com
       compute:
         - gamma*.internal.sifive.com
-        - i0.internal.sifive.com
+        - alpha.internal.sifive.com
         - b0.internal.sifive.com
+        - delta*.internal.sifive.com
       devel:
         - algol.internal.sifive.com
+        - alpha.internal.sifive.com
         - altair.internal.sifive.com
+        - b0.internal.sifive.com
         - betel.internal.sifive.com
+        - delta*.internal.sifive.com
         - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
-        - i0.internal.sifive.com
-        - b0.internal.sifive.com
-        - tardis.internal.sifive.com
         - lambda00.internal.sifive.com
+        - tardis.internal.sifive.com
       vmhost:
         - eddie.internal.sifive.com
         - marvin.internal.sifive.com
@@ -101,12 +103,14 @@ sfsalt:
         - jarjar.internal.sifive.com
       unisolated:
         - algol.internal.sifive.com
+        - alpha.internal.sifive.com
         - altair.internal.sifive.com
         - b0.internal.sifive.com
         - bender.internal.sifive.com
         - betel.internal.sifive.com
         - combine.internal.sifive.com
         - dalek.internal.sifive.com
+        - delta*.internal.sifive.com
         - eddie.internal.sifive.com
         - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
@@ -115,7 +119,6 @@ sfsalt:
         - gravelpit.internal.sifive.com
         - grid.internal.sifive.com
         - hansolo.internal.sifive.com
-        - i0.internal.sifive.com
         - jabba.internal.sifive.com
         - jarjar.internal.sifive.com
         - klingon.internal.sifive.com
