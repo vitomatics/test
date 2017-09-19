@@ -155,6 +155,9 @@ pkgs:
     python-sympy-doc: true
     {% endif %}
 
+    # OCaml
+    oasis: true
+
     ## general development
     libncurses5-dev: true
     libglib2.0-dev: true
