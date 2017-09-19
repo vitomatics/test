@@ -193,6 +193,7 @@ base:
     - profile.clusterclient
     - profile.jenkins-slave
     - profile.sfamtutil
+    - profile.fpgahost
     - profile.managed-nuc
     - hosts.delta
 
