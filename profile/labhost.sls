@@ -1,3 +1,7 @@
+# udev config for a "labhost" which can have multiple
+# FPGA boards attached with the boards IDd on the basis of board type
+# See the fpgahost profile for the setup on FPGA machines.
+
 states:
   udev: true
 
