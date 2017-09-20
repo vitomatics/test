@@ -16,19 +16,19 @@ states:
 udev:
   rules:
     99-sifive-fpga:
-      'FTDI JTAG port (FTDI USB)':
+      'FTDI JTAG port (USB)':
         - 'SUBSYSTEM=="usb"'
         - 'ATTRS{idVendor}=="0403"'
         - 'ATTRS{idProduct}=="6010"'
         - 'GROUP="{{ compute }}"'
         - 'MODE="0660"'
-      'FTDI serial port (FTDI tty)':
+      'FTDI serial port (tty)':
         - 'SUBSYSTEM=="tty"'
         - 'ATTRS{idVendor}=="0403"'
         - 'ATTRS{idProduct}=="6010"'
         - 'GROUP="{{ compute }}"'
         - 'MODE="0660"'
-      'FPGA simulated CPU JTAG (Olimex USB)':
+      'Olimex JTAG (USB)':
         - 'SUBSYSTEM=="usb"'
         - 'ATTRS{idVendor}=="15ba"'
         - 'ATTRS{idProduct}=="002a"'
