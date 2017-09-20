@@ -16,13 +16,13 @@ states:
 udev:
   rules:
     99-sifive-fpga:
-      'FPGA management port (FTDI USB)':
+      'FTDI JTAG port (FTDI USB)':
         - 'SUBSYSTEM=="usb"'
         - 'ATTRS{idVendor}=="0403"'
         - 'ATTRS{idProduct}=="6010"'
         - 'GROUP="{{ compute }}"'
         - 'MODE="0660"'
-      'FPGA serial port (FTDI tty)':
+      'FTDI serial port (FTDI tty)':
         - 'SUBSYSTEM=="tty"'
         - 'ATTRS{idVendor}=="0403"'
         - 'ATTRS{idProduct}=="6010"'
@@ -34,18 +34,10 @@ udev:
         - 'ATTRS{idProduct}=="002a"'
         - 'GROUP="{{ compute }}"'
         - 'MODE="0660"'
-      # A special case of the FPGA serial port that is an arty console
-      'Arty console port (FTDI TTY)':
-        - 'SUBSYSTEM=="tty"'
-        - 'ATTRS{idVendor}=="0403"'
-        - 'ATTRS{idProduct}=="6010"'
-        - 'ATTRS{product}=="Digilent USB Device"'
-        - 'SYMLINK+="tty.sifive-testhost"'
-      # Cygnal tty devices are always VC707 consoles
-      'VC707 console port (Cygnal TTY)':
+      'VC707 console port (Cygnal tty)':
         - 'SUBSYSTEM=="tty"'
         - 'ATTRS{idVendor}=="10c4"'
         - 'ATTRS{idProduct}=="ea60"'
         - 'GROUP="{{ compute }}"'
         - 'MODE="0660"'
-        - 'SYMLINK+="tty.sifive-testhost"'
+
