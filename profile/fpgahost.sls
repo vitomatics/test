@@ -6,6 +6,7 @@
 
 states:
   udev: true
+  sffpga: true
 
 # NOTE: Since udevd starts before sssd, it cannot resolve LDAP groups
 # during the initial coldplug phase.  Use numerical GIDs instead.
