@@ -35,8 +35,6 @@ flexnet:
       licenses: { }
     cdslmd:
       licenses: { }
-    mgcld:
-      licenses: { }
     interrad:
       licenses: { }
 
