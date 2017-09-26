@@ -74,7 +74,7 @@ sfdump:
       client: netapp1-nfs1.internal.sifive.com
       export: /work
       dest: /sfbackup/dumps/work
-      bwlimit: 10000
+      bwlimit: 12000
       snaptype: netapp_daily
       acls: false
       xattrs: false
@@ -83,7 +83,7 @@ sfdump:
       client: netapp1-nfs1.internal.sifive.com
       export: /homes
       dest: /sfbackup/dumps/homes
-      bwlimit: 10000
+      bwlimit: 12000
       snaptype: netapp_daily
       acls: false
       xattrs: false
@@ -92,7 +92,7 @@ sfdump:
       client: netapp1-nfs1.internal.sifive.com
       export: /sifive
       dest: /sfbackup/dumps/sifive
-      bwlimit: 10000
+      bwlimit: 12000
       snaptype: netapp_daily
       acls: false
       xattrs: false
