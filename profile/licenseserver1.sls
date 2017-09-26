@@ -3,6 +3,7 @@
 states:
   firewall.iptables: true
   flexnet: true
+  flexnet.checkexpire: true
 
 flexnet:
   lookup:

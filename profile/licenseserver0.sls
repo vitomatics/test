@@ -1,8 +1,9 @@
 ## pillar file for the secondary license server
 
 states:
-  flexnet: true
   firewall.iptables: true
+  flexnet: true
+  flexnet.checkexpire: true
 
 flexnet:
   lookup:
