@@ -1,18 +1,10 @@
 ## pillar file for the secondary license server
 
-states:
-  firewall.iptables: true
-  flexnet: true
-  flexnet.checkexpire: true
+include:
+  - profile.licenseserver
+
 
 flexnet:
-  lookup:
-    logdir: /srv/flexlm/log
-    licensedir: /srv/flexlm/licenses
-    downloaddir: /srv/flexlm/downloads
-    vendordir: /srv/flexlm/vendor
-    user: flexlm
-    group: nogroup
   servername: jarjar.internal.sifive.com
   serverid: '525400ff0015'
   vendors:
