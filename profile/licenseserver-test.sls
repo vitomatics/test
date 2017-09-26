@@ -29,10 +29,11 @@ flexnet:
       licenses:
         xilinx-20170519:
           pillar: site:licenses:xilinxd:xilinx-20170519
+{#
     snpslmd: ~
     smartdv: ~
     cdslmd: ~
     mgcld: ~
     interrad: ~
 
-
+#}
