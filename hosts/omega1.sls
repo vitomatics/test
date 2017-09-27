@@ -96,5 +96,5 @@ sfdump:
       snaptype: netapp_daily
       acls: false
       xattrs: false
-      timeout: 6h
+      timeout: 8h
       absent: false
