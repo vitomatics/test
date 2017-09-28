@@ -15,3 +15,5 @@ flexnet:
     group: nogroup
     checkmailto: flexlm-check@sifive.com
     checkmaildays: '7'
+    logmailto: root@sifive.com
+    logmaildays: '14'
