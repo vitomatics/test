@@ -24,11 +24,13 @@ flexnet:
       vport: 1718
       licenses:
         mentor-20170725:
-          pillar: site:licenses:mgcld:mentor-20170725
+          absent: true
         mentor-20170817:
-          pillar: site:licenses:mgcld:mentor-20170817
+          absent: true
         mentor-20170823:
           pillar: site:licenses:mgcld:mentor-20170823
+        mentor-20170928:
+          pillar: site:licenses:mgcld:mentor-20170928
     xilinxd:
       vendor: xilinx
       bindir: linux_flexlm_v11.13.1.3/lnx64.o
