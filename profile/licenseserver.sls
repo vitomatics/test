@@ -4,6 +4,7 @@ states:
   firewall.iptables: true
   flexnet: true
   flexnet.checkexpire: true
+  flexnet.checklogs: true
 
 flexnet:
   lookup:
