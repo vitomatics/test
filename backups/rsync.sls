@@ -118,6 +118,17 @@ sfdump:
       acls: true
       xattrs: true
       key: sfdump_hog_key1
-      days: 2
+      days: 14
+      weeks: 8
+    jarjar-onsite:
+      client: jarjar.internal.sifive.com
+      server: heartofgold.internal.sifive.com
+      src: /srv
+      dest: /sfbackup/dumps/jarjar-srv
+      compression: false
+      acls: true
+      xattrs: true
+      key: sfdump_hog_key1
+      days: 14
       weeks: 8
     ##### old backups #####
