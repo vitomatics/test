@@ -1,4 +1,4 @@
-#Date: 09/06/2017
+#Date: 09/28/2017
 #SNPS ID: PRD
 #                                                                        SYNOPSYS INC. KEY CERTIFICATE
 #                                                                        Site ID: 35908
@@ -32,43 +32,43 @@
 #vendor daemon (cvd) format license files must be verified with the 'sssverify' utility.
 #
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Synopsys License file created by CVDKIF 4.1 on September 06, 2017 at 14:35:47 for daemon snpslmd
+# Synopsys License file created by CVDKIF 4.1 on September 28, 2017 at 13:55:50 for daemon snpslmd
 SERVER hostname1 0002C94E201E 27020
 VENDOR snpslmd /path/to/snpslmd
 USE_SERVER
-INCREMENT SSST snpslmd 1.0 20-Sep-2017 1 DE7B20769D7B6C4D5DC7 \
-        VENDOR_STRING="12791 79840 ade66 81ade 4be49 a9eb0 be1ad e4be4 9a9eb 0be11 \
-        01020 078ad fb473 b62ed e3f5e 3491d d5754 00914 435c7 efb7a \
-        65bcc 6d338 ff61f 70b8e b772d c3b96 88575 188cd 33695 d3a0e \
-        af995 012cc b610a 864cf 28b94 2cc08 8ebbd ae5ed 70bd2 b6cf9 \
-        27efd 46db8 162b3 c30bc 0c9d8 f486b 77753 c36b4 9f5d4 aa94f \
-        9a87f 33212 80e13 f006f 9258f 2ad83 8f1ae 5219e 58c0e 9cbbc \
-        1cdaa fcc2c e97d0 d3654 6d21b 42863 e58b9 189f3 ec0b5 94b54 \
-        e4c76 addfa fc935 2428b bfb15 de9d8 33079 0c049 2806e 7947a \
-        27de6 29d6b 32c31 93ce3 1d503 562a6 da92a 55a76 c76ec d5d77 \
-        c2939 9b269 140a0 17a23 d55aa 17966 9e4b3 0dd12 18ee6 365fc \
-        295e1 619f0 d334a 00fcd 6e5a3 98aea 425f8 e7394 fb476 76062 \
-        de55d 23ece ff5fd f48" \
+INCREMENT SSST snpslmd 1.0 11-Oct-2017 1 2ECB31CC3A6CE8918C3C \
+        VENDOR_STRING="66438 c2bf8 978c8 0ec05 b79f6 0f204 3aec0 5b79f 60f20 43a11 \
+        01020 05b75 c8568 7a4f6 56c80 4b892 dd853 49776 4a797 948ca \
+        fa8f0 2452f dc008 563f3 a8404 195d9 523c9 58778 1e9a6 09632 \
+        671e5 6bfb7 fa559 371ae a42b3 293f4 42339 acbf4 75ed5 d330b \
+        a18d1 635be 68e23 431ef 3b892 d1b53 ea96c 35dd0 08b18 b77a4 \
+        5e3ef 722bb 36416 4e6b7 bdc08 b4246 d5145 0f909 17d9e 6d5bc \
+        6710e 8a78c b8a5c 992b7 73e38 a76ea 9f608 ef684 82a58 8fcec \
+        0139a febb9 27cfa 9398e ab0ce d5cbe d5dc8 509df a59d0 17c55 \
+        defd2 21a93 9da93 9e97f fa4fa b5d21 0af50 a4662 c8f63 b4a53 \
+        bc1d8 9ff57 b8833 d9e99 93322 14d38 a1f84 91030 fb1ff 4e328 \
+        c4c76 76ea7 40636 71e92 2f17b 41df9 9fbd5 27b51 04d76 a88f6 \
+        1c589 ec2ee 60c7c 07e" \
         NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
         KEYS IN THIS FILE]" \
-        SN=TK:0:0:282866 ISSUER="Synopsys, Inc. [9/6/2017 14:35:47 35908 4.1]" \
-        START=06-Sep-2017
-INCREMENT GalaxyConstraint snpslmd 2017.06 20-sep-2017 16 \
-        ISSUED=06-sep-2017 ck=20 SN=TK:4770-0:474586:282866 \
-        START=06-sep-2017 AUTH={ snpslmd=( LK=DE8BB086745DB137094B) }
-INCREMENT Milkyway-Interface snpslmd 2017.06 20-sep-2017 16 \
-        ISSUED=06-sep-2017 ck=36 SN=TK:4770-0:474586:282866 \
-        START=06-sep-2017 AUTH={ snpslmd=( LK=6E3BA0963B19E4AD3205) }
-INCREMENT PrimeTime snpslmd 2017.06 20-sep-2017 16 ISSUED=06-sep-2017 \
-        ck=2 SN=TK:4770-0:474586:282866 START=06-sep-2017 AUTH={ \
-        snpslmd=( LK=8E9BF01663CEB0C389E4) }
-INCREMENT PrimeTime-ADV snpslmd 2017.06 20-sep-2017 16 \
-        ISSUED=06-sep-2017 ck=45 SN=TK:4770-0:474586:282866 \
-        START=06-sep-2017 AUTH={ snpslmd=( LK=DEAB40F66A21D2D659D4) }
-INCREMENT PrimeTime-PX snpslmd 2017.06 20-sep-2017 16 \
-        ISSUED=06-sep-2017 ck=26 SN=TK:4463-0:474586:282866 \
-        START=06-sep-2017 AUTH={ snpslmd=( LK=BE4B00967F52B8A21F4F) }
-INCREMENT PrimeTime-SI snpslmd 2017.06 20-sep-2017 16 \
-        ISSUED=06-sep-2017 ck=74 SN=TK:4770-0:474586:282866 \
-        START=06-sep-2017 AUTH={ snpslmd=( LK=1EABC096C2D51A455E35) }
+        SN=TK:0:0:847163 ISSUER="Synopsys, Inc. [9/28/2017 13:55:50 35908 4.1]" \
+        START=28-Sep-2017
+INCREMENT GalaxyConstraint snpslmd 2017.06 11-oct-2017 16 \
+        ISSUED=28-sep-2017 ck=84 SN=TK:4770-0:476513:847163 \
+        START=28-sep-2017 AUTH={ snpslmd=( LK=7EDB019C5F9A2FD0DED2) }
+INCREMENT Milkyway-Interface snpslmd 2017.06 11-oct-2017 16 \
+        ISSUED=28-sep-2017 ck=251 SN=TK:4770-0:476513:847163 \
+        START=28-sep-2017 AUTH={ snpslmd=( LK=CEDB013C363ABEF98702) }
+INCREMENT PrimeTime snpslmd 2017.06 11-oct-2017 16 ISSUED=28-sep-2017 \
+        ck=250 SN=TK:4770-0:476513:847163 START=28-sep-2017 AUTH={ \
+        snpslmd=( LK=0E2B01AC778665A3476F) }
+INCREMENT PrimeTime-ADV snpslmd 2017.06 11-oct-2017 16 \
+        ISSUED=28-sep-2017 ck=79 SN=TK:4770-0:476513:847163 \
+        START=28-sep-2017 AUTH={ snpslmd=( LK=9E8BA1ECA0A5E6681BA2) }
+INCREMENT PrimeTime-PX snpslmd 2017.06 11-oct-2017 16 \
+        ISSUED=28-sep-2017 ck=64 SN=TK:4463-0:476513:847163 \
+        START=28-sep-2017 AUTH={ snpslmd=( LK=6EEB713C1F97F43D67BC) }
+INCREMENT PrimeTime-SI snpslmd 2017.06 11-oct-2017 16 \
+        ISSUED=28-sep-2017 ck=93 SN=TK:4770-0:476513:847163 \
+        START=28-sep-2017 AUTH={ snpslmd=( LK=0EBB315C9BB3F34435B2) }
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
