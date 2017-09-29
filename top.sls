@@ -274,6 +274,7 @@ base:
     - subnet.he-unix01
     - profile.container
     - profile.licenseserver0
+    - profile.backupclient
     - hosts.jarjar
 
   'vader.internal.sifive.com':
