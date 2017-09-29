@@ -199,7 +199,6 @@ base:
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
-    - profile.licenseserver-test
     - hosts.gravelpit
 
   'hal.internal.sifive.com':
