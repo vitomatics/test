@@ -30,7 +30,7 @@ sftesthost:
       type: hifive
       subtype: hifive1
       alias: hifive0
-      console_type: ttyusb
+      console_type: usbtty
       console_dev: /dev/ttyusb0
       debug_type: ftdi
       debug_desc: auto
