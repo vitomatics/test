@@ -258,26 +258,26 @@ users:
     fullname: "SmartDV User 01"
     uid: 11001
     gid: 11001
-    authorized_keys:
+    # authorized_keys:
       # - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEApVq+0oSJAKqTqS2U2aCTpJajM4Noaus37bdY0jQIPisItn1IKOQJNb0OWh19JbidcGUyoBc7pEUYddR2wkHqy+6+X907cUVEwIYzuW8Q3BkaowE43Ia3Fnz4cjAILcRWO4FaASqfhQm/L6KLtP5XCv0yGKHw9v578FIZ1cpEi3FbclNe0CCTE9iL9+KRTFSf5DEyRdBEaQtUdnvko3Jb44rrE7p7GEtvRduKqa6e27m1mdrbjbnGlLO7k7pIpFIBWfgUSajSkPOlfHQenBFaqIhNwWlCq0N8D+qUil69zLbKpk+DGq0Ds58hmEMD54wzpsTr8Pa6kIxldNsEkML6bw== pranav@sdvt01-100-161
   sdvt02:
     tags: [ lambda00 ]
     fullname: "SmartDV User 02"
     uid: 11002
     gid: 11002
-    authorized_keys:
+    # authorized_keys:
       # - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAvqJ8aF4g4o5A8bg+GxihcA4eZBovHnCf+LcJMPbMfmTDUFEgaxOATcRF0Qh7da6vp4nrh2UQitI9SyLYvbMmgFMRBrxFT9vvSBqC8Bh6Xp6DQyZAQgI+brdNL8yUhtgpiboTy/q9ZaOYPpJavZK7bbha5pA6u8O6yn9dZ9ofyITbSoEEcZ9XCntkVgqUUifI0UNJtBam2P2OwncRaWZgOX3KtFzeUj7UfkZJX4X6ZbTBNbSbLFQzwbfNpIX7/UGEQs1XRa3rvPQS6Yb28sRtPkxlHuCE+X2cnXdOvOw0XhR3eBqASLwkSqRNcRsxsqdWzGa8NRBgesT8/a8NvWF77w== pranav@sdvt01-100-161
   sdvt03:
     tags: [ lambda00 ]
     fullname: "SmartDV User 03"
     uid: 11003
     gid: 11003
-    authorized_keys:
+    # authorized_keys:
       # - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAudOmu+JpZi2YoSrcBn3+ozZNMEntrGzKkcVjDy6FTrW8/L9j382MNCN4nWR1S5IP7xiXq7T24cDoko/G7yIILuo3nT35WNd3AS759gvzq5DvwdPB9O0Bt91jyyRgoebMX7Pr0YMa8NQBjrclemGzqUMMElcZ6n9z3oyTaroYG6+tiZNbbhf/VQJVzQf5/AR048vltesfstA0STptlgtlrTquMs+9xMTvlUa85QxBHM72ydB+gSaxwKJw4WhqwHm9bwCn5LR5I+VnGFlpngYSmfqdS/sIYZHZMKvp+zL1hV6iXI3uuzLMr00Y8sDVhVhy/a6pAb9AUnvjrovNWrYILQ== pranav@sdvt01-100-161
   sdvt04:
     tags: [ lambda00 ]
     fullname: "SmartDV User 04"
     uid: 11004
     gid: 11004
-    authorized_keys:
+    # authorized_keys:
       # - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA0iegaUYQ9zx4+FWsY5PcIItKN30lAJ9XNRmbns3xXRS4dMVEnJkY7F5eNwefF2qsrX7tLQ8RNK9TBdTJUCpWB4GjSyIBrgjtDjttCqM0pUaIJ7u+xXwFNSsEPsHrSIhGPOvklzy5sS9KPUdHXf8kxzq6zVObPoZ4Fye1EKj6hO8Yd6zo0khwuWDesQ2MxWmk7EWD9EsvXURwvG6ZMfNzG9Drd5Mv3fU4E5LApm2c4Mpz8sRWY0iXuKjACND0m8MiJ75i8eKvuZjDFP/I3C2TCa6JQLPs7t57RZgJqMLZnrMNMqisn1bj15zq4THYhz+VyD4glONNn+5QPBVL3D9f1Q== pranav@sdvt01-100-161
