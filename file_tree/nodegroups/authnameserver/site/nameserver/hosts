@@ -255,6 +255,12 @@
 10.100.200.14 iswitch25-ge0-0-0 iswitch25
 # 10.100.200.15 RESERVED
 
+##    10.100.200.128->10.100.200.131 - tran-router01-router03-net
+# 10.100.200.128 RESERVED
+10.100.200.129 router01-ge0-0-13
+10.100.200.130 router03-ge0-0-12
+# 10.100.200.131 RESERVED
+
 ## 10.101.0.0->10.101.0.255 - router-net
 10.101.0.1 router01-lo0
 10.101.0.3 router03-lo0
@@ -264,6 +270,7 @@
 10.101.0.121 iswitch21-lo0
 10.101.0.125 iswitch25-lo0
 
+10.101.1.1 router01-lo1
 10.101.1.111 iswitch11-lo1
 10.101.1.115 iswitch15-lo1
 10.101.1.121 iswitch21-lo1
