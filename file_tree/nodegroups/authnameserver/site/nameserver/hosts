@@ -297,6 +297,10 @@
 12.246.184.250 router03-ge0-0-0
 # 12.246.184.251 RESERVED - do not use
 
+## AWS gateway addresses
+34.214.75.213 aws-smaws1a-vpn
+35.164.56.48 aws-smaws1b-vpn
+
 
 ## 64.62.193.192->64.62.193.255 he-sifive-net
 # 64.62.193.192 RESERVED - do not use
@@ -322,12 +326,32 @@
 96.72.175.170 back-nat
 # 96.72.175.171 unused
 # 96.72.175.172 unused
-# 96.72.175.173 unused
+96.72.175.173 router01-ge0-0-12
 96.72.175.174 comcast-net-gw
 # 96.72.175.175 RESERVED - do not use
 
-## 169.254.0.0->169.254.255.255 he-netapp-net
-## RESERVED for use by netapp internal networks
+## 169.254.0.0->169.254.255.255 
+## used by NetApp internal networks
+## and AWS requires we use it for VPN tunnels
+
+## 169.254.100.252->169.254.100.255 -  tran-vpn-smaws1-net
+# 169.254.100.252 RESERVED
+169.254.100.253
+169.254.100.254
+# 169.254.100.255 RESERVED
+
+## 169.254.107.0->169.254.107.255 - he-netapp1-net
+# 169.254.107.0 RESERVED
+169.254.107.205 netapp01-01_clus1
+169.254.107.215 netapp01-01_clus2
+# 169.254.107.255 RESERVED
+
+## 169.254.121.0->169.254.121.255 - he-netapp2-net
+# 169.254.121.0 RESERVED
+169.254.121.133 netapp01-02_clus1
+169.254.121.143 netapp01-02_clus2
+# 169.254.121.255 RESERVED
+
 
 ## 172.16.1.0->172.16.1.255 sf-oldguest-net
 # 172.16.1.0 RESERVED - do not use
