@@ -107,6 +107,15 @@
 
 # 10.14.31.255 RESERVED - do not use
 
+## 10.14.128.0 -> 10.14.143.255 aws-unix-or1-net
+# 10.14.128.1 RESERVED - do not use
+# 10.14.128.2 RESERVED (aws) - do not use
+...
+10.14.129.2 aws-systest
+10.14.129.3 aws-fpgatest
+...
+10.14.143.255 RESERVED - do not use
+
 ## 10.15.0.0-> 10.15.15.255 sf-dev-net
 # 10.15.0.0 RESERVED - do not use
 10.15.0.1 router03-ge0-0-2

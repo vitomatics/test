@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017091801 ; serial number
+	2017100501 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -143,8 +143,13 @@ g14			IN	CNAME	gamma14
 netapp1-nfs1		IN	A	10.14.16.92
 netapp1-nfs2		IN	A	10.14.16.93
 
+
 iswitch25-vlan111	IN	A	10.14.17.1
 he-unix02-net-gw	IN	CNAME	iswitch25-vlan111
+
+awstest			IN	A	10.14.129.2
+fpgatest		IN	A	10.14.129.3
+
 
 router03-ge0-0-2	IN	A	10.15.0.1
 
