@@ -1,11 +1,11 @@
-#Date: 09/05/2017
+#Date: 10/05/2017
 #SNPS ID: PRD
 #                                                                        SYNOPSYS INC. KEY CERTIFICATE
 #                                                                        Site ID: 35908
 #                                                                        SiFive, Inc.
 #                                                                        1875 South Grant Street, Suite 600
 #                                                                        San Mateo
-#                                                                        CA 94402
+#                                                                        CA 94402-7013
 #                                                                        US
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
@@ -43,8 +43,8 @@
 # 3335-0:2994387                VCS MX                                   00000008 SUB  N     08/03/2016 08/02/2018 08/03/2016 08/02/2018 08/03/2016 08/02/2018
 # 3335-0:3199365                VCS MX                                   00000100 SUB  N     09/05/2017 08/04/2019 09/05/2017 08/04/2019 09/05/2017 10/05/2018
 # 4270-0:2994394                IC Compiler                              00000002 SUB  N     08/03/2016 08/02/2018 08/03/2016 08/02/2018 08/03/2016 08/02/2018
-# 4270-0:2997148                IC Compiler                              00000003 PK   N     08/15/2017 09/14/2017 08/15/2017 09/14/2017 08/15/2017 09/14/2017
 # 4270-0:2997148                IC Compiler                              00000002 PK   N     09/05/2017 10/05/2017 09/05/2017 10/05/2017 09/05/2017 10/05/2017
+# 4270-0:2997148                IC Compiler                              00000002 PK   N     10/05/2017 11/04/2017 10/05/2017 11/04/2017 10/05/2017 11/04/2017
 # 4280-0:2994374                DFTMAX                                   00000001 SUB  N     08/03/2016 08/02/2018 08/03/2016 08/02/2018 08/03/2016 08/02/2018
 # 4463-0:3199409                PrimeTime PX Add-On                      00000002 SUB  N     09/05/2017 08/04/2018 09/05/2017 08/04/2018 09/05/2017 08/04/2018
 # 4691-0:2994375                Design Compiler Graphical                00000002 SUB  N     08/03/2016 08/02/2018 08/03/2016 08/02/2018 08/03/2016 08/02/2018
@@ -83,26 +83,26 @@
 #vendor daemon (cvd) format license files must be verified with the 'sssverify' utility.
 #
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Synopsys License file created by CVDKIF 4.1 on September 05, 2017 at 14:49:39 for daemon snpslmd
+# Synopsys License file created by CVDKIF 4.1 on October 05, 2017 at 17:23:09 for daemon snpslmd
 SERVER hostname1 0002C94E201E 27020
 VENDOR snpslmd /path/to/snpslmd
 USE_SERVER
-INCREMENT SSS snpslmd 1.0 25-Aug-2020 1 6EABC0A56F54B9E9FDC8 \
-        VENDOR_STRING="e4104 7499b dd605 1fb88 6520f 98ad5 d9ca4 9ba09 a2f08 64a11 \
-        01020 056b4 22177 4532f 0548a 1ef02 745f2 879ed 3a1a4 a058c \
-        305ed d38f5 dfd8f 0a3ce 6e55e f4052 37fe0 81374 62d44 d4545 \
-        95edf c6257 95bda 97955 2abd4 f9317 8aeee 070d3 c3524 49cda \
-        7b5f8 a4dbb 2e4e1 9ab15 a8d80 0a47e a4cc7 3b73d 20585 ae9a2 \
-        beb56 0ff38 5e764 f26c5 b88e4 03871 519dd 4bf18 f4cbc d7427 \
-        99985 83ada 02e5d 96903 d39bc 0586d f45cb 4190b 6bf45 a2d84 \
-        77b60 7d1cb 1cc41 80f64 c718d e27bb 1624a e7b86 3edd7 2f22d \
-        f0520 6416c c34b7 9fb39 ac723 b993c 63779 801a9 5f564 63a99 \
-        53b09 89398 03b07 55fb4 c6820 8c1a1 03e95 ad5e3 a5d56 216ab \
-        4683b 286d6 d26a6 bcb5d b4c82 ff398 4852f 211fa 22ca7 fb163 \
-        c8241 bf3bf 3243a f4a" \
+INCREMENT SSS snpslmd 1.0 25-Aug-2020 1 8E0BE225F28DFD96CBED \
+        VENDOR_STRING="1aa7b dc09c bb170 99132 b9b5e 5c254 ca031 198fb a00ed 4d711 \
+        01020 058e9 c65f7 e5c8f 7c9e6 672ef 4cf82 8f823 9218c 563bc \
+        5dc6a 4fa0d b06b3 5cc05 0d3e0 0f155 81983 13f9b ed458 9d880 \
+        b7460 68aeb 21cd1 55877 070f1 55e37 c2a76 29f73 50216 2359a \
+        2757e fb167 8674c f16f0 53d0a 180e0 6883d 8d5e9 22067 834ab \
+        e3800 ceb19 2ac5e 1f18f f0590 5977d 10d1e f7829 f4e30 caa62 \
+        90cfc 9cef9 d43aa 4eae6 92318 37e0d af6d7 524c3 a1415 15d9e \
+        619d5 26eb5 c6813 80343 61a79 cad4a 8a667 5b9c2 e5130 06ea6 \
+        6c97c 6f2bd ffc6e e9cd6 98070 b0df3 ca17f 6a78b 36efb bef68 \
+        3df5a c7473 5bcfb 7ef1b 31e88 3831d ac1c5 0de44 e5819 ff105 \
+        fab25 f40b4 f75b0 45711 d4ea2 87814 80268 3c321 586e2 12196 \
+        823f1 4059e 45cb5 599" \
         NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSS OR ANY OTHER \
         KEYS IN THIS FILE]" \
-        SN=RK:0:0:883863 ISSUER="Synopsys, Inc. [9/5/2017 16:09:57 35908 3.17]" \
+        SN=RK:0:0:883863 ISSUER="Synopsys, Inc. [10/5/2017 17:23:10 35908 3.17]" \
         START=05-May-2016
 INCREMENT ACS snpslmd 2017.09 02-aug-2018 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=255 \
@@ -302,30 +302,34 @@ INCREMENT Galaxy-AdvCTS snpslmd 2017.09 05-oct-2017 2 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=68 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=4E1BF05525E4B6A32EE7) }
+INCREMENT Galaxy-AdvCTS snpslmd 2017.09 04-nov-2017 2 \
+        VENDOR_STRING=^1+S ISSUED=05-oct-2017 ck=108 \
+        SN=RK:4270-0:2997148:30497:788353 START=05-oct-2017 AUTH={ \
+        snpslmd=( LK=8EAB32F5D73B992FF7CF) }
 INCREMENT Galaxy-AdvCTS snpslmd 2017.09 02-aug-2018 2 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=74 \
         SN=RK:4270-0:2994394:883863 START=03-aug-2016 AUTH={ snpslmd=( \
         LK=6E0BC0F54E8715AFEBC7) }
-INCREMENT Galaxy-AdvCTS snpslmd 2017.06 14-sep-2017 3 \
-        VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=35 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=EECBE0757F7A40B9E540) }
 INCREMENT Galaxy-AdvTech snpslmd 2017.09 05-oct-2017 2 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=83 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=5EEBB0F5CAFCB528DAA3) }
+INCREMENT Galaxy-AdvTech snpslmd 2017.09 04-nov-2017 2 \
+        VENDOR_STRING=^1+S ISSUED=05-oct-2017 ck=18 \
+        SN=RK:4270-0:2997148:30497:788353 START=05-oct-2017 AUTH={ \
+        snpslmd=( LK=3EFB124544A1C62CE93C) }
 INCREMENT Galaxy-AdvTech snpslmd 2017.09 02-aug-2018 2 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=3 \
         SN=RK:4270-0:2994394:883863 START=03-aug-2016 AUTH={ snpslmd=( \
         LK=FE8BF0C5592DD3894476) }
-INCREMENT Galaxy-AdvTech snpslmd 2017.06 14-sep-2017 3 \
-        VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=55 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=AE2BA0D54CB7B1C83918) }
 INCREMENT Galaxy-Common snpslmd 2017.09 05-oct-2017 10 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=15 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=8EDBD0853F4D7E874CA9) }
+INCREMENT Galaxy-Common snpslmd 2017.09 04-nov-2017 10 \
+        VENDOR_STRING=^1+S ISSUED=05-oct-2017 ck=241 \
+        SN=RK:4270-0:2997148:30497:788353 START=05-oct-2017 AUTH={ \
+        snpslmd=( LK=9E6B221573121EB63C0D) }
 INCREMENT Galaxy-Common snpslmd 2017.09 02-aug-2018 10 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=41 \
         SN=RK:4270-0:2994394:883863 START=03-aug-2016 AUTH={ snpslmd=( \
@@ -338,126 +342,116 @@ INCREMENT Galaxy-Common snpslmd 2017.09 04-aug-2018 3 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=128 \
         SN=RK:2663-0:3199400:883863 START=05-sep-2017 AUTH={ snpslmd=( \
         LK=AE7B80B5AC0F5E288C85) }
-INCREMENT Galaxy-Common snpslmd 2017.06 14-sep-2017 15 \
-        VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=91 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=FE4B50A5F9466DA18A37) }
 INCREMENT Galaxy-DFT snpslmd 2017.09 05-oct-2017 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=57 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=8E2B009595DE9E3A1DE5) }
+INCREMENT Galaxy-DFT snpslmd 2017.09 04-nov-2017 2 VENDOR_STRING=^1+S \
+        ISSUED=05-oct-2017 ck=42 SN=RK:4270-0:2997148:30497:788353 \
+        START=05-oct-2017 AUTH={ snpslmd=( LK=2E2BF2B5C7B798C5A078) }
 INCREMENT Galaxy-DFT snpslmd 2017.09 02-aug-2018 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=139 \
         SN=RK:4270-0:2994394:883863 START=03-aug-2016 AUTH={ snpslmd=( \
         LK=6E7B1055601565428691) }
-INCREMENT Galaxy-DFT snpslmd 2017.06 14-sep-2017 3 VENDOR_STRING=^1+S \
-        SUPERSEDE ISSUED=05-sep-2017 ck=43 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=EEBBB015BD37BB2A7603) }
 INCREMENT Galaxy-DFY snpslmd 2017.09 05-oct-2017 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=79 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=0E4BA0450F596FA4EEBD) }
+INCREMENT Galaxy-DFY snpslmd 2017.09 04-nov-2017 2 VENDOR_STRING=^1+S \
+        ISSUED=05-oct-2017 ck=39 SN=RK:4270-0:2997148:30497:788353 \
+        START=05-oct-2017 AUTH={ snpslmd=( LK=FEFB62E506332272EA9F) }
 INCREMENT Galaxy-DFY snpslmd 2017.09 02-aug-2018 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=241 \
         SN=RK:4270-0:2994394:883863 START=03-aug-2016 AUTH={ snpslmd=( \
         LK=7E7BB04508082E45D477) }
-INCREMENT Galaxy-DFY snpslmd 2017.06 14-sep-2017 3 VENDOR_STRING=^1+S \
-        SUPERSEDE ISSUED=05-sep-2017 ck=243 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=7E7B8075EF92FF868454) }
 INCREMENT Galaxy-FP snpslmd 2017.09 05-oct-2017 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=40 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=2EEBB0850AC91A8D3E56) }
+INCREMENT Galaxy-FP snpslmd 2017.09 04-nov-2017 2 VENDOR_STRING=^1+S \
+        ISSUED=05-oct-2017 ck=74 SN=RK:4270-0:2997148:30497:788353 \
+        START=05-oct-2017 AUTH={ snpslmd=( LK=7EDB424584926DEB9353) }
 INCREMENT Galaxy-FP snpslmd 2017.09 02-aug-2018 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=68 SN=RK:4270-0:2994394:883863 \
         START=03-aug-2016 AUTH={ snpslmd=( LK=FEFB2035E8E77FEDF511) }
-INCREMENT Galaxy-FP snpslmd 2017.06 14-sep-2017 3 VENDOR_STRING=^1+S \
-        SUPERSEDE ISSUED=05-sep-2017 ck=34 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=8EFB20C5E4FAA2033D07) }
 INCREMENT Galaxy-ICC snpslmd 2017.09 05-oct-2017 10 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=17 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=BE0B0095FA0E29A4F033) }
+INCREMENT Galaxy-ICC snpslmd 2017.09 04-nov-2017 10 \
+        VENDOR_STRING=^1+S ISSUED=05-oct-2017 ck=50 \
+        SN=RK:4270-0:2997148:30497:788353 START=05-oct-2017 AUTH={ \
+        snpslmd=( LK=CE5B82A5DE390ED80366) }
 INCREMENT Galaxy-ICC snpslmd 2017.09 02-aug-2018 10 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=36 \
         SN=RK:4270-0:2994394:883863 START=03-aug-2016 AUTH={ snpslmd=( \
         LK=DEEB50E57D1BD244B3B1) }
-INCREMENT Galaxy-ICC snpslmd 2017.06 14-sep-2017 15 \
-        VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=62 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=4EEB20E50B66B52A02AF) }
 INCREMENT Galaxy-IU snpslmd 2017.09 05-oct-2017 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=18 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=8E1B00A55E808998A5FF) }
+INCREMENT Galaxy-IU snpslmd 2017.09 04-nov-2017 2 VENDOR_STRING=^1+S \
+        ISSUED=05-oct-2017 ck=69 SN=RK:4270-0:2997148:30497:788353 \
+        START=05-oct-2017 AUTH={ snpslmd=( LK=8E2B32E58805D1EDA1E4) }
 INCREMENT Galaxy-IU snpslmd 2017.09 02-aug-2018 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=75 SN=RK:4270-0:2994394:883863 \
         START=03-aug-2016 AUTH={ snpslmd=( LK=1EAB70F544CAC66899BC) }
-INCREMENT Galaxy-IU snpslmd 2017.06 14-sep-2017 3 VENDOR_STRING=^1+S \
-        SUPERSEDE ISSUED=05-sep-2017 ck=63 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=AE9B10C5F9BF1C12EB97) }
 INCREMENT Galaxy-MV snpslmd 2017.09 05-oct-2017 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=23 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=6EEB6095108EA4BD2E53) }
+INCREMENT Galaxy-MV snpslmd 2017.09 04-nov-2017 2 VENDOR_STRING=^1+S \
+        ISSUED=05-oct-2017 ck=72 SN=RK:4270-0:2997148:30497:788353 \
+        START=05-oct-2017 AUTH={ snpslmd=( LK=9E2B42A5DCFC12F50EAB) }
 INCREMENT Galaxy-MV snpslmd 2017.09 02-aug-2018 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=59 SN=RK:4270-0:2994394:883863 \
         START=03-aug-2016 AUTH={ snpslmd=( LK=8E3BA095E8AB7CFB3FD1) }
-INCREMENT Galaxy-MV snpslmd 2017.06 14-sep-2017 3 VENDOR_STRING=^1+S \
-        SUPERSEDE ISSUED=05-sep-2017 ck=27 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=DE4BC0857F3C95BAFF14) }
 INCREMENT Galaxy-PNR snpslmd 2017.09 05-oct-2017 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=75 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=0E0B10B5DC76BA30538B) }
+INCREMENT Galaxy-PNR snpslmd 2017.09 04-nov-2017 2 VENDOR_STRING=^1+S \
+        ISSUED=05-oct-2017 ck=7 SN=RK:4270-0:2997148:30497:788353 \
+        START=05-oct-2017 AUTH={ snpslmd=( LK=6E6BC2C5A33B6567E142) }
 INCREMENT Galaxy-PNR snpslmd 2017.09 02-aug-2018 2 VENDOR_STRING=^1+S \
         SUPERSEDE ISSUED=05-sep-2017 ck=3 SN=RK:4270-0:2994394:883863 \
         START=03-aug-2016 AUTH={ snpslmd=( LK=7EFB2065C43970E20FA3) }
-INCREMENT Galaxy-PNR snpslmd 2017.06 14-sep-2017 3 VENDOR_STRING=^1+S \
-        SUPERSEDE ISSUED=05-sep-2017 ck=250 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=7E5B0025841EFF31AC2D) }
 INCREMENT Galaxy-PSYN snpslmd 2017.09 05-oct-2017 2 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=197 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=DE9B402516060B1F012E) }
+INCREMENT Galaxy-PSYN snpslmd 2017.09 04-nov-2017 2 \
+        VENDOR_STRING=^1+S ISSUED=05-oct-2017 ck=17 \
+        SN=RK:4270-0:2997148:30497:788353 START=05-oct-2017 AUTH={ \
+        snpslmd=( LK=2EFB62154089395D1D6B) }
 INCREMENT Galaxy-PSYN snpslmd 2017.09 02-aug-2018 2 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=16 \
         SN=RK:4270-0:2994394:883863 START=03-aug-2016 AUTH={ snpslmd=( \
         LK=8EEB30652016989A741A) }
-INCREMENT Galaxy-PSYN snpslmd 2017.06 14-sep-2017 3 \
-        VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=78 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=BE8BE0454C638DFEBF5C) }
 INCREMENT Galaxy-Power snpslmd 2017.09 05-oct-2017 2 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=14 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=4E4B005502C652E0BC6F) }
+INCREMENT Galaxy-Power snpslmd 2017.09 04-nov-2017 2 \
+        VENDOR_STRING=^1+S ISSUED=05-oct-2017 ck=11 \
+        SN=RK:4270-0:2997148:30497:788353 START=05-oct-2017 AUTH={ \
+        snpslmd=( LK=CE1B92C54C6A504152E7) }
 INCREMENT Galaxy-Power snpslmd 2017.09 02-aug-2018 2 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=245 \
         SN=RK:4270-0:2994394:883863 START=03-aug-2016 AUTH={ snpslmd=( \
         LK=4EAB10A5C42E6CE368D7) }
-INCREMENT Galaxy-Power snpslmd 2017.06 14-sep-2017 3 \
-        VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=52 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=9E3B1085A993D04BBF82) }
 INCREMENT Galaxy-Prototype snpslmd 2017.09 05-oct-2017 2 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=223 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=3E3B40252E052896B0F7) }
+INCREMENT Galaxy-Prototype snpslmd 2017.09 04-nov-2017 2 \
+        VENDOR_STRING=^1+S ISSUED=05-oct-2017 ck=59 \
+        SN=RK:4270-0:2997148:30497:788353 START=05-oct-2017 AUTH={ \
+        snpslmd=( LK=1EFBD2856B8A6E459790) }
 INCREMENT Galaxy-Prototype snpslmd 2017.09 02-aug-2018 2 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=29 \
         SN=RK:4270-0:2994394:883863 START=03-aug-2016 AUTH={ snpslmd=( \
         LK=9E3BF075C41BE4957EE9) }
-INCREMENT Galaxy-Prototype snpslmd 2017.06 14-sep-2017 3 \
-        VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=3 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=1E7B70350028C2A52D11) }
 INCREMENT GalaxyConstraint snpslmd 2017.06 02-aug-2018 1 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=30 \
         SN=RK:3222-0:2994383:883863 START=03-aug-2016 AUTH={ snpslmd=( \
@@ -534,6 +528,10 @@ INCREMENT Milkyway-Interface snpslmd 2017.09 05-oct-2017 10 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=22 \
         SN=RK:4270-0:2997148:30355:883863 START=05-sep-2017 AUTH={ \
         snpslmd=( LK=FE9B10059E3803F29AEB) }
+INCREMENT Milkyway-Interface snpslmd 2017.09 04-nov-2017 10 \
+        VENDOR_STRING=^1+S ISSUED=05-oct-2017 ck=79 \
+        SN=RK:4270-0:2997148:30497:788353 START=05-oct-2017 AUTH={ \
+        snpslmd=( LK=1ECB3255B48F15C96EE2) }
 INCREMENT Milkyway-Interface snpslmd 2017.09 02-aug-2018 10 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=14 \
         SN=RK:4270-0:2994394:883863 START=03-aug-2016 AUTH={ snpslmd=( \
@@ -550,10 +548,6 @@ INCREMENT Milkyway-Interface snpslmd 2017.09 04-aug-2018 6 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=105 \
         SN=RK:2663-0:3199400:883863 START=05-sep-2017 AUTH={ snpslmd=( \
         LK=1E7BA045F2FE8B7BFD65) }
-INCREMENT Milkyway-Interface snpslmd 2017.06 14-sep-2017 15 \
-        VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=31 \
-        SN=RK:4270-0:2997148:30241:883863 START=15-aug-2017 AUTH={ \
-        snpslmd=( LK=FE9B00A51B3F0AD9E814) }
 INCREMENT Milkyway-Interface snpslmd 2017.06 02-aug-2018 1 \
         VENDOR_STRING=^1+S SUPERSEDE ISSUED=05-sep-2017 ck=12 \
         SN=RK:3222-0:2994383:883863 START=03-aug-2016 AUTH={ snpslmd=( \
