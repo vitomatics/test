@@ -5,7 +5,8 @@
 
 boot:
   grub:
-    serial: ~
+    serial:
+      port: 1
 
 sshguard:
   whitelist:
