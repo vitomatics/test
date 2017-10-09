@@ -4,6 +4,6 @@ states:
   file: true
 
 file:
-  fpgatest:
+  file:
     name: /tmp/davidj
     contents: "hello world"
