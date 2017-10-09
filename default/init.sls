@@ -9,9 +9,9 @@ include:
 
 states:
   file: true
+  hostname: true
 {% if grains.os_family != 'RedHat' %}
   timezone: true
-  hostname: true
   network: true
   network.resolver: true
   pam.access: true
