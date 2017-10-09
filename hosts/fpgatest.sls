@@ -5,5 +5,5 @@ states:
 
 file:
   file:
-    name: /tmp/davidj
-    contents: "hello world"
+    /tmp/davidj:
+      contents: "hello world"
