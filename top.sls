@@ -291,3 +291,6 @@ base:
     - profile.licenseserver1
     - profile.backupclient
     - hosts.jabba
+
+  'fpgatest.internal.sifive.com':
+    - hosts.fpgatest
