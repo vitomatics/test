@@ -8,8 +8,8 @@ include:
 
 
 states:
-{% if grains.os_family != 'RedHat' %}
   file: true
+{% if grains.os_family != 'RedHat' %}
   timezone: true
   hostname: true
   network: true
