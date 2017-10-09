@@ -1,3 +1,5 @@
+# Default settings specific to FreeBSD
+
 states:
   sendmail.absent: True
   openntpd: true

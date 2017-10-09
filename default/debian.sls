@@ -1,3 +1,5 @@
+# Default settings specific to Debian-style OSs
+
 {% set suite = {
     'Debian': 'jessie',
     'Ubuntu': grains.oscodename,

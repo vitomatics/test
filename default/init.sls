@@ -6,7 +6,9 @@ include:
   - default.{{ grains.os_family|lower }}
   - secret.default
 
+
 states:
+{% if grains.os_family != 'RedHat' %}
   file: true
   timezone: true
   hostname: true
@@ -23,6 +25,9 @@ states:
   sudo: true
   opensmtpd: true
   sfsalt.minion: true
+{% else %}
+{% endif %}
+
 
 network:
   resolver:
@@ -168,4 +173,5 @@ sfsalt:
       - minion.d/engine.conf
       - minion.d/reactor.conf
       - minond.d/f_defaults.conf
+
 
