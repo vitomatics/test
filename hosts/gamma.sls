@@ -3,4 +3,5 @@
 boot:
   grub:
     serial:
+      port: 1
 
