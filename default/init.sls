@@ -10,6 +10,7 @@ include:
 states:
   file: true
   hostname: true
+  sudo: true
 {% if grains.os_family != 'RedHat' %}
   timezone: true
   network: true
@@ -22,7 +23,6 @@ states:
   nsswitch: true
   ssh.server: true
   ssh.client: true
-  sudo: true
   opensmtpd: true
   sfsalt.minion: true
 {% else %}
