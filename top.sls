@@ -298,6 +298,6 @@ base:
     - profile.devel
     - hosts.fpgatest
 
-  'fpgatest.internal.sifive.com':
+  'awstest.internal.sifive.com':
     - subnet.aws
     - hosts.awstest
