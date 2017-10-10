@@ -222,14 +222,14 @@ pkgs:
     vinagre: true
 {% endif %}
 
-  listurl:
 {% if grains.os_family != 'RedHat' %}
+  listurl:
     libxp6: http://sfimages.internal.sifive.com/Ubuntu/trusty/amd64/libxp6_1.0.2-1ubuntu1_amd64.deb
 {% endif %}
   
+{% if grains.os_family != 'RedHat' %}
 file:
   ln:
-{% if grains.os_family != 'RedHat' %}
     # Needed by Synopsis core consultant
     /bin/awk: /usr/bin/awk
     # Copied from i0 - history unknown
