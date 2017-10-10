@@ -13,8 +13,6 @@ states:
   sudo: true
 {% if grains.os_family != 'RedHat' %}
   timezone: true
-  network: true
-  network.resolver: true
   pam.access: true
   pam.sss: true
   pam.pwquality: true

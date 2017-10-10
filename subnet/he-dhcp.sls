@@ -3,6 +3,11 @@
 include:
   - location.he
 
+states:
+  network: true
+  network.resolver: true
+
+
 # Pull DNS from DHCP
 network:
   resolver:

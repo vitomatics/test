@@ -3,6 +3,10 @@
 include:
   - location.he
 
+states:
+  network: true
+  network.resolver: true
+
 network:
   gateway: 10.14.16.1
   netmask: 255.255.255.0

@@ -3,6 +3,10 @@
 include:
   - location/sf
 
+states:
+  network: true
+  network.resolver: true
+
 network:
   gateway: 10.14.0.1
   netmask: 255.255.240.0

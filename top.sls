@@ -293,6 +293,11 @@ base:
     - hosts.jabba
 
   'fpgatest.internal.sifive.com':
+    - subnet.aws
     - accounts.fpgatest-accounts
     - profile.devel
     - hosts.fpgatest
+
+  'fpgatest.internal.sifive.com':
+    - subnet.aws
+    - hosts.awstest

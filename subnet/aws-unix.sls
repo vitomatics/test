@@ -1,17 +1,15 @@
-# Hurricane Electric iso01 subnet
+# AWS Unix subnet
 
 include:
-  - location.he
+  - location.aws
 
 states:
-  network: true
+  # Leave the main network config to aws
   network.resolver: true
+  # Leave the console stuff to EC2
+  boot.grub: false
 
 network:
-  gateway: 10.134.16.1
-  netmask: 255.255.255.0
-  
-
   # Use resolvconf for nameservers
   resolver:
     nameservers:
