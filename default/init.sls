@@ -11,13 +11,13 @@ states:
   file: true
   hostname: true
   sudo: true
+  kerberos.client: true
+  pam.access: true
 {% if grains.os_family != 'RedHat' %}
   timezone: true
-  pam.access: true
   pam.sss: true
   pam.pwquality: true
   pam.mkhomedir: true
-  kerberos.client: true
   nsswitch: true
   ssh.server: true
   ssh.client: true
