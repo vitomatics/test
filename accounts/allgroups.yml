@@ -9,7 +9,7 @@
 groups:
 # Global groups
   sysadmin:
-    tags: [ cluster, lambda00 ]
+    tags: [ cluster, lambda00, fpgatest ]
     gid: 9001
     addusers: [ davidj, aou ]
   compute:
@@ -39,3 +39,7 @@ groups:
     tags: [ lambda00 ]
     gid: 19002
     addusers: [ aou, hes, mikeyang, jchang, ali ]
+  fpgatest-users:
+    tags: [ fpgatest ]
+    gid: 19003
+    addusers: [ aou, davidj, hes ]

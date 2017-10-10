@@ -106,7 +106,7 @@ users:
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8PbMeQ6iusMrXzr4xTRLMtK9CXcrv+3X49f+vav9qHKVrdM95Om68P9zlgALe/j3621XjWWjtP8Hy37iuMF1d8YQf1eHZMV63hK5xdZYCCzJaDjtI5plMAISu+2cKAVxn4X+rlJWUhfHh4mkBOFijZyI9lai0M57t8KHydF1VdtEikgfV7QcyzWS5hdR7I2Fart36gDuJM/CgGGVcKik6hT9UGMSsdD2UTybOOPyQfvZz+5Aceux+N+p+My75kEphR5zWjxC3CxZCmloeIH0KZoc4YYFP51Gvyzkyrv1oRGlBPvZbjC+zjJHaIBI3kA0OzZoZIm3gs7zDU0O2eQfd Han Chen@DESKTOP-K3AP0PO
   aou:
-    tags: [ cluster, lambda00 ]
+    tags: [ cluster, lambda00, fpgatest ]
     fullname: "Albert Ou"
     uid: 1100
     gid: 1100
