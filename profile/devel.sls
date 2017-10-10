@@ -10,6 +10,18 @@ modules:
 
 pkgs:
   list:
+    ## Miscellaneous
+    tcsh: true
+    # needed by Cadence PVS
+    ksh: true
+    tree: true
+    zip: true
+    unzip: true
+
+    ## Interactive
+    emacs-nox: false
+    emacs: true
+    
 {% if grains.os_family != 'RedHat' %}
     lsb-core: true
     gcc-multilib: true
@@ -24,11 +36,7 @@ pkgs:
     ant: true
 
     ## Miscellaneous
-    tcsh: true
     finger: true
-    zip: true
-    unzip: true
-    tree: true
     parallel: true
     # needed by Cadence PVS
     ksh: true
@@ -57,8 +65,6 @@ pkgs:
     {% endif %}
     thunar: true
 
-    emacs-nox: false
-    emacs: true
     yaml-mode: true
     git-el: true
     nedit: true
