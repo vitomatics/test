@@ -293,4 +293,5 @@ base:
     - hosts.jabba
 
   'fpgatest.internal.sifive.com':
+    - accounts.fpgatest-accounts
     - hosts.fpgatest

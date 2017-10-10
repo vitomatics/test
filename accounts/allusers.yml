@@ -47,7 +47,7 @@ users:
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpzvUSQtIeCMfgoi84sIDcvTa1AkzMQeqL+WFCj7iZBZxuoH05zacpYvc44gvbv6h5v2wpBHwCfMd4v4B6xLD5KBZbk3tgNACgznqzTQ9Mgcwul5eAbPTtPq8uNbi1k9P6x7vo/dUpRNw8MQthFTOeq+Xhqx8liBdWyrK2k4gscKTbK5Et9I4rrEHrr7mTPTAQDjRa5xHW7eAyeY668sGJ8S2ivvCbgYJ2NYq1xbkFjXxyzRYbogjNfk2iN0oXgFFrdQU1prqFk7BV6ADqzwiS1640J0vmxOVVDFvTXVBjms/iZlz/nvTK77P06tZ00fmx3bH11gScDdqkIVdmrYNT jchang@i0.internal.sifive.com
   hes:
-    tags: [ cluster, lambda00 ]
+    tags: [ cluster, lambda00, fpgatest ]
     fullname: "Henry Styles"
     uid: 1109
     gid: 1109
@@ -91,7 +91,7 @@ users:
     # authorized_keys:
       # - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCbp8V8OCIveePy30KUMoQWjT9s448xHgyBuUPV8dC70Z8qsQfzSsiain8moNw5LspqwZ1HCYTGJDbeMcnIS3tD4eDZBbGFXOwjT8y4cF55de5wnWQHqRgKZXimFBHnbJrxAGQTEFhS1hN+EplYwrQ3FEZEbada2wnKqDiefJHTYZ7ikDglDzo8JzvTVKRY4bBw4t5zvRG/fXPpLNdFzXCwprCEeRfexBHJEsaOb+4Ud9qKt+gJI71vJWj80QY7lUoUNC+KYjkiYzxylGVxnNEn0Bp1znZ3Ce0w/99Lsl2RZ+4BfdfmydEsjHcRPm3gtySuuiyXC96482gr4h5XwQU5 ali@Alis-MacBook-Pro.local
   davidj:
-    tags: [ cluster, lambda00 ]
+    tags: [ cluster, lambda00, fpgatest ]
     fullname: "David Johnson"
     uid: 1108
     gid: 1108
