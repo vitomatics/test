@@ -294,4 +294,5 @@ base:
 
   'fpgatest.internal.sifive.com':
     - accounts.fpgatest-accounts
+    - profile.devel
     - hosts.fpgatest

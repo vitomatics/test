@@ -10,6 +10,7 @@ modules:
 
 pkgs:
   list:
+{% if grains.os_family != 'RedHat' %}
     lsb-core: true
     gcc-multilib: true
     g++-multilib: true
@@ -213,12 +214,16 @@ pkgs:
 
     # VNC
     vinagre: true
+{% endif %}
 
   listurl:
+{% if grains.os_family != 'RedHat' %}
     libxp6: http://sfimages.internal.sifive.com/Ubuntu/trusty/amd64/libxp6_1.0.2-1ubuntu1_amd64.deb
-
+{% endif %}
+  
 file:
   ln:
+{% if grains.os_family != 'RedHat' %}
     # Needed by Synopsis core consultant
     /bin/awk: /usr/bin/awk
     # Copied from i0 - history unknown
@@ -228,3 +233,4 @@ file:
     {% if grains.os == 'Ubuntu' %}
     /usr/lib/x86_64-linux-gnu/libmng.so.1: libmng.so.2
     {% endif %}
+{% endif %}
