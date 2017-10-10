@@ -300,4 +300,6 @@ base:
 
   'awstest.internal.sifive.com':
     - subnet.aws-unix
+    - profile.devel
+    - profile.clusterclient
     - hosts.awstest
