@@ -38,8 +38,6 @@ pkgs:
     ## Miscellaneous
     finger: true
     parallel: true
-    # needed by Cadence PVS
-    ksh: true
     fakeroot: true
     devscripts: true
     # This is for the "banner" command
