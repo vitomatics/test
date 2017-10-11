@@ -111,8 +111,9 @@
 # 10.14.128.1 RESERVED - do not use
 # 10.14.128.2 RESERVED (aws) - do not use
 ...
-10.14.129.2 aws-systest
-10.14.129.3 aws-fpgatest
+10.14.129.2 aws-awstest awstest
+10.14.129.3 aws-fpgatest fpgatest
+10.14.129.4 aws-rhtest rhtest
 ...
 10.14.143.255 RESERVED - do not use
 
