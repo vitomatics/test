@@ -303,3 +303,7 @@ base:
     - profile.devel
     - profile.clusterclient
     - hosts.awstest
+
+  'rhtest.internal.sifive.com':
+    - subnet.aws-unix
+    - hosts.rhtest
