@@ -9,5 +9,5 @@ sfaccount:
     home: /home
   # We host our own home directories
   servers:
-    {{grains.id}}: true
+    fpgatest.internal.sifive.com: true
 
