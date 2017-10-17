@@ -251,6 +251,11 @@ users:
     fullname: "Bipul Talukdar"
     uid: 1135
     gid: 1135
+  davidlee:
+    tags: [ cluster ]
+    fullname: "David Lee"
+    uid: 1136
+    gid: 1136
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
