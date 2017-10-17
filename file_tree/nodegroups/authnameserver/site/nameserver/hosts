@@ -350,6 +350,9 @@
 ## 169.254.0.0->169.254.255.255 
 ## used by NetApp internal networks
 ## and AWS requires we use it for VPN tunnels
+## Also default network for infinias door controller
+
+## 169.254.1.0->169.254.1.255 - sf-door-net
 
 ## 169.254.100.252->169.254.100.255 -  tran-vpn-smaws1-net
 # 169.254.100.252 RESERVED
@@ -432,7 +435,7 @@
 
 ## 192.168.133.0->192.168.133.255 sf-lab133-net
 
-## 192.168.134.0->192.168.134.255 sf-lab134-net
+## 192.168.134.0->192.168.134.255 sf-lab134-net sf-testhost-net
 
 ## 216.38.154.16->216.38.154.23 old sf-fast-net - no long our IPs
 # 216.38.154.16 RESERVED - do not use
