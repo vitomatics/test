@@ -204,12 +204,14 @@ base:
   'hal.internal.sifive.com':
     - subnet.he-unix01
     - profile.saltmaster
+    - profile.awsmaster
     - profile.ganglia-node-server
     - hosts.hal
 
   'viki.internal.sifive.com':
     - subnet.he-unix01
     - profile.saltmaster
+    - profile.awsmaster
     - profile.ganglia-node-server
     - hosts.viki
 
@@ -252,6 +254,7 @@ base:
     - subnet.he-unix01
     - profile.nameserver-auth
     - profile.sifive-noc
+    - profile.awsmaster
     - profile.backupclient
     - profile.pinglog-he
     - hosts.yoda

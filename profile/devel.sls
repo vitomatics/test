@@ -216,6 +216,13 @@ pkgs:
     # FPGA board tests
     sshpass: true
 
+    # AWS
+    python-boto: true
+    python3-boto: true
+    python-boto3: true
+    python3-boto3: true
+    awscli: true
+
     # VNC
     vinagre: true
 {% endif %}
