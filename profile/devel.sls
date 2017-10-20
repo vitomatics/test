@@ -173,6 +173,7 @@ pkgs:
     cmake: true
     diffstat: true
     chrpath: true
+    jq: true
 
     ## windows development
     mingw-w64: true
