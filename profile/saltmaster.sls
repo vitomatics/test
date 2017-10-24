@@ -142,7 +142,7 @@ sfsalt:
       file_tree:
         root_dir: {{saltroot}}/pillar/file_tree
       cmd_yaml: '/usr/lib/sfsalt/pillar-pki %s'
-      libvirt: libvirt
+      libvirt: 'libvirt'
       
 
 ## Salt master deploy keys
