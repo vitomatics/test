@@ -196,6 +196,9 @@ pkgs:
     # Synopsys "mw"
     libxext6:i386: true
 
+    # Synopsys VCS
+    dc: true
+
     # Mentor calibredrv
     libgstreamer0.10-0: true
 
