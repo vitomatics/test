@@ -2,7 +2,7 @@
 
 {% set sfimagedir = '/srv/images' %}
 {% set sfgroup = 'sysadmin' %}
-{% set ips = '10.14.0.0/16 10.134.0.0/16' %}
+{% set ips = '10.14.0.0/16 10.15.0.0/16 10.134.0.0/16' %}
 
 states:
   apache.vhosts.standard: true
