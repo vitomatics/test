@@ -19,7 +19,7 @@ apache:
     sfimages:
       enabled: True
       ServerName: sfimages.internal.sifive.com
-      ServerAlias: sfimages
+      ServerAlias: sfimages www.sfimages.internal.sifive.com
       ServerAdmin: help@sifive.com
       DocumentRoot: {{ sfimagedir }}
 
