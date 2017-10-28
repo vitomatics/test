@@ -165,7 +165,7 @@
 
 # 10.15.31.255 RESERVED - do not use
 
-## 10.15.240.0->10.15.255.255 sf-net-net
+## 10.15.240.0->10.15.255.255 sf-devnet-net
 # 10.15.240.0 RESERVED - do not use
 10.15.240.1 sf-devnet-net-gw router03-ge0-0-7 router03-admin router03
 10.15.240.128 iswitch01-admin iswitch01
