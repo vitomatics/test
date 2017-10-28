@@ -6,7 +6,7 @@ $ORIGIN	15.10.in-addr.arpa.
 $TTL	86400
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017082701 ; serial number
+	2017102801 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -56,17 +56,25 @@ $TTL	86400
 
 1.17	IN	PTR	iswitch21-vlan112.internal.sifive.com.
 
+1.224	IN	PTR	router11-ge0-0-6.internal.sifive.com.
+128.224	IN	PTR	iswitch11-me0.internal.sifive.com.
+129.224	IN	PTR	iswitch15-me0.internal.sifive.com.
+130.224	IN	PTR	iswitch21-me0.internal.sifive.com.
+131.224	IN	PTR	iswitch25-me0.internal.sifive.com.
+192.224	IN	PTR	router11-ge0-0-15.internal.sifive.com.
+193.224	IN	PTR	router12-ge0-0-15.internal.sifive.com.
+
 1.240	IN	PTR	router03-ge0-0-7.internal.sifive.com.
-128.240	IN	PTR	iswitch01-admin.internal.sifive.com.
-129.240	IN	PTR	iswitch02-admin.internal.sifive.com.
-130.240	IN	PTR	iswitch03-admin.internal.sifive.com.
+128.240	IN	PTR	iswitch01-me0.internal.sifive.com.
+129.240	IN	PTR	iswitch02-me0.internal.sifive.com.
+130.240	IN	PTR	iswitch03-me0.internal.sifive.com.
 159.240	IN	PTR	wac01-admin.internal.sifive.com.
 160.240	IN	PTR	wap01-admin.internal.sifive.com.
 161.240	IN	PTR	wap02-admin.internal.sifive.com.
 162.240	IN	PTR	wap03-admin.internal.sifive.com.
 163.240	IN	PTR	wap04-admin.internal.sifive.com.
 164.240	IN	PTR	wap05-admin.internal.sifive.com.
-192.240	IN	PTR	router01-admin.internal.sifive.com.
-194.240	IN	PTR	router03-admin.internal.sifive.com.
+192.240	IN	PTR	router01-ge0-0-15.internal.sifive.com.
+194.240	IN	PTR	router03-ge0-0-15.internal.sifive.com.
 
 

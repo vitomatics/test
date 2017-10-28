@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017101101 ; serial number
+	2017102801 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -199,6 +199,27 @@ netapp1-02-sp		IN	A	10.15.16.133
 iswitch21-vlan112	IN	A	10.15.17.1
 he-dev02-net-gw		IN	CNAME	iswitch21-vlan112
 
+router11-ge0-0-6	IN	A	10.15.224.1
+iswitch11-me0		IN	A	10.15.224.128
+iswitch11-admin		IN	CNAME	iswitch11-me0
+iswitch11		IN	CNAME	iswitch11-me0
+iswitch15-me0		IN	A	10.15.224.129
+iswitch15-admin		IN	CNAME	iswitch15-me0
+iswitch15		IN	CNAME	iswitch15-me0
+iswitch21-me0		IN	A	10.15.224.130
+iswitch21-admin		IN	CNAME	iswitch21-me0
+iswitch21		IN	CNAME	iswitch21-me0
+iswitch25-me0		IN	A	10.15.224.131
+iswitch25-admin		IN	CNAME	iswitch25-me0
+iswitch25		IN	CNAME	iswitch25-me0
+router11-ge0-0-15	IN	A	10.15.240.192
+router11-admin		IN	CNAME	router11-ge0-0-15
+router11		IN	CNAME	router11-ge0-0-15
+router12-ge0-0-15	IN	A	10.15.240.193
+router12-admin		IN	CNAME	router12-ge0-0-15
+router12		IN	CNAME	router12-ge0-0-15
+
+
 router03-ge0-0-7	IN	A	10.15.240.1
 iswitch01-admin		IN	A	10.15.240.128
 iswitch01		IN	CNAME	iswitch01-admin
@@ -253,16 +274,11 @@ router11-st0-0		IN	A	10.100.100.2
 
 router03-st0-0		IN	A	10.100.100.5
 router11-st0-1		IN	A	10.100.100.6
-router11		IN	CNAME	router11-st0-1
 
 iswitch11-ge0-2-0	IN	A	10.100.200.2
-iswitch11		IN	CNAME	iswitch11-ge0-2-0
 iswitch15-ge0-0-0	IN	A	10.100.200.6
-iswitch15		IN	CNAME	iswitch15-ge0-0-0
 iswitch21-ge0-2-0	IN	A	10.100.200.10
-iswitch21		IN	CNAME	iswitch21-ge0-2-0
 iswitch25-ge0-0-0	IN	A	10.100.200.14
-iswitch25		IN	CNAME	iswitch25-ge0-0-0
 
 router01-lo0	IN	A	10.101.0.1
 router11-lo0	IN	A	10.101.0.11
