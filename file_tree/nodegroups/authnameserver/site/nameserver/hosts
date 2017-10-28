@@ -165,6 +165,17 @@
 
 # 10.15.31.255 RESERVED - do not use
 
+## 10.15.224->10.15.239.255 he-devnet-net
+# 10.15.224.0 RESERVED - do not use
+10.15.224.1 he-devnet-net-gw 
+10.15.224.128 he-console-iswitch11 iswitch11-admin
+10.15.224.129 he-console-iswitch15 iswitch15-admin
+10.15.224.130 he-console-iswitch21 iswitch21-admin
+10.15.224.131 he-console-iswitch25 iswitch25-admin
+10.15.224.192 he-console-router11 router11-admin
+10.15.224.193 he-console-router12 router12-admin
+# 10.15.239.255 RESERVED - do not use
+
 ## 10.15.240.0->10.15.255.255 sf-devnet-net
 # 10.15.240.0 RESERVED - do not use
 10.15.240.1 sf-devnet-net-gw router03-ge0-0-7 router03-admin router03
@@ -413,16 +424,10 @@
 
 ## 192.168.15.0->192.168.15.255 he-console-net
 # 192.168.15.0 RESERVED - do not use
-192.168.15.2 he-console-router11 router11-mgmt
-192.168.15.3 he-console-iswitch11 iswitch11-mgmt
-192.168.15.4 he-console-iswitch15 iswitch15-mgmt
-192.168.15.5 he-console-iswitch21 iswitch21-mgmt
-192.168.15.6 he-console-iswitch25 iswitch25-mgmt
 # 192.168.15.255 RESERVED - do not use
 
 ## 192.168.17.0->192.168.17.255 sf-console-net
 # 192.168.17.0 RESERVED - do not use
-#
 # 192.168.17.255 RESERVED - do not use
 
 ## 192.168.129.0->192.168.129.255 sf-lab129-net
