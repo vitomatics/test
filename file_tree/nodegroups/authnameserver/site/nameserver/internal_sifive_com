@@ -113,6 +113,7 @@ gamma06			IN	A	10.14.16.70
 g06			IN	CNAME	gamma06
 gamma07			IN	A	10.14.16.71
 g07			IN	CNAME	gamma07
+firstlogin		IN	CNAME	gamma07
 
 altair			IN	A	10.14.16.72
 betel			IN	A	10.14.16.73
