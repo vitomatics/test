@@ -59,8 +59,8 @@ users:
     fullname: "Angie Wang"
     uid: 1113
     gid: 1113
-    authorized_keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDcfbJnyeTobR+3PmgqYHI2H/xLyHbcPIV0mMZSdhOK0EBgIB/zE+s0GDTOEiuWGM0C2pMIldz648IVUqHa0KeWsKWGvwfJ+eB+xApqsWuLajCdazSGhttmI4PixsRVl2MB3vu82Enf9Hp9uzBBoGn5kSKumo+OL2IdHF/R258f6qECZYjWh4glk2TpbHHgLRw0bdN2Cz4sF5HxyfA2QRoydl+2XsRPQhGYzUXkQGcAxDLKhkW2qroVDTFYyiRN90TlKQdJcgR8yX5zjlqqj0SPZ6N7HK+uCyNQScBmS6vUOuwGVZSw/s0v5Yb5fjZr8Wa/VJiRZe7i4R9ZBTNc4ox1 angie.wang@dhcp-63-217.eecs.berkeley.edu
+    # authorized_keys:
+      # - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDcfbJnyeTobR+3PmgqYHI2H/xLyHbcPIV0mMZSdhOK0EBgIB/zE+s0GDTOEiuWGM0C2pMIldz648IVUqHa0KeWsKWGvwfJ+eB+xApqsWuLajCdazSGhttmI4PixsRVl2MB3vu82Enf9Hp9uzBBoGn5kSKumo+OL2IdHF/R258f6qECZYjWh4glk2TpbHHgLRw0bdN2Cz4sF5HxyfA2QRoydl+2XsRPQhGYzUXkQGcAxDLKhkW2qroVDTFYyiRN90TlKQdJcgR8yX5zjlqqj0SPZ6N7HK+uCyNQScBmS6vUOuwGVZSw/s0v5Yb5fjZr8Wa/VJiRZe7i4R9ZBTNc4ox1 angie.wang@dhcp-63-217.eecs.berkeley.edu
   yunsup:
     tags: [ cluster ]
     fullname: "Yunsup Lee"
