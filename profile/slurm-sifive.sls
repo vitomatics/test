@@ -8,8 +8,6 @@ slurm:
   MessageTimeout: 60
   KillWait: 120
   BatchStartTimeout: 120
-  SlurmdTimeout: 400
-  SlurmctldTimeout: 180
 
   # Execution node
   ProctrackType: linuxproc
