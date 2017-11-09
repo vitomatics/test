@@ -60,7 +60,7 @@ slurm:
       MaxTime: '4:00:00'
       AllowQos: interactive,m2m,nightly,pr,weekly,tapeout
       nodes:
-        - 'gamma[14-15]'
+        - 'gamma14'
     test:
       nodes:
         - sandbox
