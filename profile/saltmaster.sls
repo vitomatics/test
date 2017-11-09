@@ -89,10 +89,12 @@ sfsalt:
         - betel.internal.sifive.com
         - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
+        - delta*.interan.sifive.com
         - sandbox.internal.sifive.com
         - grid.internal.sifive.com
       slurmnode:
         - gamma*.internal.sifive.com
+        - delta*.internal.sifive.com
         - sandbox.internal.sifive.com
       slurmserver:
         - grid.internal.sifive.com
