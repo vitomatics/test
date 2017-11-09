@@ -32,7 +32,11 @@ slurm:
       CPUs: 2
       RealMemory: '4096'
       Feature: testhost
-    'gamma[00-07,10-15]':
+    'gamma[00-01]':
+      CPUs: '32'
+      RealMemory: '250000'
+      Feature: gamma
+    'gamma[02-07,10-15]':
       CPUs: '32'
       RealMemory: '125000'
       Feature: gamma
@@ -41,7 +45,7 @@ slurm:
       Default: yes
       nodes:
         - 'gamma[00-07]'
-        - 'gamma[10-14]'
+        - 'gamma[10-15]'
     quick:
       DefMemPerCPU: 4000
       MaxMemPerCPU: 16000
