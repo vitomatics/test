@@ -14,8 +14,8 @@ flexnet:
       dir: mgls-v11.13.1.2
     xilinx:
       disttype: zip
-      disturl: http://sfimages.internal.sifive.com/Xilinx/flexlm/linux_flexlm_v11.13.1.3.zip
-      dir: linux_flexlm_v11.13.1.3
+      disturl: http://sfimages.internal.sifive.com/Xilinx/flexlm/linux_flexlm_v11.14.1.0.zip
+      dir: linux_flexlm_v11.14.1.0
   daemons:
     mgcld:
       vendor: mentor
@@ -33,7 +33,7 @@ flexnet:
           pillar: site:licenses:mgcld:mentor-20170928
     xilinxd:
       vendor: xilinx
-      bindir: linux_flexlm_v11.13.1.3/lnx64.o
+      bindir: linux_flexlm_v11.14.1.0/lnx64.o
       port: 2100
       vport: 2101
       licenses:
