@@ -192,6 +192,8 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.jenkins-slave
+    - profile.slurm-client
+    - profile.slurm-node
     - profile.sfamtutil
     - profile.fpgahost
     - profile.managed-nuc
