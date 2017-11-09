@@ -40,12 +40,20 @@ slurm:
       CPUs: '32'
       RealMemory: '125000'
       Feature: gamma
+    'delta[00-03]':
+      CPUs: '4'
+      RealMemory: '8000'
+      Feature: delta
   partitions:
     standard:
       Default: yes
       nodes:
         - 'gamma[00-07]'
         - 'gamma[10-15]'
+    boardtest:
+      DefMemPerCPU: 4000
+      nodes:
+        - 'delta[00-03]'
     quick:
       DefMemPerCPU: 4000
       MaxMemPerCPU: 16000
