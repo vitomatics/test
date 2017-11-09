@@ -310,4 +310,5 @@ base:
   'rhtest.internal.sifive.com':
     - subnet.aws-unix
     - accounts.fpgatest-accounts
+    - profile.devel
     - hosts.rhtest
