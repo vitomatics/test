@@ -422,14 +422,6 @@
 ...
 # 192.168.14.255 RESERVED - do not use
 
-## 192.168.15.0->192.168.15.255 he-console-net
-# 192.168.15.0 RESERVED - do not use
-# 192.168.15.255 RESERVED - do not use
-
-## 192.168.17.0->192.168.17.255 sf-console-net
-# 192.168.17.0 RESERVED - do not use
-# 192.168.17.255 RESERVED - do not use
-
 ## 192.168.129.0->192.168.129.255 sf-lab129-net
 
 ## 192.168.130.0->192.168.130.255 sf-lab130-net
