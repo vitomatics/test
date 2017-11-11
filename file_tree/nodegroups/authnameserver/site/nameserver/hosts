@@ -117,6 +117,8 @@
 ...
 10.14.143.255 RESERVED - do not use
 
+## 10.14.144.0 -> 10.14.159.255 aws-unix-or2-net
+
 ## 10.15.0.0-> 10.15.15.255 sf-dev-net
 # 10.15.0.0 RESERVED - do not use
 10.15.0.1 router03-ge0-0-2
@@ -276,6 +278,13 @@
 10.100.200.14 iswitch25-ge0-0-0
 # 10.100.200.15 RESERVED
 
+##    10.100.200.16->10.100.200.19 - tran-router11router12-int-net
+# 10.100.200.16 RESERVED
+10.100.200.17 router11-ge0-0-2
+10.100.200.18 router12-ge0-0-2
+# 10.100.200.19 RESERVED
+
+
 ##    10.100.200.128->10.100.200.131 - tran-router01-router03-net
 # 10.100.200.128 RESERVED
 10.100.200.129 router01-ge0-0-13
@@ -328,7 +337,8 @@
 ## AWS gateway addresses
 34.214.75.213 aws-smaws1a-vpn
 35.164.56.48 aws-smaws1b-vpn
-
+52.41.17.10 aws-heaws1a-vpn
+54.70.73.212 aws-heaws1b-vpn
 
 ## 64.62.193.192->64.62.193.255 he-sifive-net
 # 64.62.193.192 RESERVED - do not use
@@ -341,6 +351,7 @@
 64.62.193.199 he-login3.sifive.com login3.sifive.com he3.sifive.com nm2.sifive.com
 64.62.193.200 ilogin1.sifive.com
 64.62.193.201 he-vpngw2
+64.62.193.202 he-aws-cgw1
 # 64.62.193.255 RESERVED - do not use
 
 ## Comcast name servers
@@ -365,10 +376,22 @@
 
 ## 169.254.1.0->169.254.1.255 - sf-door-net
 
+## 169.254.100.244->169.254.100.247 -  tran-vpn-heaws1a-net
+# 169.254.100.244 RESERVED
+169.254.100.245
+169.254.100.246 router12-st0-0
+# 169.254.100.247 RESERVED
+
+## 169.254.100.248->169.254.100.251 -  tran-vpn-heaws1b-net
+# 169.254.100.248 RESERVED
+169.254.100.249
+169.254.100.250
+# 169.254.100.251 RESERVED
+
 ## 169.254.100.252->169.254.100.255 -  tran-vpn-smaws1-net
 # 169.254.100.252 RESERVED
 169.254.100.253
-169.254.100.254
+169.254.100.254 router01-st0-1
 # 169.254.100.255 RESERVED
 
 ## 169.254.107.0->169.254.107.255 - he-netapp1-net
@@ -422,6 +445,13 @@
 ...
 # 192.168.14.255 RESERVED - do not use
 
+## 192.168.65.0->192.168.65.255 transit networks
+##   192.168.65.0->192.168.65.3 tran-router11router12-ext-net
+# 192.168.65.0 RESERVED - do not use
+192.168.65.1 router11-ge-0-0-1
+192.168.65.2 router12-ge-0-0-1
+# 192.168.65.3 RESERVED - do not use
+
 ## 192.168.129.0->192.168.129.255 sf-lab129-net
 
 ## 192.168.130.0->192.168.130.255 sf-lab130-net
@@ -433,6 +463,7 @@
 ## 192.168.133.0->192.168.133.255 sf-lab133-net
 
 ## 192.168.134.0->192.168.134.255 sf-lab134-net sf-testhost-net
+
 
 ## 216.38.154.16->216.38.154.23 old sf-fast-net - no long our IPs
 # 216.38.154.16 RESERVED - do not use
