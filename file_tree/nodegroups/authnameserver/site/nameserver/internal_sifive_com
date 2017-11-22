@@ -201,7 +201,6 @@ iswitch21-vlan112	IN	A	10.15.17.1
 he-dev02-net-gw		IN	CNAME	iswitch21-vlan112
 
 router11-ge0-0-6	IN	A	10.15.224.1
-router11		IN	CNAME	router11-ge0-0-6
 iswitch11-me0		IN	A	10.15.224.128
 iswitch11-admin		IN	CNAME	iswitch11-me0
 iswitch11		IN	CNAME	iswitch11-me0
@@ -216,7 +215,7 @@ iswitch25-admin		IN	CNAME	iswitch25-me0
 iswitch25		IN	CNAME	iswitch25-me0
 router11-ge0-0-15	IN	A	10.15.224.192
 router11-admin		IN	CNAME	router11-ge0-0-15
-;; router11		IN	CNAME	router11-ge0-0-15
+router11		IN	CNAME	router11-ge0-0-15
 router12-ge0-0-15	IN	A	10.15.224.193
 router12-admin		IN	CNAME	router12-ge0-0-15
 router12		IN	CNAME	router12-ge0-0-15
