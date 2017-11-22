@@ -36,6 +36,8 @@ alpha-pci2-1		90:e2:ba:c6:b0:a5
 
 printer01	b0:5a:da:c7:d0:99
 printer02	3c:52:82:25:b9:11
+plotter01	40:a8:f0:88:dc:76
+plotter01-wifi	40:a8:f0:88:dc:77
 
 # license		00:02:c9:4e:20:1e
 license			52:54:00:ff:00:17
