@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017112101 ; serial number
+	2017120601 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -145,8 +145,8 @@ netapp1-nfs1		IN	A	10.14.16.92
 netapp1-nfs2		IN	A	10.14.16.93
 
 
-iswitch25-vlan111	IN	A	10.14.17.1
-he-unix02-net-gw	IN	CNAME	iswitch25-vlan111
+iswitch16-vlan111	IN	A	10.14.17.1
+he-unix02-net-gw	IN	CNAME	iswitch16-vlan111
 
 awstest			IN	A	10.14.129.2
 fpgatest		IN	A	10.14.129.3
@@ -197,8 +197,8 @@ netapp1-02-admin	IN	A	10.15.16.131
 netapp1-01-sp		IN	A	10.15.16.132
 netapp1-02-sp		IN	A	10.15.16.133
 
-iswitch21-vlan112	IN	A	10.15.17.1
-he-dev02-net-gw		IN	CNAME	iswitch21-vlan112
+iswitch12-vlan112	IN	A	10.15.17.1
+he-dev02-net-gw		IN	CNAME	iswitch12-vlan112
 
 router11-ge0-0-6	IN	A	10.15.224.1
 iswitch11-me0		IN	A	10.15.224.128
@@ -207,12 +207,12 @@ iswitch11		IN	CNAME	iswitch11-me0
 iswitch15-me0		IN	A	10.15.224.129
 iswitch15-admin		IN	CNAME	iswitch15-me0
 iswitch15		IN	CNAME	iswitch15-me0
-iswitch21-me0		IN	A	10.15.224.130
-iswitch21-admin		IN	CNAME	iswitch21-me0
-iswitch21		IN	CNAME	iswitch21-me0
-iswitch25-me0		IN	A	10.15.224.131
-iswitch25-admin		IN	CNAME	iswitch25-me0
-iswitch25		IN	CNAME	iswitch25-me0
+iswitch12-me0		IN	A	10.15.224.130
+iswitch12-admin		IN	CNAME	iswitch12-me0
+iswitch12		IN	CNAME	iswitch12-me0
+iswitch16-me0		IN	A	10.15.224.131
+iswitch16-admin		IN	CNAME	iswitch16-me0
+iswitch16		IN	CNAME	iswitch16-me0
 router11-ge0-0-15	IN	A	10.15.224.192
 router11-admin		IN	CNAME	router11-ge0-0-15
 router11		IN	CNAME	router11-ge0-0-15
@@ -280,8 +280,8 @@ router11-st0-1		IN	A	10.100.100.6
 
 iswitch11-ge0-2-0	IN	A	10.100.200.2
 iswitch15-ge0-0-0	IN	A	10.100.200.6
-iswitch21-ge0-2-0	IN	A	10.100.200.10
-iswitch25-ge0-0-0	IN	A	10.100.200.14
+iswitch12-ge0-2-0	IN	A	10.100.200.10
+iswitch16-ge0-0-0	IN	A	10.100.200.14
 
 router01-lo0-0	IN	A	10.101.0.1
 router01-lo0-1	IN	A	10.101.1.1
@@ -289,13 +289,13 @@ router03-lo0-0	IN	A	10.101.0.3
 router11-lo0-0	IN	A	10.101.0.11
 
 iswitch15-lo0-14	IN	A	10.101.14.115
-iswitch25-lo0-14	IN	A	10.101.14.125
+iswitch16-lo0-14	IN	A	10.101.14.125
 
 iswitch11-lo0-15	IN	A	10.101.15.111
-iswitch21-lo0-15	IN	A	10.101.15.121
+iswitch12-lo0-15	IN	A	10.101.15.121
 
 iswitch11-lo0-134	IN	A	10.101.134.111
-iswitch21-lo0-134	IN	A	10.101.134.121
+iswitch12-lo0-134	IN	A	10.101.134.121
 
 nuc2		IN	A	10.134.16.32
 lambda00	IN	A	10.134.16.33
@@ -303,8 +303,8 @@ lambda00	IN	A	10.134.16.33
 router11-mgmt	IN	A	192.168.15.2
 iswitch11-mgmt	IN	A	192.168.15.3
 iswitch15-mgmt	IN	A	192.168.15.4
-iswitch21-mgmt	IN	A	192.168.15.5
-iswitch25-mgmt	IN	A	192.168.15.6
+iswitch12-mgmt	IN	A	192.168.15.5
+iswitch16-mgmt	IN	A	192.168.15.6
 
 
 
