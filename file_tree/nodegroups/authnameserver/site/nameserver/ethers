@@ -43,6 +43,7 @@ plotter01-wifi	40:a8:f0:88:dc:77
 license			52:54:00:ff:00:17
 
 pdu11           00:20:85:f4:c2:d2
+pdu21           00:20:85:f4:c0:f4
 
 heartofgold-admin	f4:8e:38:cd:ec:d4
 heartofgold-mb1		24:6e:96:1c:48:d0
