@@ -300,12 +300,6 @@ iswitch12-lo0-134	IN	A	10.101.134.121
 nuc2		IN	A	10.134.16.32
 lambda00	IN	A	10.134.16.33
 
-router11-mgmt	IN	A	192.168.15.2
-iswitch11-mgmt	IN	A	192.168.15.3
-iswitch15-mgmt	IN	A	192.168.15.4
-iswitch12-mgmt	IN	A	192.168.15.5
-iswitch16-mgmt	IN	A	192.168.15.6
-
 
 
 ; _kerberos._udp		IN	SRV	10 0 88 metrocop
