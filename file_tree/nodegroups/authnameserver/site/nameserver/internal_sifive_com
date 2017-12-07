@@ -213,6 +213,12 @@ iswitch12		IN	CNAME	iswitch12-me0
 iswitch16-me0		IN	A	10.15.224.131
 iswitch16-admin		IN	CNAME	iswitch16-me0
 iswitch16		IN	CNAME	iswitch16-me0
+iswitch21-me0		IN	A	10.15.224.132
+iswitch21-admin		IN	CNAME	iswitch21-me0
+iswitch21		IN	CNAME	iswitch21-me0
+iswitch25-me0		IN	A	10.15.224.133
+iswitch25-admin		IN	CNAME	iswitch25-me0
+iswitch25		IN	CNAME	iswitch25-me0
 router11-ge0-0-15	IN	A	10.15.224.192
 router11-admin		IN	CNAME	router11-ge0-0-15
 router11		IN	CNAME	router11-ge0-0-15
