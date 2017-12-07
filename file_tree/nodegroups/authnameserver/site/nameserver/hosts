@@ -293,10 +293,10 @@
 10.100.200.22 iswitch16-et0-2-0-14
 # 10.100.200.23 RESERVED
 
-##    10.100.200.24->10.100.200.27 - tran-iswitch11-iswitch12-dev-net
+##    10.100.200.24->10.100.200.27 - tran-iswitch11-iswitch21-dev-net
 # 10.100.200.24 RESERVED
-10.100.200.25 iswitch11-ge0-2-2
-10.100.200.26 iswitch12-ge0-2-2
+10.100.200.25 iswitch11-ge0-2-2-15
+10.100.200.26 iswitch21-ge0-2-0-15
 # 10.100.200.27 RESERVED
 
 ##    10.100.200.28->10.100.200.31 - tran-router11-iswitch11-iso-net
@@ -304,6 +304,12 @@
 10.100.200.29 router11-ge0-0-7
 10.100.200.30 iswitch11-ge0-0-36
 # 10.100.200.31 RESERVED
+
+##    10.100.200.32->10.100.200.35 - tran-iswitch12-iswitch21-dev-net
+# 10.100.200.32 RESERVED
+10.100.200.33 iswitch12-ge0-2-2-15
+10.100.200.34 iswitch21-ge0-2-1-15
+# 10.100.200.35 RESERVED
 
 #####
 ##    10.100.200.128->10.100.200.131 - tran-router01-router03-net
