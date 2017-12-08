@@ -1,4 +1,4 @@
-#Date: 10/29/2017
+#Date: 12/06/2017
 #SNPS ID: PRD
 #                                                                        SYNOPSYS INC. KEY CERTIFICATE
 #                                                                        Site ID: 35908
@@ -32,28 +32,28 @@
 #vendor daemon (cvd) format license files must be verified with the 'sssverify' utility.
 #
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Synopsys License file created by CVDKIF 4.1 on October 29, 2017 at 23:40:53 for daemon snpslmd
+# Synopsys License file created by CVDKIF 4.1 on December 06, 2017 at 21:26:04 for daemon snpslmd
 SERVER hostname1 0002C94E201E 27020
 VENDOR snpslmd /path/to/snpslmd
 USE_SERVER
-INCREMENT SSST snpslmd 1.0 30-Nov-2017 1 0EEBB31DC9C2C2EDCE5A \
-        VENDOR_STRING="80f5e 219f3 e7a14 79774 655e0 a7300 7d977 4655e 0a730 07d11 \
-        01020 06068 797e0 3fc3d ae463 c3a6f c860c 236ae 7b92e ffd29 \
-        90e40 4ae00 5a992 83378 a8a21 651e5 0f79a 77abf 5cd06 31121 \
-        66a83 6cb7b 5b4e0 eb202 e3956 e0971 f079d 2780d f283b 86ce2 \
-        b5fbc d5f84 35854 3d5dd 9f691 0e83b fbe09 a8d56 51618 3cebc \
-        3698b d53ca 87eb5 5a3c8 8b103 33934 084bb c04ad 7bcaf 82484 \
-        acb2e 0acc2 989e6 a5dc5 b4ff6 cf4c6 f43ff 368a0 97c98 e13b8 \
-        de745 e53e3 15982 539ea 849b8 7578e 994f5 08d38 c2f1b 48bef \
-        0438c 8ae77 5a1c6 9c640 b9de2 8a57c 69712 8718e 66fcf 823c8 \
-        39136 a0a7f 0994f 2969d 76d40 2d492 e0505 4ee42 d87cb a009b \
-        c19e2 77949 efa99 b1f14 4ea73 e3c2c c39a7 54969 2f6d3 8f67d \
-        b782f 5d37d be39c e5f" \
+INCREMENT SSST snpslmd 1.0 05-Jan-2018 1 5EBBD6E61B71BE8A6D1F \
+        VENDOR_STRING="657bc f6273 be042 26043 96747 b5eaa 55604 39674 7b5ea a5511 \
+        01020 0a159 30068 b44c6 84b1e 2030e 36c9b 9987a ad6df a9cee \
+        e991e cd46e 9df3c fd390 4648f 9680f cdea3 b242c 85d4e 59fb8 \
+        c82f6 29465 88160 dd642 faae5 46ba6 bbfd5 53c5f f8f42 1ec30 \
+        2ed8a 321f5 8affb 0dd7a 4dce6 12441 445f0 30e93 137db 37629 \
+        e1fd0 12ba8 15514 a17be fea63 fedc1 1a2f1 c6b7a ceee8 efad1 \
+        0994c 7ca1c 44a46 181ba e549e 9593f c5bf9 c3111 e961c 26445 \
+        057cb 7d6e3 03829 04743 be139 94ff4 c5ab9 a54c8 81570 f1a21 \
+        b8997 8304a 0e9a7 9bc52 e06c8 d06f4 98a07 06b27 28b0d deee5 \
+        3b54e 09786 06b1a 56306 90ce0 01fc9 33eaa a8ec1 3a018 91a9b \
+        b2abd 1e211 e5362 29c25 1c487 df2a9 0df0a 72765 fb30c 09ef5 \
+        e4566 11188 68f7d 612" \
         NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
         KEYS IN THIS FILE]" \
-        SN=TK:0:0:321950 ISSUER="Synopsys, Inc. [10/29/2017 23:40:53 35908 4.1]" \
-        START=29-Oct-2017
-INCREMENT VCSRuntimeLimited_Net snpslmd 2017.03 30-nov-2017 1 \
-        ISSUED=29-oct-2017 ck=124 SN=TK:479192:321950 \
-        START=30-oct-2017 AUTH={ snpslmd=( LK=CEBB43CD47F094AC7EA1) }
+        SN=TK:0:0:327193 ISSUER="Synopsys, Inc. [12/6/2017 21:26:04 35908 4.1]" \
+        START=06-Dec-2017
+INCREMENT VCSRuntimeLimited_Net snpslmd 2017.03 05-jan-2018 1 \
+        ISSUED=06-dec-2017 ck=48 SN=TK:482957:327193 START=06-dec-2017 \
+        AUTH={ snpslmd=( LK=DE5B5616B942B18F08EA) }
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
