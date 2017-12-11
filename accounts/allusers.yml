@@ -261,6 +261,11 @@ users:
     fullname: "Jim Wilson"
     uid: 1137
     gid: 1137
+  sunil:
+    tags: [ cluster ]
+    fullname: "Sunil Shenoy"
+    uid: 1138
+    gid: 1138
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
