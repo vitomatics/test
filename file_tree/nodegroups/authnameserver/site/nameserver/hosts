@@ -334,10 +334,6 @@
 10.101.0.1 router01-lo0
 10.101.0.3 router03-lo0
 10.101.0.11 router11-lo0
-10.101.0.111 iswitch11-lo0
-
-10.101.0.121 iswitch12-lo0
-
 
 10.101.0.1 router01-lo0-0
 10.101.1.1 router01-lo0-1
