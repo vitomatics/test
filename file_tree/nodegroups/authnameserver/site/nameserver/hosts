@@ -102,7 +102,7 @@
 # 10.14.16.255 RESERVED - do not use
 
 # 10.14.17.0 RESERVED - do not use
-10.14.17.1 iswitch16-vlan111 he-unix02-net-gw 
+10.14.17.1 iswitch25-vlan111 he-unix02-net-gw 
 # 10.14.17.255 RESERVED - do not use
 
 # 10.14.31.255 RESERVED - do not use
