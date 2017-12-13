@@ -6,7 +6,7 @@ $ORIGIN	15.10.in-addr.arpa.
 $TTL	86400
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2017121201 ; serial number
+	2017121202 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -55,6 +55,8 @@ $TTL	86400
 133.16	IN	PTR	netapp1-02-sp.internal.sifive.com.
 
 1.17	IN	PTR	iswitch12-vlan112.internal.sifive.com.
+
+16.17	IN	PTR	pdu21.internal.sifive.com.
 
 1.224	IN	PTR	router11-ge0-0-6.internal.sifive.com.
 128.224	IN	PTR	iswitch11-me0.internal.sifive.com.
