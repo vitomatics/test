@@ -148,6 +148,8 @@ netapp1-nfs2		IN	A	10.14.16.93
 iswitch16-vlan111	IN	A	10.14.17.1
 he-unix02-net-gw	IN	CNAME	iswitch16-vlan111
 
+nuc2			IN	A	10.14.17.32
+
 awstest			IN	A	10.14.129.2
 fpgatest		IN	A	10.14.129.3
 rhtest			IN	A	10.14.129.4
@@ -312,7 +314,6 @@ iswitch12-lo0-15	IN	A	10.101.15.112
 iswitch11-lo0-134	IN	A	10.101.134.111
 iswitch12-lo0-134	IN	A	10.101.134.112
 
-nuc2		IN	A	10.134.16.32
 lambda00	IN	A	10.134.16.33
 
 

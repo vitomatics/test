@@ -182,8 +182,7 @@ base:
     - hosts.sandbox
 
   'nuc2.internal.sifive.com':
-    - subnet.he-iso01
-    - default.iso
+    - subnet.he-dhcp
     - profile.login
     - hosts.nuc2
 

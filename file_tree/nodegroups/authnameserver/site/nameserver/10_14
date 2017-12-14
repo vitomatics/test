@@ -79,6 +79,8 @@ $TTL	86400
 
 1.17	IN	PTR	iswitch16-vlan111.internal.sifive.com.
 
+32.17	IN	PTR	nuc2.internal.sifive.com.
+
 2.129	IN	PTR	awstest.internal.sifive.com.
 3.129	IN	PTR	fpgatest.internal.sifive.com.
 4.129	IN	PTR	rhtest.internal.sifive.com.

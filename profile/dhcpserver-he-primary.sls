@@ -143,6 +143,10 @@ dhcpd:
       hardware: ethernet 52:54:00:ff:00:03
       fixed-address: sandbox.internal.sifive.com
 
+    nuc2:
+      hardware: ethernet f4:4d:30:6a:94:8f
+      fixed-address: nuc2.internal.sifive.com
+
     heartofgold-admin:
       hardware: ethernet f4:8e:38:cd:ec:d4
       fixed-address: heartofgold-admin.internal.sifive.com

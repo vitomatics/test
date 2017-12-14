@@ -104,7 +104,7 @@
 # 10.14.17.0 RESERVED - do not use
 10.14.17.1 iswitch25-vlan111 he-unix02-net-gw 
 # 10.14.17.255 RESERVED - do not use
-
+10.14.17.32 nuc2
 # 10.14.31.255 RESERVED - do not use
 
 ## 10.14.128.0 -> 10.14.143.255 aws-unix-or1-net
@@ -357,7 +357,6 @@
 ## 10.134.16.0->10.134.31.255 he-iso-net
 # 10.134.16.0 RESERVED - do not use
 10.134.16.1 iswitch11-vlan102 he-iso01-net-gw
-10.134.16.32 nuc2
 10.134.16.33 lambda00
 
 10.134.16.224 he-iso01-net-pxe224
