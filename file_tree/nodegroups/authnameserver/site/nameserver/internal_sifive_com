@@ -311,10 +311,11 @@ iswitch16-lo0-14	IN	A	10.101.14.116
 iswitch11-lo0-15	IN	A	10.101.15.111
 iswitch12-lo0-15	IN	A	10.101.15.112
 
-iswitch11-lo0-134	IN	A	10.101.134.111
-iswitch12-lo0-134	IN	A	10.101.134.112
+iswitch15-lo0-134	IN	A	10.101.134.115
 
-lambda00	IN	A	10.134.16.33
+iswitch15-vlan109	IN	A	10.134.16.1
+lambda00		IN	A	10.134.16.33
+
 
 
 
