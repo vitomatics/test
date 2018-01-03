@@ -174,6 +174,7 @@ pkgs:
     diffstat: true
     chrpath: true
     jq: true
+    subversion: true
 
     ## windows development
     mingw-w64: true
