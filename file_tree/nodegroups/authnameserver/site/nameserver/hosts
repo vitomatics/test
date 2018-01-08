@@ -301,10 +301,10 @@
 10.100.200.26 iswitch21-ge0-2-0-15
 # 10.100.200.27 RESERVED
 
-##    10.100.200.28->10.100.200.31 - tran-router11-iswitch11-iso-net
+##    10.100.200.28->10.100.200.31 - tran-router11-iswitch15-iso-net
 # 10.100.200.28 RESERVED
-10.100.200.29 router11-ge0-0-7
-10.100.200.30 iswitch11-ge0-0-36
+10.100.200.29 router11-ge0-0-14
+10.100.200.30 iswitch15-ge0-0-2
 # 10.100.200.31 RESERVED
 
 ##    10.100.200.32->10.100.200.35 - tran-iswitch12-iswitch21-dev-net
@@ -350,14 +350,12 @@
 10.101.15.112 iswitch12-lo0-15
 10.101.15.121 iswitch21-lo0-15
 
-10.101.134.111 iswitch11-lo0-134
-10.101.134.112 iswitch12-lo0-134
 10.101.134.115 iswitch15-lo0-134
 
 
 ## 10.134.16.0->10.134.31.255 he-iso-net
 # 10.134.16.0 RESERVED - do not use
-10.134.16.1 iswitch11-vlan102 he-iso01-net-gw
+10.134.16.1 iswitch15-vlan109 he-iso01-net-gw
 10.134.16.33 lambda00
 
 10.134.16.224 he-iso01-net-pxe224
