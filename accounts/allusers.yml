@@ -266,6 +266,11 @@ users:
     fullname: "Sunil Shenoy"
     uid: 1138
     gid: 1138
+  mjc:
+    tags: [ cluster ]
+    fullname: "Michael Clark"
+    uid: 1139
+    gid: 1139
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
