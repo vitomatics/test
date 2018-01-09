@@ -139,6 +139,47 @@ dhcpd:
       fixed-address: lambda00.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
 
+    sigma00:
+      hardware: ethernet 00:00:00:00:00:00
+      fixed-address: sigma00.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    sigma01:
+      hardware: ethernet 00:00:00:00:00:01
+      fixed-address: sigma01.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    sigma02:
+      hardware: ethernet 00:00:00:00:00:02
+      fixed-address: sigma02.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    sigma03:
+      hardware: ethernet 00:00:00:00:00:03
+      fixed-address: sigma03.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    sigma04:
+      hardware: ethernet 00:00:00:00:00:04
+      fixed-address: sigma04.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    sigma05:
+      hardware: ethernet 00:00:00:00:00:05
+      fixed-address: sigma05.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    sigma06:
+      hardware: ethernet 00:00:00:00:00:06
+      fixed-address: sigma06.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    sigma07:
+      hardware: ethernet 00:00:00:00:00:07
+      fixed-address: sigma07.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    sigma08:
+      hardware: ethernet 00:00:00:00:00:08
+      fixed-address: sigma08.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    sigma09:
+      hardware: ethernet 00:00:00:00:00:09
+      fixed-address: sigma09.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+
     nuc2:
       hardware: ethernet f4:4d:30:6a:94:8f
       fixed-address: nuc2.internal.sifive.com
