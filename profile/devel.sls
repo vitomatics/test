@@ -175,6 +175,7 @@ pkgs:
     chrpath: true
     jq: true
     subversion: true
+    valgrind: true
 
     ## windows development
     mingw-w64: true
