@@ -14,15 +14,14 @@ autofs:
   lookup:
     browse_mode: yes
   direct:
-    /home: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/homes
-    /sifive: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/sifive
-    /work: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/work
+    /home: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid,retry=30 netapp1-nfs1.internal.sifive.com:/homes
+    /sifive: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid,retry=30 netapp1-nfs1.internal.sifive.com:/sifive
+    /work: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid,retry=30 netapp1-nfs2.internal.sifive.com:/work
   maps:
     nettmp:
       mountpoint: /nettmp
       map:
-        netapp1a: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/nettmp
-        aloe: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/aloe
+        netapp1a: -fstype=nfs4,rw,hard,intr,acl,noatime,nodev,nosuid,retry=30 netapp1-nfs2.internal.sifive.com:/nettmp
 
 pam:
   access:
