@@ -75,6 +75,8 @@ kerberos:
         admin_server: vader.internal.sifive.com
 
 autofs:
+  lookup:
+    timeout: 14400
   ldap:
     binddn: cn=autofs,ou=services,dc=sifive,dc=com
 
