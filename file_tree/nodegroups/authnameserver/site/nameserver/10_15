@@ -58,6 +58,17 @@ $TTL	86400
 
 16.17	IN	PTR	pdu21.internal.sifive.com.
 
+64.17	IN	PTR	sigma00-admin.internal.sifive.com.
+65.17	IN	PTR	sigma01-admin.internal.sifive.com.
+66.17	IN	PTR	sigma02-admin.internal.sifive.com.
+67.17	IN	PTR	sigma03-admin.internal.sifive.com.
+68.17	IN	PTR	sigma04-admin.internal.sifive.com.
+69.17	IN	PTR	sigma05-admin.internal.sifive.com.
+70.17	IN	PTR	sigma06-admin.internal.sifive.com.
+71.17	IN	PTR	sigma07-admin.internal.sifive.com.
+72.17	IN	PTR	sigma08-admin.internal.sifive.com.
+73.17	IN	PTR	sigma09-admin.internal.sifive.com.
+
 1.224	IN	PTR	router11-ge0-0-6.internal.sifive.com.
 128.224	IN	PTR	iswitch11-me0.internal.sifive.com.
 129.224	IN	PTR	iswitch15-me0.internal.sifive.com.

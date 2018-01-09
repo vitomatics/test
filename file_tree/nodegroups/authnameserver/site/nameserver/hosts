@@ -105,6 +105,16 @@
 10.14.17.1 iswitch25-vlan111 he-unix02-net-gw 
 # 10.14.17.255 RESERVED - do not use
 10.14.17.32 nuc2
+10.14.17.64 sigma00 s00
+10.14.17.65 sigma01 s01
+10.14.17.66 sigma02 s02
+10.14.17.67 sigma03 s03
+10.14.17.68 sigma04 s04
+10.14.17.69 sigma05 s05
+10.14.17.70 sigma06 s06
+10.14.17.71 sigma07 s07
+10.14.17.72 sigma08 s08
+10.14.17.73 sigma09 s09
 # 10.14.31.255 RESERVED - do not use
 
 ## 10.14.128.0 -> 10.14.143.255 aws-unix-or1-net
@@ -164,6 +174,16 @@
 # 10.15.17.0 RESERVED - do not use
 10.15.17.1 iswitch12-vlan112 he-dev02-net-gw
 10.15.17.16 pdu21
+10.15.17.64 sigma00-admin
+10.15.17.65 sigma01-admin
+10.15.17.66 sigma02-admin
+10.15.17.67 sigma03-admin
+10.15.17.68 sigma04-admin
+10.15.17.69 sigma05-admin
+10.15.17.70 sigma06-admin
+10.15.17.71 sigma07-admin
+10.15.17.72 sigma08-admin
+10.15.17.73 sigma09-admin
 # 10.15.17.255 RESERVED - do not use
 
 # 10.15.31.255 RESERVED - do not use

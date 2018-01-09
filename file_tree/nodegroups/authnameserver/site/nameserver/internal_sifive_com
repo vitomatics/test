@@ -150,6 +150,27 @@ he-unix02-net-gw	IN	CNAME	iswitch16-vlan111
 
 nuc2			IN	A	10.14.17.32
 
+sigma00			IN	A	10.14.17.64
+s00			IN	CNAME	sigma01
+sigma01			IN	A	10.14.17.65
+s01			IN	CNAME	sigma00
+sigma02			IN	A	10.14.17.66
+s02			IN	CNAME	sigma02
+sigma03			IN	A	10.14.17.67
+s03			IN	CNAME	sigma03
+sigma04			IN	A	10.14.17.68
+s04			IN	CNAME	sigma04
+sigma05			IN	A	10.14.17.69
+s05			IN	CNAME	sigma05
+sigma06			IN	A	10.14.17.70
+s06			IN	CNAME	sigma06
+sigma07			IN	A	10.14.17.71
+s07			IN	CNAME	sigma07
+sigma08			IN	A	10.14.17.72
+s08			IN	CNAME	sigma08
+sigma09			IN	A	10.14.17.73
+s09			IN	CNAME	sigma09
+
 awstest			IN	A	10.14.129.2
 fpgatest		IN	A	10.14.129.3
 rhtest			IN	A	10.14.129.4
@@ -203,6 +224,17 @@ iswitch12-vlan112	IN	A	10.15.17.1
 he-dev02-net-gw		IN	CNAME	iswitch12-vlan112
 
 pdu21			IN	A	10.15.17.16
+
+sigma00-admin		IN	A	10.15.17.64
+sigma01-admin		IN	A	10.15.17.65
+sigma02-admin		IN	A	10.15.17.66
+sigma03-admin		IN	A	10.15.17.67
+sigma04-admin		IN	A	10.15.17.68
+sigma05-admin		IN	A	10.15.17.69
+sigma06-admin		IN	A	10.15.17.70
+sigma07-admin		IN	A	10.15.17.71
+sigma08-admin		IN	A	10.15.17.72
+sigma09-admin		IN	A	10.15.17.73
 
 router11-ge0-0-6	IN	A	10.15.224.1
 iswitch11-me0		IN	A	10.15.224.128

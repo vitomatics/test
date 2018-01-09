@@ -81,6 +81,18 @@ $TTL	86400
 
 32.17	IN	PTR	nuc2.internal.sifive.com.
 
+64.17	IN	PTR	sigma00.internal.sifive.com.
+65.17	IN	PTR	sigma01.internal.sifive.com.
+66.17	IN	PTR	sigma02.internal.sifive.com.
+67.17	IN	PTR	sigma03.internal.sifive.com.
+68.17	IN	PTR	sigma04.internal.sifive.com.
+69.17	IN	PTR	sigma05.internal.sifive.com.
+70.17	IN	PTR	sigma06.internal.sifive.com.
+71.17	IN	PTR	sigma07.internal.sifive.com.
+72.17	IN	PTR	sigma08.internal.sifive.com.
+73.17	IN	PTR	sigma09.internal.sifive.com.
+
+
 2.129	IN	PTR	awstest.internal.sifive.com.
 3.129	IN	PTR	fpgatest.internal.sifive.com.
 4.129	IN	PTR	rhtest.internal.sifive.com.
