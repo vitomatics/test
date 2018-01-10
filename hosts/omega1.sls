@@ -70,15 +70,6 @@ sfdump:
     omega1:
       starttime: '00:30'
   nfs:
-    work:
-      client: netapp1-nfs1.internal.sifive.com
-      export: /work
-      dest: /sfbackup/dumps/work
-      bwlimit: 12000
-      snaptype: netapp_daily
-      acls: false
-      xattrs: false
-      timeout: 7h
     homes:
       client: netapp1-nfs1.internal.sifive.com
       export: /homes
@@ -98,3 +89,12 @@ sfdump:
       xattrs: false
       timeout: 8h
       absent: false
+    work:
+      client: netapp1-nfs2.internal.sifive.com
+      export: /work
+      dest: /sfbackup/dumps/work
+      bwlimit: 12000
+      snaptype: netapp_daily
+      acls: false
+      xattrs: false
+      timeout: 7h

@@ -101,14 +101,6 @@ sfdump:
       acls: false
       xattrs: false
       timeout: 2h
-    work:
-      client: netapp1-nfs1.internal.sifive.com
-      export: /work
-      dest: /sfbackup/dumps/work
-      snaptype: netapp_daily
-      acls: false
-      xattrs: false
-      timeout: 4h
     sifive:
       client: netapp1-nfs1.internal.sifive.com
       export: /sifive
@@ -117,3 +109,11 @@ sfdump:
       acls: false
       xattrs: false
       timeout: 5h
+    work:
+      client: netapp1-nfs2.internal.sifive.com
+      export: /work
+      dest: /sfbackup/dumps/work
+      snaptype: netapp_daily
+      acls: false
+      xattrs: false
+      timeout: 4h
