@@ -122,6 +122,29 @@ lambda00-mb1		0c:c4:7a:9a:85:d2
 lambda00-mb2		0c:c4:7a:9a:85:d3
 lambda00-pci0		24:8a:07:f8:b2:60
 
+sigma00-admin		ac:1f:6b:0c:b3:16
+sigma00-pci0		ec:0d:9a:b9:a9:b0
+sigma01-admin		ac:1f:6b:0c:b5:47
+sigma01-pci0		ec:0d:9a:b9:a3:50
+sigma02-admin		ac:1f:6b:0c:b3:1f
+sigma02-pci0		ec:0d:9a:b9:a4:20
+sigma03-admin		ac:1f:6b:0c:b5:3a
+sigma03-pci0		ec:0d:9a:b9:a2:d0
+sigma04-admin		0c:c4:7a:f5:49:26
+sigma04-pci0		ec:0d:9a:b9:a3:30
+sigma05-admin		ac:1f:6b:0c:b5:3b
+sigma05-pci0		ec:0d:9a:b9:a4:00
+sigma06-admin		ac:1f:6b:0c:b5:32
+sigma06-pci0		ec:0d:9a:b9:a3:60
+sigma07-admin		ac:1f:6b:0c:b3:14
+sigma07-pci0		ec:0d:9a:b9:a4:40
+sigma08-admin		0c:c4:7a:f5:4c:0f
+sigma08-pci0		ec:0d:9a:b9:a2:f0
+sigma09-admin		0c:c4:7a:f5:49:5f
+sigma09-pci0		ec:0d:9a:b9:a7:a0
+
+
+
 # The Intel NUCs
 nuc1			f4:4d:30:61:c2:49
 nuc2			f4:4d:30:6a:94:8f
