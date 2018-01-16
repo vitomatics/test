@@ -54,7 +54,11 @@ dhcpd:
     10.15.16.0:
       netmask: 255.255.255.0
       routers: 10.15.16.1
-      ## Note - pool added on primary server
+
+    # he-dev02-net
+    10.15.17.0:
+      netmask: 255.255.255.0
+      routers: 10.15.17.1
 
     # he-iso01-net
     10.134.16.0:
