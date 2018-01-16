@@ -275,7 +275,7 @@ dhcpd:
       fixed-address: sigma08-admin.internal.sifive.com
     sigma09-admin:
       hardware: ethernet 0c:c4:7a:f5:49:5f
-      fixed-address: sigma00-admin.internal.sifive.com
+      fixed-address: sigma09-admin.internal.sifive.com
 
 
 {% block hosts_extra %}
