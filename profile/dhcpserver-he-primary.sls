@@ -147,6 +147,7 @@ dhcpd:
       hardware: ethernet ec:0d:9a:b9:a9:b0
       fixed-address: sigma00.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
     sigma01:
       hardware: ethernet ec:0d:9a:b9:a3:50
       fixed-address: sigma01.internal.sifive.com
