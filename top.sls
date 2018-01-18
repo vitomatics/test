@@ -149,6 +149,17 @@ base:
     - profile.ganglia-node-compute
     - hosts.gamma
 
+  'sigma*.internal.sifive.com':
+    - subnet.he-dhcp
+    - profile.devel
+    - profile.repos-src
+    - profile.clusterclient
+    - profile.slurm-client
+    - profile.slurm-node
+    - profile.jenkins-slave
+    - profile.ganglia-node-compute
+    - hosts.sigma
+
 {#
   'gamma1[0-5].internal.sifive.com':
     - match: pcre
