@@ -152,38 +152,47 @@ dhcpd:
       hardware: ethernet ec:0d:9a:b9:a3:50
       fixed-address: sigma01.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
     sigma02:
       hardware: ethernet ec:0d:9a:b9:a4:20
       fixed-address: sigma02.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
     sigma03:
       hardware: ethernet ec:0d:9a:b9:a2:d0
       fixed-address: sigma03.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
     sigma04:
       hardware: ethernet ec:0d:9a:b9:a3:30
       fixed-address: sigma04.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
     sigma05:
       hardware: ethernet ec:0d:9a:b9:a4:00
       fixed-address: sigma05.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
     sigma06:
       hardware: ethernet ec:0d:9a:b9:a3:60
       fixed-address: sigma06.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
     sigma07:
       hardware: ethernet ec:0d:9a:b9:a4:40
       fixed-address: sigma07.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
     sigma08:
       hardware: ethernet ec:0d:9a:b9:a2:f0
       fixed-address: sigma08.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
     sigma09:
       hardware: ethernet ec:0d:9a:b9:a7:a0
       fixed-address: sigma09.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
 
     nuc2:
       hardware: ethernet f4:4d:30:6a:94:8f
