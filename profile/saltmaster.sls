@@ -54,6 +54,7 @@ sfsalt:
         - lambda00.internal.sifive.com
       compute:
         - gamma*.internal.sifive.com
+        - sigma*.internal.sifive.com
         - alpha.internal.sifive.com
         - b0.internal.sifive.com
         - delta*.internal.sifive.com
@@ -66,6 +67,7 @@ sfsalt:
         - delta*.internal.sifive.com
         - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
+        - sigma*.internal.sifive.com
         - lambda00.internal.sifive.com
         - tardis.internal.sifive.com
       vmhost:
@@ -89,11 +91,13 @@ sfsalt:
         - betel.internal.sifive.com
         - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
+        - sigma*.internal.sifive.com
         - delta*.interan.sifive.com
         - sandbox.internal.sifive.com
         - grid.internal.sifive.com
       slurmnode:
         - gamma*.internal.sifive.com
+        - sigma*.internal.sifive.com
         - delta*.internal.sifive.com
         - sandbox.internal.sifive.com
       slurmserver:
@@ -110,12 +114,12 @@ sfsalt:
         - b0.internal.sifive.com
         - bender.internal.sifive.com
         - betel.internal.sifive.com
-        - combine.internal.sifive.com
         - dalek.internal.sifive.com
         - delta*.internal.sifive.com
         - eddie.internal.sifive.com
         - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
+        - sigma*.internal.sifive.com
         - hal.internal.sifive.com
         - heartofgold.internal.sifive.com
         - gravelpit.internal.sifive.com

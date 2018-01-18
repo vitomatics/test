@@ -80,6 +80,16 @@ sudo:
         - gamma13.internal.sifive.com
         - gamma14.internal.sifive.com
         - gamma15.internal.sifive.com
+        - sigma00.internal.sifive.com
+        - sigma01.internal.sifive.com
+        - sigma02.internal.sifive.com
+        - sigma03.internal.sifive.com
+        - sigma04.internal.sifive.com
+        - sigma05.internal.sifive.com
+        - sigma06.internal.sifive.com
+        - sigma07.internal.sifive.com
+        - sigma08.internal.sifive.com
+        - sigma09.internal.sifive.com
   userspec:
     - root:
       - ALL: '(ALL:ALL) ALL'

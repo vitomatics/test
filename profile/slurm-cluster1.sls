@@ -40,6 +40,10 @@ slurm:
       CPUs: '32'
       RealMemory: '125000'
       Feature: gamma
+    'sigma[00-09]':
+      CPUs: '48'
+      RealMemory: '188000'
+      Feature: sigma
     'delta[00-03]':
       CPUs: '4'
       RealMemory: '8000'
@@ -48,8 +52,8 @@ slurm:
     standard:
       Default: yes
       nodes:
-        - 'gamma[00-07]'
         - 'gamma[10-14]'
+        - 'sigma[00-09]'
     boardtest:
       DefMemPerCPU: 4000
       nodes:
@@ -64,4 +68,5 @@ slurm:
     test:
       nodes:
         - sandbox
+        - 'gamma[00-07]'
 
