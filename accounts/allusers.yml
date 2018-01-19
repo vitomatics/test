@@ -271,6 +271,11 @@ users:
     fullname: "Michael Clark"
     uid: 1139
     gid: 1139
+  bsou:
+    tags: [ cluster ]
+    fullname: "Bunnarath Sou"
+    uid: 1140
+    gid: 1140
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
