@@ -281,6 +281,11 @@ users:
     fullname: "Bunnaroath Sou"
     uid: 1141
     gid: 1141
+  vmurali:
+    tags: [ cluster ]
+    fullname: "Murali Vijayaraghavan"
+    uid: 1142
+    gid: 1142
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
