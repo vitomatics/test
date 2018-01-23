@@ -14,6 +14,7 @@ sfsalt:
   lookup:
     statedir: {{saltroot}}/state
     pillardir: {{saltroot}}/pillar
+    customdir: {{saltroot}}/custom
     formuladir: {{saltroot}}/formula
 
   peers:
@@ -27,6 +28,8 @@ sfsalt:
       origin: git@github-salt-states:sifive/salt-states.git
     pillar:
       origin: git@github-salt-pillar:sifive/salt-pillar.git
+    custom:
+      origin: git@github-salt-custom:sifive/salt-custom.git
 
     formula:
       apache-formula:
@@ -164,6 +167,9 @@ ssh:
       github-salt-pillar:
         HostName: github.com
         IdentityFile: /root/.ssh/id_rsa.salt-pillar
+      github-salt-custom:
+        HostName: github.com
+        IdentityFile: /root/.ssh/id_rsa.salt-custom
 
 file:
   file:
@@ -174,6 +180,11 @@ file:
       mode: '0600'
     /root/.ssh/id_rsa.salt-pillar:
       contents_pillar: 'keys:github:salt-pillar:private'
+      user: root
+      group: root
+      mode: '0600'
+    /root/.ssh/id_rsa.salt-custom:
+      contents_pillar: 'keys:github:salt-custom:private'
       user: root
       group: root
       mode: '0600'
