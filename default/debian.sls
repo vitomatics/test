@@ -280,6 +280,7 @@ pkgs:
     pdsh: true
     rpm: true
     alien: true
+    cpid: true
 
     build-essential: true
     make: true
