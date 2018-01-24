@@ -105,6 +105,7 @@ pkgs:
     gnat-5: true
     sparse: true
     {% endif %}
+    exuberant-ctags: true
 
     sbt: true
     # Ruby
