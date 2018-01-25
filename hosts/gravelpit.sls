@@ -10,6 +10,9 @@ states:
 syslog:
   client:
     enabled: true
+    format:
+      template: '%TIMESTAMP% %HOSTNAME% %syslogtag%%msg:::sp-if-no-1st-sp%%msg:::drop-last-lf%\n'
+      name: TraditionalFileFormat
 
 ## Example board definition for sftesthost
 sftesthost:
