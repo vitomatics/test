@@ -35,6 +35,9 @@ pkgs:
     maven: true
     ant: true
 
+    ## For Palmer
+    xz-utils: true
+
     ## Miscellaneous
     finger: true
     parallel: true
