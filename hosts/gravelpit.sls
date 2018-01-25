@@ -7,7 +7,7 @@ states:
   sftesthost: true
   rsyslog.client: true
 
-syslog:
+rsyslog:
   client:
     enabled: true
     format:
