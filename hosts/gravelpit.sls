@@ -15,6 +15,7 @@ rsyslog:
       template: '%TIMESTAMP% %HOSTNAME% %syslogtag%%msg:::sp-if-no-1st-sp%%msg:::drop-last-lf%\n'
     output:
       file:
+        # Note the sync attribute should really be named nosync
         /var/log/syslog:
           sync: true
           filter: "*.*;auth,authpriv.none"
