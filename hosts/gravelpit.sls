@@ -15,7 +15,7 @@ rsyslog:
       template: '"%TIMESTAMP% %HOSTNAME% %syslogtag%%msg:::sp-if-no-1st-sp%%msg:::drop-last-lf%\n"'
     output:
       /var/log/syslog:
-        sync: false
+        sync: true
         filter: "*.*;auth,authpriv.none"
         owner: syslog
         group: adm
@@ -39,7 +39,7 @@ rsyslog:
         umask: "0022"
         enabled: true
       /var/log/mail.log:
-        sync: false
+        sync: true
         filter: "mail.*"
         owner: syslog
         group: adm
@@ -47,7 +47,7 @@ rsyslog:
         umask: "0022"
         enabled: true
       /var/log/mail.err:
-        sync: false
+        sync: true
         action: /var/log/mail.err
         filter: mail.err
         owner: syslog
