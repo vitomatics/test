@@ -12,7 +12,7 @@ rsyslog:
     enabled: true
     format:
       name: TraditionalFileFormat
-      template: '"%TIMESTAMP% %HOSTNAME% %syslogtag%%msg:::sp-if-no-1st-sp%%msg:::drop-last-lf%\n"'
+      template: '%TIMESTAMP% %HOSTNAME% %syslogtag%%msg:::sp-if-no-1st-sp%%msg:::drop-last-lf%\n'
     output:
       file:
         /var/log/syslog:
