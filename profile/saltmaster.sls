@@ -46,6 +46,8 @@ sfsalt:
         origin: git@github-salt-pillar:sifive/aptly-formula.git
       bind-formula:
         origin: git@github-salt-pillar:sifive/bind-formula.git
+      rsyslog-formula:
+        origin: git@github-salt-pillar:sifive/salt-formula-rsyslog.git
 
         
     nodegroups:
