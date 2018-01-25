@@ -16,7 +16,7 @@ rsyslog:
     output:
       file:
         /var/log/syslog:
-          sync: true
+          sync: false
           filter: "*.*;auth,authpriv.none"
           owner: syslog
           group: adm
@@ -32,7 +32,7 @@ rsyslog:
           umask: "0022"
           enabled: true
         /var/log/kern.log:
-          sync: true
+          sync: false
           filter: "kern.*"
           owner: syslog
           group: adm
@@ -40,7 +40,7 @@ rsyslog:
           umask: "0022"
           enabled: true
         /var/log/mail.log:
-          sync: true
+          sync: false
           filter: "mail.*"
           owner: syslog
           group: adm
