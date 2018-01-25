@@ -7,6 +7,13 @@ states:
   sftesthost: true
   rsyslog.client: true
 
+disksetup:
+   dirs:
+     /srv/log:
+       user: root
+       group: syslog
+       mode: '0775'
+
 rsyslog:
   client:
     enabled: true
