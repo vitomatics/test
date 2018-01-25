@@ -49,6 +49,7 @@ $TTL	86400
 43.16	IN	PTR	jarjar.internal.sifive.com.
 44.16	IN	PTR	vader.internal.sifive.com.
 45.16	IN	PTR	jabba.internal.sifive.com.
+46.16	IN	PTR	wall-e.internal.sifive.com.
 
 48.16	IN	PTR	heartofgold.internal.sifive.com.
 49.16	IN	PTR	tardis.internal.sifive.com.

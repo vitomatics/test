@@ -92,6 +92,8 @@ ldap2			IN	CNAME	vader
 jabba			IN	A	10.14.16.45
 license			IN	CNAME	jabba
 license1		IN	CNAME	jabba
+wall-e			IN	A	10.14.16.46
+loghost			IN	CNAME	wall-e
 
 heartofgold		IN	A	10.14.16.48
 hog			IN	CNAME	heartofgold

@@ -579,3 +579,10 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: compute_ssd_noscratch
+        wall-e:
+          ipaddress: 10.14.16.46
+          subnet: he-unix01-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk

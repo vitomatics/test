@@ -324,3 +324,9 @@ base:
     - accounts.fpgatest-accounts
     - profile.devel
     - hosts.rhtest
+
+  'wall-e.internal.sifive.com':
+    - subnet.he-unix01
+    - profile.ganglia-node-server
+    - profile.backupclient
+    - hosts.wall-e

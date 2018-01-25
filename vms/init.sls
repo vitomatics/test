@@ -22,6 +22,7 @@ include:
   - vms.vader
   - vms.viki
   - vms.vulcan
+  - vms.wall-e
   - vms.yoda
   
 sfvirt:
