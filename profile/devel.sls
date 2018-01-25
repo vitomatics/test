@@ -37,6 +37,7 @@ pkgs:
 
     ## For Palmer
     xz-utils: true
+    lftp: true
 
     ## Miscellaneous
     finger: true
