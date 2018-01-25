@@ -2,7 +2,7 @@
 
 sfvirt:
   vms:
-    wall-e:
+    walle:
       type: libvirt
       vmhost: eddie.internal.sifive.com
       vcpus: 2
