@@ -5,7 +5,7 @@
 states:
   firewall.iptables: true
   sftesthost: true
-  rsyslog: true
+  rsyslog.client: true
 
 syslog:
   client:
