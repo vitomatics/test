@@ -5,7 +5,11 @@
 states:
   firewall.iptables: true
   sftesthost: true
-  rsyslog.client: true
+  rsyslog: true
+
+syslog:
+  client:
+    enabled: true
 
 ## Example board definition for sftesthost
 sftesthost:
