@@ -7,7 +7,9 @@ states:
 network:
   interfaces:
     ens2:
-      ip: 10.14.16.46
+      ipaddrs:
+        - 10.14.16.46
+        - 10.14.16.240
 
 rsyslog:
   client:

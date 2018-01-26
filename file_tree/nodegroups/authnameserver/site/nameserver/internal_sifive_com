@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018012401 ; serial number
+	2018012601 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -93,7 +93,6 @@ jabba			IN	A	10.14.16.45
 license			IN	CNAME	jabba
 license1		IN	CNAME	jabba
 wall-e			IN	A	10.14.16.46
-loghost			IN	CNAME	wall-e
 
 heartofgold		IN	A	10.14.16.48
 hog			IN	CNAME	heartofgold
@@ -145,6 +144,8 @@ g14			IN	CNAME	gamma14
 
 netapp1-nfs1		IN	A	10.14.16.92
 netapp1-nfs2		IN	A	10.14.16.93
+
+loghost			IN	A	10.14.16.240
 
 
 iswitch16-vlan111	IN	A	10.14.17.1

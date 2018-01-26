@@ -65,7 +65,7 @@
 10.14.16.43 jarjar			# static
 10.14.16.44 vader			# static
 10.14.16.45 jabba			# static
-10.14.16.46 wall-e
+10.14.16.46 wall-e wall-e-loghost
 
 10.14.16.48 heartofgold hog
 10.14.16.49 tardis
@@ -98,6 +98,9 @@
 ...
 10.14.16.223 he-unix01-net-dhcp223
 10.14.16.224 he-unix01-net-pxe224
+
+# This is actually on wall-e
+10.14.16.240 loghost
 ...
 10.14.16.254 he-unix01-net-pxe254
 # 10.14.16.255 RESERVED - do not use
