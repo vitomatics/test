@@ -8,7 +8,7 @@ network:
   interfaces:
     ens2:
       ip: 10.14.16.46
-    'ens2:0'
+    'ens2:0':
       ip: 10.14.16.240
 
 rsyslog:
