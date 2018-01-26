@@ -409,17 +409,6 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
-        nuc2:
-          subnet: he-unix-dynamic
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_disk
-        mnuc00:
-          subnet: sf-dynamic
-          kargs: text nomodeset xforcevesa
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_disk
         delta00:
           subnet: sf-dynamic
           kargs: text nomodeset xforcevesa

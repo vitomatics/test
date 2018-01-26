@@ -150,8 +150,6 @@ netapp1-nfs2		IN	A	10.14.16.93
 iswitch16-vlan111	IN	A	10.14.17.1
 he-unix02-net-gw	IN	CNAME	iswitch16-vlan111
 
-nuc2			IN	A	10.14.17.32
-
 sigma00			IN	A	10.14.17.64
 s00			IN	CNAME	sigma01
 sigma01			IN	A	10.14.17.65

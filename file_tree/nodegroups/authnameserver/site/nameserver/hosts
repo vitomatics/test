@@ -104,8 +104,7 @@
 
 # 10.14.17.0 RESERVED - do not use
 10.14.17.1 iswitch25-vlan111 he-unix02-net-gw 
-# 10.14.17.255 RESERVED - do not use
-10.14.17.32 nuc2
+
 10.14.17.64 sigma00 s00
 10.14.17.65 sigma01 s01
 10.14.17.66 sigma02 s02
@@ -116,6 +115,9 @@
 10.14.17.71 sigma07 s07
 10.14.17.72 sigma08 s08
 10.14.17.73 sigma09 s09
+
+# 10.14.17.255 RESERVED - do not use
+
 # 10.14.31.255 RESERVED - do not use
 
 ## 10.14.128.0 -> 10.14.143.255 aws-unix-or1-net

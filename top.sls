@@ -192,11 +192,6 @@ base:
     - profile.slurm-node
     - hosts.sandbox
 
-  'nuc2.internal.sifive.com':
-    - subnet.he-dhcp
-    - profile.login
-    - hosts.nuc2
-
   'delta*.internal.sifive.com':
     - subnet.sf-unix
     - profile.devel
