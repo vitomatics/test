@@ -11,6 +11,7 @@ rsyslog:
     output:
       remote:
         "@gravelpit.internal.sifive.com":
+          enabled: true
           filter: "*.*"
 
 ## Example board definition for sftesthost
