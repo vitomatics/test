@@ -10,8 +10,8 @@ rsyslog:
   client:
     output:
       remote:
-        '@gravelpit.internal.sifive.com':
-          filter: *.*
+        "@gravelpit.internal.sifive.com":
+          filter: "*.*"
 
 ## Example board definition for sftesthost
 sftesthost:
