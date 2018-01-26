@@ -9,6 +9,15 @@ network:
     ens2:
       ip: 10.14.16.46
 
+rsyslog:
+  client:
+    output:
+      remote:
+        gravelpit:
+          enabled: true
+          filter: "*.*"
+          action: "@loghost.internal.sifive.com"
+
 # A VG for the srv directory
 disksetup:
   vgs:
