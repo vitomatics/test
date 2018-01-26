@@ -8,8 +8,8 @@ network:
   interfaces:
     ens2:
       ipaddrs:
-        - 10.14.16.46
-        - 10.14.16.240
+        - 10.14.16.46/24
+        - 10.14.16.240/24
 
 rsyslog:
   client:
