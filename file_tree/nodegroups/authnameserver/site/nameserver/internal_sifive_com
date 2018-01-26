@@ -305,6 +305,7 @@ tortoise		IN	A	10.16.0.34
 nuc3			IN	A	10.16.0.35
 mnuc00			IN	A	10.16.0.36
 terrapin		IN	A	10.16.0.37
+nuc2			IN	A	10.16.0.38
 
 labusb00		IN	A	10.16.0.40
 labusb01		IN	A	10.16.0.41

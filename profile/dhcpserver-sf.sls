@@ -74,6 +74,9 @@ dhcpd:
     nuc1:
       hardware: ethernet f4:4d:30:61:c2:49
       fixed-address: nuc1.internal.sifive.com
+    nuc2:
+      hardware: ethernet f4:4d:30:6a:94:8f
+      fixed-address: nuc2.internal.sifive.com
     nuc3:
       hardware: ethernet f4:4d:30:6c:dd:00
       fixed-address: nuc3.internal.sifive.com
