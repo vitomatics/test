@@ -12,7 +12,7 @@ rsyslog:
       RemoteFilePath:
         parameter:
           type: string
-          string: /srv/log/%programname%.log
+          string: /srv/log/%programname:::lowercase%/%programname:::lowercase%.log
     ruleset:
       logserver:
         description: action(type="omfile" dynaFile="RemoteFilePath")
