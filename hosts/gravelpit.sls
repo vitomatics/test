@@ -6,6 +6,13 @@ states:
   firewall.iptables: true
   sftesthost: true
 
+rsyslog:
+  client:
+    output:
+      remote:
+        @gravelpit.internal.sifive.com:
+          filter: *.*
+
 ## Example board definition for sftesthost
 sftesthost:
   boards:
