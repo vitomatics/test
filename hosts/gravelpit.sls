@@ -6,17 +6,6 @@ states:
   firewall.iptables: true
   sftesthost: true
 
-disksetup:
-   dirs:
-     /srv/log:
-       user: root
-       group: syslog
-       mode: '0775'
-
-rsyslog:
-  server:
-    enabled: true
-
 ## Example board definition for sftesthost
 sftesthost:
   boards:
