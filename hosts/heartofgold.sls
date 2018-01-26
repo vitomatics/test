@@ -76,6 +76,7 @@ zfs:
     bkpool01/sfbackup/dumps/lambda00-work:
     bkpool01/sfbackup/dumps/jabba-srv:
     bkpool01/sfbackup/dumps/jarjar-srv:
+    bkpool01/sfbackup/dumps/wall-e-srv:
     bkpool01/sfbackup/dumps/i0-oldhome:
 
 nfs4:

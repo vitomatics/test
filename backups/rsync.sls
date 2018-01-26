@@ -131,4 +131,15 @@ sfdump:
       key: sfdump_hog_key1
       days: 14
       weeks: 8
+    wall-e-onsite:
+      client: wall-e.internal.sifive.com
+      server: heartofgold.internal.sifive.com
+      src: /srv
+      dest: /sfbackup/dumps/wall-e-srv
+      compression: false
+      acls: false
+      xattrs: false
+      key: sfdump_hog_key1
+      days: 7
+      weeks: 26
     ##### old backups #####
