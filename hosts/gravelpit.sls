@@ -5,7 +5,6 @@
 states:
   firewall.iptables: true
   sftesthost: true
-  rsyslog.client: true
 
 disksetup:
    dirs:
@@ -15,55 +14,8 @@ disksetup:
        mode: '0775'
 
 rsyslog:
-  client:
+  server:
     enabled: true
-    format:
-      name: TraditionalFileFormat
-      template: '%TIMESTAMP% %HOSTNAME% %syslogtag%%msg:::sp-if-no-1st-sp%%msg:::drop-last-lf%\n'
-    output:
-      file:
-        # Note the sync attribute should really be named nosync
-        /var/log/syslog:
-          sync: true
-          filter: "*.*;auth,authpriv.none"
-          owner: syslog
-          group: adm
-          createmode: "0640"
-          umask: "0022"
-          enabled: true
-        /var/log/auth.log:
-          sync: false
-          filter: "auth,authpriv.*"
-          owner: syslog
-          group: adm
-          createmode: "0640"
-          umask: "0022"
-          enabled: true
-        /var/log/kern.log:
-          sync: true
-          filter: "kern.*"
-          owner: syslog
-          group: adm
-          createmode: "0640"
-          umask: "0022"
-          enabled: true
-        /var/log/mail.log:
-          sync: true
-          filter: "mail.*"
-          owner: syslog
-          group: adm
-          createmode: "0640"
-          umask: "0022"
-          enabled: true
-        /var/log/mail.err:
-          sync: true
-          action: /var/log/mail.err
-          filter: mail.err
-          owner: syslog
-          group: adm
-          createmode: "0640"
-          umask: "0022"
-          enabled: true
 
 ## Example board definition for sftesthost
 sftesthost:

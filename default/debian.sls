@@ -13,6 +13,7 @@ states:
   chrony: true
   policyrc: true
   sfrsyslog: true
+  rsyslog.client: true
 
 nss:
   group:
@@ -22,6 +23,57 @@ nss:
   sources:
     automount:
       - ldap
+
+rsyslog:
+  client:
+    enabled: true
+    format:
+      name: TraditionalFileFormat
+      template: '%TIMESTAMP% %HOSTNAME% %syslogtag%%msg:::sp-if-no-1st-sp%%msg:::drop-last-lf%\n'
+    output:
+      file:
+        # Note the sync attribute should really be named nosync
+        /var/log/syslog:
+          sync: true
+          filter: "*.*;auth,authpriv.none"
+          owner: syslog
+          group: adm
+          createmode: "0640"
+          umask: "0022"
+          enabled: true
+        /var/log/auth.log:
+          sync: false
+          filter: "auth,authpriv.*"
+          owner: syslog
+          group: adm
+          createmode: "0640"
+          umask: "0022"
+          enabled: true
+        /var/log/kern.log:
+          sync: true
+          filter: "kern.*"
+          owner: syslog
+          group: adm
+          createmode: "0640"
+          umask: "0022"
+          enabled: true
+        /var/log/mail.log:
+          sync: true
+          filter: "mail.*"
+          owner: syslog
+          group: adm
+          createmode: "0640"
+          umask: "0022"
+          enabled: true
+        /var/log/mail.err:
+          sync: true
+          action: /var/log/mail.err
+          filter: mail.err
+          owner: syslog
+          group: adm
+          createmode: "0640"
+          umask: "0022"
+          enabled: true
 
 pam:
   su:
