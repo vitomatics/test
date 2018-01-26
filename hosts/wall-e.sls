@@ -10,6 +10,7 @@ network:
       ip: 10.14.16.46
     'ens2:0':
       ip: 10.14.16.240
+      gateway: ~
 
 rsyslog:
   client:
