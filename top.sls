@@ -324,5 +324,6 @@ base:
   'wall-e.internal.sifive.com':
     - subnet.he-unix01
     - profile.ganglia-node-server
+    - profile.rsyslog-server
     - profile.backupclient
     - hosts.wall-e

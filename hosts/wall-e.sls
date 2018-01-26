@@ -1,7 +1,6 @@
 ## pillar file for wall-e
 
 states:
-  apache: true
   firewall.iptables: true
 
 # network - static - several services
