@@ -13,7 +13,7 @@ rsyslog:
         gravelpit:
           enabled: true
           filter: "*.*"
-          action: "@gravelpit.internal.sifive.com"
+          action: "@loghost.internal.sifive.com"
 
 ## Example board definition for sftesthost
 sftesthost:
