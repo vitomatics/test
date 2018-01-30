@@ -78,7 +78,7 @@ sfdump:
       snaptype: netapp_daily
       acls: false
       xattrs: false
-      timeout: 3h
+      timeout: 4h
     sifive:
       client: netapp1-nfs1.internal.sifive.com
       export: /sifive
