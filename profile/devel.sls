@@ -142,6 +142,7 @@ pkgs:
     libxalan2-java: true
     libxalan2-java-doc: true
     doxygen: true
+    perl-doc: true
     
     ## gtkwave, both src and pkg
     gtkwave: true
