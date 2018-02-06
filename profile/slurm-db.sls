@@ -17,6 +17,7 @@ slurm:
     DbdHost: localhost
     AuthType: munge
     StorageType: mysql
+    PurgeStepAfter: 1
 
 firewall:
   ports:
