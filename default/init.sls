@@ -159,8 +159,6 @@ sfsalt:
     master_shuffle: 'false'
     # This is longer than a VM reboot
     master_alive_interval: '60'
-    # Failback might cause issues if we are doing real work on the other
-    # salt master.
     master_failback: 'true'
     master_failback_interval: '60'
     retry_dns: '0'
