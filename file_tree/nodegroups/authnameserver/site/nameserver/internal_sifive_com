@@ -313,6 +313,17 @@ labusb01		IN	A	10.16.0.41
 labusb02		IN	A	10.16.0.42
 labusb03		IN	A	10.16.0.43
 
+hifiveu00		IN	A	10.16.0.50
+hifiveu01		IN	A	10.16.0.51
+hifiveu02		IN	A	10.16.0.52
+hifiveu03		IN	A	10.16.0.53
+hifiveu04		IN	A	10.16.0.54
+hifiveu05		IN	A	10.16.0.55
+hifiveu06		IN	A	10.16.0.56
+hifiveu07		IN	A	10.16.0.57
+hifiveu08		IN	A	10.16.0.58
+hifiveu09		IN	A	10.16.0.59
+
 router03-ge0-0-4	IN	A	10.17.0.1
 sf-laptop-net-gw	IN	CNAME	router03-ge0-0-4
 printer01		IN	A	10.17.15.2

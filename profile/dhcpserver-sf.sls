@@ -105,3 +105,34 @@ dhcpd:
     labusb03:
       hardware: ethernet d4:6e:0e:05:ed:3a
       fixed-address: labusb03.internal.sifive.com
+    # hifiveu boards
+    hifiveu00:
+      hardware: ethernet 70:b3:d5:92:f0:00
+      fixed-address: hifiveu00.internal.sifive.com
+    hifiveu01:
+      hardware: ethernet 70:b3:d5:92:f0:01
+      fixed-address: hifiveu00.internal.sifive.com
+    hifiveu02:
+      hardware: ethernet 70:b3:d5:92:f0:02
+      fixed-address: hifiveu00.internal.sifive.com
+    hifiveu03:
+      hardware: ethernet 70:b3:d5:92:f0:03
+      fixed-address: hifiveu00.internal.sifive.com
+    hifiveu04:
+      hardware: ethernet 70:b3:d5:92:f0:04
+      fixed-address: hifiveu00.internal.sifive.com
+    hifiveu05:
+      hardware: ethernet 70:b3:d5:92:f0:05
+      fixed-address: hifiveu00.internal.sifive.com
+    hifiveu06:
+      hardware: ethernet 70:b3:d5:92:f0:06
+      fixed-address: hifiveu00.internal.sifive.com
+    hifiveu07:
+      hardware: ethernet 70:b3:d5:92:f0:07
+      fixed-address: hifiveu00.internal.sifive.com
+    hifiveu08:
+      hardware: ethernet 70:b3:d5:92:f0:08
+      fixed-address: hifiveu00.internal.sifive.com
+    hifiveu09:
+      hardware: ethernet 70:b3:d5:92:f0:09
+      fixed-address: hifiveu00.internal.sifive.com

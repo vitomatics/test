@@ -240,6 +240,18 @@
 10.16.0.41 labusb01
 10.16.0.42 labusb02
 10.16.0.43 labusb03
+
+10.16.0.50 hifiveu00
+10.16.0.51 hifiveu01
+10.16.0.52 hifiveu02
+10.16.0.53 hifiveu03
+10.16.0.54 hifiveu04
+10.16.0.55 hifiveu05
+10.16.0.56 hifiveu06
+10.16.0.57 hifiveu07
+10.16.0.58 hifiveu08
+10.16.0.59 hifiveu09
+
 10.16.0.128 sf-lab-net-dhcp128
 ...
 10.16.0.191 sf-lab-net-dhcp191
