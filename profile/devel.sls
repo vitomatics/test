@@ -171,7 +171,7 @@ pkgs:
 
     # OCaml - some of it needed for murali using coq
     oasis: true
-    ocamlp5: true
+    camlp5: true
 
     ## general development
     libncurses5-dev: true
