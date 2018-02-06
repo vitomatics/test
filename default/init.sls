@@ -23,6 +23,7 @@ states:
   ssh.client: true
   opensmtpd: true
   sfsalt.minion: true
+  sfsalt.minion.pingcheck: true
 {% else %}
 {% endif %}
 
@@ -160,8 +161,8 @@ sfsalt:
     master_alive_interval: '60'
     # Failback might cause issues if we are doing real work on the other
     # salt master.
-    master_failback: 'false'
-    master_failback_interval: '0'
+    master_failback: 'true'
+    master_failback_interval: '60'
     retry_dns: '0'
     hash_type: 'sha256'
     confname: 99-sfsalt.conf
