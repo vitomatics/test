@@ -212,6 +212,7 @@ base:
   'hal.internal.sifive.com':
     - subnet.he-unix01
     - profile.saltmaster
+    - profile.saltpinger
     - profile.awsmaster
     - profile.ganglia-node-server
     - hosts.hal
