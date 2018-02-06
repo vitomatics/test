@@ -92,6 +92,8 @@ pkgs:
     # For Wes
     wngerman: true
 
+    
+
     ## Building riscv-tools
     build-essential: true
     autoconf: true
@@ -167,8 +169,9 @@ pkgs:
     python-sympy-doc: true
     {% endif %}
 
-    # OCaml
+    # OCaml - some of it needed for murali using coq
     oasis: true
+    ocamlp5: true
 
     ## general development
     libncurses5-dev: true
