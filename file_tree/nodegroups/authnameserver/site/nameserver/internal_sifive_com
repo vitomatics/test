@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018020501 ; serial number
+	2018020701 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -313,16 +313,31 @@ labusb01		IN	A	10.16.0.41
 labusb02		IN	A	10.16.0.42
 labusb03		IN	A	10.16.0.43
 
-hifiveu00		IN	A	10.16.0.50
-hifiveu01		IN	A	10.16.0.51
-hifiveu02		IN	A	10.16.0.52
-hifiveu03		IN	A	10.16.0.53
-hifiveu04		IN	A	10.16.0.54
-hifiveu05		IN	A	10.16.0.55
-hifiveu06		IN	A	10.16.0.56
-hifiveu07		IN	A	10.16.0.57
-hifiveu08		IN	A	10.16.0.58
-hifiveu09		IN	A	10.16.0.59
+hifiveu000		IN	A	10.16.0.50
+hifiveu001		IN	A	10.16.0.51
+hifiveu002		IN	A	10.16.0.52
+hifiveu003		IN	A	10.16.0.53
+hifiveu004		IN	A	10.16.0.54
+hifiveu005		IN	A	10.16.0.55
+hifiveu006		IN	A	10.16.0.56
+hifiveu007		IN	A	10.16.0.57
+hifiveu008		IN	A	10.16.0.58
+hifiveu009		IN	A	10.16.0.59
+hifiveu010		IN	A	10.16.0.60
+hifiveu011		IN	A	10.16.0.61
+hifiveu012		IN	A	10.16.0.62
+hifiveu013		IN	A	10.16.0.63
+hifiveu014		IN	A	10.16.0.64
+hifiveu015		IN	A	10.16.0.65
+hifiveu016		IN	A	10.16.0.66
+hifiveu017		IN	A	10.16.0.67
+hifiveu018		IN	A	10.16.0.68
+hifiveu019		IN	A	10.16.0.69
+hifiveu020		IN	A	10.16.0.70
+hifiveu021		IN	A	10.16.0.71
+hifiveu022		IN	A	10.16.0.72
+hifiveu023		IN	A	10.16.0.73
+hifiveu024		IN	A	10.16.0.74
 
 router03-ge0-0-4	IN	A	10.17.0.1
 sf-laptop-net-gw	IN	CNAME	router03-ge0-0-4

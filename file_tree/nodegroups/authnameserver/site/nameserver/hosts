@@ -241,16 +241,31 @@
 10.16.0.42 labusb02
 10.16.0.43 labusb03
 
-10.16.0.50 hifiveu00
-10.16.0.51 hifiveu01
-10.16.0.52 hifiveu02
-10.16.0.53 hifiveu03
-10.16.0.54 hifiveu04
-10.16.0.55 hifiveu05
-10.16.0.56 hifiveu06
-10.16.0.57 hifiveu07
-10.16.0.58 hifiveu08
-10.16.0.59 hifiveu09
+10.16.0.50 hifiveu000
+10.16.0.51 hifiveu001
+10.16.0.52 hifiveu002
+10.16.0.53 hifiveu003
+10.16.0.54 hifiveu004
+10.16.0.55 hifiveu005
+10.16.0.56 hifiveu006
+10.16.0.57 hifiveu007
+10.16.0.58 hifiveu008
+10.16.0.59 hifiveu009
+10.16.0.60 hifiveu010
+10.16.0.61 hifiveu011
+10.16.0.62 hifiveu012
+10.16.0.63 hifiveu013
+10.16.0.64 hifiveu014
+10.16.0.65 hifiveu015
+10.16.0.66 hifiveu016
+10.16.0.67 hifiveu017
+10.16.0.68 hifiveu018
+10.16.0.69 hifiveu019
+10.16.0.70 hifiveu020
+10.16.0.71 hifiveu021
+10.16.0.72 hifiveu022
+10.16.0.73 hifiveu023
+10.16.0.74 hifiveu024
 
 10.16.0.128 sf-lab-net-dhcp128
 ...
