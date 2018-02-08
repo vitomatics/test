@@ -106,33 +106,78 @@ dhcpd:
       hardware: ethernet d4:6e:0e:05:ed:3a
       fixed-address: labusb03.internal.sifive.com
     # hifiveu boards
-    hifiveu00:
+    hifiveu000:
       hardware: ethernet 70:b3:d5:92:f0:00
-      fixed-address: hifiveu00.internal.sifive.com
-    hifiveu01:
+      fixed-address: hifiveu000.internal.sifive.com
+    hifiveu001:
       hardware: ethernet 70:b3:d5:92:f0:01
-      fixed-address: hifiveu01.internal.sifive.com
-    hifiveu02:
+      fixed-address: hifiveu001.internal.sifive.com
+    hifiveu002:
       hardware: ethernet 70:b3:d5:92:f0:02
-      fixed-address: hifiveu02.internal.sifive.com
-    hifiveu03:
+      fixed-address: hifiveu002.internal.sifive.com
+    hifiveu003:
       hardware: ethernet 70:b3:d5:92:f0:03
-      fixed-address: hifiveu03.internal.sifive.com
-    hifiveu04:
+      fixed-address: hifiveu003.internal.sifive.com
+    hifiveu004:
       hardware: ethernet 70:b3:d5:92:f0:04
-      fixed-address: hifiveu04.internal.sifive.com
-    hifiveu05:
+      fixed-address: hifiveu004.internal.sifive.com
+    hifiveu005:
       hardware: ethernet 70:b3:d5:92:f0:05
-      fixed-address: hifiveu05.internal.sifive.com
-    hifiveu06:
+      fixed-address: hifiveu005.internal.sifive.com
+    hifiveu006:
       hardware: ethernet 70:b3:d5:92:f0:06
-      fixed-address: hifiveu06.internal.sifive.com
-    hifiveu07:
+      fixed-address: hifiveu006.internal.sifive.com
+    hifiveu007:
       hardware: ethernet 70:b3:d5:92:f0:07
-      fixed-address: hifiveu07.internal.sifive.com
-    hifiveu08:
+      fixed-address: hifiveu007.internal.sifive.com
+    hifiveu008:
       hardware: ethernet 70:b3:d5:92:f0:08
-      fixed-address: hifiveu08.internal.sifive.com
-    hifiveu09:
+      fixed-address: hifiveu008.internal.sifive.com
+    hifiveu009:
       hardware: ethernet 70:b3:d5:92:f0:09
-      fixed-address: hifiveu09.internal.sifive.com
+      fixed-address: hifiveu009.internal.sifive.com
+    hifiveu010:
+      hardware: ethernet 70:b3:d5:92:f0:00
+      fixed-address: hifiveu010.internal.sifive.com
+    hifiveu011:
+      hardware: ethernet 70:b3:d5:92:f0:01
+      fixed-address: hifiveu011.internal.sifive.com
+    hifiveu012:
+      hardware: ethernet 70:b3:d5:92:f0:02
+      fixed-address: hifiveu012.internal.sifive.com
+    hifiveu013:
+      hardware: ethernet 70:b3:d5:92:f0:03
+      fixed-address: hifiveu013.internal.sifive.com
+    hifiveu014:
+      hardware: ethernet 70:b3:d5:92:f0:04
+      fixed-address: hifiveu014.internal.sifive.com
+    hifiveu015:
+      hardware: ethernet 70:b3:d5:92:f0:05
+      fixed-address: hifiveu015.internal.sifive.com
+    hifiveu016:
+      hardware: ethernet 70:b3:d5:92:f0:06
+      fixed-address: hifiveu016.internal.sifive.com
+    hifiveu017:
+      hardware: ethernet 70:b3:d5:92:f0:07
+      fixed-address: hifiveu017.internal.sifive.com
+    hifiveu018:
+      hardware: ethernet 70:b3:d5:92:f0:08
+      fixed-address: hifiveu018.internal.sifive.com
+    hifiveu019:
+      hardware: ethernet 70:b3:d5:92:f0:09
+      fixed-address: hifiveu019.internal.sifive.com
+    hifiveu020:
+      hardware: ethernet 70:b3:d5:92:f0:00
+      fixed-address: hifiveu020.internal.sifive.com
+    hifiveu021:
+      hardware: ethernet 70:b3:d5:92:f0:01
+      fixed-address: hifiveu021.internal.sifive.com
+    hifiveu022:
+      hardware: ethernet 70:b3:d5:92:f0:02
+      fixed-address: hifiveu022.internal.sifive.com
+    hifiveu023:
+      hardware: ethernet 70:b3:d5:92:f0:03
+      fixed-address: hifiveu023.internal.sifive.com
+    hifiveu024:
+      hardware: ethernet 70:b3:d5:92:f0:04
+      fixed-address: hifiveu024.internal.sifive.com
