@@ -17,8 +17,8 @@ slurm:
     DbdHost: localhost
     AuthType: munge
     StorageType: mysql
-    PurgeStepAfter: 1
-    PurgeJobAfter: 2
+    PurgeStepAfter: 30days
+    PurgeJobAfter: 60days
 
 firewall:
   ports:
