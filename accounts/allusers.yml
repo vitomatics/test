@@ -286,6 +286,16 @@ users:
     fullname: "Murali Vijayaraghavan"
     uid: 1142
     gid: 1142
+  ahung:
+    tags: [ cluster ]
+    fullname: "Anthony Hung"
+    uid: 1143
+    gid: 1143
+  ddowns:
+    tags: [ cluster ]
+    fullname: "Daniel Downs"
+    uid: 1144
+    gid: 1144
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
