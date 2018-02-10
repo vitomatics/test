@@ -168,6 +168,7 @@ pkgs:
     python3-venv: true
     python-sympy-doc: true
     {% endif %}
+    virtualenvwrapper: true
 
     # OCaml - some of it needed for murali using coq
     oasis: true
