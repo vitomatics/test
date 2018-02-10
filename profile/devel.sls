@@ -174,6 +174,13 @@ pkgs:
     oasis: true
     camlp5: true
 
+    # Google protobuf for depappas
+    protobuf-compiler: true
+    python-protobuf: true
+    libprotobuf-dev: true
+    libprotobuf-c-dev: true
+    libprotobuf-java: true
+
     ## general development
     libncurses5-dev: true
     libglib2.0-dev: true
