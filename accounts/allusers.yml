@@ -296,6 +296,11 @@ users:
     fullname: "Daniel Downs"
     uid: 1144
     gid: 1144
+  rmac:
+    tags: [ cluster ]
+    fullname: "Ryan Macdonald"
+    uid: 1145
+    gid: 1145
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
