@@ -38,13 +38,15 @@ flexnet:
         cadence-20170906:
           absent: true
         cadence-20170915:
-          pillar: site:licenses:cdslmd:cadence-20170915
+          absent: true
         cadence-20171012:
-          pillar: site:licenses:cdslmd:cadence-20171012
+          absent: true
         cadence-20180108:
           pillar: site:licenses:cdslmd:cadence-20180108
         cadence-20180110:
           pillar: site:licenses:cdslmd:cadence-20180110
+        cadence-20180211:
+          pillar: site:licenses:cdslmd:cadence-20180211
     interrad:
       vendor: tsmc
       bindir: MC2_2012.02.00.d/aux/flexlm/amd64_re3
