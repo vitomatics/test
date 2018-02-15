@@ -17,7 +17,7 @@ rsyslog:
       logserver:
         description: |
           if (prifilt("auth.*") or prifilt("authpriv.*")) then {
-              action(type="omfile", file="/srv/log/auth/auth.log")
+              action(type="omfile" file="/srv/log/auth/auth.log")
               stop
           }
     input:
