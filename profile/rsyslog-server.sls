@@ -2,6 +2,7 @@
 
 states:
   rsyslog.server: true
+  logrotate: true
 
 rsyslog:
   server:
@@ -24,6 +25,17 @@ rsyslog:
       imudp:
         port: 514
         ruleset: logserver
+
+logrotate:
+  logs:
+    sifive-remote:
+      files: /srv/log/auth/auth.log
+      missingok: true
+      period: daily
+      rotate: 30
+      dateext: true
+      dateyesterday: true
+      
         
 disksetup:
    dirs:
