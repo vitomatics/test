@@ -15,7 +15,11 @@ rsyslog:
           string: "/srv/log/%programname:::lowercase%/%programname:::lowercase%.log"
     ruleset:
       logserver:
-        description: action(type="omfile" dynaFile="RemoteFilePath")
+        description: |
+          if (prifilt("auth.*") or prifilt("authpriv.*")) then {
+              action(type="omfile", file="/srv/log/auth/auth.log")
+              stop
+          }
     input:
       imudp:
         port: 514
