@@ -35,6 +35,7 @@ logrotate:
       rotate: 30
       dateext: true
       dateyesterday: true
+      compress: false
       
         
 disksetup:
