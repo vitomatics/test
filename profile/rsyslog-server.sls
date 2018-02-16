@@ -35,6 +35,7 @@ logrotate:
       rotate: 30
       dateext: true
       dateyesterday: true
+      postrotate: invoke-rc.d rsyslog rotate >/dev/null 2>/dev/null
       
         
 disksetup:
