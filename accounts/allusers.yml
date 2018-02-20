@@ -301,6 +301,11 @@ users:
     fullname: "Ryan Macdonald"
     uid: 1145
     gid: 1145
+  kowshik:
+    tags: [ cluster ]
+    fullname: "Kowshik Murali"
+    uid: 1146
+    gid: 1146
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
