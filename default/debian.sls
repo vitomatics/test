@@ -74,6 +74,11 @@ rsyslog:
           createmode: "0640"
           umask: "0022"
           enabled: true
+      remote:
+        loghost:
+          enabled: true
+          filter: "auth,authpriv.*"
+          action: "@loghost.internal.sifive.com"
 
 pam:
   su:
