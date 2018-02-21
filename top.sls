@@ -206,7 +206,6 @@ base:
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
-    - profile.rsyslog-server
     - hosts.gravelpit
 
   'hal.internal.sifive.com':
