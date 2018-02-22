@@ -77,7 +77,7 @@ rsyslog:
       remote:
         loghost:
           enabled: true
-          filter: "auth,authpriv.*"
+          filter: "*.warning;auth,authpriv.*"
           action: "@loghost.internal.sifive.com"
 
 pam:
