@@ -21,7 +21,7 @@ rsyslog:
               action(type="omfile" file="/srv/log/auth/auth.log")
               stop
           }
-          if (prifilt("*.warning") then {
+          if (prifilt("*.warning")) then {
               action(type="omfile" file="/srv/log/syslog/syslog.log")
               stop
           }
