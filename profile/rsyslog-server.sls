@@ -21,6 +21,10 @@ rsyslog:
               action(type="omfile" file="/srv/log/auth/auth.log")
               stop
           }
+          if (prifilt("*.warning") then {
+              action(type="omfile" file="/srv/log/syslog/syslog.log")
+              stop
+          }
     input:
       imudp:
         port: 514
@@ -29,7 +33,7 @@ rsyslog:
 logrotate:
   logs:
     sifive-remote:
-      files: /srv/log/auth/auth.log
+      files: /srv/log/auth/auth.log /srv/log/syslog/syslog.log
       missingok: true
       period: daily
       rotate: 30
