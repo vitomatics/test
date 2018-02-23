@@ -101,6 +101,8 @@ flexnet:
           absent: true
         synopsys-20180208:
           pillar: site:licenses:snpslmd:synopsys-20180208
+        synopsys-20180222:
+          pillar: site:licenses:snpslmd:synopsys-20180222
 
 
 ## Firewall holes for flexnet server
