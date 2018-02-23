@@ -327,3 +327,7 @@ base:
     - profile.rsyslog-server
     - profile.backupclient
     - hosts.wall-e
+
+  'skynet.internal.sifive.com':
+    - subnet.he-unix01
+    - hosts.skynet

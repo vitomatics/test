@@ -575,3 +575,10 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
+        skynet:
+          ipaddress: 10.14.16.47
+          subnet: he-unix01-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk

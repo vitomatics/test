@@ -17,6 +17,7 @@ include:
   - vms.luke
   - vms.matrix
   - vms.sandbox
+  - vms.skynet
   - vms.tardis
   - vms.transporter
   - vms.vader
