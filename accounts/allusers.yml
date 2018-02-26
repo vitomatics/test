@@ -306,6 +306,11 @@ users:
     fullname: "Kowshik Murali"
     uid: 1146
     gid: 1146
+  srivatsa:
+    tags: [ cluster ]
+    fullname: "Srivatsa Yogendra"
+    uid: 1147
+    gid: 1147
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
