@@ -311,6 +311,11 @@ users:
     fullname: "Srivatsa Yogendra"
     uid: 1147
     gid: 1147
+  paulk:
+    tags: [ cluster ]
+    fullname: "Paul Kramer"
+    uid: 1148
+    gid: 1148
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
