@@ -380,10 +380,10 @@
 # 10.100.200.43 RESERVED
 
 #####
-##    10.100.200.128->10.100.200.131 - tran-router01-router03-net
+##    10.100.200.128->10.100.200.131 - unused, was tran-router01-router03-net
 # 10.100.200.128 RESERVED
-10.100.200.129 router01-ge0-0-13
-10.100.200.130 router03-ge0-0-12
+# 10.100.200.129 unused, was router01-ge0-0-13
+# 10.100.200.130 unused, was router03-ge0-0-12
 # 10.100.200.131 RESERVED
 
 ## 10.101.0.0->10.101.255.255 - router-net
@@ -439,8 +439,6 @@
 # 12.246.184.251 RESERVED - do not use
 
 ## AWS gateway addresses
-34.214.75.213 aws-smaws1a-vpn
-35.164.56.48 aws-smaws1b-vpn
 52.41.17.10 aws-heaws1a-vpn
 54.70.73.212 aws-heaws1b-vpn
 
@@ -469,7 +467,7 @@
 96.72.175.170 back-nat
 # 96.72.175.171 unused
 # 96.72.175.172 unused
-96.72.175.173 router01-ge0-0-12
+# 96.72.175.173 unused
 96.72.175.174 comcast-net-gw
 # 96.72.175.175 RESERVED - do not use
 
@@ -492,10 +490,10 @@
 169.254.100.250
 # 169.254.100.251 RESERVED
 
-## 169.254.100.252->169.254.100.255 -  tran-vpn-smaws1-net
+## 169.254.100.252->169.254.100.255 -  unused
 # 169.254.100.252 RESERVED
-169.254.100.253
-169.254.100.254 router01-st0-1
+# 169.254.100.253 unused
+# 169.254.100.254 unused
 # 169.254.100.255 RESERVED
 
 ## 169.254.107.0->169.254.107.255 - he-netapp1-net
