@@ -316,6 +316,11 @@ users:
     fullname: "Paul Kramer"
     uid: 1148
     gid: 1148
+  rperry:
+    tags: [ cluster ]
+    fullname: "Richard Perry"
+    uid: 1149
+    gid: 1149
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
