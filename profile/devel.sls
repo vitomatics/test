@@ -187,6 +187,7 @@ pkgs:
     jq: true
     subversion: true
     valgrind: true
+    libboost-all-dev: true
 
     ## windows development
     mingw-w64: true
