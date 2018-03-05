@@ -49,6 +49,8 @@ flexnet:
           pillar: site:licenses:cdslmd:cadence-20180211
         cadence-20180220:
           pillar: site:licenses:cdslmd:cadence-20180220
+        cadence-20180305:
+          pillar: site:licenses:cdslmd:cadence-20180305
     interrad:
       vendor: tsmc
       bindir: MC2_2012.02.00.d/aux/flexlm/amd64_re3
