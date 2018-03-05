@@ -321,6 +321,11 @@ users:
     fullname: "Richard Perry"
     uid: 1149
     gid: 1149
+  jcoiner:
+    tags: [ cluster ]
+    fullname: "John Coiner"
+    uid: 1150
+    gid: 1150
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
