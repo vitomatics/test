@@ -326,6 +326,11 @@ users:
     fullname: "John Coiner"
     uid: 1150
     gid: 1150
+  brucehoult:
+    tags: [ cluster ]
+    fullname: "Bruce Hoult"
+    uid: 1151
+    gid: 1151
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
