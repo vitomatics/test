@@ -51,6 +51,8 @@ flexnet:
           pillar: site:licenses:cdslmd:cadence-20180220
         cadence-20180305:
           pillar: site:licenses:cdslmd:cadence-20180305
+        cadence-20180307:
+          pillar: site:licenses:cdslmd:cadence-20180307
     interrad:
       vendor: tsmc
       bindir: MC2_2012.02.00.d/aux/flexlm/amd64_re3
@@ -105,6 +107,8 @@ flexnet:
           pillar: site:licenses:snpslmd:synopsys-20180208
         synopsys-20180306:
           pillar: site:licenses:snpslmd:synopsys-20180306
+        synopsys-20180307:
+          pillar: site:licenses:snpslmd:synopsys-20180307
 
 
 ## Firewall holes for flexnet server
