@@ -336,6 +336,11 @@ users:
     fullname: "Meadhbh Hamrick"
     uid: 1152
     gid: 1152
+  jkeithan:
+    tags: [ cluster ]
+    fullname: "James Keithan"
+    uid: 1153
+    gid: 1153
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
