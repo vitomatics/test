@@ -341,6 +341,16 @@ users:
     fullname: "James Keithan"
     uid: 1153
     gid: 1153
+  ptouliat:
+    tags: [ cluster ]
+    fullname: "Payman Touliat"
+    uid: 1154
+    gid: 1154
+  rogercar:
+    tags: [ cluster ]
+    fullname: "Roger Carpenter"
+    uid: 1155
+    gid: 1155
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
