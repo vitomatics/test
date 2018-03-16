@@ -1,0 +1,94 @@
+#Date: 03/15/2018
+#SNPS ID: PRD
+#                                                                        SYNOPSYS INC. KEY CERTIFICATE
+#                                                                        Site ID: 35908
+#                                                                        SiFive, Inc.
+#                                                                        1875 South Grant Street, Suite 600
+#                                                                        San Mateo
+#                                                                        CA 94402-7013
+#                                                                        US
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
+#
+#If you feel that keys are missing (or incorrect), please contact your Synopsys account manager.
+#
+#License keys will be transmitted in clear text, over public and private networks. Synopsys does not warrant or guarantee that these networks provide privacy and accepts no liability of
+#any kind if a third party intercepts the transmission.
+#
+#Synopsys products are export controlled. It is the responsibility of the addressee to comply with U.S. Export Regulations where applicable.
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Server Config: 0000269223
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#For counted licenses in the standard combined vendor daemon (cvd) format, make sure you are using the required version of  Synopsys Common Licensing (SCL). For
+#information on the required version of SCL, or for Synopsys licensing setup and  installation help, go to http://www.synopsys.com/licensing
+#
+#IMPORTANT: Follow the license file verification procedure at http://www.synopsys.com/licensing when installing or updating your  Synopsys license file. Combined
+#vendor daemon (cvd) format license files must be verified with the 'sssverify' utility.
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Synopsys License file created by CVDKIF 4.3 on March 15, 2018 at 16:16:25 for daemon snpslmd
+SERVER hostname1 0002C94E201E 27020
+VENDOR snpslmd /path/to/snpslmd
+USE_SERVER
+INCREMENT SSST snpslmd 1.0 15-Apr-2018 1 1E6C044F08F477788123 \
+        VENDOR_STRING="7d679 d95c1 c1dc7 090c8 9f7c9 5f2ae d790c 89f7c 95f2a ed711 \
+        01020 011c1 4280e 3e038 b6eba 9edbf 387a4 0b62c 81dd9 b1348 \
+        a0d18 db2a7 2380d 5ddfa 281bd 3bdbd 130f8 211fd 94eb1 6409f \
+        6afb2 bf6a1 0888d 3eacf dd051 3d2ca 198a5 fdd87 4f41e 1c182 \
+        14911 b4c05 cf0a0 578b9 e5948 98b4f 921e9 93c81 929be 8b1a7 \
+        3e2a3 dae1b 77455 646a7 216ba a07b1 2919d e3357 7830f 69df9 \
+        6c831 520e9 e69fe 71437 c1a0e 60d21 66427 56dde 1b201 afc57 \
+        28e65 feeda d0697 fd1fd 65b5d 00f9c 540d3 5a051 9ddca 8dec6 \
+        7fe3e 53640 dee09 8cc83 c9671 3118c 2f1cc a8b8f 8bfce dfc63 \
+        a28d4 5b974 56e03 ce349 0544d 71c78 21fd1 f1b26 62685 20272 \
+        445f2 29a83 32e96 77b82 3a42e 7878e 84657 58d8f 21286 a41fa \
+        04740 c7e68 1a93a 871" \
+        NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
+        KEYS IN THIS FILE]" \
+        SN=TK:0:0:957845 ISSUER="Synopsys, Inc. [3/15/2018 16:16:25 35908 4.3]" \
+        START=15-Mar-2018
+INCREMENT Galaxy-AdvCTS snpslmd 2017.12 15-apr-2018 1 \
+        ISSUED=15-mar-2018 ck=82 SN=TK:4270-0:492093:957845 \
+        START=15-mar-2018 AUTH={ snpslmd=( LK=7EECA48F6C21F57641F7) }
+INCREMENT Galaxy-AdvTech snpslmd 2017.12 15-apr-2018 1 \
+        ISSUED=15-mar-2018 ck=79 SN=TK:4270-0:492093:957845 \
+        START=15-mar-2018 AUTH={ snpslmd=( LK=5E3C346F6E7E7DA29FF9) }
+INCREMENT Galaxy-Common snpslmd 2017.12 15-apr-2018 5 \
+        ISSUED=15-mar-2018 ck=171 SN=TK:4270-0:492093:957845 \
+        START=15-mar-2018 AUTH={ snpslmd=( LK=FEDCE4DF64C5D28444D2) }
+INCREMENT Galaxy-DFT snpslmd 2017.12 15-apr-2018 1 ISSUED=15-mar-2018 \
+        ck=133 SN=TK:4270-0:492093:957845 START=15-mar-2018 AUTH={ \
+        snpslmd=( LK=CE8C34DFE00D3DF068B6) }
+INCREMENT Galaxy-DFY snpslmd 2017.12 15-apr-2018 1 ISSUED=15-mar-2018 \
+        ck=73 SN=TK:4270-0:492093:957845 START=15-mar-2018 AUTH={ \
+        snpslmd=( LK=7EAC345F836B4E9B7E1C) }
+INCREMENT Galaxy-FP snpslmd 2017.12 15-apr-2018 1 ISSUED=15-mar-2018 \
+        ck=42 SN=TK:4270-0:492093:957845 START=15-mar-2018 AUTH={ \
+        snpslmd=( LK=BEAC245F40CED24893D0) }
+INCREMENT Galaxy-ICC snpslmd 2017.12 15-apr-2018 5 ISSUED=15-mar-2018 \
+        ck=130 SN=TK:4270-0:492093:957845 START=15-mar-2018 AUTH={ \
+        snpslmd=( LK=FEEC646F5B0A730ADCDB) }
+INCREMENT Galaxy-IU snpslmd 2017.12 15-apr-2018 1 ISSUED=15-mar-2018 \
+        ck=81 SN=TK:4270-0:492093:957845 START=15-mar-2018 AUTH={ \
+        snpslmd=( LK=AE7C544FC43C8E78AB50) }
+INCREMENT Galaxy-MV snpslmd 2017.12 15-apr-2018 1 ISSUED=15-mar-2018 \
+        ck=84 SN=TK:4270-0:492093:957845 START=15-mar-2018 AUTH={ \
+        snpslmd=( LK=9E0CD4DFB07DC658A12A) }
+INCREMENT Galaxy-PNR snpslmd 2017.12 15-apr-2018 1 ISSUED=15-mar-2018 \
+        ck=26 SN=TK:4270-0:492093:957845 START=15-mar-2018 AUTH={ \
+        snpslmd=( LK=1E7C349F5906E8E4E1A7) }
+INCREMENT Galaxy-PSYN snpslmd 2017.12 15-apr-2018 1 \
+        ISSUED=15-mar-2018 ck=62 SN=TK:4270-0:492093:957845 \
+        START=15-mar-2018 AUTH={ snpslmd=( LK=7ECCA4DFD8B67D354305) }
+INCREMENT Galaxy-Power snpslmd 2017.12 15-apr-2018 1 \
+        ISSUED=15-mar-2018 ck=38 SN=TK:4270-0:492093:957845 \
+        START=15-mar-2018 AUTH={ snpslmd=( LK=1E3CC47F52DB1A333233) }
+INCREMENT Galaxy-Prototype snpslmd 2017.12 15-apr-2018 1 \
+        ISSUED=15-mar-2018 ck=28 SN=TK:4270-0:492093:957845 \
+        START=15-mar-2018 AUTH={ snpslmd=( LK=2E2CA4CFCD3CD895104B) }
+INCREMENT Milkyway-Interface snpslmd 2017.12 15-apr-2018 5 \
+        ISSUED=15-mar-2018 ck=78 SN=TK:4270-0:492093:957845 \
+        START=15-mar-2018 AUTH={ snpslmd=( LK=9E0C44DFE9D90C932D35) }
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
