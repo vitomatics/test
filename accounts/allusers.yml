@@ -140,9 +140,9 @@ users:
     fullname: "Scott Johnson"
     uid: 1111
     gid: 1111
-    authorized_keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAtgeQRmgXNQxjfb+vsq+rgTfKiX5/PKYjgJXnNP5+EQZc4SVbNQsgXgyMocCMM1IUjeIksscKs+OIDQn+HOTTEFMBCAaPWTBHLqRxthdKWri90jyHdR1F6mzZy6ktoewmDf3hvnSEjlBsA89D0yMA5WiZf8MygoecgWfbDenPxxinHxEo++m8Uxaf7cfizv/JMcaU5uaiWSwMl7u5v1Nxobo1tZ0jS40Jp3tuOpgXWNQ71u2/bMy1oRc119/KXsHruU+tohVOhCO/XtkKPq+AygvPC6F0qz/bYgefAXTBMta0i5+WYGMgwflg6KGvkpaAmVtKDFMCBqizgjfFRMvJbw== rsa-key-20160709 from puttygen on scottj work laptop
-      - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAut/QXO/LE0e35/NbRV5WhtIOYM0GiD7XyfLzs8nugaO+4ixJMWn4uO+wbcSsw0P6E34NJvWcYdui3NYrNhOT+Del0S4Letc7MFxxDkqkhtEIEItV2MV3UR6sD7wOl3MrEB6gHInwZuDPXgIPAnzDvvVj1vx+s4B65TVPsd3mjgv1R0UwZnllyEeBJQENdPn33lKCgBgwxuu5XH7WvpQP9scBtD5QJW9R5F/2SfTxxNm8/ZTlwtSVuLFpY0qzMFOsseJ+9RETJiDciVjiD3ElsfP5QthTxd4TVeAS+XR+nE7QYfZ39csLV2kdBpE5URzh3KPaM2py9edRQWJXsTWFIw== rsa-key-20160817 from puttygen on scottj desktop
+    # authorized_keys:
+      # - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAtgeQRmgXNQxjfb+vsq+rgTfKiX5/PKYjgJXnNP5+EQZc4SVbNQsgXgyMocCMM1IUjeIksscKs+OIDQn+HOTTEFMBCAaPWTBHLqRxthdKWri90jyHdR1F6mzZy6ktoewmDf3hvnSEjlBsA89D0yMA5WiZf8MygoecgWfbDenPxxinHxEo++m8Uxaf7cfizv/JMcaU5uaiWSwMl7u5v1Nxobo1tZ0jS40Jp3tuOpgXWNQ71u2/bMy1oRc119/KXsHruU+tohVOhCO/XtkKPq+AygvPC6F0qz/bYgefAXTBMta0i5+WYGMgwflg6KGvkpaAmVtKDFMCBqizgjfFRMvJbw== rsa-key-20160709 from puttygen on scottj work laptop
+      # - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAut/QXO/LE0e35/NbRV5WhtIOYM0GiD7XyfLzs8nugaO+4ixJMWn4uO+wbcSsw0P6E34NJvWcYdui3NYrNhOT+Del0S4Letc7MFxxDkqkhtEIEItV2MV3UR6sD7wOl3MrEB6gHInwZuDPXgIPAnzDvvVj1vx+s4B65TVPsd3mjgv1R0UwZnllyEeBJQENdPn33lKCgBgwxuu5XH7WvpQP9scBtD5QJW9R5F/2SfTxxNm8/ZTlwtSVuLFpY0qzMFOsseJ+9RETJiDciVjiD3ElsfP5QthTxd4TVeAS+XR+nE7QYfZ39csLV2kdBpE5URzh3KPaM2py9edRQWJXsTWFIw== rsa-key-20160817 from puttygen on scottj desktop
   zhemao:
     tags: [ cluster ]
     fullname: "Howard Mao"
