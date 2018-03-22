@@ -2,6 +2,7 @@
 
 states:
   firewall.iptables: true
+  telegraf: true
 
 # network - static - several services
 network:
