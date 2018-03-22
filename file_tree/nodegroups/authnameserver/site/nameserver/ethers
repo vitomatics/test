@@ -15,6 +15,7 @@ poly06			64:16:7f:06:24:7a
 poly07			64:16:7f:06:24:7a
 phone01			64:16:7f:0c:db:dc
 phone02			64:16:7f:19:a4:0b
+revo01			ac:44:f2:05:sf:98
 
 alpha-admin		14:18:77:44:22:7a
 omega1-admin		14:18:77:44:1c:c5
@@ -241,3 +242,5 @@ hifiveu021		70:b3:d5:92:f0:15
 hifiveu022		70:b3:d5:92:f0:16
 hifiveu023		70:b3:d5:92:f0:17
 hifiveu024		70:b3:d5:92:f0:18
+
+
