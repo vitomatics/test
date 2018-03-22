@@ -34,7 +34,8 @@ network:
       - internal.sifive.com
       - sifive.com
 
-timezone: PST8PDT
+timezone:
+  zone: PST8PDT
 
 chrony:
   lookup:
