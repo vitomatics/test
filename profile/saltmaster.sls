@@ -48,6 +48,8 @@ sfsalt:
         origin: git@github-salt-pillar:sifive/bind-formula.git
       rsyslog-formula:
         origin: git@github-salt-pillar:sifive/salt-formula-rsyslog.git
+      telegraf-formula:
+        origin: git@github-salt-pillar:sifive/salt-formula-telegraf.git
 
         
     nodegroups:
