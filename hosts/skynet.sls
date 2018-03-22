@@ -29,3 +29,6 @@ disksetup:
       lv: skynet/srv
 
 
+telegraf:
+  agent:
+    enabled: true
