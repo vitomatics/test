@@ -32,7 +32,7 @@ disksetup:
 telegraf:
   agent:
     enabled: true
-    interval: 10s
+    interval: 10
     input:
       cpu:
     output:
