@@ -32,5 +32,5 @@ disksetup:
 telegraf:
   agent:
     enabled: true
-    input:
-    output:
+    input: {}
+    output: {}
