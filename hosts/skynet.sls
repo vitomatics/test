@@ -35,9 +35,16 @@ telegraf:
     interval: 60
     input:
       cpu:
-        interval: 10
+        allcpus:
+          name_prefix: allcpus
+          interval: 10
     output:
       file:
-        files:
-          - /tmp/telegraf.out
-        data_format: influx
+        tmpfile1:
+          files:
+            - /tmp/telegraf.out
+          data_format: influx
+        tmpfile2:
+          files:
+            - /tmp/telegraf2.out
+          data_format: json
