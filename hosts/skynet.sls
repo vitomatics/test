@@ -33,4 +33,6 @@ telegraf:
   agent:
     enabled: true
     input: {}
-    output: {}
+    output:
+      file = ["stdout"]
+      data_format = "influx"
