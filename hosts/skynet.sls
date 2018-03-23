@@ -34,5 +34,7 @@ telegraf:
     enabled: true
     input: {}
     output:
-      file = ["stdout"]
-      data_format = "influx"
+      file:
+        files:
+          - stdout
+        data_format: influx
