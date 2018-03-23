@@ -32,7 +32,8 @@ disksetup:
 telegraf:
   agent:
     enabled: true
-    input: {}
+    input:
+      cpu:
     output:
       file:
         files:
