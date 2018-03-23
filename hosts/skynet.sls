@@ -46,6 +46,7 @@ telegraf:
         routers:
           agents:
             - router03.internal.sifive.com
+            - router11.internal.sifive.com
           version: 2
           community: HanIF2slow
     output:
