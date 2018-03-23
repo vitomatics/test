@@ -32,10 +32,11 @@ disksetup:
 telegraf:
   agent:
     enabled: true
+    interval: 10s
     input:
       cpu:
     output:
       file:
         files:
-          - stdout
+          - /tmp/telegraf.out
         data_format: influx
