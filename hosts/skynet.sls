@@ -28,6 +28,10 @@ disksetup:
       opts: noatime
       lv: skynet/srv
 
+pkgs:
+  list:
+    snmp: true
+    
 
 telegraf:
   agent:
@@ -38,6 +42,12 @@ telegraf:
         allcpus:
           name_prefix: allcpus
           interval: 10
+      snmp:
+        routers:
+          agents:
+            - router03.internal.sifive.com
+          version: 2
+          community: HanIF2slow
     output:
       file:
         tmpfile1:
