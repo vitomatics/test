@@ -48,7 +48,7 @@ telegraf:
           version: 2
           community: HanIF2slow
           fields:
-            - oid: ".1.0.0.1.1":
+            - oid: ".1.0.0.1.1"
               name: hostname
     output:
       file:
