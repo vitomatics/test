@@ -40,7 +40,6 @@ telegraf:
     input:
       cpu:
         allcpus:
-          name_override: allcpus
       snmp:
         routers:
           agents: router11.internal.sifive.com
