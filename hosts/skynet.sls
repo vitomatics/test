@@ -43,14 +43,14 @@ telegraf:
           name_prefix: allcpus-
       snmp:
         routers:
-          agents: 10.15.224.192
+          agents: 10.15.224.192:61
           version: 2
           community: HanIF2slow
           name: "snmp"
           fields:
-            - oid: "1.3.6.1.2.1.1.5"
+            - oid: "1.3.6.1.2.1.25.1"
               name: hostname
-            - oid: "1.3.6.1.2.1.1.3"
+            - oid: "1.3.6.1.2.1.25.1.1"
               name: uptime
     output:
       file:
