@@ -46,7 +46,7 @@ telegraf:
           agents: router11.internal.sifive.com:161
           version: 2
           community: HanIF2slow
-          name: "routers"
+          name: "snmp"
           fields:
             - oid: ".1.0.0.1.1"
               name: hostname
