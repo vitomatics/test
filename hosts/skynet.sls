@@ -56,6 +56,8 @@ telegraf:
             # IF-MIB::ifXTable
             - oid: "1.3.6.1.2.1.31.1.1"
               name: interface
+              inherit_tags:
+                - hostname
     output:
       file:
         tmpfile1:
