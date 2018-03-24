@@ -48,6 +48,8 @@ telegraf:
           community: HanIF2slow
           name: "snmp"
           fields:
+            - oid: "1.3.6.1.2.1.1.5.0
+              name: hostname
             - oid: "1.3.6.1.2.1.25.1.1.0"
               name: uptime
     output:
