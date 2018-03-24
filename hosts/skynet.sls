@@ -50,6 +50,7 @@ telegraf:
           fields:
             - oid: "1.3.6.1.2.1.1.5.0"
               name: hostname
+              is_tag: true
             - oid: "1.3.6.1.2.1.25.1.1.0"
               name: uptime
           tables:
