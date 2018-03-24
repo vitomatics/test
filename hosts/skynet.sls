@@ -56,7 +56,3 @@ telegraf:
           files:
             - /tmp/telegraf.out
           data_format: influx
-        tmpfile2:
-          files:
-            - /tmp/telegraf2.out
-          data_format: json
