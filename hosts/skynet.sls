@@ -52,6 +52,10 @@ telegraf:
               name: hostname
             - oid: "1.3.6.1.2.1.25.1.1.0"
               name: uptime
+          tables:
+            # IF-MIB::ifXTable
+            - oid: "1.3.6.1.2.1.31.1.1"
+              name: interface
     output:
       file:
         tmpfile1:
