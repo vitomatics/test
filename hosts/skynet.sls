@@ -43,7 +43,7 @@ telegraf:
           name_prefix: allcpus-
       snmp:
         routers:
-          agents: 10.15.224.192:61
+          agents: 10.15.224.192
           version: 2
           community: HanIF2slow
           name: "snmp"
