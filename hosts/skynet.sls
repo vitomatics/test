@@ -43,7 +43,7 @@ telegraf:
           name_prefix: allcpus-
       snmp:
         routers:
-          agents: router11.internal.sifive.com
+          agents: router11.internal.sifive.com:161
           version: 2
           community: HanIF2slow
           fields:
