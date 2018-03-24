@@ -44,6 +44,7 @@ telegraf:
           interval: 10
       snmp:
         routers:
+          interval: 10
           agents: router11.internal.sifive.com
           version: 2
           community: HanIF2slow
