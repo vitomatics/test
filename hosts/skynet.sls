@@ -47,6 +47,9 @@ telegraf:
           agents: router03.internal.sifive.com
           version: 2
           community: HanIF2slow
+          fields:
+            - oid: ".1.0.0.1.1":
+              name: hostname
     output:
       file:
         tmpfile1:
