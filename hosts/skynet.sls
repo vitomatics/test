@@ -58,6 +58,10 @@ telegraf:
               name: interface
               inherit_tags:
                 - hostname
+              fields:
+                - name: ifDescr
+                  oid: "IF-MIB::ifDescr"
+                  is_tag: true
     output:
       file:
         tmpfile1:
