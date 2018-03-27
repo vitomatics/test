@@ -44,8 +44,11 @@ telegraf:
       snmp:
         routers:
           agents: router11.internal.sifive.com
-          version: 2
-          community: HanIF2slow
+          version: 3
+          sec_name: sfnoc
+          auth_protocol: MD5
+          auth_password: HanIF2slow
+          sec_level: authNoPriv
           name: "snmp"
           fields:
             - oid: "1.3.6.1.2.1.1.5.0"
