@@ -3,6 +3,7 @@
 states:
   firewall.iptables: true
   telegraf: true
+  snmp: true
 
 # network - static - several services
 network:
