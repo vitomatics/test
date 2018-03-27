@@ -27,7 +27,7 @@ disksetup:
     /srv:
       fstype: ext4
       opts: noatime
-      lv: skynet/srv
+      lv: skynet00/srv
 
 pkgs:
   list:
