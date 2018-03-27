@@ -28,6 +28,16 @@ disksetup:
       fstype: ext4
       opts: noatime
       lv: skynet00/srv
+   dirs:
+     /srv/monhost:
+       user: root
+       group: root
+       mode: '0755'
+     /srv/monhost/test:
+       user: root
+       group: root
+       mode: '0755'
+
 
 pkgs:
   list:
