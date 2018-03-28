@@ -2,8 +2,9 @@
 
 states:
   firewall.iptables: true
-  telegraf: true
   snmp: true
+  telegraf: true
+  influxdb: true
 
 # network - static - several services
 network:
@@ -39,6 +40,20 @@ pkgs:
   list:
     snmp: true
 
+influxdb:
+  server:
+    enabled: true
+    http:
+      enabled: true
+      bind:
+        address: 127.0.0.1
+        port: 8086
+    data:
+      dir: '/srv/monhost/influxdb/data'
+    meta:
+      dir: '/srv/monhost/influxdb/meta'
+      
+        
 
 
 telegraf:
