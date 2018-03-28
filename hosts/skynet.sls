@@ -56,15 +56,16 @@ telegraf:
           auth_password: HanIF2slow
           sec_level: authNoPriv
           name: "snmp"
+          # Note that JunOS has a limit set of MIBs that are supported
+          # hence the selection of the fields below.
           fields:
-            - oid: "1.3.6.1.2.1.1.5.0"
+            - oid: "SNMPv2-MIB::sysName.0"
               name: hostname
               is_tag: true
-            - oid: "1.3.6.1.2.1.25.1.1.0"
+            - oid: "HOST-RESOURCES-MIB::hrSystemUptime.0"
               name: uptime
           tables:
-            # IF-MIB::ifXTable
-            - oid: "1.3.6.1.2.1.31.1.1"
+            - oid: "IF-MIB::ifXTable"
               name: interface
               inherit_tags:
                 - hostname
@@ -76,5 +77,5 @@ telegraf:
       file:
         tmpfile1:
           files:
-            - /tmp/telegraf.out
+            - /srv/monhost/test/telegraf.out
           data_format: influx
