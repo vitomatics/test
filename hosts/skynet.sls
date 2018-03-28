@@ -70,7 +70,7 @@ telegraf:
     enabled: true
     interval: 60
     input:
-      netdev:
+      snmp:
         routers:
           agents: router11.internal.sifive.com
           version: 3
