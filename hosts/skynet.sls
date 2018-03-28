@@ -52,8 +52,15 @@ influxdb:
       dir: '/srv/monhost/influxdb/data'
     meta:
       dir: '/srv/monhost/influxdb/meta'
-      
-        
+    database:
+      network:
+        enabled: true
+        name: network
+        retention_policy:
+        - name: netdata
+          duration: 30d
+          replication: 1
+          is_default: true
 
 
 telegraf:
@@ -61,7 +68,7 @@ telegraf:
     enabled: true
     interval: 60
     input:
-      snmp:
+      netdev:
         routers:
           agents: router11.internal.sifive.com
           version: 3
@@ -69,7 +76,7 @@ telegraf:
           auth_protocol: MD5
           auth_password: HanIF2slow
           sec_level: authNoPriv
-          name: "snmp"
+          name: "netdev"
           # Note that JunOS has a limit set of MIBs that are supported
           # hence the selection of the fields below.
           fields:
@@ -93,3 +100,5 @@ telegraf:
           files:
             - /srv/monhost/test/telegraf.out
           data_format: influx
+    output:
+      influxdb:
