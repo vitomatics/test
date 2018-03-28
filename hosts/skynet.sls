@@ -106,5 +106,5 @@ telegraf:
         db1:
           urls:
             - http://127.0.0.1:{{ influxdb_port }}
-          database: '"network"'
+          database: "network"
           timeout: 10s
