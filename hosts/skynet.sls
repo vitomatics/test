@@ -46,8 +46,6 @@ telegraf:
     enabled: true
     interval: 60
     input:
-      cpu:
-        allcpus:
       snmp:
         routers:
           agents: router11.internal.sifive.com
