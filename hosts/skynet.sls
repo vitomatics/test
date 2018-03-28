@@ -30,7 +30,7 @@ disksetup:
       lv: skynet00/srv
   dirs:
     /srv/monhost/test:
-      user: root
+      user: telegraf
       group: root
       mode: '0755'
 
@@ -38,7 +38,8 @@ disksetup:
 pkgs:
   list:
     snmp: true
-    
+
+
 
 telegraf:
   agent:
