@@ -107,5 +107,4 @@ telegraf:
           urls:
             - http://127.0.0.1:{{ influxdb_port }}
           database: '"network"'
-          write_consistency: '"any"'
           timeout: 10s
