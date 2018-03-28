@@ -1,5 +1,7 @@
 ## pillar file for skynet
 
+{% set influxdb_port = 8086 %}
+
 states:
   firewall.iptables: true
   snmp: true
@@ -47,7 +49,7 @@ influxdb:
       enabled: true
       bind:
         address: 127.0.0.1
-        port: 8086
+        port: {{ influxdb_port }}
     data:
       dir: '/srv/monhost/influxdb/data'
     meta:
@@ -100,5 +102,9 @@ telegraf:
           files:
             - /srv/monhost/test/telegraf.out
           data_format: influx
-    output:
       influxdb:
+        urls:
+          - http://127.0.0.1:{{ influxdb_port }}
+        database: test-telegraf
+        write_consistency: any
+        timeout: 10s
