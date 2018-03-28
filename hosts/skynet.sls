@@ -43,7 +43,7 @@ pkgs:
 telegraf:
   agent:
     enabled: true
-    interval: 10
+    interval: 60
     input:
       cpu:
         allcpus:
