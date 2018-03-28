@@ -103,8 +103,9 @@ telegraf:
             - /srv/monhost/test/telegraf.out
           data_format: influx
       influxdb:
-        urls:
-          - http://127.0.0.1:{{ influxdb_port }}
-        database: test-telegraf
-        write_consistency: any
-        timeout: 10s
+        db1:
+          urls:
+            - http://127.0.0.1:{{ influxdb_port }}
+          database: test-telegraf
+          write_consistency: any
+          timeout: 10s
