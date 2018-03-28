@@ -188,6 +188,7 @@ pkgs:
     subversion: true
     valgrind: true
     libboost-all-dev: true
+    linux-tools-virtual: true
 
     ## windows development
     mingw-w64: true
