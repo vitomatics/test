@@ -92,30 +92,32 @@ flexnet:
       vport: 27001
       env: SCL_POOL_VS=1
       licenses:
+        synopsys-20171029:
+          absent: true
+        synopsys-20171206:
+          absent: true
+        synopsys-20180222:
+          absent: true
+        synopsys-20180306:
+          absent: true
+        synopsys-20180307:
+          absent: true
+        synopsys-20180307b:
+          absent: true
+        synopsys-20180314a:
+          absent: true
+        synopsys-20180314b:
+          absent: true
+        synopsys-20180314c:
+          absent: true
         microsemi-01:
           pillar: site:licenses:snpslmd:microsemi-01
         microsemi-02:
           pillar: site:licenses:snpslmd:microsemi-02
         synopsys-20171005:
           pillar: site:licenses:snpslmd:synopsys-20171005
-        synopsys-20171029:
-          absent: true
-        synopsys-20171206:
-          absent: true
         synopsys-20180208:
           pillar: site:licenses:snpslmd:synopsys-20180208
-        synopsys-20180306:
-          pillar: site:licenses:snpslmd:synopsys-20180306
-        synopsys-20180307:
-          pillar: site:licenses:snpslmd:synopsys-20180307
-        synopsys-20180307b:
-          pillar: site:licenses:snpslmd:synopsys-20180307b
-        synopsys-20180314a:
-          pillar: site:licenses:snpslmd:synopsys-20180314a
-        synopsys-20180314b:
-          pillar: site:licenses:snpslmd:synopsys-20180314b
-        synopsys-20180314c:
-          pillar: site:licenses:snpslmd:synopsys-20180314c
         synopsys-20180315:
           pillar: site:licenses:snpslmd:synopsys-20180315
         synopsys-20180327:
