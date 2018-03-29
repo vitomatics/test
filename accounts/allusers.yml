@@ -351,6 +351,11 @@ users:
     fullname: "Roger Carpenter"
     uid: 1155
     gid: 1155
+  froilanm:
+    tags: [ cluster ]
+    fullname: "Froilan Montenegro"
+    uid: 1156
+    gid: 1156
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
