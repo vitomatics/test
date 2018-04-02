@@ -181,6 +181,8 @@ pkgs:
     libpango1.0-dev: true
     libssl-dev: true
     libssl-doc: true
+    libreadline-dev: true
+    readline-doc: true
     cmake: true
     diffstat: true
     chrpath: true
