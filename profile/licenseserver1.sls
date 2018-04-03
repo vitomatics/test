@@ -31,7 +31,7 @@ flexnet:
     microsemi:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/Microsemi/license_servers/Linux_Licensing_Daemon-20180402.tar.gz
-      dir: license-servers-20180402
+      dir: Linux_Licensing_Daemon
   daemons:
     cdslmd:
       vendor: cadence
@@ -134,7 +134,7 @@ flexnet:
           pillar: site:licenses:snpslmd:synopsys-20180328
     actlmgrd:
       vendor: microsemi
-      bindir: license-servers-20180402/Linux_Licensing_Daemon
+      bindir: Linux_Licensing_Daemon
       port: 1702
       vport: 1703
       licenses:
