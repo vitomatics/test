@@ -216,6 +216,16 @@ wap03			c8:b5:ad:ca:be:b0
 wap03-ble		50:f1:4a:57:27:6b
 wap04			c8:b5:ad:ca:bd:ae
 wap04-ble		50:f1:4a:5a:ff:fb
+wap05			c8:b5:ad:ca:e4:30
+wap05-ble		d4:36:39:81:55:34
+wap06			c8:b5:ad:ca:e4:50
+wap06-ble		50:f1:4a:6f:c1:aa
+wap07			c8:b5:ad:ca:e4:36
+wap07-ble		50:f1:4a:6f:bf:84
+wap08			c8:b5:ad:ca:e4:4a
+wap08-ble		d9:c1:d5:0b:f8:c1
+wap09			c8:b5:ad:ca:e4:26
+wap09-ble		50:f1:4a:6f:ba:37
 
 hifiveu000		70:b3:d5:92:f0:00
 hifiveu001		70:b3:d5:92:f0:01
