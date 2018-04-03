@@ -72,9 +72,11 @@ flexnet:
       vport: 1718
       licenses:
         microsemi-01:
-          pillar: site:licenses:mgcld:microsemi-01
+          absent: true
         microsemi-02:
-          pillar: site:licenses:mgcld:microsemi-02
+          absent: true
+        microsemi-20180401:
+          pillar: site:licenses:mgcld:microsemi-20180401
     smartdv:
       vendor: smartdv
       bindir: smartdv-flexlm-20170216/lnx_64
