@@ -206,6 +206,8 @@ delta01			94:c6:91:10:6a:04
 delta02			94:c6:91:10:66:6b
 delta03			94:c6:91:10:69:5e
 
+wap00			c8:b5:ad:ca:bd:3a
+wap00-ble		9c:1d:58:0b:3a:51
 wap01			c8:b5:ad:ca:bb:a8
 wap01-ble		9c:1d:58:0b:36:2b
 wap02			c8:b5:ad:ca:b9:40
@@ -214,8 +216,6 @@ wap03			c8:b5:ad:ca:be:b0
 wap03-ble		50:f1:4a:57:27:6b
 wap04			c8:b5:ad:ca:bd:ae
 wap04-ble		50:f1:4a:5a:ff:fb
-wap05			c8:b5:ad:ca:bd:3a
-wap05-ble		9c:1d:58:0b:3a:51
 
 hifiveu000		70:b3:d5:92:f0:00
 hifiveu001		70:b3:d5:92:f0:01
