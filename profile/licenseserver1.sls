@@ -113,9 +113,11 @@ flexnet:
         synopsys-20180314c:
           absent: true
         microsemi-01:
-          pillar: site:licenses:snpslmd:microsemi-01
+          absent: true
         microsemi-02:
-          pillar: site:licenses:snpslmd:microsemi-02
+          absent: true
+        microsemi-20180401:
+          pillar: site:licenses:snpslmd:microsemi-20180401
         synopsys-20171005:
           pillar: site:licenses:snpslmd:synopsys-20171005
         synopsys-20180208:
