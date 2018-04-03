@@ -28,6 +28,10 @@ flexnet:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/TSMC/flexlm/MC2_2012.02.00.d-flexlm.tar.gz
       dir: MC2_2012.02.00.d
+    microsemi:
+      disttype: tgz
+      disturl: http://sfimages.internal.sifive.com/Microsemi/license_servers/Linux_Licensing_Daemon-20180402.tar.gz
+      dir: license-servers-20180402
   daemons:
     cdslmd:
       vendor: cadence
@@ -128,12 +132,22 @@ flexnet:
           pillar: site:licenses:snpslmd:synopsys-20180327
         synopsys-20180328:
           pillar: site:licenses:snpslmd:synopsys-20180328
+    actlmgrd:
+      vendor: microsemi
+      bindir: license-servers-20180402/Linux_Licensing_Daemon
+      port: 1702
+      vport: 1703
+      licenses:
+        microsemi-20180401:
+          pillar: site:licenses:actlmgrd:microsemi-20180401
 
 
 ## Firewall holes for flexnet server
 firewall:
   ports:
     tcp:
+      1702: 10.14.0.0/16 10.134.0.0/16
+      1703: 10.14.0.0/16 10.134.0.0/16
       1717: 10.14.0.0/16 10.134.0.0/16
       1718: 10.14.0.0/16 10.134.0.0/16
       5053: 10.14.0.0/16 10.134.0.0/16
