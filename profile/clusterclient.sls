@@ -117,3 +117,4 @@ sudo:
       - JENKINS: (jenkins) ALL
     - '%perf-user': 
       - INTERACTIVE: '/usr/bin/perf top *'
+      - INTERACTIVE: '/usr/bin/perf top'
