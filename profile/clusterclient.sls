@@ -90,6 +90,21 @@ sudo:
         - sigma07.internal.sifive.com
         - sigma08.internal.sifive.com
         - sigma09.internal.sifive.com
+      INTERACTIVE:
+        - gamma00.internal.sifive.com
+        - gamma01.internal.sifive.com
+        - gamma02.internal.sifive.com
+        - gamma03.internal.sifive.com
+        - gamma04.internal.sifive.com
+        - gamma05.internal.sifive.com
+        - gamma06.internal.sifive.com
+        - gamma07.internal.sifive.com
+        - gamma10.internal.sifive.com
+        - gamma11.internal.sifive.com
+        - gamma12.internal.sifive.com
+        - gamma13.internal.sifive.com
+        - gamma14.internal.sifive.com
+        - gamma15.internal.sifive.com
   userspec:
     - root:
       - ALL: '(ALL:ALL) ALL'
@@ -100,3 +115,5 @@ sudo:
     - '%jenkins-admin': 
       - JENKINS: /usr/sbin/iotop
       - JENKINS: (jenkins) ALL
+    - '%perf-user': 
+      - INTERACTIVE: '/usr/bin/perf top *'
