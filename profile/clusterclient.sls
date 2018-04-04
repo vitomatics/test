@@ -65,7 +65,7 @@ sudo:
     hosts:
       JENKINS:
         - b0.internal.sifive.com
-        - i0.internal.sifive.com
+        - alpha.internal.sifive.com
         - gamma00.internal.sifive.com
         - gamma01.internal.sifive.com
         - gamma02.internal.sifive.com
