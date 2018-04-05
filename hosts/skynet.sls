@@ -121,7 +121,7 @@ grafana:
       user: admin
       password: 300DoorNotLocked
     database:
-      engine: sqlite
+      engine: sqlite3
 
 firewall:
   ports:
