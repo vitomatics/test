@@ -116,7 +116,7 @@ grafana:
     enabled: true
     bind:
       address: 10.14.16.47
-      port: 3000
+      port: 80
     admin:
       user: admin
       password: 300DoorNotLocked
