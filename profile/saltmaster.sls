@@ -52,6 +52,8 @@ sfsalt:
         origin: git@github-salt-pillar:sifive/salt-formula-telegraf.git
       influxdb-formula:
         origin: git@github-salt-pillar:sifive/salt-formula-influxdb.git
+      grafana-formula:
+        origin: git@github-salt-pillar:sifive/salt-formula-grafana.git
 
         
     nodegroups:
