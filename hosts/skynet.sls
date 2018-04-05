@@ -72,7 +72,9 @@ telegraf:
     input:
       snmp:
         routers:
-          agents: router11.internal.sifive.com
+          agents:
+            - router11.internal.sifive.com
+            - router12.internal.sifive.com
           version: 3
           sec_name: sfnoc
           auth_protocol: MD5
