@@ -110,3 +110,20 @@ telegraf:
             - http://127.0.0.1:{{ influxdb_port }}
           database: "network"
           timeout: 10s
+
+grafana:
+  server:
+    enabled: true
+    bind:
+      address: 10.14.16.47
+      port: 3000
+    admin:
+      user: admin
+      password: 300DoorNotLocked
+    database:
+      engine: sqlite
+
+firewall:
+  ports:
+    tcp:
+      3000: 10.14.0.0/16 10.17.0.0/16
