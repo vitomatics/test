@@ -124,6 +124,7 @@ grafana:
 
 nginx:
   server:
+    enabled: true
     site:
       grafana_proxy:
         enabled: true
