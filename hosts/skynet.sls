@@ -114,7 +114,7 @@ grafana:
   server:
     enabled: true
     domain: sysmon.internal.sifive.com
-    root_url: 'http://%(domain)s/grafana'
+    root_url: 'http://sysmon.internal.sifive.com/grafana'
     bind:
       address: 127.0.0.1
       port: 3000
