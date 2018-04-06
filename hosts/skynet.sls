@@ -120,7 +120,7 @@ grafana:
       port: 3000
     admin:
       user: admin
-      password: 300DoorNotLocked
+      password: admin
     database:
       engine: sqlite3
 
