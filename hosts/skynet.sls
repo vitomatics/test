@@ -131,7 +131,7 @@ nginx:
       grafana_proxy:
         enabled: true
         type: nginx_proxy
-        name: sysmon.internal.sifive.com
+        name: sysmon
         host:
           name: sysmon.internal.sifive.com
           port: 80
