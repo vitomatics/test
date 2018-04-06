@@ -7,6 +7,7 @@ states:
   snmp: true
   telegraf: true
   influxdb: true
+  grafana: true
 
 # network - static - several services
 network:
@@ -126,4 +127,4 @@ grafana:
 firewall:
   ports:
     tcp:
-      3000: 10.14.0.0/16 10.17.0.0/16
+      80: 10.14.0.0/16 10.17.0.0/16
