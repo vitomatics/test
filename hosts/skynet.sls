@@ -113,6 +113,8 @@ influxdb:
 grafana:
   server:
     enabled: true
+    domain: sysmon.internal.sifive.com
+    root_url: '%(protocol)s://%(domain)s:%(http_port)s/grafana'
     bind:
       address: 127.0.0.1
       port: 3000
