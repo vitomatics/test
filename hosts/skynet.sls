@@ -39,32 +39,6 @@ disksetup:
       mode: '0755'
 
 
-pkgs:
-  list:
-    snmp: true
-
-influxdb:
-  server:
-    enabled: true
-    http:
-      enabled: true
-      bind:
-        address: 127.0.0.1
-        port: {{ influxdb_port }}
-    data:
-      dir: '/srv/monhost/influxdb/data'
-    meta:
-      dir: '/srv/monhost/influxdb/meta'
-    database:
-      network:
-        enabled: true
-        name: network
-        retention_policy:
-        - name: netdata
-          duration: 30d
-          replication: 1
-          is_default: true
-
 
 telegraf:
   agent:
@@ -111,6 +85,29 @@ telegraf:
             - http://127.0.0.1:{{ influxdb_port }}
           database: "network"
           timeout: 10s
+
+influxdb:
+  server:
+    enabled: true
+    http:
+      enabled: true
+      bind:
+        address: 127.0.0.1
+        port: {{ influxdb_port }}
+    data:
+      dir: '/srv/monhost/influxdb/data'
+    meta:
+      dir: '/srv/monhost/influxdb/meta'
+    database:
+      network:
+        enabled: true
+        name: network
+        retention_policy:
+        - name: netdata
+          duration: 30d
+          replication: 1
+          is_default: true
+
 
 grafana:
   server:
