@@ -135,11 +135,10 @@ nginx:
         host:
           name: sysmon.internal.sifive.com
           port: 80
-        location:
-          /:
-            host: 127.0.0.1
-            port: 3000
-            protocol: http
+        proxy:
+          host: 127.0.0.1
+          port: 3000
+          protocol: http
 
 firewall:
   ports:
