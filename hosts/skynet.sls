@@ -8,6 +8,7 @@ states:
   telegraf: true
   influxdb: true
   grafana: true
+  nginx: true
 
 # network - static - several services
 network:
@@ -121,7 +122,24 @@ grafana:
     database:
       engine: sqlite3
 
+nginx:
+  server:
+    site:
+      grafana_proxy:
+        enabled: true
+        type: nginx_proxy
+        name: sysmon
+        host:
+          name: sysmon.internal.sifive.com
+          port: 80
+        location:
+          /sysmon/:
+            host: 127.0.0.1
+            port: 3000
+            protocol: http
+
 firewall:
   ports:
     tcp:
       80: 10.14.0.0/16 10.17.0.0/16
+
