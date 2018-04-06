@@ -136,7 +136,7 @@ nginx:
           name: sysmon.internal.sifive.com
           port: 80
         location:
-          /grafana/:
+          /:
             host: 127.0.0.1
             port: 3000
             protocol: http
