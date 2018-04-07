@@ -26,6 +26,7 @@ base:
     - profile.ganglia-node-server
     - profile.sfamtutil
     - profile.pinglog-sm
+    - profile.snmp-client
     - hosts.hansolo
 
   'dalek.internal.sifive.com':
@@ -265,6 +266,7 @@ base:
     - profile.awsmaster
     - profile.backupclient
     - profile.pinglog-he
+    - profile.snmp-client
     - hosts.yoda
 
   'lambda00.internal.sifive.com':
@@ -330,4 +332,5 @@ base:
 
   'skynet.internal.sifive.com':
     - subnet.he-unix01
+    - profile.snmp-client
     - hosts.skynet
