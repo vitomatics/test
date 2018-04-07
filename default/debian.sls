@@ -338,6 +338,8 @@ pkgs:
     rpm: true
     alien: true
     cpuid: true
+    unzip: true
+    zip: true
 
     build-essential: true
     make: true
