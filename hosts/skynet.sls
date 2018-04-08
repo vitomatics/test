@@ -49,6 +49,8 @@ telegraf:
       snmp:
         routers:
           agents:
+            - router01.internal.sifive.com
+            - router03.internal.sifive.com
             - router11.internal.sifive.com
             - router12.internal.sifive.com
           version: 3
