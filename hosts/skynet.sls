@@ -77,7 +77,7 @@ telegraf:
                   oid: "IF-MIB::ifDescr"
                   is_tag: true
         pdus:
-          interval: 300
+          interval: 60
           agents:
             - pdu11.internal.sifive.com
             - pdu21.internal.sifive.com
