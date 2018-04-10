@@ -44,10 +44,10 @@ disksetup:
 telegraf:
   agent:
     enabled: true
-    interval: 60
     input:
       snmp:
         routers:
+          interval: 60
           agents:
             - router01.internal.sifive.com
             - router03.internal.sifive.com
@@ -75,6 +75,50 @@ telegraf:
               fields:
                 - name: ifDescr
                   oid: "IF-MIB::ifDescr"
+                  is_tag: true
+        pdus:
+          interval: 300
+          agents:
+            - pdu11.internal.sfive.com
+            - pdu21.internal.sifive.com
+          version: 3
+          sec_name: sfnoc
+          auth_protocol: MD5
+          auth_password: HanIF2slow
+          sec_level: authNoPriv
+          name: "pdu"
+          # Note that JunOS has a limit set of MIBs that are supported
+          # hence the selection of the fields below.
+          fields:
+            - oid: "SNMPv2-MIB::sysName.0"
+              name: hostname
+              is_tag: true
+            - oid: "EATON-EPDU-MIB::inputTotalVA.0.1"
+              name: inputva
+            - oid: "EATON-EPDU-MIB::inputTotalWatts.0.1"
+              name: inputwatts
+            - oid: "EATON-EPDU-MIB::inputTotalWh.0.1"
+              name: inputwh
+            - oid: "EATON-EPDU-MIB::inputVA.0.1.1"
+              name: inputva1
+            - oid: "EATON-EPDU-MIB::inputVA.0.1.2"
+              name: inputva2
+            - oid: "EATON-EPDU-MIB::inputVA.0.1.3"
+              name: inputva3
+            - oid: "EATON-EPDU-MIB::inputWatts.0.1.1"
+              name: inputwatts1
+            - oid: "EATON-EPDU-MIB::inputWatts.0.1.2"
+              name: inputwatts2
+            - oid: "EATON-EPDU-MIB::inputWatts.0.1.3"
+              name: inputwatts3
+          tables:
+            - oid: "EATON-EPDU-MIB::outletVA.0"
+              name: outlet
+              inherit_tags:
+                - hostname
+              fields:
+                - name: outletName
+                  oid: "EATON-EPDU-MIB::outletName.0"
                   is_tag: true
     output:
       file:
