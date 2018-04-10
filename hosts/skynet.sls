@@ -77,7 +77,7 @@ telegraf:
                   oid: "IF-MIB::ifDescr"
                   is_tag: true
         pdus:
-          interval: 60
+          interval: 120
           agents:
             - pdu11.internal.sifive.com
             - pdu21.internal.sifive.com
@@ -94,10 +94,10 @@ telegraf:
               name: hostname
               is_tag: true
           tables:
-            # - oid: "EATON-EPDU-MIB::inputTotalPowerTable"
-            #   name: input
-            #   inherit_tags:
-            #     - hostname
+            - oid: "EATON-EPDU-MIB::inputTotalPowerTable"
+              name: input
+              inherit_tags:
+                - hostname
             - oid: "EATON-EPDU-MIB::outletPowerTable"
               name: outlet
               index_as_tag: true
@@ -108,11 +108,6 @@ telegraf:
               #     oid: "EATON-EPDU-MIB::outletName.0"
               #     is_tag: true
     output:
-      file:
-        tmpfile1:
-          files:
-            - /srv/monhost/test/telegraf.out
-          data_format: influx
       influxdb:
         db1:
           urls:
