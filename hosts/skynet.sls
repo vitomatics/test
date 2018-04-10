@@ -100,6 +100,7 @@ telegraf:
                 - hostname
             - oid: "EATON-EPDU-MIB::outletPowerTable"
               name: outlet
+              index_as_tag: true
               inherit_tags:
                 - hostname
               # fields:
