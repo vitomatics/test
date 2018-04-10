@@ -95,11 +95,11 @@ telegraf:
               is_tag: true
           tables:
             - oid: "EATON-EPDU-MIB::inputTotalPowerTable"
-              name: input
+              name: input_power
               inherit_tags:
                 - hostname
             - oid: "EATON-EPDU-MIB::outletPowerTable"
-              name: outlet
+              name: outlet_power
               index_as_tag: true
               inherit_tags:
                 - hostname
