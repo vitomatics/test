@@ -93,33 +93,19 @@ telegraf:
             - oid: "SNMPv2-MIB::sysName.0"
               name: hostname
               is_tag: true
-            - oid: "EATON-EPDU-MIB::inputTotalVA.0.1"
-              name: inputva
-            - oid: "EATON-EPDU-MIB::inputTotalWatts.0.1"
-              name: inputwatts
-            - oid: "EATON-EPDU-MIB::inputTotalWh.0.1"
-              name: inputwh
-            - oid: "EATON-EPDU-MIB::inputVA.0.1.1"
-              name: inputva1
-            - oid: "EATON-EPDU-MIB::inputVA.0.1.2"
-              name: inputva2
-            - oid: "EATON-EPDU-MIB::inputVA.0.1.3"
-              name: inputva3
-            - oid: "EATON-EPDU-MIB::inputWatts.0.1.1"
-              name: inputwatts1
-            - oid: "EATON-EPDU-MIB::inputWatts.0.1.2"
-              name: inputwatts2
-            - oid: "EATON-EPDU-MIB::inputWatts.0.1.3"
-              name: inputwatts3
           tables:
+            - oid: "EATON-EPDU-MIB::inputTotalPowerTable"
+              name: input
+              inherit_tags:
+                - hostname
             - oid: "EATON-EPDU-MIB::outletPowerTable"
               name: outlet
               inherit_tags:
                 - hostname
-              fields:
-                - name: outletName
-                  oid: "EATON-EPDU-MIB::outletName.0"
-                  is_tag: true
+              # fields:
+              #   - name: outletName
+              #     oid: "EATON-EPDU-MIB::outletName.0"
+              #     is_tag: true
     output:
       file:
         tmpfile1:
