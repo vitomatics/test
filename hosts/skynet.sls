@@ -112,7 +112,7 @@ telegraf:
             - oid: "EATON-EPDU-MIB::inputWatts.0.1.3"
               name: inputwatts3
           tables:
-            - oid: "EATON-EPDU-MIB::outletVA.0"
+            - oid: "EATON-EPDU-MIB::outletPowerTable"
               name: outlet
               inherit_tags:
                 - hostname
