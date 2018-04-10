@@ -79,7 +79,7 @@ telegraf:
         pdus:
           interval: 300
           agents:
-            - pdu11.internal.sfive.com
+            - pdu11.internal.sifive.com
             - pdu21.internal.sifive.com
           version: 3
           sec_name: sfnoc
