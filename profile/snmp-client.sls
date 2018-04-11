@@ -12,6 +12,5 @@ snmp:
   mibs:
     - sifive/EATON-OIDS: {{sfimages}}/Eaton/ePDU/EATON-OIDS.txt
     - sifive/EATON-EPDU-MIB: {{sfimages}}/Eaton/ePDU/EATON-EPDU-MIB.txt
-    - sifive/EATON-EPDU-MIB: {{sfimages}}/Eaton/ePDU/EATON-EPDU-MIB.txt
     - sifive/JUNIPER-SMI: {{junosmibs}}/mib-jnx-smi.txt
     - sifive/JUNIPER-MIB: {{junosmibs}}/mib-jnx-chassis.txt
