@@ -76,6 +76,14 @@ telegraf:
                 - name: ifDescr
                   oid: "IF-MIB::ifDescr"
                   is_tag: true
+            - oid: "JUNIPER-MIB::jnxOperatingTable"
+              name: "netdev"
+              inherit_tags:
+                - hostname
+              fields:
+                - name: "partDescr"
+                  oid: "JUNIPER-MIB::jnxOperatingDescr"
+                  is_tag: true
         pdus:
           interval: 120
           agents:
