@@ -116,7 +116,7 @@ influxdb:
         name: network
         retention_policy:
         - name: netdata
-          duration: 30d
+          duration: 90d
           replication: 1
           is_default: true
 
