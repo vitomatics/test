@@ -84,6 +84,7 @@ telegraf:
                 - name: "partDescr"
                   oid: "JUNIPER-MIB::jnxOperatingDescr"
                   is_tag: true
+                  index_as_tag: true
         pdus:
           interval: 120
           agents:
