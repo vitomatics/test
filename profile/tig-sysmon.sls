@@ -2,7 +2,7 @@
 
 {% set influxdb_port = 8086 %}
 {% set grafana_port = 3000 %}
-{% set sysmon_dir = '/srv/monhost' %}x
+{% set sysmon_dir = '/srv/monhost' %}
 
 
 states:
