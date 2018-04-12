@@ -67,6 +67,10 @@ telegraf:
               is_tag: true
             - oid: "HOST-RESOURCES-MIB::hrSystemUptime.0"
               name: uptime
+            - oid: "JUNIPER-MIB::jnxBoxDescr.0"
+              name: BoxDescr
+            - oid: "JUNIPER-MIB::jnxBoxSerialNo.0"
+              name: BoxSerialNo
           tables:
             - oid: "IF-MIB::ifXTable"
               name: interface
