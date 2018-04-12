@@ -333,4 +333,5 @@ base:
   'skynet.internal.sifive.com':
     - subnet.he-unix01
     - profile.snmp-client
+    - profile.tig-sysmon
     - hosts.skynet
