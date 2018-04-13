@@ -356,6 +356,11 @@ users:
     fullname: "Froilan Montenegro"
     uid: 1156
     gid: 1156
+  jsmith:
+    tags: [ cluster ]
+    fullname: "Josh Smith"
+    uid: 1157
+    gid: 1157
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
