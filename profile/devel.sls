@@ -85,6 +85,7 @@ pkgs:
     xsltproc: true
     gnuplot: true
     xpdf: true
+    mc: true
 
     ## Some wordlists
     wbritish: true
