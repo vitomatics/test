@@ -228,7 +228,7 @@
 # 10.15.240.255 RESERVED - do not use
 
 ##   10.15.241.0->10.15.241.255 sf-net02-net
-# 10.15.241.1 RESERVED - do not use
+# 10.15.241.0 RESERVED - do not use
 # 10.15.241.1 RESERVED # no gateway device as of 2018-04-18
 10.15.241.128 iswitch05-admin iswitch05
 10.15.241.192 router04-ge0-0-5 router04-admin router4
