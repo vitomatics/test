@@ -18,7 +18,7 @@ telegraf:
     input:
       snmp:
         routers:
-          interval: 60
+          interval: 120
           agents:
             - router01.internal.sifive.com
             - router03.internal.sifive.com
