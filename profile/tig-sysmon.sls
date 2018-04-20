@@ -44,6 +44,14 @@ telegraf:
             - oid: "JUNIPER-MIB::jnxBoxSerialNo.0"
               name: BoxSerialNo
           tables:
+            - oid: "IF-MIB::ifTable"
+              name: interface
+              inherit_tags:
+                - hostname
+              fields:
+                - name: ifDescr
+                  oid: "IF-MIB::ifDescr"
+                  is_tag: true
             - oid: "IF-MIB::ifXTable"
               name: interface
               inherit_tags:
