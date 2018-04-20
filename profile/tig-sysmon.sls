@@ -24,6 +24,7 @@ telegraf:
             - router03.internal.sifive.com
             - router11.internal.sifive.com
             - router12.internal.sifive.com
+            - iswitch15.internal.sifive.com
           version: 3
           sec_name: sfnoc
           auth_protocol: MD5
