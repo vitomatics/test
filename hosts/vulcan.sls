@@ -13,8 +13,11 @@ sudo:
       - ALL: '(ALL:ALL) ALL'
     - '%sysadmin':
       - ALL: '(ALL:ALL) ALL'
-    - rxia:
+    - 'mikeyang':
       - ALL: '(ALL:ALL) ALL'
+    - '%jenkins-admin': 
+      - JENKINS: /usr/sbin/iotop
+      - JENKINS: (jenkins) ALL
 
 
 # A VG for data
