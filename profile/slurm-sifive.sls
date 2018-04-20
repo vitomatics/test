@@ -6,7 +6,7 @@ slurm:
   AuthType: munge
   AuthInfo: cred_expire=300
   CryptoType: munge
-  MessageTimeout: 60
+  MessageTimeout: 120
   KillWait: 120
   BatchStartTimeout: 120
 
