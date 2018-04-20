@@ -8,8 +8,15 @@ states:
   slurm.client: true
   slurm.devel: true
   slurm.openlava: true
+  sysctl: true
+
+sysctl:
+  params:
+    # Recommended for high-throughput slurm
+    net.core.somaxconn: 1024
 
 firewall:
   ports:
     tcp:
       '6820:9819': 10.14.0.0/16
+

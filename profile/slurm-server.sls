@@ -9,9 +9,15 @@ states:
   slurm.server: true
   slurm.client: true
   policyrc: true
+  sysctl: true
 
 policyrc:
   slurmctld: false
+
+sysctl:
+  params:
+    # Recommended for high-throughput slurm
+    net.core.somaxconn: 1024
 
 firewall:
   ports:
