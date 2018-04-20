@@ -4,6 +4,7 @@ slurm:
 
   # General stuff
   AuthType: munge
+  AuthInfo: cred_expire=300
   CryptoType: munge
   MessageTimeout: 60
   KillWait: 120
