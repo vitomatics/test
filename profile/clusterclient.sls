@@ -53,6 +53,7 @@ sshd:
 
 sysctl:
   params:
+    # This is from aou@sifive.com, presumably for NFS
     net.core.rmem_max: 67108864
     net.core.wmem_max: 67108864
     net.core.netdev_max_backlog: 300000
