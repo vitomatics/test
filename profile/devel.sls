@@ -192,6 +192,7 @@ pkgs:
     valgrind: true
     libboost-all-dev: true
     linux-tools-virtual: true
+    ninja-build: true
 
     ## windows development
     mingw-w64: true
