@@ -231,6 +231,12 @@
 # 10.15.241.0 RESERVED - do not use
 # 10.15.241.1 RESERVED # no gateway device as of 2018-04-18
 10.15.241.128 iswitch05-admin iswitch05
+10.15.240.160 wac02-admin wac02
+10.15.240.161 wap05-admin wap05
+10.15.240.162 wap06-admin wap06
+10.15.240.163 wap07-admin wap07
+10.15.240.164 wap08-admin wap08
+10.15.240.165 wap09-admin wap09
 10.15.241.192 router04-ge0-0-5 router04-admin router4
 # 10.15.241.255 RESERVED - do not use
 
