@@ -78,15 +78,19 @@ pkgs:
     filezilla: true
     dbus-x11: true
     gitk: true
-    git-merge-changelog: true
-    git-email: true
     rcs: true
+    git-merge-changelog: true
     # Used by emacs but not a dependency
     gnome-icon-theme: true
     xsltproc: true
     gnuplot: true
     xpdf: true
     mc: true
+
+    # git send-email support for Wes
+    git-email: true
+    libemail-valid-perl: true
+    libauthn-sasl-perl: true
 
     ## Some wordlists
     wbritish: true
