@@ -79,6 +79,7 @@ pkgs:
     dbus-x11: true
     gitk: true
     git-merge-changelog: true
+    git-email: true
     rcs: true
     # Used by emacs but not a dependency
     gnome-icon-theme: true
@@ -171,9 +172,13 @@ pkgs:
     {% endif %}
     virtualenvwrapper: true
 
-    # OCaml - some of it needed for murali using coq
+    # OCaml - some of it needed for vmurali using coq
     oasis: true
     camlp5: true
+
+    # Haskell - requested by gleb
+    ghc: true
+    cabal: true
 
     ## general development
     libncurses5-dev: true
