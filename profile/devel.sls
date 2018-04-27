@@ -90,7 +90,7 @@ pkgs:
     # git send-email support for Wes
     git-email: true
     libemail-valid-perl: true
-    libauthn-sasl-perl: true
+    libauthen-sasl-perl: true
 
     ## Some wordlists
     wbritish: true
