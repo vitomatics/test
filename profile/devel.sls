@@ -202,6 +202,8 @@ pkgs:
     libboost-all-dev: true
     linux-tools-virtual: true
     ninja-build: true
+    libseccomp-dev: true
+    libsqlite3-dev: true
 
     ## windows development
     mingw-w64: true
