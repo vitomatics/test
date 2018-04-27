@@ -1,0 +1,135 @@
+# IMPORTANT
+ 
+# Customer's use of Mentor Graphics' product and/or services is subject to the
+# terms of the applicable quotation and the agreement specified below. If
+# Customer has a signed agreement with Mentor Graphics or its authorized
+# distributor related to the products or services in the order, Customer's use
+# is subject to the terms of that agreement. If Customer does not have a signed
+# agreement related to the products or services, Customer's use is subject to
+# Mentor Graphics' standard End-user License Agreement (EULA) which may be
+# viewed at http://www.mentor.com/eula. If Customer's order includes embedded
+# software, use is subject to the EULA with the Embedded Software Supplement to
+# the EULA (collectively, the Embedded EULA) which may be viewed at
+# http://www.mentor.com/embeddedeula. Customer's use of any support services is
+# subject to Mentor Graphics' standard End-user Support Terms which may be
+# viewed at http://supportnet.mentor.com/supportterms. Mentor Graphics' EULA,
+# Embedded EULA, and Support Terms will also be made available to Customer on
+# request.
+ 
+# Any additional or conflicting terms and conditions that appear on Customer's
+# purchase order or are presented in any electronic portal or automated order
+# management system, whether or not required to be electronically accepted,
+# shall not apply.
+ 
+# IF CUSTOMER DOES NOT AGREE TO THESE TERMS, DO NOT INSTALL OR USE THE
+# PRODUCT AND RETURN IT TO MENTOR GRAPHICS IMMEDIATELY.
+ 
+# Authorization code(s) are issued for a limited time period.
+# If the authorization code(s) set forth below are for software which
+# is licensed to you for a limited term OR are meant to enable software
+# you previously acquired from Mentor Graphics, installation of these
+# authorization code(s) indicates YOUR COMPLETE AND UNCONDITIONAL
+# AGREEMENT to use only those authorization code(s) required to operate
+# the software you actually acquired and to delete any duplicate
+# authorization code(s).
+ 
+# This message is for the sole use of the intended recipient. If you
+# are not the intended recipient, please contact sender and delete
+# all copies.
+ 
+# If you have problems installing or using these codes, please visit
+# SupportNet at : http://communities.mentor.com/mgcx/community/licensing_installation
+# for troubleshooting information and details on how to get technical support.
+ 
+# -------------------------------
+# To view your site's authorization code file or configuration report,
+# log in to SupportNet and visit:
+# http://supportnet.mentor.com/myaccount/index.cfm?fa=user.licenses
+ 
+# After the authorization codes, there is a section called License
+# Content that maps the products in this file to the license features.
+# -------------------------------
+ 
+# SiFive, Inc.                                    Site #: 3126820
+ 
+SERVER put_server_name_here 525400FF0015 1717
+DAEMON mgcld path_to_mgcld
+INCREMENT caldesignrev mgcld 2019.020 9-jul-2018 4 BE6C77524ADB5F8033EC \
+    VENDOR_STRING=5A0DA724 SN=62307411 SIGN2="19E8 DC24 C5E7 DA6D EE94 \
+    A838 ED10 6B72 B28A 3164 E6B9 DF10 1D46 422E A318 0744 0FA4 516E 1BB5 \
+    E15C 2008 4C40 5719 F9B1 47D1 BD36 6FA2 2B04 9850 7B95"
+INCREMENT calibredrc mgcld 2019.020 9-jul-2018 4 2E7CA772785D3F1CCE1C \
+    VENDOR_STRING=A2C013C5 SN=62307415 SIGN2="1B0A 1F87 E788 5D51 E515 \
+    9823 F3D5 76DC A84E 39D1 52DA 3502 76B8 C915 D841 1A3D BE60 8756 749F \
+    7597 64F7 B3D8 2D4D 72CC 7E6E 5F48 591D 9DA0 5C74 7C2B"
+INCREMENT calibrehdrc mgcld 2019.020 9-jul-2018 4 2E0C77827027486AC2CF \
+    VENDOR_STRING=D34059B8 SN=62307416 SIGN2="091A 5F76 FA67 CF99 2B3F \
+    D965 744A 0075 28F6 BFC7 E297 5B8B FE5C E1FB 6302 07E3 B5F0 4556 D202 \
+    8E85 8090 0A3D 8829 C204 BF79 E8A4 042D 675A E021 A12A"
+INCREMENT calibrehlvs mgcld 2019.020 9-jul-2018 4 2E9CB752AA6DE9E60BAF \
+    VENDOR_STRING=31713E81 SN=62307418 SIGN2="1986 32EE 8CE5 45CB 2A93 \
+    5DF8 2807 9CF9 CA5B 7F2C B79B 5303 B3D5 9722 F5C5 05CB 66C8 D2A0 ACCA \
+    713A 0685 350F B028 0E9B 857F 4122 D091 3ED9 1A45 A5B1"
+INCREMENT calibrelvs mgcld 2019.020 9-jul-2018 4 CE1C57D29FF9CBEF6AB2 \
+    VENDOR_STRING=804BA673 SN=62307417 SIGN2="1FBD 792F 2221 0A3C 6C05 \
+    E631 B542 FC90 74EC 4E7D 71EA F74E 1705 7161 C1C5 1652 47AE B289 C519 \
+    3294 4775 EF52 EABF C136 8267 EAB1 2003 CA98 2FEE 53C0"
+INCREMENT calibreqdb mgcld 2019.020 9-jul-2018 4 7E3C17A2655A8899A166 \
+    VENDOR_STRING=9186C37A SN=62307413 SIGN2="01F5 A654 6233 9B16 45EA \
+    5D6F D732 DE66 B123 01D1 2C63 0488 F76F B382 1D4B 10A9 213B 2D4E D01A \
+    FDB3 17E6 A524 1CAD 8DBF 7C8F A875 B6D6 4394 3551 C907"
+INCREMENT calinteractive mgcld 2019.020 9-jul-2018 4 6E3CA702276948E99D17 \
+    VENDOR_STRING=65BD87E3 SN=62307412 SIGN2="168C 6843 BD48 34C7 FD56 \
+    0BEE 1A2E EC16 45E5 3A35 FC78 D450 5280 DFC9 BAA2 0EBC 79B7 38FA A034 \
+    BF69 C6C2 336D 6EF6 C977 2B72 C78F 383F 58CF FA3D D03E"
+INCREMENT mtfastscan_c mgcld 2019.020 9-jul-2018 1 0E5C87223B7B9E128398 \
+    VENDOR_STRING=2DD6862D SN=62307419 SIGN2="097F D2A7 8868 3096 E278 \
+    85B0 D975 6166 C1C1 6C3A 35E0 E55B 91C3 DC08 A09B 11FC 3E41 76B8 806F \
+    A535 70E4 D208 AFDF 1A76 BA39 14D4 24F8 2CF8 F655 1AE7"
+INCREMENT mtnsmemorybist_c mgcld 2019.020 9-jul-2018 1 \
+    0EECE732BC48DBAD0C53 VENDOR_STRING=A33F0043 SN=62307420 SIGN2="0978 \
+    11FB ADF3 3703 DBDD EF7F FEDA 5F25 E497 4A40 6FDE BEFF 0C13 9C49 48BB \
+    02BF FB57 A871 0DE4 AA7A D6C7 9E42 2E07 46BA C372 F992 E484 981A E45C \
+    DAF8"
+INCREMENT verifdataport mgcld 2019.020 9-jul-2018 4 7ECCD7E2D6B4A22EE5EB \
+    VENDOR_STRING=E640C15D SN=62307414 SIGN2="0C4C 878F 6DC7 B7FE 1FDD \
+    1652 BF44 F708 491A 2FDD 76C3 FD31 9D1C 5A95 919D 18C8 694B BF97 46A3 \
+    F579 9BA6 8525 4A6D 96A3 8D4A D389 8AA2 72FE AF23 9C40"
+ 
+############################# License Content #############################
+ 
+# The "License Content" section summarizes just the products and feature
+# lines in this particular license file, not all products and feature lines
+# that may be at your site. Because Mentor provides rolled authcodes, you
+# may find that the quantities in the "License Content" section (which
+# reflect just this license file) are different than the quantities in the
+# "Encryption" section (which reflect combined or "rolled" quantities of
+# like features).
+ 
+# Server(s) - 525400FF0015
+# 
+# P/N     Description                              Item Qty
+# ------- ---------------------------------------- --------------
+#         Feature Name               Version  Exp. Date  Ser. Nbr
+# 
+# 210230  Calibre Interactive Ap SW                4       
+#         calinteractive             2019.020 7/9/2018   62307412
+# 210570  Calibre RVE/QDB-H Ap SW                  4       
+#         calibreqdb                 2019.020 7/9/2018   62307413
+#         verifdataport              2019.020 7/9/2018   62307414
+# 210681  Calibre DESIGNrev Ap SW                  4       
+#         caldesignrev               2019.020 7/9/2018   62307411
+# 268571  Tessent MemoryBIST-NS Ap SW              1       
+#         mtnsmemorybist_c           2019.020 7/9/2018   62307420
+# 43879   Tessent FastScan Ap SW                   1       
+#         mtfastscan_c               2019.020 7/9/2018   62307419
+# 61401   Calibre nmLVS-H Op SW                    4       
+#         calibrehlvs                2019.020 7/9/2018   62307418
+# 61498   Calibre nmDRC Ap SW                      4       
+#         calibredrc                 2019.020 7/9/2018   62307415
+# 61499   Calibre nmDRC-H Op SW                    4       
+#         calibrehdrc                2019.020 7/9/2018   62307416
+# 61501   Calibre nmLVS Ap SW                      4       
+#         calibrelvs                 2019.020 7/9/2018   62307417
+ 
+######################### End of License Content ##########################
