@@ -178,7 +178,7 @@ pkgs:
 
     # Haskell - requested by gleb
     ghc: true
-    cabal: true
+    cabal-install: true
 
     ## general development
     libncurses5-dev: true
