@@ -361,6 +361,21 @@ users:
     fullname: "Josh Smith"
     uid: 1157
     gid: 1157
+  alingburg:
+    tags: [ cluster ]
+    fullname: "Amy Lindburg"
+    uid: 1158
+    gid: 1158
+  stillson:
+    tags: [ cluster ]
+    fullname: "Christopher Stillson"
+    uid: 1159
+    gid: 1159
+  behzadboro:
+    tags: [ cluster ]
+    fullname: "Behzad Boroujerdian"
+    uid: 1160
+    gid: 1160
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
