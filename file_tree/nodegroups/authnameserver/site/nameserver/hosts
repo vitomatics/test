@@ -5,7 +5,7 @@
 ## Note this is for documentation purposes only and should not be used
 ## as an actual hosts file
 
-## 10.1.10.0->10.1.10.255 sf-comcast-net
+## 10.1.10.0->10.1.10.255 default-comcast-net
 
 ## 10.14.0.0-> 10.14.15.255 sf-unix-net
 # 10.14.0.0 RESERVED - do not use
@@ -231,12 +231,12 @@
 # 10.15.241.0 RESERVED - do not use
 # 10.15.241.1 RESERVED # no gateway device as of 2018-04-18
 10.15.241.128 iswitch05-admin iswitch05
-10.15.241.160 wac02-admin wac02
-10.15.241.161 wap05-admin wap05
-10.15.241.162 wap06-admin wap06
-10.15.241.163 wap07-admin wap07
-10.15.241.164 wap08-admin wap08
-10.15.241.165 wap09-admin wap09
+## 10.15.241.160 wac02-admin wac02
+## 10.15.241.161 wap05-admin wap05
+## 10.15.241.162 wap06-admin wap06
+## 10.15.241.163 wap07-admin wap07
+## 10.15.241.164 wap08-admin wap08
+## 10.15.241.165 wap09-admin wap09
 10.15.241.192 router04-ge0-0-5 router04-admin router4
 # 10.15.241.255 RESERVED - do not use
 
@@ -309,10 +309,29 @@
 10.17.16.3 he-laptop-net-dhcp003
 # 10.17.31.255 RESERVED - do not use
 
+## 10.17.32.0->10.17.47.255 sf2-laptop-net
+## 10.17.32.0->10.17.32.255 sf2-laptop01-net
+# 10.17.32.0 RESERVED - do not use
+10.17.32.1 sf2-laptop01-net-gw
+10.17.32.2 wac02
+10.17.32.3 wap05
+10.17.32.4 wap06
+10.17.32.5 wap07
+10.17.32.6 wap08
+10.17.32.7 wap09
+10.17.32.8 printer03
+10.17.32.9 printer04
+10.17.32.16 sf2-laptop01-net-dhcp016
+# ..
+10.17.32.253 sf2-laptop01-net-dhcp253
+# 10.17.32.254 RESERVE
+# 10.17.32.255 RESERVED - do not use
+# 10.17.47.255 RESERVED - do not use
+
 ## 10.18.0.0->10.18.15.255 sf-voip-net
 # 10.18.0.0 RESERVED - do not use
 10.18.0.1 sf-voip-net-gw router03-ge0-0-6
-10.18.0.16 voip016
+10.18.0.16 voip017
 ...
 10.18.0.254 voip254
 # 10.18.0.255 RESERVED - do not use
@@ -478,15 +497,26 @@
 75.75.76.76 cdns02.comcast.net
 
 
-## 96.72.175.168->96.72.175.175 comcast-net
+## 96.72.175.168->96.72.175.175 sf-comcast-net
 # 96.72.175.168 RESERVED - do not use
 96.72.175.169 router01-ge0-0-0
 96.72.175.170 back-nat
 # 96.72.175.171 unused
 # 96.72.175.172 unused
 # 96.72.175.173 unused
-96.72.175.174 comcast-net-gw
+96.72.175.174 sf-comcast-net-gw
 # 96.72.175.175 RESERVED - do not use
+
+## 96.76.210.208->96.76.210.215 sf2-comcast-net
+# 96.76.210.208 RESERVED - do not use
+96.76.210.209 router04-ge0-0-0
+# 96.76.210.210 unused
+# 96.76.210.211 unused
+# 96.76.210.212 unused
+# 96.76.210.213 unused
+96.76.210.214 sf2-comcast-net-gw
+# 96.76.210.215 RESERVED - do not use
+
 
 ## 169.254.0.0->169.254.255.255 
 ## used by NetApp internal networks
