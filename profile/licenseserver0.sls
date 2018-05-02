@@ -41,6 +41,8 @@ flexnet:
           pillar: site:licenses:mgcld:mentor-20180418
         mentor-20180427:
           pillar: site:licenses:mgcld:mentor-20180427
+        mentor-20180501:
+          pillar: site:licenses:mgcld:mentor-20180501
     xilinxd:
       vendor: xilinx
       bindir: linux_flexlm_v11.14.1.0/lnx64.o
