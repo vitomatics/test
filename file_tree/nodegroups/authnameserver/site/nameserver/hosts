@@ -230,8 +230,8 @@
 ##   10.15.241.0->10.15.241.255 sf-net02-net sf2-net-net
 # 10.15.241.0 RESERVED - do not use
 10.15.241.1 router04-ge0-0-4 sf-net02-net-gw sf2-net-net-gw
-10.15.251.16 sf2-net-net-dhcp016
-10.15.251.17 sf2-net-net-dhcp017
+10.15.241.16 sf2-net-net-dhcp016
+10.15.241.17 sf2-net-net-dhcp017
 10.15.241.128 iswitch05-admin iswitch05
 ## 10.15.241.160 wac02-admin wac02
 ## 10.15.241.161 wap05-admin wap05
