@@ -208,6 +208,11 @@ pkgs:
     ## windows development
     mingw-w64: true
 
+    ## For LiberoSoC
+    libmotif-dev: true
+    libxm4:i386: true
+    libglib2.0-0:i386: true
+
     ## General cpu tools
     qemu: true
     openbios-sparc: true
