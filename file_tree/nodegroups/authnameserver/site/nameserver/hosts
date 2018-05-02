@@ -227,9 +227,11 @@
 10.15.240.194 router03-ge0-0-15 router03-admin router03
 # 10.15.240.255 RESERVED - do not use
 
-##   10.15.241.0->10.15.241.255 sf-net02-net
+##   10.15.241.0->10.15.241.255 sf-net02-net sf2-net-net
 # 10.15.241.0 RESERVED - do not use
-# 10.15.241.1 RESERVED # no gateway device as of 2018-04-18
+10.15.241.1 router04-ge0-0-4 sf-net02-net-gw sf2-net-net-gw
+10.15.251.16 sf2-net-net-dhcp016
+10.15.251.17 sf2-net-net-dhcp017
 10.15.241.128 iswitch05-admin iswitch05
 ## 10.15.241.160 wac02-admin wac02
 ## 10.15.241.161 wap05-admin wap05
@@ -335,6 +337,14 @@
 ...
 10.18.0.254 voip254
 # 10.18.0.255 RESERVED - do not use
+
+## 10.18.32.0->10.18.47.255 sf2-voip-net
+# 10.18.32.0 RESERVED - do not use
+10.18.32.1 sf2-voip-net-gw router04-ge0-0-3
+10.18.32.16 sf2-voip017
+...
+10.18.32.254 sf2-voip254
+# 10.18.47.255 RESERVED - do not use
 
 ## 10.100.0.0->10.100.255.255 - transit subnets
 ##    10.100.100.0->10.100.100.3 - tran-vpn1-net
@@ -509,10 +519,10 @@
 
 ## 96.76.210.208->96.76.210.215 sf2-comcast-net
 # 96.76.210.208 RESERVED - do not use
-96.76.210.209 router04-ge0-0-0
-# 96.76.210.210 unused
-# 96.76.210.211 unused
-# 96.76.210.212 unused
+96.76.210.209 router04-ge0-0-0 sf2-net-nat
+96.76.210.210 sf2-laptop-nat
+96.76.210.211 sf2-guest-nat
+96.76.210.212 sf2-voip-nat
 # 96.76.210.213 unused
 96.76.210.214 sf2-comcast-net-gw
 # 96.76.210.215 RESERVED - do not use
