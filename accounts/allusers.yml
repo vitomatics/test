@@ -376,6 +376,11 @@ users:
     fullname: "Behzad Boroujerdian"
     uid: 1160
     gid: 1160
+  mohitwani:
+    tags: [ cluster ]
+    fullname: "Mohit Wani"
+    uid: 1161
+    gid: 1161
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
