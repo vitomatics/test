@@ -204,6 +204,7 @@ pkgs:
     ninja-build: true
     libseccomp-dev: true
     libsqlite3-dev: true
+    terminator: true
 
     ## windows development
     mingw-w64: true
