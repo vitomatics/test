@@ -318,11 +318,14 @@ nuc3			IN	A	10.16.0.35
 mnuc00			IN	A	10.16.0.36
 terrapin		IN	A	10.16.0.37
 nuc2			IN	A	10.16.0.38
-
+nuc4			IN	A	10.16.0.39
 labusb00		IN	A	10.16.0.40
 labusb01		IN	A	10.16.0.41
 labusb02		IN	A	10.16.0.42
 labusb03		IN	A	10.16.0.43
+nuc5			IN	A	10.16.0.44
+nuc6			IN	A	10.16.0.45
+
 
 hifiveu000		IN	A	10.16.0.50
 hifiveu001		IN	A	10.16.0.51

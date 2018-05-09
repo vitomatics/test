@@ -150,6 +150,9 @@ sigma09-pci0		ec:0d:9a:b9:a7:a0
 nuc1			f4:4d:30:61:c2:49
 nuc2			f4:4d:30:6a:94:8f
 nuc3			f4:4d:30:6c:dd:00
+nuc4			94:c6:91:1d:14:72
+nuc5			94:c6:91:1d:3f:ed
+nuc6			94:c6:91:1d:13:29
 mnuc00			94:c6:91:11:4b:c6
 # A network card that is often used on the VC707 FPGA setup
 turtle			00:0a:cd:29:9e:45
