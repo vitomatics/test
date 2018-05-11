@@ -381,6 +381,11 @@ users:
     fullname: "Mohit Wani"
     uid: 1161
     gid: 1161
+  tjmach:
+    tags: [ cluster ]
+    fullname: "Anthony Machado"
+    uid: 1162
+    gid: 1162
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
