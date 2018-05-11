@@ -3,24 +3,24 @@
 
 NX Subscription Certificate
 
-Copyright (c) 2001,2017 NoMachine, http://www.nomachine.com
+Copyright (c) 2001,2018 NoMachine, http://www.nomachine.com
 
-Date:               Wed May 17 23:51:40 CEST 2017
+Date:               Fri May 11 02:31:26 CEST 2018
 Product:            NoMachine Terminal Server Subscription Node
-Customer:           SiFive sysadmin
-E-mail:             help@sifive.com
+Customer:           David Johnson
+E-mail:             davidj@sifive.com
 Product Id:         LTSSN
-Subscription Id:    LI05O00342
+Subscription Id:    LI05P07161
 Subscription Type:  Standard
-Expiry:             Thu May 17 23:51:40 CEST 2018
+Expiry:             Fri May 17 02:31:26 CEST 2019
 Platform:           Ubuntu
 Users:              Unlimited
 Connections:        Unlimited
 Virtual Desktops:   Unlimited
 Processors:         1-2
-Server Key:         edb13b474237a381354ae3f3a96efc04bdee46a2
-Product Key:        bfe1b6dab01843767258c87ea05a7e348db419e7
-Subscription Key:   a4b0ed3046d534772b9a43c169a66977bafe045c
+Server Key:         a6c64a7ab0274ee810e0cf18e02e2c99ffcaac4f
+Product Key:        c0b416c28fe354c8f16b0e187a85cbdfe88955bd
+Subscription Key:   e12a7c049f254f97f92d631709e65e8ce304d953
 
 ----- End subscription data -----
 
