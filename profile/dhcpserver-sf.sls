@@ -190,3 +190,6 @@ dhcpd:
     hifiveu024:
       hardware: ethernet 70:b3:d5:92:f0:18
       fixed-address: hifiveu024.internal.sifive.com
+    sigma03-admin-test:
+      hardware: ethernet ac:1f:6b:0c:b5:3a
+      fixed-address: sigma03-admin-test.internal.sifive.com
