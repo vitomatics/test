@@ -1,5 +1,13 @@
 ## Pillar file for eddie
 
+states:
+    perccli: true
+
+perccli:
+  lookup:
+    pkgurl: http://sfimages.internal.sifive.com/Dell/PERC/deb/perccli_1.11.03-2_all.deb
+
+
 boot:
   grub:
     serial:
