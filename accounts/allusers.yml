@@ -386,6 +386,11 @@ users:
     fullname: "Anthony Machado"
     uid: 1162
     gid: 1162
+  pedroabreu:
+    tags: [ cluster ]
+    fullname: "Pedro da Costa Abreu"
+    uid: 1163
+    gid: 1163
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
