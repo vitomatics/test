@@ -136,6 +136,8 @@ flexnet:
           pillar: site:licenses:snpslmd:synopsys-20180430
         synopsys-20180515:
           pillar: site:licenses:snpslmd:synopsys-20180515
+        synopsys-20180518:
+          pillar: site:licenses:snpslmd:synopsys-20180518
     actlmgrd:
       vendor: microsemi
       bindir: Linux_Licensing_Daemon
