@@ -391,6 +391,21 @@ users:
     fullname: "Pedro da Costa Abreu"
     uid: 1163
     gid: 1163
+  debs:
+    tags: [ cluster ]
+    fullname: "Deborah Soung"
+    uid: 1164
+    gid: 1164
+  farzad:
+    tags: [ cluster ]
+    fullname: "Farzad Farshchi"
+    uid: 1165
+    gid: 1165
+  jieltan:
+    tags: [ cluster ]
+    fullname: "Jielun Tan"
+    uid: 1166
+    gid: 1166
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
