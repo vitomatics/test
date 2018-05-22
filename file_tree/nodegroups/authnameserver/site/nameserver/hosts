@@ -318,12 +318,12 @@
 ## 10.17.32.0->10.17.32.255 sf2-laptop01-net
 # 10.17.32.0 RESERVED - do not use
 10.17.32.1 sf2-laptop01-net-gw
-10.17.32.2 wac02
-10.17.32.3 wap05
-10.17.32.4 wap06
-10.17.32.5 wap07
-10.17.32.6 wap08
-10.17.32.7 wap09
+10.17.32.2 wac02-admin wac02
+10.17.32.3 wap05-admin wap05
+10.17.32.4 wap06-admin wap06
+10.17.32.5 wap07-admin wap07
+10.17.32.6 wap08-admin wap08
+10.17.32.7 wap09-admin wap09
 10.17.32.8 printer03
 10.17.32.9 printer04
 10.17.32.16 sf2-laptop01-net-dhcp016
