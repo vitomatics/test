@@ -57,7 +57,7 @@ telegraf:
                 - hostname
               fields:
                 - name: ifDescr
-                  oid: "IF-MIB::ifDescr"
+                  oid: "IF-MIB::ifName"
                   is_tag: true
             - oid: "JUNIPER-MIB::jnxOperatingTable"
               name: "netdev"
