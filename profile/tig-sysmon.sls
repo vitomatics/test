@@ -89,15 +89,19 @@ telegraf:
               name: input_power
               inherit_tags:
                 - hostname
+            - oid: "EATON-EPDU-MIB::inputPowerTable"
+              name: input_power
+              inherit_tags:
+                - hostname
             - oid: "EATON-EPDU-MIB::outletPowerTable"
               name: outlet_power
               index_as_tag: true
               inherit_tags:
                 - hostname
-              # fields:
-              #   - name: outletName
-              #     oid: "EATON-EPDU-MIB::outletName.0"
-              #     is_tag: true
+              fields:
+                - name: "outletName"
+                  oid: "EATON-EPDU-MIB::outletName"
+                  is_tag: true
     output:
       influxdb:
         db1:
