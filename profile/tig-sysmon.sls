@@ -96,7 +96,7 @@ telegraf:
               fields:
                 - name: "inputCurrentMeasType"
                   oid: "EATON-EPDU-MIB::inputCurrentMeasType"
-                  is_tage: true
+                  is_tag: true
             - oid: "EATON-EPDU-MIB::outletPowerTable"
               name: outlet_power
               index_as_tag: true
