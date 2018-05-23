@@ -91,12 +91,9 @@ telegraf:
                 - hostname
             - oid: "EATON-EPDU-MIB::inputCurrentTable"
               name: input_current
+              index_as_tag: true
               inherit_tags:
                 - hostname
-              fields:
-                - name: "inputCurrentMeasType"
-                  oid: "EATON-EPDU-MIB::inputCurrentMeasType"
-                  is_tag: true
             - oid: "EATON-EPDU-MIB::outletPowerTable"
               name: outlet_power
               index_as_tag: true
