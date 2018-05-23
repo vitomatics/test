@@ -48,7 +48,7 @@ telegraf:
               inherit_tags:
                 - hostname
               fields:
-                - name: ifDescr
+                - name: ifName
                   oid: "IF-MIB::ifDescr"
                   is_tag: true
             - oid: "IF-MIB::ifXTable"
@@ -56,7 +56,7 @@ telegraf:
               inherit_tags:
                 - hostname
               fields:
-                - name: ifDescr
+                - name: ifName
                   oid: "IF-MIB::ifName"
                   is_tag: true
             - oid: "JUNIPER-MIB::jnxOperatingTable"
