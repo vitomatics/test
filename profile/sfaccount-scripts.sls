@@ -6,7 +6,7 @@ include:
 states:
   sfaccount.scripts: true
 
-sfuser:
+sfaccount:
   lookup:
     dir: /srv/newuser/sfuser
     home: /home
