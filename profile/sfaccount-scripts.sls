@@ -1,11 +1,15 @@
 # Create mkuser scsripts
 
+include:
+  - accounts.cluster-accounts
+
 states:
-  sfuser.scripts: true
+  sfaccount.scripts: true
 
 sfuser:
   lookup:
     dir: /srv/newuser/sfuser
-    default_home: /home
+    home: /home
+    pillar: sfaccount:users
     default_shell: /bin/bash
     default_domain: sifive.com

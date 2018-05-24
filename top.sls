@@ -294,7 +294,7 @@ base:
     - profile.kerberos-master
     - profile.kerberos-client
     - profile.ldapmaster2
-    - profile.mkuser
+    - profile.sfaccount-scripts
     - profile.ganglia-node-server
     - profile.backupclient
     - hosts.vader
