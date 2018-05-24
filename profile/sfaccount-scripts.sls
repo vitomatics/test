@@ -8,7 +8,7 @@ states:
 
 sfaccount:
   lookup:
-    dir: /srv/newuser/sfuser
+    dir: /srv/newuser/sfaccount
     home: /home
     pillar: sfaccount:users
     default_shell: /bin/bash
