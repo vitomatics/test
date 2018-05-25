@@ -485,7 +485,7 @@ users:
     fullname: "Rajesh Varadharjan"
     uid: 1167
     gid: 1167
-  diliberto:
+  gdiliberto:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Giacomo Di Liberto"
