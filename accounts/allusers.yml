@@ -479,6 +479,26 @@ users:
     fullname: "Jielun Tan"
     uid: 1166
     gid: 1166
+  rajeshrv:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Rajesh Varadharjan"
+    uid: 1167
+    gid: 1167
+  diliberto:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Giacomo Di Liberto"
+    gn: "Giacomo"
+    sn: "Di Liberto"
+    uid: 1168
+    gid: 1168
+  jonstern:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Jonathan Stern"
+    uid: 1169
+    gid: 1169
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
