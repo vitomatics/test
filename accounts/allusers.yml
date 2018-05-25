@@ -20,6 +20,7 @@ users:
   terpstra:
     tags: [ cluster ]
     fullname: "Wesley Terpstra"
+    mail: wesley@sifive.com
     uid: 1106
     gid: 1106
     authorized_keys:
@@ -71,6 +72,7 @@ users:
   waterman:
     tags: [ cluster ]
     fullname: "Andrew Waterman"
+    mail: andrew@sifive.com
     uid: 1102
     gid: 1102
     authorized_keys:
@@ -79,6 +81,7 @@ users:
   nijam:
     tags: [ ]
     fullname: "Nijam Mohamed"
+    mail: mohamed.nijam@synopsis.com
     uid: 1116
     gid: 1116
     authorized_keys: [ ]
@@ -108,6 +111,7 @@ users:
   aou:
     tags: [ cluster, lambda00, fpgatest ]
     fullname: "Albert Ou"
+    mail: albert@sifive.com
     uid: 1100
     gid: 1100
     shell: /bin/zsh
@@ -154,12 +158,14 @@ users:
   dbuyze:
     tags: [ cluster, sps ]
     fullname: "David Buyze"
+    mail: david.buyze@synopsys.com
     uid: 1120
     gid: 1120
     authorized_keys:
   mreddy:
     tags: [ cluster, sps ]
     fullname: "Madhu Reddy"
+    mail: madhu.reddy@siliconaid.com
     uid: 1121
     gid: 1121
     authorized_keys:
@@ -199,6 +205,7 @@ users:
   davidj2:
     tags: [ cluster ]
     fullname: "David Johnson TEST"
+    mail: davidj@sifive.com
     uid: 1127
     gid: 1127
   drew:
