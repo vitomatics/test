@@ -205,6 +205,8 @@ users:
   davidj2:
     tags: [ cluster ]
     fullname: "David Johnson TEST"
+    gn: David
+    sn: Johnson
     mail: davidj@sifive.com
     uid: 1127
     gid: 1127
