@@ -396,6 +396,8 @@ users:
   pedroabreu:
     tags: [ cluster ]
     fullname: "Pedro da Costa Abreu"
+    gn: "Pedro"
+    sn: "Abreu"
     uid: 1163
     gid: 1163
   debs:
