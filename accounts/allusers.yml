@@ -148,7 +148,7 @@ users:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPlrEoy6ViNCYMRSuTycjaMvJZ1pTOujLkKjAOL7VcMxx80CF4RQV4p/uR434amqhuX3dTmS92igsKCD1/sMW0DCBo19VksHXntQqxXWlsuRsvA9wcUjfs7WTZcBPwPotuu4qcZ7POl5FSP2uNOD8tA5O5k5UjBautulgzBTizUPaw/lF3Hq6idTgRMsbfLNo27r0wu1f1uKevuEXKt5IZP0+OulgWJkguteB5wA6P22Afhqu2P2gtcVqo/55LB7f+vNrHfgkFoWpRU6AU9/zgMqvXP84hSBRTey9cBX/ff7l9WXf284e594kbCyzheroHmOMXuWL0oHSz/K0nxEch megan@i0.internal.sifive.com
   tim:
     tags: [ cluster ]
-    groups [ minimal ]
+    groups: [ minimal ]
     fullname: "Tim Newsome"
     uid: 1119
     gid: 1119
