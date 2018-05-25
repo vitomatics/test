@@ -126,7 +126,7 @@ users:
       - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA1/30t9eYctqP6Ikvw7DNK/2NUndjhe48tSpH2SwhxzVFiuR5EosGkTOwpQbtmyzqPktUe3GJMQlgpei0LLUmD6U6U4ye7m6KIIQTcjvTmIPfvG3IXVjDIZhS7smrlEJhLcOPPGQVZyrQz3E9gxQlMFliP4yAVyjJpb/kTXsoMm7QRVvHWPtXaKvb0ygF6zKaOJuXtjtZ6drPCmVW8ZOWtjdjwBlJnLXxpoqAgQTooJdxgWIXT+npgyqXaRDZb0I19SxiiOEvefW+Sc5UxQ3WD548L+LFumhh1CkMM7v4M9Hnjs0AjlPeVtQt1g0/Ow5qxbfNCPZCFYD+hizv+EI54w==
   megan:
     tags: [ cluster ]
-    fulllname: "Megan Wachs"
+    fullname: "Megan Wachs"
     uid: 1105
     gid: 1105
     shell: /bin/tcsh
