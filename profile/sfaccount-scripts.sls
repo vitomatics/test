@@ -7,12 +7,13 @@ states:
   sfaccount.scripts: true
 
 sfaccount:
-  binddn: 'cn=root,dc=sifive,dc=com'
-  base_users: 'ou=people,dc=sifive,dc=com'
-  base_groups: 'ou=groups,dc=sifive,dc=com'
+  pillar: sfaccount:users
+  ldap:
+    binddn: 'cn=root,dc=sifive,dc=com'
+    base_users: 'ou=people,dc=sifive,dc=com'
+    base_groups: 'ou=groups,dc=sifive,dc=com'
   lookup:
     dir: /srv/newuser/sfaccount
     home: /home
-    pillar: sfaccount:users
     default_shell: /bin/bash
     default_domain: sifive.com
