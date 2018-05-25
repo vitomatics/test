@@ -7,9 +7,9 @@ states:
   sfaccount.scripts: true
 
 sfaccount:
-  binddn: cn=root,dc=sifive,dc=com
-  base_users: ou=people,dc=sifive,dc=com
-  base_groups: ou=groups,dc=sifive,dc=com
+  binddn: 'cn=root,dc=sifive,dc=com'
+  base_users: 'ou=people,dc=sifive,dc=com'
+  base_groups: 'ou=groups,dc=sifive,dc=com'
   lookup:
     dir: /srv/newuser/sfaccount
     home: /home
