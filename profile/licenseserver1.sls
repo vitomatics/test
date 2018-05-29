@@ -64,11 +64,13 @@ flexnet:
       vport: 27011
       licenses:
         tsmc-sram-3864:
-          pillar: site:licenses:interrad:tsmc-sram-3864
+          absent: true
         tsmc-sram-4077:
-          pillar: site:licenses:interrad:tsmc-sram-4077
+          absent: true
         tsmc-sram-5056:
-          pillar: site:licenses:interrad:tsmc-sram-5056
+          absent: true
+        tsmc-sram-20180528:
+          pillar: site:licenses:interrad:tsmc-sram-20180528
     mgcld:
       vendor: mentor
       bindir: mgls-v11.13.1.2/bin
