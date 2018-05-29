@@ -488,9 +488,7 @@ users:
   gdiliberto:
     tags: [ cluster ]
     groups: [ compute ]
-    fullname: "Giacomo Di Liberto"
-    gn: "Giacomo"
-    sn: "Di Liberto"
+    fullname: "Giacomo DiLiberto"
     uid: 1168
     gid: 1168
   jonstern:
