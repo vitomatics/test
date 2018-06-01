@@ -24,6 +24,10 @@ disksetup:
       disk: /dev/sdd
     crypt-sde:
       disk: /dev/sde
+    crypt-sdf:
+      disk: /dev/sdf
+    crypt-sdg:
+      disk: /dev/sdg
   zpools:
     bkpool02:
       properties:
@@ -39,6 +43,9 @@ disksetup:
         mirror-1:
           - /dev/mapper/crypt-sdd
           - /dev/mapper/crypt-sde
+        mirror-2:
+          - /dev/mapper/crypt-sdf
+          - /dev/mapper/crypt-sdg
 
 zfs:
   # omega1 has 128GB - keep half of it free for non-ZFS stuff
