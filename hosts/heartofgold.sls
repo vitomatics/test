@@ -8,6 +8,11 @@ boot:
 states:
   zfs: true
   nfs4: true
+  perccli: true
+  
+perccli:
+  lookup:
+    pkgurl: http://sfimages.internal.sifive.com/Dell/PERC/deb/perccli_1.11.03-2_all.deb
 
 
 # Initial disk setup
