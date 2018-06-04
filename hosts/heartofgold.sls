@@ -4,6 +4,8 @@
 boot:
   grub:
     serial:
+      port: 1
+
 
 states:
   zfs: true
