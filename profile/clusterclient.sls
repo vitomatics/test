@@ -91,6 +91,10 @@ sudo:
         - sigma07.internal.sifive.com
         - sigma08.internal.sifive.com
         - sigma09.internal.sifive.com
+        - delta00.internal.sifive.com
+        - delta01.internal.sifive.com
+        - delta02.internal.sifive.com
+        - delta03.internal.sifive.com
       INTERACTIVE:
         - gamma00.internal.sifive.com
         - gamma01.internal.sifive.com
