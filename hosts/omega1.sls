@@ -15,19 +15,20 @@ perccli:
     pkgurl: http://sfimages.internal.sifive.com/Dell/PERC/deb/perccli_1.11.03-2_all.deb
 
 disksetup:
+  ## WARNING - /dev/sd* and crypt-sd* do not match!!!
   cryptdevs:
     crypt-sdb:
-      disk: /dev/sdb
-    crypt-sdc:
       disk: /dev/sdc
-    crypt-sdd:
+    crypt-sdc:
       disk: /dev/sdd
-    crypt-sde:
+    crypt-sdd:
       disk: /dev/sde
-    crypt-sdf:
+    crypt-sde:
       disk: /dev/sdf
-    crypt-sdg:
+    crypt-sdf:
       disk: /dev/sdg
+    crypt-sdg:
+      disk: /dev/sdh
   zpools:
     bkpool02:
       properties:
