@@ -77,6 +77,7 @@ $TTL	86400
 
 92.16	IN	PTR	netapp1-nfs1.internal.sifive.com.
 93.16	IN	PTR	netapp1-nfs2.internal.sifive.com.
+94.16	IN	PTR	netapp1-nfs3.internal.sifive.com.
 
 240.16	IN	PTR	loghost.internal.sifive.com.
 

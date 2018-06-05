@@ -145,6 +145,7 @@ g14			IN	CNAME	gamma14
 
 netapp1-nfs1		IN	A	10.14.16.92
 netapp1-nfs2		IN	A	10.14.16.93
+netapp1-nfs3		IN	A	10.14.16.94
 
 loghost			IN	A	10.14.16.240
 

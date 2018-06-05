@@ -93,6 +93,7 @@
 
 10.14.16.92 netapp1-nfs1
 10.14.16.93 netapp1-nfs2
+10.14.16.94 netapp1-nfs3
 
 10.14.16.128 he-unix01-net-dhcp128
 ...
