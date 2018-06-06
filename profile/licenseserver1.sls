@@ -104,9 +104,13 @@ flexnet:
           absent: true
         microsemi-02:
           absent: true
+        synopsys-20171005:
+          absent: true
         synopsys-20171029:
           absent: true
         synopsys-20171206:
+          absent: true
+        synopsys-20180208:
           absent: true
         synopsys-20180222:
           absent: true
@@ -122,24 +126,24 @@ flexnet:
           absent: true
         synopsys-20180314c:
           absent: true
+        synopsys-20180315:
+          absent: true
         synopsys-20180328:
+          absent: true
+        synopsys-20180412:
+          absent: true
+        synopsys-20180430:
+          absent: true
+        synopsys-20180515:
+          absent: true
+        synopsys-20180518:
           absent: true
         microsemi-20180401:
           pillar: site:licenses:snpslmd:microsemi-20180401
-        synopsys-20171005:
-          pillar: site:licenses:snpslmd:synopsys-20171005
-        synopsys-20180208:
-          pillar: site:licenses:snpslmd:synopsys-20180208
         synopsys-20180327:
           pillar: site:licenses:snpslmd:synopsys-20180327
         synopsys-20180410:
           pillar: site:licenses:snpslmd:synopsys-20180410
-        synopsys-20180430:
-          pillar: site:licenses:snpslmd:synopsys-20180430
-        synopsys-20180515:
-          pillar: site:licenses:snpslmd:synopsys-20180515
-        synopsys-20180518:
-          pillar: site:licenses:snpslmd:synopsys-20180518
         synopsys-20180601:
           pillar: site:licenses:snpslmd:synopsys-20180601
     actlmgrd:
