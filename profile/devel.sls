@@ -184,6 +184,9 @@ pkgs:
     ghc: true
     cabal-install: true
 
+    ## Perl
+    libyaml-perl: true
+
     ## general development
     libncurses5-dev: true
     libglib2.0-dev: true
