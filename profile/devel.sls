@@ -185,7 +185,11 @@ pkgs:
     cabal-install: true
 
     ## Perl
+    # tmake?
     libyaml-perl: true
+    libio-tee-perl: true
+    libcapture-tiny-perl: true
+    libxml-simple-perl: true
 
     ## general development
     libncurses5-dev: true
