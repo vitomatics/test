@@ -129,7 +129,7 @@ sigma01-admin		ac:1f:6b:0c:b5:47
 sigma01-pci0		ec:0d:9a:b9:a3:50
 sigma02-admin		ac:1f:6b:0c:b3:1f
 sigma02-pci0		ec:0d:9a:b9:a4:20
-sigma03-admin		ac:1f:6b:0c:b5:3a
+sigma03-admin		0c:c4:7a:f4:8d:4c
 sigma03-pci0		ec:0d:9a:b9:a2:d0
 sigma04-admin		0c:c4:7a:f5:49:26
 sigma04-pci0		ec:0d:9a:b9:a3:30

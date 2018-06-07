@@ -261,7 +261,7 @@ dhcpd:
       hardware: ethernet ac:1f:6b:0c:b3:1f
       fixed-address: sigma02-admin.internal.sifive.com
     sigma03-admin:
-      hardware: ethernet ac:1f:6b:0c:b5:3a
+      hardware: ethernet 0c:c4:7a:f4:8d:4c
       fixed-address: sigma03-admin.internal.sifive.com
     sigma04-admin:
       hardware: ethernet 0c:c4:7a:f5:49:26
