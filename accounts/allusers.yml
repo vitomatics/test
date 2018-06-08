@@ -497,6 +497,12 @@ users:
     fullname: "Jonathan Stern"
     uid: 1169
     gid: 1169
+  ajanse:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Aaron Janse"
+    uid: 1170
+    gid: 1170
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
