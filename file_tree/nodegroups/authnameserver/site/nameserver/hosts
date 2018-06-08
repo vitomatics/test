@@ -471,6 +471,7 @@
 10.134.16.254 he-iso01-net-pxe254
 # 10.134.16.255 RESERVED - do not use
 
+## 10.134.192.0->10.134.193.255 cad1-iso-net
 
 ## 12.206.222.0->12.206.222.7 att-sifive0-net
 # 12.206.222.0 RESERVED - do not use
