@@ -11,6 +11,7 @@ perccli:
 boot:
   grub:
     serial:
+      port: 0
 
 network:
   interfaces:
