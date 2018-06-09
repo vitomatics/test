@@ -501,6 +501,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Aaron Janse"
+    mail: aaron.janse@sifive.com
     uid: 1170
     gid: 1170
 
