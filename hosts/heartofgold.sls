@@ -4,7 +4,7 @@
 boot:
   grub:
     serial:
-      port: 1
+      port: 0
 
 
 states:
