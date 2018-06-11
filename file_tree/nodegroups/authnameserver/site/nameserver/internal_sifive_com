@@ -326,7 +326,6 @@ labusb02		IN	A	10.16.0.42
 labusb03		IN	A	10.16.0.43
 nuc5			IN	A	10.16.0.44
 nuc6			IN	A	10.16.0.45
-sigma03-admin-test	IN	A	10.16.0.46
 
 
 hifiveu000		IN	A	10.16.0.50
