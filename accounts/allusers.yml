@@ -30,6 +30,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Krste Asanovic"
+    mail: krste@sifive.com
     uid: 1103
     gid: 1103
     shell: /bin/tcsh
@@ -39,6 +40,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Richard Xia"
+    mail: rxia@sifive.com
     uid: 1115
     gid: 1115
     authorized_keys:
@@ -55,6 +57,7 @@ users:
     tags: [ cluster, lambda00, fpgatest ]
     groups: [ compute ]
     fullname: "Henry Styles"
+    mail: hes@sifive.com
     uid: 1109
     gid: 1109
     shell: /bin/tcsh
@@ -64,6 +67,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Angie Wang"
+    mail: angie@sifive.com
     uid: 1113
     gid: 1113
     # authorized_keys:
@@ -72,6 +76,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Yunsup Lee"
+    mail: yunsup@sifive.com
     uid: 1101
     gid: 1101
     authorized_keys:
@@ -98,6 +103,7 @@ users:
     tags: [ cluster, lambda00 ]
     groups: [ compute ]
     fullname: "Ali Habibi"
+    mail: ali@sifive.com
     uid: 1117
     gid: 1117
     # authorized_keys:
@@ -106,6 +112,7 @@ users:
     tags: [ cluster, lambda00, fpgatest ]
     groups: [ compute ]
     fullname: "David Johnson"
+    mail: davidj@sifive.com
     uid: 1108
     gid: 1108
     authorized_keys:
@@ -114,6 +121,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Han Chen"
+    mail: han@sifive.com
     uid: 1104
     gid: 1104
     shell: /bin/tcsh
@@ -133,6 +141,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Henry Cook"
+    mail: henry@sifive.com
     uid: 1107
     gid: 1107
     authorized_keys:
@@ -141,6 +150,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Megan Wachs"
+    mail: megan@sifive.com
     uid: 1105
     gid: 1105
     shell: /bin/tcsh
@@ -150,6 +160,7 @@ users:
     tags: [ cluster ]
     groups: [ minimal ]
     fullname: "Tim Newsome"
+    mail: tim@sifive.com
     uid: 1119
     gid: 1119
     authorized_keys:
@@ -158,6 +169,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Scott Johnson"
+    mail: scottj@sifive.com
     uid: 1111
     gid: 1111
     # authorized_keys:
@@ -167,6 +179,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Howard Mao"
+    mail: zhemao@sifive.com
     uid: 1110
     gid: 1110
     shell: /bin/zsh
@@ -190,6 +203,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Jack Koenig"
+    mail: koenig@sifive.com
     uid: 1122
     gid: 1122
     authorized_keys:
@@ -198,6 +212,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Alex Solomatnikov"
+    mail: sols@sifive.com
     uid: 1123
     gid: 1123
     authorized_keys:
@@ -206,6 +221,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "John Drummond"
+    mail: johnd@sifive.com
     uid: 1124
     gid: 1124
     authorized_keys:
@@ -214,6 +230,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Palmer Dabbelt"
+    mail: palmer@sifive.com
     uid: 1125
     gid: 1125
     authorized_keys:
@@ -222,6 +239,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Renxin Xia"
+    mail: renxin@sifive.com
     uid: 1126
     gid: 1126
   davidj2:
@@ -237,6 +255,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Drew Barbier"
+    mail: drew@sifive.com
     uid: 1128
     gid: 1128
     authorized_keys:
@@ -245,6 +264,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Albert Huntington"
+    mail: ahuntington@sifive.com
     uid: 1129
     gid: 1129
     authorized_keys:
@@ -253,6 +273,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Francois Ferhani"
+    mail: fferhani@sifive.com
     uid: 1130
     gid: 1130
     shell: /bin/tcsh
@@ -262,18 +283,21 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Shreesha Srinath"
+    mail: shreesha@sifive.com
     uid: 1131
     gid: 1131
   colins:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Colin Schmidt"
+    mail: colins@sifive.com
     uid: 1132
     gid: 1132
   mikeyang:
     tags: [ cluster, lambda00 ]
     groups: [ compute ]
     fullname: "Mike Yang"
+    mail: mikeyang@sifive.com
     uid: 1133
     gid: 1133
     authorized_keys:
@@ -283,180 +307,210 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Gleb Gagarin"
+    mail: gleb@sifive.com
     uid: 1134
     gid: 1134
   bipul:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Bipul Talukdar"
+    mail: bipul@sifive.com
     uid: 1135
     gid: 1135
   davidlee:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "David Lee"
+    mail: davidlee@sifive.com
     uid: 1136
     gid: 1136
   jimw:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Jim Wilson"
+    mail: jimw@sifive.com
     uid: 1137
     gid: 1137
   sunil:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Sunil Shenoy"
+    mail: sunil@sifive.com
     uid: 1138
     gid: 1138
   mjc:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Michael Clark"
+    mail: mjc@sifive.com
     uid: 1139
     gid: 1139
   depappas:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Bunnaroath Sou"
+    mail: depappas@sifive.com
     uid: 1140
     gid: 1140
   bsou:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Bunnaroath Sou"
+    mail: bsou@sifive.com
     uid: 1141
     gid: 1141
   vmurali:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Murali Vijayaraghavan"
+    mail: vmurali@sifive.com
     uid: 1142
     gid: 1142
   ahung:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Anthony Hung"
+    mail: ahung@sifive.com
     uid: 1143
     gid: 1143
   ddowns:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Daniel Downs"
+    mail: ddowns@sifive.com
     uid: 1144
     gid: 1144
   rmac:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Ryan Macdonald"
+    mail: rmac@sifive.com
     uid: 1145
     gid: 1145
   kowshik:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Kowshik Murali"
+    mail: kowshik@sifive.com
     uid: 1146
     gid: 1146
   srivatsa:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Srivatsa Yogendra"
+    mail: srivatsa@sifive.com
     uid: 1147
     gid: 1147
   paulk:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Paul Kramer"
+    mail: paulk@sifive.com
     uid: 1148
     gid: 1148
   rperry:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Richard Perry"
+    mail: rperry@sifive.com
     uid: 1149
     gid: 1149
   jcoiner:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "John Coiner"
+    mail: jcoiner@sifive.com
     uid: 1150
     gid: 1150
   brucehoult:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Bruce Hoult"
+    mail: brucehoult@sifive.com
     uid: 1151
     gid: 1151
   mhamrick:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Meadhbh Hamrick"
+    mail: mhamrick@sifive.com
     uid: 1152
     gid: 1152
   jkeithan:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "James Keithan"
+    mail: jkeithan@sifive.com
     uid: 1153
     gid: 1153
   ptouliat:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Payman Touliat"
+    mail: ptouliat@sifive.com
     uid: 1154
     gid: 1154
   rogercar:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Roger Carpenter"
+    mail: rogercar@sifive.com
     uid: 1155
     gid: 1155
   froilanm:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Froilan Montenegro"
+    mail: froilanm@sifive.com
     uid: 1156
     gid: 1156
   jsmith:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Josh Smith"
+    mail: jsmith@sifive.com
     uid: 1157
     gid: 1157
   alingburg:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Amy Lindburg"
+    mail: alingburg@sifive.com
     uid: 1158
     gid: 1158
   stillson:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Christopher Stillson"
+    mail: stillson@sifive.com
     uid: 1159
     gid: 1159
   behzadboro:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Behzad Boroujerdian"
+    mail: behzadboro@sifive.com
     uid: 1160
     gid: 1160
   mohitwani:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Mohit Wani"
+    mail: mohitwani@sifive.com
     uid: 1161
     gid: 1161
   tjmach:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Anthony Machado"
+    mail: tjmach@sifive.com
     uid: 1162
     gid: 1162
   pedroabreu:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Pedro da Costa Abreu"
+    mail: pedroabreu@sifive.com
     gn: "Pedro"
     sn: "Abreu"
     uid: 1163
@@ -465,36 +519,42 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Deborah Soung"
+    mail: debs@sifive.com
     uid: 1164
     gid: 1164
   farzad:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Farzad Farshchi"
+    mail: farzad@sifive.com
     uid: 1165
     gid: 1165
   jieltan:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Jielun Tan"
+    mail: jieltan@sifive.com
     uid: 1166
     gid: 1166
   rajeshrv:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Rajesh Varadharjan"
+    mail: rajeshrv@sifive.com
     uid: 1167
     gid: 1167
   gdiliberto:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Giacomo DiLiberto"
+    mail: gdliberto@sifive.com
     uid: 1168
     gid: 1168
   jonstern:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Jonathan Stern"
+    mail: jonstern@sifive.com
     uid: 1169
     gid: 1169
   ajanse:
