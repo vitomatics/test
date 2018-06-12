@@ -391,7 +391,8 @@ iswitch15-lo0-134	IN	A	10.101.134.115
 iswitch15-vlan109	IN	A	10.134.16.1
 lambda00		IN	A	10.134.16.33
 
-
+mw03ut01		IN	A	10.134.192.6
+mw03-login		IN	CNAME	mw03ut01
 
 
 ; _kerberos._udp		IN	SRV	10 0 88 metrocop

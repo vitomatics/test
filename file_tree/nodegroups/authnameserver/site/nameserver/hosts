@@ -145,6 +145,11 @@
 10.15.0.18 b0-admin			# static
 10.15.0.19 bender-admin			# static
 
+########## vv WARNING - BEHIND NAT AND NOT IN MAIN SIFIVE SPACE vv ###########
+## 10.15.6.0 -> 10.15.7.255 cad1-azure-net
+## 10.15.6.6 mw03ut01-azure
+########## ^^ WARNING - BEHIND NAT AND NOT IN MAIN SIFIVE SPACE ^^ ###########
+
 # 10.15.15.255 RESERVED - do not use
 
 ## 10.15.16.0->10.15.31.255 he-dev-net
@@ -471,6 +476,10 @@
 # 10.134.16.255 RESERVED - do not use
 
 ## 10.134.192.0->10.134.193.255 cad1-iso-net
+# Cadence chamber on Azure, mapped into SiFive IP space
+...
+10.134.192.6 mw03ut01 mw03-login
+...
 
 ## 12.206.222.0->12.206.222.7 att-sifive0-net
 # 12.206.222.0 RESERVED - do not use
