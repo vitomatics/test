@@ -547,7 +547,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Giacomo DiLiberto"
-    mail: gdliberto@sifive.com
+    mail: gdiliberto@sifive.com
     uid: 1168
     gid: 1168
   jonstern:
