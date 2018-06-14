@@ -564,6 +564,13 @@ users:
     mail: aaron.janse@sifive.com
     uid: 1170
     gid: 1170
+  mikemay:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Michael May"
+    mail: mikemay@sifive.com
+    uid: 1171
+    gid: 1171
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
