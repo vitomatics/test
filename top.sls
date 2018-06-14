@@ -214,6 +214,7 @@ base:
     - profile.saltmaster
     - profile.saltpinger
     - profile.awsmaster
+    - profile.tfmaster
     - profile.ganglia-node-server
     - hosts.hal
 
