@@ -46,13 +46,13 @@ flexnet:
         cadence-20171012:
           absent: true
         cadence-20180108:
-          pillar: site:licenses:cdslmd:cadence-20180108
+          absent: true
         cadence-20180110:
-          pillar: site:licenses:cdslmd:cadence-20180110
+          absent: true
         cadence-20180211:
-          pillar: site:licenses:cdslmd:cadence-20180211
+          absent: true
         cadence-20180220:
-          pillar: site:licenses:cdslmd:cadence-20180220
+          absent: true
         cadence-20180305:
           pillar: site:licenses:cdslmd:cadence-20180305
         cadence-20180307:
