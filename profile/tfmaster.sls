@@ -6,4 +6,4 @@ states:
 terraform:
   lookup:
     pkgurl: http://sfimages/HashiCorp/terraform/terraform_0.11.7_linux_amd64.zip
-    tfdir: /srv/tf
+    tfdir: /srv/terraform
