@@ -571,6 +571,34 @@ users:
     mail: mikemay@sifive.com
     uid: 1171
     gid: 1171
+  albertc:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Albert Chen"
+    mail: albert.chen@sifive.com
+    uid: 1172
+    gid: 1172
+  kadep:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Kade Phillips"
+    mail: kade.phillips@sifive.com
+    uid: 1173
+    gid: 1173
+  troyb:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Troy Benjegerdes"
+    mail: troy.benjegerdes@sifive.com
+    uid: 1174
+    gid: 1174
+  carsteng:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Carsten Gosvig"
+    mail: carsten.gosvig@sifive.com
+    uid: 1175
+    gid: 1175
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
