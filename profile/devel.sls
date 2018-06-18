@@ -151,6 +151,7 @@ pkgs:
     libxalan2-java-doc: true
     doxygen: true
     perl-doc: true
+    pdfgrep: true
     
     ## gtkwave, both src and pkg
     gtkwave: true
@@ -212,6 +213,7 @@ pkgs:
     libseccomp-dev: true
     libsqlite3-dev: true
     terminator: true
+    libftdi1-dev: true
 
     ## windows development
     mingw-w64: true
