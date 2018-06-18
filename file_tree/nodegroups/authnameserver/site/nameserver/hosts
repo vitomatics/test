@@ -109,6 +109,9 @@
 # 10.14.17.0 RESERVED - do not use
 10.14.17.1 iswitch25-vlan111 he-unix02-net-gw 
 
+10.14.17.32 colin
+10.14.17.33 chappie
+
 10.14.17.64 sigma00 s00
 10.14.17.65 sigma01 s01
 10.14.17.66 sigma02 s02
@@ -119,6 +122,11 @@
 10.14.17.71 sigma07 s07
 10.14.17.72 sigma08 s08
 10.14.17.73 sigma09 s09
+10.14.17.74 sigma10 s10
+10.14.17.75 sigma11 s11
+10.14.17.76 sigma12 s12
+10.14.17.77 sigma13 s13
+10.14.17.78 sigma14 s14
 
 # 10.14.17.255 RESERVED - do not use
 
@@ -186,6 +194,8 @@
 # 10.15.17.0 RESERVED - do not use
 10.15.17.1 iswitch12-vlan112 he-dev02-net-gw
 10.15.17.16 pdu21
+10.15.17.32 colin-admin
+10.15.17.33 chappie-admin
 10.15.17.64 sigma00-admin
 10.15.17.65 sigma01-admin
 10.15.17.66 sigma02-admin
@@ -196,6 +206,11 @@
 10.15.17.71 sigma07-admin
 10.15.17.72 sigma08-admin
 10.15.17.73 sigma09-admin
+10.15.17.74 sigma10-admin
+10.15.17.75 sigma11-admin
+10.15.17.76 sigma12-admin
+10.15.17.77 sigma13-admin
+10.15.17.78 sigma14-admin
 # 10.15.17.255 RESERVED - do not use
 
 # 10.15.31.255 RESERVED - do not use

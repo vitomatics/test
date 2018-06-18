@@ -83,6 +83,9 @@ $TTL	86400
 
 1.17	IN	PTR	iswitch16-vlan111.internal.sifive.com.
 
+32.17	IN	PTR	colin.internal.sifive.com.
+33.17	IN	PTR	chappie.internal.sifive.com.
+
 64.17	IN	PTR	sigma00.internal.sifive.com.
 65.17	IN	PTR	sigma01.internal.sifive.com.
 66.17	IN	PTR	sigma02.internal.sifive.com.
@@ -93,6 +96,11 @@ $TTL	86400
 71.17	IN	PTR	sigma07.internal.sifive.com.
 72.17	IN	PTR	sigma08.internal.sifive.com.
 73.17	IN	PTR	sigma09.internal.sifive.com.
+74.17	IN	PTR	sigma10.internal.sifive.com.
+75.17	IN	PTR	sigma11.internal.sifive.com.
+76.17	IN	PTR	sigma12.internal.sifive.com.
+77.17	IN	PTR	sigma13.internal.sifive.com.
+78.17	IN	PTR	sigma14.internal.sifive.com.
 
 
 2.129	IN	PTR	awstest.internal.sifive.com.

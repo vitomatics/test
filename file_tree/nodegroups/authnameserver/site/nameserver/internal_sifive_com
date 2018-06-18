@@ -153,6 +153,9 @@ loghost			IN	A	10.14.16.240
 iswitch16-vlan111	IN	A	10.14.17.1
 he-unix02-net-gw	IN	CNAME	iswitch16-vlan111
 
+colin			IN	A	10.14.17.32
+chappie			IN	A	10.14.17.33
+
 sigma00			IN	A	10.14.17.64
 s00			IN	CNAME	sigma01
 sigma01			IN	A	10.14.17.65
@@ -173,6 +176,16 @@ sigma08			IN	A	10.14.17.72
 s08			IN	CNAME	sigma08
 sigma09			IN	A	10.14.17.73
 s09			IN	CNAME	sigma09
+sigma10			IN	A	10.14.17.74
+s10			IN	CNAME	sigma10
+sigma11			IN	A	10.14.17.75
+s11			IN	CNAME	sigma11
+sigma12			IN	A	10.14.17.76
+s12			IN	CNAME	sigma12
+sigma13			IN	A	10.14.17.77
+s13			IN	CNAME	sigma13
+sigma14			IN	A	10.14.17.78
+s14			IN	CNAME	sigma14
 
 awstest			IN	A	10.14.129.2
 fpgatest		IN	A	10.14.129.3
@@ -228,6 +241,9 @@ he-dev02-net-gw		IN	CNAME	iswitch12-vlan112
 
 pdu21			IN	A	10.15.17.16
 
+colin-admin		IN	A	10.15.17.32
+chappie-admin		IN	A	10.15.17.33
+
 sigma00-admin		IN	A	10.15.17.64
 sigma01-admin		IN	A	10.15.17.65
 sigma02-admin		IN	A	10.15.17.66
@@ -238,6 +254,11 @@ sigma06-admin		IN	A	10.15.17.70
 sigma07-admin		IN	A	10.15.17.71
 sigma08-admin		IN	A	10.15.17.72
 sigma09-admin		IN	A	10.15.17.73
+sigma10-admin		IN	A	10.15.17.74
+sigma11-admin		IN	A	10.15.17.75
+sigma12-admin		IN	A	10.15.17.76
+sigma13-admin		IN	A	10.15.17.77
+sigma14-admin		IN	A	10.15.17.78
 
 router11-ge0-0-6	IN	A	10.15.224.1
 iswitch11-me0		IN	A	10.15.224.128
