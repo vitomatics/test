@@ -1,0 +1,155 @@
+#Date: 06/18/2018
+#SNPS ID: PRD
+#                                                                        SYNOPSYS INC. KEY CERTIFICATE
+#                                                                        Site ID: 35908
+#                                                                        SiFive, Inc.
+#                                                                        1875 South Grant Street, Suite 600
+#                                                                        San Mateo
+#                                                                        CA 94402-7013
+#                                                                        US
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
+#
+#If you feel that keys are missing (or incorrect), please contact your Synopsys account manager.
+#
+#License keys will be transmitted in clear text, over public and private networks. Synopsys does not warrant or guarantee that these networks provide privacy and accepts no liability of
+#any kind if a third party intercepts the transmission.
+#
+#Synopsys products are export controlled. It is the responsibility of the addressee to comply with U.S. Export Regulations where applicable.
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Server Config: 0000269223
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#For counted licenses in the standard combined vendor daemon (cvd) format, make sure you are using the required version of  Synopsys Common Licensing (SCL). For
+#information on the required version of SCL, or for Synopsys licensing setup and  installation help, go to http://www.synopsys.com/licensing
+#
+#IMPORTANT: Follow the license file verification procedure at http://www.synopsys.com/licensing when installing or updating your  Synopsys license file. Combined
+#vendor daemon (cvd) format license files must be verified with the 'sssverify' utility.
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Synopsys License file created by CVDKIF 5.0 on June 18, 2018 at 09:30:15 for daemon snpslmd
+SERVER hostname1 0002C94E201E 27020
+VENDOR snpslmd /path/to/snpslmd
+USE_SERVER
+INCREMENT SSST snpslmd 1.0 02-Jul-2018 1 8E5C8BB2F96FDAA8BC32 \
+        VENDOR_STRING="5bae6 92d43 c3abb 076d7 0259e 8e797 3776d 70259 e8e79 73711 \
+        01020 0d1c5 92c39 f7937 45880 7992a c7d34 6e923 25bea 32dc2 \
+        f94f6 abc37 ce5cd 14241 b50d6 a562f 2c7b7 233df 301c2 a061c \
+        1ab6d 5bb3b 092a9 a1d89 95b0f b376f b3ca6 f125a 75624 3e731 \
+        57586 23776 d5683 cdb27 0d2dc ea813 9a570 87d85 39ee3 6086f \
+        ddd2c 044c9 89635 6576e 2044f ffe93 c193a 62cc4 7ad8f 20ac6 \
+        f715b 47eac 23b07 2c0a3 35c47 0c991 7cc22 725ad 9f597 1520f \
+        1796d cebba 54155 4d0c7 966c3 93231 82996 67d2f d0526 34810 \
+        dea78 61632 fe6d3 a6bb6 a0b98 6b715 48b5b 4c484 f323c 0a654 \
+        2ee41 0d59e 7bff1 e48ec ee8a9 dbf83 905bd 518ab 82a1d 25a14 \
+        985fd 85ddd c8674 bf9fb 1a622 123fc 5b237 1dc03 c23c5 6c6f5 \
+        a4c7d f0de6 61ebb 57d" \
+        NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
+        KEYS IN THIS FILE]" \
+        SN=TK:0:0:464991 ISSUER="Synopsys, Inc. [6/18/2018 9:30:15 35908 5.0]" \
+        START=18-Jun-2018
+INCREMENT FusionVantageLmcInterface snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=56 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=DE4CEBC24501406AE429) }
+INCREMENT Galil_Solver snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=75 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=9E6C7B324DB7B40632E6) }
+INCREMENT LMCSwift_Net snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=111 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=EECC3BB25F1910D49271) }
+INCREMENT SNPS-Assertions snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=75 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=4E7C1BC2B973A254871C) }
+INCREMENT VCSAMSCompiler_Net snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=38 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=8E2CAB026A3EA36EEDB0) }
+INCREMENT VCSAMSRuntime_Net snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=90 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=0EEC3BC2EB43E8059EC7) }
+INCREMENT VCSCompiler_Net snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=91 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=1E1CFBC24DA78CB69A54) }
+INCREMENT VCSMXRunTime_Net snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=87 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=AE0CEB927CD2F3254A92) }
+INCREMENT VCSPostProcDebugger_Net snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=101 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=EE8C8BE2442EBA79911B) }
+INCREMENT VCSRuntime_Net snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=65 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=7E7CBB9204E1F8D40D6C) }
+INCREMENT VCSTools_Net snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=31 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=9E2CDBD279852EFA1058) }
+INCREMENT VHDL-Analyzer snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=255 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=5E1C6B02684563B1852C) }
+INCREMENT VHDL-Cycle-Sim snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=47 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=CE7CABE2FA1A822041C2) }
+INCREMENT VHDL-Elaborator snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=86 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=EE9C9BC2FCA01F0F781A) }
+INCREMENT VHDL-Event-Sim snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=131 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=6E4C2BF2B9F3F7C41FF9) }
+INCREMENT VHDL-Tools snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=47 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=2E4CFB82253984CAF0C6) }
+INCREMENT VHDL-VirSim snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=10 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=AE9CBB927257533BE316) }
+INCREMENT VIP-AMBA-AXI-SVT snpslmd 2018.06 02-jul-2018 50 \
+        ISSUED=18-jun-2018 ck=71 SN=TK:C029-0:501513:464991 \
+        START=18-jun-2018 AUTH={ snpslmd=( LK=DE3CEBA25489C0C257DF) }
+INCREMENT VT_Assertions snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=31 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=8E5CBBA24600CE2704A8) }
+INCREMENT VT_AssertionsRuntime snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=25 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=9E0C1B62675C0233B48E) }
+INCREMENT VT_Coverage snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=122 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=4EBCEBD2EA54FD67BA2B) }
+INCREMENT VT_CoverageRuntime snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=162 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=0E1CDB2227D9CC5ACAA7) }
+INCREMENT VT_Testbench snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=71 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=1E9CAB12F4C872BD49D1) }
+INCREMENT VT_TestbenchRuntime snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=40 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=DE8C1B421B8F47774D1C) }
+INCREMENT VT_Visual snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=17 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=8E7CCB228493A8194D19) }
+INCREMENT XVCSDebugger snpslmd 2017.12 02-jul-2018 50 \
+        VENDOR_STRING=Platform:ALL ISSUED=18-jun-2018 ck=112 \
+        SN=TK:3335-0:501513:464991 START=18-jun-2018 AUTH={ snpslmd=( \
+        LK=6EBC6B72BA6CCBB41A12) }
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
