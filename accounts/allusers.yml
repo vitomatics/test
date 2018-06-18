@@ -539,7 +539,7 @@ users:
   rajeshrv:
     tags: [ cluster ]
     groups: [ compute ]
-    fullname: "Rajesh Varadharjan"
+    fullname: "Rajesh Varadharajan"
     mail: rajeshrv@sifive.com
     uid: 1167
     gid: 1167
