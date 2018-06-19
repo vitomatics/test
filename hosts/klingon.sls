@@ -14,5 +14,5 @@ autofs:
   lookup:
     browse_mode: yes
   direct:
-    /work: -fstype=nfs4,ro,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/work
+    /work: -fstype=nfs4,nfsvers=4.1,ro,hard,intr,acl,noatime,nodev,nosuid netapp1-nfs1.internal.sifive.com:/work
 
