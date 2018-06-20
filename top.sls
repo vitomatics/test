@@ -118,6 +118,14 @@ base:
     - profile.ganglia-node-server
     - hosts.marvin
 
+  'colin.internal.sifive.com':
+    - subnet.he-unix02
+    - hosts.colin
+
+  'chappie.internal.sifive.com':
+    - subnet.he-unix02
+    - hosts.chappie
+
   'bender.internal.sifive.com':
     - subnet.sf-unix
     - profile.vmhost
