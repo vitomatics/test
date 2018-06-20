@@ -143,6 +143,10 @@ sigma08-admin		0c:c4:7a:f5:4c:0f
 sigma08-pci0		ec:0d:9a:b9:a2:f0
 sigma09-admin		0c:c4:7a:f5:49:5f
 sigma09-pci0		ec:0d:9a:b9:a7:a0
+sigma10-admin		ac:1f:6b:0c:f0:c1
+sigma10-pci0		ec:0d:9a:f0:c8:90
+sigma11-admin		ac:1f:6b:0c:f0:c3
+sigma11-pci0		ec:0d:9a:ef:11:30
 
 
 
