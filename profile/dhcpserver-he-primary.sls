@@ -222,7 +222,7 @@ dhcpd:
       fixed-address: colin-admin.internal.sifive.com
     chappie-admin:
       hardware: ethernet 54:48:10:f4:6d:86
-      fixed-address: colin-admin.internal.sifive.com
+      fixed-address: chappie-admin.internal.sifive.com
 
     gamma00-admin:
       hardware: ethernet 0c:c4:7a:c4:5d:af
