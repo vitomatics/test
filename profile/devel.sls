@@ -152,6 +152,7 @@ pkgs:
     doxygen: true
     perl-doc: true
     pdfgrep: true
+    help2man: true
     
     ## gtkwave, both src and pkg
     gtkwave: true
