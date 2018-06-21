@@ -9,6 +9,3 @@ states:
   sfdump.nfs: true
   sfdump.rsync: true
 
-sfdump:
-  nfs:
-    fstype: nfs4,nfsvers=4.1
