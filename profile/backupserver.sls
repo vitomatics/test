@@ -11,4 +11,4 @@ states:
 
 sfdump:
   nfs:
-    fstype: 'nfs4,nfsvers=4.1'
+    fstype: nfs4,nfsvers=4.1
