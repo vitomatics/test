@@ -568,6 +568,36 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: compute_ssd_noscratch
+        sigma10:
+          subnet: he-unix-dynamic
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: compute_ssd_noscratch
+        sigma11:
+          subnet: he-unix-dynamic
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: compute_ssd_noscratch
+        sigma12:
+          subnet: he-unix-dynamic
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: compute_ssd_noscratch
+        sigma13:
+          subnet: he-unix-dynamic
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: compute_ssd_noscratch
+        sigma14:
+          subnet: he-unix-dynamic
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: compute_ssd_noscratch
         wall-e:
           ipaddress: 10.14.16.46
           subnet: he-unix01-static
@@ -582,3 +612,17 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
+        colin:
+          ipaddress: 10.14.17.32
+          subnet: he-unix02-static
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: server_ssd_disk
+        chappie:
+          ipaddress: 10.14.17.33
+          subnet: he-unix02-static
+          serial: '0'
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: server_ssd_disk
