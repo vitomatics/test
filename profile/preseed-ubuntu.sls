@@ -570,7 +570,7 @@ sfpreseed:
           disklayout: compute_ssd_noscratch
         sigma10:
           subnet: he-unix-dynamic
-          serial: '0'
+          serial: '1'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: compute_ssd_noscratch
