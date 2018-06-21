@@ -82,27 +82,30 @@ sfdump:
       client: netapp1-nfs1.internal.sifive.com
       export: /homes
       dest: /sfbackup/dumps/homes
-      bwlimit: 12000
+      fstype: nfs4,nfsvers=4.1
       snaptype: netapp_daily
       acls: false
       xattrs: false
+      bwlimit: 12000
       timeout: 4h
     sifive:
       client: netapp1-nfs1.internal.sifive.com
       export: /sifive
       dest: /sfbackup/dumps/sifive
-      bwlimit: 12000
+      fstype: nfs4,nfsvers=4.1
       snaptype: netapp_daily
       acls: false
       xattrs: false
       timeout: 8h
+      bwlimit: 12000
       absent: false
     work:
       client: netapp1-nfs2.internal.sifive.com
       export: /work
       dest: /sfbackup/dumps/work
-      bwlimit: 12000
+      fstype: nfs4,nfsvers=4.1
       snaptype: netapp_daily
       acls: false
       xattrs: false
+      bwlimit: 12000
       timeout: 7h

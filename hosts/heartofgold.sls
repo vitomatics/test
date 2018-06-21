@@ -105,6 +105,7 @@ sfdump:
       client: netapp1-nfs1.internal.sifive.com
       export: /homes
       dest: /sfbackup/dumps/homes
+      fstype: nfs4,nfsvers=4.1
       snaptype: netapp_daily
       acls: false
       xattrs: false
@@ -113,6 +114,7 @@ sfdump:
       client: netapp1-nfs1.internal.sifive.com
       export: /sifive
       dest: /sfbackup/dumps/sifive
+      fstype: nfs4,nfsvers=4.1
       snaptype: netapp_daily
       acls: false
       xattrs: false
@@ -121,6 +123,7 @@ sfdump:
       client: netapp1-nfs2.internal.sifive.com
       export: /work
       dest: /sfbackup/dumps/work
+      fstype: nfs4,nfsvers=4.1
       snaptype: netapp_daily
       acls: false
       xattrs: false
