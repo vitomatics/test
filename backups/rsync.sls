@@ -2,6 +2,8 @@
 
 sfdump:
   # Keys for rsync dumps
+  nfs:
+    fstype: nfs4
   keys:
     sfdump_hog_key1:
       public: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCjNdQu54ge0ZUkXZIL29ljagxF2JdzOQLqJsDr4TcjbzRRP2e4LSmqPG/TbN1FLJWD0S0NfcF6qKwPkbXtoDSKhLMmSQDGA17Vh6DLY9cKymxBI6uVQ0+QSXht1opGwN+kzx4w+wK+i3ncxDB4xve0LKT8nlm264UltkfPthDEIzWxE1mffs6AnNDM9VopkaVzveFzfq6+pWmXxAqQlas4gto2paCaWMe4uync6UwKbCfTWd+lB/Fc1pQaMMw5gRhDhT8u6E7r7rYXom3obcJkhLtzefnfWMKQlfBkLisVZnlsJZpcZG+fNtnZwtFgSLI6r6F2gpWk5LtNL4S9GOZ5 sfdump_hog_key1
