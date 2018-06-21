@@ -9,8 +9,6 @@ sfdump:
       public: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJmtAaqg2GsKxh9YFQ/tXVtdffiOe8WpYuUUuPndQ3YcKLgmMG079LQvzo1RZtSrAzZO/ack6Vjo1cp36Yg0wuUlUoEg+SRfy2al9QJYFOVyEe2lL9b3hKG628CZjcboDC2eQ62kg5Zfa0MHKAut1U3quWKOQjNzN3Y7EhQmSu33Ew9GBBFxDcI1uWrYgaQpOglYYszBgyhuxBnRUAcEr6QlTGiVSEcMjovqtM3vjm6wRKwBV52ugQbK8qExgLLNEKALSu5UBrAqnd5f3libc/oBS/trBnxB96M5W0sw9Y5HGrJ8P0jDW41Dph5x4bH86OlfFmJM3RnpNvvCL9JrpD sfdump_hog_key2
     sfdump_omega1_key1:
       public: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIrT2qKW6RZuC2Xo/myOw9FMCECBm4OkndcwmAokqQ5XMt0gaJDMHRDD608kkQRx1ibxv9VEUIM4eaX2rG2T0gaqmG/ecy5knmVA8I4/Pd6cig4i2vrDYDDH8xDiOIiVgYZPJ8FblIOw5mZXTiDhFFOGkye4rE1QzAqcGLqBLnBomw5QrSm7c0D1iJk+mJCSzJ4bI7swJFzMF24XURnMtO/BlALmZhd8hNoPLe4PxV6I+aBRyxchCHDWCPHHcq23Co5fnGwD9z2ZNZ2HZ2OZpZVFL5xDsaQJBHDAK06inrHwQQ+HnRAQmUo91Wqi7r0wzMHlfffsflkghvND+Rp1LN davidj@heartofgold.internal.sifive.com
-  nfs:
-    fstype: nfs4,nfsvers=4.1
   rsync:
     vulcan-srv:
       client: vulcan.internal.sifive.com
