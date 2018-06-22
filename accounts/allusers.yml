@@ -599,6 +599,20 @@ users:
     mail: carsten.gosvig@sifive.com
     uid: 1175
     gid: 1175
+  samh:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Sam Huffman"
+    mail: sam.huffman@sifive.com
+    uid: 1176
+    gid: 1176
+  bodid:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Bodi Debnath"
+    mail: bodi.debnath@sifive.com
+    uid: 1177
+    gid: 1177
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
