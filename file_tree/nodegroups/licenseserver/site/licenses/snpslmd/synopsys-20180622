@@ -1,0 +1,257 @@
+#Date: 06/22/2018
+#SNPS ID: PRD
+#                                                                        SYNOPSYS INC. KEY CERTIFICATE
+#                                                                        Site ID: 35908
+#                                                                        SiFive, Inc.
+#                                                                        1875 South Grant Street, Suite 600
+#                                                                        San Mateo
+#                                                                        CA 94402-7013
+#                                                                        US
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
+#
+#If you feel that keys are missing (or incorrect), please contact your Synopsys account manager.
+#
+#License keys will be transmitted in clear text, over public and private networks. Synopsys does not warrant or guarantee that these networks provide privacy and accepts no liability of
+#any kind if a third party intercepts the transmission.
+#
+#Synopsys products are export controlled. It is the responsibility of the addressee to comply with U.S. Export Regulations where applicable.
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Server Config: 0000269223
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#For counted licenses in the standard combined vendor daemon (cvd) format, make sure you are using the required version of  Synopsys Common Licensing (SCL). For
+#information on the required version of SCL, or for Synopsys licensing setup and  installation help, go to http://www.synopsys.com/licensing
+#
+#IMPORTANT: Follow the license file verification procedure at http://www.synopsys.com/licensing when installing or updating your  Synopsys license file. Combined
+#vendor daemon (cvd) format license files must be verified with the 'sssverify' utility.
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Synopsys License file created by CVDKIF 5.0 on June 22, 2018 at 17:03:07 for daemon snpslmd
+SERVER hostname1 0002C94E201E 27020
+VENDOR snpslmd /path/to/snpslmd
+USE_SERVER
+INCREMENT SSST snpslmd 1.0 06-Jul-2018 1 FEAC4B86F47E73CC74DA \
+        VENDOR_STRING="361f0 eaf2a 3486b 5380e c0299 daab4 ee380 ec029 9daab 4ee11 \
+        01020 05219 c67fa bec75 95d79 35e7d f7f8b cc33d ec630 623ef \
+        1c046 10035 2c73a b7d39 5a6d6 1ec01 b4436 ddb31 8a798 f5a98 \
+        2705f 66e28 28dab e9073 4f764 977a2 e45bb 9a926 826dd bef85 \
+        e73ec d1942 2881e cece8 3a84b a4ed6 ebd6e b1138 b7727 2eb80 \
+        e16d7 86df6 7b3bb bcc6f ade8c 277ad 3d3f0 fe00a 95d55 3fe93 \
+        2e8f8 27504 f2459 49800 5e269 75b05 a8646 6b19e 27d47 d7de0 \
+        02555 a8c1a 29317 dbd39 148b9 e8206 02c01 a73ce 227d7 b1f28 \
+        3f6ba 006b1 26524 87f93 3150c 4e7cb e5681 ffb2c 895ec 135b7 \
+        0aeaa 8badc 45358 b1235 85faf d87d4 ed461 3f61f ac2e4 717cb \
+        d965f 4774e 84357 a4d93 9329d f55d6 9dbf3 42a63 8d1a4 d6cc7 \
+        fd60e 7acad 642e0 d6c" \
+        NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
+        KEYS IN THIS FILE]" \
+        SN=TK:0:0:394571 ISSUER="Synopsys, Inc. [6/22/2018 17:03:07 35908 5.0]" \
+        START=22-Jun-2018
+INCREMENT CTV-Interface snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=90 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=9EDC7BB606A078EADE65) }
+INCREMENT Formality snpslmd 2018.06 06-jul-2018 1 ISSUED=22-jun-2018 \
+        ck=74 SN=TK:2593-0:502190:394571 START=22-jun-2018 AUTH={ \
+        snpslmd=( LK=CE7C1BE637A036051DDD) }
+INCREMENT Formality-E1 snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=30 SN=TK:2593-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=6EDC9B86C71922543F6B) }
+INCREMENT FusionVantageLmcInterface snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=40 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=1E2C8B269BE7069C8344) }
+INCREMENT Galil_Solver snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=102 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=4E7C4BB6AA287ACD3024) }
+INCREMENT LMCSwift_Net snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=24 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=3E5CAB3698370BB343B5) }
+INCREMENT Milkyway-Interface snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=117 SN=TK:2593-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=AE7C0BE6016B235F09DF) }
+INCREMENT PrimeTime-PX snpslmd 2018.06 06-jul-2018 2 \
+        ISSUED=22-jun-2018 ck=118 SN=TK:4463-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=6EFCDBD673DF84605D4B) }
+INCREMENT SNPS-Assertions snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=28 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=5EEC3B86B16107842B41) }
+INCREMENT Test-ATPG-Max snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=166 SN=TK:2588-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=BEAC7BD67BDB31A1E94B) }
+INCREMENT Test-Analysis snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=114 SN=TK:2588-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=3E6CCBF6CE676EBBBCAD) }
+INCREMENT Test-CTL-Model snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=83 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=FE7CAB86F50392E68542) }
+INCREMENT Test-Compile snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=68 SN=TK:2588-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=4EFC9B46CFF264757D80) }
+INCREMENT Test-Compile-Share snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=111 SN=TK:2588-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=CEDC9B0646A4E6D7FB93) }
+INCREMENT Test-Compiler snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=59 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=1EDC8BF6D679C8416797) }
+INCREMENT Test-Compression-ATPG snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=25 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=4E8C4B065CB538EAA447) }
+INCREMENT Test-Compression-Synthesis snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=59 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=4E1CFB86147E492A4ECB) }
+INCREMENT Test-CompressionP3-ATPG snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=4 SN=TK:A338-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=1E3CBB6686B07C122094) }
+INCREMENT Test-CompressionP3-Syn snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=76 SN=TK:A338-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=6E5C4B4647D6FFC2C0CC) }
+INCREMENT Test-Core-Integration snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=30 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=5EAC8BC645DB3A744E67) }
+INCREMENT Test-Core-Wrapper snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=88 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=0EACFBE6F0C3293A03F5) }
+INCREMENT Test-DFTC-TMAX snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=130 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=AEAC7B96A9D797C5A2BA) }
+INCREMENT Test-Delay snpslmd 2018.06 06-jul-2018 1 ISSUED=22-jun-2018 \
+        ck=86 SN=TK:2574-0:502190:394571 START=22-jun-2018 AUTH={ \
+        snpslmd=( LK=CE7C5B265BC4113C2996) }
+INCREMENT Test-Diagnosis snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=69 SN=TK:2588-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=8E5C1B7694DE60A2B2D3) }
+INCREMENT Test-Fault-Max snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=87 SN=TK:2574-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=FE2C4B669CD2EA99CAC9) }
+INCREMENT Test-Faultsim snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=107 SN=TK:2588-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=9E1C7B76F603AA8A6CFB) }
+INCREMENT Test-IEEE-Std-1149-1 snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=125 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=7EECFBE6DBE268D7DB1C) }
+INCREMENT Test-LBIST-Synthesis snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=101 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=DE8C1B46CBEA6666B759) }
+INCREMENT Test-MBIST-Integration snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=85 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=DE1C6B16F7B95F22EFD0) }
+INCREMENT Test-Map snpslmd 2018.06 06-jul-2018 1 ISSUED=22-jun-2018 \
+        ck=73 SN=TK:2588-0:502190:394571 START=22-jun-2018 AUTH={ \
+        snpslmd=( LK=CEFC0B36406575C4243D) }
+INCREMENT Test-Physical snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=7 SN=TK:2588-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=2E8C4BD6A653879E6A90) }
+INCREMENT Test-Power snpslmd 2018.06 06-jul-2018 1 ISSUED=22-jun-2018 \
+        ck=43 SN=TK:2574-0:502190:394571 START=22-jun-2018 AUTH={ \
+        snpslmd=( LK=8E9C3B660504275A13AE) }
+INCREMENT Test-RTL-Check snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=80 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=5E5C0B36926B493A588D) }
+INCREMENT Test-RTL-Tristate snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=91 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=BE9CFB868CA369F0E08A) }
+INCREMENT Test-SDD-Timing snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=55 SN=TK:2574-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=3E1CCB86229C07A98994) }
+INCREMENT Test-STDVR snpslmd 2018.06 06-jul-2018 1 ISSUED=22-jun-2018 \
+        ck=23 SN=TK:4280-0:502190:394571 START=22-jun-2018 AUTH={ \
+        snpslmd=( LK=8EBC2BE6E71218666321) }
+INCREMENT Test-ScanRoute snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=38 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=4E2CBB96D55CBA20717E) }
+INCREMENT Test-Validate snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=119 SN=TK:4280-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=2E8CFB46F84EAC018E45) }
+INCREMENT Test-Validate snpslmd 2018.06 06-jul-2018 1 \
+        ISSUED=22-jun-2018 ck=37 SN=TK:2588-0:502190:394571 \
+        START=22-jun-2018 AUTH={ snpslmd=( LK=1E1C0B667D63002F248E) }
+INCREMENT VCSAMSCompiler_Net snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=40 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=8E2C8BD6B4D585D3848C) }
+INCREMENT VCSAMSRuntime_Net snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=13 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=1E3CFB76E102B7E86584) }
+INCREMENT VCSCompiler_Net snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=233 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=4E2C7B665013D942BB1C) }
+INCREMENT VCSMXRunTime_Net snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=104 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=5E1CCB761E9B99524A3A) }
+INCREMENT VCSPostProcDebugger_Net snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=31 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=3E0C8B66C4A52631B305) }
+INCREMENT VCSRuntime_Net snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=117 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=CE9C5BD6F8DC4495C0C4) }
+INCREMENT VCSTools_Net snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=88 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=0EFCEB56FEB2B93104A7) }
+INCREMENT VHDL-Analyzer snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=135 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=AEDC6BA68B3CD50EABDE) }
+INCREMENT VHDL-Cycle-Sim snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=97 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=7EDC7B46E73A0A749C27) }
+INCREMENT VHDL-Elaborator snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=241 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=3EDC3BB6BC2576730247) }
+INCREMENT VHDL-Event-Sim snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=88 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=9E9CCB96A558C7AED323) }
+INCREMENT VHDL-Tools snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=58 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=FE9C6B061A666BC1D38F) }
+INCREMENT VHDL-VirSim snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=86 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=7EDCBB063E74F91D3D8B) }
+INCREMENT VT_Assertions snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=101 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=FECC1BB695DFFC327E5B) }
+INCREMENT VT_AssertionsRuntime snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=35 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=8E9C8BB65943D1CBBE66) }
+INCREMENT VT_Coverage snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=96 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=CE7C4B76235CB76A77F1) }
+INCREMENT VT_CoverageRuntime snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=39 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=1E4CDB1699092BCDBA85) }
+INCREMENT VT_Testbench snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=39 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=DEFC1B0643E295DD0148) }
+INCREMENT VT_TestbenchRuntime snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=28 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=8E3C3B061A1C486087CE) }
+INCREMENT VT_Visual snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=130 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=5E9C3B1657EEBE55BE2C) }
+INCREMENT XVCSDebugger snpslmd 2017.12 06-jul-2018 40 \
+        VENDOR_STRING=Platform:ALL ISSUED=22-jun-2018 ck=46 \
+        SN=TK:3335-0:502190:394571 START=22-jun-2018 AUTH={ snpslmd=( \
+        LK=7E3CEB4625F6D9F286E1) }
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
