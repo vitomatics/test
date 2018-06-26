@@ -19,29 +19,29 @@ network:
       ip: 10.14.17.32
 
     ## Dedicated (VLAN?) trunk interface for VMs
-    eno1:
+    eno2:
       type: eth
       proto: manual
       netmask: 
       gateway:
       nameservers: [ ]
-    eno1.101:
+    eno2.101:
       type: eth
       proto: manual
       netmask: 
       gateway:
       nameservers: [ ]
-      vlan-raw-device: eno1
+      vlan-raw-device: eno2
     ## Bridge for unix-net
     br0:
       type: bridge
       proto: manual
-      require: eno1.101
+      require: eno2.101
       netmask:
       gateway:
       nameservers: [ ]
       ports:
-        - eno1.101
+        - eno2.101
 
 libvirt:
   bridges:
