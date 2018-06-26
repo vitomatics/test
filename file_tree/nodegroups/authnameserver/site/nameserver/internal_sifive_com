@@ -347,6 +347,7 @@ labusb02		IN	A	10.16.0.42
 labusb03		IN	A	10.16.0.43
 nuc5			IN	A	10.16.0.44
 nuc6			IN	A	10.16.0.45
+asustor1		IN	A	10.16.0.46
 
 
 hifiveu000		IN	A	10.16.0.50
@@ -374,6 +375,8 @@ hifiveu021		IN	A	10.16.0.71
 hifiveu022		IN	A	10.16.0.72
 hifiveu023		IN	A	10.16.0.73
 hifiveu024		IN	A	10.16.0.74
+hifiveu-reg1		IN	A	10.16.0.75
+hifiveu-reg2		IN	A	10.16.0.76
 
 router03-ge0-0-4	IN	A	10.17.0.1
 sf-laptop-net-gw	IN	CNAME	router03-ge0-0-4

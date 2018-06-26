@@ -282,6 +282,7 @@
 10.16.0.43 labusb03
 10.16.0.44 nuc5
 10.16.0.45 nuc6
+10.16.0.46 asustor1
 
 10.16.0.50 hifiveu000
 10.16.0.51 hifiveu001
@@ -308,6 +309,8 @@
 10.16.0.72 hifiveu022
 10.16.0.73 hifiveu023
 10.16.0.74 hifiveu024
+10.16.0.75 hifiveu-reg1
+10.16.0.76 hifiveu-reg2
 
 10.16.0.128 sf-lab-net-dhcp128
 ...
