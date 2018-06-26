@@ -89,6 +89,9 @@ dhcpd:
     nuc6:
       hardware: ethernet 94:c6:91:1d:13:29
       fixed-address: nuc6.internal.sifive.com
+    asustor1:
+      hardware: ethernet 10:bf:48:8c:23:ee
+      fixed-address: asustor1.internal.sifive.com
     mnuc00:
       hardware: ethernet 94:c6:91:11:4b:c6
       fixed-address: mnuc00.internal.sifive.com
@@ -190,3 +193,9 @@ dhcpd:
     hifiveu024:
       hardware: ethernet 70:b3:d5:92:f0:18
       fixed-address: hifiveu024.internal.sifive.com
+    hifiveu-reg1:
+      hardware: ethernet 70:b3:d5:92:f1:b2
+      fixed-address: hifiveu-reg1.internal.sifive.com
+    hifiveu-reg2:
+      hardware: ethernet 70:b3:d5:92:f1:a9
+      fixed-address: hifiveu-reg2.internal.sifive.com
