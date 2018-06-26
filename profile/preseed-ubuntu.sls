@@ -615,14 +615,14 @@ sfpreseed:
         colin:
           ipaddress: 10.14.17.32
           subnet: he-unix02-static
-          serial: '0'
+          serial: '1'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: server_ssd_disk
         chappie:
           ipaddress: 10.14.17.33
           subnet: he-unix02-static
-          serial: '0'
+          serial: '1'
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: server_ssd_disk
