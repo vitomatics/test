@@ -25,7 +25,7 @@ network:
       netmask: 
       gateway:
       nameservers: [ ]
-    eno2.101:
+    eno2.111:
       type: eth
       proto: manual
       netmask: 
@@ -36,12 +36,12 @@ network:
     br0:
       type: bridge
       proto: manual
-      require: eno2.101
+      require: eno2.111
       netmask:
       gateway:
       nameservers: [ ]
       ports:
-        - eno2.101
+        - eno2.111
 
 libvirt:
   bridges:
