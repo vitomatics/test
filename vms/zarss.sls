@@ -15,7 +15,7 @@ sfvirt:
       disks:
         root:
           vdtype: lvm
-          size: 60G
+          size: 40G
           vg: vmpool03
       preseed: zarss
       dist: xenial-default
