@@ -351,3 +351,9 @@ base:
     - profile.snmp-client
     - profile.tig-sysmon
     - hosts.skynet
+
+  'zarss.internal.sifive.com':
+    - subnet.he-unix02
+    - profile.login
+    - profile.ganglia-node-server
+    - hosts.zarss

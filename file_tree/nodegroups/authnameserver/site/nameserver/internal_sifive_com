@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018062501 ; serial number
+	2018062601 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -155,6 +155,7 @@ he-unix02-net-gw	IN	CNAME	iswitch16-vlan111
 
 colin			IN	A	10.14.17.32
 chappie			IN	A	10.14.17.33
+zarss			IN	A	10.14.17.34
 
 sigma00			IN	A	10.14.17.64
 s00			IN	CNAME	sigma01

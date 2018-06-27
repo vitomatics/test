@@ -25,6 +25,7 @@ include:
   - vms.vulcan
   - vms.wall-e
   - vms.yoda
+  - vms.zarss
   
 sfvirt:
   dists:

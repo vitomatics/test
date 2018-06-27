@@ -598,15 +598,15 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: compute_ssd_noscratch
-        wall-e:
-          ipaddress: 10.14.16.46
+        skynet:
+          ipaddress: 10.14.16.47
           subnet: he-unix01-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
-        skynet:
-          ipaddress: 10.14.16.47
+        wall-e:
+          ipaddress: 10.14.16.46
           subnet: he-unix01-static
           serial: '0'
           diskname: /dev/vda
@@ -626,3 +626,10 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: server_ssd_disk
+        zarss:
+          ipaddress: 10.14.17.34
+          subnet: he-unix02-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_small_disk
