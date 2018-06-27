@@ -120,10 +120,16 @@ base:
 
   'colin.internal.sifive.com':
     - subnet.he-unix02
+    - profile.vmhost
+    - vms
+    - profile.ganglia-node-server
     - hosts.colin
 
   'chappie.internal.sifive.com':
     - subnet.he-unix02
+    - profile.vmhost
+    - vms
+    - profile.ganglia-node-server
     - hosts.chappie
 
   'bender.internal.sifive.com':
