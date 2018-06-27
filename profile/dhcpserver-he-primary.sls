@@ -207,9 +207,6 @@ dhcpd:
     sandbox:
       hardware: ethernet 52:54:00:ff:00:03
       fixed-address: sandbox.internal.sifive.com
-    zarss:
-      hardware: ethernet 52:54:00:ff:00:1a
-      fixed-address: zarss.internal.sifive.com
 
     heartofgold-admin:
       hardware: ethernet f4:8e:38:cd:ec:d4
