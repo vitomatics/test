@@ -65,6 +65,7 @@ base:
     - profile.repos-src
     - profile.clusterclient
     - profile.login
+    - profile.desktop
     - profile.slurm-client
     - profile.nomachine-eval
     - profile.sfamtutil
@@ -77,6 +78,7 @@ base:
     - profile.repos-src
     - profile.clusterclient
     - profile.login
+    - profile.desktop
     - profile.slurm-client
     - profile.nomachine-licensed
     - profile.ganglia-node-server
@@ -88,6 +90,7 @@ base:
     - profile.repos-src
     - profile.clusterclient
     - profile.login
+    - profile.desktop
     - profile.slurm-client
     - profile.x2go
     - profile.ganglia-node-server
@@ -99,6 +102,7 @@ base:
     - profile.repos-src
     - profile.clusterclient
     - profile.login
+    - profile.desktop
     - profile.slurm-client
     - profile.nomachine-licensed
     - profile.ganglia-node-server
@@ -290,6 +294,7 @@ base:
     - profile.psacct
     - profile.devel
     - profile.login
+    - profile.desktop
     - profile.nomachine-eval
     - profile.edadirs-smartdv
     - profile.edasync-smartdv-slave
