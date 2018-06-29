@@ -557,6 +557,8 @@ users:
     mail: jonstern@sifive.com
     uid: 1169
     gid: 1169
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDMb/sa0X15iuQWDJ2tMVBIir+jOe6gqccVfnw4pexoBufpVcVKjFJcbnyIaIdSic3I3QMK0VP8sAjhOgZQHH9AsAGjhGgS66BFD4uHitWXJGZ1Ft2SYNbMmWMIZRvQi8Z+2foXXSwJEYVQF3jWK55CH4C2JhADaNgjUtHDJzbsMsSyv4Eybv4EWK5j5Qb5dKieexpZGQCoJPGqueKvmagbHP83ptBzRZAzeHwfb485DS7Hvg/h0Hizwsm+oY6XvSy+O7fcRqyFkox8yT9TvHng4fOvD6F8eH5Js1ZC4TODsjePbenTPMdwW9nLpGoAOECYfe/AKuXkBx23p+Asf/QEA+vIdIHZLBVBWzxagO5xJ2ePGiQbe0OfCVqsusu0f/VNjttVemksLRKrqxmHyezIiAA2U/PQGx9WUCH4Ip9MWUXxVhnrAvzX1kN7i6NNBQuyq53idGmCvSDT0OXQ82irJoYB3VwK6ipv+ind2+Fi4rHr0fLkYN4Z+OHKf8ixszO4oVaOlGMZbWwSKvRnl+Y6ejIDXU5uB/QxIQwBCdy2dXpf1mKf9UwzMfiL/rx3q33GA1+x9POXKcCSWLR1cy4imBnwe+TYOwtoC2jfq0xbXfJUUDgynKZOynxlRxum7sVAnCJ/jQh12SE3EBFVv5TzCGc7vCLaPEVuxV+TT9iIew== jonstern@sifive.com
   ajanse:
     tags: [ cluster ]
     groups: [ compute ]
@@ -571,6 +573,8 @@ users:
     mail: mikemay@sifive.com
     uid: 1171
     gid: 1171
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDel5GwaYM767Hda0HpJNt3EL+5kvGEyj5wd1/2qq1CkmIeASfkPIm9GAgiJLbX/eoHxglqxhiAwFwQiNs5bmwPEoNRsiTkaMVzxWx7FTsTSFBr/R/p+tNQVoqb567KmbReX7aP6FNs/I6bC97CFdFlhPyATZz73iimCz5Ntq2ldQ20U2jmBnLmF6OsLotA3FlVoYPHaslbzXM7WfgISXjf54SSMBFniht1UweGHBSSqs79ImGP+vk8grPYwzax12VraZpUtCjpJR2KWgPwuWGLUJIwCMvxf6a9SyNJpISGLH6KpkVOFppOFHIPkQrAE8BlMZgnizXFoMNOT56UWr/t michaelmay@Michaels-MacBook-Pro.local
   albertc:
     tags: [ cluster ]
     groups: [ compute ]
