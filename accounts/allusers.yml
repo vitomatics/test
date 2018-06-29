@@ -617,6 +617,27 @@ users:
     mail: bodi.debnath@sifive.com
     uid: 1177
     gid: 1177
+  sandeepr:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Sandeep Rajendran"
+    mail: sandeep.rajendran@sifive.com
+    uid: 1178
+    gid: 1178
+  uditk:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Udit Khanna"
+    mail: udit.khanna@sifive.com
+    uid: 1179
+    gid: 1179
+  nathanielg:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Nathaniel Graff"
+    mail: nathaniel.graff@sifive.com
+    uid: 1180
+    gid: 1180
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
