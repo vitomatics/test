@@ -638,7 +638,7 @@
 # 192.168.14.255 RESERVED - do not use
 
 ## 192.168.65.0->192.168.65.255 transit networks
-##   192.168.65.0->192.168.65.3 tran-router11router12-ext-net
+##   192.168.65.0->192.168.65.3 tran-router11-router12-ext-net
 # 192.168.65.0 RESERVED - do not use
 192.168.65.1 router11-ge-0-0-1
 192.168.65.2 router12-ge-0-0-1
