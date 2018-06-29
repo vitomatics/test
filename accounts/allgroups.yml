@@ -43,3 +43,7 @@ groups:
     tags: [ fpgatest ]
     gid: 19003
     addusers: [ aou, davidj, hes ]
+  syslogin-users:
+    tags: [ syslogin ]
+    gid: 19004
+    addusers: [ aou, davidj, mikemay, jonstern, rxia ]

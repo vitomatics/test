@@ -37,7 +37,7 @@ users:
     authorized_keys:
       - ssh-dss AAAAB3NzaC1kc3MAAACBAIT8iVxuBOnXWaum3Bb7zbSTdpDMry3CmTBMtlSEvoj5kN5vPiY4AkKFbbjVQhDC8HzbkXLtihOnhCezww12ndZNUBcBpQzwfhdcGkdZrtuvdZlg1rAr6Sz8PpM1IDrI9cAiwniWo+pQXRsA5hUkAhMcqeBh0cdyD2y71U5u8be9AAAAFQD1RHL0YRZktxsmewlAekfLGc3MnQAAAIAouFeFTLVWnTJ9tkwzeIL+G1j0fXlptsu9gbSK2/tiNX+0Wp9dk0hF1Qs/h/ThQ+1LpUiIgIUV0ReGo8uhNOwmHfvyTYVn6+yOsIQmHo/KA+vb8pKOQxn1YvC/kg0HQvaECsZPUzRqtd3U9all+g5EHxlTpLhCzx0Pq89w1/cuvQAAAIBMs6ZvgGhsY3CxGtrD2prcK0GUKdXybKwSeCS74rOo0zXi00qExXVL9175KzL67GMJiVmE9jQicnP+JcoT/wwrzbwRFdGuyBu052qMu4ZcdwSGAr8D0WD6xmVfq+pPBYEML7uTKw9ZysiwkKhzqX430XDf5Uw0oW2TJXYNzeTNpw== krste@kamac.csail.mit.edu
   rxia:
-    tags: [ cluster ]
+    tags: [ cluster, syslogin ]
     groups: [ compute ]
     fullname: "Richard Xia"
     mail: rxia@sifive.com
@@ -109,7 +109,7 @@ users:
     # authorized_keys:
       # - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCbp8V8OCIveePy30KUMoQWjT9s448xHgyBuUPV8dC70Z8qsQfzSsiain8moNw5LspqwZ1HCYTGJDbeMcnIS3tD4eDZBbGFXOwjT8y4cF55de5wnWQHqRgKZXimFBHnbJrxAGQTEFhS1hN+EplYwrQ3FEZEbada2wnKqDiefJHTYZ7ikDglDzo8JzvTVKRY4bBw4t5zvRG/fXPpLNdFzXCwprCEeRfexBHJEsaOb+4Ud9qKt+gJI71vJWj80QY7lUoUNC+KYjkiYzxylGVxnNEn0Bp1znZ3Ce0w/99Lsl2RZ+4BfdfmydEsjHcRPm3gtySuuiyXC96482gr4h5XwQU5 ali@Alis-MacBook-Pro.local
   davidj:
-    tags: [ cluster, lambda00, fpgatest ]
+    tags: [ cluster, lambda00, fpgatest, syslogin ]
     groups: [ compute ]
     fullname: "David Johnson"
     mail: davidj@sifive.com
@@ -128,7 +128,7 @@ users:
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8PbMeQ6iusMrXzr4xTRLMtK9CXcrv+3X49f+vav9qHKVrdM95Om68P9zlgALe/j3621XjWWjtP8Hy37iuMF1d8YQf1eHZMV63hK5xdZYCCzJaDjtI5plMAISu+2cKAVxn4X+rlJWUhfHh4mkBOFijZyI9lai0M57t8KHydF1VdtEikgfV7QcyzWS5hdR7I2Fart36gDuJM/CgGGVcKik6hT9UGMSsdD2UTybOOPyQfvZz+5Aceux+N+p+My75kEphR5zWjxC3CxZCmloeIH0KZoc4YYFP51Gvyzkyrv1oRGlBPvZbjC+zjJHaIBI3kA0OzZoZIm3gs7zDU0O2eQfd Han Chen@DESKTOP-K3AP0PO
   aou:
-    tags: [ cluster, lambda00, fpgatest ]
+    tags: [ cluster, lambda00, fpgatest, syslogin ]
     groups: [ compute ]
     fullname: "Albert Ou"
     mail: albert@sifive.com
@@ -551,7 +551,7 @@ users:
     uid: 1168
     gid: 1168
   jonstern:
-    tags: [ cluster ]
+    tags: [ cluster, syslogin ]
     groups: [ compute ]
     fullname: "Jonathan Stern"
     mail: jonstern@sifive.com
@@ -565,7 +565,7 @@ users:
     uid: 1170
     gid: 1170
   mikemay:
-    tags: [ cluster ]
+    tags: [ cluster, syslogin ]
     groups: [ compute ]
     fullname: "Michael May"
     mail: mikemay@sifive.com
