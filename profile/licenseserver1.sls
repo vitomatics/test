@@ -130,6 +130,8 @@ flexnet:
           absent: true
         synopsys-20180315:
           absent: true
+        synopsys-20180327:
+          absent: true
         synopsys-20180328:
           absent: true
         synopsys-20180412:
@@ -140,14 +142,12 @@ flexnet:
           absent: true
         synopsys-20180518:
           absent: true
+        synopsys-20180601:
+          absent: true
         microsemi-20180401:
           pillar: site:licenses:snpslmd:microsemi-20180401
-        synopsys-20180327:
-          pillar: site:licenses:snpslmd:synopsys-20180327
         synopsys-20180410:
           pillar: site:licenses:snpslmd:synopsys-20180410
-        synopsys-20180601:
-          pillar: site:licenses:snpslmd:synopsys-20180601
         synopsys-20180604:
           pillar: site:licenses:snpslmd:synopsys-20180604
         synopsys-20180618:
@@ -155,6 +155,8 @@ flexnet:
         synopsys-20180619:
           pillar: site:licenses:snpslmd:synopsys-20180619
         synopsys-20180622:
+          pillar: site:licenses:snpslmd:synopsys-20180622
+        synopsys-20180629:
           pillar: site:licenses:snpslmd:synopsys-20180622
     actlmgrd:
       vendor: microsemi
