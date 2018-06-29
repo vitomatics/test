@@ -361,4 +361,5 @@ base:
     - subnet.he-unix02
     - profile.login
     - profile.ganglia-node-server
+    - accounts.syslogin-accounts
     - hosts.zarss
