@@ -6,5 +6,3 @@
 # states:
 #   firewall.iptables: true
 
-timezone:
-  zone: UTC
