@@ -638,6 +638,20 @@ users:
     mail: nathaniel.graff@sifive.com
     uid: 1180
     gid: 1180
+  johnm:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "John Morris"
+    mail: john.morris@sifive.com
+    uid: 1181
+    gid: 1181
+  sagark:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Sagar Karandikar"
+    mail: sagar.karandikar@sifive.com
+    uid: 1182
+    gid: 1182
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
