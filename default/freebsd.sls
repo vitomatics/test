@@ -18,3 +18,8 @@ pkgs:
         url: 'http://pkg.internal.sifive.com/packages/${ABI}'
         enabled: true
         priority: 100
+
+openntpd:
+  servers:
+    - sf-ntp0.internal.sifive.com
+    - he-ntp0.internal.sifive.com

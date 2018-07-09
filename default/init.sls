@@ -42,10 +42,6 @@ chrony:
     rtcsync: true
   {# Servers for client machines are defined in the static-subnet files #}
 
-openntpd:
-  servers:
-    - sf-ntp0.internal.sifive.com
-    - he-ntp0.internal.sifive.com
 
 ldap:
   uri:
