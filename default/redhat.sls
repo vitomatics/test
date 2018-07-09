@@ -2,3 +2,4 @@
 
 states:
   pkgs.yum: true
+  chrony: true
