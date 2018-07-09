@@ -10,11 +10,11 @@ include:
 states:
   file: true
   hostname: true
+  timezone: true
   sudo: true
   kerberos.client: true
   pam.access: true
 {% if grains.os_family != 'RedHat' %}
-  timezone: true
   pam.sss: true
   pam.pwquality: true
   pam.mkhomedir: true
