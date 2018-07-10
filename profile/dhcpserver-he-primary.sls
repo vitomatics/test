@@ -203,6 +203,21 @@ dhcpd:
       fixed-address: sigma11.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
       filename: "pxe/fbmenu.ipxe"
+    sigma12:
+      hardware: ethernet ec:0d:9a:ed:a7:60
+      fixed-address: sigma12.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
+    sigma13:
+      hardware: ethernet ec:0d:9a:ed:a2:40
+      fixed-address: sigma13.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
+    sigma14:
+      hardware: ethernet ec:0d:9a:f0:c8:70
+      fixed-address: sigma14.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
 
     sandbox:
       hardware: ethernet 52:54:00:ff:00:03
@@ -304,6 +319,15 @@ dhcpd:
     sigma11-admin:
       hardware: ethernet ac:1f:6b:0c:f0:c3
       fixed-address: sigma11-admin.internal.sifive.com
+    sigma12-admin:
+      hardware: ethernet ac:1f:6b:0d:36:f6
+      fixed-address: sigma12-admin.internal.sifive.com
+    sigma13-admin:
+      hardware: ethernet ac:1f:6b:0d:36:b6
+      fixed-address: sigma13-admin.internal.sifive.com
+    sigma14-admin:
+      hardware: ethernet ac:1f:6b:0d:8d:c5
+      fixed-address: sigma14-admin.internal.sifive.com
 
 
 {% block hosts_extra %}
