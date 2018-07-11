@@ -6,6 +6,24 @@ states:
   firewall.iptables: true
   sftesthost: true
 
+## Some test disksetup stuff
+disksetup:
+  vgs:
+    gravelpit00:
+      disks:
+        - /dev/vdb
+  lvs:
+    srv:
+      size: 9G
+      vg: gravelpit00
+
+  mounts:
+    /srv:
+      fstype: ext4
+      opts: noatime
+      lv: gravelpit00/srv
+
+
 
 ## Example board definition for sftesthost
 sftesthost:
