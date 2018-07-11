@@ -47,8 +47,7 @@ chrony:
       - 3.freebsd.pool.ntp.org
     log: tracking measurements statistics
     logchange: '0.5'
-
-  {# Servers for client machines are defined in the static-subnet files #}
+    {# Servers for client machines are defined in the static-subnet files #}
 
 
 ldap:
