@@ -44,7 +44,7 @@ slurm:
       CPUs: '48'
       RealMemory: '188000'
       Feature: sigma
-    'sigma[10-11]':
+    'sigma[10-14]':
       CPUs: '48'
       RealMemory: '376000'
       Feature: sigma
@@ -68,9 +68,11 @@ slurm:
       MaxTime: '4:00:00'
       AllowQos: interactive,m2m,nightly,pr,weekly,tapeout
       nodes:
-        - 'gamma14'
+        - 'sandbox'
     test:
       nodes:
-        - sandbox
-        - 'gamma[00-07]'
+        - 'sandbox'
+    mikeyang:
+      nodes:
+        - 'sigma[12-14]'
 
