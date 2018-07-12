@@ -38,6 +38,10 @@ disksetup:
       target: /srv/mysql
       force: true
 
+mysql:
+  server:
+    mysqld:
+      tmpdir: /srv/tmp
 
 
 ## Example board definition for sftesthost
