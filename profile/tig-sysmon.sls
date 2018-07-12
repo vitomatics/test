@@ -21,7 +21,7 @@ telegraf:
           urls:
             - '10.200.200.38'
             - '8.8.8.8'
-          interval: '60s'
+          interval: '60'
           count: '5'
           ping_interval: '1.0'
           timeout: '2.0'
