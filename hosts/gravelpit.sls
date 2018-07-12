@@ -29,6 +29,10 @@ disksetup:
   dirs:
     /srv/mysql:
 
+  links:
+    /var/lib/mysql:
+      target: /srv/mysql
+      force: true
 
 
 
