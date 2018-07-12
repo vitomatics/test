@@ -17,7 +17,10 @@ disksetup:
         - /dev/vdb
   lvs:
     srv:
-      size: 9G
+      size: 5G
+      vg: gravelpit00
+    scratch:
+      size: 4G
       vg: gravelpit00
 
   mounts:
@@ -25,10 +28,14 @@ disksetup:
       fstype: ext4
       opts: noatime
       lv: gravelpit00/srv
+    /scratch:
+      fstype: ext4
+      opts: noatime
+      lv: gravelpit00/scratch
 
   dirs:
     /srv/mysql:
-    /srv/tmp:
+    /scratch/tmp:
       mode: 0777
       user: root
       group: root
@@ -41,7 +48,7 @@ disksetup:
 mysql:
   server:
     mysqld:
-      tmpdir: /srv/tmp
+      tmpdir: /scratch/tmp
 
 
 ## Example board definition for sftesthost
