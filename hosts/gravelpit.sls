@@ -9,7 +9,7 @@ states:
   sftesthost: true
 
 ## Some test disksetup stuff
-{#
+
 disksetup:
   vgs:
     gravelpit00:
@@ -28,8 +28,8 @@ disksetup:
 
   dirs:
     /srv/mysql:
-      group: {{ allgroups.groups.compute.gid }}
-#}
+
+
 
 
 ## Example board definition for sftesthost
