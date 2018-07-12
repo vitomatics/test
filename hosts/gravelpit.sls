@@ -36,7 +36,7 @@ disksetup:
   dirs:
     /srv/mysql:
     /scratch:
-      mode: 077
+      mode: 0777
       user: root
       group: root
     /scratch/mysql/tmp:
