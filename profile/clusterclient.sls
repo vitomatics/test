@@ -2,6 +2,7 @@
 # engineeers to do real work but without direct NX-based login.
 # The associated packages are in profile "devel".
 
+{% import_yaml "accounts/allgroups.yml" as allgroups %}
 
 states:
   autofs: true
@@ -44,7 +45,7 @@ file:
   mkdir:
     /scratch:
       user: root
-      group: compute
+      group: {{ allgroups.groups.compute.gid }}
       mode: 1770
 
 sshd:

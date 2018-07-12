@@ -17,6 +17,13 @@ users:
     home: /sifive/tools
     shell: /bin/bash
     # Do not set up authorized_keys here - set by sfpushdirs state
+  jenkins:
+    tags: [ cluster ]
+    fullname: "Jenkins"
+    uid: 9999
+    gid: 9997
+    home: /var/lib/jenkins
+    shell: /bin/sh
   terpstra:
     tags: [ cluster ]
     groups: [ compute ]
