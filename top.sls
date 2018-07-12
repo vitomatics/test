@@ -226,6 +226,7 @@ base:
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
+    - profile.clusterclient
     - hosts.gravelpit
 
   'hal.internal.sifive.com':

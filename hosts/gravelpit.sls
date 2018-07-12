@@ -1,5 +1,7 @@
 ## pillar file for gravelpit
 
+{% import_yaml "accounts/allgroups.yml" as allgroups %}
+
 # network - dhcp
 
 states:
@@ -22,6 +24,10 @@ disksetup:
       fstype: ext4
       opts: noatime
       lv: gravelpit00/srv
+
+  dirs:
+    /srv/mysql:
+      group: {{ allgroups.groups.compute.gid }}
 
 
 
