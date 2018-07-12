@@ -209,6 +209,7 @@ base:
     - profile.clusterclient
     - profile.slurm-client
     - profile.slurm-node
+    - profile.jenkins-slave
     - hosts.sandbox
 
   'delta*.internal.sifive.com':
