@@ -35,10 +35,11 @@ disksetup:
 
   dirs:
     /srv/mysql:
-    /scratch/tmp:
+    /scratch/mysql/tmp:
       mode: 0777
       user: root
       group: root
+      makedirs: true
 
   links:
     /var/lib/mysql:
@@ -48,7 +49,7 @@ disksetup:
 mysql:
   server:
     mysqld:
-      tmpdir: /scratch/tmp
+      tmpdir: /scratch/mysql/tmp
 
 
 ## Example board definition for sftesthost
