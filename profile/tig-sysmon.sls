@@ -17,13 +17,14 @@ telegraf:
     enabled: true
     input:
       ping:
-        urls:
-          - '10.200.200.38'
-          - '8.8.8.8'
-        interval: '60s'
-        count: '5'
-        ping_interval: '1.0'
-        timeout: '2.0'
+        pings:
+          urls:
+            - '10.200.200.38'
+            - '8.8.8.8'
+          interval: '60s'
+          count: '5'
+          ping_interval: '1.0'
+          timeout: '2.0'
       snmp:
         routers:
           interval: 120
