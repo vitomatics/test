@@ -19,7 +19,7 @@ telegraf:
       ping:
         pings:
           urls:
-            - '10.200.200.38'
+            - '10.100.200.38'
             - '8.8.8.8'
           interval: '60'
           count: '5'
