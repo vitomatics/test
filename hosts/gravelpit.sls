@@ -28,6 +28,10 @@ disksetup:
 
   dirs:
     /srv/mysql:
+    /srv/tmp:
+      mode: 0777
+      user: root
+      group: root
 
   links:
     /var/lib/mysql:
