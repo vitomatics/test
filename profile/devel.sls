@@ -153,6 +153,7 @@ pkgs:
     perl-doc: true
     pdfgrep: true
     help2man: true
+    indent: true
     
     ## gtkwave, both src and pkg
     gtkwave: true

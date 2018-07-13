@@ -10,11 +10,11 @@ include:
 states:
   file: true
   hostname: true
+  timezone: true
   sudo: true
   kerberos.client: true
   pam.access: true
 {% if grains.os_family != 'RedHat' %}
-  timezone: true
   pam.sss: true
   pam.pwquality: true
   pam.mkhomedir: true
@@ -40,12 +40,15 @@ timezone:
 chrony:
   lookup:
     rtcsync: true
-  {# Servers for client machines are defined in the static-subnet files #}
+    default_server:
+      - 0.debian.pool.ntp.org
+      - 1.centos.pool.ntp.org
+      - 2.ubuntu.pool.ntp.org
+      - 3.freebsd.pool.ntp.org
+    log: tracking measurements statistics
+    logchange: '0.5'
+    {# Servers for client machines are defined in the static-subnet files #}
 
-openntpd:
-  servers:
-    - sf-ntp0.internal.sifive.com
-    - he-ntp0.internal.sifive.com
 
 ldap:
   uri:

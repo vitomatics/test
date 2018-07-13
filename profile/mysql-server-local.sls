@@ -37,13 +37,6 @@ mysql:
     client: mariadb-client
       
 
-file:
-  mkdir:
-    /srv/mysql:
-      user: mysql
-      group: mysql
-      mode: '0755'
-
 firewall:
   ports:
     tcp:

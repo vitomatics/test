@@ -209,6 +209,7 @@ base:
     - profile.clusterclient
     - profile.slurm-client
     - profile.slurm-node
+    - profile.jenkins-slave
     - hosts.sandbox
 
   'delta*.internal.sifive.com':
@@ -226,6 +227,8 @@ base:
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
+    - profile.clusterclient
+    - profile.mysql-server-local
     - hosts.gravelpit
 
   'hal.internal.sifive.com':

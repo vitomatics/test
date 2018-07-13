@@ -16,6 +16,15 @@ telegraf:
   agent:
     enabled: true
     input:
+      ping:
+        pings:
+          urls:
+            - '10.100.200.38'
+            - '8.8.8.8'
+          interval: '60'
+          count: '5'
+          ping_interval: '1.0'
+          timeout: '2.0'
       snmp:
         routers:
           interval: 120

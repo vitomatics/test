@@ -2,6 +2,7 @@
 # engineeers to do real work but without direct NX-based login.
 # The associated packages are in profile "devel".
 
+{% import_yaml "accounts/allgroups.yml" as allgroups %}
 
 states:
   autofs: true
@@ -44,7 +45,7 @@ file:
   mkdir:
     /scratch:
       user: root
-      group: compute
+      group: {{ allgroups.groups.compute.gid }}
       mode: 1770
 
 sshd:
@@ -91,6 +92,11 @@ sudo:
         - sigma07.internal.sifive.com
         - sigma08.internal.sifive.com
         - sigma09.internal.sifive.com
+        - sigma10.internal.sifive.com
+        - sigma11.internal.sifive.com
+        - sigma12.internal.sifive.com
+        - sigma13.internal.sifive.com
+        - sigma14.internal.sifive.com
         - delta00.internal.sifive.com
         - delta01.internal.sifive.com
         - delta02.internal.sifive.com

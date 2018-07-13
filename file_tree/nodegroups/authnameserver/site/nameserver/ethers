@@ -163,6 +163,13 @@ sigma10-admin		ac:1f:6b:0c:f0:c1
 sigma10-pci0		ec:0d:9a:f0:c8:90
 sigma11-admin		ac:1f:6b:0c:f0:c3
 sigma11-pci0		ec:0d:9a:ef:11:30
+sigma12-admin		ac:1f:6b:0d:36:f6
+sigma12-pci0		ec:0d:9a:ed:a7:60
+sigma13-admin		ac:1f:6b:0d:36:b6
+sigma13-pci0		ec:0d:9a:ed:a2:40
+sigma14-admin		ac:1f:6b:0d:8d:c5
+sigma14-pci0		ec:0d:9a:f0:c8:70
+
 
 
 

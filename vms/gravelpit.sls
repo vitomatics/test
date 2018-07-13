@@ -17,6 +17,10 @@ sfvirt:
           vdtype: lvm
           size: 20G
           vg: vg_system
+        data:
+          vdtype: lvm
+          size: 10G
+          vg: vg_system
       preseed: gravelpit
       dist: xenial-default
 
