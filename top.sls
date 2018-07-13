@@ -221,6 +221,7 @@ base:
     - profile.sfamtutil
     - profile.fpgahost
     - profile.managed-nuc
+    - profile.ganglia-node-server
     - hosts.delta
 
   'gravelpit.internal.sifive.com':
