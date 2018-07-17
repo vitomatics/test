@@ -6,6 +6,7 @@ include:
   - profile.telegraf-host
 
 {% set grafana_port = 3000 %}
+{% set web_port = 80 %}
 {% set sysmon_dir = '/srv/monhost' %}
 
 
@@ -163,7 +164,7 @@ nginx:
         name: sysmon
         host:
           name: sysmon.internal.sifive.com
-          port: 80
+          port: {{ web_port }}
         proxy:
           host: 127.0.0.1
           port: {{ grafana_port }}
@@ -173,6 +174,6 @@ nginx:
 firewall:
   ports:
     tcp:
-      80: 10.14.0.0/16 10.17.0.0/16
-      {{ influxdb_port }}: 10.14.0.0/16
+      {{ web_port }}: 10.14.0.0/16 10.17.0.0/16
+      {{ site.influxdb.port }}: 10.14.0.0/16
 
