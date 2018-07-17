@@ -1,6 +1,7 @@
 ## Profile for a telegraf/influxdb/grafana server to monitor the system
 
 {% set influxdb_port = 8086 %}
+{% set influxdb_server = 'influxdb1.internal.sifive.com' %}
 {% set grafana_port = 3000 %}
 {% set sysmon_dir = '/srv/monhost' %}
 
@@ -116,7 +117,7 @@ telegraf:
       influxdb:
         db1:
           urls:
-            - http://127.0.0.1:{{ influxdb_port }}
+            - http://{{influxdb_server}}:{{ influxdb_port }}
           database: "network"
           timeout: 10s
 
