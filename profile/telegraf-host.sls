@@ -15,6 +15,17 @@ telegraf:
           percpu: false
           totalcpu: true
           report_active: true
+      disk:
+        alldisks:
+          ignore_fs:
+            - cgroup
+            - fusectl
+            - sysfs
+            - proc
+            - devpts
+            - devtmpfs
+            - securityfs
+            - pstore
     output:
       influxdb:
         db1:
