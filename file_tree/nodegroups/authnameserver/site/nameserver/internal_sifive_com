@@ -95,6 +95,7 @@ license1		IN	CNAME	jabba
 wall-e			IN	A	10.14.16.46
 skynet			IN	A	10.14.16.47
 sysmon			IN	CNAME	skynet
+influxdb1		IN	CNAME	skynet
 heartofgold		IN	A	10.14.16.48
 hog			IN	CNAME	heartofgold
 tardis			IN	A	10.14.16.49
