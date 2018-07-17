@@ -10,7 +10,7 @@ telegraf:
     enabled: true
     input:
       cpu:
-        allcpus:
+        totcpu:
           interval: 60
           percpu: false
           totalcpu: true
