@@ -1,5 +1,8 @@
 ## Profile for a telegraf/influxdb/grafana server to monitor the system
 
+include:
+  - profile.telegraf-host
+
 {% set influxdb_port = 8086 %}
 {% set influxdb_server = 'influxdb1.internal.sifive.com' %}
 {% set grafana_port = 3000 %}
