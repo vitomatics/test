@@ -3,8 +3,6 @@
 include:
   - profile.telegraf-host
 
-{% set influxdb_port = 8086 %}
-{% set influxdb_server = 'influxdb1.internal.sifive.com' %}
 {% set grafana_port = 3000 %}
 {% set sysmon_dir = '/srv/monhost' %}
 
@@ -116,13 +114,6 @@ telegraf:
                 - name: "outletName"
                   oid: "EATON-EPDU-MIB::outletName"
                   is_tag: true
-    output:
-      influxdb:
-        db1:
-          urls:
-            - http://{{influxdb_server}}:{{ influxdb_port }}
-          database: "network"
-          timeout: 10s
 
 influxdb:
   server:
