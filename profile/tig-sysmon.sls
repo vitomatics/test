@@ -137,10 +137,10 @@ influxdb:
         enabled: true
         name: network
         retention_policy:
-        - name: netdata
-          duration: 90d
-          replication: 1
-          is_default: true
+          - name: netdata
+            duration: 90d
+            replication: 1
+            is_default: true
 
 
 grafana:
