@@ -126,7 +126,6 @@ influxdb:
     http:
       enabled: true
       bind:
-        address: 127.0.0.1
         port: {{ influxdb_port }}
     data:
       dir: '{{sysmon_dir}}/influxdb/data'
@@ -178,4 +177,5 @@ firewall:
   ports:
     tcp:
       80: 10.14.0.0/16 10.17.0.0/16
+      {{ influxdb_port }}: 10.14.0.0/16
 
