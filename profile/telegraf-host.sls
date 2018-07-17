@@ -13,8 +13,10 @@ telegraf:
     input:
       cpu:
         allcpus:
+          interval: 60
           percpu: false
           totalcpu: true
+          report_active: true
     output:
       influxdb:
         db1:
