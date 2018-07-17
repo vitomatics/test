@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018062801 ; serial number
+	2018071601 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -419,6 +419,8 @@ lambda00		IN	A	10.134.16.33
 
 mw03ut01		IN	A	10.134.192.6
 mw03-login		IN	CNAME	mw03ut01
+mi01ut01		IN	A	10.134.194.6
+mi01-login		IN	CNAME	mi01ut01
 
 
 ; _kerberos._udp		IN	SRV	10 0 88 metrocop

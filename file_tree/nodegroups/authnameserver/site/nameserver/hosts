@@ -7,6 +7,12 @@
 
 ## 10.1.10.0->10.1.10.255 default-comcast-net
 
+########## vv WARNING - BEHIND NAT AND NOT IN MAIN SIFIVE SPACE vv ###########
+## 10.12.2.0 -> 10.12.3.255 cad2-azure-net
+## 10.12.2.6 mi01ut01-azure
+########## ^^ WARNING - BEHIND NAT AND NOT IN MAIN SIFIVE SPACE ^^ ###########
+
+
 ## 10.14.0.0-> 10.14.15.255 sf-unix-net
 # 10.14.0.0 RESERVED - do not use
 10.14.0.1 router03-ge0-0-1 sf-unix-net-gw router03
@@ -495,9 +501,15 @@
 # 10.134.16.255 RESERVED - do not use
 
 ## 10.134.192.0->10.134.193.255 cad1-iso-net
-# Cadence chamber on Azure, mapped into SiFive IP space
+# Cadence mw03 chamber on Azure, mapped into SiFive IP space
 ...
 10.134.192.6 mw03ut01 mw03-login
+...
+
+## 10.134.194.0->10.134.195.255 cad2-iso-net
+# Cadence mi01 chamber on Azure, mapped into SiFive IP space
+...
+10.134.194.6 mi01ut01 mi01-login
 ...
 
 ## 12.206.222.0->12.206.222.7 att-sifive0-net
@@ -560,6 +572,11 @@
 96.76.210.214 sf2-comcast-net-gw
 # 96.76.210.215 RESERVED - do not use
 
+## Cadence mw03 chamber VPN endpoint
+104.42.251.220 cad1-mw03-vpn
+
+## Cadence mi01 chamber VPN endpoint
+104.211.200.48 cad2-mi01-vpn
 
 ## 169.254.0.0->169.254.255.255 
 ## used by NetApp internal networks
