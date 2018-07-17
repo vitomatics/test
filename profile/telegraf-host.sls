@@ -1,8 +1,6 @@
 ## The basic telegraf setup for host monitoring.
 
-{% set influxdb_port = 8086 %}
-{% set influxdb_server = 'influxdb1.internal.sifive.com' %}
-
+{% import_yaml "site/sifive1.yml" as site %}
 
 states:
   telegraf: true
@@ -21,6 +19,6 @@ telegraf:
       influxdb:
         db1:
           urls:
-            - http://{{influxdb_server}}:{{ influxdb_port }}
+            - http://{{site.influxdb.server}}:{{ site.influxdb.port }}
           database: "network"
-          timeout: 10s
+          timeout: {{site.influxdb.timeout}}

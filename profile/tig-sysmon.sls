@@ -1,5 +1,7 @@
 ## Profile for a telegraf/influxdb/grafana server to monitor the system
 
+{% import_yaml "site/sifive1.yml" as site %}
+
 include:
   - profile.telegraf-host
 
@@ -121,7 +123,7 @@ influxdb:
     http:
       enabled: true
       bind:
-        port: {{ influxdb_port }}
+        port: {{ site.influxdb.port }}
     data:
       dir: '{{sysmon_dir}}/influxdb/data'
     meta:

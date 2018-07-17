@@ -1,0 +1,6 @@
+## Constants for the main SiFive datacenter setup
+
+influxdb:
+  port: 8086
+  server: influxdb1.internal.sifive.com
+  timeout: '10s'
