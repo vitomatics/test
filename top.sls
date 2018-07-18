@@ -8,7 +8,7 @@ base:
     - profile.timeserver
     - profile.dhcpserver-he-primary
     - profile.ganglia-node-server
-    - profile.telegraf-server-host
+    - profile.telegraf-host-server
     - hosts.leia
 
   'luke.internal.sifive.com':
@@ -17,7 +17,7 @@ base:
     - profile.timeserver
     - profile.dhcpserver-he-secondary
     - profile.ganglia-node-server
-    - profile.telegraf-host
+    - profile.telegraf-host-server
     - hosts.luke
 
   'hansolo.internal.sifive.com':

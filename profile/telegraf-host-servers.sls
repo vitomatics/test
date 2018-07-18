@@ -3,7 +3,7 @@
 {% import_yaml "site/sifive1.yml" as site %}
 
 include:
-  - pfile.telegraf-host-base
+  - profile.telegraf-host-base
   - secret.telegraf-influxdb1
 
 {% set default_interval = 60 %}
