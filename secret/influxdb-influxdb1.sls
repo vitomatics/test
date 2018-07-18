@@ -5,6 +5,10 @@
 
 influxdb:
   server:
+    admin:
+      user:
+        name: admin
+        password: admin
     user:
       network1:
         enabled: true
@@ -16,11 +20,6 @@ influxdb:
         admin: false
         name: grafana1
         password: asdf1234
-      admin:
-        enabled: true
-        admin: true
-        name: admin
-        password: admin
 
 
 
