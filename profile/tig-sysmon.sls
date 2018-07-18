@@ -4,7 +4,7 @@
 
 include:
   - profile.telegraf-host
-  - secret.infludb-influxdb1
+  - secret.influxdb-influxdb1
 
 {% set grafana_port = 3000 %}
 {% set web_port = 80 %}
