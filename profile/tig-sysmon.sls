@@ -4,6 +4,7 @@
 
 include:
   - profile.telegraf-host
+  - secret.infludb-influxdb1
 
 {% set grafana_port = 3000 %}
 {% set web_port = 80 %}
@@ -122,6 +123,7 @@ influxdb:
   server:
     enabled: true
     http:
+      auth-enabled: true
       enabled: true
       bind:
         port: {{ site.influxdb.port }}
