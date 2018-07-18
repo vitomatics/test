@@ -7,6 +7,7 @@ influxdb:
   server:
     admin:
       user:
+        enabled: true
         name: admin
         password: admin
     user:
