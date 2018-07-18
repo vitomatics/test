@@ -36,6 +36,9 @@ telegraf:
             - nfs
             - nfs4
             - zfs
+      diskio:
+        localhost:
+          interval: {{ default_interval }}
       system:
         localhost:
           interval: {{ default_interval }}
