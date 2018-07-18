@@ -51,3 +51,8 @@ telegraf:
       mem:
         localhost:
           interval: {{ default_interval }}
+      net:
+        localhost:
+          interval: {{ default_interval }}
+          ignore_protocol_stats: true
+          
