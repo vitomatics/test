@@ -3,7 +3,7 @@
 {% import_yaml "site/sifive1.yml" as site %}
 
 include:
-  - profile.telegraf-host-base
+  - profile.telegraf-host-server
   - secret.influxdb-influxdb1
 
 {% set grafana_port = 3000 %}
