@@ -392,7 +392,6 @@ base:
     - subnet.he-unix01
     - profile.snmp-client
     - profile.ganglia-node-server
-    - profile.telegraf-host-server
     - profile.tig-sysmon
     - hosts.skynet
 
