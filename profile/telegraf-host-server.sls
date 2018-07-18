@@ -53,10 +53,7 @@ telegraf:
       mem:
         localhost:
           interval: {{ default_interval }}
-    output:
-      influxdb:
-        db1:
-          urls:
-            - http://{{site.influxdb.server}}:{{ site.influxdb.port }}
-          database: "network"
-          timeout: {{site.influxdb.timeout}}
+      net:
+        localhost:
+          interval: {{ default_interval }}
+          ignore_protocol_stats: true
