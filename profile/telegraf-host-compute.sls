@@ -35,6 +35,7 @@ telegraf:
             - tmpfs
             - nfs
             - nfs4
+            - zfs
       system:
         localhost:
           interval: {{ default_interval }}
