@@ -26,6 +26,14 @@ telegraf:
             - devtmpfs
             - securityfs
             - pstore
+      system:
+        localhost:
+      processes:
+        localhost:
+      swap:
+        localhost:
+      mem:
+        localhost:
     output:
       influxdb:
         db1:
