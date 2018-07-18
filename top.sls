@@ -391,9 +391,9 @@ base:
   'skynet.internal.sifive.com':
     - subnet.he-unix01
     - profile.snmp-client
-    - profile.tig-sysmon
     - profile.ganglia-node-server
     - profile.telegraf-host-server
+    - profile.tig-sysmon
     - hosts.skynet
 
   'zarss.internal.sifive.com':
