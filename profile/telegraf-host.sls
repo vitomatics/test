@@ -2,6 +2,9 @@
 
 {% import_yaml "site/sifive1.yml" as site %}
 
+include:
+  - secret.telegraf-influxdb1
+
 states:
   telegraf: true
 
