@@ -229,6 +229,7 @@ base:
     - subnet.sf-dhcp
     - profile.clusterclient
     - profile.mysql-server-local
+    - profile.telegraf-host
     - hosts.gravelpit
 
   'hal.internal.sifive.com':
