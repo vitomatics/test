@@ -8,6 +8,7 @@ base:
     - profile.timeserver
     - profile.dhcpserver-he-primary
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.leia
 
   'luke.internal.sifive.com':
@@ -16,6 +17,7 @@ base:
     - profile.timeserver
     - profile.dhcpserver-he-secondary
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.luke
 
   'hansolo.internal.sifive.com':
@@ -24,6 +26,7 @@ base:
     - profile.timeserver
     - profile.dhcpserver-sf
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - profile.sfamtutil
     - profile.pinglog-sm
     - profile.snmp-client
@@ -40,12 +43,14 @@ base:
     - profile.preseed-ubuntu
     - profile.backupclient
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.dalek
 
   'vulcan.internal.sifive.com':
     - subnet.he-unix01
     - profile.backupclient
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - profile.webserver.system_auth
     - profile.site-jenkins
     - profile.jenkins-server
@@ -57,6 +62,7 @@ base:
     - profile.webserver
     - profile.site-coverage
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.klingon
 
   'algol.internal.sifive.com':
@@ -70,6 +76,7 @@ base:
     - profile.nomachine-eval
     - profile.sfamtutil
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.algol
 
   'altair.internal.sifive.com':
@@ -82,6 +89,7 @@ base:
     - profile.slurm-client
     - profile.nomachine-licensed
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.altair
 
   'betel.internal.sifive.com':
@@ -94,6 +102,7 @@ base:
     - profile.slurm-client
     - profile.x2go
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.betel
 
   'frogstar.internal.sifive.com':
@@ -106,6 +115,7 @@ base:
     - profile.slurm-client
     - profile.nomachine-licensed
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.frogstar
 
   'eddie.internal.sifive.com':
@@ -113,6 +123,7 @@ base:
     - profile.vmhost
     - vms
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.eddie
 
   'marvin.internal.sifive.com':
@@ -120,6 +131,7 @@ base:
     - profile.vmhost
     - vms
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.marvin
 
   'colin.internal.sifive.com':
@@ -127,6 +139,7 @@ base:
     - profile.vmhost
     - vms
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.colin
 
   'chappie.internal.sifive.com':
@@ -134,6 +147,7 @@ base:
     - profile.vmhost
     - vms
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.chappie
 
   'bender.internal.sifive.com':
@@ -141,6 +155,7 @@ base:
     - profile.vmhost
     - vms
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.bender
 
   'omega1.internal.sifive.com':
@@ -148,6 +163,7 @@ base:
     - secret.sfdump-omega1
     - profile.backupserver
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.omega1
 
   'heartofgold.internal.sifive.com':
@@ -155,6 +171,7 @@ base:
     - secret.sfdump-heartofgold
     - profile.backupserver
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.heartofgold
 
   'gamma*.internal.sifive.com':
@@ -166,6 +183,7 @@ base:
     - profile.slurm-node
     - profile.jenkins-slave
     - profile.ganglia-node-compute
+    - profile.telegraf-host
     - hosts.gamma
 
   'sigma*.internal.sifive.com':
@@ -177,6 +195,7 @@ base:
     - profile.slurm-node
     - profile.jenkins-slave
     - profile.ganglia-node-compute
+    - profile.telegraf-host
     - hosts.sigma
 
 {#
@@ -192,6 +211,7 @@ base:
     - profile.labhost
     - profile.jenkins-slave
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.alpha
 
   'b0.internal.sifive.com':
@@ -201,6 +221,7 @@ base:
     - profile.labhost
     - profile.jenkins-slave
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.b0
 
   'sandbox.internal.sifive.com':
@@ -223,6 +244,7 @@ base:
     - profile.fpgahost
     - profile.managed-nuc
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.delta
 
   'gravelpit.internal.sifive.com':
@@ -239,6 +261,7 @@ base:
     - profile.awsmaster
     - profile.tfmaster
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.hal
 
   'viki.internal.sifive.com':
@@ -246,6 +269,7 @@ base:
     - profile.saltmaster
     - profile.awsmaster
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.viki
 
   'tardis.internal.sifive.com':
@@ -253,6 +277,7 @@ base:
     - profile.devel
     - profile.clustermaster
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - profile.edasync-smartdv-master
     - hosts.tardis
 
@@ -262,6 +287,7 @@ base:
     - profile.webserver.php
     - profile.site-gweb
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - profile.mysql-server-local
     - profile.slurm-db
     - profile.slurm-server
@@ -275,12 +301,14 @@ base:
     - profile.webserver.php
     - profile.site-gweb
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.matrix
 
   'transporter.internal.sifive.com':
     - subnet.he-unix01
     - profile.mailserver
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.transporter
 
   'yoda.internal.sifive.com':
@@ -291,6 +319,8 @@ base:
     - profile.backupclient
     - profile.pinglog-he
     - profile.snmp-client
+    - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.yoda
 
   'lambda00.internal.sifive.com':
@@ -321,6 +351,7 @@ base:
     - profile.ldapmaster2
     - profile.sfaccount-scripts
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - profile.backupclient
     - hosts.vader
 
@@ -352,6 +383,7 @@ base:
   'wall-e.internal.sifive.com':
     - subnet.he-unix01
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - profile.rsyslog-server
     - profile.backupclient
     - hosts.wall-e
@@ -360,11 +392,14 @@ base:
     - subnet.he-unix01
     - profile.snmp-client
     - profile.tig-sysmon
+    - profile.ganglia-node-server
+    - profile.telegraf-host
     - hosts.skynet
 
   'zarss.internal.sifive.com':
     - subnet.he-unix02
     - profile.login
     - profile.ganglia-node-server
+    - profile.telegraf-host
     - accounts.syslogin-accounts
     - hosts.zarss
