@@ -21,6 +21,17 @@ influxdb:
         admin: false
         name: grafana1
         password: asdf1234
+    grant:
+      network1_grant:
+        enabled: true
+        user: network1
+        privilege: write
+        database: network
+      grafana1_grant:
+        enabled: true
+        user: grafana1
+        privilege: all
+        database: network
 
 
 

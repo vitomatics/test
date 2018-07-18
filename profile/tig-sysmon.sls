@@ -140,6 +140,32 @@ influxdb:
             duration: 365d
             replication: 1
             is_default: true
+    # passwords for this next section are in secret/influxdb-influxdb1.sls
+    admin:
+      user:
+        enabled: true
+        name: admin
+        password: admin
+    user:
+      network1:
+        enabled: true
+        admin: false
+        name: network1
+      grafana1:
+        enabled: true
+        admin: false
+        name: grafana1
+    grant:
+      network1_grant:
+        enabled: true
+        user: network1
+        privilege: write
+        database: network
+      grafana1_grant:
+        enabled: true
+        user: grafana1
+        privilege: all
+        database: network
 
 
 grafana:
