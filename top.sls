@@ -7,6 +7,7 @@ base:
     - profile.nameserver-semicaching
     - profile.timeserver
     - profile.dhcpserver-he-primary
+    - profile.telegraf-ping-he-rack1
     - profile.ganglia-node-server
     - profile.telegraf-host-server
     - hosts.leia
