@@ -36,6 +36,10 @@ telegraf:
             - nfs
             - nfs4
             - zfs
+        tmp:
+          interval: {{ default_interval }}
+          mount_points:
+            - /tmp
       diskio:
         localhost:
           interval: {{ default_interval }}
