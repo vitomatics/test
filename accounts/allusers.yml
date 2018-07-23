@@ -659,6 +659,13 @@ users:
     mail: sagar.karandikar@sifive.com
     uid: 1182
     gid: 1182
+  junel:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "June Liu"
+    mail: june.liu
+    uid: 1183
+    gid: 1183
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
