@@ -28,6 +28,7 @@ base:
     - profile.dhcpserver-sf
     - profile.ganglia-node-server
     - profile.telegraf-host-server
+    - profile.telegraf-ping-sm
     - profile.sfamtutil
     - profile.pinglog-sm
     - profile.snmp-client
