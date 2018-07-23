@@ -8,20 +8,29 @@ include:
 {% set ping_interval = '1.0' %}
 {% set ping_timeout = '2.0' %}
 {% set ping_count = '5' %}
-{% set location = 'he-rack1' %}
+{% set location = 'sm-1875' %}
 
 telegraf:
   agent:
     input:
       ping:
-        iswitch25-left-trunk:
-          urls: [ '10.100.200.38' ]
+        sm-border-router03:
+          urls: [ '12.246.184.250' ]
           interval: {{ default_interval }}
           count: '{{ ping_count }}'
           ping_interval: '{{ ping_interval }}'
           timeout: '{{ ping_timeout }}'
           tags:
-            target: iswitch25-left-trunk
+            target: sm-border-router03
+            location: {{ location }}
+        sm-border-attgw:
+          urls: [ '12.246.184.249' ]
+          interval: {{ default_interval }}
+          count: '{{ ping_count }}'
+          ping_interval: '{{ ping_interval }}'
+          timeout: '{{ ping_timeout }}'
+          tags:
+            target: sm-border-attgw
             location: {{ location }}
         he-border-router11:
           urls: [ '216.218.158.86' ]
@@ -31,24 +40,6 @@ telegraf:
           timeout: '{{ ping_timeout }}'
           tags:
             target: he-border-router11
-            location: {{ location }}
-        he-border-hegw:
-          urls: [ '216.218.158.85' ]
-          interval: {{ default_interval }}
-          count: '{{ ping_count }}'
-          ping_interval: '{{ ping_interval }}'
-          timeout: '{{ ping_timeout }}'
-          tags:
-            target: he-border-hegw
-            location: {{ location }}
-        sm-border-router03:
-          urls: [ '12.246.184.250' ]
-          interval: {{ default_interval }}
-          count: '{{ ping_count }}'
-          ping_interval: '{{ ping_interval }}'
-          timeout: '{{ ping_timeout }}'
-          tags:
-            target: sm-border-router03
             location: {{ location }}
         sm-vpn-endpoint:
           urls: [ '10.100.100.5' ]
@@ -67,24 +58,6 @@ telegraf:
           timeout: '{{ ping_timeout }}'
           tags:
             target: he-vpn-endpoint
-            location: {{ location }}
-        azure-cadence-mw03:
-          urls: [ 'mw03-login' ]
-          interval: {{ default_interval }}
-          count: '{{ ping_count }}'
-          ping_interval: '{{ ping_interval }}'
-          timeout: '{{ ping_timeout }}'
-          tags:
-            target: azure-cadence-mw03
-            location: {{ location }}
-        azure-cadence-mi01:
-          urls: [ 'mi01-login' ]
-          interval: {{ default_interval }}
-          count: '{{ ping_count }}'
-          ping_interval: '{{ ping_interval }}'
-          timeout: '{{ ping_timeout }}'
-          tags:
-            target: azure-cadence-mi01
             location: {{ location }}
         google:
           urls: [ '8.8.8.8' ]
