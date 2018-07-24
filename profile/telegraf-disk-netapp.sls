@@ -1,4 +1,4 @@
-## The basic telegraf setup for compute host monitoring.
+## Telegraf monitoring of the Netapp NFS shares
 
 {% import_yaml "site/sifive1.yml" as site %}
 
@@ -6,7 +6,8 @@ include:
   - profile.telegraf-host-base
   - secret.telegraf-influxdb1
 
-{% set default_interval = 60 %}
+{# All ZFS file systems are big so no need to check every minute #}
+{% set zfs_interval = 300 %}
 
 states:
   telegraf: true
@@ -17,11 +18,22 @@ states:
 telegraf:
   agent:
     input:
-      disk:
-        netapps:
-          interval: {{ default_interval }}
-          mount_points:
-            - /sifive
-            - /work
-            - /home
-            - /nettmp/netapp1a
+      exec:
+        zfs:
+          interval: {{ zfs_interval }}
+          commands:
+            - "sudo sifive_telegraf_zpool"
+
+sudo:
+  included:
+    sifive-telegraf-zfs:
+      alias:
+        commands:
+          ZCMD:
+            - "/sbin/zfs list"
+            - "/sbin/zfs list *"
+            - "/sbin/zpool list"
+            - "/sbin/zpool list *"
+      userspec:
+        - 'telegraf':
+            - ALL: (root) NOPASSWD: ZCMD
