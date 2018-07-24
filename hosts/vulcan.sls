@@ -3,22 +3,6 @@
 states:
   firewall.iptables: true
 
-pam:
-  access:
-    jenkins-admin: ALL
-
-sudo:
-  userspec:
-    - root:
-      - ALL: '(ALL:ALL) ALL'
-    - '%sysadmin':
-      - ALL: '(ALL:ALL) ALL'
-    - 'mikeyang':
-      - ALL: '(ALL:ALL) ALL'
-    - '%jenkins-admin': 
-      - JENKINS: /usr/sbin/iotop
-      - JENKINS: (jenkins) ALL
-
 
 # A VG for data
 disksetup:

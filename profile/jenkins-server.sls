@@ -10,10 +10,11 @@
 states:
   jenkins.server: true
 
-
 pam:
   access:
     jenkins: 'LOCAL'
+    jenkins-admin: ALL
+
 
 jenkins:
   lookup:
@@ -25,6 +26,16 @@ jenkins:
   java_args: >-
     -Dhudson.slaves.WorkspaceList=-WS
     -Dhudson.model.DirectoryBrowserSupport.CSP=\"default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; object-src 'self';\"
+
+sudo:
+  included:
+    sifive-jenkins-server:
+      userspec:
+        - '%jenkins-root':
+          - ALL: '(ALL:ALL) ALL'
+        - '%jenkins-admin': 
+          - JENKINS: /usr/sbin/iotop
+          - JENKINS: (jenkins) ALL
 
 
 firewall:
