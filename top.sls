@@ -166,6 +166,7 @@ base:
     - profile.backupserver
     - profile.ganglia-node-server
     - profile.telegraf-host-server
+    - profile.telegraf-disk-zfs
     - hosts.omega1
 
   'heartofgold.internal.sifive.com':
@@ -174,6 +175,7 @@ base:
     - profile.backupserver
     - profile.ganglia-node-server
     - profile.telegraf-host-server
+    - profile.telegraf-disk-zfs
     - hosts.heartofgold
 
   'gamma*.internal.sifive.com':
