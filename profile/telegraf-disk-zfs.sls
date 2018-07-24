@@ -36,4 +36,4 @@ sudo:
             - "/sbin/zpool list *"
       userspec:
         - 'telegraf':
-            - ALL: (root) NOPASSWD: ZCMD
+            - 'ALL: (root) NOPASSWD: ZCMD'
