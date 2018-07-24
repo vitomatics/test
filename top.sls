@@ -280,7 +280,6 @@ base:
     - profile.clustermaster
     - profile.ganglia-node-server
     - profile.telegraf-host-server
-    - profile.telegraf-disk-netapp
     - profile.edasync-smartdv-master
     - hosts.tardis
 
