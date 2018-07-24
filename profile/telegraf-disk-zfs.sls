@@ -27,7 +27,7 @@ telegraf:
 sudo:
   included:
     sifive-telegraf-zfs:
-      alias:
+      aliases:
         commands:
           ZCMD:
             - "/sbin/zfs list"
