@@ -108,4 +108,4 @@ sfdump:
       acls: false
       xattrs: false
       bwlimit: 12000
-      timeout: 7h
+      timeout: 9h
