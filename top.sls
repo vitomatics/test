@@ -234,9 +234,6 @@ base:
     - subnet.he-unix01
     - profile.devel
     - profile.clusterclient
-    - profile.slurm-client
-    - profile.slurm-node
-    - profile.jenkins-slave
     - hosts.sandbox
 
   'delta*.internal.sifive.com':
