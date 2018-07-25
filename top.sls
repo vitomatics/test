@@ -225,6 +225,7 @@ base:
     - profile.clusterclient
     - profile.labhost
     - profile.jenkins-slave
+    - profile.slurm-client
     - profile.ganglia-node-server
     - profile.telegraf-host-server
     - hosts.b0
