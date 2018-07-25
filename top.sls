@@ -214,6 +214,8 @@ base:
     - profile.clusterclient
     - profile.labhost
     - profile.jenkins-slave
+    - profile.slurm-client
+    - profile.slurm-node
     - profile.ganglia-node-server
     - profile.telegraf-host-server
     - hosts.alpha
