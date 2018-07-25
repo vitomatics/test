@@ -258,8 +258,6 @@ base:
     - profile.clusterclient
     - profile.mysql-server-local
     - profile.telegraf-host-server
-    - profile.slurm-client
-    - profile.slurm-node
     - hosts.gravelpit
 
   'hal.internal.sifive.com':
