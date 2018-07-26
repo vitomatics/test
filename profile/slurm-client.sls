@@ -20,3 +20,6 @@ firewall:
     tcp:
       '6820:9819': 10.14.0.0/16
 
+slurm:
+  restart:
+    munge: true
