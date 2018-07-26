@@ -33,7 +33,7 @@ sfsalt:
 
     formula:
       apache-formula:
-        origin: git@github-salt-pillar:sifive/mysql-formula.git
+        origin: git@github-salt-pillar:sifive/apache-formula.git
       php-formula:
         origin: git@github-salt-pillar:sifive/php-formula.git
       mysql-formula:
