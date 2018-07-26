@@ -1,7 +1,6 @@
 ## pillar file for dalek
 
 states:
-  apache: true
   firewall.iptables: true
 
 # network - static - serveral services
