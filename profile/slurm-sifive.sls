@@ -30,9 +30,9 @@ slurm:
   AccountingStorageUser: slurm
 
   # Do not want to restart daemons automatically - this stuff needs
-  # to be scheduled
+  # to be scheduled.  Except for munge, which breaks installs if false.
   restart:
-    munge: false
+    munge: true
     node: false
     server: false
     db: false
