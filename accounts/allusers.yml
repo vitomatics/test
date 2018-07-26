@@ -666,6 +666,20 @@ users:
     mail: june.liu
     uid: 1183
     gid: 1183
+  graemer:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Graeme Robertson"
+    mail: graeme.robertson
+    uid: 1184
+    gid: 1184
+  anikets:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Aniket Saha"
+    mail: aniket.saha@sifive.com
+    uid: 1185
+    gid: 1185
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
