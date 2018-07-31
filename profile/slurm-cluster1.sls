@@ -66,6 +66,7 @@ slurm:
       DefMemPerCPU: 4000
       nodes:
         - 'delta[00-03]'
+        - alpha
     quick:
       DefMemPerCPU: 4000
       MaxMemPerCPU: 16000
