@@ -691,6 +691,20 @@ users:
     uid: 1185
     gid: 1185
     shell: /usr/sbin/nologin
+  robertd:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Robert D'Angelo"
+    mail: robert.dangelo@sifive.com
+    uid: 1186
+    gid: 1186
+  paulw:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Paul Walmsley"
+    mail: paul.walmsley@sifive.com
+    uid: 1187
+    gid: 1187
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
