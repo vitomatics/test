@@ -103,13 +103,15 @@ sfsalt:
         - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
         - sigma*.internal.sifive.com
-        - delta*.interan.sifive.com
+        - delta*.internal.sifive.com
+        - alpha.internal.sifive.com
         - sandbox.internal.sifive.com
         - grid.internal.sifive.com
       slurmnode:
         - gamma*.internal.sifive.com
         - sigma*.internal.sifive.com
         - delta*.internal.sifive.com
+        - alpha.internal.sifive.com
         - sandbox.internal.sifive.com
       slurmserver:
         - grid.internal.sifive.com
@@ -125,6 +127,8 @@ sfsalt:
         - b0.internal.sifive.com
         - bender.internal.sifive.com
         - betel.internal.sifive.com
+        - chappie.internal.sifive.com
+        - colin.internal.sifive.com
         - dalek.internal.sifive.com
         - delta*.internal.sifive.com
         - eddie.internal.sifive.com
@@ -146,11 +150,13 @@ sfsalt:
         - matrix.internal.sifive.com
         - mnuc00.internal.sifive.com
         - sandbox.internal.sifive.com
+        - skynet.internal.sifive.com
         - tardis.internal.sifive.com
         - transporter.internal.sifive.com
         - vader.internal.sifive.com
         - viki.internal.sifive.com
         - vulcan.internal.sifive.com
+        - wall-e.internal.sifive.com
         - yoda.internal.sifive.com
       isolated:
         - lambda00.internal.sifive.com
