@@ -62,6 +62,7 @@ flexnet:
     alterad:
       vendor: altera
       bindir: flexlm-18.0.0.219
+      libdir: flexlm-18.0.0.219
       port: 27030
       vport: 27031
       licenses:
