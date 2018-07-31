@@ -18,7 +18,7 @@ flexnet:
       dir: linux_flexlm_v11.14.1.0
     altera:
       disttype: tgz
-      disturl: http://sfimages.internal.sifive.com/Altera/flexlm/flexlm-18.0.0.219.tar.gz
+      disturl: http://sfimages.internal.sifive.com/Intel/Altera/flexlm/flexlm-18.0.0.219.tar.gz
       dir: flexlm-18.0.0.219
   daemons:
     mgcld:
