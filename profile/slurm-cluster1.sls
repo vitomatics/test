@@ -52,12 +52,16 @@ slurm:
       CPUs: '4'
       RealMemory: '8000'
       Feature: delta
+    'alpha':
+      CPUs: '32'
+      RealMemory: '125000'
+      Feature: alpha
   partitions:
     standard:
       Default: yes
       nodes:
         - 'gamma[10-14]'
-        - 'sigma[00-11]'
+        - 'sigma[00-14]'
     boardtest:
       DefMemPerCPU: 4000
       nodes:
@@ -74,5 +78,5 @@ slurm:
         - 'sandbox'
     mikeyang:
       nodes:
-        - 'sigma[12-14]'
+        - 'sandbox'
 
