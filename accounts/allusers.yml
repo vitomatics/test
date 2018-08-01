@@ -663,7 +663,7 @@ users:
     uid: 1181
     gid: 1181
   sagark:
-    tags: [ cluster ]
+    tags: [ cluster, fpgatest ]
     groups: [ compute ]
     fullname: "Sagar Karandikar"
     mail: sagar.karandikar@sifive.com
