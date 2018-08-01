@@ -669,6 +669,9 @@ users:
     mail: sagar.karandikar@sifive.com
     uid: 1182
     gid: 1182
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNhMSB7BLLEzlzBFy/ypdKZrR5fAsOmxeu1w685tsIQKIBXUB+MOZwfm4ez+AcLJulgzTjiy/+lA/UFG9UfJDFbSxzvNTAYZ7sO1yeExL3OUGX4I77z/W3oaI/SKzoSbKAnbQ5sCTcg2H5+8HxBokJOIkxawsIsmwdl5FzHscNzBCYKslSUELpJB6qEdCDycgiSMWUim0zYPvHhSdcYC14PlPcQTejW8YFhEfeZT1MGX3zMdYv6KX6MbQftpiwWNHKnK+2IaAAqGFLVu2KBDJXCKZksQp4yy4XZg2pAXKNZG9ef3GhG8yBWGfMArQeODobd2DBOzrVmTDybtwHeISh sagark@sagark-MacBook-Pro-HQ.local
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDARuNpeRXdDvrYy7JU0cleZFLQIaVzanqRykGuc834n5nLseMrlv0WZvVKPIMPrWEPhOPpa3eYYrYqsEHIfuiFlXYJW/a7qjvyDPA/EQ95sEB1OA8dGhchRgqkuvzvnecMQirgV6DhtWGa3bUKyd2Dd32uWZ7Aqne7bitnNaM5PFrDeSD1Qhrb9XcIc5g0Mp4AMcS9i2PTKL3swhIT3qTLMjcoiMk0kQaHKsAwITWYkb3wNl5ZlbhlgaagswtG3egyWa298sAoHJ36kN3bAvtPZGUb3rACbP983h9YxDV0YzalBqWABYjJ1Lh4cFjIftNRTfYPwvKgjYj9G3oWeacr sagark@gamma02.internal.sifive.com
   junel:
     tags: [ cluster ]
     groups: [ compute ]
