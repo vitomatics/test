@@ -337,6 +337,7 @@ base:
     - profile.edadirs-smartdv
     - profile.edasync-smartdv-slave
     - profile.backupclient
+    - profile.localaccounts
     - accounts.lambda00-accounts
     - hosts.lambda00
 
@@ -367,6 +368,7 @@ base:
 
   'fpgatest.internal.sifive.com':
     - subnet.aws-unix
+    - profile.localaccounts
     - accounts.fpgatest-accounts
     - profile.devel
     - hosts.fpgatest
@@ -379,6 +381,7 @@ base:
 
   'rhtest.internal.sifive.com':
     - subnet.aws-unix
+    - profile.localaccounts
     - accounts.fpgatest-accounts
     - profile.devel
     - hosts.rhtest
@@ -404,5 +407,6 @@ base:
     - profile.login
     - profile.ganglia-node-server
     - profile.telegraf-host-server
+    - profile.localaccounts
     - accounts.syslogin-accounts
     - hosts.zarss

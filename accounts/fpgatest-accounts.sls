@@ -7,6 +7,7 @@
 {% import_yaml "accounts/allusers.yml" as allusers %}
 {% import_yaml "accounts/allgroups.yml" as allgroups %}
 
+
 sfaccount:
   users:
 {%- for user, attrs in allusers.users|dictsort %}
