@@ -44,7 +44,7 @@ users:
     authorized_keys:
       - ssh-dss AAAAB3NzaC1kc3MAAACBAIT8iVxuBOnXWaum3Bb7zbSTdpDMry3CmTBMtlSEvoj5kN5vPiY4AkKFbbjVQhDC8HzbkXLtihOnhCezww12ndZNUBcBpQzwfhdcGkdZrtuvdZlg1rAr6Sz8PpM1IDrI9cAiwniWo+pQXRsA5hUkAhMcqeBh0cdyD2y71U5u8be9AAAAFQD1RHL0YRZktxsmewlAekfLGc3MnQAAAIAouFeFTLVWnTJ9tkwzeIL+G1j0fXlptsu9gbSK2/tiNX+0Wp9dk0hF1Qs/h/ThQ+1LpUiIgIUV0ReGo8uhNOwmHfvyTYVn6+yOsIQmHo/KA+vb8pKOQxn1YvC/kg0HQvaECsZPUzRqtd3U9all+g5EHxlTpLhCzx0Pq89w1/cuvQAAAIBMs6ZvgGhsY3CxGtrD2prcK0GUKdXybKwSeCS74rOo0zXi00qExXVL9175KzL67GMJiVmE9jQicnP+JcoT/wwrzbwRFdGuyBu052qMu4ZcdwSGAr8D0WD6xmVfq+pPBYEML7uTKw9ZysiwkKhzqX430XDf5Uw0oW2TJXYNzeTNpw== krste@kamac.csail.mit.edu
   rxia:
-    tags: [ cluster, syslogin, fpgatest ]
+    tags: [ cluster, lambda00, syslogin, fpgatest ]
     groups: [ compute ]
     fullname: "Richard Xia"
     mail: rxia@sifive.com
