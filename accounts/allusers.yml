@@ -568,7 +568,7 @@ users:
     uid: 1168
     gid: 1168
   jonstern:
-    tags: [ cluster, syslogin, fpgatest ]
+    tags: [ cluster, lambda00, syslogin, fpgatest ]
     groups: [ compute ]
     fullname: "Jonathan Stern"
     mail: jonstern@sifive.com
@@ -584,7 +584,7 @@ users:
     uid: 1170
     gid: 1170
   mikemay:
-    tags: [ cluster, syslogin, fpgatest ]
+    tags: [ cluster, lambda00, syslogin, fpgatest ]
     groups: [ compute ]
     fullname: "Michael May"
     mail: mikemay@sifive.com
