@@ -3,10 +3,16 @@
 # that is needed.
 
 {% set tag = 'fpgatest' %}
+{% set group = 'fpgatest-users' %}
+
+pam:
+  access:
+    {{ group }}: ALL
+    sysadmin: ALL
+
 
 {% import_yaml "accounts/allusers.yml" as allusers %}
 {% import_yaml "accounts/allgroups.yml" as allgroups %}
-
 
 sfaccount:
   users:
