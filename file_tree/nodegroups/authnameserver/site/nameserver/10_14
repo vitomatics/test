@@ -105,5 +105,7 @@ $TTL	86400
 
 
 2.129	IN	PTR	awstest.internal.sifive.com.
-3.129	IN	PTR	fpgatest.internal.sifive.com.
+
 4.129	IN	PTR	rhtest.internal.sifive.com.
+
+246.137	IN	PTR	fpgatest.internal.sifive.com.

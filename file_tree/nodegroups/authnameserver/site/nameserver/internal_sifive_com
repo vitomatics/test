@@ -191,8 +191,10 @@ sigma14			IN	A	10.14.17.78
 s14			IN	CNAME	sigma14
 
 awstest			IN	A	10.14.129.2
-fpgatest		IN	A	10.14.129.3
+
 rhtest			IN	A	10.14.129.4
+
+fpgatest		IN	A	10.14.137.246
 
 
 router03-ge0-0-2	IN	A	10.15.0.1
