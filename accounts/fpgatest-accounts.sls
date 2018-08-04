@@ -11,7 +11,7 @@ pam:
     sysadmin: ALL
 
 sudo:
-  included;
+  included:
     sifive-fpgatest-users:
       userspec:
         - '%fpgatest-users':
