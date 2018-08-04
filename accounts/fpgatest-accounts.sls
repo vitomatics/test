@@ -15,7 +15,7 @@ sudo:
     sifive-fpgatest-users:
       userspec:
         - '%fpgatest-users':
-	  - ALL: '(root) NOPASSWD: ALL'
+          - ALL: '(root) NOPASSWD: ALL'
 
 
 {% import_yaml "accounts/allusers.yml" as allusers %}
