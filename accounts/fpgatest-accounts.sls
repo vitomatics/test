@@ -10,6 +10,13 @@ pam:
     {{ group }}: ALL
     sysadmin: ALL
 
+sudo:
+  included;
+    sifive-fpgatest-users:
+      userspec:
+        - '%fpgatest-users':
+	  - ALL: '(root) NOPASSWD: ALL'
+
 
 {% import_yaml "accounts/allusers.yml" as allusers %}
 {% import_yaml "accounts/allgroups.yml" as allgroups %}
