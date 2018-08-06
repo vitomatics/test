@@ -567,6 +567,7 @@ users:
     mail: gdiliberto@sifive.com
     uid: 1168
     gid: 1168
+    shell: /usr/sbin/nologin
   jonstern:
     tags: [ cluster, lambda00, syslogin, fpgatest ]
     groups: [ compute ]
@@ -583,6 +584,7 @@ users:
     mail: aaron.janse@sifive.com
     uid: 1170
     gid: 1170
+    shell: /usr/sbin/nologin
   mikemay:
     tags: [ cluster, lambda00, syslogin, fpgatest ]
     groups: [ compute ]
