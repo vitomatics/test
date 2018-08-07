@@ -2,7 +2,7 @@
 
 sfvirt:
   vms:
-    vulcan:
+    romluan:
       type: libvirt
       vmhost: colin.internal.sifive.com
       vcpus: 2
