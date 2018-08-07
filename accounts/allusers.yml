@@ -710,6 +710,13 @@ users:
     mail: paul.walmsley@sifive.com
     uid: 1187
     gid: 1187
+  ravik:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Ravi Kumar"
+    mail: ravi.kumar@sifive.com
+    uid: 1188
+    gid: 1188
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
