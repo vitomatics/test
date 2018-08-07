@@ -411,7 +411,7 @@ base:
     - accounts.syslogin-accounts
     - hosts.zarss
 
-'romulan.internal.sifive.com':
+  'romulan.internal.sifive.com':
     - subnet.he-unix02
     - profile.ganglia-node-server
     - profile.telegraf-host-server
