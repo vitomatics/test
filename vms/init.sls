@@ -16,6 +16,7 @@ include:
   - vms.leia
   - vms.luke
   - vms.matrix
+  - vms.romulan
   - vms.sandbox
   - vms.skynet
   - vms.tardis

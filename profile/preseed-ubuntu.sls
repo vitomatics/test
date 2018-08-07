@@ -633,3 +633,10 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
+        romulan:
+          ipaddress: 10.14.17.35
+          subnet: he-unix02-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk
