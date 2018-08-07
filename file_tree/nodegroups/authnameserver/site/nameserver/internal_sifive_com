@@ -158,7 +158,7 @@ colin			IN	A	10.14.17.32
 chappie			IN	A	10.14.17.33
 zarss			IN	A	10.14.17.34
 syslogin		IN	CNAME	zarss
-romulan			IN	A	10.17.17.35
+romulan			IN	A	10.14.17.35
 jenkinstest		IN	CNAME	romulan
 
 sigma00			IN	A	10.14.17.64
