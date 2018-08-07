@@ -410,3 +410,12 @@ base:
     - profile.localaccounts
     - accounts.syslogin-accounts
     - hosts.zarss
+
+'romulan.internal.sifive.com':
+    - subnet.he-unix02
+    - profile.ganglia-node-server
+    - profile.telegraf-host-server
+    - profile.webserver.system_auth
+    - profile.site-jenkinstest
+    - profile.jenkins-server
+    - hosts.romulan
