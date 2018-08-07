@@ -86,6 +86,7 @@ $TTL	86400
 32.17	IN	PTR	colin.internal.sifive.com.
 33.17	IN	PTR	chappie.internal.sifive.com.
 34.17	IN	PTR	zarss.internal.sifive.com.
+35.17	IN	PTR	romulan.internal.sifive.com.
 
 64.17	IN	PTR	sigma00.internal.sifive.com.
 65.17	IN	PTR	sigma01.internal.sifive.com.
