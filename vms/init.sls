@@ -3,6 +3,7 @@
 include:
   - vms.altair
   - vms.algol
+  - vms.barnards
   - vms.betel
   - vms.dalek
   - vms.frogstar

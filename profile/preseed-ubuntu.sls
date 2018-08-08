@@ -640,3 +640,10 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
+        barnards:
+          ipaddress: 10.14.17.79
+          subnet: he-unix02-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk
