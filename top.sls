@@ -422,16 +422,16 @@ base:
 
   'barnards.internal.sifive.com':
     - subnet.he-unix02
-    - hosts.barnards
-
-  'barnards2.internal.sifive.com':
     - profile.devel
     - profile.repos-src
     - profile.clusterclient
     - profile.login
     - profile.desktop
     - profile.slurm-client
-    - profile.nomachine-licensed
     - profile.ganglia-node-server
     - profile.telegraf-host-server
+    - hosts.barnards
+
+  'barnards2.internal.sifive.com':
+    - profile.nomachine-licensed
 
