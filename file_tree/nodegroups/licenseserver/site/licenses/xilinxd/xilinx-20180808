@@ -1,0 +1,42 @@
+# ----- REMOVE LINES ABOVE HERE --------------------------
+#
+#
+SERVER jarjar 525400ff0015 2100
+#
+USE_SERVER
+#
+VENDOR xilinxd
+#
+# This is a permanent license generated on Wed Aug 08 01:51:10 UTC 2018
+INCREMENT Vivado_Design_Edition xilinxd 2019.08 permanent 2 \
+6DC67C0BA330 \
+VENDOR_STRING=davidj_sifive,Vivado_Design_Edition,software,permanent,_211313989_1777536909_210688100_646 \
+ISSUER="Xilinx Inc" START=08-Aug-2018 TS_OK
+#
+# This is a permanent license generated on Wed Aug 08 01:51:10 UTC 2018
+INCREMENT ISE_Embedded_Edition xilinxd 2019.08 permanent 2 \
+09326A5D80B2 \
+VENDOR_STRING=davidj_sifive,ISE_Embedded_Edition,software,permanent,_211313989_1777536909_210688100_548 \
+ISSUER="Xilinx Inc" START=08-Aug-2018 TS_OK
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE Vivado_Design_Edition xilinxd 2019.08 23C0B92AA9EB \
+COMPONENTS="SDK PartialReconfiguration Simulation \
+Implementation Analyzer HLS Synthesis" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+#
+# ----------------------------------------------------------------------
+#  The following PACKAGE definition is a REQUIRED part of this license:
+#
+PACKAGE ISE_Embedded_Edition xilinxd 2019.08 021C36FDB3B3 \
+COMPONENTS="ChipScopePro_SIOTK ChipscopePro ISE XPS ISIM \
+PlanAhead" OPTIONS=SUITE
+#
+# ------------------------------------------------------------------------------
+#
+# ----- REMOVE LINES BELOW HERE --------------------------

@@ -59,6 +59,8 @@ flexnet:
       licenses:
         xilinx-20170519:
           pillar: site:licenses:xilinxd:xilinx-20170519
+        xilinx-20180808:
+          pillar: site:licenses:xilinxd:xilinx-20180808
     alterad:
       vendor: altera
       bindir: flexlm-18.0.0.219
