@@ -428,6 +428,7 @@ base:
     - profile.login
     - profile.desktop
     - profile.slurm-client
+    - profile.nomachine-licensed
     - profile.ganglia-node-server
     - profile.telegraf-host-server
     - hosts.barnards

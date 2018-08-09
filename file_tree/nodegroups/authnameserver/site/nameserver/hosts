@@ -549,6 +549,7 @@
 64.62.193.201 he-vpngw2
 64.62.193.202 he-aws-cgw1
 64.62.193.203 he-syslogin1.sifive.com syslogin.sifive.com
+64.62.193.204 he-login4.sifive.com login4.sifive.com he4.sifive.com nm4.sifive.com
 # 64.62.193.255 RESERVED - do not use
 
 ## Comcast name servers
