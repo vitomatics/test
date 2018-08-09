@@ -28,6 +28,12 @@ states:
   apache.mod_headers: true
 
 file:
+  directory:
+    {{ certdir }}:
+      order: first
+      user: root
+      group: root
+      mode: '0755'
   file:
     {{ keyfile }}:
       order: first
@@ -38,6 +44,12 @@ file:
     {{ certfile }}:
       order: first
       contents_pillar: 'keys:https:{{site}}:cert'
+      user: root
+      group: root
+      mode: '0600'
+    {{ cafile }}:
+      order: first
+      contents_pillar: 'keys:https:{{site}}:ca'
       user: root
       group: root
       mode: '0600'
