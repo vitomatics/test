@@ -54,3 +54,24 @@ keys:
         km+TP3fsOmjT9iQsa2U5/fUw4YR0urMDztWQsSkGBQg2KpbdZIfB6VBlGqe0Koye
         UjObHhg6gTIWnHB4aSRvde2jhohaF2eEzYdnL5+9cCGTGFaB3kqOU8wN5as7SuA=
         -----END CERTIFICATE-----
+      ca: |
+        -----BEGIN CERTIFICATE-----
+        MIIDWjCCAkKgAwIBAgIJAKJVfm2uI7yoMA0GCSqGSIb3DQEBCwUAMCYxJDAiBgNV
+        BAMMG2plbmtpbnMyLmludGVybmFsLnNmaXZlLmNvbTAeFw0xNzA2MDcwMjM2MjNa
+        Fw0yNzA2MDUwMjM2MjNaMCYxJDAiBgNVBAMMG2plbmtpbnMyLmludGVybmFsLnNm
+        aXZlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAONX6EqIbYQZ
+        qMA7DdSJjVqx8I7MR4f+MwVkrbM95CGeBzonoQOLxR1luJ+b4nk3MzslUHsONe0r
+        zAleWTA1QJrno8YsGpaFdxdWdKevJj7EGz6UsdXFWKP72Kq8EfQvDyde4opSAMsO
+        J/yPrdece26rureSR7liiWlOiq4fOntKv9t5H7XJpidpjm0fWTTn/9m9lVzcv5Tn
+        CPDahuhWuxsVgcngUgEfYDk/Ku4npBMgFEsdjKFgGuezo5uhCtUgLs9NZFmcQJXp
+        wb2lYc2xhnDBhsAa/DcYefFL9mHnbSq2J0HgG2Rc1EPbWY+fLPF7oQxpJZd1LabN
+        BCMlM1aOu3MCAwEAAaOBijCBhzAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYEFApb
+        Y9Q7XlogSmRoNjIVz2YJpx6sMFYGA1UdIwRPME2AFApbY9Q7XlogSmRoNjIVz2YJ
+        px6soSqkKDAmMSQwIgYDVQQDDBtqZW5raW5zMi5pbnRlcm5hbC5zZml2ZS5jb22C
+        CQCiVX5triO8qDANBgkqhkiG9w0BAQsFAAOCAQEAd/xllodaYycN2nZ8OZJnrMj4
+        nkQCrTHY/A7y1KHXr6ndpvl3twBDNQZ2IFx6cACuV4HHwPd0JNfj1fBZcb8w5iVy
+        yHOn3Dki0wnoYglEsKOU0fd6CVyx9oY3CZhT8tE8mPSftyvZB0sIe9MP3xyUNEYM
+        easLxDLzKo+tXoJTuDPhK6bL9qCFMbIBVr+YUmV/sAGBWYvN0pCa8sxE60QSjVT3
+        vUW/K0Lnopa7u7i+PIt1YnMqyZDBZ+iKUpCV227JNc8U7SPx2sua/uK2ktS1mzt9
+        pp+Hu9uBHteI/v2fXSJ+ep/VPlk7FLNYJTy6auy4eoJCXuNV5AZXPsEQia1KAQ==
+        -----END CERTIFICATE-----
