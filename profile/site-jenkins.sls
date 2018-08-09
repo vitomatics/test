@@ -28,7 +28,7 @@ states:
   apache.mod_headers: true
 
 file:
-  directory:
+  mkdir:
     {{ certdir }}:
       order: first
       user: root
