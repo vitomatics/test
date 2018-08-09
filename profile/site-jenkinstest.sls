@@ -27,7 +27,12 @@ states:
   apache.mod_proxy_http: true
   apache.mod_headers: true
 
-file:
+  mkdir:
+    {{ certdir }}:
+      order: first
+      user: root
+      group: root
+      mode: '0755'
   file:
     {{ keyfile }}:
       order: first
@@ -38,6 +43,12 @@ file:
     {{ certfile }}:
       order: first
       contents_pillar: 'keys:https:{{site}}:cert'
+      user: root
+      group: root
+      mode: '0600'
+    {{ cafile }}:
+      order: first
+      contents_pillar: 'keys:https:{{site}}:ca'
       user: root
       group: root
       mode: '0600'
@@ -70,5 +81,5 @@ apache:
         AllowEncodedSlashes NoDecode
         ProxyPass         / http://localhost:8080/ nocanon
         ProxyPassReverse  / http://localhost:8080/
-        ProxyPassReverse  / http://jenkins2.internal.sifive.com
+        ProxyPassReverse  / http://{{servername}}
 
