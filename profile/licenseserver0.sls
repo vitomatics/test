@@ -42,13 +42,13 @@ flexnet:
         mentor-20180406:
           absent: true
         mentor-20180418:
-          pillar: site:licenses:mgcld:mentor-20180418
+          absent: true
         mentor-20180427:
-          pillar: site:licenses:mgcld:mentor-20180427
+          absent: true
         mentor-20180501:
-          pillar: site:licenses:mgcld:mentor-20180501
+          absent: true
         mentor-20180508:
-          pillar: site:licenses:mgcld:mentor-20180508
+          absent: true
         mentor-20180705:
           pillar: site:licenses:mgcld:mentor-20180705
     xilinxd:
