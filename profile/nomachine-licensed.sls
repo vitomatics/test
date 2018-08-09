@@ -2,7 +2,7 @@
 
 states:
   nomachine.terminalserver: true
-  # nomachine.terminalserver.license: true
+  nomachine.terminalserver.license: true
 
 nomachine:
   lookup:
