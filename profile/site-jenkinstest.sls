@@ -27,6 +27,7 @@ states:
   apache.mod_proxy_http: true
   apache.mod_headers: true
 
+file:
   mkdir:
     {{ certdir }}:
       order: first
