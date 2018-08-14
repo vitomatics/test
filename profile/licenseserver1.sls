@@ -75,6 +75,10 @@ flexnet:
           absent: true
         tsmc-sram-20180528:
           pillar: site:licenses:interrad:tsmc-sram-20180528
+        tsmc-sram-20180814a:
+          pillar: site:licenses:interrad:tsmc-sram-20180814a
+        tsmc-sram-20180814b:
+          pillar: site:licenses:interrad:tsmc-sram-20180814b
     mgcld:
       vendor: mentor
       bindir: mgls-v11.13.1.2/bin
