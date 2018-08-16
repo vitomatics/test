@@ -162,14 +162,16 @@ flexnet:
           absent: true
         synopsys-20180705:
           absent: true
+        synopsys-20180720:
+          absent: true
         microsemi-20180401:
           pillar: site:licenses:snpslmd:microsemi-20180401
         synopsys-20180410:
           pillar: site:licenses:snpslmd:synopsys-20180410
-        synopsys-20180720:
-          pillar: site:licenses:snpslmd:synopsys-20180720
         synopsys-20180802:
           pillar: site:licenses:snpslmd:synopsys-20180802
+        synopsys-20180816:
+          pillar: site:licenses:snpslmd:synopsys-20180816
     actlmgrd:
       vendor: microsemi
       bindir: Linux_Licensing_Daemon
