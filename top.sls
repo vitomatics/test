@@ -53,6 +53,7 @@ base:
     - profile.backupclient
     - profile.ganglia-node-server
     - profile.telegraf-host-server
+    - profile.slurm-client
     - profile.webserver.system_auth
     - profile.site-jenkins
     - profile.jenkins-server
@@ -416,6 +417,7 @@ base:
     - profile.ganglia-node-server
     - profile.telegraf-host-server
     - profile.webserver.system_auth
+    - profile.slurm-client
     - profile.site-jenkinstest
     - profile.jenkins-server
     - hosts.romulan
