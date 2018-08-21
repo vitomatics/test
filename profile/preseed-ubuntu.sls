@@ -5,31 +5,6 @@ states:
 
 sfpreseed:
   disklayouts:
-    compute_disk:
-      swap:
-        size: 17176
-      boot:
-        size: 1074
-        filesystem: ext4
-      parts:
-        root:
-          mountpoint: /
-          size: 34352
-          options:
-            - noatime
-        var:
-          mountpoint: /var
-          size: 17176
-          options:
-            - nodev
-            - relatime
-        scratch:
-          mountpoint: /scratch
-          size: unlimited
-          options:
-            - nodev
-            - nosuid
-            - noatime
     compute_ssd:
       swap:
         size: 17176
@@ -39,12 +14,12 @@ sfpreseed:
       parts:
         root:
           mountpoint: /
-          size: 34352
+          size: 68704
           options:
             - noatime
         var:
           mountpoint: /var
-          size: 17176
+          size: 34352
           options:
             - nodev
             - relatime
@@ -414,25 +389,25 @@ sfpreseed:
           kargs: text nomodeset xforcevesa
           diskname: /dev/sda
           diskmethod: lvm
-          disklayout: compute_disk
+          disklayout: compute_ssd
         delta01:
           subnet: sf-dynamic
           kargs: text nomodeset xforcevesa
           diskname: /dev/sda
           diskmethod: lvm
-          disklayout: compute_disk
+          disklayout: compute_ssd
         delta02:
           subnet: sf-dynamic
           kargs: text nomodeset xforcevesa
           diskname: /dev/sda
           diskmethod: lvm
-          disklayout: compute_disk
+          disklayout: compute_ssd
         delta03:
           subnet: sf-dynamic
           kargs: text nomodeset xforcevesa
           diskname: /dev/sda
           diskmethod: lvm
-          disklayout: compute_disk
+          disklayout: compute_ssd
         omega1:
           ipaddress: 10.14.1.5
           subnet: sf-static
