@@ -24,7 +24,7 @@ jenkins:
     user: jenkins
     group: jenkins
     pkgs:
-    - jenkins
+    - jenkins: 2.89.3
   java_args: >-
     -Dhudson.slaves.WorkspaceList=-WS
     -Dhudson.model.DirectoryBrowserSupport.CSP=\"default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; object-src 'self';\"
