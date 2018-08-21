@@ -56,7 +56,7 @@ base:
     - profile.slurm-client
     - profile.webserver.system_auth
     - profile.site-jenkins
-    - profile.jenkins-server
+    - profile.jenkins-server-default
     - profile.jenkins-webhook-server
     - hosts.vulcan
 
