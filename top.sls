@@ -53,9 +53,10 @@ base:
     - profile.backupclient
     - profile.ganglia-node-server
     - profile.telegraf-host-server
+    - profile.slurm-client
     - profile.webserver.system_auth
     - profile.site-jenkins
-    - profile.jenkins-server
+    - profile.jenkins-server-default
     - profile.jenkins-webhook-server
     - hosts.vulcan
 
@@ -416,8 +417,9 @@ base:
     - profile.ganglia-node-server
     - profile.telegraf-host-server
     - profile.webserver.system_auth
+    - profile.slurm-client
     - profile.site-jenkinstest
-    - profile.jenkins-server
+    - profile.jenkins-server-new
     - hosts.romulan
 
   'barnards.internal.sifive.com':
