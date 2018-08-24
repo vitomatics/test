@@ -259,21 +259,6 @@
 10.15.240.194 router03-ge0-0-15 router03-admin router03
 # 10.15.240.255 RESERVED - do not use
 
-##   10.15.241.0->10.15.241.255 sf-net02-net sf2-net-net
-# 10.15.241.0 RESERVED - do not use
-10.15.241.1 router04-ge0-0-4 sf-net02-net-gw sf2-net-net-gw
-10.15.241.16 sf2-net-net-dhcp016
-10.15.241.17 sf2-net-net-dhcp017
-10.15.241.128 iswitch05-admin iswitch05
-## 10.15.241.160 wac02-admin wac02
-## 10.15.241.161 wap05-admin wap05
-## 10.15.241.162 wap06-admin wap06
-## 10.15.241.163 wap07-admin wap07
-## 10.15.241.164 wap08-admin wap08
-## 10.15.241.165 wap09-admin wap09
-10.15.241.192 router04-ge0-0-5 router04-admin router4
-# 10.15.241.255 RESERVED - do not use
-
 # 10.15.255.255 RESERVED - do not use
 
 ## 10.16.0.0->10.16.15.255 sf-lab-net
@@ -338,6 +323,8 @@
 10.17.15.2 printer01 hp-m553	# static, assigned by DHCP
 10.17.15.3 printer02 hp-m577	# static, assigned by DHCP
 10.17.15.4 plotter01 hp-t730	# static, assigned by DHCP
+10.17.15.5 printer03 		# static, assigned by DHCP
+10.17.15.6 printer04		# static, assigned by DHCP
 
 # 10.17.15.255 RESERVED - do not use
 
@@ -348,24 +335,6 @@
 10.17.16.3 he-laptop-net-dhcp003
 # 10.17.31.255 RESERVED - do not use
 
-## 10.17.32.0->10.17.47.255 sf2-laptop-net
-## 10.17.32.0->10.17.32.255 sf2-laptop01-net
-# 10.17.32.0 RESERVED - do not use
-10.17.32.1 sf2-laptop01-net-gw
-10.17.32.2 wac02-admin wac02
-10.17.32.3 wap05-admin wap05
-10.17.32.4 wap06-admin wap06
-10.17.32.5 wap07-admin wap07
-10.17.32.6 wap08-admin wap08
-10.17.32.7 wap09-admin wap09
-10.17.32.8 printer03
-10.17.32.9 printer04
-10.17.32.16 sf2-laptop01-net-dhcp016
-# ..
-10.17.32.253 sf2-laptop01-net-dhcp253
-# 10.17.32.254 RESERVE
-# 10.17.32.255 RESERVED - do not use
-# 10.17.47.255 RESERVED - do not use
 
 ## 10.18.0.0->10.18.15.255 sf-voip-net
 # 10.18.0.0 RESERVED - do not use
@@ -374,14 +343,6 @@
 ...
 10.18.0.254 voip254
 # 10.18.0.255 RESERVED - do not use
-
-## 10.18.32.0->10.18.47.255 sf2-voip-net
-# 10.18.32.0 RESERVED - do not use
-10.18.32.1 sf2-voip-net-gw router04-ge0-0-3
-10.18.32.16 sf2-voip017
-...
-10.18.32.254 sf2-voip254
-# 10.18.47.255 RESERVED - do not use
 
 ## 10.100.0.0->10.100.255.255 - transit subnets
 ##    10.100.100.0->10.100.100.3 - tran-vpn1-net
