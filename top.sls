@@ -246,7 +246,7 @@ base:
     - profile.slurm-client
     - profile.slurm-node
     - profile.sfamtutil
-    - profile.fpgahost
+    - profile.fpgahost2
     - profile.managed-nuc
     - profile.ganglia-node-server
     - profile.telegraf-host-server
