@@ -325,6 +325,17 @@ wap04-admin 		IN	A	10.15.240.163
 wap04			IN	CNAME	wap04-admin
 wap05-admin 		IN	A	10.15.240.164
 wap05			IN	CNAME	wap05-admin
+wap06-admin 		IN	A	10.15.240.165
+wap06			IN	CNAME	wap06-admin
+wap07-admin 		IN	A	10.15.240.166
+wap07			IN	CNAME	wap07-admin
+wap08-admin 		IN	A	10.15.240.167
+wap08			IN	CNAME	wap08-admin
+wap09-admin 		IN	A	10.15.240.168
+wap09			IN	CNAME	wap09-admin
+wap00-admin 		IN	A	10.15.240.169
+wap00			IN	CNAME	wap00-admin
+
 router01-ge0-0-15	IN	A	10.15.240.192
 router01-admin		IN	A	10.15.240.192
 router01		IN	CNAME	router01-admin

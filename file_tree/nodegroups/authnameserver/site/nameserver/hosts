@@ -253,7 +253,11 @@
 10.15.240.161 wap02-admin wap02
 10.15.240.162 wap03-admin wap03
 10.15.240.163 wap04-admin wap04
-..
+10.15.240.164 wap05-admin wap05
+10.15.240.165 wap06-admin wap06
+10.15.240.166 wap07-admin wap07
+10.15.240.167 wap08-admin wap08
+10.15.240.168 wap09-admin wap09
 10.15.240.169 wap00-admin wap00
 10.15.240.192 router01-ge0-0-15 router01-admin router01
 ..
