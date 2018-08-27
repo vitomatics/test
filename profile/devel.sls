@@ -216,6 +216,7 @@ pkgs:
     libsqlite3-dev: true
     terminator: true
     libftdi1-dev: true
+    libfuse-dev: true
 
     ## windows development
     mingw-w64: true
