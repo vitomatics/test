@@ -37,6 +37,8 @@ alpha-pci2-1		90:e2:ba:c6:b0:a5
 
 printer01	b0:5a:da:c7:d0:99
 printer02	3c:52:82:25:b9:11
+printer03	ac:e2:d3:46:bd:c7
+printer04	ac:e2:d3:46:cd:7a
 plotter01	40:a8:f0:88:dc:76
 plotter01-wifi	40:a8:f0:88:dc:77
 
