@@ -622,3 +622,17 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
+        maul:
+          ipaddress: 10.14.17.36
+          subnet: he-unix02-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk
+        anakin:
+          ipaddress: 10.14.17.38
+          subnet: he-unix02-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk

@@ -3,6 +3,7 @@
 include:
   - vms.altair
   - vms.algol
+  - vms.anakin
   - vms.barnards
   - vms.betel
   - vms.dalek
@@ -17,6 +18,7 @@ include:
   - vms.leia
   - vms.luke
   - vms.matrix
+  - vms.maul
   - vms.romulan
   - vms.sandbox
   - vms.skynet

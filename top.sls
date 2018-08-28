@@ -438,3 +438,16 @@ base:
   'barnards2.internal.sifive.com':
     - profile.nomachine-licensed
 
+  'maul.internal.sifive.com':
+    - subnet.he-unix02
+    - profile.ganglia-node-server
+    - profile.telegraf-host-server
+    - hosts.maul
+
+  'anakin.internal.sifive.com':
+    - subnet.he-unix02
+    - profile.nameserver-semicaching
+    - profile.timeserver
+    - profile.ganglia-node-server
+    - profile.telegraf-host-server
+    - hosts.anakin
