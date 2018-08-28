@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018082804 ; serial number
+	2018082805 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -168,7 +168,7 @@ anakin			IN	A	10.14.17.38
 he-ntp2			IN	CNAME	anakin
 he-rack2-ntp		IN	CNAME	anakin
 he-ns2			IN	CNAME	anakin
-he-rack2-ns
+he-rack2-ns		IN	CNAME	anakin
 ns3			IN	CNAME	anakin
 
 sigma00			IN	A	10.14.17.64
