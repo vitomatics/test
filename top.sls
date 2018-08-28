@@ -56,7 +56,7 @@ base:
     - profile.slurm-client
     - profile.webserver.system_auth
     - profile.site-jenkins
-    - profile.jenkins-server-default
+    - profile.jenkins-federation-server-default
     - profile.jenkins-webhook-server
     - hosts.vulcan
 
@@ -186,7 +186,7 @@ base:
     - profile.clusterclient
     - profile.slurm-client
     - profile.slurm-node
-    - profile.jenkins-slave
+    - profile.jenkins-federation-slave
     - profile.ganglia-node-compute
     - profile.telegraf-host-compute
     - hosts.gamma
@@ -198,7 +198,7 @@ base:
     - profile.clusterclient
     - profile.slurm-client
     - profile.slurm-node
-    - profile.jenkins-slave
+    - profile.jenkins-federation-slave
     - profile.ganglia-node-compute
     - profile.telegraf-host-compute
     - hosts.sigma
@@ -214,7 +214,7 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.labhost
-    - profile.jenkins-slave
+    - profile.jenkins-federation-slave
     - profile.slurm-client
     - profile.ganglia-node-server
     - profile.telegraf-host-server
@@ -225,7 +225,7 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.labhost
-    - profile.jenkins-slave
+    - profile.jenkins-federation-slave
     - profile.slurm-client
     - profile.ganglia-node-server
     - profile.telegraf-host-server
@@ -242,7 +242,7 @@ base:
     - subnet.sf-unix
     - profile.devel
     - profile.clusterclient
-    - profile.jenkins-slave
+    - profile.jenkins-federation-slave
     - profile.slurm-client
     - profile.slurm-node
     - profile.sfamtutil
@@ -419,7 +419,7 @@ base:
     - profile.webserver.system_auth
     - profile.slurm-client
     - profile.site-jenkinstest
-    - profile.jenkins-server-new
+    - profile.jenkins-federation-server-new
     - hosts.romulan
 
   'barnards.internal.sifive.com':
