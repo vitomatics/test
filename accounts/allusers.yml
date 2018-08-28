@@ -547,6 +547,7 @@ users:
     mail: farzad@sifive.com
     uid: 1165
     gid: 1165
+    shell: /usr/sbin/nologin
   jieltan:
     tags: [ cluster ]
     groups: [ compute ]
