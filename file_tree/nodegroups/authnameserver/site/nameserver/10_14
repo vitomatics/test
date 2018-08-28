@@ -7,7 +7,7 @@ $ORIGIN	14.10.in-addr.arpa.
 $TTL	86400
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018082801 ; serial number
+	2018082802 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -89,7 +89,7 @@ $TTL	86400
 35.17	IN	PTR	romulan.internal.sifive.com.
 36.17	IN	PTR	maul.internal.sifive.com.
 
-38.17	IN	PTR	anakin.internal.sifive.com
+38.17	IN	PTR	anakin.internal.sifive.com.
 
 64.17	IN	PTR	sigma00.internal.sifive.com.
 65.17	IN	PTR	sigma01.internal.sifive.com.
