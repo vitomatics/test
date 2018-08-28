@@ -29,11 +29,13 @@ bind:
         - 10.14.0.14
         - 10.14.16.38
         - 10.14.16.39
+        - 10.14.17.38
   configured_acls:
     sifive-nameservers:
       - 10.14.0.14
       - 10.14.16.38
       - 10.14.16.39
+      - 10.14.17.38
     sifive-auth-testclients:
       - 10.14.0.0/16
       - localhost
