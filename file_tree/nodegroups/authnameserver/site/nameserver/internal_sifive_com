@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018082802 ; serial number
+	2018082803 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -68,9 +68,11 @@ jenkins			IN	CNAME	vulcan
 
 leia			IN	A	10.14.16.38
 he-ntp0			IN	CNAME	leia
+he-ntp-rack1		IN	CNAME	leia
 ns0			IN	CNAME	leia
 
 he-ns0			IN	CNAME	leia
+he-ns-rack1		IN	CNAME	leia
 luke			IN	A	10.14.16.39
 he-ntp1			IN	CNAME	luke
 he-ns1			IN	CNAME	luke
@@ -164,7 +166,9 @@ maul			IN	A	10.14.17.36
 
 anakin			IN	A	10.14.17.38
 he-ntp2			IN	CNAME	anakin
+he-ntp-rack2		IN	CNAME	anakin
 he-ns2			IN	CNAME	anakin
+he-ns-rack2
 ns3			IN	CNAME	anakin
 
 sigma00			IN	A	10.14.17.64
