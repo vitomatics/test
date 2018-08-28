@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018082801 ; serial number
+	2018082802 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -163,6 +163,9 @@ jenkinstest		IN	CNAME	romulan
 maul			IN	A	10.14.17.36
 
 anakin			IN	A	10.14.17.38
+he-ntp2			IN	CNAME	anakin
+he-ns2			IN	CNAME	anakin
+ns3			IN	CNAME	anakin
 
 sigma00			IN	A	10.14.17.64
 s00			IN	CNAME	sigma01
