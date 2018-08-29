@@ -20,5 +20,5 @@ network:
 
 chrony:
   server:
-    - he-rack1-ntp.internal.sifive.com
-    - he-rack2-ntp.internal.sifive.com
+    - ntp0.internal.sifive.com
+    - ntp1.internal.sifive.com
