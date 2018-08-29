@@ -232,7 +232,7 @@ base:
     - hosts.b0
 
   'sandbox.internal.sifive.com':
-    - subnet.he-unix01
+    - subnet.he-dhcp
     - profile.devel
     - profile.clusterclient
     - profile.slurm-client
