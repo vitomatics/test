@@ -126,37 +126,37 @@ sfpreseed:
       static: true
       netmask: 255.255.240.0
       gateway: 10.14.0.1
-      nameservers: 10.14.0.14 10.14.16.39
-      ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
+      nameservers: 10.14.16.38 10.14.17.38
+      ntpservers: he-rack1-ntp.internal.sifive.com he-rack2-ntp.internal.sifive.com
       domain: internal.sifive.com
     sf-dynamic:
       static: false
-      ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
+      ntpservers: he-rack1-ntp.internal.sifive.com he-rack2-ntp.internal.sifive.com
       domain: internal.sifive.com
     he-unix-dynamic:
       static: false
-      ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
+      ntpservers: he-rack1-ntp.internal.sifive.com he-rack2-ntp.internal.sifive.com
       domain: internal.sifive.com
     he-unix01-static:
       static: true
       netmask: 255.255.255.0
       gateway: 10.14.16.1
-      nameservers: 10.14.16.38 10.14.16.39
-      ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
-      domain: internal.sifive.com
-    he-iso01-static:
-      static: true
-      netmask: 255.255.255.0
-      gateway: 10.134.16.1
-      nameservers: 10.14.16.38 10.14.16.39
-      ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
+      nameservers: 10.14.16.38 10.14.17.38
+      ntpservers: he-rack1-ntp.internal.sifive.com he-rack2-ntp.internal.sifive.com
       domain: internal.sifive.com
     he-unix02-static:
       static: true
       netmask: 255.255.255.0
       gateway: 10.14.17.1
-      nameservers: 10.14.16.38 10.14.16.39
-      ntpservers: he-ntp0.internal.sifive.com he-ntp1.internal.sifive.com
+      nameservers: 10.14.16.38 10.14.17.38
+      ntpservers: he-rack1-ntp.internal.sifive.com he-rack2-ntp.internal.sifive.com
+      domain: internal.sifive.com
+    he-iso01-static:
+      static: true
+      netmask: 255.255.255.0
+      gateway: 10.134.16.1
+      nameservers: 10.14.16.38 10.14.17.38
+      ntpservers: he-rack1-ntp.internal.sifive.com he-rack2-ntp.internal.sifive.com
       domain: internal.sifive.com
   trees:
     ubuntu:
