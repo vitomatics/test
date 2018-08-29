@@ -10,7 +10,7 @@ dhcpd:
   max-lease-time: 12960
   domain-name-servers:
     - 10.14.16.38
-    - 10.14.16.39
+    - 10.14.17.38
 
   subnets:
     # he-unix01-net
