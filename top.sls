@@ -58,6 +58,7 @@ base:
     - profile.site-jenkins
     - profile.jenkins-federation-server-default
     - profile.jenkins-webhook-server
+    - profile.regresslog-webhook-server
     - hosts.vulcan
 
   'klingon.internal.sifive.com':
@@ -420,6 +421,7 @@ base:
     - profile.slurm-client
     - profile.site-jenkinstest
     - profile.jenkins-federation-server-new
+    - profile.regresslog-webhook-server
     - hosts.romulan
 
   'barnards.internal.sifive.com':
