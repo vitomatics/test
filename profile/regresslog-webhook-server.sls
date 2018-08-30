@@ -4,6 +4,8 @@
 {% set regresslog_server_port = 8085 %}
 
 # As of 2018-08-30, actual server is set up by hand
+
+# Firewalling
 firewall:
   ports:
     tcp:
