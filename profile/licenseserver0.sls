@@ -58,6 +58,7 @@ flexnet:
       vport: 2101
       options:
         - GROUP sysadmin davidj jonstern mikemay
+        - GROUP eda han johnd
       licenses:
         xilinx-20170519:
           pillar: site:licenses:xilinxd:xilinx-20170519
