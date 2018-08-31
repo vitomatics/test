@@ -57,8 +57,7 @@ flexnet:
       port: 2100
       vport: 2101
       options:
-        - GROUP sysadmin davidj jonstern mikemay
-        - GROUP eda han johnd
+        - RESERVE 1 Vivado_Design_Edition:VERSION=2019.08 USER jenkins
       licenses:
         xilinx-20170519:
           pillar: site:licenses:xilinxd:xilinx-20170519
