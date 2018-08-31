@@ -56,6 +56,8 @@ flexnet:
       bindir: linux_flexlm_v11.14.1.0/lnx64.o
       port: 2100
       vport: 2101
+      options:
+        - GROUP sysadmin davidj jonstern mikemay
       licenses:
         xilinx-20170519:
           pillar: site:licenses:xilinxd:xilinx-20170519
