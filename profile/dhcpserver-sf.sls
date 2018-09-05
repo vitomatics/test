@@ -8,7 +8,7 @@ dhcpd:
     - lo
   domain-name-servers: 
     - 10.14.0.14
-    - 10.14.16.39
+    - 10.14.16.38
   subnets:
     # sf-unix-net
     10.14.0.0:
@@ -18,7 +18,7 @@ dhcpd:
         - unknown-clients
       ntp-servers:
         - 10.14.0.14
-        - 10.14.16.39
+        - 10.14.16.38
 
       pools:
         install_pool:
