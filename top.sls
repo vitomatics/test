@@ -77,7 +77,7 @@ base:
     - profile.login
     - profile.desktop
     - profile.slurm-client
-    - profile.nomachine-eval
+    - profile.nomachine-unlicensed
     - profile.sfamtutil
     - profile.ganglia-node-server
     - profile.telegraf-host-server
