@@ -755,6 +755,13 @@ users:
     mail: rick.leatherman@sifive.com
     uid: 1193
     gid: 1193
+  brucea:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Bruce Abledinger"
+    mail: bruce.abledinger@sifive.com
+    uid: 1194
+    gid: 1194
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
