@@ -720,6 +720,41 @@ users:
     mail: ravi.kumar@sifive.com
     uid: 1188
     gid: 1188
+  edh:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Ed Halferty"
+    mail: ed.halferty@sifive.com
+    uid: 1189
+    gid: 1189
+  erniee:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Ernie Edgar"
+    mail: ernie.edgar@sifive.com
+    uid: 1190
+    gid: 1190
+  gregs:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Greg Savin"
+    mail: greg.savin@sifive.com
+    uid: 1191
+    gid: 1191
+  kevinm:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Kevin Mills"
+    mail: kevin.mills@sifive.com
+    uid: 1192
+    gid: 1192
+  rickl:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Rick Leatherman"
+    mail: rick.leatherman@sifive.com
+    uid: 1193
+    gid: 1193
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
