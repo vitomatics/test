@@ -2,6 +2,7 @@
 
 include:
   - secret.jenkins-federation-user-public
+  - secret.jenkins-federation-user-private
 
 {% set jenkinsdir = '/var/lib/jenkins' %}
 
@@ -10,7 +11,7 @@ include:
 
 
 states:
-  jenkins.slave: true
+  jenkins.slave_with_ssh: true
 
 jenkins:
   slave:
