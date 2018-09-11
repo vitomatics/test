@@ -453,3 +453,7 @@ base:
     - profile.ganglia-node-server
     - profile.telegraf-host-server
     - hosts.anakin
+
+  'magrathea.internal.sifive.com':
+    - subnet.he-unix02
+    - hosts.magrathea

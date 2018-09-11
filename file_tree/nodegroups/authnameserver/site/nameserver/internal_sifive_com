@@ -163,7 +163,7 @@ syslogin		IN	CNAME	zarss
 romulan			IN	A	10.14.17.35
 jenkinstest		IN	CNAME	romulan
 maul			IN	A	10.14.17.36
-
+magrathea		In	A	10.14.17.37
 anakin			IN	A	10.14.17.38
 he-ntp2			IN	CNAME	anakin
 he-rack2-ntp		IN	CNAME	anakin

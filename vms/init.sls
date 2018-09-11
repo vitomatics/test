@@ -17,6 +17,7 @@ include:
   - vms.klingon
   - vms.leia
   - vms.luke
+  - vms.magrathea
   - vms.matrix
   - vms.maul
   - vms.romulan
