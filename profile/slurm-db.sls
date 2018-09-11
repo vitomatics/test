@@ -19,6 +19,7 @@ slurm:
     StorageType: mysql
     PurgeStepAfter: 30days
     PurgeJobAfter: 60days
+    DebugLevel: debug
 
 firewall:
   ports:
