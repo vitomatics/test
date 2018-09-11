@@ -22,7 +22,7 @@ jenkins:
 
 pam:
   access:
-    jenkins: 10.14.0.10 # jenkins.internal.sifive.com
+    jenkins: 10.14.0.0/16
 
 sudo:
   included:
