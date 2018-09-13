@@ -93,6 +93,9 @@ $TTL	86400
 130.240	IN	PTR	iswitch03-me0.internal.sifive.com.
 131.240	IN	PTR	iswitch04-me0.internal.sifive.com.
 132.240	IN	PTR	iswitch05-me0.internal.sifive.com.
+133.240	IN	PTR	iswitch06-me0.internal.sifive.com.
+134.240	IN	PTR	iswitch07-me0.internal.sifive.com.
+
 159.240	IN	PTR	wac01-admin.internal.sifive.com.
 160.240	IN	PTR	wap01-admin.internal.sifive.com.
 161.240	IN	PTR	wap02-admin.internal.sifive.com.
