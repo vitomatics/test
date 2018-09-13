@@ -762,6 +762,13 @@ users:
     mail: bruce.abledinger@sifive.com
     uid: 1194
     gid: 1194
+  saching:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Sachin Ghadi"
+    mail: sachin.ghadi@sifive.com
+    uid: 1195
+    gid: 1195
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
