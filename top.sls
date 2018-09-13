@@ -294,6 +294,7 @@ base:
     - profile.ganglia-node-server
     - profile.telegraf-host-server
     - profile.mysql-server-local
+    - profile.mysql-slurmdbd-tweaks
     - profile.slurm-db
     - profile.slurm-server
     - profile.slurm-acct
