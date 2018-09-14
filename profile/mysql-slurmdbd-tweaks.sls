@@ -10,5 +10,5 @@ mysql:
       # innodb_log_file_size default 50331648
       innodb_log_file_size: 134217728
       # innodb_buffer_pool_size default 134217728
-      innodb_buffer_pool_size: 2147483648
+      innodb_buffer_pool_size: 1073741824
       
