@@ -217,6 +217,8 @@ pkgs:
     terminator: true
     libftdi1-dev: true
     libfuse-dev: true
+    re2c: true
+    libre2-dev: true
 
     ## windows development
     mingw-w64: true
