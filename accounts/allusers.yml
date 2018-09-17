@@ -769,6 +769,13 @@ users:
     mail: sachin.ghadi@sifive.com
     uid: 1195
     gid: 1195
+  bens:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Ben Stavely"
+    mail: ben.stavely@sifive.com
+    uid: 1196
+    gid: 1196
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
