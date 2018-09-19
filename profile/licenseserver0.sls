@@ -20,6 +20,10 @@ flexnet:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/Intel/Altera/flexlm/flexlm-18.0.0.219.tar.gz
       dir: flexlm-18.0.0.219
+    breker:
+      disttype: tgz
+      disturl: http://sfimages.internal.sifive.com/Breker/flexlm/breker-flexlm-20180905.tar.gz
+      dir: breker-flexlm-20180905
   daemons:
     mgcld:
       vendor: mentor
@@ -72,6 +76,14 @@ flexnet:
       licenses:
         altera-20180726:
           pillar: site:licenses:alterad:altera-20180726
+    BREKER:
+      vendor: breker
+      bindir: breker-flexlm-20180905
+      port: 27040
+      vport: 27041
+      licenses:
+        treksoc-20180917:
+          pillar: site:licenses:BREKER:treksoc-20180917
 
 
 ## Firewall holes for flexnet server
