@@ -104,6 +104,9 @@ dhcpd:
     terrapin:
       hardware: ethernet 68:05:ca:2d:95:c3
       fixed-address: terrapin.internal.sifive.com
+    labpdu01:
+      hardware: ethernet 28:29:86:06:cb:0e
+      fixed-address: labpdu01.internal.sifive.com
     # labusb hosts
     labusb00:
       hardware: ethernet d4:6e:0e:06:6b:fb
