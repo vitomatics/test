@@ -13,14 +13,14 @@ slurm:
 
   # Execution node
   ProctrackType: linuxproc
-
+  
   # Controller
   SchedulerType: backfill
   SelectType: cons_res
   SelectTypeParameters: CR_CPU_Memory
 
-  JobCompType: filetxt
-  JobCompLoc: /var/log/slurm-llnl/jobcomp.log
+  JobCompType: none
+  # JobCompLoc: /var/log/slurm-llnl/jobcomp.log
 
   JobAcctGatherType: cgroup
 

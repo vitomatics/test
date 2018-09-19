@@ -5,8 +5,8 @@ sfvirt:
     grid:
       type: libvirt
       vmhost: marvin.internal.sifive.com
-      vcpus: 2
-      memory: 4096   # In MB
+      vcpus: 4
+      memory: 12288   # In MB
       autostart: on
       ifs:
         eth0:
