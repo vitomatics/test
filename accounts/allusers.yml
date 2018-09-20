@@ -776,6 +776,13 @@ users:
     mail: ben.stavely@sifive.com
     uid: 1196
     gid: 1196
+  jahoorv:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Jahoor Vohra"
+    mail: jahoor.vohra@sifive.com
+    uid: 1197
+    gid: 1197
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
