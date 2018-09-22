@@ -783,6 +783,13 @@ users:
     mail: jahoor.vohra@sifive.com
     uid: 1197
     gid: 1197
+  mikec:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Mike Cave"
+    mail: mike.cave@sifive.com
+    uid: 1198
+    gid: 1198
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
