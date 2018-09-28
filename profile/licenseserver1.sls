@@ -64,8 +64,8 @@ flexnet:
         cadence-20180914:
           pillar: site:licenses:cdslmd:cadence-20180914
         cadence-20180927:
-	  pillar: site:licenses:cdslmd:cadence-20180927   
-  interrad:
+          pillar: site:licenses:cdslmd:cadence-20180927
+    interrad:
       vendor: tsmc
       bindir: MC2_2012.02.00.d/aux/flexlm/amd64_re3
       port: 27010
