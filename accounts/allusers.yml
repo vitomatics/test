@@ -805,6 +805,7 @@ users:
     mail: michael.cave@sifive.com
     uid: 1200
     gid: 1200
+    shell: /usr/sbin/nologin
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
