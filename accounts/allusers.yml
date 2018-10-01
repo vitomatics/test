@@ -790,6 +790,13 @@ users:
     mail: mike.cave@sifive.com
     uid: 1198
     gid: 1198
+  erikd:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Erik Danie"
+    mail: erik.danie@sifive.com
+    uid: 1199
+    gid: 1199
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
