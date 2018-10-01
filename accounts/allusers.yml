@@ -790,6 +790,7 @@ users:
     mail: mike.cave@sifive.com
     uid: 1198
     gid: 1198
+    shell: /usr/sbin/nologin
   erikd:
     tags: [ cluster ]
     groups: [ compute ]
@@ -797,6 +798,13 @@ users:
     mail: erik.danie@sifive.com
     uid: 1199
     gid: 1199
+  michaelc:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Michael Cave"
+    mail: michael.cave@sifive.com
+    uid: 1200
+    gid: 1200
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
