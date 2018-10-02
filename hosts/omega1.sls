@@ -87,7 +87,7 @@ sfdump:
       acls: false
       xattrs: false
       bwlimit: 12000
-      timeout: 4h
+      timeout: 6h
     sifive:
       client: netapp1-nfs1.internal.sifive.com
       export: /sifive
