@@ -1,8 +1,5 @@
 # pillar file for HE (Fremont) based machines
 
-states:
-  sfmotd: true
-
 location:
   short: HE
 
