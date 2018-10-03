@@ -101,18 +101,20 @@ sfsalt:
         - altair.internal.sifive.com
         - betel.internal.sifive.com
         - frogstar.internal.sifive.com
+        - barnards.internal.sifive.com
         - gamma*.internal.sifive.com
         - sigma*.internal.sifive.com
         - delta*.internal.sifive.com
         - alpha.internal.sifive.com
+        - b0.internal.sifive.com
         - sandbox.internal.sifive.com
         - grid.internal.sifive.com
+        - romulan.internal.sifive.com
+        - vulcan.internal.sifive.com
       slurmnode:
         - gamma*.internal.sifive.com
         - sigma*.internal.sifive.com
         - delta*.internal.sifive.com
-        - alpha.internal.sifive.com
-        - sandbox.internal.sifive.com
       slurmserver:
         - grid.internal.sifive.com
       authnameserver:
