@@ -14,6 +14,9 @@ states:
   policyrc: true
   sfrsyslog: true
   rsyslog.client: true
+{% if grains.os == 'Ubuntu' %}
+  sfmotd: true
+{% endif %}
 
 nss:
   group:

@@ -227,6 +227,7 @@ pkgs:
     libmotif-dev: true
     libxm4:i386: true
     libglib2.0-0:i386: true
+    libxtst6:i386: true
 
     ## General cpu tools
     qemu: true
