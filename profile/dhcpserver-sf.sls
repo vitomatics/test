@@ -70,6 +70,10 @@ dhcpd:
       hardware: ethernet 94:c6:91:10:69:5e
       fixed-address: delta03.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+    epsilon00:
+      hardware: ethernet 54:b2:03:0b:cb:95
+      fixed-address: epsilon00.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
     # Lab machines
     nuc1:
       hardware: ethernet f4:4d:30:61:c2:49

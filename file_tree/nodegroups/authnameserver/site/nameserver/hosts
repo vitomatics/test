@@ -45,6 +45,7 @@
 10.14.4.3 delta01		# assigned by DHCP
 10.14.4.4 delta02		# assigned by DHCP
 10.14.4.5 delta03		# assigned by DHCP
+10.14.4.6 epsilon00		# assigned by DHCP
 
 10.14.3.225 pxeclient225
 ...

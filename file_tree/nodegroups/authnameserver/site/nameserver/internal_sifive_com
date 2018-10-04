@@ -45,6 +45,7 @@ delta00		IN	A	10.14.4.2
 delta01		IN	A	10.14.4.3
 delta02		IN	A	10.14.4.4
 delta03		IN	A	10.14.4.5
+epsilon00	IN	A	10.14.4.6
 
 iswitch15-vlan101	IN	A	10.14.16.1
 he-unix01-net-gw	IN	CNAME	iswitch15-vlan101

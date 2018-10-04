@@ -253,6 +253,20 @@ base:
     - profile.telegraf-host-server
     - hosts.delta
 
+  'epsilon*.internal.sifive.com':
+    - subnet.sf-unix
+    - profile.devel
+    - profile.clusterclient
+    - profile.jenkins-federation-slave
+    - profile.slurm-client
+    - profile.slurm-node
+    - profile.sfamtutil
+    - profile.fpgahost2
+    - profile.managed-nuc
+    - profile.ganglia-node-server
+    - profile.telegraf-host-server
+    - hosts.epsilon
+
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
     - profile.clusterclient

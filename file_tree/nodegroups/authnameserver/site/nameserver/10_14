@@ -32,6 +32,7 @@ $TTL	86400
 3.4	IN	PTR	delta01.internal.sifive.com.
 4.4	IN	PTR	delta02.internal.sifive.com.
 5.4	IN	PTR	delta03.internal.sifive.com.
+6.4	IN	PTR	epsilon00.internal.sifive.com.
 
 1.16	IN	PTR	iswitch15-vlan101.internal.sifive.com.
 
