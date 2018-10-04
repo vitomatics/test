@@ -126,7 +126,10 @@ sfsalt:
         - algol.internal.sifive.com
         - alpha.internal.sifive.com
         - altair.internal.sifive.com
+        - anakin.internal.sifive.com
+        - awstest.internal.sifive.com
         - b0.internal.sifive.com
+        - barnards.internal.sifive.com
         - bender.internal.sifive.com
         - betel.internal.sifive.com
         - chappie.internal.sifive.com
@@ -136,22 +139,24 @@ sfsalt:
         - eddie.internal.sifive.com
         - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
-        - sigma*.internal.sifive.com
-        - hal.internal.sifive.com
-        - heartofgold.internal.sifive.com
         - gravelpit.internal.sifive.com
         - grid.internal.sifive.com
+        - hal.internal.sifive.com
         - hansolo.internal.sifive.com
+        - heartofgold.internal.sifive.com
         - jabba.internal.sifive.com
         - jarjar.internal.sifive.com
         - klingon.internal.sifive.com
         - leia.internal.sifive.com
         - luke.internal.sifive.com
+        - magrathea.internal.sifive.com
         - omega1.internal.sifive.com
         - marvin.internal.sifive.com
         - matrix.internal.sifive.com
-        - mnuc00.internal.sifive.com
+        - maul.internal.sifive.com
+        - romulan.internal.sifive.com
         - sandbox.internal.sifive.com
+        - sigma*.internal.sfive.com
         - skynet.internal.sifive.com
         - tardis.internal.sifive.com
         - transporter.internal.sifive.com
@@ -160,6 +165,7 @@ sfsalt:
         - vulcan.internal.sifive.com
         - wall-e.internal.sifive.com
         - yoda.internal.sifive.com
+        - zarss.internal.sifive.com
       isolated:
         - lambda00.internal.sifive.com
 
