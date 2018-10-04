@@ -416,7 +416,7 @@ sfpreseed:
           diskmethod: crypto
           disklayout: server_ssd_disk
         sandbox:
-          ipaddress: 10.14.16.36
+          ipaddress: 10.14.17.39
           subnet: he-unix02-static
           serial: '0'
           diskname: /dev/vda
