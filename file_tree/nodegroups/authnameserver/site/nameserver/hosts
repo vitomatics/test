@@ -61,7 +61,7 @@
 10.14.16.33 marvin
 10.14.16.34 transporter trans
 10.14.16.35 dalek
-10.14.16.36 sandbox
+# 10.14.16.36 sandbox
 10.14.16.37 vulcan
 10.14.16.38 leia ntp0
 10.14.16.39 luke ntp1
@@ -123,6 +123,7 @@
 10.14.17.36 maul
 10.14.17.37 magrathea
 10.14.17.38 anakin
+10.14.17.39 sandbox
 
 10.14.17.64 sigma00 s00
 10.14.17.65 sigma01 s01

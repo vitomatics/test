@@ -417,7 +417,7 @@ sfpreseed:
           disklayout: server_ssd_disk
         sandbox:
           ipaddress: 10.14.16.36
-          subnet: he-unix01-static
+          subnet: he-unix02-static
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm

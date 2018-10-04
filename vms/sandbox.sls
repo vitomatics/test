@@ -6,9 +6,9 @@ sfvirt:
       type: libvirt
       dist: xenial-default
       preseed: sandbox
-      vmhost: marvin.internal.sifive.com
-      vcpus: 1
-      memory: 2048   # In MB
+      vmhost: chappie.internal.sifive.com
+      vcpus: 2
+      memory: 4096   # In MB
       autostart: off
       vnc: on
       ifs:
@@ -19,4 +19,4 @@ sfvirt:
         root:
           vdtype: lvm
           size: 20G
-          vg: vmpool02
+          vg: vmpool04

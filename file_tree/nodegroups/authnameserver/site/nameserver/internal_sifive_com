@@ -62,7 +62,6 @@ sfimages		IN	CNAME	dalek
 pxe			IN	CNAME	dalek
 install			IN	CNAME	dalek
 
-sandbox			IN	A	10.14.16.36
 vulcan			IN	A	10.14.16.37
 jenkins			IN	CNAME	vulcan
 
@@ -170,6 +169,7 @@ he-rack2-ntp		IN	CNAME	anakin
 he-ns2			IN	CNAME	anakin
 he-rack2-ns		IN	CNAME	anakin
 ns3			IN	CNAME	anakin
+sandbox			IN	A	10.14.17.39
 
 sigma00			IN	A	10.14.17.64
 s00			IN	CNAME	sigma01

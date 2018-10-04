@@ -39,7 +39,7 @@ $TTL	86400
 33.16	IN	PTR	marvin.internal.sifive.com.
 34.16	IN	PTR	transporter.internal.sifive.com.
 35.16	IN	PTR	dalek.internal.sifive.com.
-36.16	IN	PTR	sandbox.internal.sifive.com.
+
 37.16	IN	PTR	vulcan.internal.sifive.com.
 38.16	IN	PTR	leia.internal.sifive.com.
 39.16	IN	PTR	luke.internal.sifive.com.
@@ -90,6 +90,7 @@ $TTL	86400
 36.17	IN	PTR	maul.internal.sifive.com.
 37.17	IN	PTR	magrathea.internal.sifive.com.
 38.17	IN	PTR	anakin.internal.sifive.com.
+39.17	IN	PTR	sandbox.internal.sifive.com.
 
 64.17	IN	PTR	sigma00.internal.sifive.com.
 65.17	IN	PTR	sigma01.internal.sifive.com.
