@@ -806,6 +806,20 @@ users:
     uid: 1200
     gid: 1200
     shell: /usr/sbin/nologin
+  johni:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "John Ingalls"
+    mail: john.ingalls@sifive.com
+    uid: 1201
+    gid: 1201
+  philipps:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Philipp Seidl"
+    mail: philipp.seidl@sifive.com
+    uid: 1202
+    gid: 1202
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
