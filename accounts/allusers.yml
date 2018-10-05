@@ -820,6 +820,13 @@ users:
     mail: philipp.seidl@sifive.com
     uid: 1202
     gid: 1202
+  shivia:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Shivi Arora"
+    mail: shivi.arora@sifive.com
+    uid: 1203
+    gid: 1203
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
