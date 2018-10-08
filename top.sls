@@ -234,9 +234,6 @@ base:
 
   'sandbox.internal.sifive.com':
     - subnet.he-unix02
-    - profile.devel
-    - profile.clusterclient
-    - profile.slurm-client
     - hosts.sandbox
 
   'delta*.internal.sifive.com':
