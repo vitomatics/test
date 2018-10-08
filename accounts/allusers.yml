@@ -820,6 +820,7 @@ users:
     mail: philipp.seidl@sifive.com
     uid: 1202
     gid: 1202
+    shell: /usr/sbin/nologin
   shivia:
     tags: [ cluster ]
     groups: [ compute ]
