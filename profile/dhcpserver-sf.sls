@@ -74,6 +74,124 @@ dhcpd:
       hardware: ethernet 54:b2:03:0b:cb:95
       fixed-address: epsilon00.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+    epsilon01:
+      hardware: ethernet 54:b2:03:0b:cc:5c
+      fixed-address: epsilon01.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon02:
+      hardware: ethernet 54:b2:03:0b:cb:ac
+      fixed-address: epsilon02.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon03:
+      hardware: ethernet 54:b2:03:0b:cc:75
+      fixed-address: epsilon03.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon04:
+      hardware: ethernet 54:b2:03:0b:cb:c6
+      fixed-address: epsilon04.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon05:
+      hardware: ethernet 54:b2:03:0b:cc:38
+      fixed-address: epsilon05.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon06:
+      hardware: ethernet 54:b2:03:0b:cb:c4
+      fixed-address: epsilon06.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon07:
+      hardware: ethernet 54:b2:03:0b:cc:57
+      fixed-address: epsilon07.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon08:
+      hardware: ethernet 54:b2:03:0b:cb:e5
+      fixed-address: epsilon08.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon09:
+      hardware: ethernet 54:b2:03:0b:cb:2f
+      fixed-address: epsilon09.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon10:
+      hardware: ethernet 54:b2:03:0b:ca:fe
+      fixed-address: epsilon10.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon11:
+      hardware: ethernet 54:b2:03:0b:cc:9a
+      fixed-address: epsilon11.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon12:
+      hardware: ethernet 54:b2:03:0b:cb:30
+      fixed-address: epsilon12.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon13:
+      hardware: ethernet 54:b2:03:0b:cb:a2
+      fixed-address: epsilon13.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon14:
+      hardware: ethernet 54:b2:03:0b:cc:87
+      fixed-address: epsilon14.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon15:
+      hardware: ethernet 54:b2:03:0b:a9:24
+      fixed-address: epsilon15.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon16:
+      hardware: ethernet 54:b2:03:0b:ba:2f
+      fixed-address: epsilon16.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon17:
+      hardware: ethernet 54:b2:03:0b:a9:90
+      fixed-address: epsilon17.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon18:
+      hardware: ethernet 54:b2:03:0b:a7:7c
+      fixed-address: epsilon18.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon19:
+      hardware: ethernet 54:b2:03:0b:b5:5f
+      fixed-address: epsilon19.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon20:
+      hardware: ethernet 54:b2:03:0b:cc:88
+      fixed-address: epsilon20.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon21:
+      hardware: ethernet 54:b2:03:0b:cc:62
+      fixed-address: epsilon21.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon22:
+      hardware: ethernet 54:b2:03:0b:cc:6c
+      fixed-address: epsilon22.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon23:
+      hardware: ethernet 54:b2:03:0b:cc:36
+      fixed-address: epsilon23.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon24:
+      hardware: ethernet 54:b2:03:0b:cb:77
+      fixed-address: epsilon24.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon25:
+      hardware: ethernet 54:b2:03:0b:cc:9b
+      fixed-address: epsilon25.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon26:
+      hardware: ethernet 54:b2:03:0b:cc:32
+      fixed-address: epsilon26.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon27:
+      hardware: ethernet 54:b2:03:0b:cb:27
+      fixed-address: epsilon27.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon28:
+      hardware: ethernet 54:b2:03:0b:cb:2e
+      fixed-address: epsilon28.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    epsilon29:
+      hardware: ethernet 54:b2:03:0b:cb:2c
+      fixed-address: epsilon29.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+
+
     # Lab machines
     nuc1:
       hardware: ethernet f4:4d:30:61:c2:49

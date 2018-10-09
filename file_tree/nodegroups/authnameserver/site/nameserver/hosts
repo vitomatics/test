@@ -46,6 +46,35 @@
 10.14.4.4 delta02		# assigned by DHCP
 10.14.4.5 delta03		# assigned by DHCP
 10.14.4.6 epsilon00		# assigned by DHCP
+10.14.4.7 epsilon01		# assigned by DHCP
+10.14.4.8 epsilon02		# assigned by DHCP
+10.14.4.9 epsilon03		# assigned by DHCP
+10.14.4.10 epsilon04		# assigned by DHCP
+10.14.4.11 epsilon05		# assigned by DHCP
+10.14.4.12 epsilon06		# assigned by DHCP
+10.14.4.13 epsilon07		# assigned by DHCP
+10.14.4.14 epsilon08		# assigned by DHCP
+10.14.4.15 epsilon09		# assigned by DHCP
+10.14.4.16 epsilon10		# assigned by DHCP
+10.14.4.17 epsilon11		# assigned by DHCP
+10.14.4.18 epsilon12		# assigned by DHCP
+10.14.4.19 epsilon13		# assigned by DHCP
+10.14.4.20 epsilon14		# assigned by DHCP
+10.14.4.21 epsilon15		# assigned by DHCP
+10.14.4.22 epsilon16		# assigned by DHCP
+10.14.4.23 epsilon17		# assigned by DHCP
+10.14.4.24 epsilon18		# assigned by DHCP
+10.14.4.25 epsilon19		# assigned by DHCP
+10.14.4.26 epsilon20		# assigned by DHCP
+10.14.4.27 epsilon21		# assigned by DHCP
+10.14.4.28 epsilon22		# assigned by DHCP
+10.14.4.29 epsilon23		# assigned by DHCP
+10.14.4.30 epsilon24		# assigned by DHCP
+10.14.4.31 epsilon25		# assigned by DHCP
+10.14.4.32 epsilon26		# assigned by DHCP
+10.14.4.33 epsilon27		# assigned by DHCP
+10.14.4.34 epsilon28		# assigned by DHCP
+10.14.4.35 epsilon29		# assigned by DHCP
 
 10.14.3.225 pxeclient225
 ...
