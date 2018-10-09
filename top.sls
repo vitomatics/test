@@ -309,6 +309,7 @@ base:
     - profile.slurm-db
     - profile.slurm-server
     - profile.slurm-acct
+    - profile.jenkins-rootuser-access
     - profile.backupclient
     - hosts.grid
 
