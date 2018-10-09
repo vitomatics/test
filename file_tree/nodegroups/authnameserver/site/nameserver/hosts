@@ -485,11 +485,6 @@
 10.134.192.6 mw03ut01 mw03-login
 ...
 
-## 10.134.194.0->10.134.195.255 cad2-iso-net
-# Cadence mi01 chamber on Azure, mapped into SiFive IP space
-...
-10.134.194.6 mi01ut01 mi01-login
-...
 
 ## 12.206.222.0->12.206.222.7 att-sifive0-net
 # 12.206.222.0 RESERVED - do not use
@@ -554,9 +549,6 @@
 
 ## Cadence mw03 chamber VPN endpoint
 104.42.251.220 cad1-mw03-vpn
-
-## Cadence mi01 chamber VPN endpoint
-104.211.200.48 cad2-mi01-vpn
 
 ## 169.254.0.0->169.254.255.255 
 ## used by NetApp internal networks
