@@ -408,6 +408,12 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: compute_ssd
+        epsilon:
+          subnet: sf-dynamic
+          kargs: text nomodeset xforcevesa
+          diskname: /dev/sda
+          diskmethod: lvm
+          disklayout: compute_ssd
         epsilon00:
           subnet: sf-dynamic
           kargs: text nomodeset xforcevesa

@@ -78,6 +78,7 @@ dhcpd:
       hardware: ethernet 54:b2:03:0b:cc:5c
       fixed-address: epsilon01.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
+      host-name: epsilon01.internal.sifive.com
     epsilon02:
       hardware: ethernet 54:b2:03:0b:cb:ac
       fixed-address: epsilon02.internal.sifive.com
