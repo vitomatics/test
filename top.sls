@@ -237,7 +237,6 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.slurm-client
-    - profile.slurm-node
     - profile.jenkins-federation-slave
     - hosts.sandbox
 
