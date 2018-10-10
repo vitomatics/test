@@ -231,85 +231,7 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
-        gamma00:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma01:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma02:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma03:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma04:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma05:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma06:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma07:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma10:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma11:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma12:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma13:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma14:
-          subnet: he-unix-dynamic
-          serial: '0'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: gamma_disk
-        gamma15:
+        gamma:
           subnet: he-unix-dynamic
           serial: '0'
           diskname: /dev/sda
@@ -384,37 +306,13 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
-        delta00:
-          subnet: sf-dynamic
-          kargs: text nomodeset xforcevesa
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd
-        delta01:
-          subnet: sf-dynamic
-          kargs: text nomodeset xforcevesa
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd
-        delta02:
-          subnet: sf-dynamic
-          kargs: text nomodeset xforcevesa
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd
-        delta03:
+        delta:
           subnet: sf-dynamic
           kargs: text nomodeset xforcevesa
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: compute_ssd
         epsilon:
-          subnet: sf-dynamic
-          kargs: text nomodeset xforcevesa
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd
-        epsilon00:
           subnet: sf-dynamic
           kargs: text nomodeset xforcevesa
           diskname: /dev/sda
@@ -495,91 +393,7 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: crypto
           disklayout: compute_ssd_noscratch
-        sigma00:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma01:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma02:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma03:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma04:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma05:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma06:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma07:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma08:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma09:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma10:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma11:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma12:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma13:
-          subnet: he-unix-dynamic
-          serial: '1'
-          diskname: /dev/sda
-          diskmethod: lvm
-          disklayout: compute_ssd_noscratch
-        sigma14:
+        sigma:
           subnet: he-unix-dynamic
           serial: '1'
           diskname: /dev/sda
