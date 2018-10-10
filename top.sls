@@ -188,6 +188,7 @@ base:
     - profile.slurm-client
     - profile.slurm-node
     - profile.jenkins-federation-slave
+    - profile.jenkins-rootuser-access
     - profile.ganglia-node-compute
     - profile.telegraf-host-compute
     - hosts.gamma
@@ -200,6 +201,7 @@ base:
     - profile.slurm-client
     - profile.slurm-node
     - profile.jenkins-federation-slave
+    - profile.jenkins-rootuser-access
     - profile.ganglia-node-compute
     - profile.telegraf-host-compute
     - hosts.sigma
@@ -247,6 +249,7 @@ base:
     - profile.jenkins-federation-slave
     - profile.slurm-client
     - profile.slurm-node
+    - profile.jenkins-rootuser-access
     - profile.sfamtutil
     - profile.fpgahost2
     - profile.managed-nuc
@@ -261,6 +264,7 @@ base:
     - profile.jenkins-federation-slave
     - profile.slurm-client
     - profile.slurm-node
+    - profile.jenkins-rootuser-access
     - profile.sfamtutil
     - profile.fpgahost2
     - profile.managed-nuc
