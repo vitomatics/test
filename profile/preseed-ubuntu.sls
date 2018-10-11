@@ -5,6 +5,37 @@ states:
 
 sfpreseed:
   disklayouts:
+    boardtest_ssd:
+      swap:
+        size: 17176
+      boot:
+        size: 1074
+        filesystem: ext4
+      parts:
+        root:
+          mountpoint: /
+          size: 68704
+          options:
+            - noatime
+        var:
+          mountpoint: /var
+          size: 34352
+          options:
+            - nodev
+            - relatime
+        boardtest:
+          mountpoint: /export/boardtest
+          size: 42949
+          options:
+            - nodev
+            - relatime
+        scratch:
+          mountpoint: /scratch
+          size: unlimited
+          options:
+            - nodev
+            - nosuid
+            - noatime
     compute_ssd:
       swap:
         size: 17176
@@ -317,7 +348,7 @@ sfpreseed:
           kargs: text nomodeset xforcevesa
           diskname: /dev/sda
           diskmethod: lvm
-          disklayout: compute_ssd
+          disklayout: boardtest_ssd
         omega1:
           ipaddress: 10.14.1.5
           subnet: sf-static
