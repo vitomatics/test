@@ -252,14 +252,17 @@ base:
     - profile.jenkins-rootuser-access
     - profile.sfamtutil
     - profile.fpgahost2
+    - profile.snmp-client
     - profile.managed-nuc
     - profile.ganglia-node-server
     - profile.telegraf-host-server
+    - profile.snmp-client
     - hosts.delta
 
   'epsilon*.internal.sifive.com':
     - subnet.sf-unix
     - profile.devel
+    - profile.snmp-client
     - profile.clusterclient
     - profile.jenkins-federation-slave
     - profile.slurm-client
@@ -267,6 +270,7 @@ base:
     - profile.jenkins-rootuser-access
     - profile.sfamtutil
     - profile.fpgahost2
+    - profile.snmp-client
     - profile.managed-nuc
     - profile.ganglia-node-server
     - profile.telegraf-host-server
