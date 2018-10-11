@@ -31,6 +31,11 @@ dhcpd:
           allow:
             - members of "pxeclient"
             - members of "debinstall"
+    # sf-dev-net
+    10.15.0.0:
+      netmask: 255.255.240.0
+      routers: 10.15.0.1
+      
     # sf-lab-net
     10.16.0.0:
       netmask: 255.255.240.0
@@ -49,6 +54,10 @@ dhcpd:
             - 10.16.0.128
             - 10.16.0.191
   hosts:
+    # Stuff on dev-net
+    labpdu01:
+      hardware: ethernet 28:29:86:06:cb:0e
+      fixed-address: labpdu01.internal.sifive.com
     # Test machines
     gravelpit:
       hardware: ethernet 52:54:00:ff:00:0b
@@ -261,9 +270,6 @@ dhcpd:
     terrapin:
       hardware: ethernet 68:05:ca:2d:95:c3
       fixed-address: terrapin.internal.sifive.com
-    labpdu01:
-      hardware: ethernet 28:29:86:06:cb:0e
-      fixed-address: labpdu01.internal.sifive.com
     # labusb hosts
     labusb00:
       hardware: ethernet d4:6e:0e:06:6b:fb
