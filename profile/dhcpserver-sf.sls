@@ -58,6 +58,7 @@ dhcpd:
     labpdu01:
       hardware: ethernet 28:29:86:06:cb:0e
       fixed-address: labpdu01.internal.sifive.com
+      host-name: labpdu01.internal.sifive.com
     # Test machines
     gravelpit:
       hardware: ethernet 52:54:00:ff:00:0b
