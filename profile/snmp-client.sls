@@ -14,3 +14,4 @@ snmp:
     - sifive/EATON-EPDU-MIB: {{sfimages}}/Eaton/ePDU/EATON-EPDU-MIB.txt
     - sifive/JUNIPER-SMI: {{junosmibs}}/mib-jnx-smi.txt
     - sifive/JUNIPER-MIB: {{junosmibs}}/mib-jnx-chassis.txt
+    - sifive/APC-POWERNET-MIB: {{sfimages}}/APC/MIBs/powernet426.mib.txt
