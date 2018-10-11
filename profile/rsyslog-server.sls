@@ -25,7 +25,7 @@ rsyslog:
               action(type="omfile" file="/srv/log/syslog/syslog.log")
               stop
           }
-          if (prifilt("local6.*")) then {
+          if (prifilt("local5.*")) then {
               action(type="omfile" file="/srv/log/pdu/pdu.log")
               stop
           }
