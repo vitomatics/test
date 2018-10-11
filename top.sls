@@ -270,7 +270,7 @@ base:
     - profile.jenkins-rootuser-access
     - profile.sfamtutil
     - profile.fpgahost2
-    - preofile.boardtest-nfs
+    - profile.boardtest-nfs
     - profile.snmp-client
     - profile.managed-nuc
     - profile.ganglia-node-server
