@@ -199,6 +199,8 @@
 10.15.0.18 b0-admin			# static
 10.15.0.19 bender-admin			# static
 
+10.15.1.32 labpdu01
+
 ########## vv WARNING - BEHIND NAT AND NOT IN MAIN SIFIVE SPACE vv ###########
 ## 10.15.6.0 -> 10.15.7.255 cad1-azure-net
 ## 10.15.6.6 mw03ut01-azure
@@ -321,7 +323,6 @@
 10.16.0.44 nuc5
 10.16.0.45 nuc6
 10.16.0.46 asustor1
-10.16.0.47 labpdu01
 
 10.16.0.50 hifiveu000
 10.16.0.51 hifiveu001
