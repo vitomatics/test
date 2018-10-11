@@ -15,7 +15,7 @@ states:
   telegraf: true
 
 nfs4:
-  domain: internal.sifive.com
+  domain: {{ site.nfs4.domain }}
 
 autofs:
   lookup:

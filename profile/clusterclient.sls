@@ -2,6 +2,7 @@
 # engineeers to do real work but without direct NX-based login.
 # The associated packages are in profile "devel".
 
+{% import_yaml "site/sifive1.yml" as site %}
 {% import_yaml "accounts/allgroups.yml" as allgroups %}
 
 states:
@@ -9,7 +10,7 @@ states:
   nfs4: true
 
 nfs4:
-  domain: internal.sifive.com
+  domain: {{ site.nfs4.domain }}
 
 autofs:
   lookup:
