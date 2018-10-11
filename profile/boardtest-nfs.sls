@@ -8,4 +8,4 @@ file:
     /export/boardtest:
       user: root
       group: {{ allgroups.groups.compute.gid }}
-      mode: 1770
+      mode: '01770'
