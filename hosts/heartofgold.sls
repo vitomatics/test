@@ -1,6 +1,9 @@
 ## Pillar file for heartofgold
 ## ZFS-based backup server
 
+{% import_yaml "site/sifive1.yml" as site %}
+
+
 boot:
   grub:
     serial:
@@ -11,7 +14,11 @@ states:
   zfs: true
   nfs4: true
   perccli: true
-  
+
+nfs4:
+  domain: {{ site.nfs4.domain }}
+
+
 perccli:
   lookup:
     pkgurl: http://sfimages.internal.sifive.com/Dell/PERC/deb/perccli_1.11.03-2_all.deb
@@ -85,10 +92,6 @@ zfs:
     bkpool01/sfbackup/dumps/jarjar-srv:
     bkpool01/sfbackup/dumps/wall-e-srv:
     bkpool01/sfbackup/dumps/i0-oldhome:
-
-nfs4:
-  domain:
-    internal.sifive.com
 
 sfdump:
   lookup:

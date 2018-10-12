@@ -1,14 +1,15 @@
 ## Pillar file for omega1
 ## temporary backup server
 
+{% import_yaml "site/sifive1.yml" as site %}
+
 states:
   zfs: true
   nfs4: true
   perccli: true
 
 nfs4:
-  domain:
-    internal.sifive.com
+  domain: {{ site.nfs4.domain }}
 
 perccli:
   lookup:

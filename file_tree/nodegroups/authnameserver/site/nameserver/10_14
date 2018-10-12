@@ -7,7 +7,7 @@ $ORIGIN	14.10.in-addr.arpa.
 $TTL	86400
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018091101 ; serial number
+	2018100802 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -32,6 +32,36 @@ $TTL	86400
 3.4	IN	PTR	delta01.internal.sifive.com.
 4.4	IN	PTR	delta02.internal.sifive.com.
 5.4	IN	PTR	delta03.internal.sifive.com.
+6.4     In      PTR     epsilon00.internal.sifive.com.
+7.4     In      PTR     epsilon01.internal.sifive.com.
+8.4     In      PTR     epsilon02.internal.sifive.com.
+9.4     In      PTR     epsilon03.internal.sifive.com.
+10.4    In      PTR     epsilon04.internal.sifive.com.
+11.4    In      PTR     epsilon05.internal.sifive.com.
+12.4    In      PTR     epsilon06.internal.sifive.com.
+13.4    In      PTR     epsilon07.internal.sifive.com.
+14.4    In      PTR     epsilon08.internal.sifive.com.
+15.4    In      PTR     epsilon09.internal.sifive.com.
+16.4    In      PTR     epsilon10.internal.sifive.com.
+17.4    In      PTR     epsilon11.internal.sifive.com.
+18.4    In      PTR     epsilon12.internal.sifive.com.
+19.4    In      PTR     epsilon13.internal.sifive.com.
+20.4    In      PTR     epsilon14.internal.sifive.com.
+21.4    In      PTR     epsilon15.internal.sifive.com.
+22.4    In      PTR     epsilon16.internal.sifive.com.
+23.4    In      PTR     epsilon17.internal.sifive.com.
+24.4    In      PTR     epsilon18.internal.sifive.com.
+25.4    In      PTR     epsilon19.internal.sifive.com.
+26.4    In      PTR     epsilon20.internal.sifive.com.
+27.4    In      PTR     epsilon21.internal.sifive.com.
+28.4    In      PTR     epsilon22.internal.sifive.com.
+29.4    In      PTR     epsilon23.internal.sifive.com.
+30.4    In      PTR     epsilon24.internal.sifive.com.
+31.4    In      PTR     epsilon25.internal.sifive.com.
+32.4    In      PTR     epsilon26.internal.sifive.com.
+33.4    In      PTR     epsilon27.internal.sifive.com.
+34.4    In      PTR     epsilon28.internal.sifive.com.
+35.4    In      PTR     epsilon29.internal.sifive.com.
 
 1.16	IN	PTR	iswitch15-vlan101.internal.sifive.com.
 
@@ -39,7 +69,7 @@ $TTL	86400
 33.16	IN	PTR	marvin.internal.sifive.com.
 34.16	IN	PTR	transporter.internal.sifive.com.
 35.16	IN	PTR	dalek.internal.sifive.com.
-36.16	IN	PTR	sandbox.internal.sifive.com.
+
 37.16	IN	PTR	vulcan.internal.sifive.com.
 38.16	IN	PTR	leia.internal.sifive.com.
 39.16	IN	PTR	luke.internal.sifive.com.
@@ -90,6 +120,7 @@ $TTL	86400
 36.17	IN	PTR	maul.internal.sifive.com.
 37.17	IN	PTR	magrathea.internal.sifive.com.
 38.17	IN	PTR	anakin.internal.sifive.com.
+39.17	IN	PTR	sandbox.internal.sifive.com.
 
 64.17	IN	PTR	sigma00.internal.sifive.com.
 65.17	IN	PTR	sigma01.internal.sifive.com.

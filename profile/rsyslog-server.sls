@@ -25,6 +25,10 @@ rsyslog:
               action(type="omfile" file="/srv/log/syslog/syslog.log")
               stop
           }
+          if (prifilt("local5.*")) then {
+              action(type="omfile" file="/srv/log/pdu/pdu.log")
+              stop
+          }
           if (prifilt("local7.*")) then {
               action(type="omfile" file="/srv/log/net/net.log")
               stop
@@ -37,7 +41,7 @@ rsyslog:
 logrotate:
   logs:
     sifive-remote:
-      files: /srv/log/auth/auth.log /srv/log/syslog/syslog.log /srv/log/net/net.log
+      files: /srv/log/auth/auth.log /srv/log/syslog/syslog.log /srv/log/net/net.log /srv/log/boardtest/pdu.log
       missingok: true
       period: daily
       rotate: 30

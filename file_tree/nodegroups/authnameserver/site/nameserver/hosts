@@ -45,6 +45,36 @@
 10.14.4.3 delta01		# assigned by DHCP
 10.14.4.4 delta02		# assigned by DHCP
 10.14.4.5 delta03		# assigned by DHCP
+10.14.4.6 epsilon00		# assigned by DHCP
+10.14.4.7 epsilon01		# assigned by DHCP
+10.14.4.8 epsilon02		# assigned by DHCP
+10.14.4.9 epsilon03		# assigned by DHCP
+10.14.4.10 epsilon04		# assigned by DHCP
+10.14.4.11 epsilon05		# assigned by DHCP
+10.14.4.12 epsilon06		# assigned by DHCP
+10.14.4.13 epsilon07		# assigned by DHCP
+10.14.4.14 epsilon08		# assigned by DHCP
+10.14.4.15 epsilon09		# assigned by DHCP
+10.14.4.16 epsilon10		# assigned by DHCP
+10.14.4.17 epsilon11		# assigned by DHCP
+10.14.4.18 epsilon12		# assigned by DHCP
+10.14.4.19 epsilon13		# assigned by DHCP
+10.14.4.20 epsilon14		# assigned by DHCP
+10.14.4.21 epsilon15		# assigned by DHCP
+10.14.4.22 epsilon16		# assigned by DHCP
+10.14.4.23 epsilon17		# assigned by DHCP
+10.14.4.24 epsilon18		# assigned by DHCP
+10.14.4.25 epsilon19		# assigned by DHCP
+10.14.4.26 epsilon20		# assigned by DHCP
+10.14.4.27 epsilon21		# assigned by DHCP
+10.14.4.28 epsilon22		# assigned by DHCP
+10.14.4.29 epsilon23		# assigned by DHCP
+10.14.4.30 epsilon24		# assigned by DHCP
+10.14.4.31 epsilon25		# assigned by DHCP
+10.14.4.32 epsilon26		# assigned by DHCP
+10.14.4.33 epsilon27		# assigned by DHCP
+10.14.4.34 epsilon28		# assigned by DHCP
+10.14.4.35 epsilon29		# assigned by DHCP
 
 10.14.3.225 pxeclient225
 ...
@@ -61,7 +91,7 @@
 10.14.16.33 marvin
 10.14.16.34 transporter trans
 10.14.16.35 dalek
-10.14.16.36 sandbox
+# 10.14.16.36 sandbox
 10.14.16.37 vulcan
 10.14.16.38 leia ntp0
 10.14.16.39 luke ntp1
@@ -123,6 +153,7 @@
 10.14.17.36 maul
 10.14.17.37 magrathea
 10.14.17.38 anakin
+10.14.17.39 sandbox
 
 10.14.17.64 sigma00 s00
 10.14.17.65 sigma01 s01
@@ -167,6 +198,8 @@
 10.15.0.17 omega1-admin			# static
 10.15.0.18 b0-admin			# static
 10.15.0.19 bender-admin			# static
+
+10.15.1.32 labpdu01
 
 ########## vv WARNING - BEHIND NAT AND NOT IN MAIN SIFIVE SPACE vv ###########
 ## 10.15.6.0 -> 10.15.7.255 cad1-azure-net
@@ -290,7 +323,6 @@
 10.16.0.44 nuc5
 10.16.0.45 nuc6
 10.16.0.46 asustor1
-10.16.0.47 labpdu01
 
 10.16.0.50 hifiveu000
 10.16.0.51 hifiveu001
@@ -483,11 +515,6 @@
 10.134.192.6 mw03ut01 mw03-login
 ...
 
-## 10.134.194.0->10.134.195.255 cad2-iso-net
-# Cadence mi01 chamber on Azure, mapped into SiFive IP space
-...
-10.134.194.6 mi01ut01 mi01-login
-...
 
 ## 12.206.222.0->12.206.222.7 att-sifive0-net
 # 12.206.222.0 RESERVED - do not use
@@ -552,9 +579,6 @@
 
 ## Cadence mw03 chamber VPN endpoint
 104.42.251.220 cad1-mw03-vpn
-
-## Cadence mi01 chamber VPN endpoint
-104.211.200.48 cad2-mi01-vpn
 
 ## 169.254.0.0->169.254.255.255 
 ## used by NetApp internal networks

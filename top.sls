@@ -188,6 +188,7 @@ base:
     - profile.slurm-client
     - profile.slurm-node
     - profile.jenkins-federation-slave
+    - profile.jenkins-rootuser-access
     - profile.ganglia-node-compute
     - profile.telegraf-host-compute
     - hosts.gamma
@@ -200,6 +201,7 @@ base:
     - profile.slurm-client
     - profile.slurm-node
     - profile.jenkins-federation-slave
+    - profile.jenkins-rootuser-access
     - profile.ganglia-node-compute
     - profile.telegraf-host-compute
     - hosts.sigma
@@ -233,10 +235,11 @@ base:
     - hosts.b0
 
   'sandbox.internal.sifive.com':
-    - subnet.he-unix01
+    - subnet.he-unix02
     - profile.devel
     - profile.clusterclient
     - profile.slurm-client
+    - profile.jenkins-federation-slave
     - hosts.sandbox
 
   'delta*.internal.sifive.com':
@@ -246,12 +249,33 @@ base:
     - profile.jenkins-federation-slave
     - profile.slurm-client
     - profile.slurm-node
+    - profile.jenkins-rootuser-access
     - profile.sfamtutil
     - profile.fpgahost2
+    - profile.snmp-client
     - profile.managed-nuc
     - profile.ganglia-node-server
     - profile.telegraf-host-server
+    - profile.snmp-client
     - hosts.delta
+
+  'epsilon*.internal.sifive.com':
+    - subnet.sf-unix
+    - profile.devel
+    - profile.snmp-client
+    - profile.clusterclient
+    - profile.jenkins-federation-slave
+    - profile.slurm-client
+    - profile.slurm-node
+    - profile.jenkins-rootuser-access
+    - profile.sfamtutil
+    - profile.fpgahost2
+    - profile.boardtest-nfs
+    - profile.snmp-client
+    - profile.managed-nuc
+    - profile.ganglia-node-server
+    - profile.telegraf-host-server
+    - hosts.epsilon
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
@@ -299,6 +323,7 @@ base:
     - profile.slurm-server
     - profile.slurm-acct
     - profile.telegraf-slurm
+    - profile.jenkins-rootuser-access
     - profile.backupclient
     - hosts.grid
 

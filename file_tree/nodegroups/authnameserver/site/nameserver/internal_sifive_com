@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018091801 ; serial number
+	2018101001 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -45,6 +45,36 @@ delta00		IN	A	10.14.4.2
 delta01		IN	A	10.14.4.3
 delta02		IN	A	10.14.4.4
 delta03		IN	A	10.14.4.5
+epsilon00       IN      A       10.14.4.6
+epsilon01       IN      A       10.14.4.7
+epsilon02       IN      A       10.14.4.8
+epsilon03       IN      A       10.14.4.9
+epsilon04       IN      A       10.14.4.10
+epsilon05       IN      A       10.14.4.11
+epsilon06       IN      A       10.14.4.12
+epsilon07       IN      A       10.14.4.13
+epsilon08       IN      A       10.14.4.14
+epsilon09       IN      A       10.14.4.15
+epsilon10       IN      A       10.14.4.16
+epsilon11       IN      A       10.14.4.17
+epsilon12       IN      A       10.14.4.18
+epsilon13       IN      A       10.14.4.19
+epsilon14       IN      A       10.14.4.20
+epsilon15       IN      A       10.14.4.21
+epsilon16       IN      A       10.14.4.22
+epsilon17       IN      A       10.14.4.23
+epsilon18       IN      A       10.14.4.24
+epsilon19       IN      A       10.14.4.25
+epsilon20       IN      A       10.14.4.26
+epsilon21       IN      A       10.14.4.27
+epsilon22       IN      A       10.14.4.28
+epsilon23       IN      A       10.14.4.29
+epsilon24       IN      A       10.14.4.30
+epsilon25       IN      A       10.14.4.31
+epsilon26       IN      A       10.14.4.32
+epsilon27       IN      A       10.14.4.33
+epsilon28       IN      A       10.14.4.34
+epsilon29       IN      A       10.14.4.35
 
 iswitch15-vlan101	IN	A	10.14.16.1
 he-unix01-net-gw	IN	CNAME	iswitch15-vlan101
@@ -62,7 +92,6 @@ sfimages		IN	CNAME	dalek
 pxe			IN	CNAME	dalek
 install			IN	CNAME	dalek
 
-sandbox			IN	A	10.14.16.36
 vulcan			IN	A	10.14.16.37
 jenkins			IN	CNAME	vulcan
 
@@ -170,6 +199,7 @@ he-rack2-ntp		IN	CNAME	anakin
 he-ns2			IN	CNAME	anakin
 he-rack2-ns		IN	CNAME	anakin
 ns3			IN	CNAME	anakin
+sandbox			IN	A	10.14.17.39
 
 sigma00			IN	A	10.14.17.64
 s00			IN	CNAME	sigma01
@@ -216,6 +246,8 @@ alpha-admin		IN	A	10.15.0.16
 omega1-admin		IN	A	10.15.0.17
 b0-admin		IN	A	10.15.0.18
 bender-admin		IN	A	10.15.0.19
+
+labpdu01		IN	A	10.15.1.32
 
 iswitch11-vlan102	IN	A	10.15.16.1
 he-dev01-net-gw		IN	CNAME	iswitch11-vlan102
@@ -377,7 +409,6 @@ labusb03		IN	A	10.16.0.43
 nuc5			IN	A	10.16.0.44
 nuc6			IN	A	10.16.0.45
 asustor1		IN	A	10.16.0.46
-labpdu01		IN	A	10.16.0.47
 
 
 hifiveu000		IN	A	10.16.0.50
@@ -449,8 +480,6 @@ lambda00		IN	A	10.134.16.33
 
 mw03ut01		IN	A	10.134.192.6
 mw03-login		IN	CNAME	mw03ut01
-mi01ut01		IN	A	10.134.194.6
-mi01-login		IN	CNAME	mi01ut01
 
 
 ; _kerberos._udp		IN	SRV	10 0 88 metrocop

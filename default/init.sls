@@ -96,12 +96,12 @@ nss:
   use_sssd: true
   passwd:
     sfadmin:
-      uid: 999
       gid: wheel
       home: /
       shell: /bin/sh
       gecos: SiFive
       system: true
+      # passwd is in the secret subdir
   sources:
     passwd:
       - sss
