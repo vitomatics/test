@@ -298,6 +298,7 @@ base:
     - profile.slurm-db
     - profile.slurm-server
     - profile.slurm-acct
+    - profile.telegraf-slurm
     - profile.backupclient
     - hosts.grid
 
