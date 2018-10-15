@@ -300,11 +300,13 @@ pkgs:
     iftop: true
     sysstat: true
     dstat: true
-
-    gdb: true
-    strace: true
+    hping3: true
     lsof: true
     iotop: true
+    strace: true
+    nicstat: true
+
+    gdb: true
     manpages-dev: true
 
     telnet: true
