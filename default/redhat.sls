@@ -26,4 +26,3 @@ pkgs:
     
     tcsh: true
     zsh: true
-    vim: true
