@@ -264,7 +264,6 @@ base:
     - profile.devel
     - profile.snmp-client
     - profile.clusterclient
-    - profile.jenkins-federation-slave
     - profile.slurm-client
     - profile.slurm-node
     - profile.jenkins-rootuser-access
