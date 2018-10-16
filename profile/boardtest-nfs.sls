@@ -5,6 +5,7 @@
 
 include:
   - profile.nfs-server
+  - profile.boardtest-host
 
 file:
   mkdir:
