@@ -7,5 +7,4 @@ include:
 jenkins:
   lookup:
     pkgs:
-    - jenkins: 2.138.1
-
+    - jenkins: 2.138.2
