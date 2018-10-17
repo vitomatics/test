@@ -1,0 +1,8 @@
+# The san mateo boardtest environment
+
+pdus:
+  labpdu01:
+    type: apc
+    hostname: labpdu01.internal.sifive.com
+    user: boardtest
+    pw: hit me with 120V
