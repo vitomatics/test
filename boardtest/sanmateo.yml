@@ -6,3 +6,22 @@ pdus:
     hostname: labpdu01.internal.sifive.com
     user: boardtest
     pw: hit me with 120V
+
+boards:
+  board000:
+    rack: rack05
+    shelf: 01
+    host: epsilon00.internal.sfive.com
+    testnet: true
+    testnfs: true
+    board_type: vc707_4gb
+    board_vlan: sf-lab-vlan
+    power_type: pdu
+    power_pdu: labpdu01
+    power_port: 1
+    switch: iswitch07
+    boards:
+      board0:
+        id: vc707_001
+        hostname: turtle
+        switchport: ge-0/0/4

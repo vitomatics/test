@@ -15,4 +15,5 @@ boardtest:
     confname: boardtest.conf
     pduuser: pduuser
 
-  pdus: {{ sanmateo.pdus|yaml }}
+  pdus: {{ sanmateo.pdus|default({})|yaml }}
+  boards: {{ sanmateo.boards|default({}|yaml }}
