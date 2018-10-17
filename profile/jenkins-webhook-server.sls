@@ -37,7 +37,7 @@ jenkins-webhook:
     host: localhost
     port: {{ jenkins_port }}
     user: rxia
-    api_token: 7cbc80a103303232e998882ebb9100ad
+    api_token: 11bfe13f3b2387aec180f25e28f60c9ab8
     job_token: MyI3d9kLT0SaL1Ay3i96Kg
 
 
