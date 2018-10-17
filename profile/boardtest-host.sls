@@ -16,4 +16,4 @@ boardtest:
     pduuser: pduuser
 
   pdus: {{ sanmateo.pdus|default({})|yaml }}
-  boards: {{ sanmateo.boards|default({}|yaml }}
+  boards: {{ sanmateo.boards|default({})|yaml }}
