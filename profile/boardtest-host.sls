@@ -1,7 +1,11 @@
 # A generic boardtest host
 
+{% import_yaml "boardtest/sanmateo.yml" as sanmateo %}
+
+
 states:
   boardtest: true
+  boardtest.pdu: true
 
 
 boardtest:
@@ -9,3 +13,6 @@ boardtest:
     datadir: /var/lib/boardtest
     confdir: /etc/boardtest
     confname: boardtest.conf
+    pduuser: pduuser
+
+  pdus: {{ sanmateo.pdus|yaml }}
