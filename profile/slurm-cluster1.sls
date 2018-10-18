@@ -70,6 +70,9 @@ slurm:
          Type: nvidia
          Device: /dev/gpu
          CPUs: 1-3
+    'delta[00-03]':
+       - Name: testboard
+         Count: 1
   partitions:
     standard:
       Default: yes
