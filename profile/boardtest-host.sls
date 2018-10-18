@@ -17,3 +17,4 @@ boardtest:
 
   pdus: {{ sanmateo.pdus|default({})|yaml }}
   boards: {{ sanmateo.boards|default({})|yaml }}
+  group: compute
