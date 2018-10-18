@@ -11,7 +11,7 @@ boards:
   board000:
     rack: rack05
     shelf: 01
-    host: epsilon00.internal.sfive.com
+    host: epsilon00.internal.sifive.com
     testnet: true
     testnfs: true
     board_type: vc707_4gb
