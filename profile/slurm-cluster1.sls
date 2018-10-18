@@ -63,13 +63,6 @@ slurm:
     #   RealMemory: '8000'
     #   Feature: epsilon
   gres:
-    'epsilon[00-01]':
-       - Name: testboard
-         Count: 1
-       - Name: gpu
-         Type: nvidia
-         Device: /dev/gpu
-         CPUs: 1-3
     'delta[00-03]':
        - Name: testboard
          Count: 1
