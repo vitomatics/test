@@ -58,10 +58,10 @@ slurm:
       CPUs: '32'
       RealMemory: '125000'
       Feature: alpha
-    'epsilon[00-01]':
-      CPUs: 4'
-      RealMemory: '8000'
-      Feature: epsilon
+    # 'epsilon[00-01]':
+    #   CPUs: 4'
+    #   RealMemory: '8000'
+    #   Feature: epsilon
   gres:
     'epsilon[00-01]':
        - Name: testboard
