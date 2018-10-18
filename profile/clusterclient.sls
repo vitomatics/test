@@ -64,7 +64,7 @@ sysctl:
 
 sudo:
   included:
-    # Memers of the eda group can sudo to edu
+    # Memers of the eda group can sudo to eda
     sifive-eda:
       userspec:
         - '%eda':
