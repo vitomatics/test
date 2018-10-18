@@ -22,6 +22,8 @@ slurm:
   PriorityWeightAge: 1000
   PriorityMaxAge: '24:00:00'
 
+  GresTypes: testboard
+
 # TaskPlugin: affinity
 # TaskPluginParam: Threads
 
@@ -56,6 +58,14 @@ slurm:
       CPUs: '32'
       RealMemory: '125000'
       Feature: alpha
+    'epsilon[00-01]':
+      CPUs: 4'
+      RealMemory: '8000'
+      Feature: epsilon
+  gres:
+    'epsilon[00-01]':
+       - Name: testboard
+         Count: 1
   partitions:
     standard:
       Default: yes
@@ -66,6 +76,7 @@ slurm:
       DefMemPerCPU: 4000
       nodes:
         - 'delta[00-03]'
+        - 'epsilon[00-01]'
         - alpha
     quick:
       DefMemPerCPU: 4000
