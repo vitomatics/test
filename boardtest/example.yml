@@ -10,7 +10,7 @@
 # Fields in pdus - primary key is the name used in the board sections
 #  key: name of key used elsewhere
 #  type: the type of the pdu
-#    - apc: APC gen 2 PDU using SNMPv3
+#    - apc_snmp: APC gen 2 PDU using SNMPv3
 #  hostname: fully
 #  user: the username for managing the PDU
 #  pw: the pillar containing the password for managing the PDU

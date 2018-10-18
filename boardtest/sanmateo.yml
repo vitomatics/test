@@ -2,7 +2,7 @@
 
 pdus:
   labpdu01:
-    type: apc
+    type: apc_snmp
     hostname: labpdu01.internal.sifive.com
     user: boardtest
     pw: hit me with 120V
