@@ -60,6 +60,7 @@ sfsalt:
       login:
         - algol.internal.sifive.com
         - altair.internal.sifive.com
+        - barnards.internal.sifive.com
         - betel.internal.sifive.com
         - frogstar.internal.sifive.com
         - lambda00.internal.sifive.com
@@ -69,13 +70,16 @@ sfsalt:
         - alpha.internal.sifive.com
         - b0.internal.sifive.com
         - delta*.internal.sifive.com
+        - epsilon*.internal.sifive.com
       devel:
         - algol.internal.sifive.com
         - alpha.internal.sifive.com
         - altair.internal.sifive.com
         - b0.internal.sifive.com
+        - barnards.internal.sifive.com
         - betel.internal.sifive.com
         - delta*.internal.sifive.com
+        - epsilon*.internal.sifive.com
         - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
         - sigma*.internal.sifive.com
@@ -85,10 +89,13 @@ sfsalt:
         - eddie.internal.sifive.com
         - marvin.internal.sifive.com
         - bender.internal.sifive.com
+        - colin.internal.sifive.com
+        - chappie.internal.sifive.com
       dhcpserver:
         - hansolo.internal.sifive.com
         - leia.internal.sifive.com
         - luke.internal.sifive.com
+        - anakin.internal.sifive.com
       pxeserver:
         - dalek.internal.sifive.com
       installserver:
@@ -115,6 +122,7 @@ sfsalt:
         - gamma*.internal.sifive.com
         - sigma*.internal.sifive.com
         - delta*.internal.sifive.com
+        - epsilon*.internal.sifive.com
       slurmserver:
         - grid.internal.sifive.com
       authnameserver:
@@ -137,6 +145,7 @@ sfsalt:
         - dalek.internal.sifive.com
         - delta*.internal.sifive.com
         - eddie.internal.sifive.com
+        - epsilon*.internal.sifive.com
         - frogstar.internal.sifive.com
         - gamma*.internal.sifive.com
         - gravelpit.internal.sifive.com
