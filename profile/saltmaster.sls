@@ -112,6 +112,7 @@ sfsalt:
         - gamma*.internal.sifive.com
         - sigma*.internal.sifive.com
         - delta*.internal.sifive.com
+        - epsilon*.internal.sifive.com
         - alpha.internal.sifive.com
         - b0.internal.sifive.com
         - sandbox.internal.sifive.com
