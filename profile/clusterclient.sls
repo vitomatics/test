@@ -71,18 +71,4 @@ sudo:
           - ALL: '(eda:eda) ALL'
     # Requested by user sols
     sifive-perf:
-      aliases:
-        hosts:
-          PERFHOST:
-            - gamma00.internal.sifive.com
-            - gamma01.internal.sifive.com
-            - gamma02.internal.sifive.com
-            - gamma03.internal.sifive.com
-            - gamma04.internal.sifive.com
-            - gamma05.internal.sifive.com
-            - gamma06.internal.sifive.com
-            - gamma07.internal.sifive.com
-      userspec:
-        - '%perf-user': 
-            - PERFHOST: '/usr/bin/perf top *'
-            - PERFHOST: '/usr/bin/perf top'
+      absent: true
