@@ -104,7 +104,7 @@ sfsalt:
         - viki.internal.sifive.com
       slurmclient:
         - algol.internal.sifive.com
-	- alpha.internal.sifive.com
+        - alpha.internal.sifive.com
         - altair.internal.sifive.com
         - betel.internal.sifive.com
         - frogstar.internal.sifive.com
