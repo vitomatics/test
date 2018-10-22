@@ -831,7 +831,7 @@ users:
   aliakseic:
     tags: [ cluster ]
     groups: [ compute ]
-    fullname: "Aliaksei Chapzhenka"
+    fullname: "Aliaksei Chapyzhenka"
     mail: aliekseic
     uid: 1204
     gid: 1204
