@@ -24,6 +24,8 @@ slurm:
 
   JobAcctGatherType: cgroup
 
+  TrackWCKey: true
+
   AccountingStorageType: slurmdbd
   AccountingStoragePort: 6819
   AccountingStorageHost: grid.internal.sifive.com
