@@ -105,6 +105,7 @@ sfsalt:
         - viki.internal.sifive.com
       slurmclient:
         - algol.internal.sifive.com
+	- alpha.internal.sifive.com
         - altair.internal.sifive.com
         - betel.internal.sifive.com
         - frogstar.internal.sifive.com
@@ -124,6 +125,8 @@ sfsalt:
         - sigma*.internal.sifive.com
         - delta*.internal.sifive.com
         - epsilon*.internal.sifive.com
+        - alpha.internal.sifive.com
+	- sandbox.internal.sifive.com
       slurmserver:
         - grid.internal.sifive.com
       authnameserver:
