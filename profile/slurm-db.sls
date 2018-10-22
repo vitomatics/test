@@ -20,6 +20,8 @@ slurm:
     PurgeStepAfter: 30days
     PurgeJobAfter: 60days
     DebugLevel: debug
+    TrackWCKey: yes
+
 
 firewall:
   ports:
