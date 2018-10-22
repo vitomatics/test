@@ -124,7 +124,7 @@ sfsalt:
         - delta*.internal.sifive.com
         - epsilon*.internal.sifive.com
         - alpha.internal.sifive.com
-	- sandbox.internal.sifive.com
+        - sandbox.internal.sifive.com
       slurmserver:
         - grid.internal.sifive.com
       authnameserver:
