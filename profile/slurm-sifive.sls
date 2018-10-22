@@ -24,7 +24,7 @@ slurm:
 
   JobAcctGatherType: cgroup
 
-  TrackWCKey: true
+  TrackWCKey: yes
 
   AccountingStorageType: slurmdbd
   AccountingStoragePort: 6819
