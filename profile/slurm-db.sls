@@ -21,7 +21,6 @@ slurm:
     PurgeJobAfter: 60days
     DebugLevel: debug
     TrackWCKey: yes
-    ArchiveJobs: yes
 
 
 firewall:
