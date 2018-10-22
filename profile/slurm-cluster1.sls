@@ -30,10 +30,9 @@ slurm:
   DefMemPerCPU: '4000'
 
   nodes:
-    sandbox:
+    'sandbox':
       CPUs: 2
       RealMemory: '4096'
-      Feature: testhost
     'gamma[00-01]':
       CPUs: '32'
       RealMemory: '250000'
@@ -58,12 +57,15 @@ slurm:
       CPUs: '32'
       RealMemory: '125000'
       Feature: alpha
-    # 'epsilon[00-01]':
-    #   CPUs: 4'
-    #   RealMemory: '8000'
-    #   Feature: epsilon
+    'epsilon[00-29]':
+      CPUs: 4'
+      RealMemory: '8000'
+      Feature: epsilon
   gres:
     'delta[00-03]':
+       - Name: testboard
+         Count: 1
+    'epsilon[00-29]':
        - Name: testboard
          Count: 1
   partitions:
@@ -76,8 +78,8 @@ slurm:
       DefMemPerCPU: 4000
       nodes:
         - 'delta[00-03]'
-        - 'epsilon[00-01]'
-        - alpha
+        - 'epsilon[00-29]'
+        - 'alpha'
     quick:
       DefMemPerCPU: 4000
       MaxMemPerCPU: 16000
