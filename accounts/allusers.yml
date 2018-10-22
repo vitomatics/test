@@ -828,6 +828,13 @@ users:
     mail: shivi.arora@sifive.com
     uid: 1203
     gid: 1203
+  shivia:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Aliaksei Chapzhenka"
+    mail: aliekseic
+    uid: 1204
+    gid: 1204
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
