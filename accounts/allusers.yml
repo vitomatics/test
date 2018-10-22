@@ -828,7 +828,7 @@ users:
     mail: shivi.arora@sifive.com
     uid: 1203
     gid: 1203
-  shivia:
+  aliakseic:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Aliaksei Chapzhenka"
