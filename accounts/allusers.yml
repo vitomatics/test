@@ -832,7 +832,7 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Aliaksei Chapyzhenka"
-    mail: aliekseic
+    mail: alieksei.chapyzhenka@sifive.com
     uid: 1204
     gid: 1204
 
