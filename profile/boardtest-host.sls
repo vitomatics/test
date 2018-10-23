@@ -16,5 +16,5 @@ boardtest:
     pduuser: pduuser
 
   pdus: {{ sanmateo.pdus|default({})|yaml }}
-  boards: {{ sanmateo.boards|default({})|yaml }}
+  testhosts: {{ sanmateo.testhosts|default({})|yaml }}
   group: compute
