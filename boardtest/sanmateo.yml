@@ -7,11 +7,12 @@ pdus:
     user: boardtest
     pw: hit me with 120V
 
-boards:
-  board000:
+testhosts:
+  test1:
     rack: rack05
     shelf: 01
     host: epsilon00.internal.sifive.com
+    partition: boardtest
     testnet: true
     testnfs: true
     board_type: vc707_4gb

@@ -14,8 +14,9 @@
 #  hostname: fully
 #  user: the username for managing the PDU
 #  pw: the pillar containing the password for managing the PDU
-# Fields in boards - primary key is an arbitrary name
+# Fields in testhosts - primary key is an arbitrary name
 #  host: Fully-qualified host name of the testhost
+#  partitin: SLURM partition
 #  host_testnet: whether the host has a network connection on the test networkx
 #  host_testnfs: whether the host has an NFS server on the test network
 #  board_type: the type of the test board.  As specified in 
@@ -41,11 +42,12 @@ pdus:
     user: boardtest
     pw: super secret phrase
 
-boards:
+testhosts:
   test1:
     rack: rack05
     shelf: 01
     host: epsilon01.internal.sfive.com
+    partition: boardtest
     testnet: true
     testnfs: true
     board_type: vc707_4gb
