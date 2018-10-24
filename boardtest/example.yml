@@ -6,6 +6,7 @@
 # Sections:
 #   pdus: pdu details
 #   boards: board details
+#   boardtypes: board type details
 #
 # Fields in pdus - primary key is the name used in the board sections
 #   KEY: name of key used elsewhere
@@ -14,6 +15,7 @@
 #   hostname: fully
 #   user: the username for managing the PDU
 #   pw: the pillar containing the password for managing the PDU
+#
 # Fields in testhosts - primary key is an arbitrary name
 #   KEY: arbitrary key for testhost
 #   node: Fully-qualified host name of the testhost
@@ -44,7 +46,28 @@
 #   
 #   switch: the switch that the testboard is connected to
 #   switchport: the switch port that the testboard is connected to
-#  
+#
+
+boardtypes:
+  vc707_4g:
+    kind: fpga
+    console_devtype: usbtty
+    console_dev: /dev/ttyusb0
+    fpga_class: xlinix
+    fpga_devtype: usbjtag
+    fpga_dev: /dev/jtag0
+    tgtdbg_devtype: ftdi
+    tgtdbg_dev: /dev/usb0
+    
+'console_dev': '/dev/tty0',
+        'console_type:' 'usbtty',
+        'fpga_dev': '/dev/tty1',
+        'fpga_type': 'xilinx',
+        'targjtag_dev': '/dev/tty2',
+        'targjtag_type': 'ftdi',
+        }
+    }
+
 
 pdus:
   labpdu01:
