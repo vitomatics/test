@@ -8,32 +8,43 @@
 #   boards: board details
 #
 # Fields in pdus - primary key is the name used in the board sections
-#  key: name of key used elsewhere
-#  type: the type of the pdu
-#    - apc_snmp: APC gen 2 PDU using SNMPv3
-#  hostname: fully
-#  user: the username for managing the PDU
-#  pw: the pillar containing the password for managing the PDU
+#   KEY: name of key used elsewhere
+#   type: the type of the pdu
+#     - apc_snmp: APC gen 2 PDU using SNMPv3
+#   hostname: fully
+#   user: the username for managing the PDU
+#   pw: the pillar containing the password for managing the PDU
 # Fields in testhosts - primary key is an arbitrary name
-#  host: Fully-qualified host name of the testhost
-#  partitin: SLURM partition
-#  host_testnet: whether the host has a network connection on the test networkx
-#  host_testnfs: whether the host has an NFS server on the test network
-#  board_type: the type of the test board.  As specified in 
-#  board_id: the unique board identity of the testboard
-#  board_hostname: the hostname of the testboard network interface
-#  board_vlan: the VLAN of the network interface on the testboard, assume
-#        no network if not present
-#  board_switch: the switch that the testboard is connected to
-#  board_switchport: the witch port that the testboard is connected to
-#  rack: the rack the system is installed in
-#  shelf: the shelf within the rack
-#  power_type: the type of the power switching.  One of:
-#    - none: no power switching (default)
-#    - pdu: IP addressable PDU
-#    - usbhub: USB hub power
-#  power_pdu: the details of the pdu from above
-#  power_port: the port on the PDU
+#   KEY: arbitrary key for testhost
+#   node: Fully-qualified host name of the testhost
+#   partition: SLURM partition
+#   rack: the rack the system is installed in
+#   shelf: the shelf within the rack
+#   testnet: details on the test network connection for the testhost
+#            see below
+#   power: detail of power control - see below
+# Fields in testhost:testnet
+#   hostname: hostname for the test network interface
+#   port: port on the testhost
+#   vlan: vlan for the teset network interface
+#   switch: switch for the test network interface
+#   switchport: port on the switch for the test network interface
+#   nfsserver: whether there's an NFS server on the test network interface
+# Filed in testhost:power
+#   type: the type of the power switching.  One of:
+#     - none: no power switching (default)
+#     - pdu: IP addressable PDU
+#     - usbhub: USB hub power
+#   pdu: the details of the pdu from the pdus structure above
+#   port: the port on the PDU
+# Fields in testhosts:boards:boardN
+#   id: the unique board identity of the testboard
+#   type: the type of the test board.  As specified in ??
+#   hostname: the hostname of the testboard network interface
+#   
+#   switch: the switch that the testboard is connected to
+#   switchport: the switch port that the testboard is connected to
+#  
 
 pdus:
   labpdu01:
@@ -44,22 +55,27 @@ pdus:
 
 testhosts:
   test1:
+    node: epsilon01.internal.sfive.com
+    partition: boardtest
     rack: rack05
     shelf: 01
-    host: epsilon01.internal.sfive.com
-    partition: boardtest
-    testnet: true
-    testnfs: true
-    board_type: vc707_4gb
-    board_vlan: sf-lab-vlan
-    power_type: pdu
-    power_pdu: labpdu01
-    power_port: 1
-    switch: iswitch07
+    testnet:
+      hostname: hostname for the test network interface
+      port: eth1
+      vlan: sf-lab-vlan
+      switch: iswitch07
+      switchport: ge-0/0/3
+      nfsserver: true
+    power:
+      type: pdu
+      pdu: labpdu01
+      port: 1
     boards:
       board0:
         id: vc707_001
+	type: vc707_4gb
         hostname: turtle
+	net: true
         switchport: ge-0/0/4
     
     
