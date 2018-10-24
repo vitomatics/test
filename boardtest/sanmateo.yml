@@ -23,7 +23,7 @@ testhosts:
     boards:
       board0:
         id: vc707_001
-	type: vc707_4gb
+        type: vc707_4gb
         hostname: turtle.internal.sifive.com
-	switch: iswitch07
+        switch: iswitch07
         switchport: ge-0/0/4
