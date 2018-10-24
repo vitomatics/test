@@ -48,26 +48,6 @@
 #   switchport: the switch port that the testboard is connected to
 #
 
-boardtypes:
-  vc707_4g:
-    kind: fpga
-    console_devtype: usbtty
-    console_dev: /dev/ttyusb0
-    fpga_class: xlinix
-    fpga_devtype: usbjtag
-    fpga_dev: /dev/jtag0
-    tgtdbg_devtype: ftdi
-    tgtdbg_dev: /dev/usb0
-    
-'console_dev': '/dev/tty0',
-        'console_type:' 'usbtty',
-        'fpga_dev': '/dev/tty1',
-        'fpga_type': 'xilinx',
-        'targjtag_dev': '/dev/tty2',
-        'targjtag_type': 'ftdi',
-        }
-    }
-
 
 pdus:
   labpdu01:
