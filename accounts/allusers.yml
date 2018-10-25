@@ -835,6 +835,20 @@ users:
     mail: alieksei.chapyzhenka@sifive.com
     uid: 1204
     gid: 1204
+  michaelm:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Michael Maloney"
+    mail: michael.maloney@sifive.com
+    uid: 1205
+    gid: 1205
+  larryl:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Larry Lee"
+    mail: larry.lee@sifive.com
+    uid: 1206
+    gid: 1206
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
