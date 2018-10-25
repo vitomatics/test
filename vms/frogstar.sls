@@ -6,7 +6,7 @@ sfvirt:
       type: libvirt
       vmhost: eddie.internal.sifive.com
       vcpus: 2
-      memory: 16384   # In MB
+      memory: 24576   # In MB
       autostart: on
       ifs:
         eth0:
@@ -15,7 +15,11 @@ sfvirt:
       disks:
         root:
           vdtype: lvm
-          size: 30G
+          size: 40G
+          vg: vmpool01
+        data:
+          vdtype: lvm
+          size: 40G
           vg: vmpool01
       preseed: frogstar
       dist: xenial-default
