@@ -9,20 +9,21 @@ pdus:
 
 testhosts:
   test1:
+    node: epsilon00.internal.sifive.com
+    partition: boardtest
     rack: rack05
     shelf: 01
-    host: epsilon00.internal.sifive.com
-    partition: boardtest
-    testnet: true
-    testnfs: true
-    board_type: vc707_4gb
-    board_vlan: sf-lab-vlan
-    power_type: pdu
-    power_pdu: labpdu01
-    power_port: 1
-    switch: iswitch07
+    testnet:
+      hostname: epsilon00-lab.internal.sifive.com
+      nfsserver: true
+    power:
+      type: pdu
+      pdu: labpdu01
+      port: 1
     boards:
       board0:
         id: vc707_001
-        hostname: turtle
+        type: vc707_4gb
+        hostname: turtle.internal.sifive.com
+        switch: iswitch07
         switchport: ge-0/0/4
