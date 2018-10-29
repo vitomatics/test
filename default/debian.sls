@@ -182,26 +182,6 @@ pkgs:
         suite: {{ suite }}-security
         comps: [ 'multiverse' ]
         key_url: {{sfrepo}}/public.gpg
-      ubuntu-backports:
-        uri: {{sfrepo}}/ubuntu/canonical
-        suite: {{ suite }}-backports
-        comps: [ 'main' ]
-        key_url: {{sfrepo}}/public.gpg
-      ubuntu-backports-restricted:
-        uri: {{sfrepo}}/ubuntu/canonical
-        suite: {{ suite }}-backports
-        comps: [ 'restricted']
-        key_url: {{sfrepo}}/public.gpg
-      ubuntu-backports-universe:
-        uri: {{sfrepo}}/ubuntu/canonical
-        suite: {{ suite }}-backports
-        comps: [ 'universe' ]
-        key_url: {{sfrepo}}/public.gpg
-      ubuntu-backports-multiverse:
-        uri: {{sfrepo}}/ubuntu/canonical
-        suite: {{ suite }}-backports
-        comps: [ 'multiverse' ]
-        key_url: {{sfrepo}}/public.gpg
 
       sifive:
         list: sifive
@@ -210,7 +190,7 @@ pkgs:
         comps: [ 'main' ]
         key_url: {{sfrepo}}/public.gpg
 
-      # Repos we do not want
+      # Repos we **** do not want ****
       offsite:
         absent: true
         uri: {{offsiterepo}}/ubuntu/
@@ -289,6 +269,27 @@ pkgs:
       offsite-backports-multiverse:
         absent: true
         uri: {{offsiterepo}}/ubuntu/
+        suite: {{ suite }}-backports
+        comps: [ 'multiverse' ]
+
+      ubuntu-backports:
+        absent: true
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-backports
+        comps: [ 'main' ]
+      ubuntu-backports-restricted:
+        absent: true
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-backports
+        comps: [ 'restricted']
+      ubuntu-backports-universe:
+        absent: true
+        uri: {{sfrepo}}/ubuntu/canonical
+        suite: {{ suite }}-backports
+        comps: [ 'universe' ]
+      ubuntu-backports-multiverse:
+        absent: true
+        uri: {{sfrepo}}/ubuntu/canonical
         suite: {{ suite }}-backports
         comps: [ 'multiverse' ]
       {% endif %}  {# on Ubuntu #}
