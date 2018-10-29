@@ -12,6 +12,7 @@ pkgs:
   list:
     ## Miscellaneous
     tcsh: true
+    fish: true
     # needed by Cadence PVS
     ksh: true
     tree: true
