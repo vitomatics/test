@@ -86,8 +86,8 @@ flexnet:
       port: 27040
       vport: 27041
       licenses:
-        treksoc-20180917:
-          pillar: site:licenses:BREKER:treksoc-20180917
+        treksoc-20181029:
+          pillar: site:licenses:BREKER:treksoc-20181029
 
 
 ## Firewall holes for flexnet server
