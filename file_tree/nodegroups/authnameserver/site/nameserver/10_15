@@ -23,6 +23,9 @@ $TTL	86400
 19.0	IN	PTR	bender.internal.sifive.com.
 
 32.1	IN	PTR	labpdu01.internal.sifive.com.
+33.1	IN	PTR	pdu4001.internal.sifive.com.
+34.1	IN	PTR	pdu4002.internal.sifive.com.
+35.1	IN	PTR	pdu4003.internal.sifive.com.
 
 1.16	IN	PTR	iswitch11-vlan102.internal.sifive.com.
 

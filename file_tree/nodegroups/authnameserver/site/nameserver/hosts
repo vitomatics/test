@@ -200,6 +200,9 @@
 10.15.0.19 bender-admin			# static
 
 10.15.1.32 labpdu01
+10.15.1.33 pdu4001
+10.15.1.34 pdu4002
+10.15.1.35 pdu4003
 
 ########## vv WARNING - BEHIND NAT AND NOT IN MAIN SIFIVE SPACE vv ###########
 ## 10.15.6.0 -> 10.15.7.255 cad1-azure-net

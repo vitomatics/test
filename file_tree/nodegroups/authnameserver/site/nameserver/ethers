@@ -49,6 +49,10 @@ license			52:54:00:ff:00:17
 pdu11           00:20:85:f4:c2:d2
 pdu21           00:20:85:f4:c0:f4
 
+pdu4001		28:29:86:0a:7e:79
+pdu4002		28:29:86:0a:22:3d
+pdu4003		28:29:86:0a:7e:d3
+
 labpdu01	28:29:86:06:cb:0e
 
 heartofgold-admin	f4:8e:38:cd:ec:d4

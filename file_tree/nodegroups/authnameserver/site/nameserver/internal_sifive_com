@@ -248,6 +248,9 @@ b0-admin		IN	A	10.15.0.18
 bender-admin		IN	A	10.15.0.19
 
 labpdu01		IN	A	10.15.1.32
+pdu4001			IN	A	10.15.1.33
+pdu4002			IN	A	10.15.1.34
+pdu4003			IN	A	10.15.1.35
 
 iswitch11-vlan102	IN	A	10.15.16.1
 he-dev01-net-gw		IN	CNAME	iswitch11-vlan102

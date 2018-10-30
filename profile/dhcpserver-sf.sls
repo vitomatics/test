@@ -59,6 +59,18 @@ dhcpd:
       hardware: ethernet 28:29:86:06:cb:0e
       fixed-address: labpdu01.internal.sifive.com
       host-name: labpdu01.internal.sifive.com
+    pdu4001:
+      hardware: ethernet 28:29:86:0a:7e:79
+      fixed-address: pdu4001.internal.sifive.com
+      host-name: pdu4001.internal.sifive.com
+    pdu4002:
+      hardware: ethernet 28:29:86:0a:22:3d
+      fixed-address: pdu4002.internal.sifive.com
+      host-name: pdu4002.internal.sifive.com
+    pdu4003:
+      hardware: ethernet 28:29:86:0a:7e:d3
+      fixed-address: pdu4003.internal.sifive.com
+      host-name: pdu4003.internal.sifive.com
     # Test machines
     gravelpit:
       hardware: ethernet 52:54:00:ff:00:0b
