@@ -48,7 +48,7 @@ logrotate:
       files: /srv/log/auth/auth.log /srv/log/syslog/syslog.log /srv/log/net/net.log /srv/log/boardtest/pdu.log /srv/log/netapp/netapp.log
       missingok: true
       period: daily
-      rotate: 30
+      rotate: 60
       dateext: true
       dateyesterday: true
       postrotate: invoke-rc.d rsyslog rotate >/dev/null 2>/dev/null
