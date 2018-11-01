@@ -849,6 +849,13 @@ users:
     mail: larry.lee@sifive.com
     uid: 1206
     gid: 1206
+  vitob:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Vito Burggraf"
+    mail: virto.burggraf@sifive.com
+    uid: 1207
+    gid: 1207
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
