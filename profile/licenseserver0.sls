@@ -24,6 +24,10 @@ flexnet:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/Breker/flexlm/breker-flexlm-20180905.tar.gz
       dir: breker-flexlm-20180905
+    synopsys:
+      disttype: tgz
+      disturl: http://sfimages.internal.sifive.com/Synopsys/scl/scl-2018.06.tar.gz
+      dir: scl/2018.06
   daemons:
     mgcld:
       vendor: mentor
