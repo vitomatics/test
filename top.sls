@@ -482,4 +482,5 @@ base:
 
   'magrathea.internal.sifive.com':
     - subnet.he-unix02
+    - profile.debuilder
     - hosts.magrathea
