@@ -5,3 +5,4 @@ pkgs:
   list:
     devscripts: true
     dh-make: true
+    fakeroot: true
