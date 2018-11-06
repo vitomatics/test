@@ -1,0 +1,71 @@
+#Date: 11/05/2018
+#SNPS ID: PRD
+#                                                                        SYNOPSYS INC. KEY CERTIFICATE
+#                                                                        Site ID: 35908
+#                                                                        SiFive, Inc.
+#                                                                        1875 South Grant Street, Suite 600
+#                                                                        San Mateo
+#                                                                        CA 94402-7013
+#                                                                        US
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
+#
+#If you feel that keys are missing (or incorrect), please contact your Synopsys account manager.
+#
+#License keys will be transmitted in clear text, over public and private networks. Synopsys does not warrant or guarantee that these networks provide privacy and accepts no liability of
+#any kind if a third party intercepts the transmission.
+#
+#Synopsys products are export controlled. It is the responsibility of the addressee to comply with U.S. Export Regulations where applicable.
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Server Config: 0000269223
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#For Synopsys licensing setup and installation help, go to http://www.synopsys.com/licensing
+#
+#IMPORTANT: Starting December 10, 2018, Synopsys license files will be enabled with Tamper Resistant Licensing (TRL) functionality. TRL-format license files
+#require SCL version 2018.06 or higher.
+#
+#For further details, go to http://www.synopsys.com/licensing/trl
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Synopsys License file created by CVDKIF 5.1 on November 05, 2018 at 15:06:16 for daemon snpslmd
+SERVER hostname1 0002C94E201E 27020
+VENDOR snpslmd /path/to/snpslmd
+USE_SERVER
+INCREMENT SSST snpslmd 1.0 12-Nov-2018 1 CE5D6405AEA938C3B4D4 \
+        VENDOR_STRING="2aa9d 95b8a 2802a 4ec3c 43675 8c4ee 37ec3 c4367 58c4e e3711 \
+        01020 0ca58 70763 1d9e4 f2645 b049c 05357 6cf19 8decc e0726 \
+        8d897 c233f 408c4 04119 378f8 473c0 6b76c 1f024 5c7df eeb69 \
+        eded1 d6780 d2558 d485f e3fe7 19653 ebcd1 11438 7340c fb9ff \
+        7f155 8b832 a6aeb 5255b 6c255 c93fc 13f91 550fa 07d99 1ecf6 \
+        603e0 0fdff 20c62 aaba9 7e6a4 11e98 cb7f8 35f7d 08712 bc080 \
+        da47c 702ac 5de1f c9b8c 45a98 4ea94 f6240 14176 83a21 9fcb0 \
+        dc299 ffb6a 252a5 e3ba3 02308 e5117 4eca9 0c680 e11d8 8dc0f \
+        3a777 92184 b99c0 4530d 9672a 8d222 fdf44 ccb35 82965 89a03 \
+        fb998 2b01f e3b52 2fe52 d8cb0 33930 f6525 d156e 77b91 0a1ea \
+        34b27 fa5f8 4e2f2 54f8b bfcf5 1d79c 2f854 1f1a3 15e05 cb3a8 \
+        94c32 a36fd 433c5 86a" \
+        NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
+        KEYS IN THIS FILE]" \
+        SN=TK:0:0:424871 ISSUER="Synopsys, Inc. [11/5/2018 15:06:16 35908 5.1]" \
+        START=05-Nov-2018
+INCREMENT GalaxyConstraint snpslmd 2018.06 12-nov-2018 10 \
+        ISSUED=05-nov-2018 ck=15 SN=TK:4770-0:515071:424871 \
+        START=05-nov-2018 AUTH={ snpslmd=( LK=4E1D7425A7543A8649B1) }
+INCREMENT Milkyway-Interface snpslmd 2018.06 12-nov-2018 10 \
+        ISSUED=05-nov-2018 ck=104 SN=TK:4770-0:515071:424871 \
+        START=05-nov-2018 AUTH={ snpslmd=( LK=4E8D84B5CFE1F6861F08) }
+INCREMENT PrimeTime snpslmd 2018.06 12-nov-2018 10 ISSUED=05-nov-2018 \
+        ck=15 SN=TK:4770-0:515071:424871 START=05-nov-2018 AUTH={ \
+        snpslmd=( LK=3E8DE4254BE7024E95DF) }
+INCREMENT PrimeTime-ADV snpslmd 2018.06 12-nov-2018 10 \
+        ISSUED=05-nov-2018 ck=53 SN=TK:4770-0:515071:424871 \
+        START=05-nov-2018 AUTH={ snpslmd=( LK=EE9D5495A0AC2D227334) }
+INCREMENT PrimeTime-PX snpslmd 2018.06 12-nov-2018 10 \
+        ISSUED=05-nov-2018 ck=44 SN=TK:4463-0:515071:424871 \
+        START=05-nov-2018 AUTH={ snpslmd=( LK=1EBD245548EDA8CB7267) }
+INCREMENT PrimeTime-SI snpslmd 2018.06 12-nov-2018 10 \
+        ISSUED=05-nov-2018 ck=240 SN=TK:4770-0:515071:424871 \
+        START=05-nov-2018 AUTH={ snpslmd=( LK=6E4D4465A0522333B429) }
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
