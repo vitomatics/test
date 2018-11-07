@@ -9,7 +9,7 @@ pdus:
 
 testhosts:
   test1:
-    node: epsilon00.internal.sifive.com
+    node: epsilon01.internal.sifive.com
     partition: boardtest
     rack: rack05
     shelf: 01
@@ -27,3 +27,16 @@ testhosts:
         hostname: turtle.internal.sifive.com
         switch: iswitch07
         switchport: ge-0/0/4
+  test2:
+    node: epsilon00.internal.sifive.com
+    partition: boardtest
+    rack: rack05
+    shelf: 01
+    power:
+      type: uhubctl
+      loc: 1-2
+      port: 4
+    boards:
+      board0:
+        id: arty_001
+        type: arty100

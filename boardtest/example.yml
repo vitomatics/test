@@ -12,7 +12,7 @@
 #   KEY: name of key used elsewhere
 #   type: the type of the pdu
 #     - apc_snmp: APC gen 2 PDU using SNMPv3
-#   hostname: fully
+#   hostname: fully qualified hostname
 #   user: the username for managing the PDU
 #   pw: the pillar containing the password for managing the PDU
 #
@@ -36,9 +36,10 @@
 #   type: the type of the power switching.  One of:
 #     - none: no power switching (default)
 #     - pdu: IP addressable PDU
-#     - usbhub: USB hub power
-#   pdu: the details of the pdu from the pdus structure above
-#   port: the port on the PDU
+#     - uhubctl: USB hub power driven by uhubctl
+#   pdu: the name of the pdu from above (if a pdu)
+#   loc: the location of the hub (if a USB hub)
+#   port: the port on the PDU or USB hub
 # Fields in testhosts:boards:boardN
 #   id: the unique board identity of the testboard
 #   type: the type of the test board.  As specified in ??
@@ -60,7 +61,7 @@ testhosts:
   test1:
     node: epsilon01.internal.sfive.com
     partition: boardtest
-    rack: rack05
+    rack: rack4001
     shelf: 01
     testnet:
       hostname: hostname for the test network interface
@@ -80,5 +81,21 @@ testhosts:
         hostname: turtle
 	net: true
         switchport: ge-0/0/4
+  test2:
+    node: epsilon02.internal.sifie.com
+    partition: boardtest
+    rack: rack4001
+    shelf: 02
+    power:
+      type: uhubctl
+      loc: 2-1
+      port: 1
+    boards:
+      board0:
+        id: arty_001
+        type: arty100
+        net: false
+        
+      
     
     
