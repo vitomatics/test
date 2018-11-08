@@ -856,6 +856,20 @@ users:
     mail: virto.burggraf@sifive.com
     uid: 1207
     gid: 1207
+  chrisw:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Chris Wright"
+    mail: chris.wright@sifive.com
+    uid: 1208
+    gid: 1208
+  tongl:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Tong Liu"
+    mail: tong.liu@sifive.com
+    uid: 1209
+    gid: 1209
 
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
