@@ -95,7 +95,9 @@ flexnet:
         treksoc-20181029:
           absent: true
         treksoc-20181105:
-          pillar: site:licenses:BREKER:treksoc-20181105
+          absent: true
+        treksoc-20181107:
+          pillar: site:licenses:BREKER:treksoc-20181107
 
 
 ## Firewall holes for flexnet server
