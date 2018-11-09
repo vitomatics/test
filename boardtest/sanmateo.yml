@@ -75,4 +75,4 @@ testhosts:
     boards:
       board0:
         id: arty_001
-        type: arty100
+        type: hifiveu
