@@ -36,6 +36,14 @@ pdus:
     pw: hit me with 120V
 
 testhosts:
+  rack4001-shelf12:
+    node: epsion12.internal.sifive.com
+    partition: boardtest
+    rack: rack4001
+    shelf: '12'
+    boards:
+      board0:
+        id: 'unknwon'
   rack05-shelf01:
     node: epsilon01.internal.sifive.com
     partition: boardtest
@@ -67,4 +75,4 @@ testhosts:
     boards:
       board0:
         id: arty_001
-        type: arty100
+        type: hifiveu
