@@ -863,11 +863,11 @@ users:
     mail: chris.wright@sifive.com
     uid: 1208
     gid: 1208
-  tongl:
+  kevinl:
     tags: [ cluster ]
     groups: [ compute ]
-    fullname: "Tong Liu"
-    mail: tong.liu@sifive.com
+    fullname: "Kevin Liu"
+    mail: kevin.liu@sifive.com
     uid: 1209
     gid: 1209
 
