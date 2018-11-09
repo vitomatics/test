@@ -1,41 +1,69 @@
 # The san mateo boardtest environment
 
+udevs:
+  arty35: udev-ftdi2-olimex
+  arty100: udev-ftdi2-olimex
+  vc707_1gb: udev-ftdi-cygnal-olimex
+  vc707_4gb: udev-ftdi-cygnal-olimex
+  vcu118: udev-ftdi-cygnal-olimex
+  hifive1: udev-ftdi2
+  hifive1_revb: udev-ftdi2
+  hifive2: udev-ftdi4
+  hifivehand: udev-segger-hand
+  hifiveu: udev-ftdi2
+
+
 pdus:
   labpdu01:
     type: apc_snmp
     hostname: labpdu01.internal.sifive.com
     user: boardtest
     pw: hit me with 120V
+  pdu4001:
+    type: apc_snmp
+    hostname: pdu4001.internal.sifive.com
+    user: boardtest
+    pw: hit me with 120V
+  pdu4002:
+    type: apc_snmp
+    hostname: pdu4002.internal.sifive.com
+    user: boardtest
+    pw: hit me with 120V
+  pdu4003:
+    type: apc_snmp
+    hostname: pdu4003.internal.sifive.com
+    user: boardtest
+    pw: hit me with 120V
 
 testhosts:
-  test1:
+  rack05-shelf01:
     node: epsilon01.internal.sifive.com
     partition: boardtest
     rack: rack05
-    shelf: 01
+    shelf: '01'
     testnet:
       hostname: epsilon00-lab.internal.sifive.com
       nfsserver: true
     power:
       type: pdu
-      pdu: labpdu01
-      port: 1
+      pdu: pdu4001
+      port: '1'
     boards:
       board0:
-        id: vc707_001
-        type: vc707_4gb
+        id: 'vc707_001'
+        type: 'vc707_4gb'
         hostname: turtle.internal.sifive.com
         switch: iswitch07
-        switchport: ge-0/0/4
-  test2:
+        switchport: 'ge-0/0/4'
+  rack05-shelf02:
     node: epsilon00.internal.sifive.com
     partition: boardtest
     rack: rack05
-    shelf: 01
+    shelf: '02'
     power:
       type: uhubctl
-      loc: 1-2
-      port: 4
+      loc: '1-2'
+      port: '4'
     boards:
       board0:
         id: arty_001
