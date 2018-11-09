@@ -3,8 +3,8 @@
 udevs:
   arty35: udev-ftdi2-olimex
   arty100: udev-ftdi2-olimex
-  vc707_1gb: udev-ftdi-cygnal-olimex
-  vc707_4gb: udev-ftdi-cygnal-olimex
+  vc707_1gb: udev-ftdi2-cygnal-olimex
+  vc707_4gb: udev-ftdi2-cygnal-olimex
   vcu118: udev-ftdi-cygnal-olimex
   hifive1: udev-ftdi2
   hifive1_revb: udev-ftdi2
