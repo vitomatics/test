@@ -13,8 +13,9 @@ boardtest:
     datadir: /var/lib/boardtest
     confdir: /etc/boardtest
     confname: boardtest.conf
-    pduuser: pduuser
+    poweruser: boardtest-pduuser
 
+  udevs: {{ sanmateo.udevs|default({})|yaml }}
   pdus: {{ sanmateo.pdus|default({})|yaml }}
   testhosts: {{ sanmateo.testhosts|default({})|yaml }}
   group: compute
