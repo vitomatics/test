@@ -1,0 +1,56 @@
+#Date: 11/12/2018
+#SNPS ID: PRD
+#                                                                        SYNOPSYS INC. KEY CERTIFICATE
+#                                                                        Site ID: 35908
+#                                                                        SiFive, Inc.
+#                                                                        1875 South Grant Street, Suite 600
+#                                                                        San Mateo
+#                                                                        CA 94402-7013
+#                                                                        US
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
+#
+#If you feel that keys are missing (or incorrect), please contact your Synopsys account manager.
+#
+#License keys will be transmitted in clear text, over public and private networks. Synopsys does not warrant or guarantee that these networks provide privacy and accepts no liability of
+#any kind if a third party intercepts the transmission.
+#
+#Synopsys products are export controlled. It is the responsibility of the addressee to comply with U.S. Export Regulations where applicable.
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Server Config: 0000295821
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#For Synopsys licensing setup and installation help, go to http://www.synopsys.com/licensing
+#
+#IMPORTANT: Starting December 10, 2018, Synopsys license files will be enabled with Tamper Resistant Licensing (TRL) functionality. TRL-format license files
+#require SCL version 2018.06 or higher.
+#
+#For further details, go to http://www.synopsys.com/licensing/trl
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Synopsys License file created by CVDKIF 5.1 on November 12, 2018 at 18:24:54 for daemon snpslmd
+SERVER hostname1 525400FF0015 27020
+VENDOR snpslmd /path/to/snpslmd
+USE_SERVER
+INCREMENT SSST snpslmd 1.0 10-Nov-2019 1 2E6D343C80FBF6A7D61F \
+        VENDOR_STRING="33af2 2cd8f 29181 94e9d 85c51 fd025 e84e9 d85c5 1fd02 5e811 \
+        01020 0b6fa c44c3 c5489 35d42 b7b36 57f1c cb5c6 6e917 438b6 \
+        0df7f 12d8f e8691 89514 492b1 9f9a7 f6482 98f71 d7481 e5f5f \
+        38987 ca0b8 7a426 261b1 4355d e4418 94106 81c18 276e5 058e0 \
+        75848 7f5ec e25a2 f8274 9b5c1 b5e38 5e951 31fbc a25fb 68b7c \
+        0027e ff821 6f8bd d00ef 1b923 aa430 78d72 b3df7 391d3 b0a63 \
+        7794a 6178e 40817 20003 95945 b6b37 3f1ca 253c1 ceb34 13198 \
+        03912 c965f d7aa5 ea276 1cc79 5c01f fc53d 52f2b c5b8b 83d57 \
+        38816 6a4fe b1d4b 7b2f0 6c365 235e4 81de7 fd88e 0531a 8b040 \
+        bd07c 50475 ceb08 176ee 0c1d7 14e3d a5728 b5d73 e925d aa177 \
+        7edec fa876 42c8e 9cda0 7b81b 49a5e 61195 770e9 2e4fa e8c19 \
+        00988 ac73b 5375b 4d8" \
+        NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
+        KEYS IN THIS FILE]" \
+        SN=TK:0:0:172364 ISSUER="Synopsys, Inc. [11/12/2018 18:24:54 35908 5.1]" \
+        START=12-Nov-2018
+INCREMENT VT_FGP_Runtime snpslmd 2018.09 10-nov-2019 10 \
+        ISSUED=12-nov-2018 ck=154 SN=TK:515819:172364 \
+        START=12-nov-2018 AUTH={ snpslmd=( LK=0EDDD49CBCE1EE903CBD) }
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

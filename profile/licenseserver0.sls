@@ -106,6 +106,8 @@ flexnet:
       vport: 27001
       env: SCL_POOL_VS=1
       licenses:
+        synospsys-temp-20181112:
+          pillar: site:licenses:snpslmd:synopsys-temp-20181112
         synospsys-temp-20181113:
           pillar: site:licenses:snpslmd:synopsys-temp-20181113
 
