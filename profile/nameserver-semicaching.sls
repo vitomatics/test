@@ -44,9 +44,13 @@ bind:
   configured_zones:
     internal.sifive.com:
       type: slave
+    lab.internal.sifive.com:
+      type: slave
     14.10.in-addr.arpa:
       type: slave
     15.10.in-addr.arpa:
+      type: slave
+    16.10.in-addr.arpa:
       type: slave
     134.10.in-addr.arpa:
       type: slave
@@ -59,11 +63,17 @@ bind:
     internal.sifive.com:
       file: db.internal.sifive.com
       masters: "10.14.16.42;"
+    lab.internal.sifive.com:
+      file: db.lab.internal.sifive.com
+      masters: "10.14.16.42;"
     14.10.in-addr.arpa:
       file: db.14.10
       masters: "10.14.16.42;"
     15.10.in-addr.arpa:
       file: db.15.10
+      masters: "10.14.16.42;"
+    16.10.in-addr.arpa:
+      file: db.16.10
       masters: "10.14.16.42;"
     134.10.in-addr.arpa:
       file: db.134.10
