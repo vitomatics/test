@@ -17,6 +17,8 @@ $TTL	86400
 		NS		adns0
 		MX		10 mx
 
+lab		IN	NS	adns0
+
 router03-ge0-0-1	IN	A	10.14.0.1
 sf-unix-net-gw	IN	CNAME	router03-ge0-0-1
 

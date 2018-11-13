@@ -14,6 +14,8 @@ $TTL	3600
 	3600       ; minimum TTL
 	)
 
+		IN	NS	adns0.internal.sifive.com.
+
 usbeth100	IN	A	10.16.1.16
 usbeth101	IN	A	10.16.1.17
 usbeth102	IN	A	10.16.1.18
