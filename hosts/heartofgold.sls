@@ -78,12 +78,7 @@ zfs:
     bkpool01/sfbackup/dumps/work:
     bkpool01/sfbackup/dumps/sifive:
     bkpool01/sfbackup/dumps/vulcan-srv:
-    bkpool01/sfbackup/dumps/nihilanth-etc:
-    bkpool01/sfbackup/dumps/gonarch-srv:
-    bkpool01/sfbackup/dumps/breencast-ldap-db:
-    bkpool01/sfbackup/dumps/breencast-ldap-config:
     bkpool01/sfbackup/dumps/dalek-srv:
-    bkpool01/sfbackup/dumps/i0-license:
     bkpool01/sfbackup/dumps/grid-srv:
     bkpool01/sfbackup/dumps/yoda-srv:
     bkpool01/sfbackup/dumps/vader-srv:
