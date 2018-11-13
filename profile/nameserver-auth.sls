@@ -44,10 +44,16 @@ bind:
     internal.sifive.com:
       type: master
       notify: true
+    lab.internal.sifive.com:
+      type: master
+      notify: true
     14.10.in-addr.arpa:
       type: master
       notify: true
     15.10.in-addr.arpa:
+      type: master
+      notify: true
+    16.10.in-addr.arpa:
       type: master
       notify: true
     134.10.in-addr.arpa:
@@ -61,12 +67,18 @@ bind:
     internal.sifive.com:
       file: internal.sifive.com.zone
       pillar: 'site:nameserver:internal_sifive_com'
+    lab.internal.sifive.com:
+      file: lab.internal.sifive.com.zone
+      pillar: 'site:nameserver:lab_internal_sifive_com'
     14.10.in-addr.arpa:
       file: 14.10.zone
       pillar: 'site:nameserver:10_14'
     15.10.in-addr.arpa:
       file: 15.10.zone
       pillar: 'site:nameserver:10_15'
+    16.10.in-addr.arpa:
+      file: 16.10.zone
+      pillar: 'site:nameserver:10_16'
     134.10.in-addr.arpa:
       file: 134.10.zone
       pillar: 'site:nameserver:10_134'
