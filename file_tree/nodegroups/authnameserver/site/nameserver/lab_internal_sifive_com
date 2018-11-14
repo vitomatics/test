@@ -46,3 +46,7 @@ usbeth126	IN	A	10.16.1.42
 usbeth127	IN	A	10.16.1.43
 usbeth128	IN	A	10.16.1.44
 usbeth129	IN	A	10.16.1.45
+
+pcieth100	IN	A	10.16.2.16
+
+h5u-00233	IN	A	10.16.2.128

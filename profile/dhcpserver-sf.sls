@@ -249,7 +249,7 @@ dhcpd:
       next-server: tftpboot.internal.sifive.com
 
 
-    # Lab machines
+    # Lab machines - uer administered
     nuc1:
       hardware: ethernet f4:4d:30:61:c2:49
       fixed-address: nuc1.internal.sifive.com
@@ -378,3 +378,29 @@ dhcpd:
     hifiveu-reg2:
       hardware: ethernet 70:b3:d5:92:f1:a9
       fixed-address: hifiveu-reg2.internal.sifive.com
+
+    # lab machines - centrally administered
+    usbeth106:
+      hardware: ethernet 98:de:d0:04:c3:6a
+      fixed-address: usbeth106.lab.internal.sifive.com
+    usbeth107:
+      hardware: ethernet 50:3e:aa:63:d3:aa
+      fixed-address: usbeth107.lab.internal.sifive.com
+    usbeth108:
+      hardware: ethernet 50:3e:aa:63:d5:30
+      fixed-address: usbeth108.lab.internal.sifive.com
+    usbeth109:
+      hardware: ethernet 50:3e:aa:63:d3:9c
+      fixed-address: usbeth109.lab.internal.sifive.com
+    usbeth110:
+      hardware: ethernet 50:3e:aa:4e:07:d0
+      fixed-address: usbeth110.lab.internal.sifive.com
+
+
+    h5u-00233:
+      hardware: ethernet 70:b3:d5:92:f0:e9
+      fixed-address: h5u-00233.lab.internal.sifive.com
+
+    pcieth100:
+      hardware: ethernet 68:05:ca:8d:a2:d7
+      fixed-address: pcieth100.lab.internal.sifive.com

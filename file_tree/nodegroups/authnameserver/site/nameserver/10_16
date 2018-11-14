@@ -46,3 +46,6 @@ $TTL	3600
 44.1	IN	PTR	usbeth128.lab.internal.sifive.com.
 45.1	IN	PTR	usbeth129.lab.internal.sifive.com.
 
+16.2	IN	PTR	pcieth100.lab.internal.sifive.com.
+
+128.2	IN	PTR	h5u-00233.lab.internal.sifive.com.

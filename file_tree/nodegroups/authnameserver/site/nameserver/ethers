@@ -302,6 +302,16 @@ hifiveu-reg1		70:b3:d5:92:f1:b2
 hifiveu-reg2		70:b3:d5:92:f1:a9
 asustor1		10:bf:48:8c:23:ee
 
+h5u-00233	70:b3:d5:92:f0:e9
+
+usbeth106	98:de:d0:04:c3:6a
+usbeth107	50:3e:aa:63:d3:aa
+usbeth108	50:3e:aa:63:d5:30
+usbeth109	50:3e:aa:63:d3:9c
+usbeth110	50:3e:aa:4e:07:d0
+
+pcieth100	68:05:ca:8d:a2:d7
+
 epsilon00	54:b2:03:0b:cb:95
 epsilon01	54:b2:03:0b:cc:5c
 epsilon02	54:b2:03:0b:cb:ac

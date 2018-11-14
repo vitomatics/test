@@ -313,6 +313,7 @@
 # 10.15.255.255 RESERVED - do not use
 
 ## 10.16.0.0->10.16.15.255 sf-lab-net
+##   10.16.0.0->10.16.0.255 user-administered equipment
 # 10.16.0.0 RESERVED - do not use
 10.16.0.1 sf-lab-net-gw router03-ge0-0-3
 10.16.0.32 nuc1
@@ -363,6 +364,7 @@
 ...
 10.16.0.191 sf-lab-net-dhcp191
 
+##   10.16.1.0->10.16.3.255 sysadmin-administered equipment
 
 10.16.1.16 usbeth100
 10.16.1.17 usbeth101
@@ -394,6 +396,10 @@
 10.16.1.43 usbeth127
 10.16.1.44 usbeth128
 10.16.1.45 usbeth129
+
+10.16.2.16 pcieth100
+
+10.16.2.128 h5u-00233
 
 # 10.16.15.255 RESERVED - do not use
 
