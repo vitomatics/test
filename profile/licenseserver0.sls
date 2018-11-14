@@ -98,7 +98,7 @@ flexnet:
           absent: true
         treksoc-20181107:
           pillar: site:licenses:BREKER:treksoc-20181107
-    # Second Synopsys server - not the main one is on licenseserver0
+    # Second Synopsys server - note the main one is on licenseserver0
     snpslmd:
       vendor: synopsys
       bindir: scl/2018.06/linux64/bin
@@ -106,10 +106,12 @@ flexnet:
       vport: 27001
       env: SCL_POOL_VS=1
       licenses:
+        synospsys-temp-20181113:
+          absent: true
         synospsys-temp-20181112:
           pillar: site:licenses:snpslmd:synopsys-temp-20181112
-        synospsys-temp-20181113:
-          pillar: site:licenses:snpslmd:synopsys-temp-20181113
+        synospsys-temp-20181114:
+          pillar: site:licenses:snpslmd:synopsys-temp-20181114
 
 
 ## Firewall holes for flexnet server
