@@ -23,15 +23,21 @@ sfpreseed:
           options:
             - nodev
             - relatime
-        boardtest:
-          mountpoint: /export/boardtest
+        boardtest-nfs:
+          mountpoint: /srv/boardtest/export
           size: 42949
+          options:
+            - nodev
+            - relatime
+        boardtest-tftp:
+          mountpoint: /srv/boardtest/tftpboot
+          size: 17176
           options:
             - nodev
             - relatime
         scratch:
           mountpoint: /scratch
-          size: unlimited
+          size: 500000
           options:
             - nodev
             - nosuid
