@@ -54,7 +54,7 @@ testhosts:
       # type: pdu
       # pdu: pdu4001
       # port: '14'
-    board:
+    boards:
       board0:
         id: 'unknown'
         type: hifivehand
@@ -79,7 +79,7 @@ testhosts:
       # type: pdu
       # pdu: pdu4001
       # port: '16'
-    board:
+    boards:
       board0:
         id: 'unknown'
         type: hifive1
@@ -101,7 +101,7 @@ testhosts:
       type: pdu
       pdu: pdu4001
       port: '18'
-    board:
+    boards:
       board0:
         id: 'unknown'
         type: vc707_4gb
@@ -123,7 +123,7 @@ testhosts:
       type: pdu
       pdu: pdu4001
       port: '20'
-    board:
+    boards:
       board0:
         id: 'h5u-00233'
         type: hifiveu
@@ -147,7 +147,7 @@ testhosts:
       port: '4'
       # pdu: pdu4001
       # port: '22'
-    board:
+    boards:
       board0:
         id: 'unknown'
         type: arty
