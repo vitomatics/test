@@ -9,7 +9,11 @@ include:
 
 file:
   mkdir:
-    /export/boardtest:
+    /srv/boardtest/export:
+      user: root
+      group: {{ allgroups.groups.compute.gid }}
+      mode: '01770'
+    /srv/boardtest/tftpboot:
       user: root
       group: {{ allgroups.groups.compute.gid }}
       mode: '01770'
