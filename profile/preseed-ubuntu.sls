@@ -24,7 +24,7 @@ sfpreseed:
             - nodev
             - relatime
         boardtest-nfs:
-          mountpoint: /srv/boardtest/export
+          mountpoint: /srv/boardtest/nfs
           size: 42949
           options:
             - nodev
