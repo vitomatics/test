@@ -9,7 +9,7 @@ include:
 
 file:
   mkdir:
-    /srv/boardtest/export:
+    /srv/boardtest/nfs:
       user: root
       group: {{ allgroups.groups.compute.gid }}
       mode: '01770'
