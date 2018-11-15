@@ -1,16 +1,26 @@
 # The san mateo boardtest environment
 
 udevs:
-  arty35: udev-xilinx-ftdi2-olimex
-  arty100: udev-xilinx-ftdi2-olimex
-  vc707_1gb: udev-xilinx-ftdi2-cygnal-olimex
-  vc707_4gb: udev-xilinx-ftdi2-cygnal-olimex
-  vcu118: udev-xilinx-ftdi2-cygnal-olimex
-  hifive1: udev-ftdi2
-  hifive1_revb: udev-ftdi2
-  hifive2: udev-ftdi4
-  hifivehand: udev-segger-hand
-  hifiveu: udev-ftdi2
+  arty35:
+    rules: udev-xilinx-ftdi2-olimex
+  arty100:
+    rules: udev-xilinx-ftdi2-olimex
+  vc707_1gb:
+    rules: udev-xilinx-ftdi2-cygnal-olimex
+  vc707_4gb:
+    rules: udev-xilinx-ftdi2-cygnal-olimex
+  vcu118:
+    rules: udev-xilinx-ftdi2-cygnal-olimex
+  hifive1:
+    rules: udev-ftdi2
+  hifive1_revb:
+    rules: udev-ftdi2
+  hifive2:
+    rules: udev-ftdi4
+  hifivehand:
+    rules: udev-segger-hand
+  hifiveu:
+    rules: udev-ftdi2
 
 
 pdus:
