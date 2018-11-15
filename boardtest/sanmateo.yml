@@ -49,8 +49,8 @@ testhosts:
       switchport: 'ge-0/0/35'
     power:
       type: uhubctl
-      loc: '1-2'
-      port: '4'
+      loc: '1-3'
+      port: '1'
       # type: pdu
       # pdu: pdu4001
       # port: '14'
@@ -74,7 +74,7 @@ testhosts:
       switchport: 'ge-0/0/33'
     power:
       type: uhubctl
-      loc: '1-3.1'
+      loc: '1-3'
       port: '1'
       # type: pdu
       # pdu: pdu4001
@@ -143,8 +143,8 @@ testhosts:
       switchport: 'ge-0/0/27'
     power:
       type: uhubctl
-      loc: '1-2'
-      port: '4'
+      loc: '1-3'
+      port: '1'
       # pdu: pdu4001
       # port: '22'
     boards:
