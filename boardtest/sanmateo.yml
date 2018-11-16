@@ -160,7 +160,7 @@ testhosts:
     boards:
       board0:
         id: 'unknown'
-        type: arty
+        type: arty35
         # switch: 'iswitch4010'
         # switchport: 'ge-0/0/26'
   
