@@ -3,24 +3,34 @@
 udevs:
   arty35:
     rules: udev-xilinx-ftdi2-olimex
+    devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
   arty100:
     rules: udev-xilinx-ftdi2-olimex
+    devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
   vc707_1gb:
     rules: udev-xilinx-ftdi2-cygnal-olimex
+    devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
   vc707_4gb:
     rules: udev-xilinx-ftdi2-cygnal-olimex
+    devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
   vcu118:
     rules: udev-xilinx-ftdi2-cygnal-olimex
+    devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
   hifive1:
     rules: udev-ftdi2
+    devs: [ /dev/testboard-console, /dev/testboard-jtag ]
   hifive1_revb:
     rules: udev-ftdi2
+    devs: [ /dev/testboard-console, /dev/testboard-jtag ]
   hifive2:
     rules: udev-ftdi4
+    devs: [ /dev/testboard-console, /dev/testboard-jtag ]
   hifivehand:
     rules: udev-segger-hand
+    devs: [ ]
   hifiveu:
     rules: udev-ftdi2
+    devs: [ /dev/testboard-console, /dev/testboard-jtag ]
 
 
 pdus:
