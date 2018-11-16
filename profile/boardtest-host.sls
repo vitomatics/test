@@ -5,7 +5,6 @@
 
 states:
   boardtest: true
-  boardtest.pdu: true
 
 
 boardtest:
