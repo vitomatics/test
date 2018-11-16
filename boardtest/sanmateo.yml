@@ -69,8 +69,8 @@ testhosts:
       switchport: 'ge-0/0/35'
     power:
       type: uhubctl
-      loc: '1-3'
-      port: '4'
+      # hub: '1-3'
+      # port: '4'
       # type: pdu
       # pdu: pdu4001
       # port: '14'
@@ -94,8 +94,8 @@ testhosts:
       switchport: 'ge-0/0/33'
     power:
       type: uhubctl
-      loc: '1-3'
-      port: '4'
+      # hub: '1-3'
+      # port: '4'
       # type: pdu
       # pdu: pdu4001
       # port: '16'
@@ -163,8 +163,8 @@ testhosts:
       switchport: 'ge-0/0/27'
     power:
       type: uhubctl
-      loc: '1-3'
-      port: '4'
+      # hub: '1-3'
+      # port: '4'
       # pdu: pdu4001
       # port: '22'
     boards:
@@ -210,8 +210,8 @@ testhosts:
     shelf: '02'
     power:
       type: uhubctl
-      loc: '1-2'
-      port: '4'
+      # hub: '1-2'
+      # port: '4'
     boards:
       board0:
         id: arty_001
