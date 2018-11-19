@@ -14,6 +14,7 @@ pkgs:
     hping3: true
     lsof: true
     iotop: true
+    iperf: true
     strace: true
 
     screen: true

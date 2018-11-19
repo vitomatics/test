@@ -317,6 +317,7 @@ pkgs:
     tftp-hpa: true
 
     dnsutils: true
+    iperf: true
     ipmitool: true
     traceroute: true
     lsscsi: true
