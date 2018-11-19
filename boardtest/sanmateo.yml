@@ -1,16 +1,36 @@
 # The san mateo boardtest environment
 
 udevs:
-  arty35: udev-xilinx-ftdi2-olimex
-  arty100: udev-xilinx-ftdi2-olimex
-  vc707_1gb: udev-xilinx-ftdi2-cygnal-olimex
-  vc707_4gb: udev-xilinx-ftdi2-cygnal-olimex
-  vcu118: udev-xilinx-ftdi2-cygnal-olimex
-  hifive1: udev-ftdi2
-  hifive1_revb: udev-ftdi2
-  hifive2: udev-ftdi4
-  hifivehand: udev-segger-hand
-  hifiveu: udev-ftdi2
+  arty35:
+    rules: udev-xilinx-ftdi2-olimex
+    devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
+  arty100:
+    rules: udev-xilinx-ftdi2-olimex
+    devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
+  vc707_1gb:
+    rules: udev-xilinx-ftdi2-cygnal-olimex
+    devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
+  vc707_4gb:
+    rules: udev-xilinx-ftdi2-cygnal-olimex
+    devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
+  vcu118:
+    rules: udev-xilinx-ftdi2-cygnal-olimex
+    devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
+  hifive1:
+    rules: udev-ftdi2
+    devs: [ /dev/testboard-console, /dev/testboard-jtag ]
+  hifive1_revb:
+    rules: udev-ftdi2
+    devs: [ /dev/testboard-console, /dev/testboard-jtag ]
+  hifive2:
+    rules: udev-ftdi4
+    devs: [ /dev/testboard-console, /dev/testboard-jtag ]
+  hifivehand:
+    rules: udev-segger-hand
+    devs: [ ]
+  hifiveu:
+    rules: udev-ftdi2
+    devs: [ /dev/testboard-console, /dev/testboard-jtag ]
 
 
 pdus:
@@ -49,8 +69,8 @@ testhosts:
       switchport: 'ge-0/0/35'
     power:
       type: uhubctl
-      loc: '1-3'
-      port: '4'
+      # hub: '1-3'
+      # port: '4'
       # type: pdu
       # pdu: pdu4001
       # port: '14'
@@ -74,8 +94,8 @@ testhosts:
       switchport: 'ge-0/0/33'
     power:
       type: uhubctl
-      loc: '1-3'
-      port: '4'
+      # hub: '1-3'
+      # port: '4'
       # type: pdu
       # pdu: pdu4001
       # port: '16'
@@ -143,14 +163,14 @@ testhosts:
       switchport: 'ge-0/0/27'
     power:
       type: uhubctl
-      loc: '1-3'
-      port: '4'
+      # hub: '1-3'
+      # port: '4'
       # pdu: pdu4001
       # port: '22'
     boards:
       board0:
         id: 'unknown'
-        type: arty
+        type: arty35
         # switch: 'iswitch4010'
         # switchport: 'ge-0/0/26'
   
@@ -190,8 +210,8 @@ testhosts:
     shelf: '02'
     power:
       type: uhubctl
-      loc: '1-2'
-      port: '4'
+      # hub: '1-2'
+      # port: '4'
     boards:
       board0:
         id: arty_001

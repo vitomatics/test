@@ -268,7 +268,6 @@ base:
     - profile.slurm-node
     - profile.jenkins-rootuser-access
     - profile.sfamtutil
-    - profile.fpgahost2
     - profile.boardtest-nfs
     - profile.snmp-client
     - profile.managed-nuc
