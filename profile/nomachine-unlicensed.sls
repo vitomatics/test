@@ -9,9 +9,6 @@ nomachine:
     # Note we have to use the URL for the new install otherwise
     # it tries to install the update version
   terminal-server:
-    server-license-pillar: site:nomachine:server-license
-    node-license-pillar: site:nomachine:node-license
-    
     EnableNetworkBroadcast: true
     PhysicalDesktopSharing: false
     VirtualDesktopSharing: true
