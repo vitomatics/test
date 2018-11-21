@@ -11,6 +11,10 @@ dhcpd:
   domain-name-servers:
     - 10.14.16.38
     - 10.14.17.38
+  domain-search:
+    - sifive.com
+    - internal.sifive.com
+    - lab.internal.sifive.com
 
   subnets:
     # he-unix01-net
