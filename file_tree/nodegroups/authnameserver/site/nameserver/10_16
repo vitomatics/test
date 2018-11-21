@@ -6,7 +6,7 @@ $ORIGIN	16.10.in-addr.arpa.
 $TTL	3600
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018111303 ; serial number
+	2018112001 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -47,5 +47,6 @@ $TTL	3600
 45.1	IN	PTR	usbeth129.lab.internal.sifive.com.
 
 16.2	IN	PTR	pcieth100.lab.internal.sifive.com.
+17.2	IN	PTR	pcieth101.lab.internal.sifive.com.
 
 128.2	IN	PTR	h5u-00233.lab.internal.sifive.com.
