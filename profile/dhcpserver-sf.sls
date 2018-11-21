@@ -19,6 +19,10 @@ dhcpd:
       ntp-servers:
         - 10.14.0.14
         - 10.14.16.38
+      domain-search:
+        - sifive.com
+        - internal.sifive.com
+        - lab.internal.sifive.com
 
       pools:
         install_pool:
