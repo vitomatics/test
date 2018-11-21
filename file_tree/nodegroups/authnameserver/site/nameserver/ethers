@@ -311,6 +311,7 @@ usbeth109	50:3e:aa:63:d3:9c
 usbeth110	50:3e:aa:4e:07:d0
 
 pcieth100	68:05:ca:8d:a2:d7
+pcieth101	68:05:ca:8d:a2:9b
 
 epsilon00	54:b2:03:0b:cb:95
 epsilon01	54:b2:03:0b:cc:5c
