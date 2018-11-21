@@ -216,7 +216,6 @@ base:
     - subnet.sf-unix
     - profile.devel
     - profile.clusterclient
-    - profile.labhost
     - profile.jenkins-federation-slave
     - profile.slurm-client
     - profile.ganglia-node-server
@@ -227,7 +226,6 @@ base:
     - subnet.sf-unix
     - profile.devel
     - profile.clusterclient
-    - profile.labhost
     - profile.jenkins-federation-slave
     - profile.slurm-client
     - profile.ganglia-node-server
