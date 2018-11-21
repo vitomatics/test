@@ -404,3 +404,6 @@ dhcpd:
     pcieth100:
       hardware: ethernet 68:05:ca:8d:a2:d7
       fixed-address: pcieth100.lab.internal.sifive.com
+    pcieth101:
+      hardware: ethernet 68:05:ca:8d:a2:9b
+      fixed-address: pcieth101.lab.internal.sifive.com
