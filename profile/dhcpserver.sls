@@ -51,6 +51,7 @@ dhcpd:
 
   domain-name: internal.sifive.com
   domain-search:
-    - internal.sifive.com
     - sifive.com
+    - internal.sifive.com
+    - lab.internal.sifive.com
   
