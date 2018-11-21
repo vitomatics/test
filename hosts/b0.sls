@@ -3,9 +3,6 @@ network:
     eth0:
       ip: 10.14.1.6
 
-state:
-  sffpga: true
-
 boot:
   grub:
     serial:
