@@ -22,8 +22,8 @@ flexnet:
       dir: smartdv-flexlm-20170216
     synopsys:
       disttype: tgz
-      disturl: http://sfimages.internal.sifive.com/Synopsys/scl/scl-2016.12_SP1.tar.gz
-      dir: scl/2016.12_SP1
+      disturl: http://sfimages.internal.sifive.com/Synopsys/scl/scl-2018.06.tar.gz
+      dir: scl/2018.06
     tsmc:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/TSMC/flexlm/MC2_2012.02.00.d-flexlm.tar.gz
@@ -109,7 +109,7 @@ flexnet:
           pillar: site:licenses:smartdv:smartdv-20170809
     snpslmd:
       vendor: synopsys
-      bindir: scl/2016.12_SP1/linux64/bin
+      bindir: scl/2018.06/linux64/bin
       port: 27000
       vport: 27001
       env: SCL_POOL_VS=1
