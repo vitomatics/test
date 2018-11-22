@@ -9,6 +9,7 @@ states:
   slurm.devel: true
   slurm.openlava: true
   sysctl: true
+  boardtest.client: true
 
 sysctl:
   params:
