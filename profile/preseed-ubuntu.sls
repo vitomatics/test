@@ -225,7 +225,7 @@ sfpreseed:
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
-          disklayout: vm_small_disk
+          disklayout: vm_med_disk
         b0:
           ipaddress: 10.14.1.6
           subnet: sf-static
