@@ -450,6 +450,7 @@ users:
     mail: mhamrick@sifive.com
     uid: 1152
     gid: 1152
+    shell: /usr/sbin/nologin
   jkeithan:
     tags: [ cluster ]
     groups: [ compute ]
