@@ -878,7 +878,13 @@ users:
     mail: david.elsen@sifive.com
     uid: 1210
     gid: 1210
-
+  sjadhav:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Sachin Jadhav"
+    mail: sachin.jadhav@sifive.com
+    uid: 1211
+    gid: 1211
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ lambda00 ]
