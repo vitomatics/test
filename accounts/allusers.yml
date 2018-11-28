@@ -368,7 +368,7 @@ users:
     uid: 1140
     gid: 1140
   bsou:
-    tags: [ cluster ]
+    tags: [ cluster, fpgatest ]
     groups: [ compute ]
     fullname: "Bunnaroath Sou"
     mail: bsou@sifive.com
