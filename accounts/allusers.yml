@@ -265,7 +265,7 @@ users:
     uid: 1127
     gid: 1127
   drew:
-    tags: [ cluster ]
+    tags: [ cluster, fpgatest ]
     groups: [ compute ]
     fullname: "Drew Barbier"
     mail: drew@sifive.com
@@ -373,6 +373,8 @@ users:
     mail: bsou@sifive.com
     uid: 1141
     gid: 1141
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAzi6xU84wPO9xrJqUSUmnrHXot1BmgIku/odar0dDg9yyQnSvcbHfsUme24PY4JXWY1m7Q41ZVIBRm+2mH8T/OaV9oMwvLyhzx5JAjeif9P/t1W28Zg+aKoOXYwDPB7HYY0OpoFP+8U+E3N69ASKLYcke8VAuipG0tpi6MpzfZutykzKiJdMpyv6ne8NGEQ92TpyZZMyM2EHBnoCwTjm93qcwFD1Mtw99sdHoHYjbBjDPLc7TIutHR1up3aq0DZezGoc5ut4iZiklVBNcNJ3ubHTkldPy6u40Z41YrGHgMjqHwSUC5SZFK7sCpGFteiIb06BlXkqcOUlTBDSNSbcRaw== bsou@localhost.localdomain
   vmurali:
     tags: [ cluster ]
     groups: [ compute ]
@@ -857,7 +859,7 @@ users:
     mail: virto.burggraf@sifive.com
     uid: 1207
     gid: 1207
-    authorized-keys:
+    authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDaEdvm0FBkULIlcKYzUk36tGCpvvAY5KdyJdKg/5Xd+ihmSEacpZBTKcfS/r5tHfAPR58d4j+j/A1iichcnTuKhcQm8a4M/qn6hiHOV80L/WUNQzIrE65t+sN80n36ixFBOV5nu1q+QULleHE3VYO4Yiof7rOHs6YH20q40LtbcEBJewoMh/V4CpN1bRP2P61LePzySKhMX2D9iFwZiWT3QNTfBeyAu/7q9nRvK+wp8fdFaO6GRH/PlGlqhJey7sx88HFFUcbVgfwHnWnKnQUuDJlZrx/BFOU+lJtgFWkQbj3XjtDvlMxsB0qDa03z9E+AX0qHkZagvf/O7FTkJjf7 vito.burggraf@sifive.com
   chrisw:
     tags: [ cluster ]
