@@ -121,6 +121,7 @@ $TTL	86400
 37.17	IN	PTR	magrathea.internal.sifive.com.
 38.17	IN	PTR	anakin.internal.sifive.com.
 39.17	IN	PTR	sandbox.internal.sifive.com.
+40.17	IN	PTR	timewarp.internal.sifive.com.
 
 64.17	IN	PTR	sigma00.internal.sifive.com.
 65.17	IN	PTR	sigma01.internal.sifive.com.

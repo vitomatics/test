@@ -252,6 +252,10 @@ dhcpd:
       hardware: ethernet 52:54:00:ff:00:03
       fixed-address: sandbox.internal.sifive.com
       host-name: sadnbox.internal.sifive.com
+    timewarp:
+      hardware: ethernet 52:54:00:ff:00:20
+      fixed-address: timewarp.internal.sifive.com
+      host-name: timewarp.internal.sifive.com
 
     heartofgold-admin:
       hardware: ethernet f4:8e:38:cd:ec:d4
