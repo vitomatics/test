@@ -851,12 +851,14 @@ users:
     uid: 1206
     gid: 1206
   vitob:
-    tags: [ cluster ]
+    tags: [ cluster, fpgatest, lambda00, syslogin ]
     groups: [ compute ]
     fullname: "Vito Burggraf"
     mail: virto.burggraf@sifive.com
     uid: 1207
     gid: 1207
+    authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDaEdvm0FBkULIlcKYzUk36tGCpvvAY5KdyJdKg/5Xd+ihmSEacpZBTKcfS/r5tHfAPR58d4j+j/A1iichcnTuKhcQm8a4M/qn6hiHOV80L/WUNQzIrE65t+sN80n36ixFBOV5nu1q+QULleHE3VYO4Yiof7rOHs6YH20q40LtbcEBJewoMh/V4CpN1bRP2P61LePzySKhMX2D9iFwZiWT3QNTfBeyAu/7q9nRvK+wp8fdFaO6GRH/PlGlqhJey7sx88HFFUcbVgfwHnWnKnQUuDJlZrx/BFOU+lJtgFWkQbj3XjtDvlMxsB0qDa03z9E+AX0qHkZagvf/O7FTkJjf7 vito.burggraf@sifive.com
   chrisw:
     tags: [ cluster ]
     groups: [ compute ]
