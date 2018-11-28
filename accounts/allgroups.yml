@@ -11,7 +11,7 @@ groups:
   sysadmin:
     tags: [ cluster, lambda00, fpgatest ]
     gid: 9001
-    addusers: [ davidj, mikemay, jonstern, rxia, vito ]
+    addusers: [ davidj, mikemay, jonstern, rxia, vitob ]
   compute:
     tags: [ cluster ]
     gid: 9002
