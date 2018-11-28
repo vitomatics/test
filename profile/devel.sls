@@ -215,6 +215,8 @@ pkgs:
     ninja-build: true
     libseccomp-dev: true
     libsqlite3-dev: true
+    sqlite3: true
+    sqlite3-doc: true
     terminator: true
     libftdi1-dev: true
     libfuse-dev: true
