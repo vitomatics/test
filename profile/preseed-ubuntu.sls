@@ -369,6 +369,13 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
+        timewarp:
+          ipaddress: 10.14.17.40
+          subnet: he-unix-dynamic
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk
         tardis:
           ipaddress: 10.14.16.49
           subnet: he-unix01-static
