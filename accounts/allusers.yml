@@ -6,7 +6,7 @@
 ## Note user-changable data like keys, shells and passwords may be out of date
 ## - do not blindly apply this data to running machines
 
-## Regular users - also in LDAP
+## Regular users - also in LDAP.
 
 users:
   eda:
@@ -892,6 +892,13 @@ users:
     mail: sachin.jadhav@sifive.com
     uid: 1211
     gid: 1211
+  ashishk:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Ashish Kaul"
+    mail: ashish.kaul@sifive.com
+    uid: 1212
+    gid: 1212
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ lambda00 ]
