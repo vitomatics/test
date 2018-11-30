@@ -14,7 +14,8 @@ states:
   policyrc: true
   sfrsyslog: true
   rsyslog.client: true
-{% if grains.os == 'Ubuntu' %}
+  alternatives: true
+  {% if grains.os == 'Ubuntu' %}
   sfmotd: true
 {% endif %}
 
@@ -86,7 +87,7 @@ rsyslog:
 pam:
   su:
     wheelgroup: wheel
-    
+
 {% if grains.os == 'Ubuntu' %}
 file:
   ln:
@@ -296,7 +297,7 @@ pkgs:
 
   list:
     krb5-user: true
-    
+
     htop: true
     iftop: true
     sysstat: true
@@ -332,7 +333,7 @@ pkgs:
     {% endif %}
     wsmancli: true
     amtterm: true
-    
+
     screen: true
     tmux: true
     mailutils: true
@@ -358,11 +359,19 @@ pkgs:
     emacs-nox: true
 
     python-m2crypto: true
-    
+
     # This is a dependency on some Ubuntu hosts - this makes it consistent
     {% if grains.os == 'Ubuntu' %}
     s-nail: true
     {% endif %}
+
+# set alternatives - editor
+alternatives:
+  editor:
+    path: /usr/bin/vim.basic
+    link: /usr/bin/editor
+    priority: 100
+
 
 # If there is a firewall then leave ssh open
 firewall:
@@ -370,7 +379,7 @@ firewall:
     tcp:
       22: 10.0.0.0/8
 
-      
+
 boot:
   grub:
     serial:
