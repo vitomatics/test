@@ -17,3 +17,14 @@ file:
       user: root
       group: {{ allgroups.groups.compute.gid }}
       mode: '01770'
+
+
+nfs:
+  server:
+    exports:
+      boardtest:
+        path: /srv/boardtest/nfs
+        clients:
+          10.14.0.0:
+            - rw
+            - root_squash
