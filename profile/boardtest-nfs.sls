@@ -19,7 +19,7 @@ file:
       mode: '01770'
 
 
-nfs:
+nfs4:
   server:
     exports:
       boardtest:
