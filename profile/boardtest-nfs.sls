@@ -25,6 +25,6 @@ nfs4:
       boardtest:
         path: /srv/boardtest/nfs
         clients:
-          10.14.0.0:
+          10.14.0.0/16:
             - rw
             - root_squash
