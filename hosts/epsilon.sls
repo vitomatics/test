@@ -9,8 +9,12 @@ pkgs:
     intel-microcode: true
 
 
-
-
-
-
-
+nfs:
+  server:
+    exports:
+      boardtest:
+        path: /srv/boardtest/nfs
+        clients:
+          10.14.0.0:
+            - rw
+            - root_squash
