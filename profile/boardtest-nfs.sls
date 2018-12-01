@@ -3,10 +3,10 @@
 {% import_yaml "accounts/allgroups.yml" as allgroups %}
 
 {# The below list of subnets should be a space-separated list #}
-{% set boardtest_subnets = '10.16.0.0/16' %}
+{% set boardtest_subnets = "10.16.0.0/16" %}
 
-{% set mountd_port = '2050' %}
-{% set nlockmgr_port = '2051' %}
+{% set mountd_port = "2050" %}
+{% set nlockmgr_port = "2051" %}
 
 include:
   - profile.nfs-server
