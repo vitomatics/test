@@ -26,7 +26,7 @@ file:
 
 nfs4:
   lookup:
-    mountd_port: {{ mountd_port }}
+    mountd_port: {{ mountd_port|yaml_dquote }}
   server:
     exports:
       boardtest:
@@ -42,8 +42,8 @@ sysctl:
   params:
     # netlckmgr port reassignement
     # Ref https://www.peterbeard.co/blog/post/setting-up-iptables-for-nfs-on-ubuntu/
-    fs.nfs.nlm_tcpport: {{ nlockmgr_port }}
-    fs.nfs.nlm_udpport: {{ nlockmgr_port }}
+    fs.nfs.nlm_tcpport: {{ nlockmgr_port|yaml_dquote }}
+    fs.nfs.nlm_udpport: {{ nlockmgr_port|yaml_dquote }}
 
     
 firewall:
