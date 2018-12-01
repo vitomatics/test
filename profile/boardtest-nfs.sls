@@ -3,7 +3,7 @@
 {% import_yaml "accounts/allgroups.yml" as allgroups %}
 
 {# The below list of subnets should be a space-separated list #}
-{% set boardteset_subnets = '10.16.0.0/16' %}
+{% set boardtest_subnets = '10.16.0.0/16' %}
 
 include:
   - profile.nfs-server
