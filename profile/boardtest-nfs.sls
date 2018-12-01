@@ -22,6 +22,8 @@ file:
 
 
 nfs4:
+  lookup:
+    mountd_port: {{ mountd_port }}
   server:
     exports:
       boardtest:
@@ -43,9 +45,6 @@ sysctl:
     fs.nfs.nlm_tcpport: {{ nlockmgr_port }}
     fs.nfs.nlm_udpport: {{ nlockmgr_port }}
 
-nfs4:
-  lookup:
-    mountd_port: {{ mountd_port }}
     
 firewall:
   ports:
