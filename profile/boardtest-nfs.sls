@@ -5,6 +5,9 @@
 {# The below list of subnets should be a space-separated list #}
 {% set boardtest_subnets = '10.16.0.0/16' %}
 
+{% set mountd_port = '2050' %}
+{% set nlockmgr_port = '2051' %}
+
 include:
   - profile.nfs-server
   - profile.boardtest-host
@@ -34,9 +37,6 @@ nfs4:
             - rw
             - root_squash
 {% endfor %}
-
-{% set mountd_port = '2050' %}
-{% set nlockmgr_port = '2051' %}
 
 sysctl:
   params:
