@@ -27,7 +27,7 @@ nfs4:
       boardtest:
         path: /srv/boardtest/nfs
         clients:
-{% for subnet in boadtest_subnets.split() %}
+{% for subnet in boardtest_subnets.split() %}
           {{ subnet }}:
             - rw
             - root_squash
