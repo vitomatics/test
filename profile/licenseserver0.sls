@@ -101,7 +101,9 @@ flexnet:
         treksoc-20181107:
           absent: true
         treksoc-20181120:
-          pillar: site:licenses:BREKER:treksoc-20181120
+          absent: true
+        treksoc-20181203:
+          pillar: site:licenses:BREKER:treksoc-20181203
     # Second Synopsys server - note the main one is on licenseserver0
     snpslmd:
       vendor: synopsys
