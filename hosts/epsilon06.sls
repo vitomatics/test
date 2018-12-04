@@ -4,6 +4,7 @@ include:
   - hosts.epsilon
 
 
+# Make sure we do not try and use ethlab as our route to the outside world
 network:
   interfaces:
     ethtest:
