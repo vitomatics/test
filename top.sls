@@ -273,16 +273,31 @@ base:
     - profile.ganglia-node-server
     - profile.telegraf-host-server
 
+  'epsilon00.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon00
+    
+  'epsilon01.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon01
+
+  'epsilon02.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon02
+    
   'epsilon03.internal.sifive.com':
     - subnet.sf-unix
-    - profile.boardtest-nfs
     - hosts.epsilon03
     
   'epsilon04.internal.sifive.com':
+    - subnet.sf-unix
     - profile.boardtest-nfs
+    - hosts.epsilon04
 
   'epsilon05.internal.sifive.com':
+    - subnet.sf-unix
     - profile.boardtest-nfs
+    - hosts.epsilon05
 
   'epsilon06.internal.sifive.com':
     - subnet.sf-unix
@@ -290,19 +305,29 @@ base:
     - hosts.epsilon06
 
   'epsilon07.internal.sifive.com':
+    - subnet.sf-unix
     - profile.boardtest-nfs
+    - hosts.epsilon07
 
   'epsilon08.internal.sifive.com':
+    - subnet.sf-unix
     - profile.boardtest-nfs
+    - hosts.epsilon08
 
   'epsilon09.internal.sifive.com':
+    - subnet.sf-unix
     - profile.boardtest-nfs
+    - hosts.epsilon09
 
   'epsilon10.internal.sifive.com':
+    - subnet.sf-unix
     - profile.boardtest-nfs
+    - hosts.epsilon10
 
   'epsilon11.internal.sifive.com':
+    - subnet.sf-unix
     - profile.boardtest-nfs
+    - hosts.epsilon11
 
 
   'gravelpit.internal.sifive.com':
