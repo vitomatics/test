@@ -384,10 +384,10 @@ dhcpd:
       fixed-address: hifiveu-reg2.internal.sifive.com
 
     # USB dongles on Unix machines
-    usbeth106:
-      hardware: ethernet 98:de:d0:04:c3:6a
-      fixed-address: usbeth106.lab.internal.sifive.com
-      routers: 10.14.0.1
+    # usbeth106:
+    #   hardware: ethernet 98:de:d0:04:c3:6a
+    #   fixed-address: usbeth106.lab.internal.sifive.com
+    #   routers: 10.14.0.1
     usbeth107:
       hardware: ethernet 50:3e:aa:63:d3:aa
       fixed-address: usbeth107.lab.internal.sifive.com
