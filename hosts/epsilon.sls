@@ -14,6 +14,6 @@ udev:
       'USB Ethernet dongle':
         - 'ACTION=="add"'
         - 'SUBSYSTEM=="net"'
-        - 'SUBSYSTEMS="usb"'
+        - 'SUBSYSTEMS=="usb"'
         - 'ATTRS{removable}=="removable"'
         - 'NAME="ethtest"'
