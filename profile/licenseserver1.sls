@@ -195,7 +195,9 @@ flexnet:
         synopsys-20181018:
           absent: true
         synopsys-20181127:
-          pillar: site:licenses:snpslmd:synopsys-20181127
+          absent: true
+        synopsys-20181204:
+          pillar: site:licenses:snpslmd:synopsys-20181204
         synopsys-temp-20181105:
           pillar: site:licenses:snpslmd:synopsys-temp-20181105
     actlmgrd:
