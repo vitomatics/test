@@ -261,7 +261,6 @@ base:
     - hosts.delta
 
   'epsilon*.internal.sifive.com':
-    - subnet.sf-unix
     - profile.devel
     - profile.snmp-client
     - profile.clusterclient
@@ -273,8 +272,12 @@ base:
     - profile.managed-nuc
     - profile.ganglia-node-server
     - profile.telegraf-host-server
-    - hosts.epsilon
 
+  'epsilon03.internal.sifive.com':
+    - subnet.sf-unix
+    - profile.boardtest-nfs
+    - hosts.epsilon03
+    
   'epsilon04.internal.sifive.com':
     - profile.boardtest-nfs
 
@@ -282,6 +285,7 @@ base:
     - profile.boardtest-nfs
 
   'epsilon06.internal.sifive.com':
+    - subnet.sf-unix
     - profile.boardtest-nfs
     - hosts.epsilon06
 
