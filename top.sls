@@ -283,6 +283,7 @@ base:
 
   'epsilon06.internal.sifive.com':
     - profile.boardtest-nfs
+    - hosts.epsilon06
 
   'epsilon07.internal.sifive.com':
     - profile.boardtest-nfs
