@@ -269,12 +269,36 @@ base:
     - profile.slurm-node
     - profile.jenkins-rootuser-access
     - profile.sfamtutil
-    - profile.boardtest-nfs
     - profile.snmp-client
     - profile.managed-nuc
     - profile.ganglia-node-server
     - profile.telegraf-host-server
     - hosts.epsilon
+
+  'epsilon04.internal.sifive.com':
+    - profile.boardtest-nfs
+
+  'epsilon05.internal.sifive.com':
+    - profile.boardtest-nfs
+
+  'epsilon06.internal.sifive.com':
+    - profile.boardtest-nfs
+
+  'epsilon07.internal.sifive.com':
+    - profile.boardtest-nfs
+
+  'epsilon08.internal.sifive.com':
+    - profile.boardtest-nfs
+
+  'epsilon09.internal.sifive.com':
+    - profile.boardtest-nfs
+
+  'epsilon10.internal.sifive.com':
+    - profile.boardtest-nfs
+
+  'epsilon11.internal.sifive.com':
+    - profile.boardtest-nfs
+
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
