@@ -5,6 +5,7 @@
 
 states:
   boardtest: true
+  boardtest.client: true
 
 
 boardtest:
