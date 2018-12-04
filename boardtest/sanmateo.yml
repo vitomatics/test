@@ -27,7 +27,7 @@ udevs:
     devs: [ /dev/testboard-console, /dev/testboard-jtag ]
   hifivehand:
     rules: udev-segger-hand
-    devs: [ ]
+    devs: [ /dev/testboard-console, /dev/testboard-jtag ]
   hifiveu:
     rules: udev-ftdi2
     devs: [ /dev/testboard-console, /dev/testboard-jtag ]
