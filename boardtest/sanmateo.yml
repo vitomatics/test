@@ -99,7 +99,7 @@ testhosts:
     boards:
       board0:
         id: 'unknown'
-        type: vcu118-nojtag
+        type: vcu118_nojtag
         hostname: 'pcieth100.lab.internal.sifive.com'
         vlan: 'sf-lab-vlan'
         switch: 'iswitch4010'
