@@ -8,14 +8,14 @@ udevs:
     rules: udev-xilinx-ftdi2-olimex
     devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
   vc707_1gb:
-    rules: udev-xilinx-ftdi2-cygnal-olimex
+    rules: udev-xilinx-vc-olimex
     devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
   vc707_4gb:
-    rules: udev-xilinx-ftdi2-cygnal-olimex
+    rules: udev-xilinx-vc-olimex
     devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
-  vcu118:
-    rules: udev-xilinx-ftdi2-cygnal-olimex
-    devs: [ /dev/testboard-console, /dev/testboard-fpga, /dev/testboard-jtag ]
+  vcu118-nojtag:
+    rules: udev-xilinx-vcu
+    devs: [ /dev/testboard-console, /dev/testboard-fpga ]
   hifive1:
     rules: udev-ftdi2
     devs: [ /dev/testboard-console, /dev/testboard-jtag ]
@@ -99,7 +99,7 @@ testhosts:
     boards:
       board0:
         id: 'unknown'
-        type: vcu118
+        type: vcu118-nojtag
         hostname: 'pcieth100.lab.internal.sifive.com'
         vlan: 'sf-lab-vlan'
         switch: 'iswitch4010'
