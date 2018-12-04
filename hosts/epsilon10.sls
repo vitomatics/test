@@ -1,4 +1,4 @@
-## pillar file for epsilon06
+## pillar file for epsilon10
 
 include:
   - hosts.epsilon
@@ -7,6 +7,6 @@ include:
 network:
   interfaces:
     ethtest:
-      ip: 10.16.1.86
+      ip: 10.16.1.90
       netmask: 255.255.240.0
       gateway:
