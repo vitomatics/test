@@ -3,6 +3,7 @@
 
 states:
   modules: true
+  boardtest.client: true
 
 modules:
   paths:
