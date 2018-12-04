@@ -388,22 +388,22 @@ dhcpd:
     #   hardware: ethernet 98:de:d0:04:c3:6a
     #   fixed-address: usbeth106.lab.internal.sifive.com
     #   routers: 10.14.0.1
-    usbeth107:
-      hardware: ethernet 50:3e:aa:63:d3:aa
-      fixed-address: usbeth107.lab.internal.sifive.com
-      routers: 10.14.0.1
-    usbeth108:
-      hardware: ethernet 50:3e:aa:63:d5:30
-      fixed-address: usbeth108.lab.internal.sifive.com
-      routers: 10.14.0.1
-    usbeth109:
-      hardware: ethernet 50:3e:aa:63:d3:9c
-      fixed-address: usbeth109.lab.internal.sifive.com
-      routers: 10.14.0.1
-    usbeth110:
-      hardware: ethernet 50:3e:aa:4e:07:d0
-      fixed-address: usbeth110.lab.internal.sifive.com
-      routers: 10.14.0.1
+    # usbeth107:
+    #   hardware: ethernet 50:3e:aa:63:d3:aa
+    #   fixed-address: usbeth107.lab.internal.sifive.com
+    #   routers: 10.14.0.1
+    # usbeth108:
+    #   hardware: ethernet 50:3e:aa:63:d5:30
+    #   fixed-address: usbeth108.lab.internal.sifive.com
+    #   routers: 10.14.0.1
+    # usbeth109:
+    #   hardware: ethernet 50:3e:aa:63:d3:9c
+    #   fixed-address: usbeth109.lab.internal.sifive.com
+    #   routers: 10.14.0.1
+    # usbeth110:
+    #   hardware: ethernet 50:3e:aa:4e:07:d0
+    #   fixed-address: usbeth110.lab.internal.sifive.com
+    #   routers: 10.14.0.1
 
 
     h5u-00233:
