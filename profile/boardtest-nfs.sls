@@ -45,16 +45,17 @@ sysctl:
     fs.nfs.nlm_tcpport: {{ nlockmgr_port|yaml_dquote }}
     fs.nfs.nlm_udpport: {{ nlockmgr_port|yaml_dquote }}
 
-    
-firewall:
-  ports:
-    tcp:
-      111: {{ boardtest_subnets }}
-      2049: {{ boardtest_subnets }}
-      {{ mountd_port }}: {{ boardtest_subnets }}
-      {{ nlockmgr_port }}: {{ boardtest_subnets }}
-    udp:
-      111: {{ boardtest_subnets }}
-      2049: {{ boardtest_subnets }}
-      {{ mountd_port }}: {{ boardtest_subnets }}
-      {{ nlockmgr_port }}: {{ boardtest_subnets }}
+
+
+# firewall:
+#   ports:
+#     tcp:
+#       111: {{ boardtest_subnets }}
+#       2049: {{ boardtest_subnets }}
+#       {{ mountd_port }}: {{ boardtest_subnets }}
+#       {{ nlockmgr_port }}: {{ boardtest_subnets }}
+#     udp:
+#       111: {{ boardtest_subnets }}
+#       2049: {{ boardtest_subnets }}
+#       {{ mountd_port }}: {{ boardtest_subnets }}
+#       {{ nlockmgr_port }}: {{ boardtest_subnets }}

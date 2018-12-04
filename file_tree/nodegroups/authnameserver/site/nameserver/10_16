@@ -6,7 +6,7 @@ $ORIGIN	16.10.in-addr.arpa.
 $TTL	3600
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018112001 ; serial number
+	2018120302 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -15,36 +15,18 @@ $TTL	3600
 
 	IN	NS	adns0.internal.sifive.com.
 
-16.1	IN	PTR	usbeth100.lab.internal.sifive.com.
-17.1	IN	PTR	usbeth101.lab.internal.sifive.com.
-18.1	IN	PTR	usbeth102.lab.internal.sifive.com.
-19.1	IN	PTR	usbeth103.lab.internal.sifive.com.
-20.1	IN	PTR	usbeth104.lab.internal.sifive.com.
-21.1	IN	PTR	usbeth105.lab.internal.sifive.com.
-22.1	IN	PTR	usbeth106.lab.internal.sifive.com.
-23.1	IN	PTR	usbeth107.lab.internal.sifive.com.
-24.1	IN	PTR	usbeth108.lab.internal.sifive.com.
-25.1	IN	PTR	usbeth109.lab.internal.sifive.com.
-26.1	IN	PTR	usbeth110.lab.internal.sifive.com.
-27.1	IN	PTR	usbeth111.lab.internal.sifive.com.
-28.1	IN	PTR	usbeth112.lab.internal.sifive.com.
-29.1	IN	PTR	usbeth113.lab.internal.sifive.com.
-30.1	IN	PTR	usbeth114.lab.internal.sifive.com.
-31.1	IN	PTR	usbeth115.lab.internal.sifive.com.
-32.1	IN	PTR	usbeth116.lab.internal.sifive.com.
-33.1	IN	PTR	usbeth117.lab.internal.sifive.com.
-34.1	IN	PTR	usbeth118.lab.internal.sifive.com.
-35.1	IN	PTR	usbeth119.lab.internal.sifive.com.
-36.1	IN	PTR	usbeth120.lab.internal.sifive.com.
-37.1	IN	PTR	usbeth121.lab.internal.sifive.com.
-38.1	IN	PTR	usbeth122.lab.internal.sifive.com.
-39.1	IN	PTR	usbeth123.lab.internal.sifive.com.
-40.1	IN	PTR	usbeth124.lab.internal.sifive.com.
-41.1	IN	PTR	usbeth125.lab.internal.sifive.com.
-42.1	IN	PTR	usbeth126.lab.internal.sifive.com.
-43.1	IN	PTR	usbeth127.lab.internal.sifive.com.
-44.1	IN	PTR	usbeth128.lab.internal.sifive.com.
-45.1	IN	PTR	usbeth129.lab.internal.sifive.com.
+80.1	IN	PTR	epsilon00-test.lab.internal.sifive.com.
+81.1	IN	PTR	epsilon01-test.lab.internal.sifive.com.
+82.1	IN	PTR	epsilon02-test.lab.internal.sifive.com.
+83.1	IN	PTR	epsilon03-test.lab.internal.sifive.com.
+84.1	IN	PTR	epsilon04-test.lab.internal.sifive.com.
+85.1	IN	PTR	epsilon05-test.lab.internal.sifive.com.
+86.1	IN	PTR	epsilon06-test.lab.internal.sifive.com.
+87.1	IN	PTR	epsilon07-test.lab.internal.sifive.com.
+88.1	IN	PTR	epsilon08-test.lab.internal.sifive.com.
+89.1	IN	PTR	epsilon09-test.lab.internal.sifive.com.
+90.1	IN	PTR	epsilon10-test.lab.internal.sifive.com.
+91.1	IN	PTR	epsilon11-test.lab.internal.sifive.com.
 
 16.2	IN	PTR	pcieth100.lab.internal.sifive.com.
 17.2	IN	PTR	pcieth101.lab.internal.sifive.com.

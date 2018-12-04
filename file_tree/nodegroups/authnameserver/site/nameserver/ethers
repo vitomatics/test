@@ -305,11 +305,30 @@ asustor1		10:bf:48:8c:23:ee
 
 h5u-00233	70:b3:d5:92:f0:e9
 
+usbeth100	18:a6:f7:1b:74:b2
+usbeth101	50:3e:aa:63:d6:ac
+usbeth102	50:3e:aa:63:bd:68
+usbeth103	50:3e:aa:63:d3:bc
+usbeth104	50:3e:aa:34:ed:e2
+usbeth105	98:de:d0:1f:32:17
 usbeth106	98:de:d0:04:c3:6a
 usbeth107	50:3e:aa:63:d3:aa
 usbeth108	50:3e:aa:63:d5:30
 usbeth109	50:3e:aa:63:d3:9c
 usbeth110	50:3e:aa:4e:07:d0
+usbeth111	50:3e:aa:63:d4:c7
+usbeth200	50:3e:aa:4e:07:dc
+usbeth201	50:3e:aa:4e:07:da
+usbeth202	50:3e:aa:63:d3:99
+usbeth203	50:3e:aa:63:d4:b6
+usbeth204	50:3e:aa:63:d3:91
+usbeth205	50:3e:aa:63:bd:84
+usbeth206	50:3e:aa:34:ed:d5
+usbeth207	50:3e:aa:34:ed:cc
+usbeth208	50:3e:aa:4e:07:d4
+usbeth209	50:3e:aa:63:bd:7e
+usbeth210	50:3e:aa:63:d4:b3
+usbeth211	50:3e:aa:34:ed:e1
 
 pcieth100	68:05:ca:8d:a2:d7
 pcieth101	68:05:ca:8d:a2:9b
