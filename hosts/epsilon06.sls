@@ -1,8 +1,4 @@
-## pillar file for epsilon*
-
-states:
-  firewall.iptables: true
-  udev: true
+## pillar file for epsilon06
 
 # Make sure we do not try and use ethlab as our route to the outside world
 network:
