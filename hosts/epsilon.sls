@@ -9,6 +9,7 @@ network:
   gateway: 10.14.0.1
   interfaces:
     ethlab:
+      netmask: ~
       proto: dhcp
 
 
