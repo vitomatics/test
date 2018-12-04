@@ -8,7 +8,7 @@ states:
 network:
   gateway: 10.14.0.1
   interfaces:
-    ethlab:
+    ethtest:
       netmask: ~
       proto: dhcp
 
