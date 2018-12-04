@@ -3,7 +3,7 @@
 include:
   - hosts.epsilon
 
-# test-net interface - must not have a gateway
+
 network:
   interfaces:
     ethtest:

@@ -7,7 +7,7 @@ $TTL	3600
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2018112001 ; serial number
+	2018120301 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -46,6 +46,19 @@ usbeth126	IN	A	10.16.1.42
 usbeth127	IN	A	10.16.1.43
 usbeth128	IN	A	10.16.1.44
 usbeth129	IN	A	10.16.1.45
+
+epsilon00-test	IN	A	10.16.1.80 
+epsilon01-test	IN	A	10.16.1.81 
+epsilon02-test	IN	A	10.16.1.82 
+epsilon03-test	IN	A	10.16.1.83 
+epsilon04-test	IN	A	10.16.1.84 
+epsilon05-test	IN	A	10.16.1.85 
+epsilon06-test	IN	A	10.16.1.86 
+epsilon07-test	IN	A	10.16.1.87 
+epsilon08-test	IN	A	10.16.1.88 
+epsilon09-test	IN	A	10.16.1.89 
+epsilon10-test	IN	A	10.16.1.90 
+epsilon11-test	IN	A	10.16.1.91 
 
 pcieth100	IN	A	10.16.2.16
 pcieth101	IN	A	10.16.2.17

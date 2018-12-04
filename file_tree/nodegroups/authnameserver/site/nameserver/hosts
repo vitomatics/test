@@ -398,6 +398,19 @@
 10.16.1.44 usbeth128
 10.16.1.45 usbeth129
 
+10.16.1.80 epsilon00-test
+10.16.1.81 epsilon01-test
+10.16.1.82 epsilon02-test
+10.16.1.83 epsilon03-test
+10.16.1.84 epsilon04-test
+10.16.1.85 epsilon05-test
+10.16.1.86 epsilon06-test
+10.16.1.87 epsilon07-test
+10.16.1.88 epsilon08-test
+10.16.1.89 epsilon09-test
+10.16.1.90 epsilon10-test
+10.16.1.91 epsilon11-test
+
 10.16.2.16 pcieth100
 10.16.2.17 pcieth101
 
