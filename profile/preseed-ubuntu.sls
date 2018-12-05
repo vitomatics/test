@@ -513,3 +513,17 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_med_disk
+        gaia:
+          ipaddress: 10.14.17.41
+          subnet: he-unix02-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk
+        terminus:
+          ipaddress: 10.14.17.80
+          subnet: he-unix02-static
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_med_disk

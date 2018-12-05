@@ -531,3 +531,22 @@ base:
     - subnet.he-unix02
     - profile.debuilder
     - hosts.magrathea
+
+  'gaia.internal.sifive.com':
+    - subnet.he-unix02
+    - profile.ganglia-node-server
+    - profile.telegraf-host-server
+#    - profile.slurm-server
+#    - profile.telegraf-slurm
+#    - profile.jenkins-rootuser-access
+#    - profile.backupclient
+    - hosts.gaia
+
+  'terminus.internal.sifive.com':
+    - subnet.he-unix02
+    - profile.devel
+    - profile.clusterclient
+    - profile.ganglia-node-server
+    - profile.telegraf-host-server
+    - hosts.terminus
+
