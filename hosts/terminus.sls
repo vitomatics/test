@@ -19,6 +19,5 @@ disksetup:
     /scratch:
       fstype: ext4
       opts: noatime
-      lv: terminus00/srv
+      lv: terminus00/scratch
 
-o
