@@ -19,5 +19,5 @@ disksetup:
     /scratch:
       fstype: ext4
       opts: noatime
-      lv: gaia00/srv
+      lv: gaia00/scratch
 
