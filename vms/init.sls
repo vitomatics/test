@@ -8,6 +8,7 @@ include:
   - vms.betel
   - vms.dalek
   - vms.frogstar
+  - vms.gaia
   - vms.grid
   - vms.gravelpit
   - vms.hal
@@ -24,6 +25,7 @@ include:
   - vms.sandbox
   - vms.skynet
   - vms.tardis
+  - vms.terminus
   - vms.timewarp
   - vms.transporter
   - vms.vader
