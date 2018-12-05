@@ -4,7 +4,7 @@ sfvirt:
   vms:
     gaia:
       type: libvirt
-      vmhost: marvin.internal.sifive.com
+      vmhost: colin.internal.sifive.com
       vcpus: 4
       memory: 12288   # In MB
       autostart: on
