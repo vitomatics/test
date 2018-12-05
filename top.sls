@@ -270,6 +270,7 @@ base:
     - profile.sfamtutil
     - profile.snmp-client
     - profile.managed-nuc
+    - profile.boardtest-nfs
     - profile.ganglia-node-server
     - profile.telegraf-host-server
 
@@ -291,42 +292,34 @@ base:
     
   'epsilon04.internal.sifive.com':
     - subnet.sf-unix
-    - profile.boardtest-nfs
     - hosts.epsilon04
 
   'epsilon05.internal.sifive.com':
     - subnet.sf-unix
-    - profile.boardtest-nfs
     - hosts.epsilon05
 
   'epsilon06.internal.sifive.com':
     - subnet.sf-unix
-    - profile.boardtest-nfs
     - hosts.epsilon06
 
   'epsilon07.internal.sifive.com':
     - subnet.sf-unix
-    - profile.boardtest-nfs
     - hosts.epsilon07
 
   'epsilon08.internal.sifive.com':
     - subnet.sf-unix
-    - profile.boardtest-nfs
     - hosts.epsilon08
 
   'epsilon09.internal.sifive.com':
     - subnet.sf-unix
-    - profile.boardtest-nfs
     - hosts.epsilon09
 
   'epsilon10.internal.sifive.com':
     - subnet.sf-unix
-    - profile.boardtest-nfs
     - hosts.epsilon10
 
   'epsilon11.internal.sifive.com':
     - subnet.sf-unix
-    - profile.boardtest-nfs
     - hosts.epsilon11
 
 
