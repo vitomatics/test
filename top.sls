@@ -552,10 +552,11 @@ base:
     - subnet.he-unix02
     - profile.ganglia-node-server
     - profile.telegraf-host-server
-#    - profile.slurm-server
+    - profile.slurm-cluster-testbed
+    - profile.slurm-client
+    - profile.slurm-server
 #    - profile.telegraf-slurm
 #    - profile.jenkins-rootuser-access
-#    - profile.backupclient
     - hosts.gaia
 
   'terminus.internal.sifive.com':
