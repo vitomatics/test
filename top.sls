@@ -377,6 +377,8 @@ base:
     - profile.telegraf-host-server
     - profile.mysql-server-local
     - profile.mysql-slurmdbd-tweaks
+    - profile.slurm-cluster-sifive
+    - profile.slurm-client
     - profile.slurm-db
     - profile.slurm-server
     - profile.slurm-acct
