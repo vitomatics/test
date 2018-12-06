@@ -1,7 +1,6 @@
 ## SLURM resource manager DBD server machines
 
 include:
-  - profile.slurm-cluster1
   - secret.slurm-db
 
 states:

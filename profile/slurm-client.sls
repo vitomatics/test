@@ -1,9 +1,6 @@
 ## SLURM resource manager client machines
 ## Note the config file is shared and most of the stuff is in slurm-common
 
-include:
-  - profile.slurm-cluster1
-
 states:
   slurm.client: true
   slurm.devel: true

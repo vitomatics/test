@@ -1,8 +1,5 @@
 ## SLURM resource manager execution node machine
 
-include:
-  - profile.slurm-cluster1
-
 states:
   slurm.node: true
   slurm.client: true

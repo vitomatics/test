@@ -1,4 +1,4 @@
-## SLURM config for cluster 1
+## SLURM config for cluster 1 - the "sifive" cluster
 ##
 ## WARNING - be sure to use single quotes around SLURM-style times
 
