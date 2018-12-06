@@ -563,6 +563,8 @@ base:
     - subnet.he-unix02
     - profile.devel
     - profile.clusterclient
+    - profile.slurm-cluster-testbed
+    - profile.slurm-client
     - profile.ganglia-node-server
     - profile.telegraf-host-server
     - hosts.terminus
