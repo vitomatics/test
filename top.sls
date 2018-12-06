@@ -565,6 +565,7 @@ base:
     - profile.clusterclient
     - profile.slurm-cluster-testbed
     - profile.slurm-client
+    - profile.slurm-node
     - profile.ganglia-node-server
     - profile.telegraf-host-server
     - hosts.terminus
