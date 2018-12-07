@@ -11,12 +11,13 @@ boot:
 
 # Reserve the AMT ports so no one else tries to use them
 portreserve:
-  sifive-managed-nuc:
-    - 623
-    - 664
-    - 5900
-    - 16992
-    - 16993
-    - 16994
-    - 16995
+  services:
+    sifive-managed-nuc:
+      - 623
+      - 664
+      - 5900
+      - 16992
+      - 16993
+      - 16994
+      - 16995
     
