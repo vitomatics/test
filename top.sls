@@ -334,6 +334,53 @@ base:
     - subnet.sf-unix
     - hosts.epsilon11
 
+  'epsilon12.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon12
+
+  'epsilon13.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon13
+
+  'epsilon14.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon14
+
+  'epsilon15.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon15
+
+  'epsilon16.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon16
+
+  'epsilon17.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon17
+
+  'epsilon18.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon18
+
+  'epsilon19.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon19
+
+  'epsilon20.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon20
+
+  'epsilon21.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon21
+ 
+  'epsilon22.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon22
+
+  'epsilon23.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon23
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
