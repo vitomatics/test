@@ -40,7 +40,7 @@ groups:
   sdv-users:
     tags: [ lambda00 ]
     gid: 19001
-    addusers: [ davidj, hes, mikeyang, sdvt01, sdvt02, sdvt03, sdvt04 ]
+    addusers: [ davidj, hes, mikeyang, sdvt01, sdvt02, sdvt03, sdvt04, vitob ]
   alisub-users:
     tags: [ lambda00 ]
     gid: 19002
@@ -48,8 +48,8 @@ groups:
   fpgatest-users:
     tags: [ fpgatest ]
     gid: 19003
-    addusers: [ davidj, hes, rxia, jonstern, mikemay,  sagark, drew, bsou ]
+    addusers: [ davidj, hes, rxia, jonstern, mikemay,  sagark, drew, bsou , vitob]
   syslogin-users:
     tags: [ syslogin ]
     gid: 19004
-    addusers: [ davidj, mikemay, jonstern, rxia ]
+    addusers: [ davidj, mikemay, jonstern, rxia, vitob ]
