@@ -48,7 +48,7 @@ groups:
   fpgatest-users:
     tags: [ fpgatest ]
     gid: 19003
-    addusers: [ davidj, hes, rxia, jonstern, mikemay,  sagark, drew, bsou , vitob]
+    addusers: [ davidj, hes, rxia, jonstern, mikemay,  sagark, drew, bsou , vitob, samh]
   syslogin-users:
     tags: [ syslogin ]
     gid: 19004
