@@ -638,6 +638,8 @@ users:
     mail: sam.huffman@sifive.com
     uid: 1176
     gid: 1176
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDC3or/EsQ0lhZlslXh6m0zjz4JF2GbEjUoq4SXH4s9QghJ0jI80vMRA2SddAn2JJNc549sTk9TreU0+r20mv5cuwRN6yOe8c+XQ9YxqYmEBIKdemiMA3pKLYIvzYmnJPf/53JDoGRBFgniUbUYwqgzEYRa+5ck9le/l/KSN5u2AjBSC8I5uLDL+F1WsKPoihvmO0/miwCfuWhotGlcRf7TtpZ7msWJ62QgJT1KAdOi72J9eJ6Pv0ieQOy0Yv3Yq11N+lXG8Cl9NCAMlZlCfHRciZSS50BZHoNs8apW3loiAe0oLqGSVjjhzZ0VCK1XCV8VRivsMw5L9OyMoXVkjPSP samh@gamma02.internal.sifive.com
   bodid:
     tags: [ cluster ]
     groups: [ compute ]
