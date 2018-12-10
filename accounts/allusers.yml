@@ -633,7 +633,7 @@ users:
     gid: 1175
   samh:
     tags: [ cluster ]
-    groups: [ compute ]
+    groups: [ compute, fpgatest ]
     fullname: "Sam Huffman"
     mail: sam.huffman@sifive.com
     uid: 1176
