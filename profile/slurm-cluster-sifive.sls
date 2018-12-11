@@ -22,8 +22,6 @@ slurm:
   PriorityWeightAge: 1000
   PriorityMaxAge: '24:00:00'
 
-  GresTypes: testboard
-
 # TaskPlugin: affinity
 # TaskPluginParam: Threads
 
@@ -49,29 +47,16 @@ slurm:
       CPUs: '48'
       RealMemory: '376000'
       Feature: sigma
-    'delta[00-03]':
-      CPUs: '4'
-      RealMemory: '8000'
-      Feature: delta
     'alpha':
       CPUs: '32'
       RealMemory: '125000'
       Feature: alpha
-  gres:
-    'delta[00-03]':
-       - Name: testboard
-         Count: 1
   partitions:
     standard:
       Default: yes
       nodes:
         - 'gamma[10-14]'
         - 'sigma[00-14]'
-    boardtest:
-      DefMemPerCPU: 4000
-      nodes:
-        - 'delta[00-03]'
-        - 'alpha'
     quick:
       DefMemPerCPU: 4000
       MaxMemPerCPU: 16000
