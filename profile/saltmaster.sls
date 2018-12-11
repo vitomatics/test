@@ -102,7 +102,7 @@ sfsalt:
       saltmaster:
         - hal.internal.sifive.com
         - viki.internal.sifive.com
-      slurmclient:
+      slurmclient-sifive:
         - algol.internal.sifive.com
         - alpha.internal.sifive.com
         - altair.internal.sifive.com
@@ -118,15 +118,24 @@ sfsalt:
         - grid.internal.sifive.com
         - romulan.internal.sifive.com
         - vulcan.internal.sifive.com
-      slurmnode:
+      slurmnode-sifive:
         - gamma*.internal.sifive.com
         - sigma*.internal.sifive.com
         - delta*.internal.sifive.com
         - epsilon*.internal.sifive.com
         - alpha.internal.sifive.com
         - sandbox.internal.sifive.com
-      slurmserver:
+      slurmserver-sifive:
         - grid.internal.sifive.com
+      slurmclient-testbed:
+        - epsilon*.internal.sifive.com
+        - terminus.internal.sifive.com
+        - gaia.internal.sifive.com
+      slurmnode-testbed:
+        - epsilon*.internal.sifive.com
+        - terminus.internal.sifive.com
+      slurmserver-testbed:
+        - gaia.internal.sifive.com
       authnameserver:
         - yoda.internal.sifive.com
       licenseserver:
