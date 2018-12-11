@@ -53,19 +53,12 @@ slurm:
       CPUs: '4'
       RealMemory: '8000'
       Feature: delta
-    'epsilon[00-29]':
-      CPUs: 4
-      RealMemory: '8000'
-      Feature: epsilon
     'alpha':
       CPUs: '32'
       RealMemory: '125000'
       Feature: alpha
   gres:
     'delta[00-03]':
-       - Name: testboard
-         Count: 1
-    'epsilon[00-29]':
        - Name: testboard
          Count: 1
   partitions:
@@ -78,7 +71,6 @@ slurm:
       DefMemPerCPU: 4000
       nodes:
         - 'delta[00-03]'
-        - 'epsilon[00-29]'
         - 'alpha'
     quick:
       DefMemPerCPU: 4000
