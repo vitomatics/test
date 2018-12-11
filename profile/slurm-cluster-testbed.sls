@@ -32,7 +32,7 @@ slurm:
   nodes:
     'terminus':
       CPUs: 4
-      RealMemory: '8192'
+      RealMemory: '8000'
       Feature: terminus
     'delta[00-03]':
       CPUs: '4'
