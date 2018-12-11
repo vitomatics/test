@@ -47,10 +47,6 @@ slurm:
       CPUs: '48'
       RealMemory: '376000'
       Feature: sigma
-    'alpha':
-      CPUs: '32'
-      RealMemory: '125000'
-      Feature: alpha
   partitions:
     standard:
       Default: yes
