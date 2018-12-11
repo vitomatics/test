@@ -223,7 +223,7 @@ base:
     - subnet.sf-unix
     - profile.devel
     - profile.clusterclient
-    - profile.slurm-cluster-sifive
+    - profile.slurm-cluster-testbed
     - profile.slurm-client
     - profile.ganglia-node-server
     - profile.telegraf-host-server
@@ -258,7 +258,7 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.jenkins-federation-slave
-    - profile.slurm-cluster-sifive
+    - profile.slurm-cluster-testbed
     - profile.slurm-client
     - profile.slurm-node
     - profile.jenkins-rootuser-access
@@ -275,7 +275,7 @@ base:
     - profile.devel
     - profile.snmp-client
     - profile.clusterclient
-    - profile.slurm-cluster-sifive
+    - profile.slurm-cluster-testbed
     - profile.slurm-client
     - profile.slurm-node
     - profile.jenkins-rootuser-access

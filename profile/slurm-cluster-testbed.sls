@@ -34,20 +34,31 @@ slurm:
       CPUs: 4
       RealMemory: '8192'
       Feature: terminus
-    # 'epsilon[00-29]':
-    #   CPUs: 4
-    #   RealMemory: '8000'
-    #   Feature: epsilon
-  # gres:
-    # 'epsilon[00-29]':
-    #    - Name: testboard
-    #      Count: 1
+    'delta[00-03]':
+      CPUs: '4'
+      RealMemory: '8000'
+      Feature: delta
+    'epsilon[00-29]':
+      CPUs: 4
+      RealMemory: '8000'
+      Feature: epsilon
+    'alpha':
+      CPUs: '32'
+      RealMemory: '125000'
+      Feature: alpha
+  gres:
+    'epsilon[00-29]':
+       - Name: testboard
+         Count: 0
   partitions:
     boardtest:
       DefMemPerCPU: 4000
       nodes:
-        - 'terminus'
-        # - 'epsilon[00-29]'
+        - 'epsilon[00-29]'
+    fpgabuild:
+      nodes:
+        - 'alpha'
     test:
       nodes:
         - 'terminus'
+        - 'delta[00-03]'
