@@ -79,6 +79,72 @@ testhosts:
         # vlan: 'sf-lab-vlan'
         # switch: 'iswitch4010'
         # switchport: 'ge-0/0/46'
+  rack4003-shelf01:
+    node: epsilon01.internal.sifive.com
+    partition: boardtest
+    rack: rack4003
+    shelf: '01'
+    testnet:
+      vlan: 'sf-lab-vlan'
+      switch: 'iswitch4010'
+      switchport: 'ge-0/0/45'
+    power:
+      type: uhubctl
+      # type: pdu
+      # pdu: pdu4001
+      # port: '4'
+    boards:
+      board0:
+        id: 'unknown'
+        type: arty35
+        # net: true
+        # vlan: 'sf-lab-vlan'
+        # switch: 'iswitch4010'
+        # switchport: 'ge-0/0/44'
+  rack4003-shelf02:
+    node: epsilon02.internal.sifive.com
+    partition: boardtest
+    rack: rack4003
+    shelf: '02'
+    testnet:
+      vlan: 'sf-lab-vlan'
+      switch: 'iswitch4010'
+      switchport: 'ge-0/0/43'
+    power:
+      type: uhubctl
+      # type: pdu
+      # pdu: pdu4001
+      # port: '6'
+    boards:
+      board0:
+        id: 'unknown'
+        type: arty100
+        # net: true
+        # vlan: 'sf-lab-vlan'
+        # switch: 'iswitch4010'
+        # switchport: 'ge-0/0/42'
+  rack4003-shelf03:
+    node: epsilon03.internal.sifive.com
+    partition: boardtest
+    rack: rack4003
+    shelf: '03'
+    testnet:
+      vlan: 'sf-lab-vlan'
+      switch: 'iswitch4010'
+      switchport: 'ge-0/0/41'
+    power:
+      type: uhubctl
+      # type: pdu
+      # pdu: pdu4001
+      # port: '8'
+    boards:
+      board0:
+        id: 'unknown'
+        type: arty35
+        # net: true
+        # vlan: 'sf-lab-vlan'
+        # switch: 'iswitch4010'
+        # switchport: 'ge-0/0/40'
   rack4003-shelf04:
     node: epsilon04.internal.sifive.com
     partition: boardtest
