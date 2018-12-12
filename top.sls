@@ -258,9 +258,8 @@ base:
     - profile.devel
     - profile.clusterclient
     - profile.jenkins-federation-slave
-    - profile.slurm-cluster-testbed
+    - profile.slurm-cluster-sifive
     - profile.slurm-client
-    - profile.slurm-node
     - profile.jenkins-rootuser-access
     - profile.sfamtutil
     - profile.fpgahost2
