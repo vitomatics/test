@@ -908,6 +908,13 @@ users:
     mail: ahmet.houssein.kaul@sifive.com
     uid: 1213
     gid: 1213
+  avinashs:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Avinash Sekar"
+    mail: avinash.sekar@@sifive.com
+    uid: 1214
+    gid: 1214
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ lambda00 ]
