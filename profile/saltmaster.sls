@@ -115,23 +115,21 @@ sfsalt:
         - grid.internal.sifive.com
         - romulan.internal.sifive.com
         - vulcan.internal.sifive.com
+        - delta*.internal.sifive.com
       slurmnode-sifive:
         - gamma*.internal.sifive.com
         - sigma*.internal.sifive.com
-        - delta*.internal.sifive.com
         - alpha.internal.sifive.com
         - sandbox.internal.sifive.com
       slurmserver-sifive:
         - grid.internal.sifive.com
       slurmclient-testbed:
         - epsilon*.internal.sifive.com
-        - delta*.internal.sifive.com
         - terminus.internal.sifive.com
         - alpha.internal.sifive.com
         - gaia.internal.sifive.com
       slurmnode-testbed:
         - epsilon*.internal.sifive.com
-        - delta*.internal.sifive.com
         - terminus.internal.sifive.com
         - alpha.internal.sifive.com
       slurmserver-testbed:
@@ -158,6 +156,7 @@ sfsalt:
         - eddie.internal.sifive.com
         - epsilon*.internal.sifive.com
         - frogstar.internal.sifive.com
+        - gaia.internal.sifive.com
         - gamma*.internal.sifive.com
         - gravelpit.internal.sifive.com
         - grid.internal.sifive.com
@@ -179,6 +178,7 @@ sfsalt:
         - sigma*.internal.sfive.com
         - skynet.internal.sifive.com
         - tardis.internal.sifive.com
+        - terminus.internal.sifive.com
         - transporter.internal.sifive.com
         - vader.internal.sifive.com
         - viki.internal.sifive.com
