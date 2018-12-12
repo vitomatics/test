@@ -34,10 +34,6 @@ slurm:
       CPUs: 4
       RealMemory: '8000'
       Feature: terminus
-    'delta[00-03]':
-      CPUs: '4'
-      RealMemory: '8000'
-      Feature: delta
     'epsilon[00-29]':
       CPUs: 4
       RealMemory: '8000'
@@ -61,4 +57,3 @@ slurm:
     test:
       nodes:
         - 'terminus'
-        - 'delta[00-03]'
