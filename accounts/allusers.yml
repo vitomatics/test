@@ -908,6 +908,7 @@ users:
     mail: ahmet.houssein.kaul@sifive.com
     uid: 1213
     gid: 1213
+    shell: /usr/sbin/nologin
   avinashs:
     tags: [ cluster ]
     groups: [ compute ]
