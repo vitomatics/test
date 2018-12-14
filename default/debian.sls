@@ -353,6 +353,7 @@ pkgs:
     make: true
     git: true
     libgcc1:i386: true
+    libtool-bin: true
 
     wcalc: true
     apcalc: true
