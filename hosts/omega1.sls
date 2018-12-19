@@ -108,5 +108,5 @@ sfdump:
       snaptype: netapp_daily
       acls: false
       xattrs: false
-      bwlimit: 12000
-      timeout: 9h
+      bwlimit: 13000
+      timeout: 11h
