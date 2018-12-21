@@ -97,8 +97,8 @@ sfdump:
       snaptype: netapp_daily
       acls: false
       xattrs: false
-      timeout: 8h
-      bwlimit: 12000
+      timeout: 9h
+      bwlimit: 13000
       absent: false
     work:
       client: netapp1-nfs2.internal.sifive.com
