@@ -514,6 +514,7 @@ users:
     mail: behzadboro@sifive.com
     uid: 1160
     gid: 1160
+    shell: /usr/sbin/nologin
   mohitwani:
     tags: [ cluster ]
     groups: [ compute ]
