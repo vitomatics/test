@@ -252,7 +252,8 @@ base:
     - subnet.he-unix02
     - profile.telegraf-host-server
     - hosts.timewarp
-    
+    - profile.slurm-client   
+ 
   'delta*.internal.sifive.com':
     - subnet.sf-unix
     - profile.devel
