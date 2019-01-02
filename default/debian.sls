@@ -354,6 +354,7 @@ pkgs:
     git: true
     libgcc1:i386: true
     libtool-bin: true
+    libutf8proc-dev: true
 
     wcalc: true
     apcalc: true
