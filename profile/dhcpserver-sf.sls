@@ -80,6 +80,10 @@ dhcpd:
       hardware: ethernet 52:54:00:ff:00:0b
       fixed-address: gravelpit.internal.sifive.com
       host-name: gravelpit.internal.sifive.com
+    consul01:
+      hardware: ethernet 52:54:00:ff:00:0c
+      fixed-address: consul01.internal.sifive.com
+      host-name: consul01.internal.sifive.com
     # Regression machines
     delta00:
       hardware: ethernet 94:c6:91:11:4c:d4
