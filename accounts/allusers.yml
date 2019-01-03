@@ -902,6 +902,7 @@ users:
     mail: ashish.kaul@sifive.com
     uid: 1212
     gid: 1212
+    shell: /usr/bin/tcsh
   ahmeth:
     tags: [ cluster ]
     groups: [ compute ]
