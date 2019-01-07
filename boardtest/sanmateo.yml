@@ -330,7 +330,7 @@ testhosts:
       vlan: 'sf-lab-vlan'
       switch: 'iswitch4011'
       switchport: 'ge-0/0/47'
-    power:/art100
+    power:
       type: uhubctl
       # hub: '1-3'
       # port: '4'
