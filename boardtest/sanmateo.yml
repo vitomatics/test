@@ -321,6 +321,26 @@ testhosts:
         type: arty35
         # switch: 'iswitch4010'
         # switchport: 'ge-0/0/24'
+  rack4004-shelf05:
+    node: epsilon17.internal.sifive.com
+    partition: boardtest
+    rack: rack4004
+    shelf: '05'
+    testnet:
+      vlan: 'sf-lab-vlan'
+      switch: 'iswitch4010'
+      switchport: 'ge-0/0/37'
+    power:
+      type: pdu
+      pdu: pdu4002
+      port: '12'
+    boards:
+      board0:
+        id: 'unknown'
+        type: vc707_4gb
+        vlan: 'sf-lab-vlan'
+        switch: 'iswitch4011'
+        switchport: 'ge-0/0/36'
   rack4004-shelf06:
     node: epsilon18.internal.sifive.com
     partition: boardtest
