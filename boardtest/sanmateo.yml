@@ -329,7 +329,7 @@ testhosts:
     testnet:
       vlan: 'sf-lab-vlan'
       switch: 'iswitch4011'
-      switchport: 'ge-0/0/44'
+      switchport: 'ge-0/0/45'
     power:
       type: pdu
       pdu: pdu4002
@@ -340,7 +340,7 @@ testhosts:
         type: vc707_4gb
         vlan: 'sf-lab-vlan'
         switch: 'iswitch4011'
-        switchport: 'ge-0/0/43'
+        switchport: 'ge-0/0/44'
   rack4004-shelf02:
     node: epsilon14.internal.sifive.com
     partition: boardtest
@@ -349,7 +349,7 @@ testhosts:
     testnet:
       vlan: 'sf-lab-vlan'
       switch: 'iswitch4011'
-      switchport: 'ge-0/0/42'
+      switchport: 'ge-0/0/43'
     power:
       type: pdu
       pdu: pdu4002
@@ -360,7 +360,7 @@ testhosts:
         type: vc707_4gb
         vlan: 'sf-lab-vlan'
         switch: 'iswitch4011'
-        switchport: 'ge-0/0/41'
+        switchport: 'ge-0/0/42'
   rack4004-shelf03:
     node: epsilon15.internal.sifive.com
     partition: boardtest
@@ -369,7 +369,7 @@ testhosts:
     testnet:
       vlan: 'sf-lab-vlan'
       switch: 'iswitch4011'
-      switchport: 'ge-0/0/40'
+      switchport: 'ge-0/0/41'
     power:
       type: pdu
       pdu: pdu4002
@@ -380,7 +380,7 @@ testhosts:
         type: vc707_4gb
         vlan: 'sf-lab-vlan'
         switch: 'iswitch4011'
-        switchport: 'ge-0/0/39'
+        switchport: 'ge-0/0/40'
   rack4004-shelf04:
     node: epsilon16.internal.sifive.com
     partition: boardtest
