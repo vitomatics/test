@@ -328,7 +328,7 @@ testhosts:
     shelf: '05'
     testnet:
       vlan: 'sf-lab-vlan'
-      switch: 'iswitch4010'
+      switch: 'iswitch4011'
       switchport: 'ge-0/0/37'
     power:
       type: pdu
