@@ -342,6 +342,69 @@ testhosts:
         vlan: 'sf-lab-vlan'
         switch: 'iswitch4011'
         switchport: 'ge-0/0/34'
+  rack4004-shelf07:
+    node: epsilon19.internal.sifive.com
+    partition: boardtest
+    rack: rack4004
+    shelf: '07'
+    testnet:
+      vlan: 'sf-lab-vlan'
+      switch: 'iswitch4011'
+      switchport: 'ge-0/0/33'
+    power:
+      type: pdu
+      pdu: pdu4002
+      port: '16'
+    boards:
+      board0:
+        id: 'h5u-00300'
+        type: hifiveu
+        hostname: 'h5u-00300.lab.internal.sifive.com'
+        vlan: 'sf-lab-vlan'
+        switch: 'iswitch4011'
+        switchport: 'ge-0/0/32'
+  rack4004-shelf08:
+    node: epsilon20.internal.sifive.com
+    partition: boardtest
+    rack: rack4004
+    shelf: '08'
+    testnet:
+      vlan: 'sf-lab-vlan'
+      switch: 'iswitch4011'
+      switchport: 'ge-0/0/31'
+    power:
+      type: pdu
+      pdu: pdu4002
+      port: '18'
+    boards:
+      board0:
+        id: 'h5u-00296'
+        type: hifiveu
+        hostname: 'h5u-00296.lab.internal.sifive.com'
+        vlan: 'sf-lab-vlan'
+        switch: 'iswitch4011'
+        switchport: 'ge-0/0/30'
+  rack4004-shelf09:
+    node: epsilon21.internal.sifive.com
+    partition: boardtest
+    rack: rack4004
+    shelf: '09'
+    testnet:
+      vlan: 'sf-lab-vlan'
+      switch: 'iswitch4011'
+      switchport: 'ge-0/0/29'
+    power:
+      type: pdu
+      pdu: pdu4002
+      port: '20'
+    boards:
+      board0:
+        id: 'h5u-00323'
+        type: hifiveu
+        hostname: 'h5u-00323.lab.internal.sifive.com'
+        vlan: 'sf-lab-vlan'
+        switch: 'iswitch4011'
+        switchport: 'ge-0/0/28'
   rack4004-shelf11:
     node: epsilon23.internal.sifive.com
     partition: boardtest
