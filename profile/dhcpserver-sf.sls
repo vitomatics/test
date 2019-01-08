@@ -398,3 +398,6 @@ dhcpd:
     pcieth101:
       hardware: ethernet 68:05:ca:8d:a2:9b
       fixed-address: pcieth101.lab.internal.sifive.com
+    postsi01:
+      hardware: ethernet 94:c6:91:a8:5e:4a
+      fixed-address: postsi01.internal.sifive.com

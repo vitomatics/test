@@ -424,7 +424,7 @@ labusb03		IN	A	10.16.0.43
 nuc5			IN	A	10.16.0.44
 nuc6			IN	A	10.16.0.45
 asustor1		IN	A	10.16.0.46
-
+postsi01		IN	A	10.16.0.47
 
 hifiveu000		IN	A	10.16.0.50
 hifiveu001		IN	A	10.16.0.51
