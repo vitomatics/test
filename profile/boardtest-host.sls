@@ -19,3 +19,12 @@ boardtest:
   udevs: {{ sanmateo.udevs|default({})|yaml }}
   pdus: {{ sanmateo.pdus|default({})|yaml }}
   testhosts: {{ sanmateo.testhosts|default({})|yaml }}
+
+
+sudo:
+  included:
+    # Add paulw to the sudoers file for boardtest troubleshooting
+    sifive-paulw:
+      userspec:
+        - 'paulw':
+          - ALL: '(ALL:ALL) ALL'
