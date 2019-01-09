@@ -40,6 +40,7 @@ pkgs:
     ## For Palmer
     xz-utils: true
     lftp: true
+    repo: true
 
     ## Miscellaneous
     finger: true
