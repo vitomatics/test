@@ -925,6 +925,13 @@ users:
     mail: kenneth.ostby@sifive.com 
     uid: 1215
     gid: 1215
+  alexb:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Alex Bishara"
+    mail: alex.bishara@sifive.com
+    uid: 1216
+    gid: 1216
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ lambda00 ]
