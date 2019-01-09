@@ -915,9 +915,16 @@ users:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Avinash Sekar"
-    mail: avinash.sekar@@sifive.com
+    mail: avinash.sekar@sifive.com
     uid: 1214
     gid: 1214
+  kennetho:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Kenneth Østby"
+    mail: kenneth.ostby@sifive.com 
+    uid: 1215
+    gid: 1215
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ lambda00 ]
