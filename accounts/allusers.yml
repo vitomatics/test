@@ -4,7 +4,7 @@
 ### IMPORTANT - this is a yaml file not an SLS file so no jinja
 
 ## Note user-changable data like keys, shells and passwords may be out of date
-## - do not blindly apply this data to running machines
+## - do not blindly apply this data to running machines.
 
 ## Regular users - also in LDAP.
 
