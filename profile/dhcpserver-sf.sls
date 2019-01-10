@@ -354,7 +354,7 @@ dhcpd:
       hardware: ethernet 70:b3:d5:92:f0:0f
       fixed-address: hifiveu015.internal.sifive.com
       next-server 10.16.1.94
-      filename '"rv14.txt"'
+      filename rv14.txt
     hifiveu016:
       hardware: ethernet 70:b3:d5:92:f0:10
       fixed-address: hifiveu016.internal.sifive.com
