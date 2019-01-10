@@ -351,8 +351,9 @@ dhcpd:
       hardware: ethernet 70:b3:d5:92:f0:0e
       fixed-address: hifiveu014.internal.sifive.com
     hifiveu015:
-      hardware: ethernet 70:b3:d5:92:f0:0z
+      hardware: ethernet 70:b3:d5:92:f0:0f
       fixed-address: hifiveu015.internal.sifive.com
+      next-server: 10.16.1.94
     hifiveu016:
       hardware: ethernet 70:b3:d5:92:f0:10
       fixed-address: hifiveu016.internal.sifive.com
