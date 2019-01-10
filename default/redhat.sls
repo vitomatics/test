@@ -16,6 +16,7 @@ pkgs:
     iotop: true
     iperf: true
     strace: true
+    sssd: true
 
     screen: true
     tmux: true
