@@ -351,10 +351,8 @@ dhcpd:
       hardware: ethernet 70:b3:d5:92:f0:0e
       fixed-address: hifiveu014.internal.sifive.com
     hifiveu015:
-      hardware: ethernet 70:b3:d5:92:f0:0f
+      hardware: ethernet 70:b3:d5:92:f0:0z
       fixed-address: hifiveu015.internal.sifive.com
-      next-server 10.16.1.94
-      filename "rv00.txt"
     hifiveu016:
       hardware: ethernet 70:b3:d5:92:f0:10
       fixed-address: hifiveu016.internal.sifive.com
