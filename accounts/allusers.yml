@@ -546,7 +546,6 @@ users:
     mail: debs@sifive.com
     uid: 1164
     gid: 1164
-    shell: /usr/sbin/nologin
   farzad:
     tags: [ cluster ]
     groups: [ compute ]
