@@ -40,11 +40,11 @@ groups:
   sdv-users:
     tags: [ lambda00 ]
     gid: 19001
-    addusers: [ davidj, hes, mikeyang, sdvt01, sdvt02, sdvt03, sdvt04, vitob ]
+    addusers: [ ]
   alisub-users:
     tags: [ lambda00 ]
     gid: 19002
-    addusers: [ hes, mikeyang, jchang, ali ]
+    addusers: [ mikeyang ]
   fpgatest-users:
     tags: [ fpgatest ]
     gid: 19003
@@ -53,3 +53,7 @@ groups:
     tags: [ syslogin ]
     gid: 19004
     addusers: [ davidj, mikemay, jonstern, rxia, vitob ]
+  lambda00-users:
+    tags: [ lambda00 ]
+    gid: 19001
+    addusers: [ davidj, koenig, ahuntington, mikeyang, jonstern, mikemay, samh, vitob, hdldh01 ]
