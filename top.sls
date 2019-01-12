@@ -413,7 +413,7 @@ base:
     - profile.clustermaster
     - profile.ganglia-node-server
     - profile.telegraf-host-server
-    - profile.edasync-smartdv-master
+    - profile.edasync-hdldh-master
     - hosts.tardis
 
   'grid.internal.sifive.com':
@@ -471,8 +471,8 @@ base:
     - profile.login
     - profile.desktop
     - profile.nomachine-eval
-    - profile.edadirs-smartdv
-    - profile.edasync-smartdv-slave
+    - profile.edadirs-lambda00
+    - profile.edasync-hdldh-slave
     - profile.backupclient
     - profile.localaccounts
     - accounts.lambda00-accounts
