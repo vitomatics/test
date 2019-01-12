@@ -25,7 +25,7 @@ users:
     home: /var/lib/jenkins
     shell: /bin/sh
   terpstra:
-    tags: [ cluster ]
+    tags: [ cluster, lambda00 ]
     groups: [ compute ]
     fullname: "Wesley Terpstra"
     mail: wesley@sifive.com
@@ -33,6 +33,8 @@ users:
     gid: 1106
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDjdsEdXTPWhbKeYC3m2AHVgoDzj1VnfVf8/Dvj8Ius1Rrq0InF9ZGA+LObjPU4FlRVZb2XBJoQ2Ngh3eAm62PgLMENYj23jZE+pKvGTE+BrROl91NRRhbOZy7XAO3rAS0mkqZkbBLKZ8rQwsoIED4LqmC/xCVVvmOQAYwnoWoP0JLi/jGww6JolEClRPoOYue1cpf6xSu7WHhU+8SQtP9Md+IsnTOQ07dor0/bwN744cS2jfcCsDlis3K+U1TQDr2jI1wR1kZWA+iBe6NTwdc7z0Z6qvBDzRX8wAdJDmKfbwLNwOZVxt83p+57qo5B8OAFuGo+fbkU09UCiyHWbPJN1C6Bm7xeHvm3atE2idU5KPE7bLJzVUhsSutuxUD0fyxt8uPbthkG1XRLe8u+7RolHs+ne602q4byA4+Q57wRWsHrphSAITMa3f2t+aedavb2fofH+NcJSEbFdPK3u634Bqe7PBhYLdS8Gw2eiCfQz4u0LebTn8a75ypdrXqMe7tKo+TTse/M/iWfWclq/ac+X6owCTYvYHHo5Q9f4+sP6vHfR2gSkwfSiXWL9dFUIgph5qsaTa6/vFOX5XqV+xpP03AtPpbGINMjgW+mpIxlaYi1jJi4uUhF1PEujme6kTQtzFL9445puULJkOeI4u/axa0CzmoC8yCK6q+maZhC/w== terpstra@pear.local
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDaAYXiZ07cdMA6NUvELAUeEDfctqWzjOQQ2m453+dlVchRYX5gAvgGhVLQEGlzwKhi7Kbq7wIotOvYSVZOA8gFs7OIfy5+MEZIFTUfETnB3i7wJWpx51THWW4gzsqrpzh8OTM2k+42016iATMz8e3OlmAirw4Je5+eCZmk1Y7F0iGJ7XAsJVg7w9Q5qsgDBClbqVJQn93VUj/xgIIxzEqiIDQIvBy7wSg+4ys2THrDBjAg3Vt909z0dtiShRfCaoMDrl6zFUC5WEfuYZyXpJBtqewEoXxqvHTLRw/TPkFcG3mNPhnEM+9A+NmEQ5bGY2igWECipOhTKXpbAz5nlGP4gjsaUfiVf69iDCfd1q+vagXHW72IBtbdsp1KtFj6GKkDjprUKKqMNiEUYL/UHylF0YLSZHxE240zgEihUzBwrxnGsshr8AmKrLCw8eWMGQWgXvSMitUxPUx8V1Wp0N/pvU8ZhfxTMNplcCXTsmyhYqq0hlb7DBZO5inpv81kYgxvzYonbj98VXJtkS0h4F8fso1deWEu6het4SNUARRslFKLCmrsSow/kD4cwIvl/yw41XGkiReMbPh4Y50PDGqlwINwFa60Gm1oj3OQZZJuOvYN4kdRA9dHdlQF7LI+SOtoAqPb7uLaGrpP56tNu6MdwPEw3K3MFD5cDgVJnIqHJw== terpstra@peach.local
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC6Aqkvde04pqL/xVU0endGSOH4csMVQPwDje6rl8xSKo8XqxuIS3CtZURc8ecagfGoD/SKSxBZAzqEu+RT/l5HQDPYvYTzNrJ1lKfcgbWSn+jq6MPdbF1WJORcYcPh4GSuhqI7Otj+5r9MT8XFZVAsuFz1ukaX3GBTJ2O8S/oOrBn9GNXOks8oagCM08M0O8bdNZCc/MUTmh07CTVuwP9g4473REdNj5xU5+FWZKp86dSv1zBz103Q86UBCzmw6xshGyYMld7catVkkvzLvO23BUFmVUOhEuN/K3huKgDGb/Z9n2mziL8JNIK+zVQw1oWqb6lQ93twXtLy8eDWfVEuRHwV6FSU+IMs4t5DV7mJXeFhuD/+mF9PmRVqVu4Ie+6TAjCbstT+ugMG25Im5s1k5ft8Wl1qoioFCd+dkfM/Zv5rCWxJCgdFdBbsepZ2TFp0hIKhreLlCQbP57husmh2t44EdvPQ+FTKOlQPyHGwL/asll6IfMEuJWofO2HybRPLt2ue+4+ugHb7gac0ovrxVGXjNiehV47g2NO+Rd+qxS+Vn80+79Qaw9ElnvfUFZIftd3bFi46XUup2ShALyDrXcBzE7qTb6dbm1KGq3keZoHkpIHrXZ7Q6qgJu/sK6Z6pQnzaRMCp4sUi6F9cy1avMiBP2lMRcjUyJ9zi7AkirQ== terpstra@sifive.com
   krste:
     tags: [ cluster ]
     groups: [ compute ]
@@ -604,12 +606,15 @@ users:
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDel5GwaYM767Hda0HpJNt3EL+5kvGEyj5wd1/2qq1CkmIeASfkPIm9GAgiJLbX/eoHxglqxhiAwFwQiNs5bmwPEoNRsiTkaMVzxWx7FTsTSFBr/R/p+tNQVoqb567KmbReX7aP6FNs/I6bC97CFdFlhPyATZz73iimCz5Ntq2ldQ20U2jmBnLmF6OsLotA3FlVoYPHaslbzXM7WfgISXjf54SSMBFniht1UweGHBSSqs79ImGP+vk8grPYwzax12VraZpUtCjpJR2KWgPwuWGLUJIwCMvxf6a9SyNJpISGLH6KpkVOFppOFHIPkQrAE8BlMZgnizXFoMNOT56UWr/t michaelmay@Michaels-MacBook-Pro.local
   albertc:
-    tags: [ cluster ]
+    tags: [ cluster, lambda00 ]
     groups: [ compute ]
     fullname: "Albert Chen"
     mail: albert.chen@sifive.com
     uid: 1172
     gid: 1172
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDzooSyQD0tVVtih4/hncA5O9a6un/f4skiMzjKac7HImT6jFgyYh+Z8OCJycOR59JjZftRsBOgNqglC1Az7YbowLoyCfaEbnkTNM0GBq5AiwWth5HASMOabPQJqJJYMdNz6rLYP49a7UF+g2835GWcSi+KNF7VpJk/Vpjt0j2juIlhhkYinHrRqytNYqcaXrltky35rvr0CchhBja0zdK31LQfrP4rW4eP7Q25EsReiZkCXlo9eutpc9oIrMiXz+JD8azCv/QKuGaZmlf3evrpnvdmJdGgfAzcvwtnUbLdKgxZ04BRbiStHcESSDXXVW+CRt7CH9L/qmb0gwt4/JHj/KCZhCKCd89t9GZO+NDuO585wUdUCmPAsfOS6WYEqx67UoYJW7PVuXIp35f3rfid50GROnXh+yAV6lNYROvMiw4x3SlEeT5niqbwFaCVNDrS0lC/s2a7kB5QzmZZAWRy8xYI75wDyaShKCH7H0i4dnNqSA9DRmLFO3CLTGvs2Y9oex7f2YfgioisxN1bWt10VMAySlF8sICz3DgwyczYWYoZYyrrEwd34iCEnn69myrYjpbofO6bTdjUzFbF6SusshIx9LwEATRUrAAT5WgHs58y7GoAmSpn/bVumPae1wwBZYqkcevl2qGwrrc/F5KyQJQfbslT+VzxkQ5K0xw9vw== albert.chen@sifive.com
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCa37jV/pZRRJz38UgbVqzonuWSixJAqKe/LL/DTurtku88kdzcbQhzz1j5v6m4o7ixEp0k9pKr0C+sb37kx8Om8sDi2bZCl70ayx9SJPdbLDCJEx062XpDy9MjAhlFUEegJIXUpg9a30Og054qAYMUq+NNrQ6c55PONm7NVPv7A0Z36K9vP7sB6r0NGkKHRFcaJIVAce/WPltEkCjn1lJe7xcaw+v9clf7dy4yVawuGbSUmaoJaHCSUE6qJBylTT5IeetxpBGm8XK6fXN6O+bxBiFvD+FdsaQ+GTw4diXe/KIvFVuRTdObiYvx6HhNX+JnrXQrXyK66xdnnhys9TgX1Ay4bfqON7LjtV3Ty87qFiczI8IeAeYcl/GfKPwnzFoHYCV4hicvO13kj3/08WvL48tKIzx9s520PVLpgthQUFZi33nNRt4cNJr4V3nNS59wYqcW4pzshNGfWrGuPlJBxDHy0JqwVdM/BDvzZyzA+Wz3MD0PjSea4gjUgDJt7/92fg+TKpCu0mOH2BTQRVkslsqrO7SYZ9gnQ1RB19RusrXib8Z0vmLnbk8dy3Qiq5OTHZmLqzNJuEGkiEeXkr60C87RkL70lHfMMRnrSCfC2eFx1LZryVq3ZEP9rWx9H9tDdZcn9tP4XCXn55q1koNEFo+U8u3Eo4zxlpSOzH0kw== albert.chen@sifive.com
   kadep:
     tags: [ cluster ]
     groups: [ compute ]
@@ -837,12 +842,14 @@ users:
     uid: 1203
     gid: 1203
   aliakseic:
-    tags: [ cluster ]
+    tags: [ cluster, lambda00 ]
     groups: [ compute ]
     fullname: "Aliaksei Chapyzhenka"
     mail: alieksei.chapyzhenka@sifive.com
     uid: 1204
     gid: 1204
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCfds7uPEe8zMwpt/yavllSF0I3EkxkqcN2kCUFAqB9pqUprSgLEvOMPZ1c6plV1d0svXVOUf1/4gon4P03/vHTr/sBNRVXb3udMw0bcxGcC21ASlb1utxrCaaH6dBvHKLdj2rtO5pOl7/0LVEH6I2NTM7IqqoOcsSAtOrgcgpT3BJV7s7n4RbB55LDH1DcRlA1e/SSULw38WeYnWTBVE9clsLd7injLt0k6cjeIt+Bbk86VOIQ9LHimZg5qhqLKvPldSmVLGV+DEOW831BGpoJVMJI0floOAIOqIbYRC/Sdw7oNHT3xI63ooKoPMN3lgFFpEcB0ZHEzBS+6GWc1tqwpvyY5MEmDsVFp2inECfLi24oQ1CtOWg61Vsd+N1S0h9qA0rB/KB5kbtwE3f0o7l/fcFXVCgz0HFuReUBHpI1b5u3Hv3Q9CiwOUGK9GzjTdBnNxRFOUZkLYuxxIZ6dhwexRR+rI8D73C3uASk+9MOkGWZ1CB9zwVyGElumdnLtfd5JpUO7bCcAuoHiEWCv1VHq1opxFMJc6y3WeOtfqfd+UtRIdB1+7c0Y0/YWCxRHTAaXbBNfKKermrd4ZbWvDPrf9EqyKDr9x2r0WgtVS/tDDV8g3J0wBwhaRO+httbpJrPgAC2m1R2rZdS3FdtcIQxgqOAi7hxXvHFegkWQYbyJw== alex.drom@gmail.com
   michaelm:
     tags: [ cluster ]
     groups: [ compute ]
