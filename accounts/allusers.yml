@@ -931,6 +931,27 @@ users:
     mail: alex.bishara@sifive.com
     uid: 1216
     gid: 1216
+  brads:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Brad Seevers"
+    mail: brad.seevers@sifive.com
+    uid: 1217
+    gid: 1217
+  jessicap:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Jessica Peck"
+    mail: jessica.peck@sifive.com
+    uid: 1218
+    gid: 1218
+  samm:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Sam McClure"
+    mail: sam.mcclure@sifive.com
+    uid: 1219
+    gid: 1219
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ lambda00 ]
