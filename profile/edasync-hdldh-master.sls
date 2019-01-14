@@ -17,3 +17,6 @@ sfpushdirs:
       - /sifive/tools/Modules
       - /sifive/tools/synopsys/scl
       - /sifive/tools/synopsys/vcs
+      - /sifive/tools/sifive/wake
+      - /sifive/tools/sifive/wit
+      - /sifive/tools/verilator
