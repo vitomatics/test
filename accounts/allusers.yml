@@ -25,7 +25,7 @@ users:
     home: /var/lib/jenkins
     shell: /bin/sh
   terpstra:
-    tags: [ cluster ]
+    tags: [ cluster, lambda00 ]
     groups: [ compute ]
     fullname: "Wesley Terpstra"
     mail: wesley@sifive.com
@@ -33,6 +33,8 @@ users:
     gid: 1106
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDjdsEdXTPWhbKeYC3m2AHVgoDzj1VnfVf8/Dvj8Ius1Rrq0InF9ZGA+LObjPU4FlRVZb2XBJoQ2Ngh3eAm62PgLMENYj23jZE+pKvGTE+BrROl91NRRhbOZy7XAO3rAS0mkqZkbBLKZ8rQwsoIED4LqmC/xCVVvmOQAYwnoWoP0JLi/jGww6JolEClRPoOYue1cpf6xSu7WHhU+8SQtP9Md+IsnTOQ07dor0/bwN744cS2jfcCsDlis3K+U1TQDr2jI1wR1kZWA+iBe6NTwdc7z0Z6qvBDzRX8wAdJDmKfbwLNwOZVxt83p+57qo5B8OAFuGo+fbkU09UCiyHWbPJN1C6Bm7xeHvm3atE2idU5KPE7bLJzVUhsSutuxUD0fyxt8uPbthkG1XRLe8u+7RolHs+ne602q4byA4+Q57wRWsHrphSAITMa3f2t+aedavb2fofH+NcJSEbFdPK3u634Bqe7PBhYLdS8Gw2eiCfQz4u0LebTn8a75ypdrXqMe7tKo+TTse/M/iWfWclq/ac+X6owCTYvYHHo5Q9f4+sP6vHfR2gSkwfSiXWL9dFUIgph5qsaTa6/vFOX5XqV+xpP03AtPpbGINMjgW+mpIxlaYi1jJi4uUhF1PEujme6kTQtzFL9445puULJkOeI4u/axa0CzmoC8yCK6q+maZhC/w== terpstra@pear.local
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDaAYXiZ07cdMA6NUvELAUeEDfctqWzjOQQ2m453+dlVchRYX5gAvgGhVLQEGlzwKhi7Kbq7wIotOvYSVZOA8gFs7OIfy5+MEZIFTUfETnB3i7wJWpx51THWW4gzsqrpzh8OTM2k+42016iATMz8e3OlmAirw4Je5+eCZmk1Y7F0iGJ7XAsJVg7w9Q5qsgDBClbqVJQn93VUj/xgIIxzEqiIDQIvBy7wSg+4ys2THrDBjAg3Vt909z0dtiShRfCaoMDrl6zFUC5WEfuYZyXpJBtqewEoXxqvHTLRw/TPkFcG3mNPhnEM+9A+NmEQ5bGY2igWECipOhTKXpbAz5nlGP4gjsaUfiVf69iDCfd1q+vagXHW72IBtbdsp1KtFj6GKkDjprUKKqMNiEUYL/UHylF0YLSZHxE240zgEihUzBwrxnGsshr8AmKrLCw8eWMGQWgXvSMitUxPUx8V1Wp0N/pvU8ZhfxTMNplcCXTsmyhYqq0hlb7DBZO5inpv81kYgxvzYonbj98VXJtkS0h4F8fso1deWEu6het4SNUARRslFKLCmrsSow/kD4cwIvl/yw41XGkiReMbPh4Y50PDGqlwINwFa60Gm1oj3OQZZJuOvYN4kdRA9dHdlQF7LI+SOtoAqPb7uLaGrpP56tNu6MdwPEw3K3MFD5cDgVJnIqHJw== terpstra@peach.local
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC6Aqkvde04pqL/xVU0endGSOH4csMVQPwDje6rl8xSKo8XqxuIS3CtZURc8ecagfGoD/SKSxBZAzqEu+RT/l5HQDPYvYTzNrJ1lKfcgbWSn+jq6MPdbF1WJORcYcPh4GSuhqI7Otj+5r9MT8XFZVAsuFz1ukaX3GBTJ2O8S/oOrBn9GNXOks8oagCM08M0O8bdNZCc/MUTmh07CTVuwP9g4473REdNj5xU5+FWZKp86dSv1zBz103Q86UBCzmw6xshGyYMld7catVkkvzLvO23BUFmVUOhEuN/K3huKgDGb/Z9n2mziL8JNIK+zVQw1oWqb6lQ93twXtLy8eDWfVEuRHwV6FSU+IMs4t5DV7mJXeFhuD/+mF9PmRVqVu4Ie+6TAjCbstT+ugMG25Im5s1k5ft8Wl1qoioFCd+dkfM/Zv5rCWxJCgdFdBbsepZ2TFp0hIKhreLlCQbP57husmh2t44EdvPQ+FTKOlQPyHGwL/asll6IfMEuJWofO2HybRPLt2ue+4+ugHb7gac0ovrxVGXjNiehV47g2NO+Rd+qxS+Vn80+79Qaw9ElnvfUFZIftd3bFi46XUup2ShALyDrXcBzE7qTb6dbm1KGq3keZoHkpIHrXZ7Q6qgJu/sK6Z6pQnzaRMCp4sUi6F9cy1avMiBP2lMRcjUyJ9zi7AkirQ== terpstra@sifive.com
   krste:
     tags: [ cluster ]
     groups: [ compute ]
@@ -44,7 +46,7 @@ users:
     authorized_keys:
       - ssh-dss AAAAB3NzaC1kc3MAAACBAIT8iVxuBOnXWaum3Bb7zbSTdpDMry3CmTBMtlSEvoj5kN5vPiY4AkKFbbjVQhDC8HzbkXLtihOnhCezww12ndZNUBcBpQzwfhdcGkdZrtuvdZlg1rAr6Sz8PpM1IDrI9cAiwniWo+pQXRsA5hUkAhMcqeBh0cdyD2y71U5u8be9AAAAFQD1RHL0YRZktxsmewlAekfLGc3MnQAAAIAouFeFTLVWnTJ9tkwzeIL+G1j0fXlptsu9gbSK2/tiNX+0Wp9dk0hF1Qs/h/ThQ+1LpUiIgIUV0ReGo8uhNOwmHfvyTYVn6+yOsIQmHo/KA+vb8pKOQxn1YvC/kg0HQvaECsZPUzRqtd3U9all+g5EHxlTpLhCzx0Pq89w1/cuvQAAAIBMs6ZvgGhsY3CxGtrD2prcK0GUKdXybKwSeCS74rOo0zXi00qExXVL9175KzL67GMJiVmE9jQicnP+JcoT/wwrzbwRFdGuyBu052qMu4ZcdwSGAr8D0WD6xmVfq+pPBYEML7uTKw9ZysiwkKhzqX430XDf5Uw0oW2TJXYNzeTNpw== krste@kamac.csail.mit.edu
   rxia:
-    tags: [ cluster, lambda00, syslogin, fpgatest ]
+    tags: [ cluster, syslogin, fpgatest, lambda00 ]
     groups: [ compute ]
     fullname: "Richard Xia"
     mail: rxia@sifive.com
@@ -53,7 +55,7 @@ users:
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDfzOB468ib43to1vO3fQ3XiaZRGCkANd3641+64FMLq8mZHATFOO+032oTkFoqHwqy5QzLjQYVzjHT7KvXJMfh9spIuJ8Y7ayyfM/tVtfhvwvAPn2nuWSacYmQ3bQX+VWGcRA9N4gEv8MktX2n6J/b4+7pqm9s0bDEo/RPnoWPTrdOLa1KoH1nm5SUgSvSiBZt5LdkIl6DnNjobfED5RSaS768kGm4ZQNHQggKiFeqS1hLTZbLYHLEC6hOtOQ0+wIKPvJvT8D5WPAEQ69+1TEPmlK7MfdF5EUOSLmfZvcLtR0w3gSB5VEQfJrzo+Sb0vABm+R/iQje8x7OrUMIzjsJ rxia@rxia-sifive
   jchang:
-    tags: [ cluster, lambda00 ]
+    tags: [ cluster ]
     groups: [ compute ]
     fullname: "Jacob Chang"
     uid: 1114
@@ -61,7 +63,7 @@ users:
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpzvUSQtIeCMfgoi84sIDcvTa1AkzMQeqL+WFCj7iZBZxuoH05zacpYvc44gvbv6h5v2wpBHwCfMd4v4B6xLD5KBZbk3tgNACgznqzTQ9Mgcwul5eAbPTtPq8uNbi1k9P6x7vo/dUpRNw8MQthFTOeq+Xhqx8liBdWyrK2k4gscKTbK5Et9I4rrEHrr7mTPTAQDjRa5xHW7eAyeY668sGJ8S2ivvCbgYJ2NYq1xbkFjXxyzRYbogjNfk2iN0oXgFFrdQU1prqFk7BV6ADqzwiS1640J0vmxOVVDFvTXVBjms/iZlz/nvTK77P06tZ00fmx3bH11gScDdqkIVdmrYNT jchang@i0.internal.sifive.com
   hes:
-    tags: [ cluster, lambda00, fpgatest ]
+    tags: [ cluster, fpgatest ]
     groups: [ compute ]
     fullname: "Henry Styles"
     mail: hes@sifive.com
@@ -109,7 +111,7 @@ users:
     authorized_keys: [ ]
     #  - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEApkjFaSo+v4tETuiBWCIh+ACvE6KgstUVJfkoek8Nv1oWVEZ10EC6Zq1KWPuL4aVpqOzuMjL1jaly5QGjrohnGQF5XsH13kun25GLbW8F1exw0As3BTjVlQf99SHYvu1OP8Ab4c/LyDqzO9SGOBtl/xkaLbZSU8X3JONeCnTGVvYi++QhKlR1+SWfdn3D3bSxRrVSSXcTmM0o1Rb2cdB5U34P3jg/qFZ5OZAK//yKbdqTPWGMvV/wa0K/wFOoLFac/Q/xVv0ymOxR9HYplhLQURBfidIopv/hg5fehE3RedCOul/Ob9nIXWHY2j6WSKcbhdbxLztivUBY+MCCQx0AZw==
   ali:
-    tags: [ cluster, lambda00 ]
+    tags: [ cluster ]
     groups: [ compute ]
     fullname: "Ali Habibi"
     mail: ali@sifive.com
@@ -125,7 +127,7 @@ users:
     uid: 1108
     gid: 1108
     authorized_keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9SDKXJPjt/7wwvjfHfz9WDW7PIOWU4Ivln1qcdBcDOSEOPJqhyz1Z0aq7mZK6KM5Ktt/YpKBAUddvkmK3timiduz5XtUZsQ8Oo5eheZItbv6L1WHu2p7h1xTDE9rDhgOqMmZUbfN17JsSsDfQ38xndNgtrX7Feq3NS0V2fzKG+DAODiIg80t0wQnsSsyPQTDfDwEoOaUa7hiTb2tQlkzrQYuqhkXDgHPNk7mo/AJF9JFA19hxBiucY7iS/G9mVQz7YPslvH9vvW2g2l2ipnhNgau8BeaR+ifcvo2iSiWMdWzbm+tVqNWq+veOJ9bFoWHEgYXFcpBluUy1ucV4fZb5 davidj@DAVIDs-MacBook-Air.local
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0FnwppUdNNUBKQZxUy3xoVrzs7p46EeV0YN78D/p3/78qW/f6EEo9WQCZao8q2zt1hqvDT/AXpYuvvrbbkZC1M8jjhEJctdWbJwAHVhD01skoxjKQGBlUKDtnTspzbVH1VDeKf5k2H5oTSnE8TX/h74pEsDZSRTcCsAaUYzckU3qG4Np0tOakC202plGn29jxM34aKl6pyvKGfVlH2y3d+HH79OcLtMfZu1iFFGoQwzWpCkiCTsqPiNiYnWAJFrFXuNqN9lXWplo2YqaEeH80UWcMHeHAte9Ffc8z6WUY5z4xCaa6OzkO9lmZm1HuyzsPV3bc3COJNMWfjAzcZWUd sifive2
   han:
     tags: [ cluster ]
     groups: [ compute ]
@@ -212,7 +214,7 @@ users:
     shell: /usr/sbin/nologin
     authorized_keys:
   koenig:
-    tags: [ cluster ]
+    tags: [ cluster, lambda00 ]
     groups: [ compute ]
     fullname: "Jack Koenig"
     mail: koenig@sifive.com
@@ -275,7 +277,7 @@ users:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdTsGCildp8/kSMRjzEtow0vQWsH7DcqANd8QPOBuOb316GP3lRc8kOZ9qtnGiVvRuiwvL9hYRAja9ddlanSDXycg61U0VASVHHr2vs1fgtGWdR3QDRMwgxr+muUb7bQWBsvXgO6ywnHJdPMgsJ3KD98Eub8Yv10OWFqULuaGJmYSfigwDAh6dqJLo21j4c3FZjUXOSCYyOEla/J9DJPz71bSYYqTIx5sbGF+kiYa9bAq4noXTfh+LFQ8pL6dzAEJDwkWGRcAIwTpDKEI8i3D9ZGo99A5ESoB+RGEIutkXBItXtPJkdFXbjcG36dNmkoMWpF7EtEI7JgiyKePNlNQn drew@Drews-MacBook-Pro.local
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC1eo86bQudRYDZ3GOFIbeQHsJ0ojLJLmH7LstfVVjXTVQYtoNh9d7Hj+LeCOaVLQt+zLdI2gmetqpjU7GGBslwkLjdHK80y1oH1pfeVjKhEpiz4h3rN/KG8eONmr/ynfh5I3rjV5pqU+vvdZESJuHtCL9x2DYswzEd9mk/qKfjdb6Nz5ToFZSCb91SFFQlXwXudQZLwJIa6EqM/GluytJEsEF0xJT7k6l3Ug/MFf2xUy1ic7abJKxvo6wU87asV1h1ahszjIQC31bpzsN4fE6uGZzInHXUaLRkuNwB2YK0AxPRTkcUrHVOulwfMfTvc4MnouMegoDoMzwftG5WobZNUPgV2KJohmNYDSkKD9no9ijjHwe0bS2Z+vBkuniFD9WfNQ2s9TkNBaYL20YTOOuf/hcFJUtVQ9zIrFx9brOjvCZZGlQk6tQr0qL5OoTjbipID0OOP2GdZhlYXJHLNogA12ZdgFUUTcxmVJR/uQ0QWaAwiHSYZAfuWhyb0QBOBgrPo89pA4YKsFwCxJjIjhiLtn+wbxLW8oMvHUBDho9PWCI75H9X8sfCwqVkKi+EmpPjIGe1ypIMlf7aUrh4mR22Zwo0qSiqWZoO40b3kQTz6MhtmHytYBPBzWHJwPjCllEp9YH2Y9uuq/enUROsRHHPyfDJNCPsOTCZx+/Gz1U1Kw== drew@sifive.com
   ahuntington:
-    tags: [ cluster ]
+    tags: [ cluster, lambda00 ]
     groups: [ compute ]
     fullname: "Albert Huntington"
     mail: ahuntington@sifive.com
@@ -604,12 +606,15 @@ users:
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDel5GwaYM767Hda0HpJNt3EL+5kvGEyj5wd1/2qq1CkmIeASfkPIm9GAgiJLbX/eoHxglqxhiAwFwQiNs5bmwPEoNRsiTkaMVzxWx7FTsTSFBr/R/p+tNQVoqb567KmbReX7aP6FNs/I6bC97CFdFlhPyATZz73iimCz5Ntq2ldQ20U2jmBnLmF6OsLotA3FlVoYPHaslbzXM7WfgISXjf54SSMBFniht1UweGHBSSqs79ImGP+vk8grPYwzax12VraZpUtCjpJR2KWgPwuWGLUJIwCMvxf6a9SyNJpISGLH6KpkVOFppOFHIPkQrAE8BlMZgnizXFoMNOT56UWr/t michaelmay@Michaels-MacBook-Pro.local
   albertc:
-    tags: [ cluster ]
+    tags: [ cluster, lambda00 ]
     groups: [ compute ]
     fullname: "Albert Chen"
     mail: albert.chen@sifive.com
     uid: 1172
     gid: 1172
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDzooSyQD0tVVtih4/hncA5O9a6un/f4skiMzjKac7HImT6jFgyYh+Z8OCJycOR59JjZftRsBOgNqglC1Az7YbowLoyCfaEbnkTNM0GBq5AiwWth5HASMOabPQJqJJYMdNz6rLYP49a7UF+g2835GWcSi+KNF7VpJk/Vpjt0j2juIlhhkYinHrRqytNYqcaXrltky35rvr0CchhBja0zdK31LQfrP4rW4eP7Q25EsReiZkCXlo9eutpc9oIrMiXz+JD8azCv/QKuGaZmlf3evrpnvdmJdGgfAzcvwtnUbLdKgxZ04BRbiStHcESSDXXVW+CRt7CH9L/qmb0gwt4/JHj/KCZhCKCd89t9GZO+NDuO585wUdUCmPAsfOS6WYEqx67UoYJW7PVuXIp35f3rfid50GROnXh+yAV6lNYROvMiw4x3SlEeT5niqbwFaCVNDrS0lC/s2a7kB5QzmZZAWRy8xYI75wDyaShKCH7H0i4dnNqSA9DRmLFO3CLTGvs2Y9oex7f2YfgioisxN1bWt10VMAySlF8sICz3DgwyczYWYoZYyrrEwd34iCEnn69myrYjpbofO6bTdjUzFbF6SusshIx9LwEATRUrAAT5WgHs58y7GoAmSpn/bVumPae1wwBZYqkcevl2qGwrrc/F5KyQJQfbslT+VzxkQ5K0xw9vw== albert.chen@sifive.com
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCa37jV/pZRRJz38UgbVqzonuWSixJAqKe/LL/DTurtku88kdzcbQhzz1j5v6m4o7ixEp0k9pKr0C+sb37kx8Om8sDi2bZCl70ayx9SJPdbLDCJEx062XpDy9MjAhlFUEegJIXUpg9a30Og054qAYMUq+NNrQ6c55PONm7NVPv7A0Z36K9vP7sB6r0NGkKHRFcaJIVAce/WPltEkCjn1lJe7xcaw+v9clf7dy4yVawuGbSUmaoJaHCSUE6qJBylTT5IeetxpBGm8XK6fXN6O+bxBiFvD+FdsaQ+GTw4diXe/KIvFVuRTdObiYvx6HhNX+JnrXQrXyK66xdnnhys9TgX1Ay4bfqON7LjtV3Ty87qFiczI8IeAeYcl/GfKPwnzFoHYCV4hicvO13kj3/08WvL48tKIzx9s520PVLpgthQUFZi33nNRt4cNJr4V3nNS59wYqcW4pzshNGfWrGuPlJBxDHy0JqwVdM/BDvzZyzA+Wz3MD0PjSea4gjUgDJt7/92fg+TKpCu0mOH2BTQRVkslsqrO7SYZ9gnQ1RB19RusrXib8Z0vmLnbk8dy3Qiq5OTHZmLqzNJuEGkiEeXkr60C87RkL70lHfMMRnrSCfC2eFx1LZryVq3ZEP9rWx9H9tDdZcn9tP4XCXn55q1koNEFo+U8u3Eo4zxlpSOzH0kw== albert.chen@sifive.com
   kadep:
     tags: [ cluster ]
     groups: [ compute ]
@@ -632,7 +637,7 @@ users:
     uid: 1175
     gid: 1175
   samh:
-    tags: [ cluster, fpgatest ]
+    tags: [ cluster, fpgatest, lambda00 ]
     groups: [ compute ]
     fullname: "Sam Huffman"
     mail: sam.huffman@sifive.com
@@ -837,12 +842,14 @@ users:
     uid: 1203
     gid: 1203
   aliakseic:
-    tags: [ cluster ]
+    tags: [ cluster, lambda00 ]
     groups: [ compute ]
     fullname: "Aliaksei Chapyzhenka"
     mail: alieksei.chapyzhenka@sifive.com
     uid: 1204
     gid: 1204
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCfds7uPEe8zMwpt/yavllSF0I3EkxkqcN2kCUFAqB9pqUprSgLEvOMPZ1c6plV1d0svXVOUf1/4gon4P03/vHTr/sBNRVXb3udMw0bcxGcC21ASlb1utxrCaaH6dBvHKLdj2rtO5pOl7/0LVEH6I2NTM7IqqoOcsSAtOrgcgpT3BJV7s7n4RbB55LDH1DcRlA1e/SSULw38WeYnWTBVE9clsLd7injLt0k6cjeIt+Bbk86VOIQ9LHimZg5qhqLKvPldSmVLGV+DEOW831BGpoJVMJI0floOAIOqIbYRC/Sdw7oNHT3xI63ooKoPMN3lgFFpEcB0ZHEzBS+6GWc1tqwpvyY5MEmDsVFp2inECfLi24oQ1CtOWg61Vsd+N1S0h9qA0rB/KB5kbtwE3f0o7l/fcFXVCgz0HFuReUBHpI1b5u3Hv3Q9CiwOUGK9GzjTdBnNxRFOUZkLYuxxIZ6dhwexRR+rI8D73C3uASk+9MOkGWZ1CB9zwVyGElumdnLtfd5JpUO7bCcAuoHiEWCv1VHq1opxFMJc6y3WeOtfqfd+UtRIdB1+7c0Y0/YWCxRHTAaXbBNfKKermrd4ZbWvDPrf9EqyKDr9x2r0WgtVS/tDDV8g3J0wBwhaRO+httbpJrPgAC2m1R2rZdS3FdtcIQxgqOAi7hxXvHFegkWQYbyJw== alex.drom@gmail.com
   michaelm:
     tags: [ cluster ]
     groups: [ compute ]
@@ -954,30 +961,37 @@ users:
     gid: 1219
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
-    tags: [ lambda00 ]
+    tags: [ ]
     fullname: "SmartDV User 01"
     uid: 11001
     gid: 11001
     # authorized_keys:
       # - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEApVq+0oSJAKqTqS2U2aCTpJajM4Noaus37bdY0jQIPisItn1IKOQJNb0OWh19JbidcGUyoBc7pEUYddR2wkHqy+6+X907cUVEwIYzuW8Q3BkaowE43Ia3Fnz4cjAILcRWO4FaASqfhQm/L6KLtP5XCv0yGKHw9v578FIZ1cpEi3FbclNe0CCTE9iL9+KRTFSf5DEyRdBEaQtUdnvko3Jb44rrE7p7GEtvRduKqa6e27m1mdrbjbnGlLO7k7pIpFIBWfgUSajSkPOlfHQenBFaqIhNwWlCq0N8D+qUil69zLbKpk+DGq0Ds58hmEMD54wzpsTr8Pa6kIxldNsEkML6bw== pranav@sdvt01-100-161
   sdvt02:
-    tags: [ lambda00 ]
+    tags: [ ]
     fullname: "SmartDV User 02"
     uid: 11002
     gid: 11002
     # authorized_keys:
       # - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAvqJ8aF4g4o5A8bg+GxihcA4eZBovHnCf+LcJMPbMfmTDUFEgaxOATcRF0Qh7da6vp4nrh2UQitI9SyLYvbMmgFMRBrxFT9vvSBqC8Bh6Xp6DQyZAQgI+brdNL8yUhtgpiboTy/q9ZaOYPpJavZK7bbha5pA6u8O6yn9dZ9ofyITbSoEEcZ9XCntkVgqUUifI0UNJtBam2P2OwncRaWZgOX3KtFzeUj7UfkZJX4X6ZbTBNbSbLFQzwbfNpIX7/UGEQs1XRa3rvPQS6Yb28sRtPkxlHuCE+X2cnXdOvOw0XhR3eBqASLwkSqRNcRsxsqdWzGa8NRBgesT8/a8NvWF77w== pranav@sdvt01-100-161
   sdvt03:
-    tags: [ lambda00 ]
+    tags: [  ]
     fullname: "SmartDV User 03"
     uid: 11003
     gid: 11003
     # authorized_keys:
       # - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAudOmu+JpZi2YoSrcBn3+ozZNMEntrGzKkcVjDy6FTrW8/L9j382MNCN4nWR1S5IP7xiXq7T24cDoko/G7yIILuo3nT35WNd3AS759gvzq5DvwdPB9O0Bt91jyyRgoebMX7Pr0YMa8NQBjrclemGzqUMMElcZ6n9z3oyTaroYG6+tiZNbbhf/VQJVzQf5/AR048vltesfstA0STptlgtlrTquMs+9xMTvlUa85QxBHM72ydB+gSaxwKJw4WhqwHm9bwCn5LR5I+VnGFlpngYSmfqdS/sIYZHZMKvp+zL1hV6iXI3uuzLMr00Y8sDVhVhy/a6pAb9AUnvjrovNWrYILQ== pranav@sdvt01-100-161
   sdvt04:
-    tags: [ lambda00 ]
+    tags: [ ]
     fullname: "SmartDV User 04"
     uid: 11004
     gid: 11004
     # authorized_keys:
       # - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA0iegaUYQ9zx4+FWsY5PcIItKN30lAJ9XNRmbns3xXRS4dMVEnJkY7F5eNwefF2qsrX7tLQ8RNK9TBdTJUCpWB4GjSyIBrgjtDjttCqM0pUaIJ7u+xXwFNSsEPsHrSIhGPOvklzy5sS9KPUdHXf8kxzq6zVObPoZ4Fye1EKj6hO8Yd6zo0khwuWDesQ2MxWmk7EWD9EsvXURwvG6ZMfNzG9Drd5Mv3fU4E5LApm2c4Mpz8sRWY0iXuKjACND0m8MiJ75i8eKvuZjDFP/I3C2TCa6JQLPs7t57RZgJqMLZnrMNMqisn1bj15zq4THYhz+VyD4glONNn+5QPBVL3D9f1Q== pranav@sdvt01-100-161
+  hdldh01:
+    tags: [ lambda00 ]
+    fullname: "HDL Design House User 01"
+    uid: 11101
+    gid: 11101
+    authorized_keys:
+      - sh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCp8JNFFJxzbTWBskNHIMUdMcyrdQURzCd6NphcdSp8VErL1dK44PoXwxXV1IJnUDOpv+sBa8el/FN/1Ta8rBWt0qiYyozrD8t0KfSWfGBIlUIUKzrrukUqcru5Ce3xN7hRzNS6ZkVmOp1PK2Uvzg85cNUT74FOACBfPzNHZRiUxJSJ7mt7p/F9UjdXlGcjCbcVZzqVNyUYCPTBLMWK2iUWr/wfoY12Oq0CiZUCEAZlYRu5ttWmJFP0TM7e0z5dmkuripDazBp4gviVSAXCRGY/JVez4KpEs7Ao6TbFbAm497fw7KXrHc79INNXm3u7ttrb0N7iN0W+fswJU/bMFRvB hdldh01@davidj_macbook

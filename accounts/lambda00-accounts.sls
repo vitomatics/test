@@ -7,7 +7,7 @@
 pam:
   access:
     sdv-users: ALL
-    alisub-users: ALL
+    lambda00-users: ALL
 
 {% import_yaml "accounts/allusers.yml" as allusers %}
 {% import_yaml "accounts/allgroups.yml" as allgroups %}
