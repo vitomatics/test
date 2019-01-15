@@ -65,7 +65,7 @@ flexnet:
           absent: true
         mentor-20190107:
           absent: true
-        mentor-20190107:
+        mentor-20190114:
           pillar: site:licenses:mgcld:mentor-20190114
         mentor-20181127:
           pillar: site:licenses:mgcld:mentor-20181127
