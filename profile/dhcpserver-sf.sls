@@ -256,23 +256,23 @@ dhcpd:
     # Lab machines - uer administered
     spec1:
       hardware: ethernet 54:b2:03:0b:cc:87
-      fixed-address: spec1.internal.sifive.com
-      host-name: spec1.internal.sifive.com
+      fixed-address: spec1.lab.internal.sifive.com
+      host-name: spec1.lab.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     spec2:
       hardware: ethernet 54:b2:03:0b:a9:24
-      fixed-address: spec2.internal.sifive.com
-      host-name: spec2.internal.sifive.com
+      fixed-address: spec2.lab.internal.sifive.com
+      host-name: spec2.lab.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     spec3:
       hardware: ethernet 54:b2:03:0b:ba:2f
-      fixed-address: spec3.internal.sifive.com
-      host-name: spec3.internal.sifive.com
+      fixed-address: spec3.lab.internal.sifive.com
+      host-name: spec3.lab.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     spec4:
       hardware: ethernet 54:b2:03:0b:a9:90
-      fixed-address: spec4.internal.sifive.com
-      host-name: spec4.internal.sifive.com
+      fixed-address: spec4.lab.internal.sifive.com
+      host-name: spec4.lab.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     nuc1:
       hardware: ethernet f4:4d:30:61:c2:49
