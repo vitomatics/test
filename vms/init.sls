@@ -6,6 +6,7 @@ include:
   - vms.anakin
   - vms.barnards
   - vms.betel
+  - vms.consul01
   - vms.dalek
   - vms.frogstar
   - vms.gaia
