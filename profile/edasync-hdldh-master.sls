@@ -18,7 +18,7 @@ sfpushdirs:
       - /sifive/tools/synopsys/scl
       - /sifive/tools/synopsys/vcs
       - /sifive/tools/verilator
-      - /sifive/tools/cadence/
+      - /sifive/tools/cadence/xcelium/18.09.004
       - /sifive/tools/sifive/wake
       - /sifive/tools/sifive/wit
       - /sifive/tools/perl/perl
