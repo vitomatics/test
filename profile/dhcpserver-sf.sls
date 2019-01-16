@@ -176,22 +176,18 @@ dhcpd:
       host-name: epsilon13.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     epsilon14:
-      hardware: ethernet 54:b2:03:0b:cc:87
       fixed-address: epsilon14.internal.sifive.com
       host-name: epsilon14.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     epsilon15:
-      hardware: ethernet 54:b2:03:0b:a9:24
       fixed-address: epsilon15.internal.sifive.com
       host-name: epsilon15.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     epsilon16:
-      hardware: ethernet 54:b2:03:0b:ba:2f
       fixed-address: epsilon16.internal.sifive.com
       host-name: epsilon16.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     epsilon17:
-      hardware: ethernet 54:b2:03:0b:a9:90
       fixed-address: epsilon17.internal.sifive.com
       host-name: epsilon17.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
@@ -258,6 +254,26 @@ dhcpd:
 
 
     # Lab machines - uer administered
+    spec1:
+      hardware: ethernet 54:b2:03:0b:cc:87
+      fixed-address: spec1.internal.sifive.com
+      host-name: spec1.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    spec2:
+      hardware: ethernet 54:b2:03:0b:a9:24
+      fixed-address: spec2.internal.sifive.com
+      host-name: spec2.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    spec3:
+      hardware: ethernet 54:b2:03:0b:ba:2f
+      fixed-address: spec3.internal.sifive.com
+      host-name: spec3.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+    spec4:
+      hardware: ethernet 54:b2:03:0b:a9:90
+      fixed-address: spec4.internal.sifive.com
+      host-name: spec4.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
     nuc1:
       hardware: ethernet f4:4d:30:61:c2:49
       fixed-address: nuc1.internal.sifive.com

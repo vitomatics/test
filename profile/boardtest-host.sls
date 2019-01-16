@@ -23,12 +23,8 @@ boardtest:
 
 sudo:
   included:
-    # Add paulw amd troyb to the sudoers file for boardtest troubleshooting
+    # Add paulw to the sudoers file for boardtest troubleshooting
     sifive-paulw:
       userspec:
         - 'paulw':
-          - ALL: '(ALL:ALL) ALL'
-    sifive-troyb:
-      userspec:
-        - 'troyb':
           - ALL: '(ALL:ALL) ALL'
