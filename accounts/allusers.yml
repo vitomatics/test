@@ -960,13 +960,13 @@ users:
     mail: sam.mcclure@sifive.com
     uid: 1219
     gid: 1219
-  truffle:
+  jims:
     tags: [ cluster ]
     groups: [ compute ]
-    fullname: "Truffle"
-    mail: truffle@sifive.com
-    uid: 1220
-    gid: 1220
+    fullname: "Jim Sughrue"
+    mail: jim.sughrue@sifive.com
+    uid: 1221
+    gid: 1221
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
