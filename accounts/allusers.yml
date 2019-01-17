@@ -967,6 +967,13 @@ users:
     mail: jim.sughrue@sifive.com
     uid: 1221
     gid: 1221
+  todd-strata:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Todd Michael Bushnell - Strata"
+    mail: todd@strataconsulting.com 
+    uid: 1222
+    gid: 1222
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
