@@ -7,6 +7,7 @@ include:
   - vms.barnards
   - vms.betel
   - vms.consul01
+  - vms.consul02
   - vms.dalek
   - vms.frogstar
   - vms.gaia

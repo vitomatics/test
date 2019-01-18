@@ -387,13 +387,13 @@ base:
     - subnet.sf-dhcp
     - profile.clusterclient
     - profile.telegraf-host-server
-    - hosts.gravelpit
+    - hosts.consul01
 
   'consul02.internal.sifive.com':
     - subnet.sf-dhcp
     - profile.clusterclient
     - profile.telegraf-host-server
-    - hosts.gravelpit
+    - hosts.consul02
 
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
