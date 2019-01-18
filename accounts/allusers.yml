@@ -363,6 +363,7 @@ users:
     mail: mjc@sifive.com
     uid: 1139
     gid: 1139
+    shell: /usr/sbin/nologin
   depappas:
     tags: [ cluster ]
     groups: [ compute ]
