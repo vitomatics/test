@@ -383,6 +383,18 @@ base:
     - subnet.sf-unix
     - hosts.epsilon23
 
+  'consul01.internal.sifive.com':
+    - subnet.sf-dhcp
+    - profile.clusterclient
+    - profile.telegraf-host-server
+    - hosts.gravelpit
+
+  'consul02.internal.sifive.com':
+    - subnet.sf-dhcp
+    - profile.clusterclient
+    - profile.telegraf-host-server
+    - hosts.gravelpit
+
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
     - profile.clusterclient
