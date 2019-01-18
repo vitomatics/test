@@ -274,13 +274,13 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
-        consul01:
+	consul01:
           subnet: sf-dynamic
           serial: '0'
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
-        consul02:
+	consul02:
           subnet: sf-dynamic
           serial: '0'
           diskname: /dev/vda
