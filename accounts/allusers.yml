@@ -1018,6 +1018,6 @@ users:
     fullname: "HDL Design House User 02"
     uid: 11102
     gid: 11102
-    authorizedikeys:
+    authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDZm1SckmYyE2TvV+VOoiHbWLysF/Ms443wkv2QQvFEcJoThzjY+82p2LcIM8W6eFJcm097hDXGXJgrq5xTgvY/GRrc/S5npeqL2QWl6S1nJqUvevfES9pBtg3j+lezosZT4fy7e/FxxZybquYOHNyCXw9RAreFws+25Ccvl4g9yNGXhTMzaQi8nlDdL/kE+wywtlk7V4zXef5yZVP+f+uq60652bezkf5ik+difQX60U9PERi31Kmq1AUldy8fhgg0oW0arwUbUz6sRu6UGSKT2591+BDKo4iTlTp8M0xUAsEt7Wf/25u4263nszg9iZBmpSut7/qj6zFcpimYs/bNTPDmHYLVuZYPxiRdcBMyZLSRNxnVdxzIvXCPie8OWexE/WjBFzSo1Ol6RARDDNEUFwWDT1QBTxTbLHLnwxr0j/cC52imZ21xJajrmGtLBr1hzEDEdTqVpEEAdDnHgFaCPP8ruhmi/gEdKnc0B3s9W/3Ei+lTmdCViwUWjDMZcflvoOsFE66xfi9kUrhShQ3+Ahj4dxxPh7HidbGGd7NbkJQYAnZ3RdKsp3MzT8Un4bbhLRNw02U+3dDARjqQLoN777VLk4pDR0X7cSzj4UGYHbcY9IOGUqiDTkhSzpVGjxKRC0X7NjVk2aLoe1EVFIKtzr0lPUmmL867Z3jTl2Z4xQ== v-krvavac@hdl-dh.com
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDaEdvm0FBkULIlcKYzUk36tGCpvvAY5KdyJdKg/5Xd+ihmSEacpZBTKcfS/r5tHfAPR58d4j+j/A1iichcnTuKhcQm8a4M/qn6hiHOV80L/WUNQzIrE65t+sN80n36ixFBOV5nu1q+QULleHE3VYO4Yiof7rOHs6YH20q40LtbcEBJewoMh/V4CpN1bRP2P61LePzySKhMX2D9iFwZiWT3QNTfBeyAu/7q9nRvK+wp8fdFaO6GRH/PlGlqhJey7sx88HFFUcbVgfwHnWnKnQUuDJlZrx/BFOU+lJtgFWkQbj3XjtDvlMxsB0qDa03z9E+AX0qHkZagvf/O7FTkJjf7 vito.burggraf@sifive.com
