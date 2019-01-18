@@ -274,7 +274,19 @@ sfpreseed:
           diskname: /dev/sda
           diskmethod: lvm
           disklayout: gamma_disk
-        gravelpit:
+        consul01:
+          subnet: sf-dynamic
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_small_disk
+        consul02:
+          subnet: sf-dynamic
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_small_disk
+	gravelpit:
           subnet: sf-dynamic
           serial: '0'
           diskname: /dev/vda
