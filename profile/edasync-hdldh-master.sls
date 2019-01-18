@@ -27,6 +27,7 @@ sfpushdirs:
       - /sifive/tools/gcc/4.9.4
       - /sifive/tools/clang/clang+llvm-5.0.1-x86_64-linux-gnu-ubuntu-16.04
       - /sifive/tools/clang/clang+llvm-7.0.0-x86_64-linux-gnu-ubuntu-16.04
+      - /sifive/tools/node/11.4.0
       - /work/tools/riscv-tools/b266e97760fbe57feee534941f890d0cde14245a
       - /work/tools/riscv-tools/d4f3490ed2bb54bcc7be7b2a11f764cafce579fb
       - /work/tools/riscv-tools/667215167f1ad358f882979204db55b2a0d928af
