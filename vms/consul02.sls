@@ -15,11 +15,11 @@ sfvirt:
       disks:
         root:
           vdtype: lvm
-          size: 20G
+          size: 15G
           vg: vg_system
         data:
           vdtype: lvm
-          size: 25G
+          size: 15G
           vg: vg_system
       preseed: consul02
       dist: xenial-default
