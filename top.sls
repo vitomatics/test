@@ -390,7 +390,7 @@ base:
     - hosts.consul01
 
   'consul02.internal.sifive.com':
-    - subnet.he-unix02
+    - subnet.sf-dhcp
     - profile.clusterclient
     - profile.telegraf-host-server
     - hosts.consul02
