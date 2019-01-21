@@ -4,7 +4,7 @@ sfvirt:
   vms:
     consul02:
       type: libvirt
-      vmhost: bender.internal.sifive.com
+      vmhost: eddie.internal.sifive.com
       vcpus: 1
       memory: 2048   # In MB
       autostart: off
@@ -19,7 +19,7 @@ sfvirt:
           vg: vg_system
         data:
           vdtype: lvm
-          size: 10G
+          size: 25G
           vg: vg_system
       preseed: consul02
       dist: xenial-default
