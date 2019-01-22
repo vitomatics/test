@@ -224,6 +224,7 @@ pkgs:
     libfuse-dev: true
     re2c: true
     libre2-dev: true
+    nodejs: true
 
     ## windows development
     mingw-w64: true

@@ -870,7 +870,7 @@ users:
     tags: [ cluster, fpgatest, lambda00, syslogin ]
     groups: [ compute ]
     fullname: "Vito Burggraf"
-    mail: virto.burggraf@sifive.com
+    mail: vito.burggraf@sifive.com
     uid: 1207
     gid: 1207
     authorized_keys:
