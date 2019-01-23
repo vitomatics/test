@@ -245,17 +245,6 @@ dhcpd:
       fixed-address: epsilon27.internal.sifive.com
       host-name: epsilon27.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
-    epsilon28:
-      hardware: ethernet 54:b2:03:0b:cb:2e
-      fixed-address: epsilon28.internal.sifive.com
-      host-name: epsilon28.internal.sifive.com
-      next-server: tftpboot.internal.sifive.com
-    epsilon29:
-      hardware: ethernet 54:b2:03:0b:cb:2c
-      fixed-address: epsilon29.internal.sifive.com
-      host-name: epsilon29.internal.sifive.com
-      next-server: tftpboot.internal.sifive.com
-
 
     # Lab machines - uer administered
     spec1:
@@ -422,3 +411,8 @@ dhcpd:
     postsi01:
       hardware: ethernet 94:c6:91:a8:5e:4a
       fixed-address: postsi01.internal.sifive.com
+    tpp03:
+      hardware: ethernet 54:b2:03:0b:cb:2e
+      fixed-address: tpp03.internal.sifive.com
+      host-name: tpp03.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
