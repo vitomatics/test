@@ -362,8 +362,13 @@ epsilon24	54:b2:03:0b:cb:77
 epsilon25	54:b2:03:0b:cc:9b
 epsilon26	54:b2:03:0b:cc:32
 epsilon27	54:b2:03:0b:cb:27
-epsilon28	54:b2:03:0b:cb:2e
-epsilon29	54:b2:03:0b:cb:2c
+
+#UBUNTU NUC
+tpp03           54:b2:03:0b:cb:2e
+#WINDOWS NUC
+tpp02           54:b2:03:0b:cb:2c
+#MAC MINI
+tpp01           a8:60:b6:26:6b:2b
 
 spec1           54:b2:03:0b:cc:87
 spec2           54:b2:03:0b:a9:24
