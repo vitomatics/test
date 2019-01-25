@@ -526,6 +526,13 @@ base:
     - subnet.aws-unix
     - profile.devel
     - profile.clusterclient
+    - profile.slurm-cluster-sifive
+    - profile.slurm-client
+    - profile.slurm-node
+    - profile.jenkins-federation-slave
+    - profile.jenkins-rootuser-access
+    - profile.ganglia-node-compute
+    - profile.telegraf-host-compute 
     - hosts.awstest
 
   'rhtest.internal.sifive.com':

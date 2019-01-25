@@ -66,4 +66,4 @@ slurm:
     mikeyang:
       nodes:
         - 'sandbox'
-
+        - 'awstest'
