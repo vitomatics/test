@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2019012801 ; serial number
+	2019012802 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -429,7 +429,7 @@ asustor1		IN	A	10.16.0.46
 postsi01		IN	A	10.16.0.47
 tpp01                   IN      A       10.16.0.48
 tpp02                   IN      A       10.16.0.49
-tpp03                   IN      A       10.14.4.35
+tpp03                   IN      A       10.16.0.50
 
 hifiveu000		IN	A	10.16.0.50
 hifiveu001		IN	A	10.16.0.51

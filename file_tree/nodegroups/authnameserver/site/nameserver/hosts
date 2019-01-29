@@ -76,7 +76,7 @@
 10.14.4.32 epsilon26		# assigned by DHCP
 10.14.4.33 epsilon27		# assigned by DHCP
 10.14.4.34 epsilon28		# assigned by DHCP
-10.14.4.35 tpp03		# assigned by DHCP
+10.16.0.50 tpp03		# assigned by DHCP
 
 10.14.3.225 pxeclient225
 ...
