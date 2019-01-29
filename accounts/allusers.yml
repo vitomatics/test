@@ -977,7 +977,7 @@ users:
     gid: 1222
     authorized_keys:
     - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC2SGK9UWQBV0wnd4SQvawTpptRNqSQQi8UnP4rTm/gbonLrZKuLZbtmzzhf5EzHqeCWVODR4jU1U418U/6z7OtTWLzkMfU5/3VjM+rKtr5LbUdxkXqJxSrVxeeDD8bltHYm2zLV9r6+Md2u9p+M0CtHQRBMCnHQTy2KQhZMp343xB2dvKhqCwN1ePrOa0xkrPgnY4IbGtFEseecVS5uzfPc+8IHv2p3rmIxY93TtXXX/aRES6BUZqu5l/EwaHwSJ/4dHeKToT1lcmQOMc/EvrjvDAxht74q9bOQCYq12Mz7nEWyuj3BWLQq9bg4g180RP1Ncd+ruFH1N2Ek5iU1+fWFRT36drL281FaWzXJm4dbBWGRSkwWzBAG8NIQbhVZIOmPIRwSvnSimehiXxgUK/VIUNxbvy50c+FtnnaMizxq5PB59O5VFFFQdDrA4eYAFbERm9kqNt4Q2EZ3Hn92orJvh7Tx2nULJl9G65VC0QsEG3ejnWGuquGjgkHdJ6nTH+xtX+lFoQwlwZIN1OKgNF7UZ/3Ia2Sd75G3zj9h/FYw1QR6RIhnRmN4PAcbrTI2t8FQ6Qh91/T2LNuNwOglwO5HPa2qGOOoPvyYKqiwyfR30iuEWyx9IlF85Z125FeBrmjDTeKfg2isZ36Ne+HwD6eYMthx4SgLPwbAtAXJnBWSw== todd@strataconsulting.com
-  eugene-strata:
+  eugen-strata:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Eugen Olteanu"
