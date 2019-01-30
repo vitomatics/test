@@ -535,6 +535,19 @@ base:
     - profile.telegraf-host-compute 
     - hosts.awstest
 
+  'asigma00.internal.sifive.com':
+    - subnet.aws-unix
+    - profile.devel
+    - profile.clusterclient
+    - profile.slurm-cluster-sifive
+    - profile.slurm-client
+    - profile.slurm-node
+    - profile.jenkins-federation-slave
+    - profile.jenkins-rootuser-access
+    - profile.ganglia-node-compute
+    - profile.telegraf-host-compute
+    - hosts.asigma00
+
   'rhtest.internal.sifive.com':
     - subnet.aws-unix
     - profile.localaccounts
