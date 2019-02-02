@@ -10,8 +10,8 @@ flexnet:
   vendors:
     mentor:
       disttype: tgz
-      disturl: http://sfimages.internal.sifive.com/Mentor/mgls/mgls-v11.13.1.2.tar.gz
-      dir: mgls-v11.13.1.2
+      disturl: http://sfimages.internal.sifive.com/Mentor/mgls/mgls-v11.16.0.tar.gz
+      dir: mgls-v11.16.0
     xilinx:
       disttype: zip
       disturl: http://sfimages.internal.sifive.com/Xilinx/flexlm/linux_flexlm_v11.14.1.0.zip
@@ -31,7 +31,7 @@ flexnet:
   daemons:
     mgcld:
       vendor: mentor
-      bindir: mgls-v11.13.1.2/bin
+      bindir: mgls-v11.16.0/bin
       port: 1717
       vport: 1718
       licenses:
