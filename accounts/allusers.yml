@@ -998,6 +998,13 @@ users:
     mail: alex@strataconsulting.com
     uid: 1225
     gid: 1225
+  raep:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Rae Parnmukh"
+    mail: rae.parnmukh@sifive.com
+    uid: 1226
+    gid: 1226
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
