@@ -19,6 +19,8 @@ pkgs:
     tree: true
     zip: true
     unzip: true
+    dos2unix: true
+    tofrodos: true
 
     ## Interactive
     emacs-nox: false
