@@ -20,8 +20,7 @@ pkgs:
     zip: true
     unzip: true
     dos2unix: true
-    tofrodos: true
-
+    
     ## Interactive
     emacs-nox: false
     emacs: true
