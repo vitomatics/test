@@ -70,3 +70,4 @@ slurm:
       nodes:
         - 'sandbox'
         - 'awstest'
+	- 'asigma00'
