@@ -14,8 +14,8 @@ flexnet:
       dir: cadence-flexlm-v11.13.1.3-sifive
     mentor:
       disttype: tgz
-      disturl: http://sfimages.internal.sifive.com/Mentor/mgls/mgls-v11.13.1.2.tar.gz
-      dir: mgls-v11.13.1.2
+      disturl: http://sfimages.internal.sifive.com/Mentor/mgls/mgls-v11.16.0.tar.gz
+      dir: mgls-v11.16.0
     smartdv:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/SmartDV/flexlm/smartdv-flexlm-20170216.tar.gz
@@ -201,7 +201,9 @@ flexnet:
         synopsys-20181204:
           absent: true
         synopsys-20190108:
-          pillar: site:licenses:snpslmd:synopsys-20190108
+          absent: true
+        synopsys-20190205:
+          pillar: site:licenses:snpslmd:synopsys-20190205
         synopsys-temp-20181105:
           pillar: site:licenses:snpslmd:synopsys-temp-20181105
     actlmgrd:
