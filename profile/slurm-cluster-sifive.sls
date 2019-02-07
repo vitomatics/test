@@ -34,6 +34,9 @@ slurm:
     'awstest':
       CPUs: 2
       RealMemory: '4096'
+    'asigma00':
+      CPUs: 2
+      RealMemory: '4096'
     'gamma[00-01]':
       CPUs: '32'
       RealMemory: '250000'
