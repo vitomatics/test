@@ -1005,7 +1005,7 @@ users:
     mail: rae.parnmukh@sifive.com
     uid: 1226
     gid: 1226
- nathanm:
+  nathanm:
     tags: [ cluster ]
     groups: [ compute ]
     fullname: "Nathan Ma"
