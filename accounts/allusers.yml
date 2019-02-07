@@ -1005,6 +1005,13 @@ users:
     mail: rae.parnmukh@sifive.com
     uid: 1226
     gid: 1226
+ nathanm:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Nathan Ma"
+    mail: nathan.ma@sifive.com
+    uid: 1227
+    gid: 1227
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
