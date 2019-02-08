@@ -1012,6 +1012,13 @@ users:
     mail: nathan.ma@sifive.com
     uid: 1227
     gid: 1227
+  tom-strata:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Tom Hua"
+    mail: tom@strataconsulting.com
+    uid: 1228
+    gid: 1228
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
