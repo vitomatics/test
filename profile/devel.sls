@@ -185,8 +185,10 @@ pkgs:
     virtualenvwrapper: true
 
     # OCaml - some of it needed for vmurali using coq
-    oasis: true
-    camlp5: true
+    oasis: false
+    camlp5: false
+    opam: true
+    ocaml: false
 
     # Haskell - requested by gleb
     ghc: true
