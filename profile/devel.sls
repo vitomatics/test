@@ -189,7 +189,8 @@ pkgs:
     camlp5: false
     opam: true
     ocaml: false
-
+    ocaml-interp: false
+    
     # Haskell - requested by gleb
     ghc: true
     cabal-install: true
