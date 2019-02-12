@@ -521,6 +521,13 @@ base:
     - profile.backupclient
     - hosts.jabba
 
+  'licserver3.internal.sifive.com':
+    - subnet.he-unix01
+    - profile.container
+    - profile.licenseserver3
+    - profile.backupclient
+    - hosts.licserver3
+
   'fpgatest.internal.sifive.com':
     - subnet.aws-unix
     - profile.localaccounts

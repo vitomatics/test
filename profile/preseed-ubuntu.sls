@@ -448,6 +448,9 @@ sfpreseed:
         jabba:
           ipaddress: 10.14.16.45
           subnet: he-unix01-static
+        licserver3:
+          ipaddress: 10.14.16.50
+          subnet: he-unix01-static
         alpha:
           ipaddress: 10.14.1.4
           subnet: sf-static
