@@ -1019,6 +1019,13 @@ users:
     mail: tom@strataconsulting.com
     uid: 1228
     gid: 1228
+  davidc:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "David Connelly"
+    mail: david.connelly@sifive.com
+    uid: 1229
+    gid: 1229
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
