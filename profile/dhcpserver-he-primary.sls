@@ -362,7 +362,9 @@ dhcpd:
     sigma14-admin:
       hardware: ethernet ac:1f:6b:0d:8d:c5
       fixed-address: sigma14-admin.internal.sifive.com
-
+    sigma15-admin:
+      hardware: ethernet ac:1f:6b:b6:de:aa
+      fixed-address: sigma15-admin.internal.sifive.com
 
 {% block hosts_extra %}
 {% endblock %}
