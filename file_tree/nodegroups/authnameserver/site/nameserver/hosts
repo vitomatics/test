@@ -39,6 +39,7 @@
 10.14.3.6 gravelpit		# assigned by DHCP, test VM
 10.14.3.7 consul01		# assigned by DHCP
 10.14.3.8 consul02		# assigned by DHCP
+10.14.3.9 poc	                # assigned by DHCP
 # 10.14.3.7 mnuc00		# assigned by DHCP, test host
 # 10.14.3.8 printer01 hp-m553	# assigned by DHCP
 # 10.14.3.9 promptuary 		# assigned by DHCP

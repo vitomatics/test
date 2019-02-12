@@ -395,6 +395,12 @@ base:
     - profile.telegraf-host-server
     - hosts.consul02
 
+  'poc.internal.sifive.com':
+    - subnet.sf-dhcp
+    - profile.clusterclient
+    - profile.telegraf-host-server
+    - hosts.poc
+
   'gravelpit.internal.sifive.com':
     - subnet.sf-dhcp
     - profile.clusterclient

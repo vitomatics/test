@@ -292,6 +292,12 @@ sfpreseed:
           diskname: /dev/vda
           diskmethod: lvm
           disklayout: vm_small_disk
+        poc:
+          subnet: sf-dynamic
+          serial: '0'
+          diskname: /dev/vda
+          diskmethod: lvm
+          disklayout: vm_small_disk
         grid:
           ipaddress: 10.14.16.75
           subnet: he-unix01-static

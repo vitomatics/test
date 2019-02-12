@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2019020401 ; serial number
+	2019021101 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -44,6 +44,7 @@ gravelpit	IN	A	10.14.3.6
 consul01	IN	A	10.14.3.7
 consul02        IN      A       10.14.3.8
 ldaptest	IN	CNAME	gravelpit
+poc		IN	A	10.14.3.9
 
 delta00		IN	A	10.14.4.2
 delta01		IN	A	10.14.4.3
@@ -237,6 +238,11 @@ sigma13			IN	A	10.14.17.77
 s13			IN	CNAME	sigma13
 sigma14			IN	A	10.14.17.78
 s14			IN	CNAME	sigma14
+sigma15                 IN      A       10.14.17.63
+s15                     IN      CNAME   sigma15
+sigma16                 IN      A       10.14.17.62
+s16                     IN      CNAME   sigma16
+
 barnards		IN	A	10.14.17.79
 terminus		IN	A	10.14.17.80
 
@@ -320,6 +326,8 @@ sigma11-admin		IN	A	10.15.17.75
 sigma12-admin		IN	A	10.15.17.76
 sigma13-admin		IN	A	10.15.17.77
 sigma14-admin		IN	A	10.15.17.78
+sigma15-admin           IN      A       10.15.17.79
+sigma16-admin           IN      A       10.15.17.80
 
 router11-ge0-0-6	IN	A	10.15.224.1
 iswitch11-me0		IN	A	10.15.224.128

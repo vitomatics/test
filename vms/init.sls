@@ -8,6 +8,7 @@ include:
   - vms.betel
   - vms.consul01
   - vms.consul02
+  - vms.poc
   - vms.dalek
   - vms.frogstar
   - vms.gaia
