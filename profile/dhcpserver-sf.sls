@@ -90,8 +90,8 @@ dhcpd:
       host-name: consul02.internal.sifive.com
     poc:
       hardware: ethernet 52:54:00:ff:00:0e
-      fixed-address: consul02.internal.sifive.com
-      host-name: consul02.internal.sifive.com
+      fixed-address: poc.internal.sifive.com
+      host-name: poc.internal.sifive.com
     # Regression machines
     delta00:
       hardware: ethernet 94:c6:91:11:4c:d4
