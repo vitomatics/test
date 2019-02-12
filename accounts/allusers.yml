@@ -1026,6 +1026,20 @@ users:
     mail: david.connelly@sifive.com
     uid: 1229
     gid: 1229
+  peterl:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Peter Liao"
+    mail: peter.liao@sifive.com
+    uid: 1230
+    gid: 1230
+  nickk:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Nick Knight"
+    mail: nick.knight@sifive.com
+    uid: 1231
+    gid: 1231
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
