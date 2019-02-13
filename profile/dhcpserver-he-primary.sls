@@ -253,6 +253,12 @@ dhcpd:
       host-name: sigma15.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
       filename: "pxe/fbmenu.ipxe"
+    sigma16:
+      hardware: ethernet 50:6b:4b:6a:32:40
+      fixed-address: sigma16.internal.sifive.com
+      host-name: sigma16.internal.sifive.com
+      next-server: tftpboot.internal.sifive.com
+      filename: "pxe/fbmenu.ipxe"
     sandbox:
       hardware: ethernet 52:54:00:ff:00:03
       fixed-address: sandbox.internal.sifive.com
