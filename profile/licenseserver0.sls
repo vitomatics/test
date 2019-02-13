@@ -1,4 +1,4 @@
-## pillar file for the secondary license server
+## pillar file for the secondary license server - jabba
 
 include:
   - profile.licenseserver
@@ -66,7 +66,9 @@ flexnet:
         mentor-20190107:
           absent: true
         mentor-20190201:
-          pillar: site:licenses:mgcld:mentor-20190201
+          absent: true
+        mentor-20190201:
+          pillar: site:licenses:mgcld:mentor-20190212
         mentor-20190114:
           pillar: site:licenses:mgcld:mentor-20190114
         mentor-20181127:
