@@ -53,12 +53,16 @@ slurm:
       CPUs: '48'
       RealMemory: '376000'
       Feature: sigma
+    'sigma[15-16]':
+      CPUs: '96'
+      RealMemory: '752000'
+      Feature: sigma
   partitions:
     standard:
       Default: yes
       nodes:
         - 'gamma[10-14]'
-        - 'sigma[00-14]'
+        - 'sigma[00-16]'
     quick:
       DefMemPerCPU: 4000
       MaxMemPerCPU: 16000
