@@ -1,4 +1,4 @@
-## pillar file for main sifive license server
+## pillar file for main sifive license server - jabba
 
 include:
   - profile.licenseserver

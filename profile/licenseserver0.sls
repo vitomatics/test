@@ -1,4 +1,4 @@
-## pillar file for the secondary license server
+## pillar file for the secondary license server - jarjar
 
 include:
   - profile.licenseserver
@@ -67,7 +67,7 @@ flexnet:
           absent: true
         mentor-20190201:
           absent: true
-        mentor-20190201:
+        mentor-20190212:
           pillar: site:licenses:mgcld:mentor-20190212
         mentor-20190114:
           pillar: site:licenses:mgcld:mentor-20190114
