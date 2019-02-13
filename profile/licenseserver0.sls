@@ -20,6 +20,10 @@ flexnet:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/Intel/Altera/flexlm/flexlm-18.0.0.219.tar.gz
       dir: flexlm-18.0.0.219
+    ansys:
+      disttype: tgz
+      disturl: http://sfimages.internal.sifive.com/Ansys/apacheda/ansys.tar.gz
+      dir: apacheda
     breker:
       disttype: tgz
       disturl: http://sfimages.internal.sifive.com/Breker/flexlm/breker-flexlm-20180905.tar.gz
