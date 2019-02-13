@@ -1,4 +1,4 @@
-## pillar file for the secondary license server - jabba
+## pillar file for the secondary license server
 
 include:
   - profile.licenseserver
