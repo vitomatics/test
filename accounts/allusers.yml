@@ -1040,6 +1040,13 @@ users:
     mail: nick.knight@sifive.com
     uid: 1231
     gid: 1231
+  amolakn:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Amolak Nagi"
+    mail: amolak.nagi@sifive.com
+    uid: 1232
+    gid: 1232
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
