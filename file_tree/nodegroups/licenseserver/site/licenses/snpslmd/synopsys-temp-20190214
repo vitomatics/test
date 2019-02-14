@@ -1,0 +1,130 @@
+#Date: 02/14/2019
+#SNPS ID: PRD
+#                                                                        SYNOPSYS INC. KEY CERTIFICATE
+#                                                                        Site ID: 43569
+#                                                                        SiFive Inc. (in-Sync)
+#                                                                        1875 S Grant St Ste 600
+#                                                                        San Mateo
+#                                                                        CA 94402-7013
+#                                                                        US
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
+#
+#If you feel that keys are missing (or incorrect), please contact your Synopsys account manager.
+#
+#License keys will be transmitted in clear text, over public and private networks. Synopsys does not warrant or guarantee that these networks provide privacy and accepts no liability of
+#any kind if a third party intercepts the transmission.
+#
+#Synopsys products are export controlled. It is the responsibility of the addressee to comply with U.S. Export Regulations where applicable.
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Server Config: 0000298458
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#For Synopsys licensing setup and installation help, go to http://www.synopsys.com/licensing
+#
+#IMPORTANT: Starting December 10, 2018, Synopsys license files will be enabled with Tamper Resistant Licensing (TRL) functionality. TRL-format license files
+#require SCL version 2018.06 or higher.
+#
+#For further details, go to http://www.synopsys.com/licensing/trl
+#
+#For product download instructions and help, go to https://solvnet.synopsys.com/efthelp
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Synopsys License file created by CVDKIF 5.4 on February 14, 2019 at 14:20:15 for daemon snpslmd
+SERVER hostname1 0002C94E201F 27020
+VENDOR snpslmd /path/to/snpslmd
+USE_SERVER
+INCREMENT SSST snpslmd 1.0 16-Mar-2019 1 FEFE122E42E7B7FD4E5A \
+        VENDOR_STRING="831a8 78f5d fa9ed 67b6c 1868d b5e7b bd7b6 c1868 db5e7 bbd11 \
+        01020 093ee 1ca42 1a6e8 99dd0 e2174 249fd fb005 47ead f3c12 \
+        4b02d d2c7d 9b285 8c86a a4ded c60cc 368b9 2092c e8308 70007 \
+        5f2b2 ab6eb 732e9 d0175 a3465 8ba1b c9a9c d78e4 746db 8e418 \
+        14161 e141a acce2 17a8f 2f204 54344 9b307 4b7fd 1c119 4bd59 \
+        b9209 6483c 392f9 eb29c eb7e7 a53c5 9d6b7 5ba1c 7d613 249ed \
+        b2d35 b039e 0d3fe da904 224b9 9a8b3 e5b00 de684 ce92b ec5a7 \
+        eb2d1 4f6ae d29b9 41b6c ecdc6 55595 d7f81 ea024 54991 a855b \
+        a650b 87536 86f9b e2df0 b6e03 4e940 65e35 8b9c8 371e1 6bc28 \
+        4651d 28746 1c07f f4997 a8dc4 87488 d339a f9e81 c03d9 27659 \
+        bdb59 ed4b1 f074f 28013 c0e64 0fed6 f10e6 5bd16 30f8d 54073 \
+        43a8f 78088 9fb7e cdf" \
+        NOTICE="Licensed to SiFive Inc. (in-Sync) [DO NOT DELETE/MODIFY SSST \
+        OR ANY OTHER KEYS IN THIS FILE]" \
+        SN=TK:0:0:625652 ISSUER="Synopsys, Inc. [2/14/2019 14:20:15 43569 5.4]" \
+        START=14-Feb-2019 \
+        SIGN="0D76 FD6D 1377 8776 7573 928D 21AC D6FA 8C6D A9C0 351A C724 \
+        29C9 D69D 49F6 0F3B 0642 FB21 5E8B 2E03 DCB5 8ED7 8B62 4514 \
+        9CAB 9B94 BAD1 F4D9 9AA9 7280"
+INCREMENT PA.XRThost snpslmd 2018.09 16-mar-2019 2 ISSUED=14-feb-2019 \
+        ck=66 SN=TK:D701-0:525013:625652 START=14-feb-2019 AUTH={ \
+        snpslmd=( LK=0E7E429E30FF2373B510 SIGN="10E3 C758 3C23 6910 \
+        B670 9608 4C48 6601 E256 0B4E 6ED0 982D 8CE8 3E20 4F0D 1957 \
+        D29D 95D5 0E5C 6159 15E6 7A31 E151 84AC 9A9A 13CD 7C8E ED75 \
+        7567 48F1") }
+INCREMENT PA.primary snpslmd 2018.09 16-mar-2019 2 ISSUED=14-feb-2019 \
+        ck=124 SN=TK:D701-0:525013:625652 START=14-feb-2019 AUTH={ \
+        snpslmd=( LK=0E7E521ED4F9B6D5B819 SIGN="1D8F 4254 AC48 8ED1 \
+        F923 4034 61B9 F2AD 3EB3 D55B CFC0 E622 CDA1 D8F8 E82B 11D2 \
+        180C 589A A4FE 0B0E 1D6A 37D1 0E93 114C 9696 EE40 B7EB FEA1 \
+        D61C BB67") }
+INCREMENT PA.simulation snpslmd 2018.09 16-mar-2019 2 \
+        ISSUED=14-feb-2019 ck=99 SN=TK:D701-0:525013:625652 \
+        START=14-feb-2019 AUTH={ snpslmd=( LK=9E3E42AEA54ED0E31B26 \
+        SIGN="0C29 AC41 2111 89D6 C076 03DB 495E 79A6 09DE C529 28F7 \
+        ADC2 94D8 D1D0 9236 04F0 2AA5 FBA0 B24D 1DFA F4E8 1307 B26E \
+        36AF 8648 BC54 7E02 8F28 C787 E206") }
+INCREMENT PA.token snpslmd 2018.09 16-mar-2019 6 ISSUED=14-feb-2019 \
+        ck=182 SN=TK:D701-0:525013:625652 START=14-feb-2019 AUTH={ \
+        snpslmd=( LK=BE4EF29E6D9A979F79CD SIGN="1799 D93E A7E7 636E \
+        43AF 81C6 D28D 52E7 8637 1A40 E82F DD2A 4413 ED17 93D0 104A \
+        CFC3 03CF 4921 90D7 3EE1 7676 1B06 F883 41D8 D3FD 4216 0A62 \
+        6696 0205") }
+INCREMENT PA.ultraLCA snpslmd 2018.09 16-mar-2019 2 \
+        ISSUED=14-feb-2019 ck=103 SN=TK:D701-0:525013:625652 \
+        START=14-feb-2019 AUTH={ snpslmd=( LK=EEFE524E85F648996D87 \
+        SIGN="0C93 C76A 57C5 959D 5069 EFDB 892C 42F3 EABE 2085 0A5F \
+        D802 C756 6BF0 2EF1 14E7 6B20 C56C 8A0B 19E7 44E3 091A 4522 \
+        F783 DB4E 5499 0368 FC6D 0478 C7F8") }
+INCREMENT PAXRT.primary snpslmd 2018.09 16-mar-2019 20 \
+        ISSUED=14-feb-2019 ck=103 SN=TK:D701-0:525013:625652 \
+        START=14-feb-2019 AUTH={ snpslmd=( LK=8E2EC29E70DEDE953CA9 \
+        SIGN="1FB1 D498 6D9A 0C71 214C A7AA AD4B 2080 B997 59C2 EC23 \
+        8246 3177 87AE C027 1556 8342 A19C 20E0 1494 1972 1874 51EE \
+        F893 6C68 E879 9892 51E2 029B BAD6") }
+INCREMENT PAXRT.simulation snpslmd 2018.09 16-mar-2019 20 \
+        ISSUED=14-feb-2019 ck=230 SN=TK:D701-0:525013:625652 \
+        START=14-feb-2019 AUTH={ snpslmd=( LK=5E4E627E7E7102070FA9 \
+        SIGN="118E 4E4B 3E4E 5D98 6CB3 CF20 F771 8974 6CE4 39A0 7E05 \
+        3AE1 C48A 0345 AE14 0247 970B FEB5 FB73 E892 9D1D 13EE 18CE \
+        40E5 8877 8A3E 0461 BCAA ACD6 765A") }
+INCREMENT PAXRT.token snpslmd 2018.09 16-mar-2019 60 \
+        ISSUED=14-feb-2019 ck=134 SN=TK:D701-0:525013:625652 \
+        START=14-feb-2019 AUTH={ snpslmd=( LK=AEFED28EEAFA77D5B728 \
+        SIGN="1A93 CD03 C013 27C9 2FC0 4631 692C 1248 7E8A C605 4C4D \
+        2EF5 96F2 833E A28E 05F0 3D2C 02C3 C6EA 8544 B696 55DC CC01 \
+        098C 60C3 3D23 3F35 05DE 339B E570") }
+INCREMENT VAUTH.primary snpslmd 2018.09 16-mar-2019 2 \
+        ISSUED=14-feb-2019 ck=47 SN=TK:9156-0:525013:625652 \
+        START=14-feb-2019 AUTH={ snpslmd=( LK=CEFE82EE41B41671E41C \
+        SIGN="15E5 9BD6 50DF E32B 0EA9 FD57 4314 D2EB 73EB 1B24 5A21 \
+        B622 6B7B 39DB 163D 0A63 E2C1 2BDB D494 7B6A 2D9A FB77 5AD1 \
+        B4CA 4F96 4BA8 C015 038E D848 718A") }
+INCREMENT VAUTH.simulation snpslmd 2018.09 16-mar-2019 2 \
+        ISSUED=14-feb-2019 ck=83 SN=TK:9156-0:525013:625652 \
+        START=14-feb-2019 AUTH={ snpslmd=( LK=EE8ED29E69B4F67C1BD3 \
+        SIGN="08E7 0BE6 FFE1 40DE F335 283E 0E88 B713 BC4D 1F24 C113 \
+        98C2 0BB0 B0D4 21C1 14F5 D8F0 BAF0 1865 9A21 AF11 B871 2D65 \
+        F9D6 A384 1532 096A D0E6 C809 4AA2") }
+INCREMENT pa_ftxtor_xp snpslmd 2018.09 16-mar-2019 2 \
+        ISSUED=14-feb-2019 ck=138 SN=TK:D703-0:525013:625652 \
+        START=14-feb-2019 AUTH={ snpslmd=( LK=5EDE82EECC5FC2496ACC \
+        SIGN="0892 CEB6 060C AEAC 787E 6649 5C8F 1689 96BE 32A0 8986 \
+        A33A 724B 47C6 D113 1534 9551 6365 EA25 0C51 D525 E29A 2AA3 \
+        E98E C0D0 954C 710B 793A 07A0 7B3E") }
+INCREMENT paxrt_ftxtor_xp snpslmd 2018.09 16-mar-2019 20 \
+        ISSUED=14-feb-2019 ck=127 SN=TK:D703-0:525013:625652 \
+        START=14-feb-2019 AUTH={ snpslmd=( LK=2E8EA2CE566B5E613FAF \
+        SIGN="1A6B 1A36 97C6 ABD1 0B27 3059 4F15 214A BA9D BA3D 3909 \
+        60D6 24C5 3044 7E89 1539 61A9 C996 0975 C71C 0B5A 3E65 5F09 \
+        DE59 A704 9B5F D2D7 7102 9B84 9C27") }
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
