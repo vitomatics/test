@@ -56,4 +56,4 @@ groups:
   lambda00-users:
     tags: [ lambda00 ]
     gid: 19005
-    addusers: [ davidj, koenig, ahuntington, mikeyang, jonstern, mikemay, samh, vitob, albertc, terpstra, aliakseic, hdldh01, hdldh02, hdldh03, hdldh04, hdldh05 ]
+    addusers: [ davidj, koenig, ahuntington, mikeyang, jonstern, mikemay, samh, vitob, albertc, terpstra, aliakseic, hdldh01, hdldh02, hdldh03, hdldh04, hdldh05, hdldh06, hdldh07 ]
