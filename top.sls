@@ -523,6 +523,7 @@ base:
 
   'licserver3.internal.sifive.com':
     - subnet.he-unix01
+    - profile.licenseserver3
     - hosts.licserver3
 
   'fpgatest.internal.sifive.com':
