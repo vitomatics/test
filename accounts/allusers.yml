@@ -1056,6 +1056,15 @@ users:
     gid: 1233
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbW7txKj3sIjwka6DeCRlRrPOd6/TcEPduoqgihqQ1kfXkrPW+bPFGF8H4vagDeoeHVtjAzADW0U/fxZSHXxDlScCFsd9oGW6QGgcRlvVY6Cv8o6s0FG42Ogp0Mjh/b0cDTgvOs6Wf0ye56fVAhoI+dT2UZVZL4gKlGLwHSGuuoj9jvTrQg8AOzPevDkb+sgRy7CAk5CscILd6m0bv37+k6M4R+JtgLZaniUtP21Ovw4l2t8f+JCok5lOTN2RTrNbj0yeM/jzOR+76DvkUtVnoskp6mC+ydnissAebN01RlvDgm0/8PDi2r+M0mZvVEwWMdREGBUtlav3ia+gh64IF evanli@evanli-System-Product-Name
+  hanc:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Han Kuan Chen"
+    mail: hankuan.chen@sifive.com
+    uid: 1234
+    gid: 1234
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDOpnnTQBFcWjkWr4BHsW0K73qvSL37fo3x+zji+ghF4LKcL5Lnn8GXIkozCx4P1QJe5kx9x3wgTZyWDhvu6rJjGW1itNOn9DT3LxNHPTHcCvQJp0z9gC0oU2KEdAf6kqsrJNx1lwaW9sdAVB5/505ipZdP5Q8MsIDNPW+PQ7958YEG9SzrWff+9KSpeKXff3UMZyCE28hmGno+GdliWWEGg3zsuRBD4iQ1DxvtjbrvaBkCdD1bvDyki1Iw8aKkV6FJO4q4nBUXDTUM+RR0ho485XoogmwLgDvCkbHXshC1cNFZAmt/grX/K9e72KhICfN1Shd5NmLX5lUj9AnIBZjN caesar@DESKTOP-RHG9H5D
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
