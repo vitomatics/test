@@ -1047,6 +1047,15 @@ users:
     mail: amolak.nagi@sifive.com
     uid: 1232
     gid: 1232
+  evanl:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Evan Li"
+    mail: evan.li@sifive.com
+    uid: 1233
+    gid: 1233
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDbW7txKj3sIjwka6DeCRlRrPOd6/TcEPduoqgihqQ1kfXkrPW+bPFGF8H4vagDeoeHVtjAzADW0U/fxZSHXxDlScCFsd9oGW6QGgcRlvVY6Cv8o6s0FG42Ogp0Mjh/b0cDTgvOs6Wf0ye56fVAhoI+dT2UZVZL4gKlGLwHSGuuoj9jvTrQg8AOzPevDkb+sgRy7CAk5CscILd6m0bv37+k6M4R+JtgLZaniUtP21Ovw4l2t8f+JCok5lOTN2RTrNbj0yeM/jzOR+76DvkUtVnoskp6mC+ydnissAebN01RlvDgm0/8PDi2r+M0mZvVEwWMdREGBUtlav3ia+gh64IF evanli@evanli-System-Product-Name
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
