@@ -1065,6 +1065,15 @@ users:
     gid: 1234
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDOpnnTQBFcWjkWr4BHsW0K73qvSL37fo3x+zji+ghF4LKcL5Lnn8GXIkozCx4P1QJe5kx9x3wgTZyWDhvu6rJjGW1itNOn9DT3LxNHPTHcCvQJp0z9gC0oU2KEdAf6kqsrJNx1lwaW9sdAVB5/505ipZdP5Q8MsIDNPW+PQ7958YEG9SzrWff+9KSpeKXff3UMZyCE28hmGno+GdliWWEGg3zsuRBD4iQ1DxvtjbrvaBkCdD1bvDyki1Iw8aKkV6FJO4q4nBUXDTUM+RR0ho485XoogmwLgDvCkbHXshC1cNFZAmt/grX/K9e72KhICfN1Shd5NmLX5lUj9AnIBZjN caesar@DESKTOP-RHG9H5D
+  hankuanc:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Han Kuan Chen"
+    mail: hankuan.chen@sifive.com
+    uid: 1235
+    gid: 1235
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDOpnnTQBFcWjkWr4BHsW0K73qvSL37fo3x+zji+ghF4LKcL5Lnn8GXIkozCx4P1QJe5kx9x3wgTZyWDhvu6rJjGW1itNOn9DT3LxNHPTHcCvQJp0z9gC0oU2KEdAf6kqsrJNx1lwaW9sdAVB5/505ipZdP5Q8MsIDNPW+PQ7958YEG9SzrWff+9KSpeKXff3UMZyCE28hmGno+GdliWWEGg3zsuRBD4iQ1DxvtjbrvaBkCdD1bvDyki1Iw8aKkV6FJO4q4nBUXDTUM+RR0ho485XoogmwLgDvCkbHXshC1cNFZAmt/grX/K9e72KhICfN1Shd5NmLX5lUj9AnIBZjN caesar@DESKTOP-RHG9H5D
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
