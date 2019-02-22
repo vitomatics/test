@@ -1,0 +1,148 @@
+#Date: 02/22/2019
+#SNPS ID: PRD
+#                                                                        SYNOPSYS INC. KEY CERTIFICATE
+#                                                                        Site ID: 35908
+#                                                                        SiFive, Inc.
+#                                                                        1875 South Grant Street, Suite 600
+#                                                                        San Mateo
+#                                                                        CA 94402-7013
+#                                                                        US
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
+#
+#If you feel that keys are missing (or incorrect), please contact your Synopsys account manager.
+#
+#License keys will be transmitted in clear text, over public and private networks. Synopsys does not warrant or guarantee that these networks provide privacy and accepts no liability of
+#any kind if a third party intercepts the transmission.
+#
+#Synopsys products are export controlled. It is the responsibility of the addressee to comply with U.S. Export Regulations where applicable.
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Server Config: 0000295821
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#For Synopsys licensing setup and installation help, go to http://www.synopsys.com/licensing
+#
+#IMPORTANT: Starting December 10, 2018, Synopsys license files will be enabled with Tamper Resistant Licensing (TRL) functionality. TRL-format license files
+#require SCL version 2018.06 or higher.
+#
+#For further details, go to http://www.synopsys.com/licensing/trl
+#
+#For product download instructions and help, go to https://solvnet.synopsys.com/efthelp
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Synopsys License file created by CVDKIF 5.4 on February 22, 2019 at 09:37:09 for daemon snpslmd
+SERVER hostname1 525400FF0015 27020
+VENDOR snpslmd /path/to/snpslmd
+USE_SERVER
+INCREMENT SSST snpslmd 1.0 08-Mar-2019 1 2E0E1366941150320C1D \
+        VENDOR_STRING="e0198 4f524 e1f22 9b44a e9fa3 d8d3c 55b44 ae9fa 3d8d3 c5511 \
+        01020 04cc0 0e1d4 52430 453c5 c48c1 936c8 a34ca dbc50 5afd1 \
+        7b575 88ecd ff403 5247e d953b 11255 d10f6 a4768 e827e b09f0 \
+        7e295 16319 f621d 7c3ac 9f0b2 8fe39 cbbe0 f33c5 8c4a3 410e1 \
+        06f61 f3fbb 69a47 d085a 06ad8 97b9c edf56 09934 47b1c 7a226 \
+        22723 b136c 85789 10a03 30e04 ac555 b0085 f7517 e0067 63f0c \
+        1cda0 5a146 6c569 eefd7 2905f c133c f4876 d96b5 aea49 52412 \
+        33136 3b367 1e12e f4065 5d504 fa15a e613b d1f39 7bb71 feffe \
+        399bd c4cbb ff2e9 72d30 33422 ae49a 9e6fd 8e961 9f08a 081e7 \
+        7a2fa 6e41c e83f6 5713d 7d71b dc3a0 39c77 cdde3 f8fe2 c649f \
+        ca79a 95a53 804d5 119cc dcef1 c2216 f9d82 3e765 f38f8 1b9bd \
+        cfc44 5ab55 3632c 250" \
+        NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
+        KEYS IN THIS FILE]" \
+        SN=TK:0:0:284533 ISSUER="Synopsys, Inc. [2/22/2019 9:37:09 35908 5.4]" \
+        START=22-Feb-2019 \
+        SIGN="1DBF 6656 282D 73A8 C79A 0D34 8209 63A9 6FB6 8EF9 3DC6 7825 \
+        1363 A0A3 2722 0CAC 9B8A 0BFB A767 5860 1130 BA2B 1A3C FFF5 \
+        D0E1 4D74 5F39 7DD4 EBBC 7767"
+INCREMENT Galaxy-AdvCTS snpslmd 2018.06 08-mar-2019 2 \
+        ISSUED=22-feb-2019 ck=110 SN=TK:8961-0:525898:284533 \
+        START=22-feb-2019 AUTH={ snpslmd=( LK=5ECE73064687CD9190F5 \
+        SIGN="1E68 FBA8 0C90 CD76 B1DA 4520 4565 0B5A 2B5F E804 1D3F \
+        30D3 7907 8EE8 7034 0E93 CAD7 6329 7946 D733 98AE 66C4 4F35 \
+        CF06 E745 D0DB B008 E4A0 D9A7 41FC") }
+INCREMENT Galaxy-AdvRules snpslmd 2018.06 08-mar-2019 2 \
+        ISSUED=22-feb-2019 ck=125 SN=TK:8961-0:525898:284533 \
+        START=22-feb-2019 AUTH={ snpslmd=( LK=8E2EB3A6EEFE6DBED7EC \
+        SIGN="1DF4 A9EF 9B8F FCC4 A4C7 CEF5 3755 35B5 2CAC FEA0 950B \
+        2746 08A6 6938 B3BC 04E1 7CEB AEDF DAE1 6A14 BBDA 8D31 021D \
+        116E 36B5 7A23 0AEC 5ED6 2BA3 7D8E") }
+INCREMENT Galaxy-AdvTech snpslmd 2018.06 08-mar-2019 2 \
+        ISSUED=22-feb-2019 ck=55 SN=TK:8961-0:525898:284533 \
+        START=22-feb-2019 AUTH={ snpslmd=( LK=DECE331687C51507B73F \
+        SIGN="1524 1BC8 9560 E95F 7594 CA67 280C F818 F984 116B 789F \
+        3B93 4A1F 65AB 3BFE 051C 358D 5102 70E4 3B76 EFA4 E59F C66E \
+        3588 F479 0BBE 8946 B819 A0ED 8C4D") }
+INCREMENT Galaxy-Common snpslmd 2018.06 08-mar-2019 10 \
+        ISSUED=22-feb-2019 ck=56 SN=TK:8961-0:525898:284533 \
+        START=22-feb-2019 AUTH={ snpslmd=( LK=5E3E13863B483FDD82F7 \
+        SIGN="1DA7 87C8 C11D B996 931C 0CE4 8401 41C7 5BC0 C02C 6937 \
+        8834 C0C3 FFE7 7367 14AA 807C 7684 F258 CDA9 C5C1 2B87 3303 \
+        3467 210E B649 A747 12B5 32AB B830") }
+INCREMENT Galaxy-DFT snpslmd 2018.06 08-mar-2019 2 ISSUED=22-feb-2019 \
+        ck=29 SN=TK:8961-0:525898:284533 START=22-feb-2019 AUTH={ \
+        snpslmd=( LK=6E6E23160931D40EA0E4 SIGN="018F 06A7 EF9E 6FC8 \
+        C3B2 96DB 585D F071 EA35 287A 8E9C FE4A DAD2 1D2F C4C9 083B \
+        EED2 9525 ADB8 3EF8 3590 DD64 1FA3 482A 4BDC 59A1 BBDA 9468 \
+        6FB5 C5CD") }
+INCREMENT Galaxy-DFY snpslmd 2018.06 08-mar-2019 2 ISSUED=22-feb-2019 \
+        ck=77 SN=TK:8961-0:525898:284533 START=22-feb-2019 AUTH={ \
+        snpslmd=( LK=9EEEB376FB483FFFF463 SIGN="159D ACF6 3BD2 EBF5 \
+        EE2C BCF4 78B1 D553 2CD4 30E4 7328 2477 338B 2AC0 29EC 1B19 \
+        D71D 6384 F5B6 3C0D A6FD CE5D 880C E9BD B291 EEA5 FEFB 4321 \
+        5CAD B08C") }
+INCREMENT Galaxy-FP snpslmd 2018.06 08-mar-2019 2 ISSUED=22-feb-2019 \
+        ck=21 SN=TK:8961-0:525898:284533 START=22-feb-2019 AUTH={ \
+        snpslmd=( LK=FE6E1346411E63A4B137 SIGN="0579 2136 FB59 0926 \
+        32C4 931F 20B0 F09D FD02 782E D99E 9FBB 3CAB 7E6A 533B 058F \
+        ABAE 89C5 AFA5 C8C1 1DFF D7E5 362D EE58 B283 732A FBB6 7F42 \
+        9D38 51D7") }
+INCREMENT Galaxy-ICC snpslmd 2018.06 08-mar-2019 10 \
+        ISSUED=22-feb-2019 ck=33 SN=TK:8961-0:525898:284533 \
+        START=22-feb-2019 AUTH={ snpslmd=( LK=0EEE53768633D26996DA \
+        SIGN="0613 E583 30C5 F165 9A2B 1729 8F17 B42B 5CF2 07DB 0DC1 \
+        7BC1 7F24 00F5 6CDB 057E 3F2A 6821 7A70 06BD EACC D75D 8BF6 \
+        FF7C 5FE2 3DB6 E09B FE91 0032 15B1") }
+INCREMENT Galaxy-IU snpslmd 2018.06 08-mar-2019 2 ISSUED=22-feb-2019 \
+        ck=99 SN=TK:8961-0:525898:284533 START=22-feb-2019 AUTH={ \
+        snpslmd=( LK=BEBEE3A64963AF8CC4C4 SIGN="187C 435C 1BB3 C7E8 \
+        322F 688A E971 00F7 9269 87DB CF2F 5273 198D D279 CFAE 139B \
+        AF15 5AB9 E3C6 7250 65E5 27F2 C463 C08A 8EE2 5DED D03E 9969 \
+        89EA 7076") }
+INCREMENT Galaxy-MV snpslmd 2018.06 08-mar-2019 2 ISSUED=22-feb-2019 \
+        ck=126 SN=TK:8961-0:525898:284533 START=22-feb-2019 AUTH={ \
+        snpslmd=( LK=8E7ED3F6B0BB469B08AE SIGN="0EE9 52C5 109C A834 \
+        DF57 4DB5 B6A2 A014 7405 F315 CE45 1DE6 163A 70C8 0521 0940 \
+        0DBB 5BB9 2F21 1593 990C 080E 3072 6BB2 992D 3242 767E EE18 \
+        5C8A 5F3D") }
+INCREMENT Galaxy-PNR snpslmd 2018.06 08-mar-2019 2 ISSUED=22-feb-2019 \
+        ck=40 SN=TK:8961-0:525898:284533 START=22-feb-2019 AUTH={ \
+        snpslmd=( LK=3E1E3306E8BAF5A03C90 SIGN="1F9C F277 DF08 D807 \
+        7F3A E712 23D7 F1D7 1DCC 5590 CA71 EC22 F751 51D7 22F2 07E8 \
+        C588 4335 D737 FFF8 D9A4 A7DF 8013 BE61 491B 09D2 AF9B 4377 \
+        D58C 0FD9") }
+INCREMENT Galaxy-PSYN snpslmd 2018.06 08-mar-2019 2 \
+        ISSUED=22-feb-2019 ck=24 SN=TK:8961-0:525898:284533 \
+        START=22-feb-2019 AUTH={ snpslmd=( LK=0EDE63D6827B4C6BA658 \
+        SIGN="0289 F9C6 B8D7 5DB1 A42A CE25 225B 3F1A 10E5 7EE5 E45D \
+        0098 044C 412E 2617 1840 6722 E92D 2F16 569A 4BD6 F39E A7B3 \
+        3897 C80B 0B64 CEBB 1332 44DB E809") }
+INCREMENT Galaxy-Power snpslmd 2018.06 08-mar-2019 2 \
+        ISSUED=22-feb-2019 ck=100 SN=TK:8961-0:525898:284533 \
+        START=22-feb-2019 AUTH={ snpslmd=( LK=4E5E03B6476FDEE35FE2 \
+        SIGN="1AF3 BD7D 5B75 8D94 B172 B3BA C329 1663 5753 B637 577F \
+        4B8F DB06 0D46 26DF 1973 1905 7B34 3B34 7E29 56BD 3625 FCCF \
+        C0C4 B6AB 9BF7 94D9 7EF4 FA17 E738") }
+INCREMENT Galaxy-Prototype snpslmd 2018.06 08-mar-2019 2 \
+        ISSUED=22-feb-2019 ck=43 SN=TK:8961-0:525898:284533 \
+        START=22-feb-2019 AUTH={ snpslmd=( LK=6E7E33E615DC1301861E \
+        SIGN="1A8D A406 9F5C 2DF4 FF69 9E0C 077A C4F9 BD7D 78AD C71C \
+        8355 D354 3667 7B6D 10B6 8215 1C30 DFAE 6EB1 88D8 A5DE F621 \
+        0C31 55B9 5D09 FB25 8A33 3D79 DA3E") }
+INCREMENT Milkyway-Interface snpslmd 2018.06 08-mar-2019 10 \
+        ISSUED=22-feb-2019 ck=131 SN=TK:8961-0:525898:284533 \
+        START=22-feb-2019 AUTH={ snpslmd=( LK=CEFEC3C67881831CDDB4 \
+        SIGN="0C0B E90E 50EE E9CB 8F0E 28E2 E343 9D3F 751F 4EA3 8945 \
+        717C 7C60 D852 AE51 0E3C 8417 28E3 8D5B 4D83 FE5F C6C6 BE30 \
+        2988 DDF9 6BF1 A639 A0D0 20FE C1DF") }
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
