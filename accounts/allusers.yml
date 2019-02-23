@@ -335,6 +335,7 @@ users:
     mail: bipul@sifive.com
     uid: 1135
     gid: 1135
+    shell: /usr/sbin/nologin
   davidlee:
     tags: [ cluster ]
     groups: [ compute ]
