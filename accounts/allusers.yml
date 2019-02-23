@@ -897,6 +897,7 @@ users:
     mail: david.elsen@sifive.com
     uid: 1210
     gid: 1210
+    shell: /usr/sbin/nologin
   sjadhav:
     tags: [ cluster ]
     groups: [ compute ]
