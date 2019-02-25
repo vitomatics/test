@@ -91,6 +91,7 @@ pkgs:
     gnuplot: true
     xpdf: true
     mc: true
+    upx-ucl: true
 
     # git send-email support for Wes
     git-email: true
