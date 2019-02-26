@@ -5,7 +5,7 @@
 $TTL	3600
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.sifive.com. (
-	2017080701	; serial number
+	2019022201	; serial number
 	6h      	; refresh
 	15m      	; retry
 	1w     		; expiry
@@ -27,6 +27,7 @@ he-login2.sifive.com	IN	A	10.14.16.73
 he2.sifive.com		IN	A	10.14.16.73
 x2go.sifive.com		IN	A	10.14.16.73
 login2.sifive.com	IN	A	10.14.16.73
+login4.sifive.com	IN	A	10.14.16.63
 
 he-login3.sifive.com	IN	A	10.14.16.77
 he3.sifive.com		IN	A	10.14.16.77
