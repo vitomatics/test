@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2019022601 ; serial number
+	2019022701 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -137,7 +137,6 @@ hog			IN	CNAME	heartofgold
 tardis			IN	A	10.14.16.49
 licserver3		IN	A	10.14.16.50
 
-login4			IN	A	10.14.16.63
 gamma00			IN	A	10.14.16.64
 g00			IN	CNAME	gamma00
 gamma01			IN	A	10.14.16.65

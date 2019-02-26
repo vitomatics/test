@@ -87,7 +87,6 @@ $TTL	86400
 49.16	IN	PTR	tardis.internal.sifive.com.
 50.16	IN	PTR	licserver3.internal.sifive.com.
 
-63.16	IN	PTR	login4.internal.sifive.com.
 64.16	IN	PTR	gamma00.internal.sifive.com.
 65.16	IN	PTR	gamma01.internal.sifive.com.
 66.16	IN	PTR	gamma02.internal.sifive.com.
