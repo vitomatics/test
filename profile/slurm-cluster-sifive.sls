@@ -73,7 +73,7 @@ slurm:
     test:
       nodes:
         - 'sandbox'
-    mikeyang:
+    slurmtest:
       nodes:
         - 'sandbox'
         - 'awstest'
