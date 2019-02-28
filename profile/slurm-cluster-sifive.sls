@@ -32,29 +32,43 @@ slurm:
       CPUs: 2
       RealMemory: '4096'
     'awstest':
-      CPUs: 2
+      Sockets: '1'
+      CoresPerSocket: '2'
+      ThreadsPerCore: '2'
       RealMemory: '4096'
     'asigma00':
-      CPUs: '32' 
+      Sockets: '1'
+      CoresPerSocket: '16'
+      ThreadsPerCore: '1'
       RealMemory: '125000'
     'gamma[00-01]':
-      CPUs: '32'
+      Sockets: '2'
+      CoresPerSocket: '8'
+      ThreadsPerCore: '2'
       RealMemory: '250000'
       Feature: gamma
     'gamma[02-07,10-14]':
-      CPUs: '32'
+      Sockets: '2'
+      CoresPerSocket: '8'
+      ThreadsPerCore: '2'
       RealMemory: '125000'
       Feature: gamma
     'sigma[00-09]':
-      CPUs: '48'
+      Sockets: '2'
+      CoresPerSocket: '12'
+      ThreadsPerCore: '2'
       RealMemory: '188000'
       Feature: sigma
     'sigma[10-14]':
-      CPUs: '48'
+      Sockets: '2'
+      CoresPerSocket: '12'
+      ThreadsPerCore: '2'
       RealMemory: '376000'
       Feature: sigma
     'sigma[15-16]':
-      CPUs: '96'
+      Sockets: '2'
+      CoresPerSocket: '24'
+      ThreadsPerCore: '2'
       RealMemory: '752000'
       Feature: sigma
   partitions:
@@ -73,7 +87,7 @@ slurm:
     test:
       nodes:
         - 'sandbox'
-    mikeyang:
+    slurmtest:
       nodes:
         - 'sandbox'
         - 'awstest'
