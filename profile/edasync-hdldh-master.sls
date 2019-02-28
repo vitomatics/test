@@ -32,3 +32,4 @@ sfpushdirs:
       - /work/tools/riscv-tools/d4f3490ed2bb54bcc7be7b2a11f764cafce579fb
       - /work/tools/riscv-tools/667215167f1ad358f882979204db55b2a0d928af
       - /sifive/sip/plda/pcie/20190122
+      - /sifive/sip/plda/pcie/20190211
