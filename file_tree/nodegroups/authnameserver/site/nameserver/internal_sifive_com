@@ -252,8 +252,7 @@ rhtest			IN	A	10.14.129.4
 
 fpgatest		IN	A	10.14.134.124
 
-asigma00		IN	A	10.14.142.157
-alpha00			IN	CNAME	asigma00
+theta00			IN	A	10.14.142.157
 
 router03-ge0-0-2	IN	A	10.15.0.1
 

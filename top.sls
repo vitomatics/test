@@ -546,7 +546,7 @@ base:
     - profile.telegraf-host-compute 
     - hosts.awstest
 
-  'asigma00.internal.sifive.com':
+  'theta00.internal.sifive.com':
     - subnet.aws-unix
     - profile.devel
     - profile.clusterclient
@@ -557,7 +557,7 @@ base:
     - profile.jenkins-rootuser-access
     - profile.ganglia-node-compute
     - profile.telegraf-host-compute
-    - hosts.asigma00
+    - hosts.theta00
 
   'rhtest.internal.sifive.com':
     - subnet.aws-unix

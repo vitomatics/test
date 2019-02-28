@@ -36,7 +36,7 @@ slurm:
       CoresPerSocket: '2'
       ThreadsPerCore: '2'
       RealMemory: '4096'
-    'asigma00':
+    'theta00':
       Sockets: '1'
       CoresPerSocket: '16'
       ThreadsPerCore: '1'
@@ -91,4 +91,4 @@ slurm:
       nodes:
         - 'sandbox'
         - 'awstest'
-        - 'asigma00'
+        - 'theta00'
