@@ -7,7 +7,7 @@ $ORIGIN	14.10.in-addr.arpa.
 $TTL	86400
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2019022201 ; serial number
+	2019030101 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
