@@ -156,3 +156,4 @@ $TTL	86400
 124.134	IN	PTR	fpgatest.internal.sifive.com.
 
 157.142 IN	PTR	theta00.internal.sifive.com.
+40.128	IN	PTR	omega2.internal.sifive.com.
