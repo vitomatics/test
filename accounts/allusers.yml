@@ -1076,6 +1076,78 @@ users:
     gid: 1235
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDOpnnTQBFcWjkWr4BHsW0K73qvSL37fo3x+zji+ghF4LKcL5Lnn8GXIkozCx4P1QJe5kx9x3wgTZyWDhvu6rJjGW1itNOn9DT3LxNHPTHcCvQJp0z9gC0oU2KEdAf6kqsrJNx1lwaW9sdAVB5/505ipZdP5Q8MsIDNPW+PQ7958YEG9SzrWff+9KSpeKXff3UMZyCE28hmGno+GdliWWEGg3zsuRBD4iQ1DxvtjbrvaBkCdD1bvDyki1Iw8aKkV6FJO4q4nBUXDTUM+RR0ho485XoogmwLgDvCkbHXshC1cNFZAmt/grX/K9e72KhICfN1Shd5NmLX5lUj9AnIBZjN caesar@DESKTOP-RHG9H5D
+  shihpoh:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "ShihPo Hung"
+    mail: shihpo.hung@sifive.com
+    uid: 1236
+    gid: 1236
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDYhHKjguvhqzqF6qaG+vfdvx5Qh1mzEHJQJd5THzjcKATLIgxOOpU6dOybw8VJrEtwg2PTq/TYC5MgVVXwcJq+2Yy8mu6mxtK6sN/WQxxX5YtzRuVr90yMyuPfA9LP0zflFeoJA+FSBY61W/xwY6l2B85IS1HjpdxBvb24IvptSQS3RIqUePU1X+n93HqN+gJvTJXDW2qv3D0rUZHAesBJJrQ36YeRbIYVcvZ7mSFVOkBsIidIprPbm67A5vEvpQGk8Cud1J2BXmu9WTgB1YKWZ03nxzKQXK/9I0MbADhLxtDJn9tT6gNBnei42npkADqTVU+NWE39GALjXDKzIS4r shihpo.hung@sifive.com
+  chihminc:
+    tags: [ cluster ]
+    groups: [ compute ] 
+    fullname: "Chih-Min Chao"
+    mail: chihmin.chao@sifive.com
+    uid: 1237
+    gid: 1237
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAxmoOmx5+60+O81FHih46hQ7l5tYZQ86NLQaobeLdAaLHS3vyPwzJdBiVx05Ctc8xn9EtO/PATE3Kn3DjomUfn7sNx/ivtnoNcFSkqZjZ04t02WhdwvFckCVbhlFXAMOwzJwX3TEvhRvsS5iCjC+o8aWUgVzqHllVulV+YV5k9CeiUYpKHSVzbb4/GyaD7o0/owx83ailU8/M9tQ0cv8d9F6rif4/V6rrq3TMVQXkGm/C5NNvDWObtvjkg/X7HAl6/wb+Y8xyfDSs8pDHx3y4eR3l1mWEd3/fWRnOEmYC/B7B68wtI5PkkjLae/GYeoCWPLEhJOfRxVrMKI+UorMPQw== cmchao@softpapa
+  davew:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Dave Wen"
+    mail: dave.wen@sifive.com
+    uid: 1238
+    gid: 1238
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3tBUu4Vp3ifOMH+Bhfcb0hBF8dyo94EsXU2fn2azsssmVQfTei4NsPbOWDH9UMZMKP8S/f9PjLgj9MUjqlV3sbROv9+dnYNsvPNznHbB2mmMgM+Fn79GwuU/4E/WnerY1hBe3HxSZBeiIzZjRleiNZlH8N1YaTCjwD+wrTfXqRRq4UOvxEmnZ+fM9lsBP9k/dSdggEa4Jbi9jj5VFJ3RAJl1y+32DTF0VcFJ5om7uTsHGJli5GOgSLLKQ+gg4l+d6PejDKLHQjbF6Xm16hwtu+ZrJq97X7mMhBFt9omv5Gq3H6seVXGqKNRW4AcjPBBwCTkoply+kj9muBMUP60Vz dave.wen@sifive.com
+  hsiangchiah:
+    tags: [ cluster ]
+    groups: [ compute ] 
+    fullname: "Hsiang-Chia Huang"
+    mail: hsiangchia.huang@sifive.com
+    uid: 1239
+    gid: 1239
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDrhebi0tCgdruTGpGdrAkvLRkxgfK5RdTQwiCjncYdHfb8ZAe+6g3jKGagBEEmjwLRUeZNHeiENKiN18bPVIB7+UDj828fqOiYV/gm8cBKFoURQcwBtk9lihSBTS0jW+e2ob3Y+yGGfH92NreYzr2GNhEFQNp5gLyF6So0+g7ThcKh6gYjxBD3GVxgKoxfHcrbL21Kyl/7Ydvg7umIMPbs8G3hcUCIkKMuZbbOZ15uIPEsaxU/rW47pGWRH6FUohg9O+uhIqh8R63ygO6V4BT3qeCc5vMNN9cKeb4+mKnTiEe/5XfZmdkY5p9LYAY/UQBbCz1zAWj0L4n+xp7RpUah reclusejack@Huangteki-MBP
+  fangpeit:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Fang-Pei Tsai"
+    mail: fangpei.tsai@sifive.com
+    uid: 1240
+    gid: 1240
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCwVdfU3A/9bRHe3fkvx8ibFrrw3MnALc7+LTU/V3hHIb9TlAVA9/g+DDCCh64Y8Y8sk/eAkdnu8XvxuJLgeUxWJFrysG6Vt12MlngBNnYYxaudtc5CyuqI0C8bUsch0J3nXaBCPbA/ilNrRN7yNLhkXEYrepjemNfil9CXSiCB4oDv+7yDDfb7zSQna1VSFhuy8gYyuLF4sp/16w+fDcftrsW3rzNnvKQsBc3Q+yJvh/y8cfK+XhHgSwzgSuFc/X87YEg5OLey+ULK3R2InExzfDQEYTlKvcT9rqqrHVGsy1uUaQegbEjY68MWHgV2impivT5eZCRZok4xQ3y1KNSsXjPPYtXLpEeE9YJw3EcpdsLb3P7MO6RRTvDofAza834X3K47OEl4o6TFZKL9PcH7QtGK9wYw1W0bSZTG3Gvcl1ruhgkJTP2zguDpmAc/ATyzZeRo86kVwFBiOJPqdWCts89Yz3zdctHCl7occUaypycNLedfJTyrDyHKfjIRRahJFLYzfh2sKXv9G5Qu3dgSWc9KS/8Dd97kZlrmGVNIEd1JxRSVpxRybTydUXrlq9QPGEUJPwqUyKVR1cC64XaIs5KguOUXdfwMSosivpDlwjxcDyjtYol0Z9IpkLRWZokN/fNeXQJ6W6r1+x0iz9yJNqQ5o/s5mDQuhzGPvjpBGQ== fptsai-2018
+  chenchil:
+    tags: [ cluster ] 
+    groups: [ compute ]
+    fullname: "Chen-Chi Lo"
+    mail: chenchi.lo@sifive.com
+    uid: 1241
+    gid: 1241
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSd3oKjJPTKe/rR6lPA1fYTaD/neFJJmlDeD3Wc3BG64ez/J5z3hWlkROqJpKPk8QNYOZki4mqFNHupiA395MNnFfnCjzIyeCosmK0MWX3Vch5/rcUNHwdRfAs1nm2A7W2O7Lg0D9jSA2viHpkehrpLnj3bxfn//syBH2DdTsx3iCQWXwfMuQhtGTpJGTEeKkjq3i7yZSx6WSzKWpjThVUeZU1B8PelrLq0RHcEOxKCEPGx3IbkvSSe/kBP3rZm8yGDQv+PqCR/lAVNvTf2nTyv3jv4+JMAJ980praD4gpCx7F+5/SRAgAyAy8Qu14ZCdJlV4IBi2FhQxZHwPX9Bol
+  zakkc:
+    tags: [ cluster ]
+    groups: [ compute ]  
+    fullname: "Zakk Chen"
+    mail: zakk.chen@sifive.com
+    uid: 1242
+    gid: 1242
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDFdqmqjmlHaI3Qvo0KOjTpOcPyMxekBYiWw/MW8lmzlIrX9QuD59WHfVg2pFoefIhElVGStGiXajM7MXPw+jlE52ZePDaHZR0qJ1uqEtWoPgfnktwhgeKeO5DKwOXlDi3tlQ1ggPpw+Rzq9mDrXAdT8hp61yNLg5A6Dd2SwvFe3btRFsgNyRV+YNhxP9vqeDPDU3JIysjnhqz5gVmQdiJ5b0FBcDWswLxwrKj8faUWIQqWuy3iotUxDFXBfdIc7CmzKksLQPubInLC8Y0uzvNBhbAwUSvonwMT8lRIABIJf18KKMS9iLqdSkiHrrsSCLR0PO4NZ5c4L3b/HPXP4Xl77e36SLFI/JKzWSqm3ZGF1prSJcyhMaSF7UVqDKyO8jHfE6pPNp+j8vf+qPOn9qn4z/doW0DCvcz3sKSnM2wsTN2ndVtKP3GSvJvyISbxnIrGgB7hwVS0NgzBGOiBBHhFy3FjKTqyzvXAhpszgnlpmYcAPjzSKcrkXRWhOepd7Irg94h5O4omblLoL2I6QFcH/GURSOGsgp1da6Yf/83ouna/8IMaVJwpRDvwCeC0h2lJapiJdPlY8/LG29bZ4t6WvAHQaAiThIthIZyEu7uoMYQw6FVMp5b9D3ZTQRCfXi1D9DnwG/bd1LgGmUK+B/JcPIixqmKcqiBwm2axNpmF6Q== zakk.chen@sifive.com
+  yihsiuh:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Yi-Hsiu Hsu"
+    mail: yihsiu.hsu@sifive.com
+    uid: 1243
+    gid: 1243
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDo0d/tmg8NmZn1zi1MRqfdx2TqM/MDzWj8bsDmi7Ude2huk1t+jArJjRxPNvzPw4j1BFI2gSiHR1ZhefhqlmyHFmQxEPzogzAd8VaeHJUZAJSCSs7U1q4FfcbdKdbWBoLeIav5WRTozlVhYnRT49HmneAqX8z/XDYl26tWtU7GKjHdKl+dW3Aj2geubeNu7lOFOWZVrj6kgFf3c76p71nUDkR27DGKw40y2YU+zlQvDq6AfZ+KpXxmHo1DAC19xAjTkXIpT26ilWuDTeBluyrG3jGPg+FGJqU1UimDQmrSrXPLyroaB2xjtrwIYV1v6ACGWoJaONA7mex+GHOf6PIf issuehsu@sifive.com
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
