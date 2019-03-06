@@ -1148,6 +1148,15 @@ users:
     gid: 1243
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDo0d/tmg8NmZn1zi1MRqfdx2TqM/MDzWj8bsDmi7Ude2huk1t+jArJjRxPNvzPw4j1BFI2gSiHR1ZhefhqlmyHFmQxEPzogzAd8VaeHJUZAJSCSs7U1q4FfcbdKdbWBoLeIav5WRTozlVhYnRT49HmneAqX8z/XDYl26tWtU7GKjHdKl+dW3Aj2geubeNu7lOFOWZVrj6kgFf3c76p71nUDkR27DGKw40y2YU+zlQvDq6AfZ+KpXxmHo1DAC19xAjTkXIpT26ilWuDTeBluyrG3jGPg+FGJqU1UimDQmrSrXPLyroaB2xjtrwIYV1v6ACGWoJaONA7mex+GHOf6PIf issuehsu@sifive.com
+  cliffordw:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Clifford Wolf"
+    mail: clifford.wolf@sifive.com
+    uid: 1244
+    gid: 1244
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDASxuW/DUahfGWUPPRFCsbKUIQlOUXtlduvISAuroDROJMW4qT0zMZ/h3db9crzUn3AE/TVRvbpLHdAaCUISZRpwUnEzERpsmVuD7xrujPQpSNEj6WGDMVB2riP1EsL+PvZyFB94qCGXau74KQltRvIDq4enVgjjmqtl3JtvqN8IohFdnqGnzRVQXyeoiD8KkfVKW5Q/vJHulq5dw7faFUzDo6+FQavY5flMpZAouDi+IgyI0kIVqdYwaQ81HKuyBx9ipyKVzQ/8eemxD+icVeGVSuRMzwgQCFqZhbdn9ElqFFq16lgKSARD41apHyWiYgBGh+ucPIKJE049YPViLr clifford@euler
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
