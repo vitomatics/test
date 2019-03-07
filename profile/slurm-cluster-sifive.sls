@@ -84,11 +84,10 @@ slurm:
       AllowQos: interactive,m2m,nightly,pr,weekly,tapeout
       nodes:
         - 'sandbox'
-    test:
-      nodes:
-        - 'sandbox'
     slurmtest:
       nodes:
         - 'sandbox'
         - 'awstest'
+    cloud:
+      nodes:
         - 'theta00'
