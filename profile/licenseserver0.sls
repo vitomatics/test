@@ -39,8 +39,6 @@ flexnet:
       port: 1717
       vport: 1718
       licenses:
-        mentor-20170725:
-          absent: true
         mentor-20170817:
           absent: true
         mentor-20170823:
