@@ -1157,6 +1157,13 @@ users:
     gid: 1244
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDASxuW/DUahfGWUPPRFCsbKUIQlOUXtlduvISAuroDROJMW4qT0zMZ/h3db9crzUn3AE/TVRvbpLHdAaCUISZRpwUnEzERpsmVuD7xrujPQpSNEj6WGDMVB2riP1EsL+PvZyFB94qCGXau74KQltRvIDq4enVgjjmqtl3JtvqN8IohFdnqGnzRVQXyeoiD8KkfVKW5Q/vJHulq5dw7faFUzDo6+FQavY5flMpZAouDi+IgyI0kIVqdYwaQ81HKuyBx9ipyKVzQ/8eemxD+icVeGVSuRMzwgQCFqZhbdn9ElqFFq16lgKSARD41apHyWiYgBGh+ucPIKJE049YPViLr clifford@euler
+  hannahl:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Hannah Leung"
+    mail: hannah.leung@sifive.com
+    uid: 1245
+    gid: 1245
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
