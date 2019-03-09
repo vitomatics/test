@@ -47,10 +47,14 @@ flexnet:
           absent: true
         mentor-20190222:
           absent: true
+        mentor-20190307:
+          absent: true
         mentor-20190212:
           pillar: site:licenses:mgcld:mentor-20190212
-        mentor-20190307:
-          pillar: site:licenses:mgcld:mentor-20190307
+        mentor-20190309:
+          pillar: site:licenses:mgcld:mentor-20190309
+        mentor-temp-20190309:
+          pillar: site:licenses:mgcld:mentor-temp-20190309
     xilinxd:
       vendor: xilinx
       bindir: linux_flexlm_v11.14.1.0/lnx64.o
