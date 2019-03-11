@@ -1164,6 +1164,13 @@ users:
     mail: hannah.leung@sifive.com
     uid: 1245
     gid: 1245
+  randya:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Randy Allen"
+    mail: randy.allen@sifive.com
+    uid: 1246
+    gid: 1246
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
