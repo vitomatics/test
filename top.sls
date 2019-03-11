@@ -190,6 +190,10 @@ base:
     - profile.telegraf-host-server
     - hosts.sec01
 
+  'vpn01.internal.sifive.com':
+    - subnet.aws-unix
+    - hosts.vpn01
+
   'heartofgold.internal.sifive.com':
     - subnet.he-unix01
     - secret.sfdump-heartofgold
