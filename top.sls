@@ -401,6 +401,10 @@ base:
     - subnet.sf-unix
     - hosts.epsilon23
 
+  'epsilon24.internal.sifive.com':
+    - subnet.sf-unix
+    - hosts.epsilon24
+
   'consul01.internal.sifive.com':
     - subnet.sf-dhcp
     - profile.clusterclient
