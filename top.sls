@@ -401,9 +401,9 @@ base:
     - subnet.sf-unix
     - hosts.epsilon23
 
-  'epsilon24.internal.sifive.com':
+  'centos7.internal.sifive.com':
     - subnet.sf-unix
-    - hosts.epsilon24
+    - hosts.centos7
 
   'consul01.internal.sifive.com':
     - subnet.sf-dhcp
