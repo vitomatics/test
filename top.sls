@@ -185,6 +185,11 @@ base:
     - profile.telegraf-disk-zfs
     - hosts.omega2
 
+  'sec01.internal.sifive.com':
+    - subnet.aws-unix
+    - profile.telegraf-host-server
+    - hosts.sec01
+
   'heartofgold.internal.sifive.com':
     - subnet.he-unix01
     - secret.sfdump-heartofgold
