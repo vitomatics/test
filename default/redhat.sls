@@ -7,7 +7,7 @@ states:
 #  pam.sss: true
 #  pam.pwquality: true
 #  pam.mkhomedir: true
-  nsswitch: true
+#  nsswitch: true
 
 pkgs:
   list:
