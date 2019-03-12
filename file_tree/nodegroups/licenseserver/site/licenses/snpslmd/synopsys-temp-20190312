@@ -1,0 +1,64 @@
+#Date: 03/12/2019
+#SNPS ID: PRD
+#                                                                        SYNOPSYS INC. KEY CERTIFICATE
+#                                                                        Site ID: 35908
+#                                                                        SiFive, Inc.
+#                                                                        1875 South Grant Street, Suite 600
+#                                                                        San Mateo
+#                                                                        CA 94402-7013
+#                                                                        US
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Use of the license keys provided herewith is governed by your Synopsys End User Software License Agreement, including any applicable supplements and addenda thereto.
+#
+#If you feel that keys are missing (or incorrect), please contact your Synopsys account manager.
+#
+#License keys will be transmitted in clear text, over public and private networks. Synopsys does not warrant or guarantee that these networks provide privacy and accepts no liability of
+#any kind if a third party intercepts the transmission.
+#
+#Synopsys products are export controlled. It is the responsibility of the addressee to comply with U.S. Export Regulations where applicable.
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Server Config: 0000269223
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#For Synopsys licensing setup and installation help, go to http://www.synopsys.com/licensing
+#
+#IMPORTANT: Starting December 10, 2018, Synopsys license files will be enabled with Tamper Resistant Licensing (TRL) functionality. TRL-format license files
+#require SCL version 2018.06 or higher.
+#
+#For further details, go to http://www.synopsys.com/licensing/trl
+#
+#For product download instructions and help, go to https://solvnet.synopsys.com/efthelp
+#
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Synopsys License file created by CVDKIF 5.4 on March 12, 2019 at 13:19:48 for daemon snpslmd
+SERVER hostname1 0002C94E201E 27020
+VENDOR snpslmd /path/to/snpslmd
+USE_SERVER
+INCREMENT SSST snpslmd 1.0 22-Mar-2019 1 BE5E14FCCC3428A36F94 \
+        VENDOR_STRING="4f546 e5353 e863a 927b3 0725e 2c615 4927b 30725 e2c61 54911 \
+        01020 085fa e8ac2 0e75f 76bfa f525d 3c444 278ee 6a01f 17a6a \
+        8dd21 41865 b7c52 573fd 941e0 b813c 2585f f343e 9ff78 cf2cb \
+        c356a a26f7 ca266 a35e0 cf477 9298b 4a2d7 cf60b e8da6 f3179 \
+        8006d 4ffa9 b7c79 213f0 e6b1e 8040c eb50f 4bb6c 85daa a9616 \
+        e663d a8b5b e0aef a9ff6 b428d 8bead fea07 74ac1 423af b1ebd \
+        860e5 679cb 7abb7 414f3 e8261 dd088 4a227 897d1 2bf88 77e50 \
+        8d51b f28d8 c1b52 d4902 4206f 8f700 e195d acc5b 456a9 5dd8e \
+        b9370 7bfd1 a9d72 c4b86 eb563 35a74 4c227 bfa9c 450bb 66936 \
+        af233 1fb58 217a9 67ece 8cefe a5ca7 880c0 1ef96 11169 62166 \
+        215c5 62453 83b14 52221 43114 26308 d8bb4 566d9 0aa47 8f3f1 \
+        a5efc 6a5f5 64ffb 42d" \
+        NOTICE="Licensed to SiFive, Inc. [DO NOT DELETE/MODIFY SSST OR ANY OTHER \
+        KEYS IN THIS FILE]" \
+        SN=TK:0:0:332603 ISSUER="Synopsys, Inc. [3/12/2019 13:19:48 35908 5.4]" \
+        START=12-Mar-2019 \
+        SIGN="08E8 C421 AF07 DA11 A4CC 2023 B0CC A330 F94B 65FE D3FD 095F \
+        D208 615E B610 1B76 C2FC E7E0 7B8B ADAE 1D7F BAC9 C41E F46E \
+        752C 1A21 93A6 2485 6F3D 7608"
+INCREMENT VIP-PCIE-G4-SVT snpslmd 2019.03 22-mar-2019 4 \
+        ISSUED=12-mar-2019 ck=49 SN=TK:B111-0:527915:332603 \
+        START=12-mar-2019 AUTH={ snpslmd=( LK=DE4EC44C8325315D25FE \
+        SIGN="1A7F 3F3F 9B0D A4CE CD15 DA33 07E7 4BF1 D885 B973 1122 \
+        93FF E1C9 2F3E EF42 0B41 FAE5 05B0 BAB6 736E 3293 761C 2EED \
+        6236 09A3 C9DE 1101 B8E5 993C 6957") }
+#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

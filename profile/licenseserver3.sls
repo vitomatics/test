@@ -23,6 +23,8 @@ flexnet:
       licenses:
         synospsys-temp-20190214:
           pillar: site:licenses:snpslmd:synopsys-temp-20190214
+        synospsys-temp-20190312:
+          pillar: site:licenses:snpslmd:synopsys-temp-20190312
 
 ## Firewall holes for flexnet server
 firewall:
