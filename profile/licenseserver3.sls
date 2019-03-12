@@ -21,9 +21,9 @@ flexnet:
       vport: 27001
       env: SCL_POOL_VS=1
       licenses:
-        synospsys-temp-20190214:
+        synopsys-temp-20190214:
           pillar: site:licenses:snpslmd:synopsys-temp-20190214
-        synospsys-temp-20190312:
+        synopsys-temp-20190312:
           pillar: site:licenses:snpslmd:synopsys-temp-20190312
 
 ## Firewall holes for flexnet server
