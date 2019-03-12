@@ -229,10 +229,10 @@ dhcpd:
       fixed-address: epsilon23.internal.sifive.com
       host-name: epsilon23.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
-    epsilon24:
+    centos7:
       hardware: ethernet 54:b2:03:0b:cb:77
-      fixed-address: epsilon24.internal.sifive.com
-      host-name: epsilon24.internal.sifive.com
+      fixed-address: centos7.internal.sifive.com
+      host-name: centos7.internal.sifive.com
       next-server: tftpboot.internal.sifive.com
     epsilon25:
       hardware: ethernet 54:b2:03:0b:cc:9b
