@@ -44,9 +44,6 @@ pkgs:
     lftp: true
     repo: true
 
-    ## For Troy
-    uuid-dev: true
-
     ## Miscellaneous
     finger: true
     parallel: true
@@ -110,7 +107,6 @@ pkgs:
     
 
     ## Building riscv-tools
-    uuid-dev: true
     build-essential: true
     autoconf: true
     automake: true
