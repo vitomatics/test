@@ -1180,6 +1180,15 @@ users:
     gid: 1247
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAij5wsOUGGSOUMXJErOoJLUgthpj0O1DZHP7Gg5FbLgwBAGDyBgfJLN6ITKakk2BO0UZtj6RI1w/f+NYHFX9FPpVq3B4GQApjURmNMMo4Hf/Eewk8hR3sYHuX5q/+POQYH8BC7L+hErTB9UA47bTu+xGq0NjnRLrtsE7MGNp9xV4NwJ053X3cdJdRV4Sk55ACYnbVoMfr3bzk/dviFmXVQ862yU3ErO/bs4vv+Vu/9XyPp2x4xAwudeeDC+DSHmMY0bG7L4++hLTjI/g7hmroSt+9IO0A8IjIx0NHFPz4jD9Y9FYOJXdSlfJkliFS46Mn2SScTSetrDHKdz3BnaZCIw==
+  sagark:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Sagar Kadam"
+    mail: sagar.kadam@sifive.com
+    uid: 1248
+    gid: 1248
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAt3IIm4y1iuzvKCXA0ZxiPZ91H7bkNYeq019KIqfY3wCfTkQoUHl9ca9lcoHfbLz0njPe7ZUQDq6dL6iEFdgcsm/F2cG4Zu+g5sLSZ0OoHQGa+e8ogy2EuIOx2Jf2309x0mZppj9pygpFXJnTo6j7b2Xwm+7NIvLALrFzqloprRQ4/beCQoH1C0I2QdKZK6N4zb83D+hG0oEgD+2JAMTNUsAfJwI7y4x7DkgybXFdgGgXrJUr6rTqA8vFkp/Zvod9ug5wnbHaULivPJmuUsVt4mXHr1Px8pmWUHtnO6GWT72ExccjxR2jMp8Z/hYZIfh3XSQ/LnYdmCiJH1bDLe9ZBQ== rsa-key-20190313
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
