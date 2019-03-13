@@ -3,14 +3,15 @@
 states:
   pkgs.yum: true
   chrony: true
-# getting ldap working
-#  pam.sss: true
-#  pam.pwquality: true
-#  pam.mkhomedir: true
-#  nsswitch: true
+  pam.sss: true
+  pam.pwquality: true
+  pam.mkhomedir: true
+  nsswitch: true
+  
 
 pkgs:
   list:
+    pam_krb5: true
     htop: true
     iftop: true
     sysstat: true
