@@ -14,6 +14,7 @@ states:
   sudo: true
   kerberos.client: true
   pam.access: true
+  pam.sss: true
  {% if grains.os_family != 'RedHat' %}
   pam.sss: true
   pam.pwquality: true
