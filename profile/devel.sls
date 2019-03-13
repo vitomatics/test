@@ -44,6 +44,9 @@ pkgs:
     lftp: true
     repo: true
 
+    ## For Troy
+    uuid-dev: true
+
     ## Miscellaneous
     finger: true
     parallel: true
