@@ -110,6 +110,7 @@ pkgs:
     
 
     ## Building riscv-tools
+    uuid-dev: true
     build-essential: true
     autoconf: true
     automake: true
