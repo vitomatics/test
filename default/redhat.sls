@@ -1,6 +1,7 @@
 # Default settings specific to RedHat-style OSs
 
 states:
+  autofs: true
   pkgs.yum: true
   chrony: true
   pam.sss: true
