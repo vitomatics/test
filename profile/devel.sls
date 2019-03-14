@@ -122,6 +122,7 @@ pkgs:
     {% if grains.os == 'Ubuntu' %}
     gnat-5: true
     sparse: true
+    uuid-dev: true
     {% endif %}
     exuberant-ctags: true
 
