@@ -14,6 +14,7 @@ states:
   sudo: true
   kerberos.client: true
   pam.access: true
+ {% if grains.os_family != 'RedHat' %}
   pam.sss: true
   pam.pwquality: true
   pam.mkhomedir: true
@@ -23,7 +24,8 @@ states:
   opensmtpd: true
   sfsalt.minion: true
   sfsalt.minion.pingcheck: true
-
+ {% else %}
+ {% endif %}
 
 network:
   resolver:
