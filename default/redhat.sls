@@ -12,6 +12,7 @@ states:
 
 pkgs:
   list:
+    autofs: true
     pam_krb5: true
     htop: true
     iftop: true
