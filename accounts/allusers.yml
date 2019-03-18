@@ -1189,6 +1189,13 @@ users:
     gid: 1248
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAt3IIm4y1iuzvKCXA0ZxiPZ91H7bkNYeq019KIqfY3wCfTkQoUHl9ca9lcoHfbLz0njPe7ZUQDq6dL6iEFdgcsm/F2cG4Zu+g5sLSZ0OoHQGa+e8ogy2EuIOx2Jf2309x0mZppj9pygpFXJnTo6j7b2Xwm+7NIvLALrFzqloprRQ4/beCQoH1C0I2QdKZK6N4zb83D+hG0oEgD+2JAMTNUsAfJwI7y4x7DkgybXFdgGgXrJUr6rTqA8vFkp/Zvod9ug5wnbHaULivPJmuUsVt4mXHr1Px8pmWUHtnO6GWT72ExccjxR2jMp8Z/hYZIfh3XSQ/LnYdmCiJH1bDLe9ZBQ== rsa-key-20190313
+  ryoungsunp:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Ryoungsun Park"
+    mail: ryoungsun.park@sifive.com
+    uid: 1249
+    gid: 1249
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
