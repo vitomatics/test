@@ -403,6 +403,7 @@ base:
 
   'centos7.internal.sifive.com':
     - subnet.sf-unix
+    - profile.devel
     - profile.clusterclient
     - hosts.centos7
 
