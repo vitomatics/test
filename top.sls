@@ -185,6 +185,13 @@ base:
     - profile.telegraf-disk-zfs
     - hosts.omega2
 
+  'omega3.internal.sifive.com':
+    - subnet.aws-unix
+    - secret.sfdump-omega1
+    - profile.backupserver
+    - profile.ganglia-node-server
+    - hosts.omega2
+
   'sec01.internal.sifive.com':
     - subnet.aws-unix
     - profile.telegraf-host-server

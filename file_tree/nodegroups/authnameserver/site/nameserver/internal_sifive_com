@@ -7,7 +7,7 @@ $TTL	86400
 
 
 @ IN SOA adns0.internal.sifive.com. hostmaster.internal.sifive.com. (
-	2019031104 ; serial number
+	2019032004 ; serial number
 	21600      ; refresh
 	900        ; retry
 	604800     ; expiry
@@ -254,6 +254,7 @@ fpgatest		IN	A	10.14.134.124
 
 theta00			IN	A	10.14.142.157
 omega2			IN	A	10.14.131.177
+omega3			IN	A	10.14.139.11
 sec01			IN	A	10.14.135.187
 vpn01			IN	A	10.14.130.194
 
