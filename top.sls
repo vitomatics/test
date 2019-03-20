@@ -188,7 +188,6 @@ base:
   'omega3.internal.sifive.com':
     - subnet.aws-unix
     - secret.sfdump-omega1
-    - profile.backupserver
     - hosts.omega3
 
   'sec01.internal.sifive.com':
