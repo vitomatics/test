@@ -189,8 +189,7 @@ base:
     - subnet.aws-unix
     - secret.sfdump-omega1
     - profile.backupserver
-    - profile.ganglia-node-server
-    - hosts.omega2
+    - hosts.omega3
 
   'sec01.internal.sifive.com':
     - subnet.aws-unix
