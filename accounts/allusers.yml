@@ -808,7 +808,7 @@ users:
     gid: 1198
     shell: /usr/sbin/nologin
   erikd:
-    tags: [ cluster ]
+    tags: [ cluster, lambda00 ]
     groups: [ compute ]
     fullname: "Erik Danie"
     mail: erik.danie@sifive.com
