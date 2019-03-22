@@ -57,6 +57,8 @@ flexnet:
           pillar: site:licenses:mgcld:mentor-20190309
         mentor-temp-20190319:
           pillar: site:licenses:mgcld:mentor-temp-20190319
+        mentor-temp-catapult-20190322:
+          pillar: site:licenses:mgcld:mentor-temp-catapult-20190322
     xilinxd:
       vendor: xilinx
       bindir: linux_flexlm_v11.14.1.0/lnx64.o
