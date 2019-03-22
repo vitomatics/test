@@ -1196,6 +1196,15 @@ users:
     mail: ryoungsun.park@sifive.com
     uid: 1249
     gid: 1249
+  jayp:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Jay Punathil"
+    mail: Jayakrishnan.Punathil@sifive.com
+    uid: 1250
+    gid: 1250
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsA0JqhrWQXsXYP4HjmHyiJ/+VWWSe6dBcItkxPk1RC1emqWSP4EywStINd1jFUeIdgvRmdX3O6fDNV18VESGKbRUKSdT4Zrpx8HNmn+WhLTb0oZA2nV0qsomxbZT6C2fAkTaWqHexD74eFQUjtnBJJwzIszTRIqkN552xj6YMILpZIy5Dmq6p+sM9DnE+ZONr9q85/3IAy3hs3Irx8a0MHivEd/2+O6Yhw1AssSVZQhVFl0MfUx/ZujqwkXHDTpNSijOasa0IrPdJQT0Ycj5QPcyrdedpUGAPemIYBZ+/PDzpeeetn0+StYZC5dlIrKt60VAccnV4Hal4hUsJ6xKRw==
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
