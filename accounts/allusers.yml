@@ -1205,6 +1205,15 @@ users:
     gid: 1250
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAsA0JqhrWQXsXYP4HjmHyiJ/+VWWSe6dBcItkxPk1RC1emqWSP4EywStINd1jFUeIdgvRmdX3O6fDNV18VESGKbRUKSdT4Zrpx8HNmn+WhLTb0oZA2nV0qsomxbZT6C2fAkTaWqHexD74eFQUjtnBJJwzIszTRIqkN552xj6YMILpZIy5Dmq6p+sM9DnE+ZONr9q85/3IAy3hs3Irx8a0MHivEd/2+O6Yhw1AssSVZQhVFl0MfUx/ZujqwkXHDTpNSijOasa0IrPdJQT0Ycj5QPcyrdedpUGAPemIYBZ+/PDzpeeetn0+StYZC5dlIrKt60VAccnV4Hal4hUsJ6xKRw==
+  richardr:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Richard Rejmaniak"
+    mail: richard.rejmaniak@sifive.com
+    uid: 1251
+    gid: 1251
+    authorized_keys:
+      - ssh-rsa MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2FFqgfM55PUGo+oXUpCzgCdFXr/mtVxE4GMIW/kgLoK83dDkb54tD42BOn3yDiKTXOLZvvXcJfEQDmosEiK0lTqEDUsh3aO+1oDGSCdC2YVer8eqy/cXNXR5oB+N3/q/ldKvM0feIBWbUiiDEcpbGM3P4Dr900AxJllS1bMVB8zwZpqnUDYk5HQIIf+zWUPBVXJ1cDs1hiaMFgExj9b7MDZ1sZmmhwjbeZMllHLGsbJcXZBOGFa4UnEmkB8vEoAdcM27USb0C8sLLWNtEs21InMdHR/rkigrZz51jv3Ui67HRnHzoKI8SugyK+ijKDiW2g1H5i7cThE6kPGQGqriXwIDAQAB
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
