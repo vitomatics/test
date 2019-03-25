@@ -552,6 +552,7 @@ base:
 
   'licserver3.internal.sifive.com':
     - subnet.he-unix01
+    - profile.clusterclient
     - profile.licenseserver3
     - hosts.licserver3
 
