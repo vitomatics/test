@@ -87,6 +87,10 @@ flexnet:
           pillar: site:licenses:interrad:tsmc-sram-20180814a
         tsmc-sram-20180814b:
           pillar: site:licenses:interrad:tsmc-sram-20180814b
+        tsmc-07nm-20210326:
+          pillar: site:licenses:interrad:tsmc-07nm-20210326
+        tsmc-16nm-20210326:
+          pillar: site:licenses:interrad:tsmc-16nm-20210326
     mgcld:
       vendor: mentor
       bindir: mgls-v11.13.1.2/bin
