@@ -54,7 +54,9 @@ flexnet:
         mentor-temp-20190309:
           absent: true
         mentor-20190309:
-          pillar: site:licenses:mgcld:mentor-20190309
+          absent: true
+        mentor-20190329:
+          pillar: site:licenses:mgcld:mentor-20190329
         mentor-temp-20190319:
           pillar: site:licenses:mgcld:mentor-temp-20190319
         mentor-temp-catapult-20190322:
