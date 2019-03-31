@@ -107,11 +107,11 @@ $TTL	86400
 139.240	IN	PTR	iswitch4012-me0.internal.sifive.com.
 
 140.240	IN	PTR	iswitch4020-me0.internal.sifive.com.
-140.241	IN	PTR	iswitch4021-me0.internal.sifive.com.
-140.242	IN	PTR	iswitch4022-me0.internal.sifive.com.
-140.243	IN	PTR	iswitch4023-me0.internal.sifive.com.
-140.244	IN	PTR	iswitch4024-me0.internal.sifive.com.
-140.245	IN	PTR	iswitch4025-me0.internal.sifive.com.
+141.240	IN	PTR	iswitch4021-me0.internal.sifive.com.
+142.240	IN	PTR	iswitch4022-me0.internal.sifive.com.
+143.240	IN	PTR	iswitch4023-me0.internal.sifive.com.
+144.240	IN	PTR	iswitch4024-me0.internal.sifive.com.
+145.240	IN	PTR	iswitch4025-me0.internal.sifive.com.
 
 159.240	IN	PTR	wac01-admin.internal.sifive.com.
 160.240	IN	PTR	wap01-admin.internal.sifive.com.
