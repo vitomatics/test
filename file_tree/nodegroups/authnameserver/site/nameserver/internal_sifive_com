@@ -373,12 +373,7 @@ iswitch03		IN	CNAME	iswitch03-me0
 iswitch04-me0		IN	A	10.15.240.131
 iswitch04-admin		IN	CNAME	iswitch04-me0
 iswitch04		IN	CNAME	iswitch04-me0
-iswitch05-me0		IN	A	10.15.240.132
-iswitch05-admin		IN	CNAME	iswitch05-me0
-iswitch05		IN	CNAME	iswitch05-me0
-iswitch06-me0		IN	A	10.15.240.133
-iswitch06-admin		IN	CNAME	iswitch06-me0
-iswitch06		IN	CNAME	iswitch06-me0
+
 iswitch07-me0		IN	A	10.15.240.134
 iswitch07-admin		IN	CNAME	iswitch07-me0
 iswitch07		IN	CNAME	iswitch07-me0
@@ -389,6 +384,28 @@ iswitch4010		IN	CNAME	iswitch4010-me0
 iswitch4011-me0		IN	A	10.15.240.138
 iswitch4011-admin	IN	CNAME	iswitch4011-me0
 iswitch4011		IN	CNAME	iswitch4011-me0
+iswitch4012-me0		IN	A	10.15.240.139
+iswitch4012-admin	IN	CNAME	iswitch4012-me0
+iswitch4012		IN	CNAME	iswitch4012-me0
+
+iswitch4020-me0		IN	A	10.15.240.140
+iswitch4020-admin	IN	CNAME	iswitch4020-me0
+iswitch4020		IN	CNAME	iswitch4020-me0
+iswitch4021-me0		IN	A	10.15.240.141
+iswitch4021-admin	IN	CNAME	iswitch4021-me0
+iswitch4021		IN	CNAME	iswitch4021-me0
+iswitch4022-me0		IN	A	10.15.240.142
+iswitch4022-admin	IN	CNAME	iswitch4022-me0
+iswitch4022		IN	CNAME	iswitch4022-me0
+iswitch4023-me0		IN	A	10.15.240.143
+iswitch4023-admin	IN	CNAME	iswitch4023-me0
+iswitch4023		IN	CNAME	iswitch4023-me0
+iswitch4024-me0		IN	A	10.15.240.144
+iswitch4024-admin	IN	CNAME	iswitch4024-me0
+iswitch4024		IN	CNAME	iswitch4024-me0
+iswitch4025-me0		IN	A	10.15.240.145
+iswitch4025-admin	IN	CNAME	iswitch4025-me0
+iswitch4025		IN	CNAME	iswitch4025-me0
 
 wac01-admin		IN	A	10.15.240.159
 wac01			IN	CNAME	wac01-admin
