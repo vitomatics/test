@@ -1,7 +1,7 @@
 SERVER <put.hostname.here> 0002c94e201e 1702
 DAEMON actlmgrd path_to_actlmgrd/actlmgrd
 #SIFIVE# DAEMON mgcld  path_to_mgcld/mgcld
-#SIFIVE# VENDOR snpslmd  path_to_snpslmd/snpslmd
+VENDOR snpslmd  path_to_snpslmd/snpslmd
 
 INCREMENT ACTEL_SUMMIT actlmgrd 9.1 02-apr-2020 1 SIGN=821C2C68EAAA
 #SIFIVE# INCREMENT actelmsimvlog mgcld 2020.04 2-apr-2020 1 4E5EC6034DE789DC7858 \
