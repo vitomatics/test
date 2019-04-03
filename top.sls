@@ -192,6 +192,8 @@ base:
 
   'sec01.internal.sifive.com':
     - subnet.aws-unix
+    - profile.jenkins-federation-slave
+    - profile.jenkins-rootuser-access
     - profile.telegraf-host-server
     - hosts.sec01
 
