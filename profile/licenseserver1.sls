@@ -39,16 +39,6 @@ flexnet:
       port: 5280
       vport: 5281
       licenses:
-        cadence-20170906:
-          absent: true
-        cadence-20170915:
-          absent: true
-        cadence-20171012:
-          absent: true
-        cadence-20180108:
-          absent: true
-        cadence-20180110:
-          absent: true
         cadence-20180211:
           absent: true
         cadence-20180220:
@@ -102,7 +92,9 @@ flexnet:
         microsemi-02:
           absent: true
         microsemi-20180401:
-          pillar: site:licenses:mgcld:microsemi-20180401
+          absent: true
+        microsemi-20190402:
+          pillar: site:licenses:mgcld:microsemi-20190402
     smartdv:
       vendor: smartdv
       bindir: smartdv-flexlm-20170216/lnx_64
