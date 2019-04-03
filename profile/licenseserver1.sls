@@ -94,7 +94,7 @@ flexnet:
         microsemi-20180401:
           absent: true
         microsemi-20190402:
-          pillar: site:licenses:mgcld:microsemi-20190402
+          absent: true          
     smartdv:
       vendor: smartdv
       bindir: smartdv-flexlm-20170216/lnx_64
@@ -117,28 +117,6 @@ flexnet:
         microsemi-02:
           absent: true
         synopsys-20171005:
-          absent: true
-        synopsys-20171029:
-          absent: true
-        synopsys-20171206:
-          absent: true
-        synopsys-20180208:
-          absent: true
-        synopsys-20180222:
-          absent: true
-        synopsys-20180306:
-          absent: true
-        synopsys-20180307:
-          absent: true
-        synopsys-20180307b:
-          absent: true
-        synopsys-20180314a:
-          absent: true
-        synopsys-20180314b:
-          absent: true
-        synopsys-20180314c:
-          absent: true
-        synopsys-20180315:
           absent: true
         synopsys-20180327:
           absent: true
@@ -209,7 +187,9 @@ flexnet:
       vport: 1703
       licenses:
         microsemi-20180401:
-          pillar: site:licenses:actlmgrd:microsemi-20180401
+          absent: true
+        microsemi-20190401:
+          pillar: site:licenses:actlmgrd:microsemi-20190401
 
 
 ## Firewall holes for flexnet server
