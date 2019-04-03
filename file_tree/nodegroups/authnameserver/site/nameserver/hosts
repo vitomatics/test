@@ -296,12 +296,19 @@
 10.15.240.129 iswitch02-admin iswitch02
 10.15.240.130 iswitch03-admin iswitch03
 10.15.240.131 iswitch04-admin iswitch04
-10.15.240.132 iswitch05-admin iswitch05
-10.15.240.133 iswitch06-admin iswitch06
+
 10.15.240.134 iswitch07-admin iswitch07
 
 10.15.240.137 iswitch4010-admin iswitch4010
 10.15.240.138 iswitch4011-admin iswitch4011
+10.15.240.139 iswitch4012-admin iswitch4012
+
+10.15.240.140 iswitch4020-admin iswitch4020
+10.15.240.141 iswitch4021-admin iswitch4021
+10.15.240.142 iswitch4022-admin iswitch4022
+10.15.240.143 iswitch4023-admin iswitch4023
+10.15.240.144 iswitch4024-admin iswitch4024
+10.15.240.145 iswitch4025-admin iswitch4025
 
 10.15.240.159 wac01-admin wac01 waps
 10.15.240.160 wap01-admin wap01
