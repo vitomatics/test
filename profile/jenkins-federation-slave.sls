@@ -24,6 +24,10 @@ pam:
   access:
     jenkins: 10.14.0.0/16
 
+pkgs:
+  list:
+    openjdk-8-jdk: true
+
 sudo:
   included:
     # Some overrides needed for jenkins
