@@ -1214,6 +1214,15 @@ users:
     gid: 1251
     authorized_keys:
       - ssh-rsa MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2FFqgfM55PUGo+oXUpCzgCdFXr/mtVxE4GMIW/kgLoK83dDkb54tD42BOn3yDiKTXOLZvvXcJfEQDmosEiK0lTqEDUsh3aO+1oDGSCdC2YVer8eqy/cXNXR5oB+N3/q/ldKvM0feIBWbUiiDEcpbGM3P4Dr900AxJllS1bMVB8zwZpqnUDYk5HQIIf+zWUPBVXJ1cDs1hiaMFgExj9b7MDZ1sZmmhwjbeZMllHLGsbJcXZBOGFa4UnEmkB8vEoAdcM27USb0C8sLLWNtEs21InMdHR/rkigrZz51jv3Ui67HRnHzoKI8SugyK+ijKDiW2g1H5i7cThE6kPGQGqriXwIDAQAB
+  danyn:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Dany Nativel"
+    mail: dany.nativel@sifive.com
+    uid: 1252
+    gid: 1252
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDXNUAs2wZcOT+JatxTzXUJmGpAZbxXAdziuKSA63SCI0Zbz2+dRsFla5LzPXc4PWE9VBHdL5aiDLK0oXBUWgMhogYXLg7eMUwhAAOYM8U6K0NgE4QTFHarVfuB1E+uTrmsBuK0FbhXWHSg3xO13AhOUTjutBkPKUIVG5AQkuQN6szcYO483Qh4lfEFS/bhxMTiRQQa85DAc7wtxIGwKSzDzAEHA3to8AtSGsGaeNqaJ3dLrGSMTJLuIqdsd813NpyibBdSQ+2czZaaGNTqnYZiAwMPcG81+EdLEhXliRWbInwKLvdGee2Aso8QBpYRETjfYU9m/qSu2fpuBJbOiUxrGajp/fN3mC+vtCeBUKDOL72tRZwNSRNlqQtACSlUzA6kxbXVw1go6GZ+iyuugk4SAhEd349JGcRXwySH6RIfHZRW7K3zRTzfqAkDfHbi9PQBfTH/hZMczLKlVUVONHVz8HvbyiKzrsBeLv8okgGloFreeFouTJx6xTCgO5YufrisGlRPuItZjFOqudehFfam2pqMJ7bvG2/rYuh327toHFaBahhYQRR/AJtFm5bKxsIaN+LYFVVQim2JDyzokbhhk+tr3afIXojbBdda1/328BlVFqCiUvrHEtxrMSsN33YC9CE8BWt1yBf5w3x7oztgDYCkx6CKCkGOdh8+LVT2Nw== Dany Nativel - SiFive
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
