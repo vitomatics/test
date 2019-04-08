@@ -1232,6 +1232,15 @@ users:
     gid: 1253
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9DJwYyRDqBkzPUdqvn9h0DDl1tJMVxDD4oW2RxZ2F+uTaOk6Ah7sQK4wVkuIqK7YPwmq28G+egcg/n3bQ84rtb8jTYVgT87IkWRC7uC5S6bpNIkiyJDABfvC6X/aD0HxT5isWHt/JBwmYqiQ2mrbKHIWHtIAd2GutMpPsqjb6N4ZqZCQVJcSCC2b1RHa6xFR6NPuEkS9CkbrU9ThcqBosbkwBk5Ekv0QPkyTyJ3NH1xuMBo935PfWLZpP3VUvVkz0UK7E+qCV+CFEXQYoUvH19qiQoN540tn2J+SSysNhn+ROBbKI6Vby9qxjC13XqzCIT3MKadbhlIfx790ctczf rednoah@rednoah-VirtualBox
+  adamh:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Adam Hsiao"
+    mail: adam.hsiao@sifive.com
+    uid: 1254
+    gid: 1254
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGWNsmEiD0BPJgBff3wLhGx9xJn/OeEbLg5E1IJAJYcndUSIPkASwRsFJk7bKo0FgPxzrnGd6PdHfsVnm9ZbQAl595tCm37aG3HTr7SNVqDIinXhftz5TUujl6+dS6i1y98GLt3aakc6//nW2XinS7/AmrdhJeCx2jhOIdw9wSbGt8rBCtbERiZH/9MIsJ54NXis5Xu8m31aUhWKcJu1VilSUqr+IuumJFrDwlFdOQIYrguHYFOyOcT6IGXdQ/Zl/zG7jrW+F8KvPhbI3LOGLGZrMGfucF0eqlmy5cCswKRprGrND/b9Eu5/OFwpyq26qzBC50ZEXA4Ud/nSnoUV+1 root@LAPTOP-KFRBO3TG
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
