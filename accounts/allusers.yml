@@ -1223,6 +1223,15 @@ users:
     gid: 1252
     authorized_keys:
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDXNUAs2wZcOT+JatxTzXUJmGpAZbxXAdziuKSA63SCI0Zbz2+dRsFla5LzPXc4PWE9VBHdL5aiDLK0oXBUWgMhogYXLg7eMUwhAAOYM8U6K0NgE4QTFHarVfuB1E+uTrmsBuK0FbhXWHSg3xO13AhOUTjutBkPKUIVG5AQkuQN6szcYO483Qh4lfEFS/bhxMTiRQQa85DAc7wtxIGwKSzDzAEHA3to8AtSGsGaeNqaJ3dLrGSMTJLuIqdsd813NpyibBdSQ+2czZaaGNTqnYZiAwMPcG81+EdLEhXliRWbInwKLvdGee2Aso8QBpYRETjfYU9m/qSu2fpuBJbOiUxrGajp/fN3mC+vtCeBUKDOL72tRZwNSRNlqQtACSlUzA6kxbXVw1go6GZ+iyuugk4SAhEd349JGcRXwySH6RIfHZRW7K3zRTzfqAkDfHbi9PQBfTH/hZMczLKlVUVONHVz8HvbyiKzrsBeLv8okgGloFreeFouTJx6xTCgO5YufrisGlRPuItZjFOqudehFfam2pqMJ7bvG2/rYuh327toHFaBahhYQRR/AJtFm5bKxsIaN+LYFVVQim2JDyzokbhhk+tr3afIXojbBdda1/328BlVFqCiUvrHEtxrMSsN33YC9CE8BWt1yBf5w3x7oztgDYCkx6CKCkGOdh8+LVT2Nw== Dany Nativel - SiFive
+  hongrongh:
+    tags: [ cluster ]
+    groups: [ compute ]
+    fullname: "Hong-Rong Hsu"
+    mail: hongrong.hsu@sifive.com
+    uid: 1253
+    gid: 1253
+    authorized_keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9DJwYyRDqBkzPUdqvn9h0DDl1tJMVxDD4oW2RxZ2F+uTaOk6Ah7sQK4wVkuIqK7YPwmq28G+egcg/n3bQ84rtb8jTYVgT87IkWRC7uC5S6bpNIkiyJDABfvC6X/aD0HxT5isWHt/JBwmYqiQ2mrbKHIWHtIAd2GutMpPsqjb6N4ZqZCQVJcSCC2b1RHa6xFR6NPuEkS9CkbrU9ThcqBosbkwBk5Ekv0QPkyTyJ3NH1xuMBo935PfWLZpP3VUvVkz0UK7E+qCV+CFEXQYoUvH19qiQoN540tn2J+SSysNhn+ROBbKI6Vby9qxjC13XqzCIT3MKadbhlIfx790ctczf rednoah@rednoah-VirtualBox
 ## Users who are only set up as local users on isolated machines.
   sdvt01:
     tags: [ ]
