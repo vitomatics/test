@@ -1,2 +1,0 @@
-## pillar file for betel
-
